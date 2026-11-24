@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T14:41:50.000Z",
- "summary": "Cycle 321 complete: Compliance Officer CO-T1 pair collected and verified, key checked with no defect.",
+ "generatedAt": "2026-11-24T14:51:34.000Z",
+ "summary": "CO-T2 generic solver completed",
  "agents": [
   {
    "agentId": "team-lead-yame-call",
@@ -2173,6 +2173,20 @@
    "category": "pandorabook"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 322: Compliance Officer CO-T2 solvers",
+   "detail": "Running CO-T2 solver pair (Whop identity verification and payout check). Specialist from the Compliance Officer card, generic from the task file only.",
+   "currentTask": "Cycle 322 CO-T2 solvers",
+   "lastHeartbeat": "2026-11-24T14:48:30.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2353,48 +2367,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 321: Compliance Officer validation",
-   "detail": "Cycle 321 complete: Compliance Officer CO-T1 pair collected (specialist 7,843 bytes, generic 6,085 bytes), key checked no defect. CO-T2 runs cycle 322.",
-   "currentTask": "Cycle 321 complete: CO-T1 pair collected and verified",
-   "lastHeartbeat": "2026-11-24T14:41:50.000Z",
-   "observedAt": "2026-11-24T14:41:50.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-compliance-officer",
-   "name": "Compliance Officer solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Compliance Officer solver: CO-T1",
-   "detail": "CO-T1 record written: PROCEED as accredited salesperson only, commission through broker, 5 unverified items listed.",
-   "currentTask": "CO-T1 compliance check record complete",
-   "lastHeartbeat": "2026-11-24T14:40:04.000Z",
-   "observedAt": "2026-11-24T14:40:04.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-validation-generic",
-   "name": "Generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver: CO-T1",
-   "detail": "Completed the CO-T1 draft record: PROCEED as accredited salesperson only, commission through the broker.",
-   "currentTask": "CO-T1 draft record completed",
-   "lastHeartbeat": "2026-11-24T14:38:40.000Z",
-   "observedAt": "2026-11-24T14:38:40.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-app-builder",
@@ -3753,6 +3725,48 @@
    "observedAt": "2026-11-23T17:29:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "rm-t1-judge",
+   "name": "RM-T1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T1 Blind Judgement",
+   "detail": "RM-T1 judged blind: Candidate A 8.50 beats Candidate B 8.25. No contamination found.",
+   "currentTask": "RM-T1 blind judgement filed",
+   "lastHeartbeat": "2026-11-23T17:28:47.000Z",
+   "observedAt": "2026-11-23T17:28:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "kogama-gt99",
+   "name": "Kogama Team GT99",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 Oates Short, Kogama voxel rebuild",
+   "detail": "COMPLETE. Final MP4 QA-passed: 720x1280, 24 fps, 59.60 s, -16.36 LUFS. Mouth watch zero incidents, captions word-for-word clean, staging fixes 5 of 5. Ready for owner review; posting gate locked.",
+   "currentTask": "Job complete, final report delivered to parent",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "gt99-audio-engineer",
+   "name": "Ghostname Audio Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 audio bed and SFX (Ghostname assist)",
+   "detail": "COMPLETE (posted by job lead). Bed and SFX under Julian delivered: 59.60 s, bed at voice minus 18 dB, SFX map placed. Report: sound-report.md.",
+   "currentTask": "Done",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
   }
  ]
 }
