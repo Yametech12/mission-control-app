@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T18:11:53.000Z",
- "summary": "Pro Max SAMPLE clip built end to end and delivered to the owner for his verdict. Nothing posted, nothing submitted.",
+ "generatedAt": "2026-11-24T18:17:00.000Z",
+ "summary": "GT-20261125-119: F3 raised to Major on reproduction; scoped fix loop spawning.",
  "agents": [
   {
    "agentId": null,
@@ -821,24 +821,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
-   "detail": "GT119 S7 complete: QA119-1, QA119-2, QA119-4 closed and re-verified; QA119-3 recorded Minor; Fresh-Eye S6 spawning (posted by the job lead)",
-   "currentTask": "S7 complete (all fixable defects closed); Fresh-Eye S6 spawning on the final build",
-   "lastHeartbeat": "2026-11-24T18:10:00.000Z",
-   "observedAt": "2026-11-24T18:10:00.000Z",
+   "detail": "GT119 F3 reproduced: a second batch leaves the first batch pass bar, verdict, and drawer on screen contradicting its own counts; raised to Major, scoped fix spawning (posted by the job lead)",
+   "currentTask": "F3 reproduced and raised to Major; scoped fix loop S7f spawning",
+   "lastHeartbeat": "2026-11-24T18:17:00.000Z",
+   "observedAt": "2026-11-24T18:17:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
   },
   {
-   "agentId": "team-fresh-eye",
-   "name": "fresh-eye-reviewer",
-   "role": "auditor",
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT119 S6 Fresh-Eye: owner-eye review",
-   "detail": "Fresh-Eye Reviewer starting S6 for GT119 (posted by the job lead)",
-   "currentTask": "S6: screenshots-only review plus anti-slop section and strip test",
-   "lastHeartbeat": "2026-11-24T18:10:00.000Z",
-   "observedAt": "2026-11-24T18:10:00.000Z",
+   "title": "GT119 S7f Site Builder: F3 fix",
+   "detail": "Site Builder starting S7f F3 fix for GT119 (posted by the job lead)",
+   "currentTask": "S7f scoped fix: stale batch furniture (pass bar hidden guard, batch-start reset)",
+   "lastHeartbeat": "2026-11-24T18:17:00.000Z",
+   "observedAt": "2026-11-24T18:17:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
   },
@@ -855,20 +855,6 @@
    "observedAt": "2026-11-24T18:05:34.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT119 S7c Site Builder: QA119-4 micro fix",
-   "detail": "Site Builder starting S7c micro fix for GT119 (posted by the job lead)",
-   "currentTask": "S7c micro fix: QA119-4 sentence break in verdictSentence",
-   "lastHeartbeat": "2026-11-24T18:04:00.000Z",
-   "observedAt": "2026-11-24T18:04:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   },
   {
    "agentId": "team-fact-checker",
@@ -2411,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-qa-tester",
+   "name": "qa-tester",
+   "role": "auditor",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "GT119 QA: F3 reproduced, Major",
+   "detail": "QA Tester F3 reproduction complete for GT119 (posted by the job lead)",
+   "currentTask": "F3 reproduction done (REPRODUCED, Major); standing by for fix re-verification",
+   "lastHeartbeat": "2026-11-24T18:17:00.000Z",
+   "observedAt": "2026-11-24T18:17:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
+   "agentId": "team-fresh-eye",
+   "name": "fresh-eye-reviewer",
+   "role": "auditor",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "GT119 S6 Fresh-Eye: PASS WITH NOTES",
+   "detail": "Fresh-Eye Reviewer S6 complete for GT119 (posted by the job lead)",
+   "currentTask": "S6 complete: PASS WITH NOTES, anti-slop PASS, strip test PASS",
+   "lastHeartbeat": "2026-11-24T18:14:00.000Z",
+   "observedAt": "2026-11-24T18:14:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
    "agentId": "clipp-promax-sample",
    "name": "clipp-promax-sample",
    "role": "builder",
@@ -2423,20 +2437,6 @@
    "observedAt": "2026-11-24T18:11:53.000Z",
    "needsUser": true,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "qa-tester",
-   "role": "auditor",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT119 QA: verification and closures done",
-   "detail": "QA Tester complete for GT119 build verification (posted by the job lead)",
-   "currentTask": "S5, S7b, S7d complete; all assigned defects closed or recorded",
-   "lastHeartbeat": "2026-11-24T18:10:00.000Z",
-   "observedAt": "2026-11-24T18:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3795,20 +3795,6 @@
    "observedAt": "2026-11-23T21:18:35.000Z",
    "needsUser": false,
    "category": "ghostname team validation"
-  },
-  {
-   "agentId": "team-routing-panel-cycle-240",
-   "name": "Routing Panel Cycle 240",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 240 panel",
-   "detail": "Panel picks filed by the lead: Site Builder, Art Director, Video Editor, Design Auditor, Scriptwriter. Snapshots posted cleanly.",
-   "currentTask": "Routing check 240 panel complete",
-   "lastHeartbeat": "2026-11-23T21:00:11.000Z",
-   "observedAt": "2026-11-23T21:00:11.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
