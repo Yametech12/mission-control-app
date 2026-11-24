@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:41:15.000Z",
- "summary": "SMM-R2 specialist solver started drafting the Lacy clip 1 plan.",
+ "generatedAt": "2026-11-24T21:44:00.000Z",
+ "summary": "Cycle 353 done: SMM retest SMM-R2 pair collected and verified; SMM-R1 pair recovered.",
  "agents": [
   {
    "agentId": null,
@@ -813,34 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "smm-r2-specialist",
-   "name": "SMM-R2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SMM-R2 specialist solver started",
-   "detail": "SMM-R2 specialist solver started: card, skills, task and three inputs read, drafting the plan now.",
-   "currentTask": "Drafting SMM-R2 Lacy clip 1 three-platform plan from specialist card",
-   "lastHeartbeat": "2026-11-24T21:41:15.000Z",
-   "observedAt": "2026-11-24T21:41:15.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 353: SMM retest SMM-R2",
-   "detail": "Cycle 353 running: Social Media Manager retest, SMM-R2 solver pair dispatched (Lacy clip 1 three-platform plan).",
-   "currentTask": "SMM-R2 solver pair (specialist and generic) running",
-   "lastHeartbeat": "2026-11-24T21:37:49.000Z",
-   "observedAt": "2026-11-24T21:37:49.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2215,20 +2187,6 @@
    "category": "pandorabook"
   },
   {
-   "agentId": "smm-r2-generic",
-   "name": "SMM-R2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SMM-R2 generic draft in progress",
-   "detail": "Drafting Lacy clip 1 three-platform posting plan from task file and 3 inputs only.",
-   "currentTask": "Draft SMM-R2 generic posting plan",
-   "lastHeartbeat": "2026-11-24T21:39:24.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2409,6 +2367,34 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 353: SMM retest SMM-R2",
+   "detail": "Cycle 353 complete: SMM-R2 pair verified (specialist 12,826 bytes, generic 11,948 bytes, 0 em dashes, K1-K7 pass); SMM-R1 pair recovered and verified.",
+   "currentTask": "Cycle 353 complete; SMM-R3 solvers next cycle 354",
+   "lastHeartbeat": "2026-11-24T21:44:00.000Z",
+   "observedAt": "2026-11-24T21:44:00.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "smm-r2-specialist",
+   "name": "SMM-R2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-R2 specialist solver completed",
+   "detail": "SMM-R2 specialist run done: 12,826 bytes, 1,881 words, 7 sections in order, 0 em dashes, 10 discrepancies flagged.",
+   "currentTask": "SMM-R2 Lacy clip 1 plan written, 7 sections, 0 em dashes",
+   "lastHeartbeat": "2026-11-24T21:42:37.000Z",
+   "observedAt": "2026-11-24T21:42:37.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3781,34 +3767,6 @@
    "observedAt": "2026-11-24T00:56:40.000Z",
    "needsUser": false,
    "category": "ghostname"
-  },
-  {
-   "agentId": "ghostname-gt108",
-   "name": "ghostname-gt108-deploy",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT108 GhostLabs deploy",
-   "detail": "GT105 candidate LIVE at ghostlabs-ai.vercel.app. Commit 436ffcf, Vercel deployment READY (production). Smoke test 21/21 passed: bench on 3 samples, themes, login in/out, dashboard history, phone width. No rollback.",
-   "currentTask": "Deploy complete",
-   "lastHeartbeat": "2026-11-24T00:52:00.000Z",
-   "observedAt": "2026-11-24T00:52:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
-  },
-  {
-   "agentId": "watcher-judge-wt-s1",
-   "name": "Watcher judge WT-S1",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Watcher retest 2 judge WT-S1",
-   "detail": "WT-S1 blind judgement filed.",
-   "currentTask": "WT-S1 blind judgement filed",
-   "lastHeartbeat": "2026-11-24T00:40:34.000Z",
-   "observedAt": "2026-11-24T00:40:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
