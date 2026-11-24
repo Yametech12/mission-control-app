@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:56:02.000Z",
- "summary": "SMM-R3 specialist solver completed the Nov 25 to Dec 1 weekly content calendar draft.",
+ "generatedAt": "2026-11-24T21:58:00.000Z",
+ "summary": "Cycle 354 done: SMM-R3 pair collected and verified, all three retest pairs ready for sealing",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 354: SMM-R3 solvers",
-   "detail": "Social Media Manager retest, SMM-R3 weekly calendar solvers dispatched (specialist and generic).",
-   "currentTask": "SMM-R3 solver pair running",
-   "lastHeartbeat": "2026-11-24T21:48:09.000Z",
-   "observedAt": "2026-11-24T21:48:09.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 354: SMM-R3 collected",
+   "detail": "SMM-R3 pair verified (specialist 30,351 bytes, 413s; generic 18,446 bytes, about 150s; 0 em dashes; both pass K1-K7). Sealing cycle 356, judging 357.",
+   "currentTask": "Cycle 354 complete",
+   "lastHeartbeat": "2026-11-24T21:58:00.000Z",
+   "observedAt": "2026-11-24T21:58:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
    "agentId": "team-smm-r3-specialist",
    "name": "SMM-R3 specialist solver",
    "role": "builder",
@@ -3767,20 +3767,6 @@
    "observedAt": "2026-11-24T01:22:10.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "kogama-gt107",
-   "name": "kogama-gt107",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT107 rm6 engine pass: audit and completion",
-   "detail": "COMPLETE. Phonemes 100/100 exact (rm5 12/100), caption collisions 12 to 0 on the proof beat and 99 to 0 script-wide, deformation, jaw/cheek, 3 new props, DOF to desk/table. Report filed.",
-   "currentTask": "Complete: GT-20261124-107.md and reports filed",
-   "lastHeartbeat": "2026-11-24T01:12:00.000Z",
-   "observedAt": "2026-11-24T01:12:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
   }
  ]
 }
