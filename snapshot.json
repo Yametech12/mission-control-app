@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:14:00.000Z",
- "summary": "Improvement cycle 352 running: Social Media Manager retest, SMM-R1 pair in progress.",
+ "generatedAt": "2026-11-24T21:19:30.000Z",
+ "summary": "SMM-R1 generic solver started: drafting Jo Koy JK3, JK4, JK5 posting operation plan from listed inputs only.",
  "agents": [
   {
    "agentId": null,
@@ -208,7 +208,7 @@
    "detail": "3 consecutive failures. Last run Nov 23, 08:56 PHT failed at spawn with binding_retired; next run Mon, Nov 30, 09:00 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-23T01:00:00.000Z",
+   "observedAt": "2026-11-23T00:56:31.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
@@ -2199,6 +2199,34 @@
    "observedAt": "2026-10-12T16:10:00.000Z",
    "needsUser": false,
    "category": "pandorabook"
+  },
+  {
+   "agentId": "team-smm-r1-generic",
+   "name": "SMM-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SMM-R1 generic solver",
+   "detail": "Drafting Jo Koy JK3, JK4, JK5 posting operation plan from the listed inputs only, draft only, no posting.",
+   "currentTask": "Draft SMM-R1 Jo Koy JK3, JK4, JK5 posting operation plan",
+   "lastHeartbeat": "2026-11-24T21:19:30.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-smm-r1-specialist",
+   "name": "SMM-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SMM-R1 specialist solver",
+   "detail": "Drafting the Jo Koy JK3, JK4, JK5 posting operation plan from the six listed inputs.",
+   "currentTask": "Draft SMM-R1 posting operation plan for JK3, JK4, JK5",
+   "lastHeartbeat": "2026-11-24T21:19:05.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-landing-portal-audit",
