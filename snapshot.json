@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T16:14:59.000Z",
- "summary": "CP-T3 specialist solver started: drafting the Jo Koy consequence map from the verified GT-20261123-75 inputs.",
+ "generatedAt": "2026-11-24T16:16:34.000Z",
+ "summary": "1 Ghostname cycle running, Mission Control and SASE inbox checks completed, BlockTales and Jo Koy posts scheduled for Nov 25, and 5 schedules need attention after repeated failures or delivery blocks.",
  "agents": [
   {
    "agentId": null,
@@ -9,68 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 20 consecutive failures, last success Nov 4. Last run Nov 23 failed before starting with a spawn/binding error. Next attempt is tonight at 23:30 PHT.",
+   "detail": "Failed Nov 24 at 23:30 with a spawn error; 21 consecutive failures, last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:17:07.000Z",
+   "observedAt": "2026-11-24T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results (account action required). 87 consecutive failures; last success Oct 6. It resumes only when that chat can receive again or delivery is moved.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:17:07.000Z",
-   "needsUser": true,
-   "category": "Telegram"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results (account action required). 85 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:17:07.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures, last success Nov 2. Last run Nov 23 failed without a recorded reason. Next attempt Thu Nov 26 at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:17:07.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures, last success Nov 4. Last run Mon Nov 23 failed without a recorded reason. Next run Mon Nov 30 at 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:17:07.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -85,6 +29,34 @@
    "observedAt": "2026-11-24T14:37:55.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 85 consecutive failures.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T14:35:07.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 87 consecutive failures.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:46:26.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -141,6 +113,20 @@
    "observedAt": "2026-11-23T15:28:16.000Z",
    "needsUser": true,
    "category": "blocktales"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed Nov 23; 7 consecutive failures, last success Nov 2. Next run Nov 26 at 19:05.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T11:05:58.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -211,6 +197,20 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed Nov 23; 3 consecutive failures, last success Nov 4. Next run Mon Nov 30 at 09:00.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T00:56:31.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-cp-t3-generic",
-   "name": "CP-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CP-T3 generic solver",
-   "detail": "CP-T3 generic solver started: Jo Koy consequence map draft, inputs verified against task file.",
-   "currentTask": "Drafting Jo Koy consequence map CP-T3.",
-   "lastHeartbeat": "2026-11-24T16:15:30.000Z",
-   "observedAt": "2026-11-24T16:15:30.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2341,20 +2327,6 @@
    "category": "Audit"
   },
   {
-   "agentId": "team-cp-t3-specialist",
-   "name": "CP-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CP-T3 Jo Koy consequence map",
-   "detail": "Specialist solver started. Inputs verified against the task file. Writing the draft map to runs/cp-t3-specialist.md.",
-   "currentTask": "Draft CP-T3 Jo Koy consequence map",
-   "lastHeartbeat": "2026-11-24T16:14:59.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "Validation"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2437,6 +2409,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-cp-t3-generic",
+   "name": "CP-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-T3 generic solver",
+   "detail": "CP-T3 generic draft done: cp-t3-generic.md, 12017 bytes, 1901 words, 6 sections in order, 0 em dashes.",
+   "currentTask": "CP-T3 generic draft complete.",
+   "lastHeartbeat": "2026-11-24T16:17:10.000Z",
+   "observedAt": "2026-11-24T16:17:10.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "team-site-builder",
@@ -3823,20 +3809,6 @@
    "observedAt": "2026-11-23T18:38:54.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-page-operator-po-t3-generic",
-   "name": "Page Operator PO-T3 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Page Operator PO-T3 generic",
-   "detail": "Draft report written: 4500 bytes, 716 words, all 7 sections in order, 0 em dashes, removal mechanism UNCONFIRMED.",
-   "currentTask": "PO-T3 draft report complete",
-   "lastHeartbeat": "2026-11-23T18:18:10.000Z",
-   "observedAt": "2026-11-23T18:18:10.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
