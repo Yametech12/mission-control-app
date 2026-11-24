@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T12:12:00.000Z",
- "summary": "Cycle 310 routing check complete: 2 of 5.",
+ "generatedAt": "2026-11-24T12:16:38.000Z",
+ "summary": "Validation generic solver FC-T3 started",
  "agents": [
   {
    "agentId": null,
@@ -785,6 +785,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-validation-generic",
+   "name": "Validation generic solver",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Validation generic FC-T3",
+   "detail": "Generic solver started FC-T3: SASE quiz v3 sample verification, 7 claims, draft only.",
+   "currentTask": "Generic solver FC-T3: verify 7 claims on SASE quiz v3 samples",
+   "lastHeartbeat": "2026-11-24T12:16:38.000Z",
+   "observedAt": "2026-11-24T12:16:38.000Z",
+   "needsUser": false,
+   "category": "team"
+  },
+  {
+   "agentId": "team-fact-checker",
+   "name": "Fact Checker",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Fact Checker FC-T3 specialist",
+   "detail": "FC-T3 specialist solver running (posted by cycle parent)",
+   "currentTask": "FC-T3 SASE quiz v3 verification record (specialist side)",
+   "lastHeartbeat": "2026-11-24T12:16:10.000Z",
+   "observedAt": "2026-11-24T12:16:10.000Z",
+   "needsUser": false,
+   "category": "team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 311",
+   "detail": "Cycle 311 running: Fact Checker FC-T3 solver pair (specialist and generic)",
+   "currentTask": "Cycle 311: Fact Checker FC-T3 solver pair",
+   "lastHeartbeat": "2026-11-24T12:16:10.000Z",
+   "observedAt": "2026-11-24T12:16:10.000Z",
+   "needsUser": false,
+   "category": "team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2313,34 +2355,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 310",
-   "detail": "Routing check 34 done: 2 of 5 (Caption Writer, Brand Identity Designer). Rules 39 and 40 added. FC-T3 runs cycle 311.",
-   "currentTask": "Cycle 310 routing check complete: 2 of 5",
-   "lastHeartbeat": "2026-11-24T12:12:00.000Z",
-   "observedAt": "2026-11-24T12:12:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-fact-checker",
-   "name": "Fact Checker",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Fact Checker FC-T2 specialist",
-   "detail": "FC-T2 specialist start carried by cycle parent: start snapshot failed on schema (agent.lastHeartbeat required), completion posted. Output 10,477 bytes, 33s.",
-   "currentTask": "FC-T2 complete",
-   "lastHeartbeat": "2026-11-24T11:59:37.000Z",
-   "observedAt": "2026-11-24T11:59:37.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3711,6 +3725,34 @@
    "observedAt": "2026-11-23T16:33:30.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-rm-t2-specialist",
+   "name": "RM-T2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T2 Specialist Solver",
+   "detail": "Done: rm-t2-specialist.md written (8,364 bytes). Banned list now 3 groups; next run csecommunityph, csereviewers.",
+   "currentTask": "RM-T2 rotation repair draft",
+   "lastHeartbeat": "2026-11-23T16:31:46.000Z",
+   "observedAt": "2026-11-23T16:31:46.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-reviewer-marketer-rm-t1-generic",
+   "name": "rm-t1-generic",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T1 generic solver complete",
+   "detail": "RM-T1 generic run pack done: 7,681 bytes, 1,282 words, all 8 sections, 0 em dashes.",
+   "currentTask": "RM-T1 generic solver run",
+   "lastHeartbeat": "2026-11-23T16:26:15.000Z",
+   "observedAt": "2026-11-23T16:26:15.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
