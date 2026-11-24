@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T14:51:34.000Z",
- "summary": "CO-T2 generic solver completed",
+ "generatedAt": "2026-11-24T14:56:30.000Z",
+ "summary": "Cycle 322 done: Compliance Officer CO-T2 pair collected, key clean, no verdict yet.",
  "agents": [
   {
    "agentId": "team-lead-yame-call",
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SASE Page inbox watch",
+   "detail": "Checking SASE Practice Hub PH inbox via Graph API for new buyer messages.",
+   "currentTask": "Graph API inbox check vs seen-state",
+   "lastHeartbeat": "2026-11-24T14:54:38.000Z",
+   "observedAt": "2026-11-24T14:54:38.000Z",
+   "needsUser": false,
+   "category": "sase"
   },
   {
    "agentId": "22c07f17-af96-4d0a-bd6b-e59e525ffe4b",
@@ -2173,20 +2187,6 @@
    "category": "pandorabook"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 322: Compliance Officer CO-T2 solvers",
-   "detail": "Running CO-T2 solver pair (Whop identity verification and payout check). Specialist from the Compliance Officer card, generic from the task file only.",
-   "currentTask": "Cycle 322 CO-T2 solvers",
-   "lastHeartbeat": "2026-11-24T14:48:30.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2423,20 +2423,6 @@
    "observedAt": "2026-11-24T14:37:55.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "22:23 PHT check done: Page access OK, 30 threads read, 0 new buyer messages, no replies or PDF sent.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T14:24:50.000Z",
-   "observedAt": "2026-11-24T14:24:50.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-design-yame-call",
@@ -3762,6 +3748,20 @@
    "status": "completed",
    "title": "GT99 audio bed and SFX (Ghostname assist)",
    "detail": "COMPLETE (posted by job lead). Bed and SFX under Julian delivered: 59.60 s, bed at voice minus 18 dB, SFX map placed. Report: sound-report.md.",
+   "currentTask": "Done",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "gt99-scriptwriter",
+   "name": "Ghostname Scriptwriter",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 caption cue plan (Ghostname assist)",
+   "detail": "COMPLETE (posted by job lead). 30 cues, one emphasis per beat, word-for-word verified 149 of 149. Report: caption-plan.md.",
    "currentTask": "Done",
    "lastHeartbeat": "2026-11-23T17:11:29.000Z",
    "observedAt": "2026-11-23T17:11:29.000Z",
