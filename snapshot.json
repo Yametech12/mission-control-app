@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T15:32:00.000Z",
- "summary": "GT-20261124-114 fix phase: fixes pushed in bf99124, QA and live verification running.",
+ "generatedAt": "2026-11-24T15:34:59.000Z",
+ "summary": "Improvement cycle 326: Compliance Officer blind judging.",
  "agents": [
   {
    "agentId": null,
@@ -815,30 +815,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-lead-gt114",
-   "name": "GT114 Job Lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-20261124-114 SASE/CSE portal fix phase",
-   "detail": "Builders done: L2, L3a, L4-L10, L12 fixed; scoped progress write landed with 23 new checks; all 237 tests pass. Commit bf99124 pushed. QA verification in progress.",
-   "currentTask": "Fixes committed (bf99124) and pushed; QA Tester and Live Verifier verifying",
-   "lastHeartbeat": "2026-11-24T15:32:00.000Z",
-   "observedAt": "2026-11-24T15:32:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "name": "Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 325: routing check",
-   "detail": "Routing check 37 on GT-20261124-114 legs; Coordinator picks sealed, panel reading next.",
-   "currentTask": "Routing check 37: sealing Coordinator picks for GT-20261124-114 legs",
-   "lastHeartbeat": "2026-11-24T15:23:00.000Z",
-   "observedAt": "2026-11-24T15:23:00.000Z",
+   "title": "Improvement cycle 326: Compliance Officer judging",
+   "detail": "Cycle 326 judging Compliance Officer CO-T1 to CO-T3 blind in fresh-context QA sessions.",
+   "currentTask": "Judging Compliance Officer CO-T1 to CO-T3 blind",
+   "lastHeartbeat": "2026-11-24T15:34:59.000Z",
+   "observedAt": "2026-11-24T15:34:59.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2369,6 +2355,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-lead-gt114",
+   "name": "GT114 Job Lead",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261124-114 SASE/CSE portal fix phase",
+   "detail": "DELIVERED: commit bf99124 live-verified. L2, L4, L5, L6, L8, L9, L10 live PASS; L3a, L7, L12 code and test verified; scoped progress write landed; 237 tests pass; D3 resolved (data authoritative). Follow-ups specified in the job record.",
+   "currentTask": "Fix phase delivered and closed",
+   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
+   "observedAt": "2026-11-24T15:34:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "QA Tester",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA Tester: fix verification",
+   "detail": "QA verdict PASS on bf99124: 237 checks re-run, diff and hard gates verified, registries untouched (posted by job lead).",
+   "currentTask": "Verification complete (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
+   "observedAt": "2026-11-24T15:34:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-live-verifier",
+   "name": "Live Verifier",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Live Verifier: production checks",
+   "detail": "Live PASS on all fetch-verifiable fixes including both auth error wordings via live POSTs; L3a and L7 unverified live (browser pass outstanding) (posted by job lead).",
+   "currentTask": "Live verification complete (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
+   "observedAt": "2026-11-24T15:34:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
    "agentId": "team-site-builder",
    "name": "Site Builder",
    "role": "builder",
@@ -3725,48 +3753,6 @@
    "observedAt": "2026-11-23T17:49:15.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-page-operator-po-t2-specialist",
-   "name": "Page Operator PO-T2 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T2 specialist solver",
-   "detail": "PO-T2 specialist solver complete: Shandy SASE-S5S008 action report written (5,894 bytes, 951 words, 7 sections, 0 em dashes, 2 discrepancies raised in the open).",
-   "currentTask": "PO-T2 report complete: 7 sections, 951 words, 0 em dashes",
-   "lastHeartbeat": "2026-11-23T17:49:00.000Z",
-   "observedAt": "2026-11-23T17:49:00.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "po-t1-specialist",
-   "name": "PO-T1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T1 specialist run",
-   "detail": "PO-T1 complete: Radih open with no owner approval; Najmah delivered, second row governs. One discrepancy raised: guide lists two Page IDs.",
-   "currentTask": "PO-T1 pending-order triage report",
-   "lastHeartbeat": "2026-11-23T17:40:50.000Z",
-   "observedAt": "2026-11-23T17:40:50.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "po-t1-generic",
-   "name": "PO-T1 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T1 generic run",
-   "detail": "PO-T1 generic run complete: draft report written (7,974 bytes). Najmah second row governs; Radih pending, no owner approval.",
-   "currentTask": "PO-T1 pending-order triage report",
-   "lastHeartbeat": "2026-11-23T17:40:46.000Z",
-   "observedAt": "2026-11-23T17:40:46.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
