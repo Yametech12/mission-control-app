@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T23:01:00.000Z",
- "summary": "Cycle 360: routing check (44th) on GT-20261124-112 legs.",
+ "generatedAt": "2026-11-24T23:08:33.000Z",
+ "summary": "Routing panel cycle 360 complete: 5 picks filed",
  "agents": [
   {
    "agentId": null,
@@ -2439,6 +2439,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 360",
+   "detail": "Picks filed: T1 Fact Checker 6-2, T2 Scriptwriter 8-0, T3 Audio Engineer 8-0, T4 Video Editor 6-2, T5 QA Tester 8-0.",
+   "currentTask": "Routing panel cycle 360 complete",
+   "lastHeartbeat": "2026-11-24T23:08:33.000Z",
+   "observedAt": "2026-11-24T23:08:33.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "so-r2-generic",
    "name": "SO-R2 generic solver",
    "role": "auditor",
@@ -2521,20 +2535,6 @@
    "observedAt": "2026-11-24T22:31:00.000Z",
    "needsUser": false,
    "category": "ghostnam team"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check cycle 355",
-   "detail": "Done: RC-T1 Security Auditor 7-1, RC-T2 Threat Hunter 6-2, RC-T3 Fact Checker 7-1, RC-T4 Compliance Officer 6-2, RC-T5 Systems Builder 5-2-1.",
-   "currentTask": "Routing check cycle 355 panel picks",
-   "lastHeartbeat": "2026-11-24T22:12:00.000Z",
-   "observedAt": "2026-11-24T22:12:00.000Z",
-   "needsUser": false,
-   "category": "routing"
   },
   {
    "agentId": "team-smm-r3-specialist",
