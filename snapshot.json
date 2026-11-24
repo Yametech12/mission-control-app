@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T22:40:00.000Z",
- "summary": "Cycle 358: Store Operator retest in progress.",
+ "generatedAt": "2026-11-24T22:45:54.000Z",
+ "summary": "Store Operator SO-R1 specialist run complete.",
  "agents": [
   {
    "agentId": null,
@@ -2383,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-store-operator",
+   "name": "Store Operator SO-R1 specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Store Operator SO-R1 specialist run",
+   "detail": "SO-R1 draft done: 3,047 words, verdict NOT READY TO PUBLISH, Gate 3 and all five Pre-Publish Five checks UNVERIFIED.",
+   "currentTask": "SO-R1 pre-publish check note complete",
+   "lastHeartbeat": "2026-11-24T22:45:54.000Z",
+   "observedAt": "2026-11-24T22:45:54.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "smm-judge-r1",
    "name": "SMM Judge R1",
    "role": "auditor",
@@ -3767,20 +3781,6 @@
    "observedAt": "2026-11-24T01:26:00.000Z",
    "needsUser": false,
    "category": "kogama"
-  },
-  {
-   "agentId": "team-community-manager",
-   "name": "Community Manager",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Community Manager CM-T3 generic solver",
-   "detail": "CM-T3 generic solver: start snapshot failed once (agent object missing lastHeartbeat/currentTask); completion posted. Carried by cycle parent.",
-   "currentTask": "CM-T3 generic start snapshot failed once on schema; completion posted",
-   "lastHeartbeat": "2026-11-24T01:22:10.000Z",
-   "observedAt": "2026-11-24T01:22:10.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
