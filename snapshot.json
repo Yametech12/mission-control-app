@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T12:46:11.000Z",
- "summary": "Cycle 313: Fact Checker judging in progress (3 blind QA judges).",
+ "generatedAt": "2026-11-24T12:55:40.000Z",
+ "summary": "Cycle 313 complete: Fact Checker judged 8.17 vs 7.42 (2W 1L, not a clear win); card rewritten, rewrite 1.",
  "agents": [
   {
    "agentId": null,
@@ -785,20 +785,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 313: Fact Checker judging",
-   "detail": "Cycle 313: judging 3 blind Fact Checker pairs with fresh-context QA judges; sealed inputs from cycle 312.",
-   "currentTask": "Judging Fact Checker blind pairs FC-T1 to FC-T3",
-   "lastHeartbeat": "2026-11-24T12:46:11.000Z",
-   "observedAt": "2026-11-24T12:46:11.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2327,6 +2313,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 313: Fact Checker judging",
+   "detail": "Cycle 313 done: Fact Checker 8.17 vs 7.42, 2W 1L, not a clear win; card rewritten (rewrite 1). Scoreboard 11 validated, 1 flagged.",
+   "currentTask": "Cycle 313 complete: Fact Checker judged, card rewritten",
+   "lastHeartbeat": "2026-11-24T12:55:40.000Z",
+   "observedAt": "2026-11-24T12:55:40.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "Check complete: 30 threads, 0 new buyer messages, unread 0. Page access OK.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T12:55:00.000Z",
+   "observedAt": "2026-11-24T12:55:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "cse-page-comment-watch",
    "role": "monitor",
@@ -2339,20 +2353,6 @@
    "observedAt": "2026-11-24T12:42:20.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE FB inbox watch",
-   "detail": "20:23 PHT check: 30 threads read via Graph API, 0 diffs, no new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T12:23:59.000Z",
-   "observedAt": "2026-11-24T12:23:59.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-fact-checker",
@@ -3711,20 +3711,6 @@
    "observedAt": "2026-11-23T17:10:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-rm-t2-generic",
-   "name": "RM-T2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 Generic Solver",
-   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
-   "currentTask": "RM-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
-   "observedAt": "2026-11-23T16:33:30.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
   }
  ]
 }
