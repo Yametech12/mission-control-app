@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-24T13:15:43.000Z",
- "summary": "Generic solver completed DA-T1 feasibility scoring table for validation cycle 314.",
+ "generatedAt": "2026-11-24T13:18:58.000Z",
+ "summary": "Cycle 314 complete: Data Analyst DA-T1 pair collected and key-checked, no defect.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run failed Mon Nov 23, last success Nov 4, no recorded reason. Next run Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:16:54.000Z",
+   "needsUser": true,
+   "category": "Zulti"
+  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -9,26 +23,68 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: WhatsApp delivery chat cannot receive results (account action required). 84 consecutive failures; last success Nov 3.",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 84 consecutive failures, last success Nov 3. Needs the delivery chat fixed or moved.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T08:35:07.000Z",
+   "observedAt": "2026-11-24T13:16:54.000Z",
    "needsUser": true,
    "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "Telegram session watchdog",
+   "name": "TG session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Telegram session watchdog",
-   "detail": "Blocked: same WhatsApp delivery chat cannot receive results. 86 consecutive failures; last success Oct 6.",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 86 consecutive failures, last success Oct 6. Needs the delivery chat fixed or moved.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T07:46:26.000Z",
+   "observedAt": "2026-11-24T13:16:54.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Telegram"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "20 consecutive failures; last run failed Mon Nov 23, last success Nov 4, no recorded reason. Next run tonight 23:30 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:16:54.000Z",
+   "needsUser": true,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "7 consecutive failures; last run failed Mon Nov 23, last success Nov 2, no recorded reason. Next run Thu Nov 26, 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:16:54.000Z",
+   "needsUser": true,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Eco music video Drive delivery",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Eco music video Drive delivery",
+   "detail": "720p copy delivered; the 1080p master upload to Google Drive is blocked on Drive quota. Owner needs to free Drive space or pick another destination.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:08:42.000Z",
+   "needsUser": true,
+   "category": "Music Video"
   },
   {
    "agentId": null,
@@ -71,34 +127,6 @@
    "observedAt": "2026-11-23T15:28:16.000Z",
    "needsUser": true,
    "category": "blocktales"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "20 consecutive failures with spawn error binding_retired; last success Nov 4. Next attempt tonight 23:30 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T15:26:47.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures with spawn error binding_retired; last success Nov 2. Next attempt Thu Nov 26, 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T11:05:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -169,20 +197,6 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures with spawn error binding_retired; last run Mon Nov 23 failed. Last success Nov 4; next Mon Nov 30, 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T00:56:31.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -787,18 +801,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
+   "agentId": "09798e31-c170-42d6-9135-e21dbf4ae52b",
+   "name": "Ghostname generic solver",
+   "role": "researcher",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 314: Data Analyst validation",
-   "detail": "Cycle 314 started. Data Analyst (row 47, P2) is next in tracker order after Fact Checker (cycle 313). Filing 3 real tasks, dispatching DA-T1 solver pair.",
-   "currentTask": "Cycle 314: filing Data Analyst tasks and dispatching DA-T1 solvers",
-   "lastHeartbeat": "2026-11-24T13:06:51.000Z",
-   "observedAt": "2026-11-24T13:06:51.000Z",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 314 running now (DA-T1 thesis feasibility scoring). Cycle 313 finished: Fact Checker judging specialist 8.17 vs generic 7.42, not validated; 11 validated of 79.",
+   "currentTask": "Cycle 314 DA-T1 thesis candidate feasibility scoring",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:16:13.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "Ghostname Team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2327,6 +2341,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 314: Data Analyst validation",
+   "detail": "Cycle 314 complete. DA-T1 pair collected (specialist 13,446 bytes, 119s; generic 12,412 bytes, 98s; 0 em dashes both). DA-T1 key checked, no defect; both pass K1-K7. Cycle 315 is a routing check; DA-T2 runs cycle 316.",
+   "currentTask": "Cycle 314 complete: Data Analyst DA-T1 collected and key-checked",
+   "lastHeartbeat": "2026-11-24T13:18:58.000Z",
+   "observedAt": "2026-11-24T13:18:58.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3709,20 +3737,6 @@
    "currentTask": "RM-T2 generic solve complete",
    "lastHeartbeat": "2026-11-23T16:33:30.000Z",
    "observedAt": "2026-11-23T16:33:30.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-rm-t2-specialist",
-   "name": "RM-T2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 Specialist Solver",
-   "detail": "Done: rm-t2-specialist.md written (8,364 bytes). Banned list now 3 groups; next run csecommunityph, csereviewers.",
-   "currentTask": "RM-T2 rotation repair draft",
-   "lastHeartbeat": "2026-11-23T16:31:46.000Z",
-   "observedAt": "2026-11-23T16:31:46.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
   }
