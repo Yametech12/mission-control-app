@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:55:34.000Z",
- "summary": "Cycle 338: judging Market Intelligence Analyst.",
+ "generatedAt": "2026-11-24T18:01:00.000Z",
+ "summary": "GT-20261125-119: S7 fixes landed; QA scoped re-verification spawning.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,34 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-lead-gt119-batch-radar",
+   "name": "ghostlabs-r3-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
+   "detail": "GT119 S7 builder fix done: status line separates arithmetic failures from hard duplicate flags; QA scoped re-verification spawning (posted by the job lead)",
+   "currentTask": "S7 fixes landed (one file); QA scoped re-verification spawning",
+   "lastHeartbeat": "2026-11-24T18:01:00.000Z",
+   "observedAt": "2026-11-24T18:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "qa-tester",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT119 S7b QA: scoped re-verification",
+   "detail": "QA Tester starting S7b scoped re-verification for GT119 (posted by the job lead)",
+   "currentTask": "S7b: scoped re-verification of QA119-1 and QA119-2 closures plus regression",
+   "lastHeartbeat": "2026-11-24T18:01:00.000Z",
+   "observedAt": "2026-11-24T18:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
    "agentId": "clipp-promax-sample",
    "name": "clipp-promax-sample",
    "role": "builder",
@@ -841,34 +869,6 @@
    "observedAt": "2026-11-24T17:55:34.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-lead-gt119-batch-radar",
-   "name": "ghostlabs-r3-lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
-   "detail": "GT119 S4 done: radar 11/11 incl. negative cases, DOM 48/48, drawer and dispute notes verified; S5 independent QA spawning (posted by the job lead)",
-   "currentTask": "S4 accepted (radar proven); spawning QA Tester S5 independent verification",
-   "lastHeartbeat": "2026-11-24T17:54:00.000Z",
-   "observedAt": "2026-11-24T17:54:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "qa-tester",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT119 S5 QA Tester: independent verification",
-   "detail": "QA Tester starting S5 independent verification for GT119 (posted by the job lead)",
-   "currentTask": "S5: independent QA, original battery plus new batch battery, spans, CSV, caps, lock, network, screenshots",
-   "lastHeartbeat": "2026-11-24T17:54:00.000Z",
-   "observedAt": "2026-11-24T17:54:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   },
   {
    "agentId": "team-fact-checker",
@@ -2411,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "GT119 Site Builder: build plus S7 fix done",
+   "detail": "Site Builder S7 fix complete for GT119 (posted by the job lead)",
+   "currentTask": "S7 builder fix complete; standing by",
+   "lastHeartbeat": "2026-11-24T18:01:00.000Z",
+   "observedAt": "2026-11-24T18:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2423,20 +2437,6 @@
    "observedAt": "2026-11-24T17:55:03.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT119 Site Builder: plumbing, UI, radar done",
-   "detail": "Site Builder S4 complete for GT119 (posted by the job lead)",
-   "currentTask": "S4 complete; standing by for any S7 fix loop",
-   "lastHeartbeat": "2026-11-24T17:54:00.000Z",
-   "observedAt": "2026-11-24T17:54:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   },
   {
    "agentId": "clipp-team-promax",
