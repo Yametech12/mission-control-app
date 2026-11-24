@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:56:13.000Z",
- "summary": "Cycle 309: Fact Checker FC-T2 solver pair running.",
+ "generatedAt": "2026-11-24T11:59:37.000Z",
+ "summary": "Cycle 309 complete: Fact Checker FC-T2 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -785,20 +785,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 309: Fact Checker FC-T2",
-   "detail": "Cycle 309 running: Fact Checker FC-T2 solver pair (thesis dataset dossier verification, 6 claims).",
-   "currentTask": "Cycle 309: Fact Checker FC-T2 solver pair",
-   "lastHeartbeat": "2026-11-24T11:56:13.000Z",
-   "observedAt": "2026-11-24T11:56:13.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2327,6 +2313,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fact-checker",
+   "name": "Fact Checker",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Fact Checker FC-T2 specialist",
+   "detail": "FC-T2 specialist start carried by cycle parent: start snapshot failed on schema (agent.lastHeartbeat required), completion posted. Output 10,477 bytes, 33s.",
+   "currentTask": "FC-T2 complete",
+   "lastHeartbeat": "2026-11-24T11:59:37.000Z",
+   "observedAt": "2026-11-24T11:59:37.000Z",
+   "needsUser": false,
+   "category": "validation-loop"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 309: Fact Checker FC-T2",
+   "detail": "Cycle 309 complete: FC-T2 pair collected (specialist 10,477 bytes, 33s; generic 9,919 bytes, about 30s). FC-T3 runs cycle 311; sealing 312; judging 313.",
+   "currentTask": "Cycle 309 complete",
+   "lastHeartbeat": "2026-11-24T11:59:37.000Z",
+   "observedAt": "2026-11-24T11:59:37.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2339,34 +2353,6 @@
    "observedAt": "2026-11-24T11:54:33.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-fact-checker",
-   "name": "team-fact-checker",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Fact Checker FC-T1 specialist",
-   "detail": "FC-T1 done: 7 claims checked, 5 confirmed, 2 unverified; record written, 9932 bytes.",
-   "currentTask": "FC-T1 specialist verification record",
-   "lastHeartbeat": "2026-11-24T11:41:30.000Z",
-   "observedAt": "2026-11-24T11:41:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-validation-generic",
-   "name": "team-validation-generic",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Fact Checker FC-T1 generic",
-   "detail": "FC-T1 generic done: 5 confirmed, 2 unverified; Alignerr attribution corrected, claims 6-7 dropped",
-   "currentTask": "FC-T1 generic verification record",
-   "lastHeartbeat": "2026-11-24T11:41:06.000Z",
-   "observedAt": "2026-11-24T11:41:06.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "mission-control-apk",
