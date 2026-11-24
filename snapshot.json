@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T18:31:00.000Z",
- "summary": "Ghostname Team improvement cycle 340 complete: routing check 5 of 5 on GT-20261125-118.",
+ "generatedAt": "2026-11-24T18:32:00.000Z",
+ "summary": "CSE comment watch run started.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Page comment watch",
+   "detail": "Checking CSE Page posts from the last 7 days for new comments.",
+   "currentTask": "Checking CSE Page posts for new comments",
+   "lastHeartbeat": "2026-11-24T18:32:00.000Z",
+   "observedAt": "2026-11-24T18:32:00.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2957,20 +2971,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "cse-page-comment-watch",
-   "name": "cse-page-comment-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "CSE comment watch done: 14 Page posts Nov 17-24 checked, no new genuine comments, 0 hearts, 0 replies, no flags. No new post since Nov 22.",
-   "currentTask": "Run complete: no new comments found",
-   "lastHeartbeat": "2026-11-24T12:42:20.000Z",
-   "observedAt": "2026-11-24T12:42:20.000Z",
-   "needsUser": false,
-   "category": "cse"
-  },
-  {
    "agentId": "team-fact-checker",
    "name": "Fact Checker",
    "role": "auditor",
@@ -3766,6 +3766,20 @@
    "lastHeartbeat": "2026-11-23T23:39:00.000Z",
    "observedAt": "2026-11-23T23:39:00.000Z",
    "needsUser": false,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "kogama-gt103",
+   "name": "kogama-gt103",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT103 BlockTales channel branding",
+   "detail": "Done, design only: new ReachMora 2D avatar and banner plus mockups delivered; current channel still shows retired voxel branding. Awaiting owner approval before any upload.",
+   "currentTask": "Complete: assets and drafts delivered for owner approval",
+   "lastHeartbeat": "2026-11-23T23:30:09.000Z",
+   "observedAt": "2026-11-23T23:30:09.000Z",
+   "needsUser": true,
    "category": "blocktales"
   }
  ]
