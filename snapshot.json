@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:58:00.000Z",
- "summary": "Cycle 354 done: SMM-R3 pair collected and verified, all three retest pairs ready for sealing",
+ "generatedAt": "2026-11-24T22:12:00.000Z",
+ "summary": "Routing Panel cycle 355 complete: 5 picks filed, Security Auditor, Threat Hunter, Fact Checker, Compliance Officer, Systems Builder.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostnames Team improvement cycle 355",
+   "detail": "Cycle 355 routing check started: 5 legs (GT-20261124-111 four slices, GT-20261124-106 viseme leg), picks sealed, panel reading.",
+   "currentTask": "Cycle 355 routing check: tasks and picks sealed, panel running",
+   "lastHeartbeat": "2026-11-24T22:05:00.000Z",
+   "observedAt": "2026-11-24T22:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,18 +2383,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 354: SMM-R3 collected",
-   "detail": "SMM-R3 pair verified (specialist 30,351 bytes, 413s; generic 18,446 bytes, about 150s; 0 em dashes; both pass K1-K7). Sealing cycle 356, judging 357.",
-   "currentTask": "Cycle 354 complete",
-   "lastHeartbeat": "2026-11-24T21:58:00.000Z",
-   "observedAt": "2026-11-24T21:58:00.000Z",
+   "title": "Routing check cycle 355",
+   "detail": "Done: RC-T1 Security Auditor 7-1, RC-T2 Threat Hunter 6-2, RC-T3 Fact Checker 7-1, RC-T4 Compliance Officer 6-2, RC-T5 Systems Builder 5-2-1.",
+   "currentTask": "Routing check cycle 355 panel picks",
+   "lastHeartbeat": "2026-11-24T22:12:00.000Z",
+   "observedAt": "2026-11-24T22:12:00.000Z",
    "needsUser": false,
-   "category": "ghostnam-team"
+   "category": "routing"
   },
   {
    "agentId": "team-smm-r3-specialist",
@@ -2437,20 +2451,6 @@
    "observedAt": "2026-11-24T21:42:37.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check cycle 350 panel picks",
-   "detail": "Picks: Site Builder, Device and Rendering Tester, Data Integrity Auditor, DevOps and Release Engineer, Live Verifier. RC-T3 flagged closest call.",
-   "currentTask": "Routing check cycle 350 panel picks (RC-T1 to RC-T5)",
-   "lastHeartbeat": "2026-11-24T20:42:18.000Z",
-   "observedAt": "2026-11-24T20:42:18.000Z",
-   "needsUser": false,
-   "category": "routing"
   },
   {
    "agentId": "team-page-operator-po-r3-specialist",
@@ -3767,6 +3767,20 @@
    "observedAt": "2026-11-24T01:22:10.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "kogama-gt107",
+   "name": "kogama-gt107",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT107 rm6 engine pass: audit and completion",
+   "detail": "COMPLETE. Phonemes 100/100 exact (rm5 12/100), caption collisions 12 to 0 on the proof beat and 99 to 0 script-wide, deformation, jaw/cheek, 3 new props, DOF to desk/table. Report filed.",
+   "currentTask": "Complete: GT-20261124-107.md and reports filed",
+   "lastHeartbeat": "2026-11-24T01:12:00.000Z",
+   "observedAt": "2026-11-24T01:12:00.000Z",
+   "needsUser": false,
+   "category": "blocktales"
   }
  ]
 }
