@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:31:34.000Z",
- "summary": "Routing panel cycle 335 started: 8 division leads voting on RC-T1 to RC-T5 from tasks.md and ROSTER_INDEX.md only.",
+ "generatedAt": "2026-11-24T17:36:39.000Z",
+ "summary": "Cycle 336: MIA-T3 solvers running.",
  "agents": [
   {
    "agentId": null,
@@ -821,10 +821,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "Clipp Team Pro Max upgrade (Gemini + Groq)",
-   "detail": "Both APIs list models (Gemini 50, Groq 11). Running live generation pings to confirm each API actually answers.",
-   "currentTask": "Access check: generation pings on Gemini and Groq",
-   "lastHeartbeat": "2026-11-24T17:33:00.000Z",
-   "observedAt": "2026-11-24T17:33:00.000Z",
+   "detail": "Groq Whisper proof run passed on a real 37s segment (59 words, word timestamps, 19 caption lines, ASS written). Gemini generate still 503; Hunter retries continue.",
+   "currentTask": "Groq Whisper proof run done; hook generator and Gemini Hunter retries next",
+   "lastHeartbeat": "2026-11-24T17:40:00.000Z",
+   "observedAt": "2026-11-24T17:40:00.000Z",
    "needsUser": false,
    "category": "clipping"
   },
@@ -834,11 +834,11 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 335: routing check",
-   "detail": "Cycle 335 routing check running: 5 GT117 legs, coordinator picks sealed, panel reading tasks.",
-   "currentTask": "Routing check cycle 335: panel reading GT117 tasks",
-   "lastHeartbeat": "2026-11-24T17:27:00.000Z",
-   "observedAt": "2026-11-24T17:27:00.000Z",
+   "title": "Ghostname Team improvement cycle 336",
+   "detail": "Cycle 336: Market Intelligence Analyst MIA-T3 solver pair running (specialist + generic).",
+   "currentTask": "Cycle 336: MIA-T3 solvers running",
+   "lastHeartbeat": "2026-11-24T17:36:39.000Z",
+   "observedAt": "2026-11-24T17:36:39.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2353,20 +2353,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "SASE portal"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing panel cycle 335",
-   "detail": "Panel started: voting on 5 routing tasks RC-T1 to RC-T5 for GT-20261125-117 legs.",
-   "currentTask": "Vote RC-T1 to RC-T5 routing picks",
-   "lastHeartbeat": "2026-11-24T17:31:34.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "Routing panel"
   },
   {
    "agentId": "gt88-jokoy-posting",
