@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:51:39.000Z",
- "summary": "SMM-R3 generic solver completed the Nov 25 to Dec 1 content calendar draft.",
+ "generatedAt": "2026-11-24T21:56:02.000Z",
+ "summary": "SMM-R3 specialist solver completed the Nov 25 to Dec 1 weekly content calendar draft.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-smm-r3-specialist",
-   "name": "SMM-R3 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SMM-R3 specialist solver: weekly calendar Nov 25 to Dec 1",
-   "detail": "Drafting the per-account weekly calendar from the playbook, Nov 18 health check, and GT88 state file.",
-   "currentTask": "Draft SMM-R3 weekly calendar Nov 25 to Dec 1",
-   "lastHeartbeat": "2026-11-24T21:49:34.000Z",
-   "observedAt": "2026-11-24T21:49:34.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2397,6 +2383,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-smm-r3-specialist",
+   "name": "SMM-R3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-R3 specialist solver: weekly calendar Nov 25 to Dec 1",
+   "detail": "Calendar draft done: 12 slots (3 scheduled Jo Koy, 9 draft), quota frames and discrepancies flagged.",
+   "currentTask": "Draft SMM-R3 weekly calendar Nov 25 to Dec 1",
+   "lastHeartbeat": "2026-11-24T21:56:02.000Z",
+   "observedAt": "2026-11-24T21:56:02.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "05:54 PHT check done: Page access OK, 30 threads, 0 new buyer messages, silent per rule.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T21:54:00.000Z",
+   "observedAt": "2026-11-24T21:54:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-smm-r3-generic",
    "name": "SMM-R3 generic solver",
    "role": "builder",
@@ -2423,20 +2437,6 @@
    "observedAt": "2026-11-24T21:42:37.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "05:24 PHT check complete: Page access OK, 30 threads, 0 new buyer messages, no replies or PDF sent.",
-   "currentTask": "Inbox check complete, no new messages",
-   "lastHeartbeat": "2026-11-24T21:24:00.000Z",
-   "observedAt": "2026-11-24T21:24:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-routing-panel",
@@ -3781,20 +3781,6 @@
    "observedAt": "2026-11-24T01:12:00.000Z",
    "needsUser": false,
    "category": "blocktales"
-  },
-  {
-   "agentId": "ghostname-gt109",
-   "name": "ghostname-gt109",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT109 GhostLabs rollback",
-   "detail": "Rollback done: commit 431f5f1, deployment READY production, live pages byte-identical to the pre-GT105 backup",
-   "currentTask": "Rollback complete, old design verified live",
-   "lastHeartbeat": "2026-11-24T00:56:40.000Z",
-   "observedAt": "2026-11-24T00:56:40.000Z",
-   "needsUser": false,
-   "category": "ghostname"
   }
  ]
 }
