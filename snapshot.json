@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T18:41:34.000Z",
- "summary": "Cycle 341 done: User Researcher UR-T2 pair collected, both pass K1-K7, no defect.",
+ "generatedAt": "2026-11-24T18:49:50.000Z",
+ "summary": "Generic solver UR-T3: done",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 342: User Researcher UR-T3",
+   "detail": "Cycle 342 started: User Researcher UR-T3 solver pair (specialist vs generic).",
+   "currentTask": "Cycle 342: User Researcher UR-T3 solver pair",
+   "lastHeartbeat": "2026-11-24T18:46:55.000Z",
+   "observedAt": "2026-11-24T18:46:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,18 +2383,32 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
+   "agentId": "team-generic-solver-ur-t3",
+   "name": "Generic Solver",
+   "role": "researcher",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname validation cycle 341: User Researcher UR-T2",
-   "detail": "Cycle 341 complete: UR-T2 pair collected and verified (specialist 5,933 bytes, 84s; generic 5,527 bytes, 86s); both pass K1-K7, no defect; UR-T3 runs cycle 342.",
-   "currentTask": "Cycle 341 complete; UR-T3 solvers next cycle",
-   "lastHeartbeat": "2026-11-24T18:41:34.000Z",
-   "observedAt": "2026-11-24T18:41:34.000Z",
+   "title": "Generic solver UR-T3",
+   "detail": "Generic solver UR-T3 done: 8927 bytes, 1533 words, 0 avail-intent of 14 messages classified.",
+   "currentTask": "UR-T3 generic triage",
+   "lastHeartbeat": "2026-11-24T18:49:50.000Z",
+   "observedAt": "2026-11-24T18:49:50.000Z",
    "needsUser": false,
-   "category": "ghostnam team validation"
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-user-researcher",
+   "name": "User Researcher",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "User Researcher UR-T3 specialist",
+   "detail": "UR-T3 specialist triage done: 8,382 bytes, 1,359 words; 0 avail-intent of 14 messages; watch stays paused.",
+   "currentTask": "UR-T3 specialist triage",
+   "lastHeartbeat": "2026-11-24T18:49:28.000Z",
+   "observedAt": "2026-11-24T18:49:28.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle-ur-t2-specialist",
@@ -3319,20 +3347,6 @@
    "observedAt": "2026-11-24T08:29:00.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver FC-T3",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-T3 generic solver: Pod landing-to-Audit funnel map",
-   "detail": "FC-T3 generic baseline done: 15,080 bytes, 2,535 words, 0 em dashes, all 7 sections, no discrepancy raised.",
-   "currentTask": "FC-T3 funnel map draft written and verified",
-   "lastHeartbeat": "2026-11-24T08:28:53.000Z",
-   "observedAt": "2026-11-24T08:28:53.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-generic-solver-fc-t1",
