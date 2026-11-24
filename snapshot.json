@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T14:56:30.000Z",
- "summary": "Cycle 322 done: Compliance Officer CO-T2 pair collected, key clean, no verdict yet.",
+ "generatedAt": "2026-11-24T15:02:22.000Z",
+ "summary": "Generic solver completed CO-T3 compliance check draft.",
  "agents": [
   {
    "agentId": "team-lead-yame-call",
@@ -815,18 +815,32 @@
    "category": "SASE"
   },
   {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
+   "agentId": "team-compliance-officer",
+   "name": "Compliance Officer",
+   "role": "researcher",
    "agentStatus": "active",
    "status": "working",
-   "title": "SASE Page inbox watch",
-   "detail": "Checking SASE Practice Hub PH inbox via Graph API for new buyer messages.",
-   "currentTask": "Graph API inbox check vs seen-state",
-   "lastHeartbeat": "2026-11-24T14:54:38.000Z",
-   "observedAt": "2026-11-24T14:54:38.000Z",
+   "title": "CO-T3 compliance check record",
+   "detail": "Specialist solver drafting the Section 3.20 and Google Docs ban check record for cycle 323.",
+   "currentTask": "CO-T3 compliance check record draft",
+   "lastHeartbeat": "2026-11-24T15:01:42.000Z",
+   "observedAt": "2026-11-24T15:01:42.000Z",
    "needsUser": false,
-   "category": "sase"
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 323",
+   "detail": "Cycle 323 running: Compliance Officer CO-T3 solver pair (specialist + generic) dispatched.",
+   "currentTask": "Cycle 323: CO-T3 solvers",
+   "lastHeartbeat": "2026-11-24T14:59:40.000Z",
+   "observedAt": "2026-11-24T14:59:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "22c07f17-af96-4d0a-bd6b-e59e525ffe4b",
@@ -2369,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "Inbox check complete: 30 threads, 0 diffs vs seen-state, unread 0. No new buyer messages, no GCash refs, no PDF sent. Page access OK.",
+   "currentTask": "Check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T14:57:32.000Z",
+   "observedAt": "2026-11-24T14:57:32.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-app-builder",
    "name": "App Builder",
    "role": "builder",
@@ -3748,20 +3776,6 @@
    "status": "completed",
    "title": "GT99 audio bed and SFX (Ghostname assist)",
    "detail": "COMPLETE (posted by job lead). Bed and SFX under Julian delivered: 59.60 s, bed at voice minus 18 dB, SFX map placed. Report: sound-report.md.",
-   "currentTask": "Done",
-   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
-   "observedAt": "2026-11-23T17:11:29.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "gt99-scriptwriter",
-   "name": "Ghostname Scriptwriter",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT99 caption cue plan (Ghostname assist)",
-   "detail": "COMPLETE (posted by job lead). 30 cues, one emphasis per beat, word-for-word verified 149 of 149. Report: caption-plan.md.",
    "currentTask": "Done",
    "lastHeartbeat": "2026-11-23T17:11:29.000Z",
    "observedAt": "2026-11-23T17:11:29.000Z",
