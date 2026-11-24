@@ -36,6 +36,31 @@ class MainActivity : Activity() {
             "https://raw.githubusercontent.com/Yametech12/mission-control-app/main/snapshot.json"
         private const val POLL_MS = 30_000L
         private const val STUCK_AFTER_MS = 15 * 60 * 1000L
+
+        val colRunning: Int = Color.parseColor("#2FA84F")
+        val colDone: Int = Color.parseColor("#3E7CB1")
+        val colAlert: Int = Color.parseColor("#D64545")
+        val colIdle: Int = Color.parseColor("#8A8378")
+
+        fun parseIso(value: String?): Long? {
+            if (value.isNullOrBlank()) return null
+            val patterns = arrayOf(
+                "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                "yyyy-MM-dd'T'HH:mm:ss'Z'",
+                "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+                "yyyy-MM-dd'T'HH:mm:ssXXX"
+            )
+            for (p in patterns) {
+                try {
+                    val f = SimpleDateFormat(p, Locale.US)
+                    f.timeZone = TimeZone.getTimeZone("UTC")
+                    return f.parse(value)?.time
+                } catch (e: Exception) {
+                    // try the next pattern
+                }
+            }
+            return null
+        }
     }
 
     private val manila: TimeZone = TimeZone.getTimeZone("Asia/Manila")
@@ -57,10 +82,6 @@ class MainActivity : Activity() {
     private var textMain = 0
     private var textMuted = 0
     private var accent = 0
-    private val colRunning = Color.parseColor("#2FA84F")
-    private val colDone = Color.parseColor("#3E7CB1")
-    private val colAlert = Color.parseColor("#D64545")
-    private val colIdle = Color.parseColor("#8A8378")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -518,26 +539,6 @@ class MainActivity : Activity() {
     }
 
     // ------------------------------------------------------------ helpers
-
-    private fun parseIso(value: String?): Long? {
-        if (value.isNullOrBlank()) return null
-        val patterns = arrayOf(
-            "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-            "yyyy-MM-dd'T'HH:mm:ss'Z'",
-            "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
-            "yyyy-MM-dd'T'HH:mm:ssXXX"
-        )
-        for (p in patterns) {
-            try {
-                val f = SimpleDateFormat(p, Locale.US)
-                f.timeZone = TimeZone.getTimeZone("UTC")
-                return f.parse(value)?.time
-            } catch (e: Exception) {
-                // try the next pattern
-            }
-        }
-        return null
-    }
 
     private fun isTodayManila(iso: String?): Boolean {
         val t = parseIso(iso) ?: return false
