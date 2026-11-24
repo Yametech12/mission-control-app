@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:36:00.000Z",
- "summary": "Cycle 307 complete: Competitor Analyst judged LOST 7.50 vs 7.92; card rewritten (rewrite 1) on the Art Director template. Scoreboard still 11 validated, 1 flagged, 67 unvalidated of 79.",
+ "generatedAt": "2026-11-24T11:36:52.000Z",
+ "summary": "Cycle 308: Fact Checker first validation run in progress.",
  "agents": [
   {
    "agentId": null,
@@ -785,6 +785,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 308",
+   "detail": "Cycle 308 working: Fact Checker first validation, filing 3 real tasks from Nov job records, FC-T1 pair next.",
+   "currentTask": "Cycle 308: Fact Checker first run, filing FC-T1 to FC-T3 tasks and keys",
+   "lastHeartbeat": "2026-11-24T11:36:52.000Z",
+   "observedAt": "2026-11-24T11:36:52.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2313,20 +2327,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 307: Competitor Analyst judged, card rewritten",
-   "detail": "Cycle 307 done: Competitor Analyst LOST 7.50 vs 7.92 (1W 0T 2L); card rewritten with 6 new standards; seal held, all judges clean.",
-   "currentTask": "Cycle 307 complete: Competitor Analyst judged, LOST 7.50 vs 7.92, card rewritten (rewrite 1)",
-   "lastHeartbeat": "2026-11-24T11:36:00.000Z",
-   "observedAt": "2026-11-24T11:36:00.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3711,6 +3711,20 @@
    "observedAt": "2026-11-23T17:10:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-rm-t2-generic",
+   "name": "RM-T2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T2 Generic Solver",
+   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
+   "currentTask": "RM-T2 generic solve complete",
+   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
+   "observedAt": "2026-11-23T16:33:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
   }
  ]
 }
