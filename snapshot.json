@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T22:30:00.000Z",
- "summary": "Blind judging of SMM-R3 complete",
+ "generatedAt": "2026-11-24T22:31:00.000Z",
+ "summary": "Cycle 357 done: SMM retest judged 7.42 vs 7.42, 1 win 2 losses, not validated; card rewritten (rewrite 2), not flagged.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 357",
-   "detail": "Judging SMM retest: 3 blind QA judges scoring sealed SMM-R1 to R3 pairs.",
-   "currentTask": "Judging SMM retest pairs SMM-R1 to SMM-R3 blind",
-   "lastHeartbeat": "2026-11-24T22:25:00.000Z",
-   "observedAt": "2026-11-24T22:25:00.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 357",
+   "detail": "SMM retest judged: 7.42 vs 7.42, 1W 2L, not validated. Card rewritten (rewrite 2, standards 13-20); flag-count settled, not flagged.",
+   "currentTask": "Cycle 357 complete: SMM retest verdict filed",
+   "lastHeartbeat": "2026-11-24T22:31:00.000Z",
+   "observedAt": "2026-11-24T22:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
+   "agentId": "smm-judge-r1",
+   "name": "SMM Judge R1",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM retest judge SMM-R1",
+   "detail": "Posted by cycle parent: R1 judged, Candidate B won 8.50 vs 7.50; judge start snapshot failed once on schema, carried here.",
+   "currentTask": "SMM-R1 judgement filed",
+   "lastHeartbeat": "2026-11-24T22:31:00.000Z",
+   "observedAt": "2026-11-24T22:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3753,34 +3767,6 @@
    "observedAt": "2026-11-24T01:26:00.000Z",
    "needsUser": false,
    "category": "kogama"
-  },
-  {
-   "agentId": "team-community-manager",
-   "name": "Community Manager",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Community Manager CM-T3 generic solver",
-   "detail": "CM-T3 generic solver: start snapshot failed once (agent object missing lastHeartbeat/currentTask); completion posted. Carried by cycle parent.",
-   "currentTask": "CM-T3 generic start snapshot failed once on schema; completion posted",
-   "lastHeartbeat": "2026-11-24T01:22:10.000Z",
-   "observedAt": "2026-11-24T01:22:10.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "kogama-gt107",
-   "name": "kogama-gt107",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT107 rm6 engine pass: audit and completion",
-   "detail": "COMPLETE. Phonemes 100/100 exact (rm5 12/100), caption collisions 12 to 0 on the proof beat and 99 to 0 script-wide, deformation, jaw/cheek, 3 new props, DOF to desk/table. Report filed.",
-   "currentTask": "Complete: GT-20261124-107.md and reports filed",
-   "lastHeartbeat": "2026-11-24T01:12:00.000Z",
-   "observedAt": "2026-11-24T01:12:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
   }
  ]
 }
