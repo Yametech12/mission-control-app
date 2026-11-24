@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:43:13.000Z",
- "summary": "Cycle 308 complete: Fact Checker first run, FC-T1 pair collected, key K3 repaired.",
+ "generatedAt": "2026-11-24T11:56:13.000Z",
+ "summary": "Cycle 309: Fact Checker FC-T2 solver pair running.",
  "agents": [
   {
    "agentId": null,
@@ -785,6 +785,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 309: Fact Checker FC-T2",
+   "detail": "Cycle 309 running: Fact Checker FC-T2 solver pair (thesis dataset dossier verification, 6 claims).",
+   "currentTask": "Cycle 309: Fact Checker FC-T2 solver pair",
+   "lastHeartbeat": "2026-11-24T11:56:13.000Z",
+   "observedAt": "2026-11-24T11:56:13.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2313,18 +2327,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team validation cycle 308",
-   "detail": "Cycle 308 done: Fact Checker FC-T1 pair collected and verified, key K3 defect repaired at collection, FC-T2 runs cycle 309.",
-   "currentTask": "Cycle 308 complete: Fact Checker FC-T1 pair collected, key K3 repaired",
-   "lastHeartbeat": "2026-11-24T11:43:13.000Z",
-   "observedAt": "2026-11-24T11:43:13.000Z",
+   "title": "SASE Page inbox watch",
+   "detail": "Checked 30 threads via Graph API, 0 new buyer messages, unread 0 everywhere. No action needed.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T11:54:33.000Z",
+   "observedAt": "2026-11-24T11:54:33.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "sase"
   },
   {
    "agentId": "team-fact-checker",
@@ -2353,20 +2367,6 @@
    "observedAt": "2026-11-24T11:41:06.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "19:24 PHT check done: 30 threads, 0 new messages, 0 GCash refs, no replies sent.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T11:24:37.000Z",
-   "observedAt": "2026-11-24T11:24:37.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "mission-control-apk",
@@ -3711,6 +3711,20 @@
    "observedAt": "2026-11-23T17:11:29.000Z",
    "needsUser": false,
    "category": "blocktales"
+  },
+  {
+   "agentId": "team-routing-panel-220",
+   "name": "Routing Panel 220",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Panel 220",
+   "detail": "Routing Panel 220 done: RC-T1 Scriptwriter, RC-T2 Social Media Manager, RC-T3 Security Auditor, RC-T4 Video Editor, RC-T5 Art Director",
+   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-23T17:10:50.000Z",
+   "observedAt": "2026-11-23T17:10:50.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
