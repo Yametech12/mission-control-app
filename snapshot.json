@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T22:31:00.000Z",
- "summary": "Cycle 357 done: SMM retest judged 7.42 vs 7.42, 1 win 2 losses, not validated; card rewritten (rewrite 2), not flagged.",
+ "generatedAt": "2026-11-24T22:40:00.000Z",
+ "summary": "Cycle 358: Store Operator retest in progress.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 358: Store Operator retest",
+   "detail": "Cycle 358 started: Store Operator retest, tasks SO-R1 to SO-R3 filed, SO-R1 pair running.",
+   "currentTask": "Cycle 358: Store Operator retest, SO-R1 solver pair",
+   "lastHeartbeat": "2026-11-24T22:40:00.000Z",
+   "observedAt": "2026-11-24T22:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,20 +2383,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 357",
-   "detail": "SMM retest judged: 7.42 vs 7.42, 1W 2L, not validated. Card rewritten (rewrite 2, standards 13-20); flag-count settled, not flagged.",
-   "currentTask": "Cycle 357 complete: SMM retest verdict filed",
-   "lastHeartbeat": "2026-11-24T22:31:00.000Z",
-   "observedAt": "2026-11-24T22:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
-  },
-  {
    "agentId": "smm-judge-r1",
    "name": "SMM Judge R1",
    "role": "auditor",
@@ -3767,6 +3767,20 @@
    "observedAt": "2026-11-24T01:26:00.000Z",
    "needsUser": false,
    "category": "kogama"
+  },
+  {
+   "agentId": "team-community-manager",
+   "name": "Community Manager",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Community Manager CM-T3 generic solver",
+   "detail": "CM-T3 generic solver: start snapshot failed once (agent object missing lastHeartbeat/currentTask); completion posted. Carried by cycle parent.",
+   "currentTask": "CM-T3 generic start snapshot failed once on schema; completion posted",
+   "lastHeartbeat": "2026-11-24T01:22:10.000Z",
+   "observedAt": "2026-11-24T01:22:10.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
