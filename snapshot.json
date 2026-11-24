@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:05:30.000Z",
- "summary": "Improvement cycle 333 complete: MIA-T1 pair collected, no verdict yet.",
+ "generatedAt": "2026-11-24T17:16:09.000Z",
+ "summary": "Cycle 334: MIA-T2 solvers running.",
  "agents": [
   {
    "agentId": null,
@@ -821,10 +821,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-118: Release 2 Minor fixes + deploy (lead)",
-   "detail": "Intake done: live tree MD5s match GT116 close-out, backup-pre-gt118-20261125 verified, job record written. Fanning out S2 to Site Builder.",
-   "currentTask": "S1 intake done; spawning S2 Site Builder (5 Minor fixes)",
-   "lastHeartbeat": "2026-11-24T17:05:00.000Z",
-   "observedAt": "2026-11-24T17:05:00.000Z",
+   "detail": "S3 PASS WITH NOTES. QA118-M1 is a defect inside fix 2 and contradicts a GT117 anti-slop row; scoped micro fix S3b running before S4 and deploy.",
+   "currentTask": "S3b: scoped micro fix loop for QA118-M1",
+   "lastHeartbeat": "2026-11-24T17:17:00.000Z",
+   "observedAt": "2026-11-24T17:17:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
   },
@@ -834,11 +834,39 @@
    "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-118 S2: 5 Minor fixes in candidate-gt117",
-   "detail": "Posted by the job lead: Site Builder spawning to fix QA-M1/F1 to F5 in candidate-gt117/index.html, battery frozen at 129/129.",
-   "currentTask": "S2: fixing the 5 Minors in candidate-gt117",
-   "lastHeartbeat": "2026-11-24T17:05:00.000Z",
-   "observedAt": "2026-11-24T17:05:00.000Z",
+   "title": "GT-118 S3b: QA118-M1 micro fix",
+   "detail": "Posted by the job lead: Site Builder re-spawning for the scoped QA118-M1 fix (legend hidden at rest), index.html CSS only.",
+   "currentTask": "S3b: fix QA118-M1 (legend renders before any run)",
+   "lastHeartbeat": "2026-11-24T17:17:00.000Z",
+   "observedAt": "2026-11-24T17:17:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 334",
+   "detail": "Cycle 334 started: Market Intelligence Analyst MIA-T2 solver pair running (remote job boards category read).",
+   "currentTask": "MIA-T2 solver pair running",
+   "lastHeartbeat": "2026-11-24T17:16:09.000Z",
+   "observedAt": "2026-11-24T17:16:09.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-lead-gt119-batch-radar",
+   "name": "ghostlabs-r3-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
+   "detail": "GT-20261125-119 Release 3 (batch queue + fraud radar) opened; waiting on GT118 deploy close before building on the post-R2 tree",
+   "currentTask": "Intake: sequencing gate wait on GT118 (Release 2 deploy) before R3 build",
+   "lastHeartbeat": "2026-11-24T17:16:00.000Z",
+   "observedAt": "2026-11-24T17:16:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
   },
@@ -2327,20 +2355,6 @@
    "category": "SASE portal"
   },
   {
-   "agentId": "team-qa-tester",
-   "name": "team-qa-tester",
-   "role": "auditor",
-   "agentStatus": "waiting",
-   "status": "scheduled",
-   "title": "GT-118 S3: independent re-verification",
-   "detail": "Posted by the job lead: QA Tester queued; spawns after S2 lands and the lead accepts its battery evidence.",
-   "currentTask": "Waiting for S2 (Minor fixes) to land",
-   "lastHeartbeat": "2026-11-24T17:05:00.000Z",
-   "observedAt": "2026-11-24T17:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
-  },
-  {
    "agentId": "team-fresh-eye",
    "name": "team-fresh-eye",
    "role": "auditor",
@@ -2425,18 +2439,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
+   "agentId": "team-qa-tester",
+   "name": "team-qa-tester",
+   "role": "auditor",
+   "agentStatus": "idle",
    "status": "completed",
-   "title": "Improvement cycle 333: Market Intelligence Analyst",
-   "detail": "Cycle 333 complete. MIA tasks filed; MIA-T1 pair collected and verified (specialist 7,618 bytes, 95s; generic 6,899 bytes, 61s). Key clean, both pass K1-K7. MIA-T2 runs cycle 334.",
-   "currentTask": "Cycle 333 complete",
-   "lastHeartbeat": "2026-11-24T17:05:30.000Z",
-   "observedAt": "2026-11-24T17:05:30.000Z",
+   "title": "GT-118 S3: independent re-verification",
+   "detail": "Posted by the job lead: S3 COMPLETE, PASS WITH NOTES, 0 Critical, 0 Major, 1 Minor (QA118-M1). Battery 129/129, spans 0 failures, fixes 1 to 5 confirmed.",
+   "currentTask": "S3 complete; scoped QA118-M1 re-check queued after the S3b fix",
+   "lastHeartbeat": "2026-11-24T17:17:00.000Z",
+   "observedAt": "2026-11-24T17:17:00.000Z",
    "needsUser": false,
-   "category": "ghostnam team"
+   "category": "ghostlabs"
   },
   {
    "agentId": "team-lead-gt117-provenance",
