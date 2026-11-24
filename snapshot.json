@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T12:23:59.000Z",
- "summary": "SASE inbox watch 20:23 PHT: no new buyer messages; Page access healthy.",
+ "generatedAt": "2026-11-24T12:30:33.000Z",
+ "summary": "Cycle 312 complete: Fact Checker pairs sealed for blind judging in cycle 313.",
  "agents": [
   {
    "agentId": null,
@@ -2313,6 +2313,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 312: Fact Checker sealed",
+   "detail": "Cycle 312 complete: Fact Checker pairs sealed (6 neutral files, 314 lines, 0 identity hits, originals md5-verified). Judging cycle 313.",
+   "currentTask": "Cycle 312 complete: Fact Checker pairs sealed",
+   "lastHeartbeat": "2026-11-24T12:30:33.000Z",
+   "observedAt": "2026-11-24T12:30:33.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2335,20 +2349,6 @@
    "title": "Fact Checker FC-T3 specialist",
    "detail": "FC-T3 specialist collected: 7,987 bytes, 1,227 words, about 45s (posted by cycle parent)",
    "currentTask": "FC-T3 specialist output collected and verified",
-   "lastHeartbeat": "2026-11-24T12:19:55.000Z",
-   "observedAt": "2026-11-24T12:19:55.000Z",
-   "needsUser": false,
-   "category": "team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 311",
-   "detail": "Cycle 311 complete: FC-T3 pair collected, all 3 pairs done, sealing 312, judging 313",
-   "currentTask": "Cycle 311 complete: FC-T3 pair collected",
    "lastHeartbeat": "2026-11-24T12:19:55.000Z",
    "observedAt": "2026-11-24T12:19:55.000Z",
    "needsUser": false,
