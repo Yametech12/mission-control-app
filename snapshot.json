@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T20:25:32.000Z",
- "summary": "SASE inbox watch 04:25 PHT: no new buyer messages.",
+ "generatedAt": "2026-11-24T20:41:34.000Z",
+ "summary": "Routing Panel started cycle 350 panel picks for GT-20261124-116 legs.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing check cycle 350 panel picks",
+   "detail": "Panel reading tasks.md and ROSTER_INDEX.md only; naming one specialist per task RC-T1 to RC-T5.",
+   "currentTask": "Routing check cycle 350 panel picks (RC-T1 to RC-T5)",
+   "lastHeartbeat": "2026-11-24T20:41:34.000Z",
+   "observedAt": "2026-11-24T20:41:34.000Z",
+   "needsUser": false,
+   "category": "routing"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 350",
+   "detail": "Cycle 350 routing check started: 5 legs of GT-20261124-116 (D1 fix, deploy). Coordinator picks sealing before panel read.",
+   "currentTask": "Routing check cycle 350: GT116 legs, coordinator picks sealing",
+   "lastHeartbeat": "2026-11-24T20:40:00.000Z",
+   "observedAt": "2026-11-24T20:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,20 +2411,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 349: Page Operator retest sealed",
-   "detail": "Sealed PO-R1 to PO-R3: 6 neutrals, 361 lines, 3 drops, 0 identity hits, originals md5-verified. Judging cycle 351.",
-   "currentTask": "Cycle 349 complete: Page Operator retest sealed",
-   "lastHeartbeat": "2026-11-24T20:23:42.000Z",
-   "observedAt": "2026-11-24T20:23:42.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-page-operator-po-r3-specialist",
    "name": "PO-R3 Specialist Solver",
    "role": "builder",
@@ -2479,20 +2493,6 @@
    "observedAt": "2026-11-24T19:53:23.000Z",
    "needsUser": false,
    "category": "Ghostname Team validation"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel (cycle 345)",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check cycle 345 panel picks",
-   "detail": "Picks: T1 Systems Builder 7-1, T2 Site Builder 7-1, T3 Systems Builder 7-1, T4 QA Tester 7-1, T5 Fresh-Eye Reviewer 5-3 (hard call).",
-   "currentTask": "Panel picks filed to panel-picks.md",
-   "lastHeartbeat": "2026-11-24T19:30:05.000Z",
-   "observedAt": "2026-11-24T19:30:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-generic-solver-ur-t3",
@@ -3767,6 +3767,34 @@
    "observedAt": "2026-11-24T00:52:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
+  },
+  {
+   "agentId": "watcher-judge-wt-s1",
+   "name": "Watcher judge WT-S1",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Watcher retest 2 judge WT-S1",
+   "detail": "WT-S1 blind judgement filed.",
+   "currentTask": "WT-S1 blind judgement filed",
+   "lastHeartbeat": "2026-11-24T00:40:34.000Z",
+   "observedAt": "2026-11-24T00:40:34.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "watcher-judge-wt-s2",
+   "name": "Watcher judge WT-S2",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Watcher retest 2 judge WT-S2",
+   "detail": "WT-S2 blind judgement filed.",
+   "currentTask": "WT-S2 blind judgement filed",
+   "lastHeartbeat": "2026-11-24T00:39:47.000Z",
+   "observedAt": "2026-11-24T00:39:47.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
