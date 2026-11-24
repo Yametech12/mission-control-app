@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:24:00.000Z",
- "summary": "SASE inbox watch 05:24 PHT: Page access OK, 30 threads read, 0 new buyer messages.",
+ "generatedAt": "2026-11-24T21:41:15.000Z",
+ "summary": "SMM-R2 specialist solver started drafting the Lacy clip 1 plan.",
  "agents": [
   {
    "agentId": null,
@@ -815,16 +815,30 @@
    "category": "SASE"
   },
   {
+   "agentId": "smm-r2-specialist",
+   "name": "SMM-R2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SMM-R2 specialist solver started",
+   "detail": "SMM-R2 specialist solver started: card, skills, task and three inputs read, drafting the plan now.",
+   "currentTask": "Drafting SMM-R2 Lacy clip 1 three-platform plan from specialist card",
+   "lastHeartbeat": "2026-11-24T21:41:15.000Z",
+   "observedAt": "2026-11-24T21:41:15.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 352: SMM retest R1",
-   "detail": "Cycle 352 started: Social Media Manager retest, tasks SMM-R1 to SMM-R3 filed with sealed keys, SMM-R1 solvers dispatched.",
-   "currentTask": "Cycle 352: SMM retest, SMM-R1 pair",
-   "lastHeartbeat": "2026-11-24T21:14:00.000Z",
-   "observedAt": "2026-11-24T21:14:00.000Z",
+   "title": "Improvement cycle 353: SMM retest SMM-R2",
+   "detail": "Cycle 353 running: Social Media Manager retest, SMM-R2 solver pair dispatched (Lacy clip 1 three-platform plan).",
+   "currentTask": "SMM-R2 solver pair (specialist and generic) running",
+   "lastHeartbeat": "2026-11-24T21:37:49.000Z",
+   "observedAt": "2026-11-24T21:37:49.000Z",
    "needsUser": false,
    "category": "validation"
   },
@@ -2199,6 +2213,20 @@
    "observedAt": "2026-10-12T16:10:00.000Z",
    "needsUser": false,
    "category": "pandorabook"
+  },
+  {
+   "agentId": "smm-r2-generic",
+   "name": "SMM-R2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SMM-R2 generic draft in progress",
+   "detail": "Drafting Lacy clip 1 three-platform posting plan from task file and 3 inputs only.",
+   "currentTask": "Draft SMM-R2 generic posting plan",
+   "lastHeartbeat": "2026-11-24T21:39:24.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-landing-portal-audit",
