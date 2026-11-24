@@ -1,76 +1,20 @@
 {
- "generatedAt": "2026-11-24T19:12:28.000Z",
- "summary": "Ghostname Team improvement cycle 343 complete: User Researcher pairs sealed for blind judging in cycle 344.",
+ "generatedAt": "2026-11-24T19:17:00.000Z",
+ "summary": "1 run active (Ghostname improvement cycle), 3 recent checks completed clean, 7 items scheduled, and 5 attention items including 2 delivery-blocked watches and 3 repeatedly failing jobs.",
  "agents": [
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Memory daily backup to Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 21 consecutive failures, last run failed Nov 24 at 23:26 PHT; last success was Nov 4. Next run 23:30 PHT today.",
+   "title": "Memory daily backup to Drive",
+   "detail": "Failed again Nov 24 at 23:26 PHT, 21 consecutive failures with no recorded reason. Last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T18:16:34.000Z",
+   "observedAt": "2026-11-24T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: 87 consecutive failures and paused; the chat it posts to can no longer receive results. Last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T18:16:34.000Z",
-   "needsUser": true,
-   "category": "Messaging"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Attention: 85 consecutive failures and paused; the chat it posts to can no longer receive results. Last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T18:16:34.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures, last run failed Nov 23 at 19:05 PHT; last success was Nov 2. Next run Nov 26 at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T18:16:34.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures; last run failed Nov 23 at 08:56 PHT, last success Nov 4. Next check Mon Nov 30 at 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T18:16:34.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -85,6 +29,34 @@
    "observedAt": "2026-11-24T14:37:55.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the chat it posts to can no longer receive results, action required. 85 consecutive failures; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T14:35:07.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results, action required. 87 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T13:46:26.000Z",
+   "needsUser": true,
+   "category": "Session watch"
   },
   {
    "agentId": null,
@@ -141,6 +113,20 @@
    "observedAt": "2026-11-23T15:28:16.000Z",
    "needsUser": true,
    "category": "blocktales"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed Nov 23 at 19:05 PHT, 7 consecutive failures with no recorded reason. Last success Nov 2.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T11:05:58.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -211,6 +197,20 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed Nov 23 at 08:56 PHT, 3 consecutive failures with no recorded reason. Last success Nov 4; next check Mon Nov 30.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T00:56:31.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team Improvement Cycle 344",
+   "detail": "Cycle 344 judging User Researcher: 3 fresh-context QA judges scoring sealed UR-T1/T2/T3 pairs blind.",
+   "currentTask": "Cycle 344: blind judging User Researcher UR-T1/T2/T3",
+   "lastHeartbeat": "2026-11-24T19:16:30.000Z",
+   "observedAt": "2026-11-24T19:16:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,20 +2383,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 343",
-   "detail": "Cycle 343 done: User Researcher sealed (6 neutrals, 0 identity hits); judging cycle 344. Scoreboard 11 validated, 1 flagged.",
-   "currentTask": "Cycle 343 complete",
-   "lastHeartbeat": "2026-11-24T19:12:28.000Z",
-   "observedAt": "2026-11-24T19:12:28.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3764,6 +3764,20 @@
    "detail": "WT-S2 generic solver done (posted by cycle parent): 13,284 bytes, 2,018 words, 114s.",
    "currentTask": "WT-S2 watch plan done",
    "lastHeartbeat": "2026-11-23T23:49:21.000Z",
+   "observedAt": "2026-11-23T23:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "watcher-retest2-wt-s2-specialist",
+   "name": "WT-S2 specialist solver",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WT-S2 specialist solver",
+   "detail": "WT-S2 specialist solver done (posted by cycle parent): 13,723 bytes, 1,996 words, 125s.",
+   "currentTask": "WT-S2 watch plan done",
+   "lastHeartbeat": "2026-11-23T23:49:31.000Z",
    "observedAt": "2026-11-23T23:51:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
