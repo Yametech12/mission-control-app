@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T13:06:51.000Z",
- "summary": "Cycle 314: Data Analyst validation started, DA-T1 solvers dispatched.",
+ "generatedAt": "2026-11-24T13:15:43.000Z",
+ "summary": "Generic solver completed DA-T1 feasibility scoring table for validation cycle 314.",
  "agents": [
   {
    "agentId": null,
@@ -2369,20 +2369,6 @@
    "category": "team"
   },
   {
-   "agentId": "team-validation-generic",
-   "name": "Validation generic solver",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Validation generic FC-T3",
-   "detail": "FC-T3 generic collected: 8,044 bytes, 1,240 words, about 44s (posted by cycle parent)",
-   "currentTask": "FC-T3 generic output collected and verified",
-   "lastHeartbeat": "2026-11-24T12:19:55.000Z",
-   "observedAt": "2026-11-24T12:19:55.000Z",
-   "needsUser": false,
-   "category": "team"
-  },
-  {
    "agentId": "mission-control-apk",
    "name": "mission-control-apk",
    "role": "builder",
@@ -3723,6 +3709,20 @@
    "currentTask": "RM-T2 generic solve complete",
    "lastHeartbeat": "2026-11-23T16:33:30.000Z",
    "observedAt": "2026-11-23T16:33:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-rm-t2-specialist",
+   "name": "RM-T2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T2 Specialist Solver",
+   "detail": "Done: rm-t2-specialist.md written (8,364 bytes). Banned list now 3 groups; next run csecommunityph, csereviewers.",
+   "currentTask": "RM-T2 rotation repair draft",
+   "lastHeartbeat": "2026-11-23T16:31:46.000Z",
+   "observedAt": "2026-11-23T16:31:46.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
   }
