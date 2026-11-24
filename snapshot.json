@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:41:30.000Z",
- "summary": "Fact Checker FC-T1 specialist run",
+ "generatedAt": "2026-11-24T11:43:13.000Z",
+ "summary": "Cycle 308 complete: Fact Checker first run, FC-T1 pair collected, key K3 repaired.",
  "agents": [
   {
    "agentId": null,
@@ -785,20 +785,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 308",
-   "detail": "Cycle 308 working: Fact Checker first validation, filing 3 real tasks from Nov job records, FC-T1 pair next.",
-   "currentTask": "Cycle 308: Fact Checker first run, filing FC-T1 to FC-T3 tasks and keys",
-   "lastHeartbeat": "2026-11-24T11:36:52.000Z",
-   "observedAt": "2026-11-24T11:36:52.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2327,6 +2313,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 308",
+   "detail": "Cycle 308 done: Fact Checker FC-T1 pair collected and verified, key K3 defect repaired at collection, FC-T2 runs cycle 309.",
+   "currentTask": "Cycle 308 complete: Fact Checker FC-T1 pair collected, key K3 repaired",
+   "lastHeartbeat": "2026-11-24T11:43:13.000Z",
+   "observedAt": "2026-11-24T11:43:13.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-fact-checker",
    "name": "team-fact-checker",
    "role": "auditor",
@@ -3711,20 +3711,6 @@
    "observedAt": "2026-11-23T17:11:29.000Z",
    "needsUser": false,
    "category": "blocktales"
-  },
-  {
-   "agentId": "team-routing-panel-220",
-   "name": "Routing Panel 220",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing Panel 220",
-   "detail": "Routing Panel 220 done: RC-T1 Scriptwriter, RC-T2 Social Media Manager, RC-T3 Security Auditor, RC-T4 Video Editor, RC-T5 Art Director",
-   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-23T17:10:50.000Z",
-   "observedAt": "2026-11-23T17:10:50.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
