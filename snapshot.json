@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T15:07:55.000Z",
- "summary": "Ghostname Team improvement cycle 323 complete: Compliance Officer CO-T3 pair collected, all three pairs ready for sealing",
+ "generatedAt": "2026-11-24T15:10:00.000Z",
+ "summary": "Cycle 324 sealing Compliance Officer pairs",
  "agents": [
   {
    "agentId": "team-lead-yame-call",
@@ -813,6 +813,90 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-lead-gt114",
+   "name": "GT-114 Lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-20261124-114: SASE/CSE portal full audit + fix",
+   "detail": "Full audit running: Architect, Systems Builder, Fact Checker, Security Auditor. Fix phase blocked pending owner go-ahead on repo execution.",
+   "currentTask": "S6 pending: audit fan-out running, compiling findings when reports land",
+   "lastHeartbeat": "2026-11-24T15:16:00.000Z",
+   "observedAt": "2026-11-24T15:16:00.000Z",
+   "needsUser": true,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-architect",
+   "name": "Architect",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Architect: portal code and content audit",
+   "detail": "Auditing repo copy, prices, counts, links, banned phrase, em dashes (posted by job lead)",
+   "currentTask": "Code and content audit of sase-exam-portal (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:16:00.000Z",
+   "observedAt": "2026-11-24T15:16:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-systems-builder",
+   "name": "Systems Builder",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Systems Builder: portal API and state audit",
+   "detail": "Auditing api/ auth flows, cross-track session fix, state-write pattern (posted by job lead)",
+   "currentTask": "Portal API, session, isolation, state-write audit (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:16:00.000Z",
+   "observedAt": "2026-11-24T15:16:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-fact-checker",
+   "name": "Fact Checker",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Fact Checker: site claims vs source data",
+   "detail": "Checking 167/369, 450 questions, exam and lesson counts vs bank files (posted by job lead)",
+   "currentTask": "Verifying every site price, count, claim against source data (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:16:00.000Z",
+   "observedAt": "2026-11-24T15:16:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-security-auditor",
+   "name": "Security Auditor",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Security Auditor: paid content exposure",
+   "detail": "Checking static-file exposure of paid content in code and live URLs (posted by job lead)",
+   "currentTask": "Public exposure audit of paid banks and lesson libraries (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:16:00.000Z",
+   "observedAt": "2026-11-24T15:16:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 324",
+   "detail": "Sealing Compliance Officer CO-T1 to CO-T3 pairs under the cycle 199 differential rule; judging cycle 326.",
+   "currentTask": "Sealing Compliance Officer pairs (cycle 324)",
+   "lastHeartbeat": "2026-11-24T15:10:00.000Z",
+   "observedAt": "2026-11-24T15:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "22c07f17-af96-4d0a-bd6b-e59e525ffe4b",
@@ -2355,20 +2439,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 323",
-   "detail": "Cycle 323 done: CO-T3 pair collected (specialist 7,157 bytes, 82s; generic 6,594 bytes, 50s), key checked, no defect; sealing 324, judging 326.",
-   "currentTask": "Cycle 323 complete: CO-T3 pair collected",
-   "lastHeartbeat": "2026-11-24T15:07:55.000Z",
-   "observedAt": "2026-11-24T15:07:55.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-compliance-officer",
    "name": "Compliance Officer",
    "role": "researcher",
@@ -2404,20 +2474,6 @@
    "status": "completed",
    "title": "App Builder: Yame Call Flutter app",
    "detail": "Closed: v1 and Phase 2 code pushed; job cancelled by owner. Posted by job lead.",
-   "currentTask": "Closed: job cancelled by owner",
-   "lastHeartbeat": "2026-11-24T14:37:55.000Z",
-   "observedAt": "2026-11-24T14:37:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Systems Builder: Yame Call backend glue",
-   "detail": "Closed: backend staged and merged, never deployed; job cancelled by owner. Posted by job lead.",
    "currentTask": "Closed: job cancelled by owner",
    "lastHeartbeat": "2026-11-24T14:37:55.000Z",
    "observedAt": "2026-11-24T14:37:55.000Z",
@@ -2463,20 +2519,6 @@
    "currentTask": "Completed: DESIGN.md and icon delivered",
    "lastHeartbeat": "2026-11-24T13:52:26.000Z",
    "observedAt": "2026-11-24T13:52:26.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-architect",
-   "name": "Architect",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Architect: Yame Call architecture",
-   "detail": "DONE: ARCHITECTURE.md 279 lines, D1 to D20 incl. emergency trigger config. Posted by job lead.",
-   "currentTask": "Completed: ARCHITECTURE.md delivered",
-   "lastHeartbeat": "2026-11-24T13:48:22.000Z",
-   "observedAt": "2026-11-24T13:48:22.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3753,6 +3795,48 @@
    "observedAt": "2026-11-23T17:28:47.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "kogama-gt99",
+   "name": "Kogama Team GT99",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 Oates Short, Kogama voxel rebuild",
+   "detail": "COMPLETE. Final MP4 QA-passed: 720x1280, 24 fps, 59.60 s, -16.36 LUFS. Mouth watch zero incidents, captions word-for-word clean, staging fixes 5 of 5. Ready for owner review; posting gate locked.",
+   "currentTask": "Job complete, final report delivered to parent",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "gt99-audio-engineer",
+   "name": "Ghostname Audio Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 audio bed and SFX (Ghostname assist)",
+   "detail": "COMPLETE (posted by job lead). Bed and SFX under Julian delivered: 59.60 s, bed at voice minus 18 dB, SFX map placed. Report: sound-report.md.",
+   "currentTask": "Done",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "gt99-scriptwriter",
+   "name": "Ghostname Scriptwriter",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 caption cue plan (Ghostname assist)",
+   "detail": "COMPLETE (posted by job lead). 30 cues, one emphasis per beat, word-for-word verified 149 of 149. Report: caption-plan.md.",
+   "currentTask": "Done",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
   }
  ]
 }
