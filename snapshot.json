@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:59:37.000Z",
- "summary": "Cycle 309 complete: Fact Checker FC-T2 pair collected and verified.",
+ "generatedAt": "2026-11-24T12:12:00.000Z",
+ "summary": "Cycle 310 routing check complete: 2 of 5.",
  "agents": [
   {
    "agentId": null,
@@ -2313,6 +2313,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 310",
+   "detail": "Routing check 34 done: 2 of 5 (Caption Writer, Brand Identity Designer). Rules 39 and 40 added. FC-T3 runs cycle 311.",
+   "currentTask": "Cycle 310 routing check complete: 2 of 5",
+   "lastHeartbeat": "2026-11-24T12:12:00.000Z",
+   "observedAt": "2026-11-24T12:12:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-fact-checker",
    "name": "Fact Checker",
    "role": "researcher",
@@ -2325,20 +2339,6 @@
    "observedAt": "2026-11-24T11:59:37.000Z",
    "needsUser": false,
    "category": "validation-loop"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 309: Fact Checker FC-T2",
-   "detail": "Cycle 309 complete: FC-T2 pair collected (specialist 10,477 bytes, 33s; generic 9,919 bytes, about 30s). FC-T3 runs cycle 311; sealing 312; judging 313.",
-   "currentTask": "Cycle 309 complete",
-   "lastHeartbeat": "2026-11-24T11:59:37.000Z",
-   "observedAt": "2026-11-24T11:59:37.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -2395,20 +2395,6 @@
    "observedAt": "2026-11-24T10:57:48.000Z",
    "needsUser": false,
    "category": "Apps"
-  },
-  {
-   "agentId": "team-routing-panel-305",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check panel cycle 305",
-   "detail": "Routing panel cycle 305 complete: RC-T1 Fact Checker 7-1, RC-T2 Fresh-Eye Reviewer 8-0, RC-T3 Data Analyst 6-2, RC-T4 Document Auditor 5-3, RC-T5 Site Builder 7-1.",
-   "currentTask": "Panel picks filed: Fact Checker, Fresh-Eye Reviewer, Data Analyst, Document Auditor, Site Builder",
-   "lastHeartbeat": "2026-11-24T10:49:38.000Z",
-   "observedAt": "2026-11-24T10:49:38.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-competitor-analyst",
@@ -3711,6 +3697,20 @@
    "observedAt": "2026-11-23T17:10:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-rm-t2-generic",
+   "name": "RM-T2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T2 Generic Solver",
+   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
+   "currentTask": "RM-T2 generic solve complete",
+   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
+   "observedAt": "2026-11-23T16:33:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
   }
  ]
 }
