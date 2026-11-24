@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:16:19.000Z",
- "summary": "1 clip render running, 6 tasks completed today, 7 scheduled, and 5 jobs need attention: 3 failing on a spawn error and 2 blocked on undeliverable results.",
+ "generatedAt": "2026-11-24T11:25:34.000Z",
+ "summary": "Cycle 307 started: blind judging of Competitor Analyst (CA-T1 to CA-T3) in fresh QA sessions.",
  "agents": [
   {
    "agentId": null,
@@ -785,6 +785,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 307: Competitor Analyst judging",
+   "detail": "Cycle 307 judging Competitor Analyst blind: three fresh QA judges score the sealed CA-T1 to CA-T3 pairs.",
+   "currentTask": "Cycle 307: judging Competitor Analyst (CA-T1 to CA-T3) blind in fresh QA sessions",
+   "lastHeartbeat": "2026-11-24T11:25:34.000Z",
+   "observedAt": "2026-11-24T11:25:34.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
@@ -2313,6 +2327,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "19:24 PHT check done: 30 threads, 0 new messages, 0 GCash refs, no replies sent.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T11:24:37.000Z",
+   "observedAt": "2026-11-24T11:24:37.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "mission-control-apk",
    "name": "mission-control-apk",
    "role": "builder",
@@ -2341,20 +2369,6 @@
    "category": "Apps"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 306: Competitor Analyst sealing",
-   "detail": "Cycle 306 done: Competitor Analyst sealed, 6 neutral files, 0 identity hits; judging cycle 307.",
-   "currentTask": "Cycle 306 done: Competitor Analyst sealed",
-   "lastHeartbeat": "2026-11-24T11:10:18.000Z",
-   "observedAt": "2026-11-24T11:10:18.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "b4d99ea9-7398-4ec8-8521-ea73248f232b",
    "name": "Work Dashboard builder",
    "role": "builder",
@@ -2367,20 +2381,6 @@
    "observedAt": "2026-11-24T10:57:48.000Z",
    "needsUser": false,
    "category": "Apps"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "18:54 PHT check complete: 30 threads, 0 new buyer messages, unread 0. Page access OK.",
-   "currentTask": "Inbox check complete, no new messages",
-   "lastHeartbeat": "2026-11-24T10:54:48.000Z",
-   "observedAt": "2026-11-24T10:54:48.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-routing-panel-305",
@@ -3711,6 +3711,20 @@
    "observedAt": "2026-11-23T17:10:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-rm-t2-generic",
+   "name": "RM-T2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T2 Generic Solver",
+   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
+   "currentTask": "RM-T2 generic solve complete",
+   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
+   "observedAt": "2026-11-23T16:33:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
   }
  ]
 }
