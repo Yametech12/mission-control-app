@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T16:36:30.000Z",
- "summary": "GT-20261125-117 GhostLabs Release 2 provenance candidate: intake done, S2 engine upgrade starting.",
+ "generatedAt": "2026-11-24T16:40:30.000Z",
+ "summary": "Ghostname Team improvement cycle 331 complete: Consequence Planner pairs sealed clean for blind judging in cycle 332. Scoreboard still 11 validated, 1 flagged, 67 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -839,20 +839,6 @@
    "currentTask": "S2: engine provenance upgrade in candidate-gt117",
    "lastHeartbeat": "2026-11-24T16:36:30.000Z",
    "observedAt": "2026-11-24T16:36:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 331",
-   "detail": "Cycle 331 started: sealing Consequence Planner CP-T1 to CP-T3 pairs under the cycle 199 differential rule for judging cycle 332.",
-   "currentTask": "Sealing Consequence Planner pairs CP-T1 to CP-T3",
-   "lastHeartbeat": "2026-11-24T16:36:00.000Z",
-   "observedAt": "2026-11-24T16:36:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2411,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 331",
+   "detail": "Cycle 331 complete: Consequence Planner CP-T1 to CP-T3 sealed clean (16 drops, 2 fragment edits, 6 neutrals, 0 identity hits). Judging cycle 332.",
+   "currentTask": "Cycle 331 sealed; judging cycle 332",
+   "lastHeartbeat": "2026-11-24T16:40:30.000Z",
+   "observedAt": "2026-11-24T16:40:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-lead-gt116-d1-deploy",
    "name": "gt116-job-lead",
    "role": "coordinator",
@@ -3795,20 +3795,6 @@
    "observedAt": "2026-11-23T20:11:00.000Z",
    "needsUser": false,
    "category": "team"
-  },
-  {
-   "agentId": "seo-t2-judge",
-   "name": "SEO T2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SEO T2 judge (carried by parent)",
-   "detail": "T2 judge filed B 8.50 vs A 7.75 and flagged the seal leak; snapshot failed once on per-item sourceKey, carried by parent.",
-   "currentTask": "Judging complete",
-   "lastHeartbeat": "2026-11-23T20:01:30.000Z",
-   "observedAt": "2026-11-23T20:01:30.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   }
  ]
 }
