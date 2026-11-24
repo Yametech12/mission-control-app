@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T10:54:48.000Z",
- "summary": "SASE inbox watch complete: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-24T11:10:18.000Z",
+ "summary": "Cycle 306 done: Competitor Analyst sealed for judging cycle 307.",
  "agents": [
   {
    "agentId": null,
@@ -2299,6 +2299,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "mission-control-apk",
+   "name": "mission-control-apk",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Mission Control Android APK",
+   "detail": "Done: APK v1 built and signed (638,181 bytes), feed live and auto-publishing every 5 min, APK sent to Lobot message 1046. Phone install test is the owner's check.",
+   "currentTask": "Complete: APK delivered to owner via Lobot",
+   "lastHeartbeat": "2026-11-24T11:12:00.000Z",
+   "observedAt": "2026-11-24T11:12:00.000Z",
+   "needsUser": false,
+   "category": "apps"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 306: Competitor Analyst sealing",
+   "detail": "Cycle 306 done: Competitor Analyst sealed, 6 neutral files, 0 identity hits; judging cycle 307.",
+   "currentTask": "Cycle 306 done: Competitor Analyst sealed",
+   "lastHeartbeat": "2026-11-24T11:10:18.000Z",
+   "observedAt": "2026-11-24T11:10:18.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2311,20 +2339,6 @@
    "observedAt": "2026-11-24T10:54:48.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 305",
-   "detail": "Cycle 305 routing check 33 done: 3 of 5. Rule 38 added (decided-system application to Document Auditor). Scoreboard 11 validated, 1 flagged.",
-   "currentTask": "Cycle 305 complete: routing check 33 scored 3 of 5",
-   "lastHeartbeat": "2026-11-24T10:51:03.000Z",
-   "observedAt": "2026-11-24T10:51:03.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel-305",
@@ -3681,20 +3695,6 @@
    "currentTask": "RM-T1 generic solver run",
    "lastHeartbeat": "2026-11-23T16:26:15.000Z",
    "observedAt": "2026-11-23T16:26:15.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-reviewer-marketer-rm-t1-specialist",
-   "name": "rm-t1-specialist",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T1 specialist run completed",
-   "detail": "RM-T1 done: draft run pack written (6,410 bytes, 1,044 words, 8 sections, 0 em dashes). Answer drop plus new Analytical ordering question.",
-   "currentTask": "RM-T1 CSE Quick Check run pack draft, Nov 22 6:47 PM slot",
-   "lastHeartbeat": "2026-11-23T16:25:54.000Z",
-   "observedAt": "2026-11-23T16:25:54.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
