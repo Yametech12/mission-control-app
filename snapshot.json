@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T19:17:00.000Z",
- "summary": "1 run active (Ghostname improvement cycle), 3 recent checks completed clean, 7 items scheduled, and 5 attention items including 2 delivery-blocked watches and 3 repeatedly failing jobs.",
+ "generatedAt": "2026-11-24T19:24:00.000Z",
+ "summary": "SASE inbox watch 03:23 PHT: 30 threads checked, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team Improvement Cycle 344",
-   "detail": "Cycle 344 judging User Researcher: 3 fresh-context QA judges scoring sealed UR-T1/T2/T3 pairs blind.",
-   "currentTask": "Cycle 344: blind judging User Researcher UR-T1/T2/T3",
-   "lastHeartbeat": "2026-11-24T19:16:30.000Z",
-   "observedAt": "2026-11-24T19:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2389,12 +2375,26 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "SASE Page inbox watch",
-   "detail": "02:54 PHT check complete: 30 threads read via Graph API, 0 new buyer messages, no GCash refs, no PDF sent. Page access OK.",
-   "currentTask": "Inbox check complete, no new messages",
-   "lastHeartbeat": "2026-11-24T18:54:21.000Z",
-   "observedAt": "2026-11-24T18:54:21.000Z",
+   "detail": "03:23 PHT check complete: 30 threads, 0 new buyer messages, no GCash refs, no PDF sent. Page access OK.",
+   "currentTask": "Inbox watch complete, no new messages",
+   "lastHeartbeat": "2026-11-24T19:24:00.000Z",
+   "observedAt": "2026-11-24T19:24:00.000Z",
    "needsUser": false,
    "category": "sase"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team Improvement Cycle 344",
+   "detail": "Cycle 344: User Researcher blind judging LOST 7.42/7.58 (1W 0T 2L). Card rewritten (rewrite 1), prior card archived. Scoreboard 11 validated, 1 flagged.",
+   "currentTask": "Cycle 344 complete: User Researcher lost, card rewritten",
+   "lastHeartbeat": "2026-11-24T19:22:30.000Z",
+   "observedAt": "2026-11-24T19:22:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-generic-solver-ur-t3",
@@ -3764,20 +3764,6 @@
    "detail": "WT-S2 generic solver done (posted by cycle parent): 13,284 bytes, 2,018 words, 114s.",
    "currentTask": "WT-S2 watch plan done",
    "lastHeartbeat": "2026-11-23T23:49:21.000Z",
-   "observedAt": "2026-11-23T23:51:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "watcher-retest2-wt-s2-specialist",
-   "name": "WT-S2 specialist solver",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WT-S2 specialist solver",
-   "detail": "WT-S2 specialist solver done (posted by cycle parent): 13,723 bytes, 1,996 words, 125s.",
-   "currentTask": "WT-S2 watch plan done",
-   "lastHeartbeat": "2026-11-23T23:49:31.000Z",
    "observedAt": "2026-11-23T23:51:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
