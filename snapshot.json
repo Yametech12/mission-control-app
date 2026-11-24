@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T23:05:00.000Z",
- "summary": "Drone thesis team session GT-20261125-120 started: gap brief, panel sim, Ch 1-3 audit in progress.",
+ "generatedAt": "2026-11-24T23:01:00.000Z",
+ "summary": "Cycle 360: routing check (44th) on GT-20261124-112 legs.",
  "agents": [
   {
    "agentId": null,
@@ -869,6 +869,20 @@
    "observedAt": "2026-11-24T23:05:00.000Z",
    "needsUser": false,
    "category": "thesis"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 360",
+   "detail": "Cycle 360 routing check started: 5 GT-20261124-112 legs, Coordinator picks sealing, panel next.",
+   "currentTask": "Cycle 360 routing check, 5 legs of GT-20261124-112",
+   "lastHeartbeat": "2026-11-24T23:01:00.000Z",
+   "observedAt": "2026-11-24T23:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2425,20 +2439,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 359: Store Operator retest SO-R2",
-   "detail": "Cycle 359 complete: SO-R2 pair collected and verified, both pass K1-K6, close on every gate. Next: routing check cycle 360.",
-   "currentTask": "Cycle 359 complete: SO-R2 pair collected",
-   "lastHeartbeat": "2026-11-24T22:55:15.000Z",
-   "observedAt": "2026-11-24T22:55:15.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "so-r2-generic",
    "name": "SO-R2 generic solver",
    "role": "auditor",
@@ -3821,6 +3821,20 @@
    "currentTask": "AS-T2 SASE Meta Ads design pack complete",
    "lastHeartbeat": "2026-11-24T02:11:51.000Z",
    "observedAt": "2026-11-24T02:11:51.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ads-specialist",
+   "name": "Ads Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ads Specialist AS-T2",
+   "detail": "AS-T2 pack written: 7 sections, P167 throughout, spend PHP 0, campaign PAUSED, checklist all unchecked.",
+   "currentTask": "AS-T2 SASE reviewer Meta Ads design pack complete, draft only, spend locked at PHP 0",
+   "lastHeartbeat": "2026-11-24T02:11:45.000Z",
+   "observedAt": "2026-11-24T02:11:45.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
