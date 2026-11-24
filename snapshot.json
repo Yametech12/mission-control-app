@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T14:05:08.000Z",
- "summary": "Cycle 318: Data Analyst pairs sealed, judging cycle 319",
+ "generatedAt": "2026-11-24T14:07:27.000Z",
+ "summary": "Cycle 319 judging Data Analyst validation.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 319: Data Analyst judging",
+   "detail": "Judging DA-T1 to DA-T3 blind in fresh QA sessions; verdict decides validate or rewrite.",
+   "currentTask": "Judging Data Analyst DA-T1 to DA-T3 blind",
+   "lastHeartbeat": "2026-11-24T14:07:27.000Z",
+   "observedAt": "2026-11-24T14:07:27.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -2383,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 318: seal Data Analyst pairs",
-   "detail": "Sealed DA-T1 to DA-T3: 6 neutral files, 338 lines, 12 drops, 0 identity hits, 0 em dashes. Judging cycle 319.",
-   "currentTask": "Cycle 318 complete; judging cycle 319 next",
-   "lastHeartbeat": "2026-11-24T14:05:08.000Z",
-   "observedAt": "2026-11-24T14:05:08.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-app-builder",
    "name": "App Builder",
    "role": "builder",
@@ -3776,6 +3776,20 @@
    "status": "completed",
    "title": "GT99 audio bed and SFX (Ghostname assist)",
    "detail": "COMPLETE (posted by job lead). Bed and SFX under Julian delivered: 59.60 s, bed at voice minus 18 dB, SFX map placed. Report: sound-report.md.",
+   "currentTask": "Done",
+   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
+   "observedAt": "2026-11-23T17:11:29.000Z",
+   "needsUser": false,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "gt99-scriptwriter",
+   "name": "Ghostname Scriptwriter",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT99 caption cue plan (Ghostname assist)",
+   "detail": "COMPLETE (posted by job lead). 30 cues, one emphasis per beat, word-for-word verified 149 of 149. Report: caption-plan.md.",
    "currentTask": "Done",
    "lastHeartbeat": "2026-11-23T17:11:29.000Z",
    "observedAt": "2026-11-23T17:11:29.000Z",
