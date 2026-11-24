@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T20:42:18.000Z",
- "summary": "Routing Panel completed cycle 350 panel picks; file written, zero em dashes.",
+ "generatedAt": "2026-11-24T20:49:00.000Z",
+ "summary": "Cycle 351: judging the Page Operator retest (PO-R1 to PO-R3), sealed cycle 349.",
  "agents": [
   {
    "agentId": null,
@@ -816,15 +816,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 350",
-   "detail": "Cycle 350 routing check started: 5 legs of GT-20261124-116 (D1 fix, deploy). Coordinator picks sealing before panel read.",
-   "currentTask": "Routing check cycle 350: GT116 legs, coordinator picks sealing",
-   "lastHeartbeat": "2026-11-24T20:40:00.000Z",
-   "observedAt": "2026-11-24T20:40:00.000Z",
+   "title": "Improvement cycle 351: Page Operator retest judging",
+   "detail": "Cycle 351 judging Page Operator retest: 3 blind QA judges on sealed PO-R1 to PO-R3 pairs.",
+   "currentTask": "Cycle 351: judging Page Operator retest PO-R1 to PO-R3",
+   "lastHeartbeat": "2026-11-24T20:49:00.000Z",
+   "observedAt": "2026-11-24T20:49:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
