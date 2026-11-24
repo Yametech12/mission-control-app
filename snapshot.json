@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:36:39.000Z",
- "summary": "Cycle 336: MIA-T3 solvers running.",
+ "generatedAt": "2026-11-24T17:52:00.000Z",
+ "summary": "Clipp Team Pro Max upgrade complete: Groq caption and hook engine live, Gemini Hunter Assist live with fallback chain, integration brief filed.",
  "agents": [
   {
    "agentId": null,
@@ -815,18 +815,32 @@
    "category": "SASE"
   },
   {
-   "agentId": "clipp-team-promax",
-   "name": "Clipp Team Pro Max upgrade lead",
+   "agentId": "team-lead-gt119-batch-radar",
+   "name": "ghostlabs-r3-lead",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Clipp Team Pro Max upgrade (Gemini + Groq)",
-   "detail": "Groq Whisper proof run passed on a real 37s segment (59 words, word timestamps, 19 caption lines, ASS written). Gemini generate still 503; Hunter retries continue.",
-   "currentTask": "Groq Whisper proof run done; hook generator and Gemini Hunter retries next",
-   "lastHeartbeat": "2026-11-24T17:40:00.000Z",
-   "observedAt": "2026-11-24T17:40:00.000Z",
+   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
+   "detail": "GT119 S2 done: batch plumbing proven (harnesses 21/21 and 17/17, battery 129/129, pdf.js vendored, zero external requests); S3 batch UI spawning (posted by the job lead)",
+   "currentTask": "S2 accepted (plumbing proven); spawning Site Builder S3 batch UI",
+   "lastHeartbeat": "2026-11-24T17:39:00.000Z",
+   "observedAt": "2026-11-24T17:39:00.000Z",
    "needsUser": false,
-   "category": "clipping"
+   "category": "ghostlabs"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT119 S3 Site Builder: batch UI",
+   "detail": "Site Builder starting S3 batch UI for GT119 (posted by the job lead)",
+   "currentTask": "S3: batch UI (queue, ledger strip, inspector, CSV, lock, calibration pack)",
+   "lastHeartbeat": "2026-11-24T17:39:00.000Z",
+   "observedAt": "2026-11-24T17:39:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -841,34 +855,6 @@
    "observedAt": "2026-11-24T17:36:39.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-lead-gt119-batch-radar",
-   "name": "ghostlabs-r3-lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
-   "detail": "GT119 gate cleared: GT118 deployed (smoke 13 of 13); candidate-gt119 hash-verified from live tree; S2 batch plumbing spawning (posted by the job lead)",
-   "currentTask": "Gate cleared (GT118 deployed); candidate-gt119 copied; spawning Site Builder S2 batch plumbing",
-   "lastHeartbeat": "2026-11-24T17:26:00.000Z",
-   "observedAt": "2026-11-24T17:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT119 S2 Site Builder: batch plumbing",
-   "detail": "Site Builder starting S2 batch plumbing for GT119 (posted by the job lead)",
-   "currentTask": "S2: batch plumbing (worker pool, pdf.js, caps, IndexedDB) in candidate-gt119",
-   "lastHeartbeat": "2026-11-24T17:26:00.000Z",
-   "observedAt": "2026-11-24T17:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   },
   {
    "agentId": "team-fact-checker",
@@ -2411,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "clipp-team-promax",
+   "name": "Clipp Team Pro Max upgrade lead",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Clipp Team Pro Max upgrade (Gemini + Groq)",
+   "detail": "Done. Groq proven (Whisper timestamps + 10 ranked hooks on a real segment). Gemini video understanding proven via gemini-3.6-flash after flagship models 503d. Brief filed. Nothing posted.",
+   "currentTask": "Complete: both assists built and proven; brief filed",
+   "lastHeartbeat": "2026-11-24T17:52:00.000Z",
+   "observedAt": "2026-11-24T17:52:00.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
    "agentId": "team-lead-gt118-minors-deploy",
    "name": "team-lead-gt118-minors-deploy",
    "role": "coordinator",
@@ -3795,20 +3795,6 @@
    "observedAt": "2026-11-23T20:50:02.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "smm-t1-specialist",
-   "name": "SMM-T1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-T1 specialist solver",
-   "detail": "SMM-T1 specialist run complete: Jo Koy plan draft written, 11904 bytes, all 7 sections, no discrepancies found.",
-   "currentTask": "Draft Jo Koy pack posting operation plan (SMM-T1)",
-   "lastHeartbeat": "2026-11-23T20:40:13.000Z",
-   "observedAt": "2026-11-23T20:40:13.000Z",
-   "needsUser": false,
-   "category": "team"
   }
  ]
 }
