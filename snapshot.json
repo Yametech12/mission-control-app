@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T16:54:00.000Z",
- "summary": "SASE inbox watch 00:54 PHT: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-24T17:01:00.000Z",
+ "summary": "GT-20261125-117: S5 PASS WITH NOTES. Owner anti-slop reinforcement applied via S4b and S5b addenda, then gate package.",
  "agents": [
   {
    "agentId": null,
@@ -821,10 +821,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-20261125-117 GhostLabs Release 2: click-to-trace provenance (candidate only)",
-   "detail": "S4 QA PASS WITH NOTES: battery 129/129 independent, spans 0 failures, CRLF and AMBIGUOUS verified, 1 Minor (badge layout shift). S5 Fresh-Eye spawning. Posted by the job lead.",
-   "currentTask": "S4 QA accepted (PASS WITH NOTES, 1 Minor); spawning S5 Fresh-Eye",
-   "lastHeartbeat": "2026-11-24T16:55:00.000Z",
-   "observedAt": "2026-11-24T16:55:00.000Z",
+   "detail": "S5 Fresh-Eye PASS WITH NOTES (5 Minor). Owner anti-slop reinforcement recorded; explicit anti-slop verdicts running as S4b (QA census) and S5b (Fresh-Eye section). Posted by the job lead.",
+   "currentTask": "Owner anti-slop reinforcement applied: S4b QA census and S5b Fresh-Eye addendum running; then gate package",
+   "lastHeartbeat": "2026-11-24T17:01:00.000Z",
+   "observedAt": "2026-11-24T17:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "qa-tester",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "QA Tester: GT117 S4b anti-slop addendum",
+   "detail": "S4b running: static census of every S3 addition classified by whether it serves the provenance mechanism, per-prohibition verdicts. Posted by the job lead.",
+   "currentTask": "S4b: anti-slop chrome census of candidate vs live GT84",
+   "lastHeartbeat": "2026-11-24T17:01:00.000Z",
+   "observedAt": "2026-11-24T17:01:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -834,13 +848,27 @@
    "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Fresh-Eye Reviewer: GT117 S5 screenshots-only review",
-   "detail": "Starting S5: screenshots-only owner-eye review of the provenance change (field traced, check traced, AMBIGUOUS states) against the unchanged GT84 design. Posted by the job lead.",
-   "currentTask": "S5: screenshots-only review of candidate-gt117 incl. highlight states",
-   "lastHeartbeat": "2026-11-24T16:55:00.000Z",
-   "observedAt": "2026-11-24T16:55:00.000Z",
+   "title": "Fresh-Eye Reviewer: GT117 S5 review + S5b anti-slop addendum",
+   "detail": "S5 complete: PASS WITH NOTES, 5 Minor (F1 badge shift, F2 legend and check ID, F3 currency tag, F4 badge wrap, F5 pick marking). Now S5b anti-slop addendum. Posted by the job lead.",
+   "currentTask": "S5b: explicit anti-slop addendum (per-prohibition verdicts, strip test)",
+   "lastHeartbeat": "2026-11-24T17:01:00.000Z",
+   "observedAt": "2026-11-24T17:01:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 333: Market Intelligence Analyst",
+   "detail": "Cycle 333 started. Filing 3 real MIA tasks, then running the MIA-T1 solver pair (AI-code security audit category scan).",
+   "currentTask": "Filing Market Intelligence Analyst tasks and running MIA-T1 solvers",
+   "lastHeartbeat": "2026-11-24T16:58:00.000Z",
+   "observedAt": "2026-11-24T16:58:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
   },
   {
    "agentId": "team-fact-checker",
@@ -2383,20 +2411,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-qa-tester",
-   "name": "qa-tester",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA Tester: GT117 S4 independent verification",
-   "detail": "S4 complete: independent battery 129/129 (control 91/129), span accuracy 0 failures, CRLF identical, AMBIGUOUS verified end to end, banned-strings 0 violations, 6 screenshots. Posted by the job lead.",
-   "currentTask": "S4 complete: PASS WITH NOTES, 0 Critical, 0 Major, 1 Minor QA-M1",
-   "lastHeartbeat": "2026-11-24T16:55:00.000Z",
-   "observedAt": "2026-11-24T16:55:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-11-24T16:54:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 332",
-   "detail": "Cycle 332 done: Consequence Planner LOST blind judging 8.00 vs 8.17 (1W 2L); card rewritten (rewrite 1), prior card archived. Scoreboard still 11 validated, 1 flagged.",
-   "currentTask": "Cycle 332 complete: Consequence Planner judged, lost 8.00 vs 8.17, card rewritten",
-   "lastHeartbeat": "2026-11-24T16:52:17.000Z",
-   "observedAt": "2026-11-24T16:52:17.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-site-builder",
@@ -3781,6 +3781,34 @@
    "observedAt": "2026-11-23T20:29:50.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "routing-panel-235",
+   "name": "Routing panel 235",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel 235 (carried by parent)",
+   "detail": "Panel picks filed (4 of 5 matched). Panel's own dashboard snapshots failed on schema (missing sourceLabel); carried here by the parent.",
+   "currentTask": "Cycle 235 complete",
+   "lastHeartbeat": "2026-11-23T20:11:00.000Z",
+   "observedAt": "2026-11-23T20:11:00.000Z",
+   "needsUser": false,
+   "category": "team"
+  },
+  {
+   "agentId": "seo-t2-judge",
+   "name": "SEO T2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SEO T2 judge (carried by parent)",
+   "detail": "T2 judge filed B 8.50 vs A 7.75 and flagged the seal leak; snapshot failed once on per-item sourceKey, carried by parent.",
+   "currentTask": "Judging complete",
+   "lastHeartbeat": "2026-11-23T20:01:30.000Z",
+   "observedAt": "2026-11-23T20:01:30.000Z",
+   "needsUser": false,
+   "category": "team-validation"
   }
  ]
 }
