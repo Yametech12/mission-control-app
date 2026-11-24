@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T22:15:00.000Z",
- "summary": "Improvement cycle 356 in progress: sealing the Social Media Manager retest pairs.",
+ "generatedAt": "2026-11-24T22:25:00.000Z",
+ "summary": "Cycle 357: Social Media Manager retest judging, three fresh-context QA judges on sealed neutrals.",
  "agents": [
   {
    "agentId": null,
@@ -816,17 +816,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 356: SMM retest sealing",
-   "detail": "Cycle 356 sealing SMM retest: neutralizing 3 pairs under cycle 199 differential rule, judging cycle 357.",
-   "currentTask": "Cycle 356: sealing SMM retest pairs SMM-R1 to SMM-R3",
-   "lastHeartbeat": "2026-11-24T22:15:00.000Z",
-   "observedAt": "2026-11-24T22:15:00.000Z",
+   "title": "Ghostname Team improvement cycle 357",
+   "detail": "Judging SMM retest: 3 blind QA judges scoring sealed SMM-R1 to R3 pairs.",
+   "currentTask": "Judging SMM retest pairs SMM-R1 to SMM-R3 blind",
+   "lastHeartbeat": "2026-11-24T22:25:00.000Z",
+   "observedAt": "2026-11-24T22:25:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnam team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "06:24 PHT check done: Page access OK, 30 threads, 0 new buyer messages, no replies or PDF sent.",
+   "currentTask": "Inbox watch complete, no new messages",
+   "lastHeartbeat": "2026-11-24T22:24:00.000Z",
+   "observedAt": "2026-11-24T22:24:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-11-24T21:56:02.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "05:54 PHT check done: Page access OK, 30 threads, 0 new buyer messages, silent per rule.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T21:54:00.000Z",
-   "observedAt": "2026-11-24T21:54:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-smm-r3-generic",
