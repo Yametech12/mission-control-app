@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:26:00.000Z",
- "summary": "GT-20261125-119: sequencing gate cleared, candidate-gt119 copied from the deployed Release 2 tree, S2 batch plumbing spawning.",
+ "generatedAt": "2026-11-24T17:31:34.000Z",
+ "summary": "Routing panel cycle 335 started: 8 division leads voting on RC-T1 to RC-T5 from tasks.md and ROSTER_INDEX.md only.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "clipp-team-promax",
+   "name": "Clipp Team Pro Max upgrade lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Clipp Team Pro Max upgrade (Gemini + Groq)",
+   "detail": "Both APIs list models (Gemini 50, Groq 11). Running live generation pings to confirm each API actually answers.",
+   "currentTask": "Access check: generation pings on Gemini and Groq",
+   "lastHeartbeat": "2026-11-24T17:33:00.000Z",
+   "observedAt": "2026-11-24T17:33:00.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 335: routing check",
+   "detail": "Cycle 335 routing check running: 5 GT117 legs, coordinator picks sealed, panel reading tasks.",
+   "currentTask": "Routing check cycle 335: panel reading GT117 tasks",
+   "lastHeartbeat": "2026-11-24T17:27:00.000Z",
+   "observedAt": "2026-11-24T17:27:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-lead-gt119-batch-radar",
@@ -2327,6 +2355,20 @@
    "category": "SASE portal"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing panel cycle 335",
+   "detail": "Panel started: voting on 5 routing tasks RC-T1 to RC-T5 for GT-20261125-117 legs.",
+   "currentTask": "Vote RC-T1 to RC-T5 routing picks",
+   "lastHeartbeat": "2026-11-24T17:31:34.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Routing panel"
+  },
+  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2465,20 +2507,6 @@
    "observedAt": "2026-11-24T17:25:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 334",
-   "detail": "Cycle 334 complete: MIA-T2 pair collected and verified (specialist 7,461 bytes, 98s; generic 7,602 bytes, 79s). Key clean, both pass K1-K7.",
-   "currentTask": "Cycle 334 complete",
-   "lastHeartbeat": "2026-11-24T17:19:55.000Z",
-   "observedAt": "2026-11-24T17:19:55.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-lead-gt117-provenance",
@@ -3781,6 +3809,20 @@
    "observedAt": "2026-11-23T20:50:02.000Z",
    "needsUser": false,
    "category": "validation"
+  },
+  {
+   "agentId": "smm-t1-specialist",
+   "name": "SMM-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-T1 specialist solver",
+   "detail": "SMM-T1 specialist run complete: Jo Koy plan draft written, 11904 bytes, all 7 sections, no discrepancies found.",
+   "currentTask": "Draft Jo Koy pack posting operation plan (SMM-T1)",
+   "lastHeartbeat": "2026-11-23T20:40:13.000Z",
+   "observedAt": "2026-11-23T20:40:13.000Z",
+   "needsUser": false,
+   "category": "team"
   }
  ]
 }
