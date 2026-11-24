@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T19:08:39.000Z",
- "summary": "Ghostname Team improvement cycle 343 sealing User Researcher pairs.",
+ "generatedAt": "2026-11-24T19:12:28.000Z",
+ "summary": "Ghostname Team improvement cycle 343 complete: User Researcher pairs sealed for blind judging in cycle 344.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 343",
-   "detail": "Cycle 343 sealing User Researcher UR-T1 to UR-T3 pairs for blind judging in cycle 344.",
-   "currentTask": "Sealing User Researcher pairs (cycle 343)",
-   "lastHeartbeat": "2026-11-24T19:08:39.000Z",
-   "observedAt": "2026-11-24T19:08:39.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 343",
+   "detail": "Cycle 343 done: User Researcher sealed (6 neutrals, 0 identity hits); judging cycle 344. Scoreboard 11 validated, 1 flagged.",
+   "currentTask": "Cycle 343 complete",
+   "lastHeartbeat": "2026-11-24T19:12:28.000Z",
+   "observedAt": "2026-11-24T19:12:28.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3764,20 +3764,6 @@
    "detail": "WT-S2 generic solver done (posted by cycle parent): 13,284 bytes, 2,018 words, 114s.",
    "currentTask": "WT-S2 watch plan done",
    "lastHeartbeat": "2026-11-23T23:49:21.000Z",
-   "observedAt": "2026-11-23T23:51:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "watcher-retest2-wt-s2-specialist",
-   "name": "WT-S2 specialist solver",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WT-S2 specialist solver",
-   "detail": "WT-S2 specialist solver done (posted by cycle parent): 13,723 bytes, 1,996 words, 125s.",
-   "currentTask": "WT-S2 watch plan done",
-   "lastHeartbeat": "2026-11-23T23:49:31.000Z",
    "observedAt": "2026-11-23T23:51:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
