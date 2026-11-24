@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T16:46:24.000Z",
- "summary": "Cycle 332: judging Consequence Planner blind.",
+ "generatedAt": "2026-11-24T16:51:00.000Z",
+ "summary": "GT-20261125-117: S3 UI wiring done (33/33 builder DOM tests). S4 independent QA starting.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,34 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-lead-gt117-provenance",
+   "name": "gt117-job-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-20261125-117 GhostLabs Release 2: click-to-trace provenance (candidate only)",
+   "detail": "S3 done: click-to-trace UI wired, builder DOM tests 33/33, banned-strings 0 violations. S4 independent QA spawning. Posted by the job lead.",
+   "currentTask": "S3 accepted at lead level; spawning S4 independent QA",
+   "lastHeartbeat": "2026-11-24T16:51:00.000Z",
+   "observedAt": "2026-11-24T16:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "qa-tester",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "QA Tester: GT117 S4 independent verification",
+   "detail": "Starting S4 independent verification of candidate-gt117: battery re-run with own loader, char-by-char span checks, CRLF and AMBIGUOUS cases, DOM interactions, screenshots. Posted by the job lead.",
+   "currentTask": "S4: independent battery, span accuracy, CRLF, AMBIGUOUS, parity, banned-strings, screenshots",
+   "lastHeartbeat": "2026-11-24T16:51:00.000Z",
+   "observedAt": "2026-11-24T16:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "auditor",
@@ -825,34 +853,6 @@
    "currentTask": "Judging Consequence Planner CP-T1 to CP-T3 blind",
    "lastHeartbeat": "2026-11-24T16:46:24.000Z",
    "observedAt": "2026-11-24T16:46:24.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-lead-gt117-provenance",
-   "name": "gt117-job-lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-20261125-117 GhostLabs Release 2: click-to-trace provenance (candidate only)",
-   "detail": "S2 done, lead-verified: battery 129/129 re-run, span slices exact on lead documents, AMBIGUOUS zero battery impact. S3 UI wiring spawning. Posted by the job lead.",
-   "currentTask": "S2 accepted after independent re-verification; spawning S3 UI wiring",
-   "lastHeartbeat": "2026-11-24T16:46:00.000Z",
-   "observedAt": "2026-11-24T16:46:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Site Builder: GT117 S3 UI click-to-trace wiring",
-   "detail": "S2 complete (engine provenance, battery 129/129). Now S3: field and check click-to-trace highlights, badges, AMBIGUOUS resolve in the UI. Posted by the job lead.",
-   "currentTask": "S3: UI click-to-trace wiring in candidate-gt117/index.html",
-   "lastHeartbeat": "2026-11-24T16:46:00.000Z",
-   "observedAt": "2026-11-24T16:46:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2411,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder: GT117 S2 engine + S3 UI wiring",
+   "detail": "S3 complete: provenance UI in candidate-gt117/index.html (MD5 2c51f8ec), DOM tests 33/33 PASS, battery 129/129. Posted by the job lead.",
+   "currentTask": "S2 and S3 complete; standing by for S6 fix loop if QA finds Critical or Major",
+   "lastHeartbeat": "2026-11-24T16:51:00.000Z",
+   "observedAt": "2026-11-24T16:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-lead-gt116-d1-deploy",
    "name": "gt116-job-lead",
    "role": "coordinator",
@@ -2419,20 +2433,6 @@
    "title": "GT-20261124-116: GhostLabs D1 fix, then deploy",
    "detail": "DELIVERED: D1 fixed, QA PASS, deployed as commit 0aea767, Vercel dpl_9tFutL2mPoBe5e7hBE6T4pfKRzKa READY, live smoke 12 of 12 PASS, no rollback. Posted by the job lead.",
    "currentTask": "Job closed, DELIVERED",
-   "lastHeartbeat": "2026-11-24T16:34:00.000Z",
-   "observedAt": "2026-11-24T16:34:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "qa-tester",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA Tester: D1 re-verification",
-   "detail": "Done, verdict PASS on all four checks. Posted by the job lead.",
-   "currentTask": "S3 complete, PASS",
    "lastHeartbeat": "2026-11-24T16:34:00.000Z",
    "observedAt": "2026-11-24T16:34:00.000Z",
    "needsUser": false,
