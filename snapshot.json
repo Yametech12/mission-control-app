@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T15:03:04.000Z",
- "summary": "CO-T3 specialist run complete: compliance check record drafted, both proposed actions REFUSED under gates G6 and G7.",
+ "generatedAt": "2026-11-24T15:07:55.000Z",
+ "summary": "Ghostname Team improvement cycle 323 complete: Compliance Officer CO-T3 pair collected, all three pairs ready for sealing",
  "agents": [
   {
    "agentId": "team-lead-yame-call",
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 323",
-   "detail": "Cycle 323 running: Compliance Officer CO-T3 solver pair (specialist + generic) dispatched.",
-   "currentTask": "Cycle 323: CO-T3 solvers",
-   "lastHeartbeat": "2026-11-24T14:59:40.000Z",
-   "observedAt": "2026-11-24T14:59:40.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "22c07f17-af96-4d0a-bd6b-e59e525ffe4b",
@@ -2369,6 +2355,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 323",
+   "detail": "Cycle 323 done: CO-T3 pair collected (specialist 7,157 bytes, 82s; generic 6,594 bytes, 50s), key checked, no defect; sealing 324, judging 326.",
+   "currentTask": "Cycle 323 complete: CO-T3 pair collected",
+   "lastHeartbeat": "2026-11-24T15:07:55.000Z",
+   "observedAt": "2026-11-24T15:07:55.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-compliance-officer",
    "name": "Compliance Officer",
    "role": "researcher",
@@ -3753,20 +3753,6 @@
    "observedAt": "2026-11-23T17:28:47.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "kogama-gt99",
-   "name": "Kogama Team GT99",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT99 Oates Short, Kogama voxel rebuild",
-   "detail": "COMPLETE. Final MP4 QA-passed: 720x1280, 24 fps, 59.60 s, -16.36 LUFS. Mouth watch zero incidents, captions word-for-word clean, staging fixes 5 of 5. Ready for owner review; posting gate locked.",
-   "currentTask": "Job complete, final report delivered to parent",
-   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
-   "observedAt": "2026-11-23T17:11:29.000Z",
-   "needsUser": false,
-   "category": "blocktales"
   }
  ]
 }
