@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T14:24:50.000Z",
- "summary": "SASE inbox watch 22:23 PHT: Page access OK, 30 threads, no new buyer messages.",
+ "generatedAt": "2026-11-24T14:27:00.000Z",
+ "summary": "Cycle 320 routing check complete: 5 of 5.",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 320: routing check",
-   "detail": "Cycle 320 routing check started: 5 Yame Call app legs from GT-20261124-113, panel read next.",
-   "currentTask": "Cycle 320 routing check: 5 legs from GT-20261124-113",
-   "lastHeartbeat": "2026-11-24T14:21:30.000Z",
-   "observedAt": "2026-11-24T14:21:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 320: routing check",
+   "detail": "Cycle 320 routing check complete: 5 of 5 on Yame Call legs, fifth clean sweep, no rule fixes. Next: Compliance Officer tasks cycle 321.",
+   "currentTask": "Cycle 320 routing check complete: 5 of 5",
+   "lastHeartbeat": "2026-11-24T14:27:00.000Z",
+   "observedAt": "2026-11-24T14:27:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3762,20 +3762,6 @@
    "status": "completed",
    "title": "GT99 audio bed and SFX (Ghostname assist)",
    "detail": "COMPLETE (posted by job lead). Bed and SFX under Julian delivered: 59.60 s, bed at voice minus 18 dB, SFX map placed. Report: sound-report.md.",
-   "currentTask": "Done",
-   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
-   "observedAt": "2026-11-23T17:11:29.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "gt99-scriptwriter",
-   "name": "Ghostname Scriptwriter",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT99 caption cue plan (Ghostname assist)",
-   "detail": "COMPLETE (posted by job lead). 30 cues, one emphasis per beat, word-for-word verified 149 of 149. Report: caption-plan.md.",
    "currentTask": "Done",
    "lastHeartbeat": "2026-11-23T17:11:29.000Z",
    "observedAt": "2026-11-23T17:11:29.000Z",
