@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:46:47.000Z",
- "summary": "Cycle 337: sealing Market Intelligence Analyst pairs.",
+ "generatedAt": "2026-11-24T17:47:00.000Z",
+ "summary": "GT-20261125-119: S3 batch UI accepted; S4 radar spawning.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,34 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-lead-gt119-batch-radar",
+   "name": "ghostlabs-r3-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
+   "detail": "GT119 S3 done: batch UI proven (DOM 38/38, CSV byte-exact, lock verified, calibration pack engine-verified); S4 radar spawning (posted by the job lead)",
+   "currentTask": "S3 accepted (batch UI proven); spawning Site Builder S4 radar and diff drawer",
+   "lastHeartbeat": "2026-11-24T17:47:00.000Z",
+   "observedAt": "2026-11-24T17:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT119 S4 Site Builder: radar + diff drawer",
+   "detail": "Site Builder starting S4 radar for GT119 (posted by the job lead)",
+   "currentTask": "S4: radar (5 rules, severity adjudication), diff drawer, dispute note button",
+   "lastHeartbeat": "2026-11-24T17:47:00.000Z",
+   "observedAt": "2026-11-24T17:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostlabs"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -841,34 +869,6 @@
    "observedAt": "2026-11-24T17:46:39.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-lead-gt119-batch-radar",
-   "name": "ghostlabs-r3-lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
-   "detail": "GT119 S2 done: batch plumbing proven (harnesses 21/21 and 17/17, battery 129/129, pdf.js vendored, zero external requests); S3 batch UI spawning (posted by the job lead)",
-   "currentTask": "S2 accepted (plumbing proven); spawning Site Builder S3 batch UI",
-   "lastHeartbeat": "2026-11-24T17:39:00.000Z",
-   "observedAt": "2026-11-24T17:39:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT119 S3 Site Builder: batch UI",
-   "detail": "Site Builder starting S3 batch UI for GT119 (posted by the job lead)",
-   "currentTask": "S3: batch UI (queue, ledger strip, inspector, CSV, lock, calibration pack)",
-   "lastHeartbeat": "2026-11-24T17:39:00.000Z",
-   "observedAt": "2026-11-24T17:39:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   },
   {
    "agentId": "team-fact-checker",
