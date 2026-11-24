@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:44:00.000Z",
- "summary": "Cycle 353 done: SMM retest SMM-R2 pair collected and verified; SMM-R1 pair recovered.",
+ "generatedAt": "2026-11-24T21:51:39.000Z",
+ "summary": "SMM-R3 generic solver completed the Nov 25 to Dec 1 content calendar draft.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-smm-r3-specialist",
+   "name": "SMM-R3 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SMM-R3 specialist solver: weekly calendar Nov 25 to Dec 1",
+   "detail": "Drafting the per-account weekly calendar from the playbook, Nov 18 health check, and GT88 state file.",
+   "currentTask": "Draft SMM-R3 weekly calendar Nov 25 to Dec 1",
+   "lastHeartbeat": "2026-11-24T21:49:34.000Z",
+   "observedAt": "2026-11-24T21:49:34.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 354: SMM-R3 solvers",
+   "detail": "Social Media Manager retest, SMM-R3 weekly calendar solvers dispatched (specialist and generic).",
+   "currentTask": "SMM-R3 solver pair running",
+   "lastHeartbeat": "2026-11-24T21:48:09.000Z",
+   "observedAt": "2026-11-24T21:48:09.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,18 +2397,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "team-smm-r3-generic",
+   "name": "SMM-R3 generic solver",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 353: SMM retest SMM-R2",
-   "detail": "Cycle 353 complete: SMM-R2 pair verified (specialist 12,826 bytes, generic 11,948 bytes, 0 em dashes, K1-K7 pass); SMM-R1 pair recovered and verified.",
-   "currentTask": "Cycle 353 complete; SMM-R3 solvers next cycle 354",
-   "lastHeartbeat": "2026-11-24T21:44:00.000Z",
-   "observedAt": "2026-11-24T21:44:00.000Z",
+   "title": "SMM-R3 generic solver: weekly calendar draft",
+   "detail": "Calendar draft written: 3 confirmed Jo Koy slots, quota checked, 14 discrepancies flagged, no slot invented.",
+   "currentTask": "Draft Nov 25 to Dec 1 content calendar, generic solver",
+   "lastHeartbeat": "2026-11-24T21:51:39.000Z",
+   "observedAt": "2026-11-24T21:51:39.000Z",
    "needsUser": false,
-   "category": "validation"
+   "category": "ghostnam-team"
   },
   {
    "agentId": "smm-r2-specialist",
