@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T22:12:00.000Z",
- "summary": "Routing Panel cycle 355 complete: 5 picks filed, Security Auditor, Threat Hunter, Fact Checker, Compliance Officer, Systems Builder.",
+ "generatedAt": "2026-11-24T22:13:00.000Z",
+ "summary": "Improvement cycle 355 complete: routing check 5 of 5.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostnames Team improvement cycle 355",
-   "detail": "Cycle 355 routing check started: 5 legs (GT-20261124-111 four slices, GT-20261124-106 viseme leg), picks sealed, panel reading.",
-   "currentTask": "Cycle 355 routing check: tasks and picks sealed, panel running",
-   "lastHeartbeat": "2026-11-24T22:05:00.000Z",
-   "observedAt": "2026-11-24T22:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostnames Team improvement cycle 355",
+   "detail": "Cycle 355 routing check done: 5 of 5, ninth clean sweep in 43 checks. No rule fixes. SMM sealing cycle 356, judging 357.",
+   "currentTask": "Cycle 355 routing check complete: 5 of 5 clean sweep",
+   "lastHeartbeat": "2026-11-24T22:13:00.000Z",
+   "observedAt": "2026-11-24T22:13:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -3767,20 +3767,6 @@
    "observedAt": "2026-11-24T01:22:10.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "kogama-gt107",
-   "name": "kogama-gt107",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT107 rm6 engine pass: audit and completion",
-   "detail": "COMPLETE. Phonemes 100/100 exact (rm5 12/100), caption collisions 12 to 0 on the proof beat and 99 to 0 script-wide, deformation, jaw/cheek, 3 new props, DOF to desk/table. Report filed.",
-   "currentTask": "Complete: GT-20261124-107.md and reports filed",
-   "lastHeartbeat": "2026-11-24T01:12:00.000Z",
-   "observedAt": "2026-11-24T01:12:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
   }
  ]
 }
