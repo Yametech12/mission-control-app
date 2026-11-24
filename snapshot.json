@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T16:12:00.000Z",
- "summary": "GT115: candidate built (builder reports patched engine 129/129, unverified). Fact Checker, QA Tester, Fresh-Eye Reviewer now verifying independently.",
+ "generatedAt": "2026-11-24T16:14:59.000Z",
+ "summary": "CP-T3 specialist solver started: drafting the Jo Koy consequence map from the verified GT-20261123-75 inputs.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-cp-t3-generic",
+   "name": "CP-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CP-T3 generic solver",
+   "detail": "CP-T3 generic solver started: Jo Koy consequence map draft, inputs verified against task file.",
+   "currentTask": "Drafting Jo Koy consequence map CP-T3.",
+   "lastHeartbeat": "2026-11-24T16:15:30.000Z",
+   "observedAt": "2026-11-24T16:15:30.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 329",
+   "detail": "Cycle 329 running: Consequence Planner CP-T3 solver pair (specialist vs generic) for the Jo Koy campaign join map.",
+   "currentTask": "CP-T3 solvers: Consequence Planner vs generic",
+   "lastHeartbeat": "2026-11-24T16:13:02.000Z",
+   "observedAt": "2026-11-24T16:13:02.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "team-coordinator",
@@ -2313,6 +2341,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "team-cp-t3-specialist",
+   "name": "CP-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CP-T3 Jo Koy consequence map",
+   "detail": "Specialist solver started. Inputs verified against the task file. Writing the draft map to runs/cp-t3-specialist.md.",
+   "currentTask": "Draft CP-T3 Jo Koy consequence map",
+   "lastHeartbeat": "2026-11-24T16:14:59.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2407,20 +2449,6 @@
    "currentTask": "S4 complete",
    "lastHeartbeat": "2026-11-24T16:12:00.000Z",
    "observedAt": "2026-11-24T16:12:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 328: Consequence Planner CP-T2",
-   "detail": "Cycle 328 complete: CP-T2 pair collected (specialist 13,066 bytes, 301s; generic 11,231 bytes, 195s). Key clean, both pass K1-K7.",
-   "currentTask": "Cycle 328 complete: CP-T2 pair collected, CP-T3 runs cycle 329",
-   "lastHeartbeat": "2026-11-24T16:10:20.000Z",
-   "observedAt": "2026-11-24T16:10:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3795,6 +3823,20 @@
    "observedAt": "2026-11-23T18:38:54.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-page-operator-po-t3-generic",
+   "name": "Page Operator PO-T3 generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Page Operator PO-T3 generic",
+   "detail": "Draft report written: 4500 bytes, 716 words, all 7 sections in order, 0 em dashes, removal mechanism UNCONFIRMED.",
+   "currentTask": "PO-T3 draft report complete",
+   "lastHeartbeat": "2026-11-23T18:18:10.000Z",
+   "observedAt": "2026-11-23T18:18:10.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
