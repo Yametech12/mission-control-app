@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T16:02:00.000Z",
- "summary": "GT115: engine battery done (GT105 93/129, Genspark 91/129). Decision: keep GT105 core, cherry-pick 6 patches. Site Builder porting into candidate-gt115.",
+ "generatedAt": "2026-11-24T16:05:52.000Z",
+ "summary": "Consequence Planner CP-T2 specialist solver complete.",
  "agents": [
   {
    "agentId": null,
@@ -839,34 +839,6 @@
    "currentTask": "S4: copying GT84 pages into candidate-gt115 and porting the engine",
    "lastHeartbeat": "2026-11-24T16:02:00.000Z",
    "observedAt": "2026-11-24T16:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-consequence-planner",
-   "name": "Consequence Planner",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Consequence Planner CP-T2 specialist",
-   "detail": "Cycle 328 CP-T2 specialist solver running: BlockTales long-form consequence map.",
-   "currentTask": "Writing CP-T2 specialist consequence map",
-   "lastHeartbeat": "2026-11-24T16:00:51.000Z",
-   "observedAt": "2026-11-24T16:00:51.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver-cp-t2",
-   "name": "Generic solver CP-T2",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Generic solver CP-T2",
-   "detail": "Cycle 328 CP-T2 generic solver running: BlockTales long-form consequence map.",
-   "currentTask": "Writing CP-T2 generic consequence map",
-   "lastHeartbeat": "2026-11-24T16:00:49.000Z",
-   "observedAt": "2026-11-24T16:00:49.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2411,6 +2383,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-consequence-planner",
+   "name": "Consequence Planner",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Consequence Planner CP-T2 specialist",
+   "detail": "Cycle 328 CP-T2 specialist map done: 13066 bytes, 2006 words, verified 0 em/en dashes.",
+   "currentTask": "CP-T2 specialist consequence map complete",
+   "lastHeartbeat": "2026-11-24T16:05:52.000Z",
+   "observedAt": "2026-11-24T16:05:52.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-generic-solver-cp-t2",
+   "name": "Generic solver CP-T2",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Generic solver CP-T2",
+   "detail": "Cycle 328 CP-T2 generic consequence map done: 11231 bytes, 1785 words, verified.",
+   "currentTask": "CP-T2 generic consequence map complete",
+   "lastHeartbeat": "2026-11-24T16:04:04.000Z",
+   "observedAt": "2026-11-24T16:04:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-qa-automation-engineer",
    "name": "QA Automation Engineer",
    "role": "auditor",
@@ -3781,34 +3781,6 @@
    "observedAt": "2026-11-23T18:38:54.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-page-operator-po-t3-generic",
-   "name": "Page Operator PO-T3 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Page Operator PO-T3 generic",
-   "detail": "Draft report written: 4500 bytes, 716 words, all 7 sections in order, 0 em dashes, removal mechanism UNCONFIRMED.",
-   "currentTask": "PO-T3 draft report complete",
-   "lastHeartbeat": "2026-11-23T18:18:10.000Z",
-   "observedAt": "2026-11-23T18:18:10.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-page-operator-po-t3-specialist",
-   "name": "Page Operator PO-T3 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T3 specialist completed",
-   "detail": "PO-T3 draft filed: 5,053 bytes, 7 sections in order, removal mechanism UNCONFIRMED, ban-list item flagged for owner decision.",
-   "currentTask": "PO-T3 action report drafted and filed",
-   "lastHeartbeat": "2026-11-23T18:17:38.000Z",
-   "observedAt": "2026-11-23T18:17:38.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
