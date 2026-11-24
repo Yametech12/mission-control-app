@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T19:30:05.000Z",
- "summary": "Routing check cycle 345 panel complete: 5 picks filed.",
+ "generatedAt": "2026-11-24T19:34:16.000Z",
+ "summary": "Cycle 345 routing check complete: 3 of 5, rule 42 added.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation loop, cycle 345",
-   "detail": "Cycle 345 routing check started: 5 GT-20261125-119 legs, Coordinator picks sealing now",
-   "currentTask": "Cycle 345 routing check on GT-20261125-119 legs",
-   "lastHeartbeat": "2026-11-24T19:26:55.000Z",
-   "observedAt": "2026-11-24T19:26:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation loop, cycle 345",
+   "detail": "Cycle 345 routing check done: 3 of 5 on GT-20261125-119 legs, rule 42 added",
+   "currentTask": "Cycle 345 routing check complete",
+   "lastHeartbeat": "2026-11-24T19:34:16.000Z",
+   "observedAt": "2026-11-24T19:34:16.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Routing Panel (cycle 345)",
    "role": "auditor",
@@ -3767,20 +3767,6 @@
    "observedAt": "2026-11-24T00:00:30.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "watcher-retest2-wt-s2-generic",
-   "name": "WT-S2 generic solver",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WT-S2 generic solver",
-   "detail": "WT-S2 generic solver done (posted by cycle parent): 13,284 bytes, 2,018 words, 114s.",
-   "currentTask": "WT-S2 watch plan done",
-   "lastHeartbeat": "2026-11-23T23:49:21.000Z",
-   "observedAt": "2026-11-23T23:51:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
