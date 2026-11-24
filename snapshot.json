@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T13:18:58.000Z",
- "summary": "Cycle 314 complete: Data Analyst DA-T1 pair collected and key-checked, no defect.",
+ "generatedAt": "2026-11-24T13:26:00.000Z",
+ "summary": "SASE inbox watch 21:25 PHT: Page access OK, 30 threads, 0 new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation loop cycle 315",
+   "detail": "Cycle 315 routing check (35th) started: 5 mixed real tasks, Coordinator picks to be sealed before the leads panel reads.",
+   "currentTask": "Cycle 315 routing check: harvesting 5 tasks, sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-24T13:23:21.000Z",
+   "observedAt": "2026-11-24T13:23:21.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "09798e31-c170-42d6-9135-e21dbf4ae52b",
@@ -2341,30 +2355,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 314: Data Analyst validation",
-   "detail": "Cycle 314 complete. DA-T1 pair collected (specialist 13,446 bytes, 119s; generic 12,412 bytes, 98s; 0 em dashes both). DA-T1 key checked, no defect; both pass K1-K7. Cycle 315 is a routing check; DA-T2 runs cycle 316.",
-   "currentTask": "Cycle 314 complete: Data Analyst DA-T1 collected and key-checked",
-   "lastHeartbeat": "2026-11-24T13:18:58.000Z",
-   "observedAt": "2026-11-24T13:18:58.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "Check complete: 30 threads, 0 new buyer messages, unread 0. Page access OK.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T12:55:00.000Z",
-   "observedAt": "2026-11-24T12:55:00.000Z",
+   "title": "SASE Page inbox watch",
+   "detail": "21:25 PHT check complete: Page access OK, 30 threads, 0 new buyer messages, no GCash refs, nothing sent.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T13:26:00.000Z",
+   "observedAt": "2026-11-24T13:26:00.000Z",
    "needsUser": false,
    "category": "sase"
   },
@@ -3737,6 +3737,20 @@
    "currentTask": "RM-T2 generic solve complete",
    "lastHeartbeat": "2026-11-23T16:33:30.000Z",
    "observedAt": "2026-11-23T16:33:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-rm-t2-specialist",
+   "name": "RM-T2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "RM-T2 Specialist Solver",
+   "detail": "Done: rm-t2-specialist.md written (8,364 bytes). Banned list now 3 groups; next run csecommunityph, csereviewers.",
+   "currentTask": "RM-T2 rotation repair draft",
+   "lastHeartbeat": "2026-11-23T16:31:46.000Z",
+   "observedAt": "2026-11-23T16:31:46.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
   }
