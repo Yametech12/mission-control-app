@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T22:13:00.000Z",
- "summary": "Improvement cycle 355 complete: routing check 5 of 5.",
+ "generatedAt": "2026-11-24T22:15:00.000Z",
+ "summary": "Improvement cycle 356 in progress: sealing the Social Media Manager retest pairs.",
  "agents": [
   {
    "agentId": null,
@@ -9,7 +9,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 86 consecutive failures; last run failed 04:35 PHT today.",
+   "detail": "Failed 86 times; blocked because the WhatsApp chat it posts to can no longer receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T20:35:07.000Z",
@@ -18,12 +18,12 @@
   },
   {
    "agentId": null,
-   "name": "TG session watchdog (auto re-login)",
+   "name": "Telegram session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog (auto re-login)",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 88 consecutive failures; last run failed 03:46 PHT today.",
+   "title": "Telegram session watchdog",
+   "detail": "Failed 88 times; blocked because the WhatsApp chat it posts to can no longer receive results. Last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T19:46:26.000Z",
@@ -37,7 +37,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "21 consecutive failures. Last run Nov 24, 23:26 PHT failed at spawn with binding_retired; last success was Nov 4.",
+   "detail": "Failed 21 times in a row; last failure Nov 24 at 23:26 PHT, last success Nov 4. No recorded reason. Next attempt tonight 23:30 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T15:26:48.000Z",
@@ -121,7 +121,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures. Last run Nov 23, 19:05 PHT failed at spawn with binding_retired; last success was Nov 2.",
+   "detail": "Failed 7 times in a row; last failure Nov 23, last success Nov 2. No recorded reason. Next attempt Nov 26 at 19:05 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T11:05:58.000Z",
@@ -205,7 +205,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures. Last run Nov 23, 08:56 PHT failed at spawn with binding_retired; next run Mon, Nov 30, 09:00 PHT.",
+   "detail": "Failed 3 times in a row; last failure Mon Nov 23, last success Nov 4. No recorded reason. Next check Mon Nov 30 at 09:00 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T00:56:31.000Z",
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 356: SMM retest sealing",
+   "detail": "Cycle 356 sealing SMM retest: neutralizing 3 pairs under cycle 199 differential rule, judging cycle 357.",
+   "currentTask": "Cycle 356: sealing SMM retest pairs SMM-R1 to SMM-R3",
+   "lastHeartbeat": "2026-11-24T22:15:00.000Z",
+   "observedAt": "2026-11-24T22:15:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,20 +2383,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostnames Team improvement cycle 355",
-   "detail": "Cycle 355 routing check done: 5 of 5, ninth clean sweep in 43 checks. No rule fixes. SMM sealing cycle 356, judging 357.",
-   "currentTask": "Cycle 355 routing check complete: 5 of 5 clean sweep",
-   "lastHeartbeat": "2026-11-24T22:13:00.000Z",
-   "observedAt": "2026-11-24T22:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "team-routing-panel",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -3767,6 +3767,20 @@
    "observedAt": "2026-11-24T01:22:10.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "kogama-gt107",
+   "name": "kogama-gt107",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT107 rm6 engine pass: audit and completion",
+   "detail": "COMPLETE. Phonemes 100/100 exact (rm5 12/100), caption collisions 12 to 0 on the proof beat and 99 to 0 script-wide, deformation, jaw/cheek, 3 new props, DOF to desk/table. Report filed.",
+   "currentTask": "Complete: GT-20261124-107.md and reports filed",
+   "lastHeartbeat": "2026-11-24T01:12:00.000Z",
+   "observedAt": "2026-11-24T01:12:00.000Z",
+   "needsUser": false,
+   "category": "blocktales"
   }
  ]
 }
