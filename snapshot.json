@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T18:01:00.000Z",
- "summary": "GT-20261125-119: S7 fixes landed; QA scoped re-verification spawning.",
+ "generatedAt": "2026-11-24T18:00:00.000Z",
+ "summary": "Cycle 338 complete: Market Intelligence Analyst judged, card rewritten. Scoreboard 11 validated, 1 flagged.",
  "agents": [
   {
    "agentId": null,
@@ -821,24 +821,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-20261125-119 GhostLabs Release 3: batch queue + radar",
-   "detail": "GT119 S7 builder fix done: status line separates arithmetic failures from hard duplicate flags; QA scoped re-verification spawning (posted by the job lead)",
-   "currentTask": "S7 fixes landed (one file); QA scoped re-verification spawning",
-   "lastHeartbeat": "2026-11-24T18:01:00.000Z",
-   "observedAt": "2026-11-24T18:01:00.000Z",
+   "detail": "GT119 S7 re-verified: Major and Minor closed, regression PASS; one new Minor (run-on verdict sentence) scoped for a micro fix before S6 (posted by the job lead)",
+   "currentTask": "QA119-1 and QA119-2 CLOSED; micro loop for new Minor QA119-4 (sentence break) before Fresh-Eye",
+   "lastHeartbeat": "2026-11-24T18:04:00.000Z",
+   "observedAt": "2026-11-24T18:04:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
   },
   {
-   "agentId": "team-qa-tester",
-   "name": "qa-tester",
-   "role": "auditor",
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT119 S7b QA: scoped re-verification",
-   "detail": "QA Tester starting S7b scoped re-verification for GT119 (posted by the job lead)",
-   "currentTask": "S7b: scoped re-verification of QA119-1 and QA119-2 closures plus regression",
-   "lastHeartbeat": "2026-11-24T18:01:00.000Z",
-   "observedAt": "2026-11-24T18:01:00.000Z",
+   "title": "GT119 S7c Site Builder: QA119-4 micro fix",
+   "detail": "Site Builder starting S7c micro fix for GT119 (posted by the job lead)",
+   "currentTask": "S7c micro fix: QA119-4 sentence break in verdictSentence",
+   "lastHeartbeat": "2026-11-24T18:04:00.000Z",
+   "observedAt": "2026-11-24T18:04:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
   },
@@ -855,20 +855,6 @@
    "observedAt": "2026-11-24T17:56:24.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 338",
-   "detail": "Cycle 338 judging Market Intelligence Analyst: 3 fresh-context QA judges scoring MIA-T1 to MIA-T3 blind.",
-   "currentTask": "Cycle 338: judging Market Intelligence Analyst (3 blind QA judges)",
-   "lastHeartbeat": "2026-11-24T17:55:34.000Z",
-   "observedAt": "2026-11-24T17:55:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-fact-checker",
@@ -2411,18 +2397,32 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
+   "agentId": "team-qa-tester",
+   "name": "qa-tester",
+   "role": "auditor",
    "agentStatus": "idle",
    "status": "completed",
-   "title": "GT119 Site Builder: build plus S7 fix done",
-   "detail": "Site Builder S7 fix complete for GT119 (posted by the job lead)",
-   "currentTask": "S7 builder fix complete; standing by",
-   "lastHeartbeat": "2026-11-24T18:01:00.000Z",
-   "observedAt": "2026-11-24T18:01:00.000Z",
+   "title": "GT119 QA: S5 plus S7b re-verification done",
+   "detail": "QA Tester S7b complete for GT119 (posted by the job lead)",
+   "currentTask": "S7b complete (QA119-1 and QA119-2 CLOSED, QA119-4 raised); standing by for micro re-check",
+   "lastHeartbeat": "2026-11-24T18:04:00.000Z",
+   "observedAt": "2026-11-24T18:04:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 338",
+   "detail": "Cycle 338 done: MIA 8.33 vs 7.67, 2W 1L, not a clear win; card rewritten (rewrite 1). Scoreboard 11 validated, 1 flagged.",
+   "currentTask": "Cycle 338 complete: MIA judged 8.33 vs 7.67, card rewritten",
+   "lastHeartbeat": "2026-11-24T18:00:00.000Z",
+   "observedAt": "2026-11-24T18:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3795,20 +3795,6 @@
    "observedAt": "2026-11-23T21:00:11.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "smm-t2-generic",
-   "name": "SMM-T2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-T2 generic solver",
-   "detail": "Completed: 7,192 bytes, 1,241 words, about 62s. Posted by cycle parent at close.",
-   "currentTask": "SMM-T2 generic plan delivered",
-   "lastHeartbeat": "2026-11-23T20:50:02.000Z",
-   "observedAt": "2026-11-23T20:50:02.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
