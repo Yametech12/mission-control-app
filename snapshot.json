@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T18:26:44.000Z",
- "summary": "Ghostname Team improvement cycle 340 running: routing check on GT-20261125-118.",
+ "generatedAt": "2026-11-24T18:31:00.000Z",
+ "summary": "Ghostname Team improvement cycle 340 complete: routing check 5 of 5 on GT-20261125-118.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 340",
-   "detail": "Cycle 340 routing check running: 5 legs of GT-20261125-118 (GhostLabs Release 2 fix round and deploy).",
-   "currentTask": "Routing check cycle 340: tasks and sealed picks for GT118",
-   "lastHeartbeat": "2026-11-24T18:26:44.000Z",
-   "observedAt": "2026-11-24T18:26:44.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 340",
+   "detail": "Cycle 340 routing check done: 5 of 5 on GT-20261125-118 legs; eighth clean sweep in 40 checks; no rule fixes.",
+   "currentTask": "Cycle 340 complete: routing check 5 of 5",
+   "lastHeartbeat": "2026-11-24T18:31:00.000Z",
+   "observedAt": "2026-11-24T18:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3766,20 +3766,6 @@
    "lastHeartbeat": "2026-11-23T23:39:00.000Z",
    "observedAt": "2026-11-23T23:39:00.000Z",
    "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "kogama-gt103",
-   "name": "kogama-gt103",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT103 BlockTales channel branding",
-   "detail": "Done, design only: new ReachMora 2D avatar and banner plus mockups delivered; current channel still shows retired voxel branding. Awaiting owner approval before any upload.",
-   "currentTask": "Complete: assets and drafts delivered for owner approval",
-   "lastHeartbeat": "2026-11-23T23:30:09.000Z",
-   "observedAt": "2026-11-23T23:30:09.000Z",
-   "needsUser": true,
    "category": "blocktales"
   }
  ]
