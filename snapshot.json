@@ -1,20 +1,76 @@
 {
- "generatedAt": "2026-11-24T20:13:08.000Z",
- "summary": "Cycle 348 complete: Page Operator retest PO-R3 pair collected and verified.",
+ "generatedAt": "2026-11-24T20:19:20.000Z",
+ "summary": "Cycle 349: sealing Page Operator retest pairs (PO-R1 to PO-R3) for blind judging in cycle 351.",
  "agents": [
   {
    "agentId": null,
-   "name": "Memory daily backup to Drive",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Drive",
-   "detail": "Failed again Nov 24 at 23:26 PHT, 21 consecutive failures with no recorded reason. Last success Nov 4.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed 21 times in a row; last run Nov 24 at 23:30 PHT failed before finishing and last success was Nov 4. Needs a fix, not a user action.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:26:48.000Z",
+   "observedAt": "2026-11-24T20:16:42.000Z",
    "needsUser": false,
    "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: 85 consecutive failures and paused because the WhatsApp chat it posts to can no longer receive results; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T20:16:42.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "Telegram session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Telegram session watchdog",
+   "detail": "Blocked: 88 consecutive failures and paused because the WhatsApp chat it posts to can no longer receive results; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T20:16:42.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed 7 times in a row; last run Nov 23 failed before finishing and last success was Nov 2. Next attempt is Nov 26.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T20:16:42.000Z",
+   "needsUser": false,
+   "category": "Website upkeep"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed 3 times in a row; last run Nov 23 failed before finishing and last success was Nov 4. Next attempt is Mon Nov 30 at 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T20:16:42.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -29,34 +85,6 @@
    "observedAt": "2026-11-24T14:37:55.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results, action required. 85 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T14:35:07.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results, action required. 87 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T13:46:26.000Z",
-   "needsUser": true,
-   "category": "Session watch"
   },
   {
    "agentId": null,
@@ -113,20 +141,6 @@
    "observedAt": "2026-11-23T15:28:16.000Z",
    "needsUser": true,
    "category": "blocktales"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 23 at 19:05 PHT, 7 consecutive failures with no recorded reason. Last success Nov 2.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T11:05:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -197,20 +211,6 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23 at 08:56 PHT, 3 consecutive failures with no recorded reason. Last success Nov 4; next check Mon Nov 30.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T00:56:31.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 349: sealing Page Operator retest",
+   "detail": "Sealing PO-R1 to PO-R3 pairs under the cycle 199 differential rule; no judging in the mapping cycle.",
+   "currentTask": "Sealing Page Operator retest pairs PO-R1 to PO-R3",
+   "lastHeartbeat": "2026-11-24T20:19:20.000Z",
+   "observedAt": "2026-11-24T20:19:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
