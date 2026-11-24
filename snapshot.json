@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:36:52.000Z",
- "summary": "Cycle 308: Fact Checker first validation run in progress.",
+ "generatedAt": "2026-11-24T11:41:30.000Z",
+ "summary": "Fact Checker FC-T1 specialist run",
  "agents": [
   {
    "agentId": null,
@@ -2327,6 +2327,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fact-checker",
+   "name": "team-fact-checker",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Fact Checker FC-T1 specialist",
+   "detail": "FC-T1 done: 7 claims checked, 5 confirmed, 2 unverified; record written, 9932 bytes.",
+   "currentTask": "FC-T1 specialist verification record",
+   "lastHeartbeat": "2026-11-24T11:41:30.000Z",
+   "observedAt": "2026-11-24T11:41:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-validation-generic",
+   "name": "team-validation-generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Fact Checker FC-T1 generic",
+   "detail": "FC-T1 generic done: 5 confirmed, 2 unverified; Alignerr attribution corrected, claims 6-7 dropped",
+   "currentTask": "FC-T1 generic verification record",
+   "lastHeartbeat": "2026-11-24T11:41:06.000Z",
+   "observedAt": "2026-11-24T11:41:06.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2407,20 +2435,6 @@
    "currentTask": "CA-T3 specialist run complete",
    "lastHeartbeat": "2026-11-24T10:41:00.000Z",
    "observedAt": "2026-11-24T10:41:00.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-validation-generic",
-   "name": "Validation generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-T3 generic brief done",
-   "detail": "CA-T3 generic brief written: 22,839 bytes, 3,715 words, all 7 sections in order, 0 em dashes, 0 en dashes, Rev rejected, Fiverr stale labeled.",
-   "currentTask": "CA-T3 generic brief complete",
-   "lastHeartbeat": "2026-11-24T10:40:05.000Z",
-   "observedAt": "2026-11-24T10:40:05.000Z",
    "needsUser": false,
    "category": "validation"
   },
@@ -3711,20 +3725,6 @@
    "observedAt": "2026-11-23T17:10:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-rm-t2-generic",
-   "name": "RM-T2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 Generic Solver",
-   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
-   "currentTask": "RM-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
-   "observedAt": "2026-11-23T16:33:30.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
   }
  ]
 }
