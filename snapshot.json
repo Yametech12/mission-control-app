@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T20:01:20.000Z",
- "summary": "PO-R2 specialist solver completed the Aubrey Garcia action report draft.",
+ "generatedAt": "2026-11-24T20:01:35.000Z",
+ "summary": "Cycle 347 done: Page Operator retest PO-R2 pair collected and verified",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 347: Page Operator retest PO-R2",
-   "detail": "PO-R2 solver pair running: specialist from rewritten Page Operator card vs generic from task file only.",
-   "currentTask": "Running PO-R2 solver pair",
-   "lastHeartbeat": "2026-11-24T19:57:20.000Z",
-   "observedAt": "2026-11-24T19:57:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 347: Page Operator retest PO-R2",
+   "detail": "PO-R2 pair verified (specialist 4,707 bytes, 161s; generic 5,561 bytes, 60s; 0 em dashes both). Splits both ways: Page ID discrepancy specialist only, second-send approval gap generic only. PO-R3 cycle 348.",
+   "currentTask": "Cycle 347 complete",
+   "lastHeartbeat": "2026-11-24T20:01:35.000Z",
+   "observedAt": "2026-11-24T20:01:35.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-page-operator-po-r2-specialist",
    "name": "PO-R2 Specialist",
    "role": "builder",
@@ -3765,20 +3765,6 @@
    "currentTask": "WT-S2 blind judgement filed",
    "lastHeartbeat": "2026-11-24T00:39:47.000Z",
    "observedAt": "2026-11-24T00:39:47.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "watcher-judge-wt-s3",
-   "name": "Watcher judge WT-S3",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Watcher retest 2 judge WT-S3",
-   "detail": "WT-S3 blind judgement filed.",
-   "currentTask": "WT-S3 blind judgement filed",
-   "lastHeartbeat": "2026-11-24T00:39:21.000Z",
-   "observedAt": "2026-11-24T00:39:21.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
