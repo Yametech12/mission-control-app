@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T18:32:00.000Z",
- "summary": "CSE comment watch run started.",
+ "generatedAt": "2026-11-24T18:41:34.000Z",
+ "summary": "Cycle 341 done: User Researcher UR-T2 pair collected, both pass K1-K7, no defect.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE Page comment watch",
-   "detail": "Checking CSE Page posts from the last 7 days for new comments.",
-   "currentTask": "Checking CSE Page posts for new comments",
-   "lastHeartbeat": "2026-11-24T18:32:00.000Z",
-   "observedAt": "2026-11-24T18:32:00.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2384,17 +2370,59 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "name": "team-improvement-cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 340",
-   "detail": "Cycle 340 routing check done: 5 of 5 on GT-20261125-118 legs; eighth clean sweep in 40 checks; no rule fixes.",
-   "currentTask": "Cycle 340 complete: routing check 5 of 5",
-   "lastHeartbeat": "2026-11-24T18:31:00.000Z",
-   "observedAt": "2026-11-24T18:31:00.000Z",
+   "title": "Ghostname validation cycle 341: User Researcher UR-T2",
+   "detail": "Cycle 341 complete: UR-T2 pair collected and verified (specialist 5,933 bytes, 84s; generic 5,527 bytes, 86s); both pass K1-K7, no defect; UR-T3 runs cycle 342.",
+   "currentTask": "Cycle 341 complete; UR-T3 solvers next cycle",
+   "lastHeartbeat": "2026-11-24T18:41:34.000Z",
+   "observedAt": "2026-11-24T18:41:34.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-improvement-cycle-ur-t2-specialist",
+   "name": "UR-T2 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-T2 specialist solver: CSE comment synthesis",
+   "detail": "UR-T2 specialist run done: 951-word synthesis written, 3 genuine comments, 0 flagged, all counts verified against the watch record.",
+   "currentTask": "UR-T2 synthesis written: 3 genuine comments, 0 on Page own posts",
+   "lastHeartbeat": "2026-11-24T18:39:21.000Z",
+   "observedAt": "2026-11-24T18:39:21.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-improvement-cycle-ur-t2-generic",
+   "name": "UR-T2 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-T2 generic solver: CSE comment synthesis",
+   "detail": "Completed: 6-section synthesis written, 5527 bytes, 920 words. Inputs verified, no count or hash mismatch.",
+   "currentTask": "UR-T2 synthesis complete",
+   "lastHeartbeat": "2026-11-24T18:39:19.000Z",
+   "observedAt": "2026-11-24T18:39:19.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Page comment watch",
+   "detail": "No new comments on CSE Page posts Nov 18-25. 0 hearts, 0 replies, no payment claims or order intent.",
+   "currentTask": "Run complete, no new comments",
+   "lastHeartbeat": "2026-11-24T18:39:00.000Z",
+   "observedAt": "2026-11-24T18:39:00.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3739,48 +3767,6 @@
    "observedAt": "2026-11-23T23:51:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "kogama-gt104",
-   "name": "kogama-gt104",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT104: BlockTales motion upgrade (more frames)",
-   "detail": "COMPLETE. GT104 engine (rm4) is the new default: layered snow, wind, vapor, footprints, whiteout, breath/sway, parallax, lamp flicker. Walk-out proof: near-still transitions 0.0 pct, mean frame change +23 pct, 65 s render at max settings.",
-   "currentTask": "Complete: proof delivered, awaiting owner verdict",
-   "lastHeartbeat": "2026-11-23T23:41:43.000Z",
-   "observedAt": "2026-11-23T23:41:43.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "kogama-gt101",
-   "name": "kogama-gt101",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT101 Oates Short: full build (ReachMora 2D vertical)",
-   "detail": "COMPLETE, QA PASS: 720x1280, 24 fps, 59.626 s, -16.23 LUFS, MD5 e82b1311730ab3e1d2234934bd87e30e. Captions 149/149, mouth watch 0 incidents. Posting locked: owner verdict + ElevenLabs decision open.",
-   "currentTask": "Full build complete, QA pass; awaiting owner verdict on the finished file",
-   "lastHeartbeat": "2026-11-23T23:39:00.000Z",
-   "observedAt": "2026-11-23T23:39:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "kogama-gt103",
-   "name": "kogama-gt103",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT103 BlockTales channel branding",
-   "detail": "Done, design only: new ReachMora 2D avatar and banner plus mockups delivered; current channel still shows retired voxel branding. Awaiting owner approval before any upload.",
-   "currentTask": "Complete: assets and drafts delivered for owner approval",
-   "lastHeartbeat": "2026-11-23T23:30:09.000Z",
-   "observedAt": "2026-11-23T23:30:09.000Z",
-   "needsUser": true,
-   "category": "blocktales"
   }
  ]
 }
