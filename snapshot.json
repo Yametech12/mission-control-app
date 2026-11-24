@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-24T23:10:00.000Z",
- "summary": "Cycle 360: routing check 4 of 5; no rule fixes; SO-R3 next cycle 361.",
+ "generatedAt": "2026-11-24T23:21:30.000Z",
+ "summary": "SO-R3 specialist complete: escalation draft written, 6,861 bytes, 1,060 words, zero em dashes.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "TG session watchdog (auto re-login)",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog (auto re-login)",
+   "detail": "Paused: the WhatsApp chat it posts to can no longer receive results. 88 consecutive failures; last success Oct 6. Runs again once that chat can receive or delivery is moved.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T23:17:02.000Z",
+   "needsUser": true,
+   "category": "Watchdog"
+  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -9,26 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Failed 86 times; blocked because the WhatsApp chat it posts to can no longer receive results. Last success Nov 3.",
+   "detail": "Paused: the WhatsApp chat it posts to can no longer receive results. 86 consecutive failures; last success Nov 3. Runs again once that chat can receive or delivery is moved.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T20:35:07.000Z",
+   "observedAt": "2026-11-24T23:17:02.000Z",
    "needsUser": true,
    "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Telegram session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Telegram session watchdog",
-   "detail": "Failed 88 times; blocked because the WhatsApp chat it posts to can no longer receive results. Last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T19:46:26.000Z",
-   "needsUser": true,
-   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -37,12 +37,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 21 times in a row; last failure Nov 24 at 23:26 PHT, last success Nov 4. No recorded reason. Next attempt tonight 23:30 PHT.",
+   "detail": "21 consecutive failures with no recorded reason; last success Nov 4. Next attempt 23:30 PHT today.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:26:48.000Z",
+   "observedAt": "2026-11-24T23:17:02.000Z",
    "needsUser": false,
    "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "7 consecutive failures with no recorded reason; last success Nov 2. Next attempt Nov 26, 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T23:17:02.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures with no recorded reason; last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T23:17:02.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -115,20 +143,6 @@
    "category": "blocktales"
   },
   {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed 7 times in a row; last failure Nov 23, last success Nov 2. No recorded reason. Next attempt Nov 26 at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T11:05:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
    "agentId": "gt90-clipup-join",
    "name": "gt90-clipup-join",
    "role": "researcher",
@@ -197,20 +211,6 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed 3 times in a row; last failure Mon Nov 23, last success Nov 4. No recorded reason. Next check Mon Nov 30 at 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T00:56:31.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 361: SO-R3 solvers running",
+   "detail": "Cycle 361 running SO-R3 solver pair for the Store Operator retest.",
+   "currentTask": "Cycle 361: Store Operator retest SO-R3 solver pair",
+   "lastHeartbeat": "2026-11-24T23:18:20.000Z",
+   "observedAt": "2026-11-24T23:18:20.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "so-r3-specialist",
+   "name": "SO-R3 Specialist",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SO-R3 escalation draft",
+   "detail": "Draft filed at runs/so-r3-specialist.md: lookup-miss failure mode, quoted evidence, COPY FROM LEDGER order slot, 98s wall time.",
+   "currentTask": "Draft SO-R3 escalation note",
+   "lastHeartbeat": "2026-11-24T23:21:30.000Z",
+   "observedAt": "2026-11-24T23:21:30.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "team-gap-researcher",
    "name": "Thesis Researcher",
    "role": "researcher",
@@ -2423,20 +2451,6 @@
    "observedAt": "2026-11-24T23:12:00.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 360",
-   "detail": "Cycle 360 routing check done: 4 of 5 on GT-20261124-112 legs; miss RC-T4, Coordinator better call on rule 34; cycle 230 flag recurs.",
-   "currentTask": "Cycle 360 routing check complete, 4 of 5",
-   "lastHeartbeat": "2026-11-24T23:10:00.000Z",
-   "observedAt": "2026-11-24T23:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel",
