@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T12:19:55.000Z",
- "summary": "Cycle 311 complete: Fact Checker FC-T3 pair collected and verified; all three pairs done, sealing cycle 312, judging cycle 313",
+ "generatedAt": "2026-11-24T12:23:59.000Z",
+ "summary": "SASE inbox watch 20:23 PHT: no new buyer messages; Page access healthy.",
  "agents": [
   {
    "agentId": null,
@@ -2313,6 +2313,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE FB inbox watch",
+   "detail": "20:23 PHT check: 30 threads read via Graph API, 0 diffs, no new buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-24T12:23:59.000Z",
+   "observedAt": "2026-11-24T12:23:59.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-fact-checker",
    "name": "Fact Checker",
    "role": "auditor",
@@ -2353,20 +2367,6 @@
    "observedAt": "2026-11-24T12:19:55.000Z",
    "needsUser": false,
    "category": "team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "Checked 30 threads via Graph API, 0 new buyer messages, unread 0 everywhere. No action needed.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T11:54:33.000Z",
-   "observedAt": "2026-11-24T11:54:33.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "mission-control-apk",
