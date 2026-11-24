@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T11:10:18.000Z",
- "summary": "Cycle 306 done: Competitor Analyst sealed for judging cycle 307.",
+ "generatedAt": "2026-11-24T11:16:19.000Z",
+ "summary": "1 clip render running, 6 tasks completed today, 7 scheduled, and 5 jobs need attention: 3 failing on a spawn error and 2 blocked on undeliverable results.",
  "agents": [
   {
    "agentId": null,
@@ -9,7 +9,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall posts blocked",
-   "detail": "84 consecutive failures and paused: the WhatsApp chat it posts to can no longer receive results (account action required). Last run Nov 24, 16:35 PHT.",
+   "detail": "Whop Townhall product posts blocked: 84 consecutive failures and the chat it posts to can no longer receive results; action required to restore delivery.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T08:35:07.000Z",
@@ -23,12 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog blocked",
-   "detail": "86 consecutive failures and paused: the WhatsApp chat it posts to can no longer receive results (account action required). Last run Nov 24, 15:46 PHT.",
+   "detail": "TG session watchdog blocked: 86 consecutive failures and the chat it posts to can no longer receive results; action required to restore delivery.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T07:46:26.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -74,26 +74,26 @@
   },
   {
    "agentId": null,
-   "name": "Memory daily backup failing",
+   "name": "Memory backup failing 20 runs in a row",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup failing",
-   "detail": "20 consecutive failures; last run failed Nov 23, 23:26 PHT on a spawn error (binding_retired). Last success Nov 4. Next attempt 23:30 PHT today.",
+   "title": "Memory backup failing 20 runs in a row",
+   "detail": "Memory daily backup to Google Drive failed 20 times in a row; last run Nov 23 failed before starting with a spawn error (binding retired).",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T15:26:47.000Z",
    "needsUser": false,
-   "category": "Backup"
+   "category": "Backups"
   },
   {
    "agentId": null,
-   "name": "Epimetheus Supabase keep-alive failing",
+   "name": "Epimetheus keep-alive failing",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Epimetheus Supabase keep-alive failing",
-   "detail": "7 consecutive failures; last run failed Nov 23, 19:05 PHT on a spawn error (binding_retired). Last success Nov 2. Next attempt Nov 26, 19:05 PHT.",
+   "title": "Epimetheus keep-alive failing",
+   "detail": "Supabase keep-alive failed 7 times in a row; last run Nov 23 failed before starting with a spawn error (binding retired).",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T11:05:58.000Z",
@@ -177,7 +177,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo check failing",
-   "detail": "3 consecutive failures; last run failed Nov 23, 08:56 PHT on a spawn error (binding_retired). Last success Nov 4. Next attempt Nov 30, 09:00 PHT.",
+   "detail": "Monday promo code check failed 3 times in a row; last run Nov 23 failed before starting with a spawn error (binding retired).",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T00:56:31.000Z",
@@ -785,6 +785,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "f786de99-1f35-4558-abe6-77ec2c866efe",
+   "name": "Clip production agent",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "High-quality clip render in progress",
+   "detail": "Running clip work in progress: pull the best resolution YouTube offers (prefer 1080p) and render the final at high quality.",
+   "currentTask": "Render high-quality clips from best-resolution YouTube sources",
+   "lastHeartbeat": "2026-11-24T11:16:19.000Z",
+   "observedAt": "2026-11-24T11:16:19.000Z",
+   "needsUser": false,
+   "category": "Clipping"
   },
   {
    "agentId": "kogama-gt91-coordinator",
@@ -2313,6 +2327,20 @@
    "category": "apps"
   },
   {
+   "agentId": "3e39c899-7004-42e5-b840-13eda78e84e8",
+   "name": "Mission Control APK builder",
+   "role": "builder",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "Mission Control Android APK v1 built",
+   "detail": "Mission Control Android APK v1 built, signed, verified and delivered to the owner via Lobot.",
+   "currentTask": "Mission Control Android APK v1",
+   "lastHeartbeat": "2026-11-24T11:10:24.000Z",
+   "observedAt": "2026-11-24T11:10:24.000Z",
+   "needsUser": false,
+   "category": "Apps"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -2325,6 +2353,20 @@
    "observedAt": "2026-11-24T11:10:18.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "b4d99ea9-7398-4ec8-8521-ea73248f232b",
+   "name": "Work Dashboard builder",
+   "role": "builder",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "Work Dashboard Mission Control redesign done",
+   "detail": "Work Dashboard redesigned as a phone-first Mission Control view: live clock, totals, needs-you section and stuck-worker detection.",
+   "currentTask": "Mission Control phone-first redesign",
+   "lastHeartbeat": "2026-11-24T10:57:48.000Z",
+   "observedAt": "2026-11-24T10:57:48.000Z",
+   "needsUser": false,
+   "category": "Apps"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -2423,6 +2465,20 @@
    "observedAt": "2026-11-24T09:55:00.000Z",
    "needsUser": false,
    "category": "blocktales"
+  },
+  {
+   "agentId": "fc4ece9d-183d-41ed-9eed-7ce808b7231b",
+   "name": "GT112 job lead",
+   "role": "coordinator",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "BlockTales GT112 sample complete",
+   "detail": "GT112 Final Transmissions sample complete: Franklin expedition Victory Point note, primary-source fact gate passed, sent as a sample only.",
+   "currentTask": "GT112 Final Transmissions sample",
+   "lastHeartbeat": "2026-11-24T09:53:05.000Z",
+   "observedAt": "2026-11-24T09:53:05.000Z",
+   "needsUser": false,
+   "category": "BlockTales"
   },
   {
    "agentId": "fc4ece9d-183d-41ed-9eed-7ce808b7231b",
@@ -3655,48 +3711,6 @@
    "observedAt": "2026-11-23T17:10:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-rm-t2-generic",
-   "name": "RM-T2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 Generic Solver",
-   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
-   "currentTask": "RM-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
-   "observedAt": "2026-11-23T16:33:30.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-rm-t2-specialist",
-   "name": "RM-T2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 Specialist Solver",
-   "detail": "Done: rm-t2-specialist.md written (8,364 bytes). Banned list now 3 groups; next run csecommunityph, csereviewers.",
-   "currentTask": "RM-T2 rotation repair draft",
-   "lastHeartbeat": "2026-11-23T16:31:46.000Z",
-   "observedAt": "2026-11-23T16:31:46.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-reviewer-marketer-rm-t1-generic",
-   "name": "rm-t1-generic",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T1 generic solver complete",
-   "detail": "RM-T1 generic run pack done: 7,681 bytes, 1,282 words, all 8 sections, 0 em dashes.",
-   "currentTask": "RM-T1 generic solver run",
-   "lastHeartbeat": "2026-11-23T16:26:15.000Z",
-   "observedAt": "2026-11-23T16:26:15.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
