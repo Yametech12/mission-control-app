@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T19:24:00.000Z",
- "summary": "SASE inbox watch 03:23 PHT: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-24T19:30:05.000Z",
+ "summary": "Routing check cycle 345 panel complete: 5 picks filed.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation loop, cycle 345",
+   "detail": "Cycle 345 routing check started: 5 GT-20261125-119 legs, Coordinator picks sealing now",
+   "currentTask": "Cycle 345 routing check on GT-20261125-119 legs",
+   "lastHeartbeat": "2026-11-24T19:26:55.000Z",
+   "observedAt": "2026-11-24T19:26:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel (cycle 345)",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 345 panel picks",
+   "detail": "Picks: T1 Systems Builder 7-1, T2 Site Builder 7-1, T3 Systems Builder 7-1, T4 QA Tester 7-1, T5 Fresh-Eye Reviewer 5-3 (hard call).",
+   "currentTask": "Panel picks filed to panel-picks.md",
+   "lastHeartbeat": "2026-11-24T19:30:05.000Z",
+   "observedAt": "2026-11-24T19:30:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2381,20 +2409,6 @@
    "observedAt": "2026-11-24T19:24:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team Improvement Cycle 344",
-   "detail": "Cycle 344: User Researcher blind judging LOST 7.42/7.58 (1W 0T 2L). Card rewritten (rewrite 1), prior card archived. Scoreboard 11 validated, 1 flagged.",
-   "currentTask": "Cycle 344 complete: User Researcher lost, card rewritten",
-   "lastHeartbeat": "2026-11-24T19:22:30.000Z",
-   "observedAt": "2026-11-24T19:22:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-generic-solver-ur-t3",
