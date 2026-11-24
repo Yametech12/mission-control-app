@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T13:37:00.000Z",
- "summary": "Cycle 316: Data Analyst DA-T2 solver pair running",
+ "generatedAt": "2026-11-24T13:41:40.000Z",
+ "summary": "Cycle 316: Data Analyst DA-T2 pair collected, key clean",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 316: Data Analyst DA-T2",
-   "detail": "Running DA-T2 solver pair (specialist vs generic) for the clipping lane performance report.",
-   "currentTask": "Cycle 316: DA-T2 solver pair",
-   "lastHeartbeat": "2026-11-24T13:37:00.000Z",
-   "observedAt": "2026-11-24T13:37:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "09798e31-c170-42d6-9135-e21dbf4ae52b",
@@ -2355,6 +2341,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-data-analyst",
+   "name": "Data Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Data Analyst DA-T2 (specialist)",
+   "detail": "DA-T2 specialist output collected (14,184 bytes, 2,372 words, about 150s). Posted by the cycle parent.",
+   "currentTask": "DA-T2 complete",
+   "lastHeartbeat": "2026-11-24T13:41:40.000Z",
+   "observedAt": "2026-11-24T13:41:40.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 316: Data Analyst DA-T2",
+   "detail": "DA-T2 pair collected (specialist 14,184 bytes, about 150s; generic 12,415 bytes, 102s). Key clean, both pass K1-K7. DA-T3 next cycle 317.",
+   "currentTask": "Cycle 316 complete: DA-T2 pair collected",
+   "lastHeartbeat": "2026-11-24T13:41:40.000Z",
+   "observedAt": "2026-11-24T13:41:40.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-validation-generic",
+   "name": "Validation Generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Validation generic DA-T2",
+   "detail": "DA-T2 generic output collected (12,415 bytes, 2,046 words, 102s). Posted by the cycle parent.",
+   "currentTask": "DA-T2 complete",
+   "lastHeartbeat": "2026-11-24T13:41:40.000Z",
+   "observedAt": "2026-11-24T13:41:40.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-routing-panel-315",
    "name": "Routing Panel cycle 315",
    "role": "coordinator",
@@ -3711,48 +3739,6 @@
    "observedAt": "2026-11-23T17:11:29.000Z",
    "needsUser": false,
    "category": "blocktales"
-  },
-  {
-   "agentId": "gt99-qa-checker",
-   "name": "Ghostname QA Division",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT99 independent QA checker (Ghostname QA division)",
-   "detail": "COMPLETE (posted by job lead). Final pass on shipped file: PASS, zero mouth incidents, captions clean, staging fixes 5 of 5. Report: qa-check-final.md.",
-   "currentTask": "Done",
-   "lastHeartbeat": "2026-11-23T17:11:29.000Z",
-   "observedAt": "2026-11-23T17:11:29.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "team-routing-panel-220",
-   "name": "Routing Panel 220",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing Panel 220",
-   "detail": "Routing Panel 220 done: RC-T1 Scriptwriter, RC-T2 Social Media Manager, RC-T3 Security Auditor, RC-T4 Video Editor, RC-T5 Art Director",
-   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-23T17:10:50.000Z",
-   "observedAt": "2026-11-23T17:10:50.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-rm-t2-generic",
-   "name": "RM-T2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 Generic Solver",
-   "detail": "Generic solver complete (posted by cycle parent; solver completion snapshot failed once on status value done). Output 8,525 bytes, 1,396 words, 74s, 0 em dashes.",
-   "currentTask": "RM-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-23T16:33:30.000Z",
-   "observedAt": "2026-11-23T16:33:30.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
   }
  ]
 }
