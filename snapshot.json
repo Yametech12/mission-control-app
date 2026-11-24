@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T15:49:00.000Z",
- "summary": "Cycle 327: Consequence Planner first run in progress.",
+ "generatedAt": "2026-11-24T15:55:00.000Z",
+ "summary": "GT-20261124-115 GhostLabs merged plan Release 1 candidate: intake done, live tree backed up, engine battery running. No deploy.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-coordinator",
+   "name": "Coordinator (GT115 lead)",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT115 GhostLabs merged plan, Release 1 candidate",
+   "detail": "Intake done; live tree backed up MD5-verified; engine battery running (46 tests + 6 breakers + 2 samples vs both engines). Candidate only, no deploy.",
+   "currentTask": "S2 battery spawned; awaiting score table for the engine decision",
+   "lastHeartbeat": "2026-11-24T15:55:00.000Z",
+   "observedAt": "2026-11-24T15:55:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-qa-automation-engineer",
+   "name": "QA Automation Engineer",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Engine battery, GT105 vs Genspark",
+   "detail": "Posted by the job lead: building the unified battery harness (46 tests, 6 Gemini breakers, 2 Genspark samples) against both engines.",
+   "currentTask": "S2: writing battery harness under candidate-gt115/battery/",
+   "lastHeartbeat": "2026-11-24T15:55:00.000Z",
+   "observedAt": "2026-11-24T15:55:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2355,6 +2383,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cp-t1-specialist",
+   "name": "CP-T1 Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-T1 specialist solve",
+   "detail": "CP-T1 specialist solve complete: draft consequence map filed, 2,106 words, all 6 sections in order.",
+   "currentTask": "CP-T1 draft complete: 2,106 words, 6 sections, 0 em dashes",
+   "lastHeartbeat": "2026-11-24T15:54:40.000Z",
+   "observedAt": "2026-11-24T15:54:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "cp-t1-generic",
+   "name": "CP-T1 Generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-T1 generic solve",
+   "detail": "CP-T1 generic draft filed: 14,376 bytes, 2,355 words, all 6 sections in order, 0 em dashes.",
+   "currentTask": "CP-T1 generic solve complete, draft filed",
+   "lastHeartbeat": "2026-11-24T15:54:11.000Z",
+   "observedAt": "2026-11-24T15:54:11.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "23:53 PHT check done: Graph API OK, 30 threads, 0 new buyer messages, no action needed.",
+   "currentTask": "Inbox watch complete, no new messages",
+   "lastHeartbeat": "2026-11-24T15:54:00.000Z",
+   "observedAt": "2026-11-24T15:54:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-lead-gt114",
    "name": "GT114 Job Lead",
    "role": "coordinator",
@@ -2479,20 +2549,6 @@
    "observedAt": "2026-11-24T15:28:54.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "Inbox watch complete: 30 threads, 0 new buyer messages, Page access OK.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-24T15:25:00.000Z",
-   "observedAt": "2026-11-24T15:25:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-compliance-officer",
@@ -3725,34 +3781,6 @@
    "observedAt": "2026-11-23T18:17:38.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "kogama-gt100",
-   "name": "kogama-gt100",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT100 Oates Short, 2.5D full build",
-   "detail": "GT100 Oates Short built in the approved 2.5D look: 720x1280, 59.600 s, -16.36 LUFS, captions 149/149, mouth watch 0 incidents. QA PASS. Posting gate locked, owner reviews first.",
-   "currentTask": "Build complete, QA passed, file ready for owner review",
-   "lastHeartbeat": "2026-11-23T18:11:00.000Z",
-   "observedAt": "2026-11-23T18:11:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "team-page-operator-po-t2-generic",
-   "name": "Page Operator PO-T2 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T2 generic solver",
-   "detail": "PO-T2 draft done: 7 sections, 6816 bytes, 0 em dashes, duplicate log row flagged in the report.",
-   "currentTask": "PO-T2 draft complete",
-   "lastHeartbeat": "2026-11-23T17:49:15.000Z",
-   "observedAt": "2026-11-23T17:49:15.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
   }
  ]
 }
