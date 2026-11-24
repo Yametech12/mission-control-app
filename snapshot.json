@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-24T18:17:00.000Z",
- "summary": "GT-20261125-119: F3 raised to Major on reproduction; scoped fix loop spawning.",
+ "generatedAt": "2026-11-24T18:20:30.000Z",
+ "summary": "UR-T1 specialist solver completed: SASE buyer feedback synthesis drafted, all 6 sections, 0 em dashes.",
  "agents": [
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results. 85 consecutive failures; last success Nov 3.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 21 consecutive failures, last run failed Nov 24 at 23:26 PHT; last success was Nov 4. Next run 23:30 PHT today.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T17:16:44.000Z",
-   "needsUser": true,
-   "category": "Clipping"
+   "observedAt": "2026-11-24T18:16:34.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -23,40 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results. 87 consecutive failures; last success Oct 6.",
+   "detail": "Attention: 87 consecutive failures and paused; the chat it posts to can no longer receive results. Last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T17:16:44.000Z",
+   "observedAt": "2026-11-24T18:16:34.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Messaging"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Whop Townhall product posts",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 24 at 23:26 PHT, 21 consecutive failures with no recorded reason. Last success Nov 4.",
+   "title": "Whop Townhall product posts",
+   "detail": "Attention: 85 consecutive failures and paused; the chat it posts to can no longer receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T17:16:44.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23 at 08:56 PHT, 3 consecutive failures with no recorded reason. Last success Nov 4; next Mon Nov 30.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T17:16:44.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "observedAt": "2026-11-24T18:16:34.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -65,12 +51,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 23 at 19:05 PHT, 7 consecutive failures with no recorded reason. Last success Nov 2; next Nov 26.",
+   "detail": "Attention: 7 consecutive failures, last run failed Nov 23 at 19:05 PHT; last success was Nov 2. Next run Nov 26 at 19:05 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T17:16:44.000Z",
+   "observedAt": "2026-11-24T18:16:34.000Z",
    "needsUser": false,
-   "category": "Website"
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Attention: 3 consecutive failures; last run failed Nov 23 at 08:56 PHT, last success Nov 4. Next check Mon Nov 30 at 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T18:16:34.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -841,6 +841,20 @@
    "observedAt": "2026-11-24T18:17:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
+  },
+  {
+   "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
+   "name": "GhostLabs Release 3 Coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GhostLabs AI Release 3 candidate",
+   "detail": "Coordinator agent is actively running the Release 3 batch exception queue plus Duplicate and Fraud Radar, about 61 minutes in.",
+   "currentTask": "GhostLabs AI Release 3 candidate, batch exception queue plus Duplicate and Fraud Radar",
+   "lastHeartbeat": "2026-11-24T18:14:22.000Z",
+   "observedAt": "2026-11-24T18:16:05.000Z",
+   "needsUser": false,
+   "category": "GhostLabs"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2397,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-ur-t1-specialist",
+   "name": "UR-T1 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-T1 specialist solver",
+   "detail": "UR-T1 specialist draft done: 7,542 bytes, 1,207 words, 6 sections in order, spot check agreed with task facts.",
+   "currentTask": "UR-T1 specialist synthesis draft",
+   "lastHeartbeat": "2026-11-24T18:20:30.000Z",
+   "observedAt": "2026-11-24T18:20:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-ur-t1-generic",
+   "name": "UR-T1 Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-T1 generic solver",
+   "detail": "UR-T1 generic synthesis done: 8,049 bytes, 1,313 words, all 6 sections in order.",
+   "currentTask": "UR-T1 generic synthesis complete",
+   "lastHeartbeat": "2026-11-24T18:20:10.000Z",
+   "observedAt": "2026-11-24T18:20:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-qa-tester",
    "name": "qa-tester",
    "role": "auditor",
@@ -3767,34 +3809,6 @@
    "observedAt": "2026-11-23T22:37:12.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
-  },
-  {
-   "agentId": "brainstorm-gt102",
-   "name": "gt102-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT102 Brainrot brainstorm (Kogama + Ghostname)",
-   "detail": "Complete. Joint report filed under GT-20261124-102-reports. Recommendation: Level 2 with Level 1 guardrails. Owner decision pending on tone level.",
-   "currentTask": "Report delivered to parent",
-   "lastHeartbeat": "2026-11-23T22:29:17.000Z",
-   "observedAt": "2026-11-23T22:29:17.000Z",
-   "needsUser": true,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "team-improvement-cycle-generic",
-   "name": "Generic Solver SMM-T3",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic Solver SMM-T3",
-   "detail": "SMM-T3 draft saved: 23 planned posts vs 20/month Uplika cap, 3 over; FB unverified; @ghostname_lofi excluded.",
-   "currentTask": "Draft SMM-T3 weekly calendar",
-   "lastHeartbeat": "2026-11-23T21:18:35.000Z",
-   "observedAt": "2026-11-23T21:18:35.000Z",
-   "needsUser": false,
-   "category": "ghostname team validation"
   }
  ]
 }
