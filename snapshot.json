@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T15:25:00.000Z",
- "summary": "SASE inbox watch complete: no new buyer messages.",
+ "generatedAt": "2026-11-24T15:32:00.000Z",
+ "summary": "GT-20261124-114 fix phase: fixes pushed in bf99124, QA and live verification running.",
  "agents": [
   {
    "agentId": null,
@@ -821,10 +821,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-20261124-114 SASE/CSE portal fix phase",
-   "detail": "Fix phase of GT-20261124-114 started with owner approval. Target tree sase-practice-hub-ph. Fixes L2-L12, D3, carried-over API checks.",
-   "currentTask": "Fix phase started: owner approved repo execution; locating fixes in live tree",
-   "lastHeartbeat": "2026-11-24T15:26:00.000Z",
-   "observedAt": "2026-11-24T15:26:00.000Z",
+   "detail": "Builders done: L2, L3a, L4-L10, L12 fixed; scoped progress write landed with 23 new checks; all 237 tests pass. Commit bf99124 pushed. QA verification in progress.",
+   "currentTask": "Fixes committed (bf99124) and pushed; QA Tester and Live Verifier verifying",
+   "lastHeartbeat": "2026-11-24T15:32:00.000Z",
+   "observedAt": "2026-11-24T15:32:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
   },
@@ -2369,6 +2369,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder: landing copy and CSS fixes",
+   "detail": "L4-L10, L12 and D3 recount done in the live tree; site tests pass (posted by job lead).",
+   "currentTask": "Fix slice complete (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:32:00.000Z",
+   "observedAt": "2026-11-24T15:32:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-systems-builder",
+   "name": "Systems Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Systems Builder: API and exam UI fixes",
+   "detail": "L2, L3a fixed; L3b already isolated; scoped progress update landed with new tests (posted by job lead).",
+   "currentTask": "Fix slice complete (posted by job lead)",
+   "lastHeartbeat": "2026-11-24T15:32:00.000Z",
+   "observedAt": "2026-11-24T15:32:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
    "agentId": "team-architect",
    "name": "Architect",
    "role": "auditor",
@@ -2377,20 +2405,6 @@
    "title": "Architect: portal code and content audit",
    "detail": "Audit complete (posted by job lead). Checkout proved stale; findings reclassified at compile.",
    "currentTask": "Done: 9 findings (Critical 1, High 3, Medium 3, Low 2) in jobs/GT-20261124-114-reports/architect.md",
-   "lastHeartbeat": "2026-11-24T15:30:00.000Z",
-   "observedAt": "2026-11-24T15:30:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Systems Builder: portal API and state audit",
-   "detail": "Audit complete (posted by job lead). Full-state rewrite confirmed in stale checkout; scoped progress-path proposal written.",
-   "currentTask": "Done: Critical 1, High 2, Medium 3, Low 2 in jobs/GT-20261124-114-reports/systems-builder.md",
    "lastHeartbeat": "2026-11-24T15:30:00.000Z",
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
@@ -2423,6 +2437,20 @@
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
+  },
+  {
+   "agentId": "team-routing-panel",
+   "name": "Routing panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 325",
+   "detail": "Done: RC-T1 QA Tester 6/8, RC-T2 API Integration Engineer 5/8, RC-T3 Fact Checker 8/8, RC-T4 Security Auditor 7/8, RC-T5 Site Builder 6/8.",
+   "currentTask": "Routing panel cycle 325 picks complete",
+   "lastHeartbeat": "2026-11-24T15:28:54.000Z",
+   "observedAt": "2026-11-24T15:28:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3737,34 +3765,6 @@
    "currentTask": "PO-T1 pending-order triage report",
    "lastHeartbeat": "2026-11-23T17:40:46.000Z",
    "observedAt": "2026-11-23T17:40:46.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "rm-t3-judge",
-   "name": "RM-T3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T3 blind judgement",
-   "detail": "Done. Candidate A wins 8.5 to 7.25. No identity leak in either candidate. Judgement file written.",
-   "currentTask": "RM-T3 judgement filed",
-   "lastHeartbeat": "2026-11-23T17:32:00.000Z",
-   "observedAt": "2026-11-23T17:32:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "rm-t2-judge",
-   "name": "rm-t2-judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "RM-T2 blind judge: Reviewer Marketer validation",
-   "detail": "Judged: Candidate B wins 8.25 to 7.75 over Candidate A. Clean blind, no contamination.",
-   "currentTask": "Judgement filed for RM-T2",
-   "lastHeartbeat": "2026-11-23T17:29:20.000Z",
-   "observedAt": "2026-11-23T17:29:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
