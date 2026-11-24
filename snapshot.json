@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T17:52:00.000Z",
- "summary": "Clipp Team Pro Max upgrade complete: Groq caption and hook engine live, Gemini Hunter Assist live with fallback chain, integration brief filed.",
+ "generatedAt": "2026-11-24T17:46:47.000Z",
+ "summary": "Cycle 337: sealing Market Intelligence Analyst pairs.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,34 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 337: MIA seal",
+   "detail": "Cycle 337 start: sealing MIA pairs for blind judging in cycle 338.",
+   "currentTask": "Cycle 337: seal Market Intelligence Analyst pairs",
+   "lastHeartbeat": "2026-11-24T17:46:47.000Z",
+   "observedAt": "2026-11-24T17:46:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "clipp-promax-sample",
+   "name": "clipp-promax-sample",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Pro Max SAMPLE clip build",
+   "detail": "Started: reading pipeline docs, picking source section on disk for the Gemini Hunter pre-scan.",
+   "currentTask": "Source pick and Hunter pre-scan setup",
+   "lastHeartbeat": "2026-11-24T17:46:39.000Z",
+   "observedAt": "2026-11-24T17:46:39.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
    "agentId": "team-lead-gt119-batch-radar",
    "name": "ghostlabs-r3-lead",
    "role": "coordinator",
@@ -841,20 +869,6 @@
    "observedAt": "2026-11-24T17:39:00.000Z",
    "needsUser": false,
    "category": "ghostlabs"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 336",
-   "detail": "Cycle 336: Market Intelligence Analyst MIA-T3 solver pair running (specialist + generic).",
-   "currentTask": "Cycle 336: MIA-T3 solvers running",
-   "lastHeartbeat": "2026-11-24T17:36:39.000Z",
-   "observedAt": "2026-11-24T17:36:39.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-fact-checker",
