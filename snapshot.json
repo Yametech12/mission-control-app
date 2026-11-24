@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T20:41:34.000Z",
- "summary": "Routing Panel started cycle 350 panel picks for GT-20261124-116 legs.",
+ "generatedAt": "2026-11-24T20:42:18.000Z",
+ "summary": "Routing Panel completed cycle 350 panel picks; file written, zero em dashes.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing check cycle 350 panel picks",
-   "detail": "Panel reading tasks.md and ROSTER_INDEX.md only; naming one specialist per task RC-T1 to RC-T5.",
-   "currentTask": "Routing check cycle 350 panel picks (RC-T1 to RC-T5)",
-   "lastHeartbeat": "2026-11-24T20:41:34.000Z",
-   "observedAt": "2026-11-24T20:41:34.000Z",
-   "needsUser": false,
-   "category": "routing"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2397,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 350 panel picks",
+   "detail": "Picks: Site Builder, Device and Rendering Tester, Data Integrity Auditor, DevOps and Release Engineer, Live Verifier. RC-T3 flagged closest call.",
+   "currentTask": "Routing check cycle 350 panel picks (RC-T1 to RC-T5)",
+   "lastHeartbeat": "2026-11-24T20:42:18.000Z",
+   "observedAt": "2026-11-24T20:42:18.000Z",
+   "needsUser": false,
+   "category": "routing"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3779,20 +3779,6 @@
    "currentTask": "WT-S1 blind judgement filed",
    "lastHeartbeat": "2026-11-24T00:40:34.000Z",
    "observedAt": "2026-11-24T00:40:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "watcher-judge-wt-s2",
-   "name": "Watcher judge WT-S2",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Watcher retest 2 judge WT-S2",
-   "detail": "WT-S2 blind judgement filed.",
-   "currentTask": "WT-S2 blind judgement filed",
-   "lastHeartbeat": "2026-11-24T00:39:47.000Z",
-   "observedAt": "2026-11-24T00:39:47.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
