@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T13:30:36.000Z",
- "summary": "Routing check cycle 315 panel picks filed: 5 picks with votes",
+ "generatedAt": "2026-11-24T13:37:00.000Z",
+ "summary": "Cycle 316: Data Analyst DA-T2 solver pair running",
  "agents": [
   {
    "agentId": null,
@@ -806,13 +806,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team validation loop cycle 315",
-   "detail": "Cycle 315 routing check (35th) started: 5 mixed real tasks, Coordinator picks to be sealed before the leads panel reads.",
-   "currentTask": "Cycle 315 routing check: harvesting 5 tasks, sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-24T13:23:21.000Z",
-   "observedAt": "2026-11-24T13:23:21.000Z",
+   "title": "Improvement cycle 316: Data Analyst DA-T2",
+   "detail": "Running DA-T2 solver pair (specialist vs generic) for the clipping lane performance report.",
+   "currentTask": "Cycle 316: DA-T2 solver pair",
+   "lastHeartbeat": "2026-11-24T13:37:00.000Z",
+   "observedAt": "2026-11-24T13:37:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "09798e31-c170-42d6-9135-e21dbf4ae52b",
