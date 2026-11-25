@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T22:59:00.000Z",
- "summary": "Ghostname Team improvement cycle 465: 65th routing check, pool decision in progress",
+ "generatedAt": "2026-11-25T23:04:00.000Z",
+ "summary": "Routing panel cycle 465 complete: 5 picks filed to panel-picks.md",
  "agents": [
   {
    "agentId": null,
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 465",
+   "detail": "Panel complete: Page Operator, Page Operator, Community Manager, Watcher, DevOps and Release Engineer.",
+   "currentTask": "Panel picks filed for routing check cycle 465",
+   "lastHeartbeat": "2026-11-25T23:04:00.000Z",
+   "observedAt": "2026-11-25T23:04:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "cse-quick-check-6h",
    "name": "cse-quick-check-6h",
    "role": "poster",
@@ -2493,20 +2507,6 @@
    "observedAt": "2026-11-25T22:10:56.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Division-leads routing panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 460",
-   "detail": "Routing panel cycle 460 complete: picks filed, posted by the cycle parent",
-   "currentTask": "Cycle 460 panel picks filed",
-   "lastHeartbeat": "2026-11-25T21:53:00.000Z",
-   "observedAt": "2026-11-25T21:53:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "co-r1-generic",
