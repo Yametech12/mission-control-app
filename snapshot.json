@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-25T18:04:12.000Z",
- "summary": "Ghostname Team improvement cycle 444 complete: Competitor Analyst retest 2 sealed clean; judging cycle 446.",
+ "generatedAt": "2026-11-25T18:20:22.000Z",
+ "summary": "Routing check cycle 445 panel: 5 picks filed.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failing: 22 consecutive failures, last success Nov 4. Last run failed Nov 25 at 23:26 PHT with no recorded reason.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,10 +9,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 89 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be fixed or moved.",
+   "detail": "Blocked: 89 consecutive failures. Last failed 22:35 PHT Nov 25; last success Nov 3. Delivery chat can no longer receive results; account action required.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T14:35:10.000Z",
+   "observedAt": "2026-11-25T18:16:15.000Z",
    "needsUser": true,
    "category": "Whop"
   },
@@ -37,12 +23,54 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Telegram session watchdog",
-   "detail": "Blocked: 91 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be fixed or moved.",
+   "detail": "Blocked: 91 consecutive failures. Last failed 21:46 PHT Nov 25; last success Oct 6. Delivery chat can no longer receive results; account action required.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T13:46:27.000Z",
+   "observedAt": "2026-11-25T18:16:15.000Z",
    "needsUser": true,
-   "category": "Telegram"
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 22 consecutive failures. Last failed 23:30 PHT Nov 25; last success Nov 4. Runs fail before finishing with a spawn/binding error.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T18:16:15.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 7 consecutive failures. Last failed Nov 23; last success Nov 2. Next run 19:05 PHT Nov 26.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T18:16:15.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Attention: 3 consecutive failures. Last failed Nov 23; last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T18:16:15.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -799,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 445",
+   "detail": "Cycle 445 routing check started: 5 fresh legs from GT-135, GT-137, GT-119; Coordinator picks sealing before panel read.",
+   "currentTask": "Cycle 445 routing check: 5 fresh legs, Coordinator picks sealing",
+   "lastHeartbeat": "2026-11-25T18:19:00.000Z",
+   "observedAt": "2026-11-25T18:19:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2383,16 +2425,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "team-routing-panel",
+   "name": "Division-leads routing panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 444: CA retest 2 sealing",
-   "detail": "Cycle 444 sealed: CA retest 2 SEAL_OK first run, 17 changed lines, 0 identity hits; judging cycle 446, a fail flags the specialist.",
-   "currentTask": "Cycle 444 complete: CA retest 2 sealed",
-   "lastHeartbeat": "2026-11-25T18:04:12.000Z",
-   "observedAt": "2026-11-25T18:04:12.000Z",
+   "title": "Routing check panel cycle 445",
+   "detail": "Panel done: RC-T1 Systems Builder 7-1, RC-T2 QA Automation Engineer 6-2, RC-T3 QA Automation Engineer 5-3, RC-T4 DevOps and Release Engineer 6-2, RC-T5 Knowledge Manager 7-1.",
+   "currentTask": "Panel picks filed for routing check cycle 445",
+   "lastHeartbeat": "2026-11-25T18:20:22.000Z",
+   "observedAt": "2026-11-25T18:20:22.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2463,20 +2505,6 @@
    "currentTask": "CA-S1 specialist brief complete",
    "lastHeartbeat": "2026-11-25T17:28:00.000Z",
    "observedAt": "2026-11-25T17:28:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel, cycle 440",
-   "detail": "Cycle 440 complete: RC-T1 Thesis Researcher 6-2, RC-T2 Site Builder 7-1, RC-T3 Thesis Researcher 6-2, RC-T4 Architect 5-3, RC-T5 Thesis Researcher 7-1.",
-   "currentTask": "Routing panel cycle 440 complete, 5 picks filed",
-   "lastHeartbeat": "2026-11-25T16:42:24.000Z",
-   "observedAt": "2026-11-25T16:42:24.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3779,6 +3807,20 @@
    "currentTask": "CM-R3 SASE group comment watch run plan (generic solver) complete",
    "lastHeartbeat": "2026-11-25T01:07:25.000Z",
    "observedAt": "2026-11-25T01:07:25.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-cm-r2-specialist",
+   "name": "CM-R2 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R2 specialist solver",
+   "detail": "CM-R2 specialist solve done: 8,966 bytes, 1,417 words, 0 em dashes, MD5 40e7a485a2e69b5cb08c3e9e2be3c1dd.",
+   "currentTask": "CM-R2 specialist solve",
+   "lastHeartbeat": "2026-11-25T00:59:16.000Z",
+   "observedAt": "2026-11-25T00:59:16.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   }
