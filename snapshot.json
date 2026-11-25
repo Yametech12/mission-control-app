@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T01:26:00.000Z",
- "summary": "GT-20261125-124 started: COE format restructure of the drone thesis into a print-ready v7 for the panel.",
+ "generatedAt": "2026-11-25T01:28:00.000Z",
+ "summary": "Cycle 371: sealing the Community Manager retest pairs for blind judging.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 371: seal CM retest",
+   "detail": "Sealing CM-R1 to CM-R3 pairs under the cycle 199 differential rule; judging lands cycle 372.",
+   "currentTask": "Sealing Community Manager retest pairs",
+   "lastHeartbeat": "2026-11-25T01:28:00.000Z",
+   "observedAt": "2026-11-25T01:28:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-print-ready",
@@ -2425,20 +2439,6 @@
    "category": "thesis"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 370: routing check",
-   "detail": "Cycle 370 routing check done 5 of 5, 11th clean sweep in 46 checks. No rule fixes. CM retest sealing 371, judging 372.",
-   "currentTask": "Cycle 370 routing check done: 5 of 5",
-   "lastHeartbeat": "2026-11-25T01:22:00.000Z",
-   "observedAt": "2026-11-25T01:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "drone-format-audit",
    "name": "drone-format-audit",
    "role": "auditor",
@@ -3793,6 +3793,20 @@
    "currentTask": "PRA-T2 pricing verification sheet, SASE P167 vs CSE P369",
    "lastHeartbeat": "2026-11-24T06:43:03.000Z",
    "observedAt": "2026-11-24T06:43:03.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "team-pra-t2-generic",
+   "name": "pra-t2-generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-T2 generic solver completed",
+   "detail": "PRA-T2 generic solver done: 7-section verification sheet written, 18 delivered SASE orders re-multiplied to P2,809, all inputs matched MD5.",
+   "currentTask": "PRA-T2 generic solver: SASE P167 vs CSE P369 pricing verification",
+   "lastHeartbeat": "2026-11-24T06:43:00.000Z",
+   "observedAt": "2026-11-24T06:43:00.000Z",
    "needsUser": false,
    "category": "team-validation"
   }
