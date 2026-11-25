@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:36:37.000Z",
- "summary": "APM-R2 specialist run started: drafting Shopee lane consolidation for cycle 408.",
+ "generatedAt": "2026-11-25T09:40:00.000Z",
+ "summary": "Cycle 408 complete: APM-R2 pair collected and verified, no key defect, no verdict this cycle.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-affiliate-program-manager",
-   "name": "Affiliate Program Manager",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "APM-R2 specialist draft",
-   "detail": "Cycle 408 APM-R2 started: reading task, card, and inputs; drafting Shopee lane consolidation.",
-   "currentTask": "Drafting APM-R2 Shopee lane consolidation",
-   "lastHeartbeat": "2026-11-25T09:36:37.000Z",
-   "observedAt": "2026-11-25T09:36:37.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt131-coordinator",
@@ -2467,6 +2453,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 408 complete: APM-R2 pair collected",
+   "detail": "Cycle 408 done. APM-R2 pair verified: specialist 14,308 bytes 159s, generic 14,741 bytes 77s, 0 em dashes, key clean. APM-R3 next cycle 409.",
+   "currentTask": "Cycle 408 complete: APM-R2 pair collected",
+   "lastHeartbeat": "2026-11-25T09:40:00.000Z",
+   "observedAt": "2026-11-25T09:40:00.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "team-art-director",
    "name": "art-director",
    "role": "coordinator",
@@ -3850,20 +3850,6 @@
    "lastHeartbeat": "2026-11-24T16:34:00.000Z",
    "observedAt": "2026-11-24T16:34:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-coordinator",
-   "name": "Coordinator (job lead)",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-115 GhostLabs merged plan, Release 1 candidate",
-   "detail": "Gate package delivered: candidate built on frozen GT84 look, engine 129/129, claims registry clean, 21 screenshots. Not deployed; owner verdict pending (posted by job lead).",
-   "currentTask": "Job closed, gate package delivered",
-   "lastHeartbeat": "2026-11-24T16:24:00.000Z",
-   "observedAt": "2026-11-24T16:24:00.000Z",
-   "needsUser": true,
    "category": "ghostname-team"
   }
  ]
