@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T17:40:00.000Z",
- "summary": "CA-S2 generic solver started: drafting Space 3 competitive brief from harvested facts only.",
+ "generatedAt": "2026-11-25T17:44:39.000Z",
+ "summary": "Cycle 442 complete: CA-S2 pair collected and verified for Competitor Analyst retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 442: Competitor Analyst retest 2, CA-S2 solvers",
-   "detail": "CA-S2 solver pair running: specialist from rewrite 2 card plus skill, generic from task file only.",
-   "currentTask": "Cycle 442: dispatching CA-S2 solver pair",
-   "lastHeartbeat": "2026-11-25T17:38:40.000Z",
-   "observedAt": "2026-11-25T17:38:40.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2313,34 +2299,6 @@
    "category": "Audit"
   },
   {
-   "agentId": "ca-s2-generic-solver",
-   "name": "CA-S2 generic solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CA-S2 generic solver",
-   "detail": "Generic side of cycle 442 CA-S2 validation; writing 7-section draft brief, no role card, no skill file.",
-   "currentTask": "Draft CA-S2 Space 3 competitive brief (generic side)",
-   "lastHeartbeat": "2026-11-25T17:40:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "ca-s2-specialist-solver",
-   "name": "CA-S2 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CA-S2 specialist solver started",
-   "detail": "CA-S2 specialist solver started: drafting Space 3 competitive brief from harvested facts only.",
-   "currentTask": "Draft CA-S2 Space 3 competitive brief",
-   "lastHeartbeat": "2026-11-25T17:40:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "Validation"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2423,6 +2381,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 442: Competitor Analyst retest 2, CA-S2 collected",
+   "detail": "CA-S2 pair collected: specialist 14,750 bytes 167s, generic 15,329 bytes about 200s, key clean, no verdict. CA-S3 cycle 443.",
+   "currentTask": "Cycle 442 complete",
+   "lastHeartbeat": "2026-11-25T17:44:39.000Z",
+   "observedAt": "2026-11-25T17:44:39.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "6615ddef-42c3-4e1b-bfe7-d943e94b91e7",
@@ -3809,20 +3781,6 @@
    "observedAt": "2026-11-25T00:56:28.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "kogama-gt101-post",
-   "name": "GT101 Oates Short poster",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT101 Oates Short post",
-   "detail": "GT101 Oates Short LIVE: https://www.youtube.com/shorts/P-XhhSD4gjY, public, 7:59 AM PHT. Pinned comment NOT posted: API 403, token lacks comment scope. Manual post needed.",
-   "currentTask": "GT101 published; pinned comment needs manual posting in Studio",
-   "lastHeartbeat": "2026-11-25T00:01:00.000Z",
-   "observedAt": "2026-11-25T00:01:00.000Z",
-   "needsUser": true,
-   "category": "blocktales"
   }
  ]
 }
