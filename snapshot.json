@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T13:14:39.000Z",
- "summary": "Cycle 425 routing check complete: 5 of 5",
+ "generatedAt": "2026-11-25T13:21:52.000Z",
+ "summary": "GT-20261125-136 builder complete: all Parts A-D shipped in the working tree, 33/33 tests passing, docs and completion record written. Awaiting parent verify, commit, and deploy.",
  "agents": [
   {
    "agentId": null,
@@ -9,12 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 88 consecutive failures, last success Nov 3. The chat it posts to can no longer receive results; next probe 22:35 PHT today.",
+   "detail": "Blocked: delivery chat cannot receive results; 88 consecutive failures, last success Nov 3. No Townhall posts since.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T12:16:19.000Z",
+   "observedAt": "2026-11-25T08:35:09.000Z",
    "needsUser": true,
-   "category": "posting"
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -23,54 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: 90 consecutive failures, last success Oct 6. Same delivery block as Whop posts: its chat can no longer receive results; next probe 21:46 PHT.",
+   "detail": "Blocked: delivery chat cannot receive results; 90 consecutive failures, last success Oct 6. Auto re-login not running.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T12:16:19.000Z",
+   "observedAt": "2026-11-25T07:46:27.000Z",
    "needsUser": true,
-   "category": "watch"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 21 consecutive failures, last success Nov 4. Latest run failed at spawn with a binding error. Next run 23:30 PHT today.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T12:16:19.000Z",
-   "needsUser": false,
-   "category": "backup"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures, last success Nov 4. Latest run failed at spawn with a binding error. Next run Mon Nov 30 at 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T12:16:19.000Z",
-   "needsUser": false,
-   "category": "promo"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures, last success Nov 2. Latest run failed at spawn with a binding error. Next run Thu Nov 26 at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T12:16:19.000Z",
-   "needsUser": false,
-   "category": "site"
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -99,6 +57,20 @@
    "observedAt": "2026-11-25T00:01:08.000Z",
    "needsUser": true,
    "category": "BlockTales"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed 21 times in a row (spawn error, binding retired); last success Nov 4. Next attempt tonight 23:30.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T15:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -827,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt136-builder",
-   "name": "gt136-builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-136 ClinicFlow full-force improvement pass (builder)",
-   "detail": "Started: read job, brief, and 4 audit reports. Implementing Part A security fixes first.",
-   "currentTask": "Reading codebase, starting Part A security fixes",
-   "lastHeartbeat": "2026-11-25T13:10:00.000Z",
-   "observedAt": "2026-11-25T13:10:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt136-builder",
+   "name": "gt136-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ClinicFlow GT-136 full force improvement pass",
+   "detail": "GT-136 done: Part A security 11, Part B perf/SEO 5, Part C design 8 (+1 deliberate residual), Part D copy all. 33/33 tests pass. Not committed or deployed; parent ships.",
+   "currentTask": "GT-136 complete in working tree; parent to verify, commit, deploy",
+   "lastHeartbeat": "2026-11-25T13:21:52.000Z",
+   "observedAt": "2026-11-25T13:21:52.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
    "agentId": "gt136-qa",
    "name": "gt136-qa-security-auditor",
    "role": "auditor",
@@ -2451,6 +2423,20 @@
    "observedAt": "2026-11-25T13:14:39.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 425 routing check: 5 of 5 coordinator picks matched the panel; scoreboard 14 validated, 4 flagged, 61 unvalidated of 79.",
+   "currentTask": "Cycle 425 routing check complete, 5 of 5",
+   "lastHeartbeat": "2026-11-25T13:12:31.000Z",
+   "observedAt": "2026-11-25T13:12:31.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
   },
   {
    "agentId": "gt135-builder",
@@ -3795,34 +3781,6 @@
    "observedAt": "2026-11-24T20:10:00.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-page-operator-po-r3-generic",
-   "name": "PO-R3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-R3 Generic Solver",
-   "detail": "PO-R3 generic draft complete: 4485 bytes, 687 words, MD5 b20e55e629dbf18a451aa3f0476ff5b8, 0 em dashes, all 7 sections in order.",
-   "currentTask": "PO-R3 generic draft complete",
-   "lastHeartbeat": "2026-11-24T20:09:39.000Z",
-   "observedAt": "2026-11-24T20:09:39.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-page-operator-po-r2-specialist",
-   "name": "PO-R2 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-R2 specialist solver",
-   "detail": "PO-R2 draft complete: SASE-V3VA6A dual-thread report, 4707 bytes, Page ID discrepancy flagged for owner.",
-   "currentTask": "PO-R2 action report complete",
-   "lastHeartbeat": "2026-11-24T20:01:20.000Z",
-   "observedAt": "2026-11-24T20:01:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
