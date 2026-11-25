@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T03:56:00.000Z",
- "summary": "Cycle 381: Page Operator retest 2 blind judging in progress (3 QA judges, PO-S1 to PO-S3).",
+ "generatedAt": "2026-11-25T04:00:00.000Z",
+ "summary": "Cycle 381 complete: Page Operator retest 2 judged blind (7.83 vs 7.75, 2W 1L), second failed rewrite, specialist FLAGGED. Scoreboard 13 validated, 2 flagged, 64 unvalidated.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement Cycle 381: PO retest 2 judging",
-   "detail": "Cycle 381 judging Page Operator retest 2: 3 fresh QA judges scoring PO-S1 to PO-S3 blind.",
-   "currentTask": "Cycle 381: judging Page Operator retest 2 (3 blind pairs)",
-   "lastHeartbeat": "2026-11-25T03:56:00.000Z",
-   "observedAt": "2026-11-25T03:56:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2383,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement Cycle 381: PO retest 2 judged, FLAGGED",
+   "detail": "Cycle 381: Page Operator retest 2 judged 7.83 vs 7.75 (2W 1L), second failed rewrite, FLAGGED to Approval queue.",
+   "currentTask": "Cycle 381 complete: Page Operator retest 2 judged, specialist FLAGGED",
+   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
+   "observedAt": "2026-11-25T04:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-po-judge-s1",
+   "name": "PO-S1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-S1 Judge: done",
+   "detail": "PO-S1 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 7.50 vs 7.25.",
+   "currentTask": "PO-S1 judged: specialist win 7.50 vs 7.25",
+   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
+   "observedAt": "2026-11-25T04:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-po-judge-s2",
+   "name": "PO-S2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-S2 Judge: done",
+   "detail": "PO-S2 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 8.00 vs 7.75.",
+   "currentTask": "PO-S2 judged: specialist win 8.00 vs 7.75",
+   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
+   "observedAt": "2026-11-25T04:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-po-judge-s3",
+   "name": "PO-S3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-S3 Judge: done",
+   "detail": "PO-S3 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, B wins 8.25 vs 8.00.",
+   "currentTask": "PO-S3 judged: generic win 8.25 vs 8.00",
+   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
+   "observedAt": "2026-11-25T04:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "drone-diagram-swap-v8",
    "name": "drone-diagram-swap-v8",
    "role": "builder",
@@ -3739,62 +3781,6 @@
    "observedAt": "2026-11-24T09:53:05.000Z",
    "needsUser": false,
    "category": "BlockTales"
-  },
-  {
-   "agentId": "fc4ece9d-183d-41ed-9eed-7ce808b7231b",
-   "name": "GT112 BlockTales sample lead",
-   "role": "coordinator",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT112 BlockTales Final Transmissions sample done",
-   "detail": "Franklin expedition Victory Point note sample completed and sent to Lobot as a sample; no posting without owner approval.",
-   "currentTask": "GT112 Final Transmissions sample delivered to Lobot",
-   "lastHeartbeat": "2026-11-24T09:53:05.000Z",
-   "observedAt": "2026-11-24T09:53:05.000Z",
-   "needsUser": false,
-   "category": "BlockTales"
-  },
-  {
-   "agentId": "team-bt-audio-engineer-gt112",
-   "name": "bt-audio-gt112",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT112 Audio Engineer (Muse TTS)",
-   "detail": "Posted by job lead. DONE: casper narration, 60.59 s, ASR clean, -16.22 LUFS. Voice report documents all three rounds.",
-   "currentTask": "Complete: voice.wav delivered",
-   "lastHeartbeat": "2026-11-24T09:29:00.000Z",
-   "observedAt": "2026-11-24T09:29:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "team-bt-scriptwriter",
-   "name": "bt-scriptwriter-gt112",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT112 Narration Scriptwriter",
-   "detail": "Posted by job lead. DONE: script at production-gt112/project/script.txt, 145 words after one lead precision fix, quotes exact.",
-   "currentTask": "Complete: script delivered and verified",
-   "lastHeartbeat": "2026-11-24T09:18:00.000Z",
-   "observedAt": "2026-11-24T09:18:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "team-affiliate-program-manager",
-   "name": "Affiliate Program Manager",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-T2 specialist solver",
-   "detail": "APM-T2 specialist draft done: 41 posts audited, 0 of 4 groups fully compliant as recorded, 3 held items, Post 19 defect open, earnings UNMEASURED.",
-   "currentTask": "APM-T2 specialist solver: posted-link discipline audit, Posts 1-41",
-   "lastHeartbeat": "2026-11-24T09:17:18.000Z",
-   "observedAt": "2026-11-24T09:17:18.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
