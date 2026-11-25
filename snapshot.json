@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T05:05:34.000Z",
- "summary": "Cycle 387: judging Social Media Manager retest 2",
+ "generatedAt": "2026-11-25T05:15:37.000Z",
+ "summary": "GT-20261125-130: recording the delegated KEEP decision for flagged Social Media Manager.",
  "agents": [
   {
    "agentId": null,
@@ -829,16 +829,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "team-flagged-decision",
+   "name": "Flagged specialists decision record",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 387",
-   "detail": "Cycle 387 judging SMM retest 2: three blind QA judges scoring SMM-S1 to SMM-S3",
-   "currentTask": "Cycle 387: judging Social Media Manager retest 2, three blind QA judges",
-   "lastHeartbeat": "2026-11-25T05:05:34.000Z",
-   "observedAt": "2026-11-25T05:05:34.000Z",
+   "title": "GT-20261125-130 SMM flagged decision",
+   "detail": "Recording KEEP for flagged Social Media Manager (8.25 vs 7.75) in the team files.",
+   "currentTask": "Updating VALIDATION.md Approval queue for Social Media Manager",
+   "lastHeartbeat": "2026-11-25T05:15:37.000Z",
+   "observedAt": "2026-11-25T05:15:37.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2411,6 +2411,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 387",
+   "detail": "Cycle 387: SMM retest 2 judged 8.25 vs 7.75, 2W 1L, not a clear win; Social Media Manager FLAGGED, 3rd in Approval queue",
+   "currentTask": "Cycle 387 complete: SMM retest 2 judged, specialist FLAGGED",
+   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
+   "observedAt": "2026-11-25T05:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "smm-judge-s1",
+   "name": "SMM Judge S1",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM retest 2 judge S1",
+   "detail": "SMM-S1 judged blind: generic win 8.50 vs 7.50, contamination clean (posted by cycle parent)",
+   "currentTask": "SMM-S1 judged: generic win 8.50 vs 7.50",
+   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
+   "observedAt": "2026-11-25T05:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "smm-judge-s2",
+   "name": "SMM Judge S2",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM retest 2 judge S2",
+   "detail": "SMM-S2 judged blind: specialist win 8.75 vs 7.75, contamination clean (posted by cycle parent)",
+   "currentTask": "SMM-S2 judged: specialist win 8.75 vs 7.75",
+   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
+   "observedAt": "2026-11-25T05:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "smm-judge-s3",
+   "name": "SMM Judge S3",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM retest 2 judge S3",
+   "detail": "SMM-S3 judged blind: specialist win 8.50 vs 7.00, contamination clean (posted by cycle parent)",
+   "currentTask": "SMM-S3 judged: specialist win 8.50 vs 7.00",
+   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
+   "observedAt": "2026-11-25T05:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3753,62 +3809,6 @@
    "observedAt": "2026-11-24T13:52:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-audio-engineer",
-   "name": "Audio Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Audio Engineer: STT/TTS and barge-in spec",
-   "detail": "DONE: AUDIO_SPEC.md 154 lines, tap-to-interrupt barge-in, honest half-duplex limits. Posted by job lead.",
-   "currentTask": "Completed: AUDIO_SPEC.md delivered",
-   "lastHeartbeat": "2026-11-24T13:48:22.000Z",
-   "observedAt": "2026-11-24T13:48:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fact-checker",
-   "name": "Fact Checker",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Fact Checker FC-T3 specialist",
-   "detail": "FC-T3 specialist collected: 7,987 bytes, 1,227 words, about 45s (posted by cycle parent)",
-   "currentTask": "FC-T3 specialist output collected and verified",
-   "lastHeartbeat": "2026-11-24T12:19:55.000Z",
-   "observedAt": "2026-11-24T12:19:55.000Z",
-   "needsUser": false,
-   "category": "team"
-  },
-  {
-   "agentId": "mission-control-apk",
-   "name": "mission-control-apk",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Mission Control Android APK",
-   "detail": "Done: APK v1 built and signed (638,181 bytes), feed live and auto-publishing every 5 min, APK sent to Lobot message 1046. Phone install test is the owner's check.",
-   "currentTask": "Complete: APK delivered to owner via Lobot",
-   "lastHeartbeat": "2026-11-24T11:12:00.000Z",
-   "observedAt": "2026-11-24T11:12:00.000Z",
-   "needsUser": false,
-   "category": "apps"
-  },
-  {
-   "agentId": "3e39c899-7004-42e5-b840-13eda78e84e8",
-   "name": "Mission Control APK builder",
-   "role": "builder",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "Mission Control Android APK v1 built",
-   "detail": "Mission Control Android APK v1 built, signed, verified and delivered to the owner via Lobot.",
-   "currentTask": "Mission Control Android APK v1",
-   "lastHeartbeat": "2026-11-24T11:10:24.000Z",
-   "observedAt": "2026-11-24T11:10:24.000Z",
-   "needsUser": false,
-   "category": "Apps"
   }
  ]
 }
