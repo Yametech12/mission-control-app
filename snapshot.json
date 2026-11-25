@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:31:30.000Z",
- "summary": "Cycle 366 complete: Store Operator retest validated 8.67 / 7.92, scoreboard 12 of 79 validated.",
+ "generatedAt": "2026-11-25T00:39:41.000Z",
+ "summary": "Cycle 367 started: Community Manager retest, CM-R1 pair running.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "CSE Page comment watch",
-   "detail": "CSE comment watch started: checking Page posts Nov 18-25 for new comments",
-   "currentTask": "Checking CSE Page posts Nov 18-25 for new comments",
-   "lastHeartbeat": "2026-11-25T00:32:25.000Z",
-   "observedAt": "2026-11-25T00:32:25.000Z",
+   "title": "Cycle 367: Community Manager retest",
+   "detail": "Cycle 367 started. Community Manager retest opens: CM-R1 to CM-R3 filed, CM-R1 solver pair running.",
+   "currentTask": "Cycle 367: Community Manager retest, CM-R1 pair",
+   "lastHeartbeat": "2026-11-25T00:39:41.000Z",
+   "observedAt": "2026-11-25T00:39:41.000Z",
    "needsUser": false,
-   "category": "cse"
+   "category": "validation"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2397,18 +2397,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 366: Store Operator validated",
-   "detail": "Cycle 366 done: Store Operator VALIDATED 8.67 / 7.92 (3 wins). Scoreboard now 12 validated, 1 flagged, 66 unvalidated.",
-   "currentTask": "Cycle 366 complete: Store Operator validated",
-   "lastHeartbeat": "2026-11-25T00:31:30.000Z",
-   "observedAt": "2026-11-25T00:31:30.000Z",
+   "title": "CSE Page comment watch",
+   "detail": "CSE comment watch complete: 10 posts checked Nov 18-25, 0 new genuine comments, 0 hearts, 0 replies, nothing flagged",
+   "currentTask": "Run complete: no new comments",
+   "lastHeartbeat": "2026-11-25T00:38:00.000Z",
+   "observedAt": "2026-11-25T00:38:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "cse"
   },
   {
    "agentId": "sase-inbox-watch",
