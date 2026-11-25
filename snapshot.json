@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:00:30.000Z",
- "summary": "Routing Panel cycle 395 complete: picks filed in panel-picks.md.",
+ "generatedAt": "2026-11-25T07:06:05.000Z",
+ "summary": "Cycle 396 started: PRA-R2 solver pair running.",
  "agents": [
   {
    "agentId": null,
@@ -820,13 +820,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 395",
-   "detail": "Cycle 395 routing check started: 5 mixed real tasks from GT-121, GT-122, GT-125; Coordinator picks sealed, panel pending.",
-   "currentTask": "Routing check cycle 395: 5 mixed real tasks, Coordinator picks sealed",
-   "lastHeartbeat": "2026-11-25T06:57:55.000Z",
-   "observedAt": "2026-11-25T06:57:55.000Z",
+   "title": "Cycle 396: PRA-R2 solvers running",
+   "detail": "Cycle 396 started. PRA-R2 solver pair running: specialist from the rewritten card, generic from the task file only.",
+   "currentTask": "Cycle 396: PRA-R2 solver pair (Pricing and Revenue Analyst retest)",
+   "lastHeartbeat": "2026-11-25T07:06:05.000Z",
+   "observedAt": "2026-11-25T07:06:05.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "validation"
   },
   {
    "agentId": "drone-thesis-team",
