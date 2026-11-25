@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:01:03.000Z",
- "summary": "Routing panel cycle 405 started: naming one specialist per task for RC-T1 to RC-T5 from ROSTER_INDEX.md triggers.",
+ "generatedAt": "2026-11-25T09:06:30.000Z",
+ "summary": "Cycle 406: blind judging of the Funnel and Conversion Specialist retest (FC-R1 to FC-R3, sealed cycle 404).",
  "agents": [
   {
    "agentId": null,
@@ -816,17 +816,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 405: routing check",
-   "detail": "Cycle 405 routing check running: 5 mixed real tasks from GT-128, GT-123, GT-99; panel read in progress.",
-   "currentTask": "Routing check cycle 405: tasks filed, panel reading",
-   "lastHeartbeat": "2026-11-25T08:55:34.000Z",
-   "observedAt": "2026-11-25T08:55:34.000Z",
+   "title": "Ghostname Team improvement cycle 406",
+   "detail": "Cycle 406 judging: FC retest FC-R1 to FC-R3, three blind QA judges, sealed cycle 404",
+   "currentTask": "Cycle 406: blind judging of Funnel and Conversion Specialist retest FC-R1 to FC-R3",
+   "lastHeartbeat": "2026-11-25T09:06:30.000Z",
+   "observedAt": "2026-11-25T09:06:30.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
