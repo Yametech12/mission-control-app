@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T06:26:06.000Z",
- "summary": "Improvement cycle 393 running: blind judging of the Ads Specialist retest.",
+ "generatedAt": "2026-11-25T06:29:26.000Z",
+ "summary": "Improvement cycle 393 complete: Ads Specialist retest VALIDATED 8.33 vs 7.58. Scoreboard now 14 validated, 3 flagged, 62 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 393: Ads Specialist retest judging",
-   "detail": "Cycle 393 judging AS-R1, AS-R2, AS-R3 blind with three fresh QA judges.",
-   "currentTask": "Judging Ads Specialist retest AS-R1 to AS-R3 blind",
-   "lastHeartbeat": "2026-11-25T06:26:06.000Z",
-   "observedAt": "2026-11-25T06:26:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2383,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 393: Ads Specialist VALIDATED",
+   "detail": "Ads Specialist retest validated 8.33 vs 7.58 (2 wins, 1 tie). Scoreboard now 14 validated, 3 flagged, 62 unvalidated.",
+   "currentTask": "Cycle 393 complete: Ads Specialist validated",
+   "lastHeartbeat": "2026-11-25T06:29:26.000Z",
+   "observedAt": "2026-11-25T06:29:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-as-r1",
+   "name": "QA Judge AS-R1",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AS-R1",
+   "detail": "AS-R1 judged: Candidate A wins 8.25 vs 7.25, contamination clean. Posted by cycle parent.",
+   "currentTask": "AS-R1 judging complete",
+   "lastHeartbeat": "2026-11-25T06:29:26.000Z",
+   "observedAt": "2026-11-25T06:29:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-as-r2",
+   "name": "QA Judge AS-R2",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AS-R2",
+   "detail": "AS-R2 judged: tie 8.25 vs 8.25, contamination clean. Posted by cycle parent.",
+   "currentTask": "AS-R2 judging complete",
+   "lastHeartbeat": "2026-11-25T06:29:26.000Z",
+   "observedAt": "2026-11-25T06:29:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-as-r3",
+   "name": "QA Judge AS-R3",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AS-R3",
+   "detail": "AS-R3 judged: Candidate B wins 8.50 vs 7.25, contamination clean. Posted by cycle parent.",
+   "currentTask": "AS-R3 judging complete",
+   "lastHeartbeat": "2026-11-25T06:29:26.000Z",
+   "observedAt": "2026-11-25T06:29:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3737,62 +3779,6 @@
    "currentTask": "Fix phase delivered and closed",
    "lastHeartbeat": "2026-11-24T15:34:00.000Z",
    "observedAt": "2026-11-24T15:34:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-live-verifier",
-   "name": "Live Verifier",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Live Verifier: production checks",
-   "detail": "Live PASS on all fetch-verifiable fixes including both auth error wordings via live POSTs; L3a and L7 unverified live (browser pass outstanding) (posted by job lead).",
-   "currentTask": "Live verification complete (posted by job lead)",
-   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
-   "observedAt": "2026-11-24T15:34:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Systems Builder: API and exam UI fixes",
-   "detail": "L2, L3a fixed; L3b already isolated; scoped progress update landed with new tests (posted by job lead).",
-   "currentTask": "Fix slice complete (posted by job lead)",
-   "lastHeartbeat": "2026-11-24T15:32:00.000Z",
-   "observedAt": "2026-11-24T15:32:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-architect",
-   "name": "Architect",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Architect: portal code and content audit",
-   "detail": "Audit complete (posted by job lead). Checkout proved stale; findings reclassified at compile.",
-   "currentTask": "Done: 9 findings (Critical 1, High 3, Medium 3, Low 2) in jobs/GT-20261124-114-reports/architect.md",
-   "lastHeartbeat": "2026-11-24T15:30:00.000Z",
-   "observedAt": "2026-11-24T15:30:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-security-auditor",
-   "name": "Security Auditor",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Security Auditor: paid content exposure",
-   "detail": "Audit complete (posted by job lead). Live bank URLs all 404; paid banks readable in the public repo.",
-   "currentTask": "Done: live leak check PASS; repo exposure Critical, in jobs/GT-20261124-114-reports/security-auditor.md",
-   "lastHeartbeat": "2026-11-24T15:30:00.000Z",
-   "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
   }
