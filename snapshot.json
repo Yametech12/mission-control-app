@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:26:12.000Z",
- "summary": "GT-20261125-129 started: recording the owner's delegated KEEP decision for flagged specialists Watcher and Page Operator in the team files.",
+ "generatedAt": "2026-11-25T04:27:01.000Z",
+ "summary": "GT-20261125-129 complete: KEEP decision for Watcher and Page Operator recorded in VALIDATION.md, IMPROVEMENTS.md, and PROGRESS.md; counts unchanged (13 validated, 2 flagged, 64 unvalidated).",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-flagged-decision",
-   "name": "team-flagged-decision",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Flagged specialists decision record (GT-20261125-129)",
-   "detail": "Recording KEEP decision for Watcher and Page Operator in VALIDATION.md, IMPROVEMENTS.md, PROGRESS.md.",
-   "currentTask": "Updating VALIDATION.md Approval queue and tracker rows",
-   "lastHeartbeat": "2026-11-25T04:26:12.000Z",
-   "observedAt": "2026-11-25T04:26:12.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-flagged-decision",
+   "name": "team-flagged-decision",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Flagged specialists decision record (GT-20261125-129)",
+   "detail": "Complete: Watcher and Page Operator KEEP (flagged-kept) recorded in VALIDATION.md, IMPROVEMENTS.md, PROGRESS.md. No merge, no delete, cards intact.",
+   "currentTask": "Decision recorded and verified in all three team files",
+   "lastHeartbeat": "2026-11-25T04:27:01.000Z",
+   "observedAt": "2026-11-25T04:27:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3795,20 +3795,6 @@
    "observedAt": "2026-11-24T10:57:48.000Z",
    "needsUser": false,
    "category": "Apps"
-  },
-  {
-   "agentId": "team-competitor-analyst",
-   "name": "Competitor Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-T3 specialist run complete",
-   "detail": "CA-T3 specialist output collected (24,734 bytes, 127s). Start snapshot failed on schema; carried by cycle parent.",
-   "currentTask": "CA-T3 specialist run complete",
-   "lastHeartbeat": "2026-11-24T10:41:00.000Z",
-   "observedAt": "2026-11-24T10:41:00.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
