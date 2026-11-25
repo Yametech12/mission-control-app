@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T16:55:00.000Z",
- "summary": "SASE inbox watch 00:53 PHT: 31 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T17:04:25.000Z",
+ "summary": "Cycle 441: Competitor Analyst retest 2 opens.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 441: Competitor Analyst retest 2",
+   "detail": "Cycle 441 start: Competitor Analyst retest 2 opens (rewrite 2, cycle 427); tasks CA-S1 to CA-S3 filed, CA-S1 pair runs.",
+   "currentTask": "Cycle 441: Competitor Analyst retest 2 opens, CA-S1 pair",
+   "lastHeartbeat": "2026-11-25T17:04:25.000Z",
+   "observedAt": "2026-11-25T17:04:25.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2397,20 +2411,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 440: routing check",
-   "detail": "Cycle 440 complete: sixtieth routing check scored 5 of 5, clean sweeps thirteen in 60, no new rule, cycle 230 flag does not recur.",
-   "currentTask": "Cycle 440 done: routing check 5 of 5",
-   "lastHeartbeat": "2026-11-25T16:44:00.000Z",
-   "observedAt": "2026-11-25T16:44:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel",
    "name": "Routing panel",
    "role": "auditor",
@@ -3778,6 +3778,20 @@
    "detail": "Delivered 07:23 PHT. Gap brief, panel sim (50 Qs), audit (39 defects), decision brief sent to Telegram as message 1049.",
    "currentTask": "Delivered. Decision brief on Telegram; one decision owed (Janette question).",
    "lastHeartbeat": "2026-11-24T23:24:00.000Z",
+   "observedAt": "2026-11-24T23:24:00.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
+   "agentId": "team-gap-researcher",
+   "name": "Thesis Researcher",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Gap evidence brief refresh",
+   "detail": "Done. Combined gap still holds (MODERATE overall). Doddamani now peer-reviewed; Balingbing RGB-only preprint narrows angle (a). Posted by job lead.",
+   "currentTask": "Completed: gap-evidence-brief-refresh.md",
+   "lastHeartbeat": "2026-11-24T23:07:42.000Z",
    "observedAt": "2026-11-24T23:24:00.000Z",
    "needsUser": false,
    "category": "thesis"
