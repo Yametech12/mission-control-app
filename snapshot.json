@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T01:06:34.000Z",
- "summary": "CM-R3 specialist solver started: drafting the SASE group comment watch plan from the rewritten Community Manager card.",
+ "generatedAt": "2026-11-25T01:12:30.000Z",
+ "summary": "GT-20261125-122 drone thesis COE format audit started: mapping the v6 manuscript structure against the official COE research format.",
  "agents": [
   {
    "agentId": null,
@@ -815,32 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-cm-r3-specialist",
-   "name": "CM-R3 specialist solver",
-   "role": "researcher",
+   "agentId": "drone-format-audit",
+   "name": "drone-format-audit",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "CM-R3 specialist solver: SASE group comment watch plan",
-   "detail": "Drafting the CM-R3 watch plan from the rewritten card and the three brief inputs only.",
-   "currentTask": "Draft CM-R3 SASE group comment watch plan",
-   "lastHeartbeat": "2026-11-25T01:06:34.000Z",
-   "observedAt": "2026-11-25T01:06:34.000Z",
+   "title": "GT-20261125-122 Drone thesis COE format audit",
+   "detail": "Started: extracting the v6 heading structure and mapping it against the official COE research format.",
+   "currentTask": "Extracting v6 heading structure from the DOCX",
+   "lastHeartbeat": "2026-11-25T01:12:30.000Z",
+   "observedAt": "2026-11-25T01:12:30.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-cm-r3-generic",
-   "name": "CM-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CM-R3 generic solver",
-   "detail": "Drafting the SASE group comment watch run plan as the generic solver, from the task file and its three listed inputs only.",
-   "currentTask": "Draft CM-R3 SASE group comment watch run plan (generic solver)",
-   "lastHeartbeat": "2026-11-25T01:06:21.000Z",
-   "observedAt": "2026-11-25T01:06:21.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "thesis"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2425,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-cm-r3-specialist",
+   "name": "CM-R3 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R3 specialist solver: SASE group comment watch plan",
+   "detail": "Plan complete: 81 post URLs, Quick Check rule, escalation, stop order, MD5s; one label discrepancy recorded, no input drift.",
+   "currentTask": "Draft CM-R3 SASE group comment watch plan",
+   "lastHeartbeat": "2026-11-25T01:10:22.000Z",
+   "observedAt": "2026-11-25T01:10:22.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-cm-r3-generic",
+   "name": "CM-R3 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R3 generic solver",
+   "detail": "Draft plan written: 3,918 bytes, 586 words, 0 em dashes. Inputs verified, no drift from the brief listing.",
+   "currentTask": "CM-R3 SASE group comment watch run plan (generic solver) complete",
+   "lastHeartbeat": "2026-11-25T01:07:25.000Z",
+   "observedAt": "2026-11-25T01:07:25.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-cm-r2-specialist",
    "name": "CM-R2 specialist",
    "role": "builder",
@@ -3795,34 +3809,6 @@
    "observedAt": "2026-11-24T06:36:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver (PRA-T1)",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-T1 generic solver",
-   "detail": "PRA-T1 generic solver done: verification sheet written, 2912 words, all 7 sections, zero em dashes.",
-   "currentTask": "PRA-T1 pricing verification sheet",
-   "lastHeartbeat": "2026-11-24T06:35:50.000Z",
-   "observedAt": "2026-11-24T06:35:50.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-csm-t1-specialist",
-   "name": "CSM-T1 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSM-T1 Specialist Solver",
-   "detail": "CSM-T1 specialist draft complete: 18 SASE buyers recorded (2 confirmed, 16 pending), CSE sequence designed, 3048 words.",
-   "currentTask": "CSM-T1 draft complete",
-   "lastHeartbeat": "2026-11-24T04:42:00.000Z",
-   "observedAt": "2026-11-24T04:42:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
