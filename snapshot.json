@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T15:45:34.000Z",
- "summary": "Cycle 436: APM retest 2, APM-S2 pair collection running",
+ "generatedAt": "2026-11-25T15:48:53.000Z",
+ "summary": "APM-S2 specialist solver complete: held-items unblock record drafted, 3,966 bytes, 0 em dashes, all inputs verified.",
  "agents": [
   {
    "agentId": null,
@@ -2425,6 +2425,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-affiliate-program-manager",
+   "name": "Affiliate Program Manager",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "APM-S2 specialist solver complete",
+   "detail": "Held-items unblock record drafted for cycle 436: 3 items held, none unblocked, Page deactivated Nov 15. File 3,966 bytes, MD5 399d1f444891ce8a495501d1777790bb.",
+   "currentTask": "APM-S2 held-items unblock record complete",
+   "lastHeartbeat": "2026-11-25T15:48:53.000Z",
+   "observedAt": "2026-11-25T15:48:53.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-generic-solver-apm-s2",
+   "name": "Generic Solver APM-S2",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "APM-S2 generic solve complete",
+   "detail": "APM-S2 generic draft done: 888 words, 5212 bytes, 0 em dashes, all 7 sections, no discrepancies.",
+   "currentTask": "APM-S2 generic solve complete",
+   "lastHeartbeat": "2026-11-25T15:48:20.000Z",
+   "observedAt": "2026-11-25T15:48:20.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Routing panel",
    "role": "coordinator",
@@ -3795,34 +3823,6 @@
    "observedAt": "2026-11-24T23:24:00.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "so-r3-generic",
-   "name": "SO-R3 Generic",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SO-R3 generic collected",
-   "detail": "SO-R3 generic: 5,195 bytes, 823 words, 87.1s, MD5 211ef2f7b5bce6260a75a703550fea5c; its snapshots failed on item schema, carried here.",
-   "currentTask": "SO-R3 generic output collected",
-   "lastHeartbeat": "2026-11-24T23:23:00.000Z",
-   "observedAt": "2026-11-24T23:23:00.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "so-r3-specialist",
-   "name": "SO-R3 Specialist",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SO-R3 escalation draft",
-   "detail": "Draft filed at runs/so-r3-specialist.md: lookup-miss failure mode, quoted evidence, COPY FROM LEDGER order slot, 98s wall time.",
-   "currentTask": "Draft SO-R3 escalation note",
-   "lastHeartbeat": "2026-11-24T23:21:30.000Z",
-   "observedAt": "2026-11-24T23:21:30.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
