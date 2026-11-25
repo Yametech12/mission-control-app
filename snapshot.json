@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T20:11:30.000Z",
- "summary": "DA-R1 generic solve.",
+ "generatedAt": "2026-11-25T20:14:00.000Z",
+ "summary": "Cycle 453: Data Analyst retest opened, DA-R1 collected.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 453",
-   "detail": "Cycle 453 started: Data Analyst retest opens (row 47, rewrite 1); filing 3 fresh tasks from Nov 24-25 records.",
-   "currentTask": "Cycle 453: Data Analyst retest opens, tasks DA-R1 to DA-R3 filed",
-   "lastHeartbeat": "2026-11-25T20:06:00.000Z",
-   "observedAt": "2026-11-25T20:06:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 453",
+   "detail": "Cycle 453 complete: Data Analyst retest opened, DA-R1 pair collected and key-checked (no defect, K5 partial both sides). DA-R2 runs cycle 454.",
+   "currentTask": "Cycle 453 complete: Data Analyst retest opened, DA-R1 pair collected",
+   "lastHeartbeat": "2026-11-25T20:14:00.000Z",
+   "observedAt": "2026-11-25T20:14:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-data-analyst",
+   "name": "Data Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Data Analyst retest DA-R1 specialist solve",
+   "detail": "DA-R1 specialist solve done: 9,869 bytes, exec summary + 5 sections, verdict Hold, 0 em dashes.",
+   "currentTask": "DA-R1 specialist solve",
+   "lastHeartbeat": "2026-11-25T20:12:30.000Z",
+   "observedAt": "2026-11-25T20:12:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-generic-solver",
    "name": "Generic solver",
    "role": "researcher",
@@ -3795,34 +3809,6 @@
    "observedAt": "2026-11-25T02:15:45.000Z",
    "needsUser": false,
    "category": "audit"
-  },
-  {
-   "agentId": "cm-r1-judge-r2",
-   "name": "CM-R1 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R1 judgement round 2 complete",
-   "detail": "CM-R1 judged: A 7.0, B 8.25. No contamination. B wins on completeness and structure.",
-   "currentTask": "CM-R1 blind judgement round 2",
-   "lastHeartbeat": "2026-11-25T02:15:28.000Z",
-   "observedAt": "2026-11-25T02:15:28.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "drone-print-ready",
-   "name": "drone-print-ready",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Drone thesis COE restructure and print build",
-   "detail": "COMPLETE: v7 print-ready DOCX + 90-page PDF in the proposal folder; 29 moves dispositioned, 9 of 9 patches, 8 study figures included, TOC and lists verified against the PDF.",
-   "currentTask": "Job complete: print-ready proposal delivered and verified",
-   "lastHeartbeat": "2026-11-25T01:49:46.000Z",
-   "observedAt": "2026-11-25T01:49:46.000Z",
-   "needsUser": false,
-   "category": "thesis"
   }
  ]
 }
