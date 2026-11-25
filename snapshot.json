@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T14:16:30.000Z",
- "summary": "1 Ghostname cycle running now; Mission Control feed, SASE inbox, CSE comments and PAGCOR watches completed today. 5 jobs need attention, including TG session watch and Whop posts blocked on delivery. 15 items verified.",
+ "generatedAt": "2026-11-25T14:26:26.000Z",
+ "summary": "SASE inbox watch complete: 31 threads checked, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 430",
+   "detail": "Routing check (58th) running: 5 fresh legs from GT-131, GT-133, GT-134, GT-136; panel read in progress.",
+   "currentTask": "Routing check cycle 430: coordinator picks sealed, panel reading tasks",
+   "lastHeartbeat": "2026-11-25T14:20:30.000Z",
+   "observedAt": "2026-11-25T14:20:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2383,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "Inbox checked via Graph API: 31 threads, 0 new, 0 changed. No new buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T14:26:26.000Z",
+   "observedAt": "2026-11-25T14:26:26.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-fc-s2-generic",
    "name": "FC-S2 Generic Solver",
    "role": "researcher",
@@ -2405,20 +2433,6 @@
    "title": "FC-S2 specialist solve",
    "detail": "FC-S2 specialist: 18,175 bytes, 2,670 words, 290s, 0 em dashes. Posted by cycle parent; solver start snapshot failed on agentRole.",
    "currentTask": "FC-S2 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
-   "observedAt": "2026-11-25T14:16:58.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 429",
-   "detail": "Cycle 429 complete: FC-S2 pair collected and verified, specialist 290s, generic 279s, 0 em dashes both.",
-   "currentTask": "Cycle 429 complete",
    "lastHeartbeat": "2026-11-25T14:16:58.000Z",
    "observedAt": "2026-11-25T14:16:58.000Z",
    "needsUser": false,
@@ -2451,20 +2465,6 @@
    "observedAt": "2026-11-25T13:59:55.000Z",
    "needsUser": false,
    "category": "team-validation"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "Complete 21:55 PHT: Page access OK, 31 threads, 0 new, 0 changed. No buyer messages, no refs, no PDF sent.",
-   "currentTask": "Inbox watch complete, no new messages",
-   "lastHeartbeat": "2026-11-25T13:56:00.000Z",
-   "observedAt": "2026-11-25T13:56:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "gt136-builder",
@@ -3779,6 +3779,20 @@
    "currentTask": "Draft SMM-R3 weekly calendar Nov 25 to Dec 1",
    "lastHeartbeat": "2026-11-24T21:56:02.000Z",
    "observedAt": "2026-11-24T21:56:02.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
+   "agentId": "team-smm-r3-generic",
+   "name": "SMM-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-R3 generic solver: weekly calendar draft",
+   "detail": "Calendar draft written: 3 confirmed Jo Koy slots, quota checked, 14 discrepancies flagged, no slot invented.",
+   "currentTask": "Draft Nov 25 to Dec 1 content calendar, generic solver",
+   "lastHeartbeat": "2026-11-24T21:51:39.000Z",
+   "observedAt": "2026-11-24T21:51:39.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
   }
