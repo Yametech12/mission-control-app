@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T07:17:00.000Z",
- "summary": "1 Ghostname cycle running, 1 queued; CSE Quick Check, Mission Control feed, and SASE inbox checks completed tonight. 5 jobs need attention, including 2 blocked on a WhatsApp delivery chat.",
+ "generatedAt": "2026-11-25T15:25:27.000Z",
+ "summary": "SASE inbox watch 23:24 PHT: 31 threads, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -99,6 +99,62 @@
    "observedAt": "2026-11-24T13:08:42.000Z",
    "needsUser": true,
    "category": "Music Video"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "7 consecutive failures with no recorded reason; last run failed Nov 23, last success Nov 2. Next run Nov 26, 19:05 PST.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T03:05:58.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Watcher specialist flagged",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Watcher specialist flagged",
+   "detail": "Cycle 256 flagged Watcher after a second failed retest; blind judging 8.17 vs 7.50. It waits in the Approval queue: merge, delete, or keep as is.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T00:57:39.000Z",
+   "needsUser": true,
+   "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "BlockTales channel branding upload",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "BlockTales channel branding upload",
+   "detail": "Blocked: the browser YouTube channel is FragtasticReels, not BlockTales. No profile, banner or description changes were made.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T00:16:40.000Z",
+   "needsUser": true,
+   "category": "Video production"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures with no recorded reason; last run failed Nov 23, last success Nov 4. Next run Mon Nov 30, 09:00 PST.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T16:56:31.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "kogama-gt98-coordinator",
@@ -2369,6 +2425,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "23:24 PHT check complete: 31 threads read via Graph API, 0 new buyer messages, 0 GCash refs, no PDF sent. Token valid.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T15:25:27.000Z",
+   "observedAt": "2026-11-25T15:25:27.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-apm-s1-specialist",
+   "name": "APM-S1 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "APM-S1 Post 19 repost decision record",
+   "detail": "Draft complete: Post 19 decision record, 7 sections, 6396 bytes, 0 em dashes, no repost made.",
+   "currentTask": "APM-S1 draft complete",
+   "lastHeartbeat": "2026-11-25T15:24:00.000Z",
+   "observedAt": "2026-11-25T15:24:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt137-clinicflow-design",
    "name": "gt137-clinicflow-design",
    "role": "builder",
@@ -2395,20 +2479,6 @@
    "observedAt": "2026-11-25T14:58:00.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "22:54 PHT check done: 31 threads, 0 new buyer messages, no GCash refs, no PDF sent. Page access OK.",
-   "currentTask": "Inbox watch complete; no new buyer messages",
-   "lastHeartbeat": "2026-11-25T14:56:00.000Z",
-   "observedAt": "2026-11-25T14:56:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "fc-s3-generic",
@@ -3753,20 +3823,6 @@
    "observedAt": "2026-11-24T22:55:15.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver SO-R1",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SO-R1 generic solver",
-   "detail": "SO-R1 generic: 12,278 bytes, 1,920 words, 120s, MD5 a43c971d. Snapshot carried by parent.",
-   "currentTask": "SO-R1 generic complete",
-   "lastHeartbeat": "2026-11-24T22:48:00.000Z",
-   "observedAt": "2026-11-24T22:48:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
