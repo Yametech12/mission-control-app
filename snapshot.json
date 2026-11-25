@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T02:28:00.000Z",
- "summary": "SASE inbox watch 10:23 PHT: 30 threads, no new buyer messages.",
+ "generatedAt": "2026-11-25T02:31:00.000Z",
+ "summary": "Routing check cycle 375 panel started: 8 division leads naming one specialist per task RC-T1 to RC-T5.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 375",
+   "detail": "Cycle 375 routing check started: 5 mixed real tasks from GT-20261125-123 and GT-20261125-124, coordinator picks sealed.",
+   "currentTask": "Cycle 375 routing check: 5 tasks from GT-123 and GT-124",
+   "lastHeartbeat": "2026-11-25T02:30:00.000Z",
+   "observedAt": "2026-11-25T02:30:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2327,6 +2341,20 @@
    "category": "SASE portal"
   },
   {
+   "agentId": "routing-panel-cycle-375",
+   "name": "Routing Panel Cycle 375",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing panel cycle 375 started",
+   "detail": "Division-leads panel for cycle 375 started: naming one specialist per task RC-T1 to RC-T5 from ROSTER_INDEX.md trigger lines only.",
+   "currentTask": "Naming one specialist per routing task RC-T1 to RC-T5 from trigger lines",
+   "lastHeartbeat": "2026-11-25T02:31:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Routing check"
+  },
+  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2395,20 +2423,6 @@
    "observedAt": "2026-11-25T02:28:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 374 complete: Community Manager RETEST VALIDATED 8.17 vs 7.00, 3 wins, clean re-judging. Scoreboard now 13 validated, 1 flagged, 65 unvalidated of 79.",
-   "currentTask": "Cycle 374 complete: Community Manager validated",
-   "lastHeartbeat": "2026-11-25T02:22:49.000Z",
-   "observedAt": "2026-11-25T02:22:49.000Z",
-   "needsUser": false,
-   "category": "ghostnames team"
   },
   {
    "agentId": "cm-r2-judge-r2",
@@ -3781,6 +3795,20 @@
    "observedAt": "2026-11-24T08:52:05.000Z",
    "needsUser": false,
    "category": "research"
+  },
+  {
+   "agentId": "team-funnel-conversion-specialist",
+   "name": "Funnel and Conversion Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-T3 funnel map complete",
+   "detail": "FC-T3 complete. Funnel map filed: 15,068 bytes, 2,506 words. Whole prospect path unmeasured; only measured break is form 500.",
+   "currentTask": "FC-T3 Pod landing-to-Audit funnel map",
+   "lastHeartbeat": "2026-11-24T08:29:00.000Z",
+   "observedAt": "2026-11-24T08:29:00.000Z",
+   "needsUser": false,
+   "category": "validation"
   }
  ]
 }
