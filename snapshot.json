@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T18:32:27.000Z",
- "summary": "Cycle 446 complete: Competitor Analyst flagged after retest 2 loss (7.83 vs 8.08).",
+ "generatedAt": "2026-11-25T18:41:36.000Z",
+ "summary": "Fact Checker retest FC-R1 specialist running.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,46 @@
    "category": "SASE"
   },
   {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE Page Comment Watcher",
-   "role": "monitor",
+   "agentId": "team-fact-checker-retest-solver",
+   "name": "Fact Checker retest solver",
+   "role": "researcher",
    "agentStatus": "active",
    "status": "working",
-   "title": "CSE Page Comment Watch",
-   "detail": "CSE comment watch started: checking Page posts Nov 19-26 for new genuine comments.",
-   "currentTask": "Checking CSE Page posts Nov 19-26 for new comments",
-   "lastHeartbeat": "2026-11-25T18:32:05.000Z",
-   "observedAt": "2026-11-25T18:32:05.000Z",
+   "title": "FC-R1 specialist solve",
+   "detail": "Drafting the Fact Checker verification record for the GT-20261125-133 portal fix job.",
+   "currentTask": "Draft FC-R1 verification record for GT-20261125-133 portal fix",
+   "lastHeartbeat": "2026-11-25T18:41:36.000Z",
+   "observedAt": "2026-11-25T18:41:36.000Z",
    "needsUser": false,
-   "category": "cse-reviewer"
+   "category": "validation"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "FC-R1 generic solve",
+   "detail": "Generic solve of Fact Checker retest task FC-R1 in progress.",
+   "currentTask": "Draft FC-R1 verification record (generic solver)",
+   "lastHeartbeat": "2026-11-25T18:41:26.000Z",
+   "observedAt": "2026-11-25T18:41:26.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 447: Fact Checker retest",
+   "detail": "Cycle 447: Fact Checker retest opens (rewrite 1, cycle 313). Filing FC-R1 to FC-R3 tasks with sealed keys, running FC-R1 pair.",
+   "currentTask": "Cycle 447: Fact Checker retest opens, FC-R1 pair",
+   "lastHeartbeat": "2026-11-25T18:36:00.000Z",
+   "observedAt": "2026-11-25T18:36:00.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,18 +2453,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE Page Comment Watcher",
+   "role": "monitor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team Improvement Cycle 446",
-   "detail": "Cycle 446: Competitor Analyst retest 2 judged clean, 7.83 vs 8.08, 1 win 2 losses. FLAGGED, owner decision pending.",
-   "currentTask": "Cycle 446 complete: Competitor Analyst retest 2 judged, specialist FLAGGED",
-   "lastHeartbeat": "2026-11-25T18:32:27.000Z",
-   "observedAt": "2026-11-25T18:32:27.000Z",
+   "title": "CSE Page Comment Watch",
+   "detail": "CSE comment watch complete: 9 posts checked Nov 19-26, no new genuine comments, 0 hearts, 0 replies, no flags.",
+   "currentTask": "Run complete: no new comments",
+   "lastHeartbeat": "2026-11-25T18:38:05.000Z",
+   "observedAt": "2026-11-25T18:38:05.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "cse-reviewer"
   },
   {
    "agentId": "sase-inbox-watch",
