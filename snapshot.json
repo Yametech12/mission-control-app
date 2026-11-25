@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T18:59:00.000Z",
- "summary": "Fact Checker retest FC-R2 generic solver done: verification record drafted, 1 of 7 claims confirmed, 6 unverified.",
+ "generatedAt": "2026-11-25T19:05:30.000Z",
+ "summary": "Improvement cycle 449 in progress: Fact Checker retest FC-R3 pair collection.",
  "agents": [
   {
    "agentId": null,
@@ -2229,6 +2229,20 @@
    "category": "pandorabook"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 449: Fact Checker retest FC-R3",
+   "detail": "Cycle 449 running: FC-R3 pair collection, Fact Checker retest (specialist vs generic).",
+   "currentTask": "Cycle 449: FC-R3 pair collection",
+   "lastHeartbeat": "2026-11-25T19:05:30.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-fc-r2-generic",
-   "name": "FC-R2 generic solver",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R2 generic solver",
-   "detail": "Done: fc-r2-generic.md written (11709 bytes, 1800 words). Verdicts: 1 confirmed, 6 unverified; 7 vs 6 majority-claim conflict flagged.",
-   "currentTask": "FC-R2 generic solve complete",
-   "lastHeartbeat": "2026-11-25T18:59:00.000Z",
-   "observedAt": "2026-11-25T18:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3809,6 +3809,20 @@
    "observedAt": "2026-11-25T01:16:37.000Z",
    "needsUser": false,
    "category": "thesis"
+  },
+  {
+   "agentId": "team-cm-r3-specialist",
+   "name": "CM-R3 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R3 specialist solver: SASE group comment watch plan",
+   "detail": "Plan complete: 81 post URLs, Quick Check rule, escalation, stop order, MD5s; one label discrepancy recorded, no input drift.",
+   "currentTask": "Draft CM-R3 SASE group comment watch plan",
+   "lastHeartbeat": "2026-11-25T01:10:22.000Z",
+   "observedAt": "2026-11-25T01:10:22.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
