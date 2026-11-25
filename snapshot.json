@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T10:31:47.000Z",
- "summary": "ClinicFlow Connect Builder finished: site and API built, smoke tested, and deployed live to Vercel.",
+ "generatedAt": "2026-11-25T10:35:00.000Z",
+ "summary": "Improvement cycle 413 complete: Pricing and Revenue Analyst retest 2 opened, PRA-S1 pair collected.",
  "agents": [
   {
    "agentId": null,
@@ -827,34 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-pra-s1-generic",
-   "name": "PRA-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PRA-S1 generic solve",
-   "detail": "Generic solver started PRA-S1 KreekCraft pricing verification sheet, draft only.",
-   "currentTask": "Write PRA-S1 KreekCraft pricing verification sheet",
-   "lastHeartbeat": "2026-11-25T10:31:23.000Z",
-   "observedAt": "2026-11-25T10:31:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 413: PRA retest 2 opens",
-   "detail": "Cycle 413 started: Pricing and Revenue Analyst retest 2 opens (rewrite 2, cycle 399); filing 3 new tasks, running PRA-S1 pair.",
-   "currentTask": "Cycle 413: open Pricing and Revenue Analyst retest 2, file PRA-S1 to PRA-S3, run PRA-S1 pair",
-   "lastHeartbeat": "2026-11-25T10:26:12.000Z",
-   "observedAt": "2026-11-25T10:26:12.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2425,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 413: PRA retest 2 opened",
+   "detail": "Cycle 413 done: PRA retest 2 opened, PRA-S1 pair collected and verified (specialist 28,652B/102s, generic 28,223B/105s). PRA-S2 next cycle.",
+   "currentTask": "Cycle 413 done: PRA retest 2 opened, PRA-S1 pair collected",
+   "lastHeartbeat": "2026-11-25T10:35:00.000Z",
+   "observedAt": "2026-11-25T10:35:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-pra-s1-generic",
+   "name": "PRA-S1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-S1 generic solve",
+   "detail": "PRA-S1 generic sheet done: 28,223 bytes, 7 sections in order, 0 em dashes, draft only.",
+   "currentTask": "PRA-S1 KreekCraft pricing verification sheet complete",
+   "lastHeartbeat": "2026-11-25T10:33:13.000Z",
+   "observedAt": "2026-11-25T10:33:13.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "clinicflow-connect-build",
    "name": "clinicflow-connect-build",
    "role": "builder",
@@ -3793,34 +3793,6 @@
    "currentTask": "Review complete: PASS WITH NOTES, anti-slop PASS, strip test PASS",
    "lastHeartbeat": "2026-11-24T18:24:01.000Z",
    "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-ur-t1-specialist",
-   "name": "UR-T1 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-T1 specialist solver",
-   "detail": "UR-T1 specialist draft done: 7,542 bytes, 1,207 words, 6 sections in order, spot check agreed with task facts.",
-   "currentTask": "UR-T1 specialist synthesis draft",
-   "lastHeartbeat": "2026-11-24T18:20:30.000Z",
-   "observedAt": "2026-11-24T18:20:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-ur-t1-generic",
-   "name": "UR-T1 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-T1 generic solver",
-   "detail": "UR-T1 generic synthesis done: 8,049 bytes, 1,313 words, all 6 sections in order.",
-   "currentTask": "UR-T1 generic synthesis complete",
-   "lastHeartbeat": "2026-11-24T18:20:10.000Z",
-   "observedAt": "2026-11-24T18:20:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
