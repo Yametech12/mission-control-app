@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:26:38.000Z",
- "summary": "Cycle 366 running: Store Operator retest clean re-judging after the cycle 363 void.",
+ "generatedAt": "2026-11-25T00:31:30.000Z",
+ "summary": "Cycle 366 complete: Store Operator retest validated 8.67 / 7.92, scoreboard 12 of 79 validated.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 366: Store Operator re-judging",
-   "detail": "Cycle 366 started: Store Operator retest clean re-judging (3 fresh QA judges, re-sealed cycle 364 inputs).",
-   "currentTask": "Cycle 366: clean re-judging of Store Operator retest",
-   "lastHeartbeat": "2026-11-25T00:26:38.000Z",
-   "observedAt": "2026-11-25T00:26:38.000Z",
+   "title": "CSE Page comment watch",
+   "detail": "CSE comment watch started: checking Page posts Nov 18-25 for new comments",
+   "currentTask": "Checking CSE Page posts Nov 18-25 for new comments",
+   "lastHeartbeat": "2026-11-25T00:32:25.000Z",
+   "observedAt": "2026-11-25T00:32:25.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "cse"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 366: Store Operator validated",
+   "detail": "Cycle 366 done: Store Operator VALIDATED 8.67 / 7.92 (3 wins). Scoreboard now 12 validated, 1 flagged, 66 unvalidated.",
+   "currentTask": "Cycle 366 complete: Store Operator validated",
+   "lastHeartbeat": "2026-11-25T00:31:30.000Z",
+   "observedAt": "2026-11-25T00:31:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2773,20 +2787,6 @@
    "observedAt": "2026-11-24T18:39:19.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "No new comments on CSE Page posts Nov 18-25. 0 hearts, 0 replies, no payment claims or order intent.",
-   "currentTask": "Run complete, no new comments",
-   "lastHeartbeat": "2026-11-24T18:39:00.000Z",
-   "observedAt": "2026-11-24T18:39:00.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
   },
   {
    "agentId": "team-lead-gt119-batch-radar",
