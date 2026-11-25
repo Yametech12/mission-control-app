@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:27:00.000Z",
- "summary": "Cycle 407 complete: APM retest opened, APM-R1 pair collected and verified",
+ "generatedAt": "2026-11-25T09:30:12.000Z",
+ "summary": "CSE posting samples v2 complete: editorial examination-sheet redesign, all verification passed, samples only, awaiting owner verdict via parent.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "cse-posting-samples",
-   "name": "cse-posting-samples",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE posting samples (v3 builder)",
-   "detail": "Working: located v3 builder and audited CSE pool; picking 3 pool questions and building samples.",
-   "currentTask": "Picking 3 audited CSE pool questions for v3 samples",
-   "lastHeartbeat": "2026-11-25T09:25:35.000Z",
-   "observedAt": "2026-11-25T09:25:35.000Z",
-   "needsUser": false,
-   "category": "cse-posting"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cse-posting-samples-v2",
+   "name": "cse-posting-samples-v2",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE quiz samples v2, editorial redesign",
+   "detail": "Set 2 done: 3 editorial exam-sheet PNGs, verification 15 of 15 checks PASS per image, captions v2 and design note saved. Nothing posted live.",
+   "currentTask": "Set 2 samples delivered to parent for the owner verdict gate",
+   "lastHeartbeat": "2026-11-25T09:30:12.000Z",
+   "observedAt": "2026-11-25T09:30:12.000Z",
+   "needsUser": false,
+   "category": "cse-posting"
+  },
+  {
    "agentId": "team-affiliate-program-manager-generic",
    "name": "APM-R1 Generic Solver",
    "role": "auditor",
@@ -2437,6 +2437,20 @@
    "observedAt": "2026-11-25T09:27:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "cse-posting-samples",
+   "name": "cse-posting-samples",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE posting samples (v3 builder)",
+   "detail": "Completed: 3 sample images verified letter for letter vs the audited pool; captions.md, improvement-note.md, verification.md saved under cse-posting-improvement/samples-nov25.",
+   "currentTask": "Done: samples ready for owner verdict",
+   "lastHeartbeat": "2026-11-25T09:26:57.000Z",
+   "observedAt": "2026-11-25T09:26:57.000Z",
+   "needsUser": false,
+   "category": "cse-posting"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3766,34 +3780,6 @@
    "lastHeartbeat": "2026-11-24T16:24:00.000Z",
    "observedAt": "2026-11-24T16:24:00.000Z",
    "needsUser": true,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-automation-engineer",
-   "name": "QA Automation Engineer",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-115 S2 engine battery",
-   "detail": "Battery done: GT105 93/129, Genspark 91/129, both-fail split tax and line totals headlined (posted by job lead).",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-24T16:24:00.000Z",
-   "observedAt": "2026-11-24T16:24:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-115 S4 candidate build",
-   "detail": "Candidate built in candidate-gt115: real bench, checks hero, honest login and dashboard, CSP (posted by job lead).",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-24T16:24:00.000Z",
-   "observedAt": "2026-11-24T16:24:00.000Z",
-   "needsUser": false,
    "category": "ghostname-team"
   }
  ]
