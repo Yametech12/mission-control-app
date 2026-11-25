@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:49:30.000Z",
- "summary": "Cycle 367 complete: Community Manager retest CM-R1 pair collected and verified; CM-R2 runs cycle 368.",
+ "generatedAt": "2026-11-25T00:56:28.000Z",
+ "summary": "CM-R2 generic solver",
  "agents": [
   {
    "agentId": null,
@@ -829,16 +829,44 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-cm-r2-specialist",
+   "name": "CM-R2 specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CM-R2 specialist solver",
+   "detail": "CM-R2 specialist solver started; inputs measured, all MD5s match the task file.",
+   "currentTask": "CM-R2 specialist solve",
+   "lastHeartbeat": "2026-11-25T00:55:26.000Z",
+   "observedAt": "2026-11-25T00:55:26.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 368: Community Manager retest CM-R2",
+   "detail": "Cycle 368 running: CM-R2 solver pair (specialist vs generic) for the Community Manager retest.",
+   "currentTask": "CM-R2 solver pair dispatch",
+   "lastHeartbeat": "2026-11-25T00:54:11.000Z",
+   "observedAt": "2026-11-25T00:54:11.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "drone-thesis-team",
    "name": "drone-thesis-team",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "Drone proposal v6 fix pass (full force)",
-   "detail": "GT-20261125-121 started full force: 4 specialists on non-overlapping defect IDs, Gemini and Groq passes active, lead is single writer on the v6 file.",
-   "currentTask": "GT121 v6 fix pass full force: intake done, specialists fanning out",
-   "lastHeartbeat": "2026-11-25T00:46:00.000Z",
-   "observedAt": "2026-11-25T00:46:00.000Z",
+   "detail": "Milestone: Specialists A and C reported with exact fix wording. Groq passes done; Gemini generate timing out, noted. Borrow path decided; borrow request pack written.",
+   "currentTask": "GT121: A and C reports in, Groq passes done, merging after B and D land",
+   "lastHeartbeat": "2026-11-25T00:54:00.000Z",
+   "observedAt": "2026-11-25T00:54:00.000Z",
    "needsUser": false,
    "category": "thesis"
   },
@@ -2397,18 +2425,32 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
+   "agentId": "team-cm-r2-generic",
+   "name": "CM-R2 generic",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Cycle 367: Community Manager retest",
-   "detail": "Cycle 367 done. Community Manager retest: CM-R1 pair verified (spec 11,539 bytes, generic 8,642 bytes). CM-R2 next cycle 368.",
-   "currentTask": "Cycle 367 complete: CM-R1 pair collected",
-   "lastHeartbeat": "2026-11-25T00:49:30.000Z",
-   "observedAt": "2026-11-25T00:49:30.000Z",
+   "title": "CM-R2 generic solver",
+   "detail": "CM-R2 generic solve complete: triage plan drafted, 5914 bytes, 953 words, 0 em dashes, MD5 b115eb118cfb5068eee2b461d5ab2ee4.",
+   "currentTask": "CM-R2 generic solve",
+   "lastHeartbeat": "2026-11-25T00:56:28.000Z",
+   "observedAt": "2026-11-25T00:56:28.000Z",
    "needsUser": false,
-   "category": "validation"
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "08:54 PHT check done: 30 threads, 0 new messages, 0 GCash refs. Kenth Calasang still awaiting reply on missing portal results.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T00:55:00.000Z",
+   "observedAt": "2026-11-25T00:55:00.000Z",
+   "needsUser": false,
+   "category": "sase"
   },
   {
    "agentId": "cse-page-comment-watch",
@@ -2423,20 +2465,6 @@
    "observedAt": "2026-11-25T00:38:00.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "08:25 PHT check done: Page access OK, 30 threads, 0 new buyer messages, no replies or PDF sent.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-25T00:25:23.000Z",
-   "observedAt": "2026-11-25T00:25:23.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-routing-panel",
