@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T18:20:22.000Z",
- "summary": "Routing check cycle 445 panel: 5 picks filed.",
+ "generatedAt": "2026-11-25T18:26:21.000Z",
+ "summary": "Cycle 446 judging Competitor Analyst retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -830,15 +830,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
-   "role": "coordinator",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 445",
-   "detail": "Cycle 445 routing check started: 5 fresh legs from GT-135, GT-137, GT-119; Coordinator picks sealing before panel read.",
-   "currentTask": "Cycle 445 routing check: 5 fresh legs, Coordinator picks sealing",
-   "lastHeartbeat": "2026-11-25T18:19:00.000Z",
-   "observedAt": "2026-11-25T18:19:00.000Z",
+   "title": "Ghostname Team Improvement Cycle 446",
+   "detail": "Cycle 446 judging Competitor Analyst retest 2: three fresh QA judges scoring CA-S1, CA-S2, CA-S3 blind.",
+   "currentTask": "Cycle 446: judging Competitor Analyst retest 2 (CA-S1, CA-S2, CA-S3)",
+   "lastHeartbeat": "2026-11-25T18:26:21.000Z",
+   "observedAt": "2026-11-25T18:26:21.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "Checked 31 threads via Graph API at 02:23 PHT Nov 26: 0 new, 0 changed, 0 unread. No buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T18:25:00.000Z",
+   "observedAt": "2026-11-25T18:25:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Division-leads routing panel",
    "role": "coordinator",
@@ -2437,20 +2451,6 @@
    "observedAt": "2026-11-25T18:20:22.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox monitor",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "01:53 PHT check complete: Page access OK, 31 threads, 0 new buyer messages, no replies or PDF sent.",
-   "currentTask": "Inbox watch complete; no new buyer messages",
-   "lastHeartbeat": "2026-11-25T17:54:00.000Z",
-   "observedAt": "2026-11-25T17:54:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "ca-s3-generic",
