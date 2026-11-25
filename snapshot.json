@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T10:35:00.000Z",
- "summary": "Improvement cycle 413 complete: Pricing and Revenue Analyst retest 2 opened, PRA-S1 pair collected.",
+ "generatedAt": "2026-11-25T10:41:09.000Z",
+ "summary": "Cycle 414 PRA-S2 generic solve complete: TOMO pricing verification sheet written with all 7 required sections.",
  "agents": [
   {
    "agentId": null,
@@ -2397,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 413: PRA retest 2 opened",
-   "detail": "Cycle 413 done: PRA retest 2 opened, PRA-S1 pair collected and verified (specialist 28,652B/102s, generic 28,223B/105s). PRA-S2 next cycle.",
-   "currentTask": "Cycle 413 done: PRA retest 2 opened, PRA-S1 pair collected",
-   "lastHeartbeat": "2026-11-25T10:35:00.000Z",
-   "observedAt": "2026-11-25T10:35:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-pra-s1-generic",
    "name": "PRA-S1 generic solver",
    "role": "researcher",
@@ -3793,6 +3779,20 @@
    "currentTask": "Review complete: PASS WITH NOTES, anti-slop PASS, strip test PASS",
    "lastHeartbeat": "2026-11-24T18:24:01.000Z",
    "observedAt": "2026-11-24T18:24:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-ur-t1-specialist",
+   "name": "UR-T1 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-T1 specialist solver",
+   "detail": "UR-T1 specialist draft done: 7,542 bytes, 1,207 words, 6 sections in order, spot check agreed with task facts.",
+   "currentTask": "UR-T1 specialist synthesis draft",
+   "lastHeartbeat": "2026-11-24T18:20:30.000Z",
+   "observedAt": "2026-11-24T18:20:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
