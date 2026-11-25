@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T08:54:48.000Z",
- "summary": "SASE inbox watch 16:53 PHT: Page access OK, 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T09:01:03.000Z",
+ "summary": "Routing panel cycle 405 started: naming one specialist per task for RC-T1 to RC-T5 from ROSTER_INDEX.md triggers.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 405: routing check",
+   "detail": "Cycle 405 routing check running: 5 mixed real tasks from GT-128, GT-123, GT-99; panel read in progress.",
+   "currentTask": "Routing check cycle 405: tasks filed, panel reading",
+   "lastHeartbeat": "2026-11-25T08:55:34.000Z",
+   "observedAt": "2026-11-25T08:55:34.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,20 +2411,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 404",
-   "detail": "Cycle 404 complete: FC retest sealed SEAL_OK (6 neutrals, 697 lines, 5 drops, 0 identity hits). Judging cycle 406.",
-   "currentTask": "Cycle 404 complete: FC retest sealed",
-   "lastHeartbeat": "2026-11-25T08:47:30.000Z",
-   "observedAt": "2026-11-25T08:47:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-generic-solver",
    "name": "Generic Solver",
    "role": "builder",
@@ -2463,20 +2463,6 @@
    "currentTask": "FC-R1 generic solve",
    "lastHeartbeat": "2026-11-25T08:13:00.000Z",
    "observedAt": "2026-11-25T08:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-panel-cycle-400",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check cycle 400 panel",
-   "detail": "Picks: RC-T1 Thesis Researcher 6-2, RC-T2 Illustration and Icon Designer 5-3, RC-T3 Document Auditor 6-2, RC-T4 Data Integrity Auditor 6-2, RC-T5 Knowledge Manager 5-3.",
-   "currentTask": "Panel picks filed for routing check cycle 400",
-   "lastHeartbeat": "2026-11-25T07:51:16.000Z",
-   "observedAt": "2026-11-25T07:51:16.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3781,6 +3767,34 @@
    "observedAt": "2026-11-24T16:17:10.000Z",
    "needsUser": false,
    "category": "validation"
+  },
+  {
+   "agentId": "team-consequence-planner",
+   "name": "Consequence Planner",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Consequence Planner CP-T2 specialist",
+   "detail": "Cycle 328 CP-T2 specialist map done: 13066 bytes, 2006 words, verified 0 em/en dashes.",
+   "currentTask": "CP-T2 specialist consequence map complete",
+   "lastHeartbeat": "2026-11-24T16:05:52.000Z",
+   "observedAt": "2026-11-24T16:05:52.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-generic-solver-cp-t2",
+   "name": "Generic solver CP-T2",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Generic solver CP-T2",
+   "detail": "Cycle 328 CP-T2 generic consequence map done: 11231 bytes, 1785 words, verified.",
+   "currentTask": "CP-T2 generic consequence map complete",
+   "lastHeartbeat": "2026-11-24T16:04:04.000Z",
+   "observedAt": "2026-11-24T16:04:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
