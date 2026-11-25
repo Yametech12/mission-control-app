@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T19:36:48.000Z",
- "summary": "Cycle 451: sealing Fact Checker retest pairs.",
+ "generatedAt": "2026-11-25T19:41:20.000Z",
+ "summary": "Cycle 451: Fact Checker retest sealed; judging cycle 452.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 451",
-   "detail": "Cycle 451 sealing Fact Checker retest pairs FC-R1 to FC-R3 under the cycle 199 differential rule; judging lands cycle 452.",
-   "currentTask": "Sealing Fact Checker retest pairs (cycle 451)",
-   "lastHeartbeat": "2026-11-25T19:36:48.000Z",
-   "observedAt": "2026-11-25T19:36:48.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 451",
+   "detail": "Cycle 451 sealed Fact Checker retest pairs (SEAL_OK, 17 changed lines, 6 neutrals, 0 identity hits); judging lands cycle 452.",
+   "currentTask": "Cycle 451 complete: Fact Checker retest sealed",
+   "lastHeartbeat": "2026-11-25T19:41:20.000Z",
+   "observedAt": "2026-11-25T19:41:20.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3809,20 +3809,6 @@
    "observedAt": "2026-11-25T01:16:37.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "team-cm-r3-specialist",
-   "name": "CM-R3 specialist solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R3 specialist solver: SASE group comment watch plan",
-   "detail": "Plan complete: 81 post URLs, Quick Check rule, escalation, stop order, MD5s; one label discrepancy recorded, no input drift.",
-   "currentTask": "Draft CM-R3 SASE group comment watch plan",
-   "lastHeartbeat": "2026-11-25T01:10:22.000Z",
-   "observedAt": "2026-11-25T01:10:22.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
