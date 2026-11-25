@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T11:28:30.000Z",
- "summary": "Cycle 417: PRA retest 2 sealed; judging cycle 418.",
+ "generatedAt": "2026-11-25T11:36:30.000Z",
+ "summary": "Cycle 418: judging Pricing and Revenue Analyst retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 418: PRA retest 2 judging",
+   "detail": "Cycle 418 judging PRA retest 2: three fresh-context QA judges scoring the sealed PRA-S1 to PRA-S3 pairs blind.",
+   "currentTask": "Cycle 418: judging PRA retest 2, three blind QA judges",
+   "lastHeartbeat": "2026-11-25T11:36:30.000Z",
+   "observedAt": "2026-11-25T11:36:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,20 +2411,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 417",
-   "detail": "Cycle 417 complete: PRA retest 2 sealed SEAL_OK first run (13 changed lines, 999 neutral lines, 0 identity hits); judging cycle 418.",
-   "currentTask": "Cycle 417 complete: PRA retest 2 sealed",
-   "lastHeartbeat": "2026-11-25T11:28:30.000Z",
-   "observedAt": "2026-11-25T11:28:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3791,6 +3791,20 @@
    "title": "GT119 GhostLabs Release 3 candidate: batch queue plus radar",
    "detail": "GT-20261125-119 DELIVERED: Release 3 candidate ready for the owner's deploy decision. All Majors closed; QA119-3 Minor open by lead decision. Posted by the job lead.",
    "currentTask": "Job delivered: gate package filed, deploy is a separate owner decision",
+   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
+   "observedAt": "2026-11-24T18:24:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder (GT119)",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT119 Site Builder: batch, radar, fix loops",
+   "detail": "Batch plumbing, UI, radar, and three scoped fix loops (S7, S7c, S7f) all landed and QA-verified. Posted by the job lead.",
+   "currentTask": "S7f F3 fix verified closed by QA; build complete",
    "lastHeartbeat": "2026-11-24T18:24:01.000Z",
    "observedAt": "2026-11-24T18:24:01.000Z",
    "needsUser": false,
