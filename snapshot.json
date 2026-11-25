@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T02:11:21.000Z",
- "summary": "JK3 Jo Koy clip posted and submitted to Whop inside the 30 minute SLA.",
+ "generatedAt": "2026-11-25T02:16:30.000Z",
+ "summary": "CM-R2 blind judge started: scoring candidates A and B on the SASE inbox triage plan task.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "cm-r2-judge-r2",
+   "name": "CM-R2 judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CM-R2 blind judgement",
+   "detail": "Fresh-context judge scoring CM-R2 candidates A and B blind on accuracy, depth, usefulness, originality.",
+   "currentTask": "Blind judging CM-R2 candidates A and B",
+   "lastHeartbeat": "2026-11-25T02:16:30.000Z",
+   "observedAt": "2026-11-25T02:16:30.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 374 started: clean re-judging of the Community Manager retest (CM-R1 to CM-R3) after the cycle 372 INVALID_RUN void.",
+   "currentTask": "Cycle 374: Community Manager retest clean re-judging",
+   "lastHeartbeat": "2026-11-25T02:12:07.000Z",
+   "observedAt": "2026-11-25T02:12:07.000Z",
+   "needsUser": false,
+   "category": "ghostnames team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,18 +2411,32 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
+   "agentId": "cm-r3-judge-r2",
+   "name": "CM-R3 judge",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 373: Community Manager retest re-seal",
-   "detail": "Re-seal done: 4 changed lines, 0 identity hits, voided 371 seal archived, fresh mapping sealed. Clean re-judging cycle 374. Scoreboard still 12 validated, 1 flagged, 66 unvalidated.",
-   "currentTask": "Cycle 373 complete; re-judging cycle 374",
-   "lastHeartbeat": "2026-11-25T02:07:04.000Z",
-   "observedAt": "2026-11-25T02:07:04.000Z",
+   "title": "CM-R3 judge complete",
+   "detail": "No contamination. A 7.0 (9/6/8/5), B 8.25 (8/9/9/7). B wins on depth and usefulness.",
+   "currentTask": "CM-R3 judging complete",
+   "lastHeartbeat": "2026-11-25T02:15:45.000Z",
+   "observedAt": "2026-11-25T02:15:45.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "audit"
+  },
+  {
+   "agentId": "cm-r1-judge-r2",
+   "name": "CM-R1 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R1 judgement round 2 complete",
+   "detail": "CM-R1 judged: A 7.0, B 8.25. No contamination. B wins on completeness and structure.",
+   "currentTask": "CM-R1 blind judgement round 2",
+   "lastHeartbeat": "2026-11-25T02:15:28.000Z",
+   "observedAt": "2026-11-25T02:15:28.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -2409,48 +2451,6 @@
    "observedAt": "2026-11-25T01:55:30.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-cm-r3-judge",
-   "name": "CM-R3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R3 blind judging complete",
-   "detail": "A 8.5 vs B 6.0, A wins on depth and usefulness. Contamination flagged, pair stands.",
-   "currentTask": "Blind-judge CM-R3 candidate pair A vs B",
-   "lastHeartbeat": "2026-11-25T01:50:46.000Z",
-   "observedAt": "2026-11-25T01:50:46.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-cm-r2-judge",
-   "name": "CM-R2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R2 blind judging complete",
-   "detail": "Contamination CLEAN, pair valid. A 7.50 vs B 7.25, winner A by 0.25 on depth and usefulness despite baseline time deviation.",
-   "currentTask": "CM-R2 blind judging complete",
-   "lastHeartbeat": "2026-11-25T01:49:58.000Z",
-   "observedAt": "2026-11-25T01:49:58.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-cm-r1-judge",
-   "name": "CM-R1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R1 blind judgement complete",
-   "detail": "CLEAN pair. A 7.0 (8/7/7/6), B 8.5 (9/9/9/7). Winner B: full URLs, correct 7-section order, drift in section 2.",
-   "currentTask": "CM-R1 blind judgement complete",
-   "lastHeartbeat": "2026-11-25T01:49:52.000Z",
-   "observedAt": "2026-11-25T01:49:52.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "drone-print-ready",
@@ -3781,6 +3781,34 @@
    "observedAt": "2026-11-24T08:52:05.000Z",
    "needsUser": false,
    "category": "research"
+  },
+  {
+   "agentId": "team-funnel-conversion-specialist",
+   "name": "Funnel and Conversion Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-T3 funnel map complete",
+   "detail": "FC-T3 complete. Funnel map filed: 15,068 bytes, 2,506 words. Whole prospect path unmeasured; only measured break is form 500.",
+   "currentTask": "FC-T3 Pod landing-to-Audit funnel map",
+   "lastHeartbeat": "2026-11-24T08:29:00.000Z",
+   "observedAt": "2026-11-24T08:29:00.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-generic-solver-fc-t1",
+   "name": "Generic Solver FC-T1",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-T1 generic solver",
+   "detail": "FC-T1 generic done (14,367 bytes, 100s). Snapshots failed on schema; carried by parent.",
+   "currentTask": "FC-T1 generic deliverable collected",
+   "lastHeartbeat": "2026-11-24T08:02:30.000Z",
+   "observedAt": "2026-11-24T08:02:30.000Z",
+   "needsUser": false,
+   "category": "validation-loop"
   }
  ]
 }
