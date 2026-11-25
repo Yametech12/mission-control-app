@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T13:21:52.000Z",
- "summary": "GT-20261125-136 builder complete: all Parts A-D shipped in the working tree, 33/33 tests passing, docs and completion record written. Awaiting parent verify, commit, and deploy.",
+ "generatedAt": "2026-11-25T13:24:00.000Z",
+ "summary": "SASE inbox watch 21:24 PHT: no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -2383,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "21:24 PHT check done: token valid, 31 threads, 0 new buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T13:24:00.000Z",
+   "observedAt": "2026-11-25T13:24:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "gt136-builder",
    "name": "gt136-builder",
    "role": "builder",
@@ -2493,20 +2507,6 @@
    "observedAt": "2026-11-25T13:07:20.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "Inbox watch done 20:53 PHT: 31 threads, 0 new, 0 changed. No buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete: 31 threads, no new buyer messages",
-   "lastHeartbeat": "2026-11-25T12:55:00.000Z",
-   "observedAt": "2026-11-25T12:55:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "gt134-builder",
