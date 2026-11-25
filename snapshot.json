@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T10:43:00.000Z",
- "summary": "Cycle 414 done: PRA-S2 pair collected and verified for Pricing and Revenue Analyst retest 2; key clean, no verdict; routing check next.",
+ "generatedAt": "2026-11-25T10:54:34.000Z",
+ "summary": "SASE inbox watch 18:54 PHT: no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "18:54 PHT check: Page access OK, 30 threads, 0 new buyer messages, no GCash refs, no PDF sent. Silent per delivery rule.",
+   "currentTask": "Inbox check complete",
+   "lastHeartbeat": "2026-11-25T10:54:34.000Z",
+   "observedAt": "2026-11-25T10:54:34.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement Cycle",
    "role": "coordinator",
@@ -2437,20 +2451,6 @@
    "observedAt": "2026-11-25T10:31:47.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "18:23 PHT check done: Page access OK, 30 threads read, 0 new buyer messages, no GCash refs, no PDF sent. Silent per delivery rule.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-25T10:24:31.000Z",
-   "observedAt": "2026-11-25T10:24:31.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "sase-site-line-fix",
