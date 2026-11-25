@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:26:30.000Z",
- "summary": "Cycle 398: sealing the Pricing and Revenue Analyst retest (PRA-R1 to PRA-R3) with the PRA-R3 key-only repair.",
+ "generatedAt": "2026-11-25T07:35:34.000Z",
+ "summary": "Improvement cycle 399 running: blind judging of the Pricing and Revenue Analyst retest.",
  "agents": [
   {
    "agentId": null,
@@ -830,17 +830,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 398: PRA retest sealing",
-   "detail": "Cycle 398 started: PRA-R3 key repair (K3/K4 over-demand) then differential seal of the three PRA pairs; judging cycle 399.",
-   "currentTask": "Repairing PRA-R3 key, then sealing PRA pairs",
-   "lastHeartbeat": "2026-11-25T07:26:30.000Z",
-   "observedAt": "2026-11-25T07:26:30.000Z",
+   "title": "Improvement cycle 399: PRA retest judging",
+   "detail": "Judging Pricing and Revenue Analyst retest, 3 blind QA judges on sealed pairs.",
+   "currentTask": "Judging PRA retest PRA-R1/R2/R3 blind",
+   "lastHeartbeat": "2026-11-25T07:35:34.000Z",
+   "observedAt": "2026-11-25T07:35:34.000Z",
    "needsUser": false,
-   "category": "ghostnam-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
