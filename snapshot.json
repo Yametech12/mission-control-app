@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:40:00.000Z",
- "summary": "SMM-S3 specialist run complete.",
+ "generatedAt": "2026-11-25T04:46:06.000Z",
+ "summary": "Cycle 385: routing check 49 (GT-126 and GT-128 legs)",
  "agents": [
   {
    "agentId": null,
@@ -834,13 +834,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 384: SMM-S3 pair collection",
-   "detail": "Cycle 384 started: collecting Social Media Manager retest 2 SMM-S3 solver pair (ClipUp v2 hand-back plan).",
-   "currentTask": "Collecting SMM-S3 specialist and generic solver outputs",
-   "lastHeartbeat": "2026-11-25T04:36:00.000Z",
-   "observedAt": "2026-11-25T04:36:00.000Z",
+   "title": "Ghostname Team improvement cycle 385",
+   "detail": "Routing check 49 running: 5 mixed real tasks from GT-126 and GT-128, Coordinator picks sealed, panel pending.",
+   "currentTask": "Routing check 385: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-25T04:46:06.000Z",
+   "observedAt": "2026-11-25T04:46:06.000Z",
    "needsUser": false,
-   "category": "ghostnames"
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
