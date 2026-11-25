@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:38:00.000Z",
- "summary": "Improvement cycle 399 complete: Pricing and Revenue Analyst retest judged, not validated, card rewritten (rewrite 2).",
+ "generatedAt": "2026-11-25T07:51:16.000Z",
+ "summary": "Routing check cycle 400 panel done: 5 picks filed in panel-picks.md",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 400",
+   "detail": "Cycle 400 routing check running: 5 mixed real tasks from GT-122, GT-124, GT-125, GT-128, GT-130; panel reading.",
+   "currentTask": "Cycle 400 routing check: 5 mixed real tasks, panel reading",
+   "lastHeartbeat": "2026-11-25T07:49:00.000Z",
+   "observedAt": "2026-11-25T07:49:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,16 +2411,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "agentId": "routing-panel-cycle-400",
+   "name": "Routing Panel",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 399: PRA retest judged",
-   "detail": "PRA retest judged 8.33 vs 8.25, 1W 2L, not a clear win. Card rewritten (rewrite 2). Scoreboard 14 validated, 3 flagged, 62 unvalidated.",
-   "currentTask": "Cycle 399 complete: PRA retest judged, card rewritten",
-   "lastHeartbeat": "2026-11-25T07:38:00.000Z",
-   "observedAt": "2026-11-25T07:38:00.000Z",
+   "title": "Routing check cycle 400 panel",
+   "detail": "Picks: RC-T1 Thesis Researcher 6-2, RC-T2 Illustration and Icon Designer 5-3, RC-T3 Document Auditor 6-2, RC-T4 Data Integrity Auditor 6-2, RC-T5 Knowledge Manager 5-3.",
+   "currentTask": "Panel picks filed for routing check cycle 400",
+   "lastHeartbeat": "2026-11-25T07:51:16.000Z",
+   "observedAt": "2026-11-25T07:51:16.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
