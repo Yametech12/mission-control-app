@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:55:21.000Z",
- "summary": "SASE inbox watch complete: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T07:57:00.000Z",
+ "summary": "Cycle 401: Funnel and Conversion Specialist retest opens.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 401: Funnel and Conversion retest",
+   "detail": "Cycle 401 started: FC retest opens, tasks FC-R1 to FC-R3 filed with sealed keys; FC-R1 solver pair running.",
+   "currentTask": "Cycle 401: Funnel and Conversion Specialist retest, FC-R1 pair",
+   "lastHeartbeat": "2026-11-25T07:57:00.000Z",
+   "observedAt": "2026-11-25T07:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,20 +2425,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 400",
-   "detail": "Cycle 400 routing check complete: 3 of 5. Matches RC-T2, RC-T4, RC-T5; misses RC-T1, RC-T3. No rule fixes; flag recurs on RC-T3 (rule 45).",
-   "currentTask": "Cycle 400 routing check complete: 3 of 5",
-   "lastHeartbeat": "2026-11-25T07:53:00.000Z",
-   "observedAt": "2026-11-25T07:53:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "routing-panel-cycle-400",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -3793,6 +3793,20 @@
    "currentTask": "CP-T1 draft complete: 2,106 words, 6 sections, 0 em dashes",
    "lastHeartbeat": "2026-11-24T15:54:40.000Z",
    "observedAt": "2026-11-24T15:54:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "cp-t1-generic",
+   "name": "CP-T1 Generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-T1 generic solve",
+   "detail": "CP-T1 generic draft filed: 14,376 bytes, 2,355 words, all 6 sections in order, 0 em dashes.",
+   "currentTask": "CP-T1 generic solve complete, draft filed",
+   "lastHeartbeat": "2026-11-24T15:54:11.000Z",
+   "observedAt": "2026-11-24T15:54:11.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
