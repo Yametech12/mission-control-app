@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T14:35:34.000Z",
- "summary": "Cycle 431: FC-S3 solver pair running for Funnel and Conversion Specialist retest 2.",
+ "generatedAt": "2026-11-25T14:41:55.000Z",
+ "summary": "FC-S3 generic solver complete: Jo Koy funnel map draft written (17,426 bytes, 2,674 words), 7 sections in order, 0 em dashes.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": "2026-11-25T14:41:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
+  },
+  {
+   "agentId": "fc-s3-specialist",
+   "name": "FC-S3 specialist",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "FC-S3 Jo Koy funnel map",
+   "detail": "Specialist solver started FC-S3: reading card, task, and listed inputs, then drafting the six-step funnel map.",
+   "currentTask": "Draft FC-S3 Jo Koy funnel map",
+   "lastHeartbeat": "2026-11-25T14:39:37.000Z",
+   "observedAt": "2026-11-25T14:39:37.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2411,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "fc-s3-generic",
+   "name": "FC-S3 Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S3 generic solver complete",
+   "detail": "Jo Koy funnel map draft written to runs/fc-s3-generic.md; JK4 clip-limit block is the only drop point; rate conflict $2.00 vs $3.00 flagged open.",
+   "currentTask": "FC-S3 generic funnel map draft complete",
+   "lastHeartbeat": "2026-11-25T14:41:55.000Z",
+   "observedAt": "2026-11-25T14:41:55.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3793,20 +3821,6 @@
    "currentTask": "Draft SMM-R3 weekly calendar Nov 25 to Dec 1",
    "lastHeartbeat": "2026-11-24T21:56:02.000Z",
    "observedAt": "2026-11-24T21:56:02.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
-   "agentId": "team-smm-r3-generic",
-   "name": "SMM-R3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-R3 generic solver: weekly calendar draft",
-   "detail": "Calendar draft written: 3 confirmed Jo Koy slots, quota checked, 14 discrepancies flagged, no slot invented.",
-   "currentTask": "Draft Nov 25 to Dec 1 content calendar, generic solver",
-   "lastHeartbeat": "2026-11-24T21:51:39.000Z",
-   "observedAt": "2026-11-24T21:51:39.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
   }
