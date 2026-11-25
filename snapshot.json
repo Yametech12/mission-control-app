@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T06:54:00.000Z",
- "summary": "SASE inbox watch 14:54 PHT: Page access OK, 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T07:00:30.000Z",
+ "summary": "Routing Panel cycle 395 complete: picks filed in panel-picks.md.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 395",
+   "detail": "Cycle 395 routing check started: 5 mixed real tasks from GT-121, GT-122, GT-125; Coordinator picks sealed, panel pending.",
+   "currentTask": "Routing check cycle 395: 5 mixed real tasks, Coordinator picks sealed",
+   "lastHeartbeat": "2026-11-25T06:57:55.000Z",
+   "observedAt": "2026-11-25T06:57:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,20 +2411,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 394: PRA retest opened",
-   "detail": "Cycle 394 done: PRA retest tasks filed, PRA-R1 pair collected (specialist 18,250 bytes, generic 20,908 bytes), both solvers raised the same two discrepancies. PRA-R2 cycle 396.",
-   "currentTask": "Cycle 394 complete, PRA-R1 pair collected",
-   "lastHeartbeat": "2026-11-25T06:44:30.000Z",
-   "observedAt": "2026-11-25T06:44:30.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
    "agentId": "team-pricing-revenue-analyst",
    "name": "Pricing and Revenue Analyst",
    "role": "researcher",
@@ -2507,20 +2507,6 @@
    "observedAt": "2026-11-25T05:56:00.000Z",
    "needsUser": false,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check cycle 390",
-   "detail": "Completed: RC-T1 Knowledge Manager 6-2, RC-T2 Evidence Auditor 5-3, RC-T3 Illustration and Icon Designer 6-2, RC-T4 Thesis Researcher 7-1, RC-T5 Thesis Researcher 6-2.",
-   "currentTask": "Routing check cycle 390 complete, panel-picks.md and run-record.md written",
-   "lastHeartbeat": "2026-11-25T05:51:33.000Z",
-   "observedAt": "2026-11-25T05:51:33.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-ads-specialist-generic",
@@ -3781,6 +3767,34 @@
    "observedAt": "2026-11-24T15:54:40.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "cp-t1-generic",
+   "name": "CP-T1 Generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-T1 generic solve",
+   "detail": "CP-T1 generic draft filed: 14,376 bytes, 2,355 words, all 6 sections in order, 0 em dashes.",
+   "currentTask": "CP-T1 generic solve complete, draft filed",
+   "lastHeartbeat": "2026-11-24T15:54:11.000Z",
+   "observedAt": "2026-11-24T15:54:11.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-lead-gt114",
+   "name": "GT114 Job Lead",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261124-114 SASE/CSE portal fix phase",
+   "detail": "DELIVERED: commit bf99124 live-verified. L2, L4, L5, L6, L8, L9, L10 live PASS; L3a, L7, L12 code and test verified; scoped progress write landed; 237 tests pass; D3 resolved (data authoritative). Follow-ups specified in the job record.",
+   "currentTask": "Fix phase delivered and closed",
+   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
+   "observedAt": "2026-11-24T15:34:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
   }
  ]
 }
