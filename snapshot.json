@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T19:55:30.000Z",
- "summary": "SASE inbox watch 03:53 PHT complete: 31 threads, no new buyer messages.",
+ "generatedAt": "2026-11-25T19:57:00.000Z",
+ "summary": "Cycle 452 complete: Fact Checker retest judged, card rewritten (rewrite 2).",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 452: Fact Checker retest judging",
-   "detail": "Cycle 452 started: blind judging of Fact Checker retest, 3 fresh QA judges, one per task.",
-   "currentTask": "Cycle 452: judging Fact Checker retest FC-R1 to FC-R3 blind",
-   "lastHeartbeat": "2026-11-25T19:48:30.000Z",
-   "observedAt": "2026-11-25T19:48:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2411,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fc-judge-r1",
+   "name": "FC-R1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 blind judge",
+   "detail": "FC-R1 judge complete (carried by parent): B 6.75 vs A 6.25, contamination clean.",
+   "currentTask": "FC-R1 judged: B 6.75 vs A 6.25",
+   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
+   "observedAt": "2026-11-25T19:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-fc-judge-r2",
+   "name": "FC-R2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R2 blind judge",
+   "detail": "FC-R2 judge complete (carried by parent): tie 6.50 vs 6.50, contamination clean.",
+   "currentTask": "FC-R2 judged: tie 6.50 vs 6.50",
+   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
+   "observedAt": "2026-11-25T19:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-fc-judge-r3",
+   "name": "FC-R3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R3 blind judge",
+   "detail": "FC-R3 judge complete (carried by parent): A 7.75 vs B 6.50, contamination clean.",
+   "currentTask": "FC-R3 judged: A 7.75 vs B 6.50",
+   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
+   "observedAt": "2026-11-25T19:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 452: Fact Checker retest judged",
+   "detail": "Cycle 452 done: Fact Checker retest judged 6.83 vs 6.58, 1 win 1 tie 1 loss, not a clear win. Card rewritten (rewrite 2), new standards 13-18. Scoreboard 14/79 validated.",
+   "currentTask": "Cycle 452 complete: Fact Checker retest judged, card rewritten",
+   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
+   "observedAt": "2026-11-25T19:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2437,48 +2479,6 @@
    "observedAt": "2026-11-25T19:55:30.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-fc-judge-r2",
-   "name": "FC-R2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R2 blind judge",
-   "detail": "Judged FC-R2 blind: A 6.5, B 6.5, tie. No contamination found.",
-   "currentTask": "Judging FC-R2 blind",
-   "lastHeartbeat": "2026-11-25T19:51:56.000Z",
-   "observedAt": "2026-11-25T19:51:56.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-judge-r3",
-   "name": "FC-R3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R3 blind judge",
-   "detail": "FC-R3 judged: A 7.75, B 6.50, A wins. No contamination. Judgement filed.",
-   "currentTask": "Judging FC-R3 blind",
-   "lastHeartbeat": "2026-11-25T19:51:29.000Z",
-   "observedAt": "2026-11-25T19:51:29.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-judge-r1",
-   "name": "FC-R1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R1 blind judge",
-   "detail": "B wins 6.75 vs 6.25. No contamination. Judgement filed to fc-r1-judgement.md.",
-   "currentTask": "FC-R1 judging complete",
-   "lastHeartbeat": "2026-11-25T19:51:08.000Z",
-   "observedAt": "2026-11-25T19:51:08.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel",
@@ -3809,20 +3809,6 @@
    "observedAt": "2026-11-25T02:15:28.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "drone-print-ready",
-   "name": "drone-print-ready",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Drone thesis COE restructure and print build",
-   "detail": "COMPLETE: v7 print-ready DOCX + 90-page PDF in the proposal folder; 29 moves dispositioned, 9 of 9 patches, 8 study figures included, TOC and lists verified against the PDF.",
-   "currentTask": "Job complete: print-ready proposal delivered and verified",
-   "lastHeartbeat": "2026-11-25T01:49:46.000Z",
-   "observedAt": "2026-11-25T01:49:46.000Z",
-   "needsUser": false,
-   "category": "thesis"
   }
  ]
 }
