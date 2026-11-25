@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T23:56:21.000Z",
- "summary": "Cycle 363 judging Store Operator retest blind.",
+ "generatedAt": "2026-11-25T00:01:00.000Z",
+ "summary": "GT101 Oates Short is live on @BlockTalesVoxel. Pinned comment needs manual posting.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SASE inbox watch",
-   "detail": "Inbox watch running: 1 new buyer message from Kenth Calasang (portal results question).",
-   "currentTask": "Replying to Kenth Calasang portal results question",
-   "lastHeartbeat": "2026-11-24T23:57:00.000Z",
-   "observedAt": "2026-11-24T23:57:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2397,6 +2383,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "kogama-gt101-post",
+   "name": "GT101 Oates Short poster",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT101 Oates Short post",
+   "detail": "GT101 Oates Short LIVE: https://www.youtube.com/shorts/P-XhhSD4gjY, public, 7:59 AM PHT. Pinned comment NOT posted: API 403, token lacks comment scope. Manual post needed.",
+   "currentTask": "GT101 published; pinned comment needs manual posting in Studio",
+   "lastHeartbeat": "2026-11-25T00:01:00.000Z",
+   "observedAt": "2026-11-25T00:01:00.000Z",
+   "needsUser": true,
+   "category": "blocktales"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "Inbox watch complete: 30 threads, 1 new buyer message (Kenth Calasang, portal results question) answered as Page and verified.",
+   "currentTask": "Inbox watch complete; Kenth reply sent and verified",
+   "lastHeartbeat": "2026-11-24T23:57:00.000Z",
+   "observedAt": "2026-11-24T23:57:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "drone-thesis-team",
    "name": "Drone Thesis Team",
    "role": "coordinator",
@@ -3767,34 +3781,6 @@
    "observedAt": "2026-11-24T03:59:17.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-partnerships-outreach",
-   "name": "Partnerships Outreach",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T3 specialist solver",
-   "detail": "PO-T3 specialist draft written: 7 sections, 2352 words, all inputs MD5-verified.",
-   "currentTask": "PO-T3 specialist output written",
-   "lastHeartbeat": "2026-11-24T03:58:41.000Z",
-   "observedAt": "2026-11-24T03:58:41.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-partnerships-outreach",
-   "name": "Partnerships Outreach",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T2 Pod Audit approach draft",
-   "detail": "Draft-only Pod Audit partnership pack written: target criteria, approach copy, terms, approval gate, reply log, discrepancies, sources. 9,373 bytes, 1,593 words, 0 em dashes.",
-   "currentTask": "PO-T2 complete",
-   "lastHeartbeat": "2026-11-24T03:48:33.000Z",
-   "observedAt": "2026-11-24T03:48:33.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
   }
  ]
 }
