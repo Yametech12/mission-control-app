@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T05:56:30.000Z",
- "summary": "Cycle 391 started: Ads Specialist retest AS-R3 solver pair running (Ghostname shop pack).",
+ "generatedAt": "2026-11-25T06:00:02.000Z",
+ "summary": "AS-R3 complete: Ghostname shop Meta Ads design pack drafted (17,940 bytes, 3,051 words), Traffic objective, spend USD 0, PAUSED, all 7 sections in order, 0 em dashes.",
  "agents": [
   {
    "agentId": null,
@@ -2215,20 +2215,6 @@
    "category": "pandorabook"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 391: AS-R3 solvers running",
-   "detail": "Cycle 391 running AS-R3 solver pair (Ghostname shop pack). AS-R1 and AS-R2 collected cycles 388-389; sealing 392, judging 393.",
-   "currentTask": "Cycle 391: Ads Specialist retest AS-R3 solver pair",
-   "lastHeartbeat": "2026-11-25T05:56:30.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2409,6 +2395,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-ads-specialist-as-r3",
+   "name": "Ads Specialist AS-R3",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AS-R3 Ads Specialist retest",
+   "detail": "Pack drafted: Traffic objective (no pixel/CAPI stated), USD 0 spend, PAUSED, 7 sections in order, policy rows PENDING, checklist all unchecked.",
+   "currentTask": "AS-R3 pack drafted and filed",
+   "lastHeartbeat": "2026-11-25T06:00:02.000Z",
+   "observedAt": "2026-11-25T06:00:02.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3791,20 +3791,6 @@
    "title": "Architect: portal code and content audit",
    "detail": "Audit complete (posted by job lead). Checkout proved stale; findings reclassified at compile.",
    "currentTask": "Done: 9 findings (Critical 1, High 3, Medium 3, Low 2) in jobs/GT-20261124-114-reports/architect.md",
-   "lastHeartbeat": "2026-11-24T15:30:00.000Z",
-   "observedAt": "2026-11-24T15:30:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-security-auditor",
-   "name": "Security Auditor",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Security Auditor: paid content exposure",
-   "detail": "Audit complete (posted by job lead). Live bank URLs all 404; paid banks readable in the public repo.",
-   "currentTask": "Done: live leak check PASS; repo exposure Critical, in jobs/GT-20261124-114-reports/security-auditor.md",
    "lastHeartbeat": "2026-11-24T15:30:00.000Z",
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
