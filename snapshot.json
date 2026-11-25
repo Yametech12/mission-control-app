@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-25T22:10:56.000Z",
- "summary": "Cycle 461 complete: Compliance Officer retest CO-R2 pair collected and verified; CO-R3 cycle 462, sealing 463, judging 464.",
+ "generatedAt": "2026-11-25T22:16:14.000Z",
+ "summary": "1 run active (Ghostname Team), 2 recent completions, 9 schedules waiting, and 4 failing schedules need attention, including 2 blocked on WhatsApp delivery.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results (account action required). 92 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T21:16:50.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,12 +9,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results (account action required). 90 consecutive failures; last success Nov 3.",
+   "detail": "90 consecutive failures; blocked since Nov 3 because the WhatsApp chat it posts to can no longer receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T21:16:50.000Z",
+   "observedAt": "2026-11-25T22:16:14.000Z",
    "needsUser": true,
    "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "92 consecutive failures; blocked because the WhatsApp chat it posts to can no longer receive results. Last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T22:16:14.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
   },
   {
    "agentId": null,
@@ -37,10 +37,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 25 23:30 PHT with spawn error (binding retired); 22 consecutive failures, last success Nov 4. Backup is not running.",
+   "detail": "22 consecutive failures; last success Nov 4. Latest runs failed at spawn with a retired message-admission binding error.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T21:16:50.000Z",
+   "observedAt": "2026-11-25T22:16:14.000Z",
    "needsUser": false,
    "category": "Backup"
   },
@@ -51,10 +51,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 23 with spawn error (binding retired); 7 consecutive failures, last success Nov 2. Keep-alive is not running.",
+   "detail": "7 consecutive failures; last success Nov 2. Latest runs failed at spawn with a retired message-admission binding error.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T21:16:50.000Z",
+   "observedAt": "2026-11-25T22:16:14.000Z",
    "needsUser": false,
    "category": "Epimetheus"
   },
@@ -65,10 +65,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23 with spawn error (binding retired); 3 consecutive failures, last success Nov 4. Next weekly run Nov 30 09:00 PHT.",
+   "detail": "3 consecutive failures; last run failed Nov 23 and last success was Nov 4. Next run Mon Nov 30 at 09:00 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T21:16:50.000Z",
+   "observedAt": "2026-11-25T22:16:14.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team Improvement Cycle 462",
+   "detail": "Cycle 462 start: CO-R3 solvers running (specialist + generic).",
+   "currentTask": "Cycle 462: CO-R3 pair collection",
+   "lastHeartbeat": "2026-11-25T22:16:20.000Z",
+   "observedAt": "2026-11-25T22:16:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,20 +2439,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation loop, cycle 461",
-   "detail": "Cycle 461 complete: CO-R2 pair collected (specialist 11,663 bytes, generic 9,601 bytes), key checked clean.",
-   "currentTask": "Cycle 461 complete: CO-R2 pair collected and verified",
-   "lastHeartbeat": "2026-11-25T22:10:56.000Z",
-   "observedAt": "2026-11-25T22:10:56.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3809,6 +3809,20 @@
    "observedAt": "2026-11-25T03:21:03.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-po-s2-specialist",
+   "name": "PO-S2 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-S2 CSE comment watch action report",
+   "detail": "PO-S2 draft done: 7 sections in order, 1052 words, 0 em dashes, MD5 b1d6779c8ba02514f30469ab0f702752.",
+   "currentTask": "PO-S2 draft action report complete",
+   "lastHeartbeat": "2026-11-25T03:02:40.000Z",
+   "observedAt": "2026-11-25T03:02:40.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
