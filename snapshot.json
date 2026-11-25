@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-25T00:11:23.000Z",
- "summary": "Ghostname Team improvement cycle 364: Store Operator retest re-sealed clean",
+ "generatedAt": "2026-11-25T00:22:00.000Z",
+ "summary": "Routing check 365: division-leads panel picks",
  "agents": [
   {
    "agentId": null,
-   "name": "TG session watchdog (auto re-login)",
+   "name": "BlockTales GT101 Oates Short posted",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog (auto re-login)",
-   "detail": "Paused: the WhatsApp chat it posts to can no longer receive results. 88 consecutive failures; last success Oct 6. Runs again once that chat can receive or delivery is moved.",
+   "title": "BlockTales GT101 Oates Short posted",
+   "detail": "Video is live and verified, but the pinned comment could not be posted via API (token scope). Post and pin it manually in YouTube Studio.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T23:17:02.000Z",
+   "observedAt": "2026-11-25T00:01:08.000Z",
    "needsUser": true,
-   "category": "Watchdog"
+   "category": "BlockTales"
   },
   {
    "agentId": null,
@@ -23,12 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Paused: the WhatsApp chat it posts to can no longer receive results. 86 consecutive failures; last success Nov 3. Runs again once that chat can receive or delivery is moved.",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 86 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T23:17:02.000Z",
+   "observedAt": "2026-11-24T20:35:07.000Z",
    "needsUser": true,
    "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 88 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T19:46:26.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -37,40 +51,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "21 consecutive failures with no recorded reason; last success Nov 4. Next attempt 23:30 PHT today.",
+   "detail": "Failed Nov 24, 23:30 PHT with a spawn rejection; 21 consecutive failures, last success Nov 4. Next attempt 23:30 PHT today.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-24T23:17:02.000Z",
+   "observedAt": "2026-11-24T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures with no recorded reason; last success Nov 2. Next attempt Nov 26, 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T23:17:02.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures with no recorded reason; last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T23:17:02.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -143,6 +129,20 @@
    "category": "blocktales"
   },
   {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed Nov 23, 19:05 PHT with a spawn rejection; 7 consecutive failures, last success Nov 2. Next attempt Nov 26, 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T11:05:58.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
    "agentId": "gt90-clipup-join",
    "name": "gt90-clipup-join",
    "role": "researcher",
@@ -211,6 +211,20 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed Nov 23, 08:56 PHT; 3 consecutive failures, last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T00:56:31.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -813,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 365: routing check",
+   "detail": "Routing check 45 running: 5 real legs from GT-20261125-120 and GT-20261124-113, Coordinator picks sealing now.",
+   "currentTask": "Cycle 365 routing check: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-25T00:18:38.000Z",
+   "observedAt": "2026-11-25T00:18:38.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2369,16 +2397,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "team-routing-panel",
+   "name": "Division-leads panel",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 364: Store Operator re-seal",
-   "detail": "Re-seal done: 14 changed lines, SO-R1 amendment citations dropped, 6 neutral files, 602 lines, 0 identity hits, new figure check clean, originals md5-verified. Routing check 365, re-judging 366.",
-   "currentTask": "Cycle 364 complete: Store Operator retest re-sealed",
-   "lastHeartbeat": "2026-11-25T00:11:23.000Z",
-   "observedAt": "2026-11-25T00:11:23.000Z",
+   "title": "Routing panel: cycle 365 picks",
+   "detail": "Picks: RC-T1 Thesis Researcher 6-2, RC-T2 Panel Simulator 8-0, RC-T3 Document Auditor 7-1, RC-T4 App Builder 8-0, RC-T5 QA Tester 7-1.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-25T00:22:00.000Z",
+   "observedAt": "2026-11-25T00:22:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2493,20 +2521,6 @@
    "observedAt": "2026-11-24T23:21:30.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 360",
-   "detail": "Picks filed: T1 Fact Checker 6-2, T2 Scriptwriter 8-0, T3 Audio Engineer 8-0, T4 Video Editor 6-2, T5 QA Tester 8-0.",
-   "currentTask": "Routing panel cycle 360 complete",
-   "lastHeartbeat": "2026-11-24T23:08:33.000Z",
-   "observedAt": "2026-11-24T23:08:33.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "so-r2-generic",
@@ -3767,6 +3781,20 @@
    "observedAt": "2026-11-24T04:42:00.000Z",
    "needsUser": false,
    "category": "Validation"
+  },
+  {
+   "agentId": "team-generic-po-t3",
+   "name": "Generic solver PO-T3",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-T3 generic solver",
+   "detail": "PO-T3 generic output written: 11,859 bytes, 1,976 words, all 7 sections present.",
+   "currentTask": "PO-T3 generic output written",
+   "lastHeartbeat": "2026-11-24T03:59:17.000Z",
+   "observedAt": "2026-11-24T03:59:17.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
