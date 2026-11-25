@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:56:28.000Z",
- "summary": "CM-R2 generic solver",
+ "generatedAt": "2026-11-25T00:59:16.000Z",
+ "summary": "CM-R2 specialist solver",
  "agents": [
   {
    "agentId": null,
@@ -211,20 +211,6 @@
    "observedAt": "2026-11-23T01:13:34.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23, 08:56 PHT; 3 consecutive failures, last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T00:56:31.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -827,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-cm-r2-specialist",
-   "name": "CM-R2 specialist",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CM-R2 specialist solver",
-   "detail": "CM-R2 specialist solver started; inputs measured, all MD5s match the task file.",
-   "currentTask": "CM-R2 specialist solve",
-   "lastHeartbeat": "2026-11-25T00:55:26.000Z",
-   "observedAt": "2026-11-25T00:55:26.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2425,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-cm-r2-specialist",
+   "name": "CM-R2 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R2 specialist solver",
+   "detail": "CM-R2 specialist solve done: 8,966 bytes, 1,417 words, 0 em dashes, MD5 40e7a485a2e69b5cb08c3e9e2be3c1dd.",
+   "currentTask": "CM-R2 specialist solve",
+   "lastHeartbeat": "2026-11-25T00:59:16.000Z",
+   "observedAt": "2026-11-25T00:59:16.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-cm-r2-generic",
    "name": "CM-R2 generic",
    "role": "builder",
@@ -3809,20 +3795,6 @@
    "observedAt": "2026-11-24T04:42:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-csm-t1-generic",
-   "name": "CSM-T1 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSM-T1 generic solve complete",
-   "detail": "CSM-T1 generic draft done: 18 SASE buyers, 2 confirmed, 16 pending, CSE design with no buyers named, 0 em dashes.",
-   "currentTask": "CSM-T1 generic solve: post-delivery follow-up sequence draft",
-   "lastHeartbeat": "2026-11-24T04:42:00.000Z",
-   "observedAt": "2026-11-24T04:42:00.000Z",
-   "needsUser": false,
-   "category": "Validation"
   }
  ]
 }
