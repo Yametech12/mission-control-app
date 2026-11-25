@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T14:02:00.000Z",
- "summary": "Cycle 428 complete: FC retest 2 opened, FC-S1 pair collected",
+ "generatedAt": "2026-11-25T14:07:55.000Z",
+ "summary": "Cycle 429: Funnel and Conversion Specialist retest 2, FC-S2 solver pair running.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 429",
+   "detail": "Cycle 429: FC-S2 solver pair running (specialist vs generic).",
+   "currentTask": "FC-S2 solver pair running",
+   "lastHeartbeat": "2026-11-25T14:07:55.000Z",
+   "observedAt": "2026-11-25T14:07:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
