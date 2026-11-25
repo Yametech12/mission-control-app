@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T01:49:46.000Z",
- "summary": "GT-20261125-124 complete: drone thesis proposal restructured to the COE format and delivered print-ready (v7 DOCX + 90-page PDF, verification 17 of 17 passed).",
+ "generatedAt": "2026-11-25T01:55:30.000Z",
+ "summary": "SASE inbox watch 09:54 PHT: 30 threads checked, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page Inbox Watch",
+   "detail": "09:54 PHT check complete: 30 threads read via Graph API, 0 new, 0 changed. No buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox watch complete, no new messages",
+   "lastHeartbeat": "2026-11-25T01:55:30.000Z",
+   "observedAt": "2026-11-25T01:55:30.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-cm-r3-judge",
    "name": "CM-R3 Judge",
    "role": "auditor",
@@ -2451,20 +2465,6 @@
    "observedAt": "2026-11-25T01:49:46.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox monitor",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE FB inbox watch",
-   "detail": "09:24 PHT check done: Page access OK, 30 threads, 0 new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox watch complete",
-   "lastHeartbeat": "2026-11-25T01:24:00.000Z",
-   "observedAt": "2026-11-25T01:24:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "drone-panel-verify",
