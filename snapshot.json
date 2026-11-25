@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T11:21:09.000Z",
- "summary": "PRA-S3 specialist solve complete.",
+ "generatedAt": "2026-11-25T11:24:28.000Z",
+ "summary": "SASE inbox watch 19:23 PHT: 30 threads checked, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 416: PRA-S3 solvers",
-   "detail": "Cycle 416 started: Pricing and Revenue Analyst retest 2, PRA-S3 solver pair running.",
-   "currentTask": "Cycle 416: running PRA-S3 solver pair (specialist and generic)",
-   "lastHeartbeat": "2026-11-25T11:16:31.000Z",
-   "observedAt": "2026-11-25T11:16:31.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "19:23 PHT check complete: 30 threads via Graph API, no new buyer messages, no GCash refs, no PDF sent. Token valid.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T11:24:28.000Z",
+   "observedAt": "2026-11-25T11:24:28.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 416: PRA-S3 solvers",
+   "detail": "Cycle 416 complete: PRA-S3 pair collected (spec 47,721B, gen 46,101B); key clean; all pairs ready, sealing 417.",
+   "currentTask": "Cycle 416 complete: PRA-S3 pair collected, sealing 417, judging 418",
+   "lastHeartbeat": "2026-11-25T11:22:37.000Z",
+   "observedAt": "2026-11-25T11:22:37.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-pricing-revenue-analyst",
    "name": "Pricing and Revenue Analyst",
    "role": "researcher",
@@ -2451,20 +2465,6 @@
    "observedAt": "2026-11-25T10:58:46.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "18:54 PHT check: Page access OK, 30 threads, 0 new buyer messages, no GCash refs, no PDF sent. Silent per delivery rule.",
-   "currentTask": "Inbox check complete",
-   "lastHeartbeat": "2026-11-25T10:54:34.000Z",
-   "observedAt": "2026-11-25T10:54:34.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-pra-s1-generic",
@@ -3791,20 +3791,6 @@
    "title": "GT119 GhostLabs Release 3 candidate: batch queue plus radar",
    "detail": "GT-20261125-119 DELIVERED: Release 3 candidate ready for the owner's deploy decision. All Majors closed; QA119-3 Minor open by lead decision. Posted by the job lead.",
    "currentTask": "Job delivered: gate package filed, deploy is a separate owner decision",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder (GT119)",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 Site Builder: batch, radar, fix loops",
-   "detail": "Batch plumbing, UI, radar, and three scoped fix loops (S7, S7c, S7f) all landed and QA-verified. Posted by the job lead.",
-   "currentTask": "S7f F3 fix verified closed by QA; build complete",
    "lastHeartbeat": "2026-11-24T18:24:01.000Z",
    "observedAt": "2026-11-24T18:24:01.000Z",
    "needsUser": false,
