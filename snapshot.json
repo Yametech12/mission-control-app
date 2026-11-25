@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:11:00.000Z",
- "summary": "SMM-S1 specialist solve started",
+ "generatedAt": "2026-11-25T04:15:13.000Z",
+ "summary": "Cycle 382 done: Social Media Manager retest 2 opened, SMM-S1 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -813,48 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "smm-s1-specialist",
-   "name": "SMM-S1 specialist",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SMM-S1 specialist solve",
-   "detail": "Solving SMM-S1 from the Social Media Manager card: JK3 outcome report plus JK4/JK5 plan.",
-   "currentTask": "Reading SMM-S1 inputs and drafting the JK3/JK4/JK5 deliverable",
-   "lastHeartbeat": "2026-11-25T04:11:00.000Z",
-   "observedAt": "2026-11-25T04:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "smm-s1-generic",
-   "name": "SMM-S1 generic",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SMM-S1 generic solve",
-   "detail": "SMM-S1 generic solve started: reading task file and listed inputs only",
-   "currentTask": "Solving SMM-S1 generic: JK3 outcome report and JK4/JK5 plan",
-   "lastHeartbeat": "2026-11-25T04:10:42.000Z",
-   "observedAt": "2026-11-25T04:10:42.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 382",
-   "detail": "Cycle 382 started: Social Media Manager retest 2 opens; SMM-S1 solvers next.",
-   "currentTask": "Cycle 382: Social Media Manager retest 2, SMM-S1 pair",
-   "lastHeartbeat": "2026-11-25T04:07:18.000Z",
-   "observedAt": "2026-11-25T04:07:18.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2425,6 +2383,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 382",
+   "detail": "Cycle 382 done: SMM retest 2 opened, SMM-S1 pair verified (spec 15,844B/235s, gen 18,246B/136s).",
+   "currentTask": "Cycle 382 done: SMM retest 2 opened, SMM-S1 pair collected",
+   "lastHeartbeat": "2026-11-25T04:15:13.000Z",
+   "observedAt": "2026-11-25T04:15:13.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "smm-s1-specialist",
+   "name": "SMM-S1 specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-S1 specialist solve",
+   "detail": "SMM-S1 deliverable written: JK3 inside SLA (9 min), JK4/JK5 plan with 4 discrepancy findings filed.",
+   "currentTask": "SMM-S1 deliverable written and verified",
+   "lastHeartbeat": "2026-11-25T04:14:05.000Z",
+   "observedAt": "2026-11-25T04:14:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "smm-s1-generic",
+   "name": "SMM-S1 generic",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-S1 generic solve",
+   "detail": "SMM-S1 generic solve complete: 2,900 words, MD5 fd63825834961a6530abc1dceb7661c6, latency 136s",
+   "currentTask": "SMM-S1 generic solve complete: JK3 report and JK4/JK5 plan filed",
+   "lastHeartbeat": "2026-11-25T04:12:12.000Z",
+   "observedAt": "2026-11-25T04:12:12.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-po-judge-s1",
    "name": "PO-S1 Judge",
    "role": "auditor",
@@ -3781,48 +3781,6 @@
    "observedAt": "2026-11-24T09:55:00.000Z",
    "needsUser": false,
    "category": "blocktales"
-  },
-  {
-   "agentId": "team-bt-qa",
-   "name": "bt-qa-gt112",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT112 Fact and Style QA",
-   "detail": "Posted by job lead. DONE: first pass FAIL caught missing burned captions and hot loudness; re-check PASS on both fixed legs. Packaging draft filed.",
-   "currentTask": "Complete: overall QA verdict PASS",
-   "lastHeartbeat": "2026-11-24T09:55:00.000Z",
-   "observedAt": "2026-11-24T09:55:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
-  },
-  {
-   "agentId": "fc4ece9d-183d-41ed-9eed-7ce808b7231b",
-   "name": "GT112 job lead",
-   "role": "coordinator",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "BlockTales GT112 sample complete",
-   "detail": "GT112 Final Transmissions sample complete: Franklin expedition Victory Point note, primary-source fact gate passed, sent as a sample only.",
-   "currentTask": "GT112 Final Transmissions sample",
-   "lastHeartbeat": "2026-11-24T09:53:05.000Z",
-   "observedAt": "2026-11-24T09:53:05.000Z",
-   "needsUser": false,
-   "category": "BlockTales"
-  },
-  {
-   "agentId": "fc4ece9d-183d-41ed-9eed-7ce808b7231b",
-   "name": "GT112 BlockTales sample lead",
-   "role": "coordinator",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT112 BlockTales Final Transmissions sample done",
-   "detail": "Franklin expedition Victory Point note sample completed and sent to Lobot as a sample; no posting without owner approval.",
-   "currentTask": "GT112 Final Transmissions sample delivered to Lobot",
-   "lastHeartbeat": "2026-11-24T09:53:05.000Z",
-   "observedAt": "2026-11-24T09:53:05.000Z",
-   "needsUser": false,
-   "category": "BlockTales"
   }
  ]
 }
