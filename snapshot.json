@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T20:06:00.000Z",
- "summary": "Cycle 453: Data Analyst retest opens.",
+ "generatedAt": "2026-11-25T20:11:30.000Z",
+ "summary": "DA-R1 generic solve.",
  "agents": [
   {
    "agentId": null,
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Data Analyst retest DA-R1 generic solve",
+   "detail": "DA-R1 generic report written: 9013 bytes, 1504 words, MD5 f4417a62d635f5ea44aab4f37a14021c, 0 em dashes.",
+   "currentTask": "DA-R1 generic solve",
+   "lastHeartbeat": "2026-11-25T20:11:30.000Z",
+   "observedAt": "2026-11-25T20:11:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-fc-judge-r1",
    "name": "FC-R1 Judge",
    "role": "auditor",
@@ -3515,20 +3529,6 @@
    "observedAt": "2026-11-25T04:40:00.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver SMM-S3",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-S3 generic solver (cycle 384)",
-   "detail": "SMM-S3 generic draft done: 7 sections in order, 1461 words, 0 em dashes, inputs verified by MD5.",
-   "currentTask": "SMM-S3 generic draft complete",
-   "lastHeartbeat": "2026-11-25T04:38:00.000Z",
-   "observedAt": "2026-11-25T04:38:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-flagged-decision",
