@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T14:41:55.000Z",
- "summary": "FC-S3 generic solver complete: Jo Koy funnel map draft written (17,426 bytes, 2,674 words), 7 sections in order, 0 em dashes.",
+ "generatedAt": "2026-11-25T14:43:49.000Z",
+ "summary": "FC-S3 specialist deliverable complete: Jo Koy funnel map drafted, 7 sections, 12 proposals.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": "2026-11-25T14:41:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "fc-s3-specialist",
-   "name": "FC-S3 specialist",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "FC-S3 Jo Koy funnel map",
-   "detail": "Specialist solver started FC-S3: reading card, task, and listed inputs, then drafting the six-step funnel map.",
-   "currentTask": "Draft FC-S3 Jo Koy funnel map",
-   "lastHeartbeat": "2026-11-25T14:39:37.000Z",
-   "observedAt": "2026-11-25T14:39:37.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2425,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "fc-s3-specialist",
+   "name": "FC-S3 specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S3 Jo Koy funnel map",
+   "detail": "FC-S3 draft complete: 22,543 bytes, 3,582 words, 7 sections in order, JK4 clip-limit block flagged, rate conflict open.",
+   "currentTask": "FC-S3 Jo Koy funnel map complete",
+   "lastHeartbeat": "2026-11-25T14:43:49.000Z",
+   "observedAt": "2026-11-25T14:43:49.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "fc-s3-generic",
    "name": "FC-S3 Generic Solver",
    "role": "researcher",
@@ -3809,20 +3809,6 @@
    "observedAt": "2026-11-24T22:31:00.000Z",
    "needsUser": false,
    "category": "ghostnam team"
-  },
-  {
-   "agentId": "team-smm-r3-specialist",
-   "name": "SMM-R3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-R3 specialist solver: weekly calendar Nov 25 to Dec 1",
-   "detail": "Calendar draft done: 12 slots (3 scheduled Jo Koy, 9 draft), quota frames and discrepancies flagged.",
-   "currentTask": "Draft SMM-R3 weekly calendar Nov 25 to Dec 1",
-   "lastHeartbeat": "2026-11-24T21:56:02.000Z",
-   "observedAt": "2026-11-24T21:56:02.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   }
  ]
 }
