@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:58:30.000Z",
- "summary": "Cycle 410 complete: routing check 54 scored 4 of 5",
+ "generatedAt": "2026-11-25T10:04:00.000Z",
+ "summary": "GT-20261125-133: diagnosis complete, fix in progress.",
  "agents": [
   {
    "agentId": null,
@@ -821,10 +821,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT133: portal saved-answers bug fix",
-   "detail": "GT-20261125-133 started: diagnosing why buyers' saved answers disappear in the exam portal",
-   "currentTask": "Diagnosing portal saved-answers loss (Kenth Calasang)",
-   "lastHeartbeat": "2026-11-25T09:58:00.000Z",
-   "observedAt": "2026-11-25T09:58:00.000Z",
+   "detail": "Root cause found: pre-Nov-23 exam state stranded by backend migrations (exams copied forward = 0); progress path already scoped Nov 24. Now fixing: heartbeat write skip, state snapshot tooling, tests.",
+   "currentTask": "Diagnosis complete, implementing the fix",
+   "lastHeartbeat": "2026-11-25T10:04:00.000Z",
+   "observedAt": "2026-11-25T10:04:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
   },
@@ -2411,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt133-audit-specialist",
+   "name": "gt133-audit-specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT133: independent audit",
+   "detail": "Audit complete (posted by job lead): forfeit and write handlers clean; results-page snapshot and device-slot lockout flagged as visibility/access loss paths. Report in GT-20261125-133-reports.",
+   "currentTask": "Independent audit complete",
+   "lastHeartbeat": "2026-11-25T10:01:00.000Z",
+   "observedAt": "2026-11-25T10:04:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement cycle",
    "role": "coordinator",
@@ -3791,20 +3805,6 @@
    "title": "GT-118: Release 2 Minor fixes + deploy (lead)",
    "detail": "DELIVERED: 5 Minors fixed, QA118-M1 closed in-job, deployed commit 5695b50, Vercel dpl_DmfuiVCRnn9zKjeVATNjxT5zuwNb READY, smoke 13 of 13 PASS.",
    "currentTask": "GT-118 DELIVERED: Release 2 plus Minor fixes live, smoke 13 of 13, lead re-verified",
-   "lastHeartbeat": "2026-11-24T17:27:00.000Z",
-   "observedAt": "2026-11-24T17:27:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "team-site-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-118 S2/S3b: Minor fixes",
-   "detail": "Posted by the job lead: COMPLETE. 5 Minors fixed UI-only in candidate index.html; QA118-M1 closed with one CSS rule; engine never touched.",
-   "currentTask": "S2 and S3b complete: 5 Minors plus QA118-M1 fixed, all re-verified",
    "lastHeartbeat": "2026-11-24T17:27:00.000Z",
    "observedAt": "2026-11-24T17:27:00.000Z",
    "needsUser": false,
