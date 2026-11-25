@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T12:57:00.000Z",
- "summary": "GT-135 builder started on ClinicFlow landing/login split.",
+ "generatedAt": "2026-11-25T13:12:00.000Z",
+ "summary": "GT-135 builder completed the ClinicFlow landing/login split.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt135-builder",
-   "name": "gt135-builder",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "improvement-cycle",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-135 ClinicFlow landing/login split",
-   "detail": "GT-135 started: splitting ClinicFlow landing from client dashboard, adding Google login binding and recent bookings panel.",
-   "currentTask": "Reading project state: index.html, session/store/google layers, tests",
-   "lastHeartbeat": "2026-11-25T12:57:00.000Z",
-   "observedAt": "2026-11-25T12:57:00.000Z",
+   "title": "Ghostname Team improvement cycle 424",
+   "detail": "Cycle 424: judging Competitor Analyst retest, three fresh-context QA judges scoring CA-R1 to CA-R3 blind.",
+   "currentTask": "Judging Competitor Analyst retest CA-R1 to CA-R3",
+   "lastHeartbeat": "2026-11-25T12:57:30.000Z",
+   "observedAt": "2026-11-25T12:57:30.000Z",
    "needsUser": false,
-   "category": "automation-sprints"
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt135-builder",
+   "name": "gt135-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-135 ClinicFlow landing/login split",
+   "detail": "GT-135 done: landing split from dashboard, Google login binding with adoption, /api/bookings + /api/logout added, 24/24 tests pass, docs and job record updated. Not committed or deployed; parent ships.",
+   "currentTask": "GT-135 complete: landing/login split shipped in working tree, 24/24 tests pass",
+   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
+   "observedAt": "2026-11-25T13:12:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2465,20 +2479,6 @@
    "observedAt": "2026-11-25T12:46:00.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 423: CA retest sealing",
-   "detail": "Cycle 423 complete: CA retest sealed SEAL_OK first run (17 changed lines, 501 neutral lines, 0 identity hits); judging cycle 424.",
-   "currentTask": "Cycle 423 complete: CA retest sealed, judging cycle 424",
-   "lastHeartbeat": "2026-11-25T12:40:14.000Z",
-   "observedAt": "2026-11-25T12:40:14.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "cse-page-comment-watch",
