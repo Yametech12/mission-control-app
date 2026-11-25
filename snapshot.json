@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T02:36:00.000Z",
- "summary": "Cycle 375 routing check complete: 3 of 5.",
+ "generatedAt": "2026-11-25T02:51:08.000Z",
+ "summary": "GT-20261125-125 running: drone thesis own-diagram improvement, preview-first, no manuscript edits.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "drone-diagram-improve",
+   "name": "drone-diagram-improve",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Drone thesis diagram improvement (GT-20261125-125)",
+   "detail": "GT-20261125-125 started: improving the manuscript own diagrams, previews to Lobot before any swap",
+   "currentTask": "Inventory of v7 figures; classifying own diagrams vs reproduced",
+   "lastHeartbeat": "2026-11-25T02:51:08.000Z",
+   "observedAt": "2026-11-25T02:51:08.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 376",
+   "detail": "Cycle 376 opens Page Operator retest 2 (rewrite 2, cycle 351); filing 3 fresh tasks PO-S1 to PO-S3 and collecting the PO-S1 pair.",
+   "currentTask": "Cycle 376: Page Operator retest 2 opens, PO-S1 pair",
+   "lastHeartbeat": "2026-11-25T02:48:00.000Z",
+   "observedAt": "2026-11-25T02:48:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,20 +2411,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 375",
-   "detail": "Cycle 375 routing check done: 3 of 5. Rule 45 added; cycle 230 flag recurs on RC-T5 only. Scoreboard 13 validated, 1 flagged, 65 unvalidated.",
-   "currentTask": "Cycle 375 routing check done: 3 of 5",
-   "lastHeartbeat": "2026-11-25T02:36:00.000Z",
-   "observedAt": "2026-11-25T02:36:00.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3781,6 +3795,20 @@
    "observedAt": "2026-11-24T08:52:05.000Z",
    "needsUser": false,
    "category": "research"
+  },
+  {
+   "agentId": "team-funnel-conversion-specialist",
+   "name": "Funnel and Conversion Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-T3 funnel map complete",
+   "detail": "FC-T3 complete. Funnel map filed: 15,068 bytes, 2,506 words. Whole prospect path unmeasured; only measured break is form 500.",
+   "currentTask": "FC-T3 Pod landing-to-Audit funnel map",
+   "lastHeartbeat": "2026-11-24T08:29:00.000Z",
+   "observedAt": "2026-11-24T08:29:00.000Z",
+   "needsUser": false,
+   "category": "validation"
   }
  ]
 }
