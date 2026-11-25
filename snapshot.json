@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T18:41:36.000Z",
- "summary": "Fact Checker retest FC-R1 specialist running.",
+ "generatedAt": "2026-11-25T18:46:34.000Z",
+ "summary": "Fact Checker retest FC-R1 generic done.",
  "agents": [
   {
    "agentId": null,
@@ -827,34 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-fact-checker-retest-solver",
-   "name": "Fact Checker retest solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "FC-R1 specialist solve",
-   "detail": "Drafting the Fact Checker verification record for the GT-20261125-133 portal fix job.",
-   "currentTask": "Draft FC-R1 verification record for GT-20261125-133 portal fix",
-   "lastHeartbeat": "2026-11-25T18:41:36.000Z",
-   "observedAt": "2026-11-25T18:41:36.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "FC-R1 generic solve",
-   "detail": "Generic solve of Fact Checker retest task FC-R1 in progress.",
-   "currentTask": "Draft FC-R1 verification record (generic solver)",
-   "lastHeartbeat": "2026-11-25T18:41:26.000Z",
-   "observedAt": "2026-11-25T18:41:26.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2453,6 +2425,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 generic solve",
+   "detail": "FC-R1 generic record written: 2 contradicted, 2 confirmed, 3 unverified; 9,954 bytes.",
+   "currentTask": "FC-R1 generic record complete",
+   "lastHeartbeat": "2026-11-25T18:46:34.000Z",
+   "observedAt": "2026-11-25T18:46:34.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-fact-checker-retest-solver",
+   "name": "Fact Checker retest solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 specialist solve",
+   "detail": "FC-R1 record drafted: 11,132 bytes. Verdicts: claims 1, 4, 7 contradicted; 2, 3, 5, 6 confirmed.",
+   "currentTask": "FC-R1 verification record drafted for GT-20261125-133 portal fix",
+   "lastHeartbeat": "2026-11-25T18:45:44.000Z",
+   "observedAt": "2026-11-25T18:45:44.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE Page Comment Watcher",
    "role": "monitor",
@@ -3821,34 +3821,6 @@
    "currentTask": "Draft CM-R3 SASE group comment watch plan",
    "lastHeartbeat": "2026-11-25T01:10:22.000Z",
    "observedAt": "2026-11-25T01:10:22.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-cm-r3-generic",
-   "name": "CM-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R3 generic solver",
-   "detail": "Draft plan written: 3,918 bytes, 586 words, 0 em dashes. Inputs verified, no drift from the brief listing.",
-   "currentTask": "CM-R3 SASE group comment watch run plan (generic solver) complete",
-   "lastHeartbeat": "2026-11-25T01:07:25.000Z",
-   "observedAt": "2026-11-25T01:07:25.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-cm-r2-specialist",
-   "name": "CM-R2 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R2 specialist solver",
-   "detail": "CM-R2 specialist solve done: 8,966 bytes, 1,417 words, 0 em dashes, MD5 40e7a485a2e69b5cb08c3e9e2be3c1dd.",
-   "currentTask": "CM-R2 specialist solve",
-   "lastHeartbeat": "2026-11-25T00:59:16.000Z",
-   "observedAt": "2026-11-25T00:59:16.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   }
