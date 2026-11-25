@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T05:15:34.000Z",
- "summary": "Cycle 388: Ads Specialist retest opened, AS-R1 pair running",
+ "generatedAt": "2026-11-25T05:24:36.000Z",
+ "summary": "Cycle 388 complete: Ads Specialist retest AS-R1 pair collected, AS-R2 next",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 388: Ads Specialist retest AS-R1",
-   "detail": "Ads Specialist retest opened (row 38, earliest rewritten P2 awaiting one); AS-R1 solver pair running.",
-   "currentTask": "Ads Specialist retest: filing AS-R1 to AS-R3 tasks, running AS-R1 pair",
-   "lastHeartbeat": "2026-11-25T05:15:34.000Z",
-   "observedAt": "2026-11-25T05:15:34.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,6 +2397,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "13:24 PHT check done: 30 threads, 0 new buyer messages, no GCash refs, no PDF sent. Page access OK.",
+   "currentTask": "Inbox watch complete, no new messages",
+   "lastHeartbeat": "2026-11-25T05:24:59.000Z",
+   "observedAt": "2026-11-25T05:24:59.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 388: Ads Specialist retest AS-R1 collected",
+   "detail": "AS-R1 pair verified (specialist 12,948 bytes 72s, generic 10,339 bytes 43s); both chose Leads, split on discrepancy disclosure. AS-R2 cycle 389.",
+   "currentTask": "Cycle 388 complete: AS-R1 pair collected and filed",
+   "lastHeartbeat": "2026-11-25T05:24:36.000Z",
+   "observedAt": "2026-11-25T05:24:36.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-ads-specialist",
+   "name": "Ads Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AS-R1 specialist solve",
+   "detail": "AS-R1 specialist pack filed: 7 sections, 2120 words, Leads objective, spend USD 0 paused, all policy rows PENDING.",
+   "currentTask": "AS-R1 Pod Diagnostic campaign design pack complete",
+   "lastHeartbeat": "2026-11-25T05:23:07.000Z",
+   "observedAt": "2026-11-25T05:23:07.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-ads-generic",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AS-R1 generic solve",
+   "detail": "AS-R1 generic solve complete: 7-section pack filed, 10339 bytes, 0 em dashes, 0 en dashes.",
+   "currentTask": "AS-R1 generic solve complete",
+   "lastHeartbeat": "2026-11-25T05:22:29.000Z",
+   "observedAt": "2026-11-25T05:22:29.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-flagged-decision",
    "name": "Flagged specialists decision record",
    "role": "coordinator",
@@ -2465,20 +2507,6 @@
    "observedAt": "2026-11-25T05:11:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE Inbox Watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page Inbox Watch",
-   "detail": "12:53 PHT check: Page access OK, 30 threads, 0 new, 0 changed. No buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-25T04:54:40.000Z",
-   "observedAt": "2026-11-25T04:54:40.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-routing-panel",
@@ -3765,48 +3793,6 @@
    "currentTask": "Closed: job cancelled by owner",
    "lastHeartbeat": "2026-11-24T14:37:55.000Z",
    "observedAt": "2026-11-24T14:37:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mobile-release",
-   "name": "Mobile Release Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Mobile Release: GitHub Actions APK",
-   "detail": "Closed: v1 APK built green; Phase 2 run cancelled by owner mid-tests; job cancelled. Posted by job lead.",
-   "currentTask": "Closed: job cancelled by owner",
-   "lastHeartbeat": "2026-11-24T14:37:55.000Z",
-   "observedAt": "2026-11-24T14:37:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-yame-call",
-   "name": "QA Tester and Fresh-Eye Reviewer",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA: Yame Call independent verification",
-   "detail": "Closed: v1 verdict PASS WITH LIMITS delivered; Phase 2 delta never ran; job cancelled by owner. Posted by job lead.",
-   "currentTask": "Closed: job cancelled by owner",
-   "lastHeartbeat": "2026-11-24T14:37:55.000Z",
-   "observedAt": "2026-11-24T14:37:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-design-yame-call",
-   "name": "Design (Art Director, UI, Icon)",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Design: Yame Call call-feel UI and icon",
-   "detail": "DONE: DESIGN.md 326 lines, The Exchange Instrument direction, icon 512px plus all mipmaps. Posted by job lead.",
-   "currentTask": "Completed: DESIGN.md and icon delivered",
-   "lastHeartbeat": "2026-11-24T13:52:26.000Z",
-   "observedAt": "2026-11-24T13:52:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
