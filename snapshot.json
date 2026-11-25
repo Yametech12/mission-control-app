@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:46:43.000Z",
- "summary": "CM-R1 generic solver completed: CSE Page comment watch run plan drafted, 8,642 bytes, with two brief-vs-source discrepancies raised in the deliverable.",
+ "generatedAt": "2026-11-25T00:49:30.000Z",
+ "summary": "Cycle 367 complete: Community Manager retest CM-R1 pair collected and verified; CM-R2 runs cycle 368.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
+   "agentId": "drone-thesis-team",
+   "name": "drone-thesis-team",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Cycle 367: Community Manager retest",
-   "detail": "Cycle 367 started. Community Manager retest opens: CM-R1 to CM-R3 filed, CM-R1 solver pair running.",
-   "currentTask": "Cycle 367: Community Manager retest, CM-R1 pair",
-   "lastHeartbeat": "2026-11-25T00:39:41.000Z",
-   "observedAt": "2026-11-25T00:39:41.000Z",
+   "title": "Drone proposal v6 fix pass (full force)",
+   "detail": "GT-20261125-121 started full force: 4 specialists on non-overlapping defect IDs, Gemini and Groq passes active, lead is single writer on the v6 file.",
+   "currentTask": "GT121 v6 fix pass full force: intake done, specialists fanning out",
+   "lastHeartbeat": "2026-11-25T00:46:00.000Z",
+   "observedAt": "2026-11-25T00:46:00.000Z",
    "needsUser": false,
-   "category": "validation"
+   "category": "thesis"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 367: Community Manager retest",
+   "detail": "Cycle 367 done. Community Manager retest: CM-R1 pair verified (spec 11,539 bytes, generic 8,642 bytes). CM-R2 next cycle 368.",
+   "currentTask": "Cycle 367 complete: CM-R1 pair collected",
+   "lastHeartbeat": "2026-11-25T00:49:30.000Z",
+   "observedAt": "2026-11-25T00:49:30.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE comment watcher",
    "role": "monitor",
@@ -3781,20 +3795,6 @@
    "observedAt": "2026-11-24T04:42:00.000Z",
    "needsUser": false,
    "category": "Validation"
-  },
-  {
-   "agentId": "team-generic-po-t3",
-   "name": "Generic solver PO-T3",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T3 generic solver",
-   "detail": "PO-T3 generic output written: 11,859 bytes, 1,976 words, all 7 sections present.",
-   "currentTask": "PO-T3 generic output written",
-   "lastHeartbeat": "2026-11-24T03:59:17.000Z",
-   "observedAt": "2026-11-24T03:59:17.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
