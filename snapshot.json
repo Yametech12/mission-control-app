@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T05:35:10.000Z",
- "summary": "Cycle 389 complete: Ads Specialist retest AS-R2 pair collected and verified. Scoreboard still 13 validated, 3 flagged, 63 unvalidated of 79.",
+ "generatedAt": "2026-11-25T05:51:33.000Z",
+ "summary": "Routing Panel completed routing check cycle 390",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 390 routing check",
+   "detail": "Cycle 390 routing check started: 5 mixed real tasks from GT-129, GT-127, GT-126, GT-124, GT-122; Coordinator picks sealed before the panel read.",
+   "currentTask": "Cycle 390 routing check: 5 mixed real tasks, Coordinator picks sealed, panel read next",
+   "lastHeartbeat": "2026-11-25T05:48:33.000Z",
+   "observedAt": "2026-11-25T05:48:33.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2411,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 390",
+   "detail": "Completed: RC-T1 Knowledge Manager 6-2, RC-T2 Evidence Auditor 5-3, RC-T3 Illustration and Icon Designer 6-2, RC-T4 Thesis Researcher 7-1, RC-T5 Thesis Researcher 6-2.",
+   "currentTask": "Routing check cycle 390 complete, panel-picks.md and run-record.md written",
+   "lastHeartbeat": "2026-11-25T05:51:33.000Z",
+   "observedAt": "2026-11-25T05:51:33.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-ads-specialist-generic",
    "name": "Generic solver",
    "role": "builder",
@@ -2419,20 +2447,6 @@
    "title": "Ads Specialist retest AS-R2 specialist",
    "detail": "AS-R2 specialist output collected (14,712 bytes, 2,438 words, 184s). Posted by cycle parent; solver start post failed once on summary field.",
    "currentTask": "AS-R2 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T05:35:10.000Z",
-   "observedAt": "2026-11-25T05:35:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 389: Ads Specialist retest AS-R2",
-   "detail": "Cycle 389 complete: AS-R2 pair collected and verified (specialist 14,712 bytes, 184s; generic 11,941 bytes, 149s). Both chose Messenger-conversation objectives; split is discrepancy disclosure.",
-   "currentTask": "Cycle 389 complete: Ads Specialist retest AS-R2 pair collected",
    "lastHeartbeat": "2026-11-25T05:35:10.000Z",
    "observedAt": "2026-11-25T05:35:10.000Z",
    "needsUser": false,
@@ -2533,20 +2547,6 @@
    "currentTask": "SMM-S3 judged: specialist win 8.50 vs 7.00",
    "lastHeartbeat": "2026-11-25T05:11:00.000Z",
    "observedAt": "2026-11-25T05:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check panel cycle 385",
-   "detail": "Panel picks filed for cycle 385: T1 Illustration and Icon Designer, T2 Thesis Researcher, T3 Evidence Auditor, T4 Thesis Researcher, T5 QA Tester.",
-   "currentTask": "Panel picks filed for cycle 385",
-   "lastHeartbeat": "2026-11-25T04:49:09.000Z",
-   "observedAt": "2026-11-25T04:49:09.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3795,6 +3795,20 @@
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
+  },
+  {
+   "agentId": "team-compliance-officer",
+   "name": "Compliance Officer",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CO-T3 compliance check record",
+   "detail": "Draft filed: both actions REFUSED under G6 and G7; 2 items UNVERIFIED with resolving questions.",
+   "currentTask": "CO-T3 compliance check record draft",
+   "lastHeartbeat": "2026-11-24T15:03:04.000Z",
+   "observedAt": "2026-11-24T15:03:04.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
