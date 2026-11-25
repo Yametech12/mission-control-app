@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T12:08:31.000Z",
- "summary": "Cycle 420 routing check complete: 4 of 5",
+ "generatedAt": "2026-11-25T12:16:40.000Z",
+ "summary": "CA-R2 generic solver working.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-validation-generic",
+   "name": "Generic Solver",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CA-R2 generic solver",
+   "detail": "CA-R2 generic solver started; reading task inputs and drafting the brief.",
+   "currentTask": "CA-R2 generic solver: drafting competitive brief",
+   "lastHeartbeat": "2026-11-25T12:16:40.000Z",
+   "observedAt": "2026-11-25T12:16:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 421: CA-R2 solvers",
+   "detail": "Competitor Analyst retest CA-R2 pair running (specialist + generic).",
+   "currentTask": "Running CA-R2 solver pair for Competitor Analyst retest",
+   "lastHeartbeat": "2026-11-25T12:16:30.000Z",
+   "observedAt": "2026-11-25T12:16:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,20 +2425,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 420",
-   "detail": "Cycle 420 routing check complete: 4 of 5, RC-T2 miss, Coordinator better call on rule 41",
-   "currentTask": "Cycle 420 routing check complete: 4 of 5, one miss on RC-T2",
-   "lastHeartbeat": "2026-11-25T12:08:31.000Z",
-   "observedAt": "2026-11-25T12:08:31.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2423,20 +2437,6 @@
    "observedAt": "2026-11-25T11:54:35.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-validation-generic",
-   "name": "Validation generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-R1 generic solver",
-   "detail": "CA-R1 generic output collected (13,603 bytes, 2,268 words, about 74s); start snapshot failed once on agent-object schema, carried by parent.",
-   "currentTask": "CA-R1 generic solve complete",
-   "lastHeartbeat": "2026-11-25T11:52:06.000Z",
-   "observedAt": "2026-11-25T11:52:06.000Z",
-   "needsUser": false,
-   "category": "team-improvement"
   },
   {
    "agentId": "team-competitor-analyst",
@@ -3795,6 +3795,34 @@
    "observedAt": "2026-11-24T18:39:19.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-lead-gt119-batch-radar",
+   "name": "GT119 Job Lead",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT119 GhostLabs Release 3 candidate: batch queue plus radar",
+   "detail": "GT-20261125-119 DELIVERED: Release 3 candidate ready for the owner's deploy decision. All Majors closed; QA119-3 Minor open by lead decision. Posted by the job lead.",
+   "currentTask": "Job delivered: gate package filed, deploy is a separate owner decision",
+   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
+   "observedAt": "2026-11-24T18:24:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder (GT119)",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT119 Site Builder: batch, radar, fix loops",
+   "detail": "Batch plumbing, UI, radar, and three scoped fix loops (S7, S7c, S7f) all landed and QA-verified. Posted by the job lead.",
+   "currentTask": "S7f F3 fix verified closed by QA; build complete",
+   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
+   "observedAt": "2026-11-24T18:24:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
