@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T05:31:20.000Z",
- "summary": "Generic solver completed AS-R2 Hapsay Lifestyle Meta Ads design pack.",
+ "generatedAt": "2026-11-25T05:35:10.000Z",
+ "summary": "Cycle 389 complete: Ads Specialist retest AS-R2 pair collected and verified. Scoreboard still 13 validated, 3 flagged, 63 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -2398,15 +2398,43 @@
   },
   {
    "agentId": "team-ads-specialist-generic",
-   "name": "Ads Specialist Generic Solver",
-   "role": "researcher",
+   "name": "Generic solver",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "AS-R2 generic solve: Hapsay Meta Ads pack",
-   "detail": "AS-R2 generic pack done: 11,941 bytes, 1,966 words, 0 em dashes, PHP 0 paused draft.",
-   "currentTask": "AS-R2 generic pack written and verified",
-   "lastHeartbeat": "2026-11-25T05:31:20.000Z",
-   "observedAt": "2026-11-25T05:31:20.000Z",
+   "title": "Ads Specialist retest AS-R2 generic",
+   "detail": "AS-R2 generic output collected (11,941 bytes, 1,966 words, 149s). Solver posted its own snapshots cleanly.",
+   "currentTask": "AS-R2 generic solve complete",
+   "lastHeartbeat": "2026-11-25T05:35:10.000Z",
+   "observedAt": "2026-11-25T05:35:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ads-specialist",
+   "name": "Ads Specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ads Specialist retest AS-R2 specialist",
+   "detail": "AS-R2 specialist output collected (14,712 bytes, 2,438 words, 184s). Posted by cycle parent; solver start post failed once on summary field.",
+   "currentTask": "AS-R2 specialist solve complete",
+   "lastHeartbeat": "2026-11-25T05:35:10.000Z",
+   "observedAt": "2026-11-25T05:35:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 389: Ads Specialist retest AS-R2",
+   "detail": "Cycle 389 complete: AS-R2 pair collected and verified (specialist 14,712 bytes, 184s; generic 11,941 bytes, 149s). Both chose Messenger-conversation objectives; split is discrepancy disclosure.",
+   "currentTask": "Cycle 389 complete: Ads Specialist retest AS-R2 pair collected",
+   "lastHeartbeat": "2026-11-25T05:35:10.000Z",
+   "observedAt": "2026-11-25T05:35:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3767,34 +3795,6 @@
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
-  },
-  {
-   "agentId": "team-compliance-officer",
-   "name": "Compliance Officer",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CO-T3 compliance check record",
-   "detail": "Draft filed: both actions REFUSED under G6 and G7; 2 items UNVERIFIED with resolving questions.",
-   "currentTask": "CO-T3 compliance check record draft",
-   "lastHeartbeat": "2026-11-24T15:03:04.000Z",
-   "observedAt": "2026-11-24T15:03:04.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-app-builder",
-   "name": "App Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "App Builder: Yame Call Flutter app",
-   "detail": "Closed: v1 and Phase 2 code pushed; job cancelled by owner. Posted by job lead.",
-   "currentTask": "Closed: job cancelled by owner",
-   "lastHeartbeat": "2026-11-24T14:37:55.000Z",
-   "observedAt": "2026-11-24T14:37:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
