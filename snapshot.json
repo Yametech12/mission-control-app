@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T17:54:00.000Z",
- "summary": "SASE inbox watch complete: no new buyer messages.",
+ "generatedAt": "2026-11-25T18:01:25.000Z",
+ "summary": "Ghostname Team improvement cycle 444 in progress: sealing the Competitor Analyst retest 2 pairs.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 444: CA retest 2 sealing",
+   "detail": "Cycle 444 sealing: neutralizing 3 CA retest 2 pairs under the cycle 199 differential rule, no judging this cycle.",
+   "currentTask": "Cycle 444: sealing Competitor Analyst retest 2 pairs",
+   "lastHeartbeat": "2026-11-25T18:01:25.000Z",
+   "observedAt": "2026-11-25T18:01:25.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2397,20 +2411,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 443",
-   "detail": "Cycle 443 complete: CA-S3 pair collected and verified (specialist 16,209 bytes, 2,463 words; generic 17,993 bytes, 2,643 words; key clean). Sealing 444, judging 446.",
-   "currentTask": "Cycle 443 complete: CA-S3 pair collected",
-   "lastHeartbeat": "2026-11-25T17:51:30.000Z",
-   "observedAt": "2026-11-25T17:51:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "ca-s3-generic",
    "name": "CA-S3 Generic Solver",
    "role": "researcher",
@@ -3779,6 +3779,20 @@
    "currentTask": "CM-R3 SASE group comment watch run plan (generic solver) complete",
    "lastHeartbeat": "2026-11-25T01:07:25.000Z",
    "observedAt": "2026-11-25T01:07:25.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-cm-r2-specialist",
+   "name": "CM-R2 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R2 specialist solver",
+   "detail": "CM-R2 specialist solve done: 8,966 bytes, 1,417 words, 0 em dashes, MD5 40e7a485a2e69b5cb08c3e9e2be3c1dd.",
+   "currentTask": "CM-R2 specialist solve",
+   "lastHeartbeat": "2026-11-25T00:59:16.000Z",
+   "observedAt": "2026-11-25T00:59:16.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   }
