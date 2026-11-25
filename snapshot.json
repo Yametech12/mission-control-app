@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:27:01.000Z",
- "summary": "GT-20261125-129 complete: KEEP decision for Watcher and Page Operator recorded in VALIDATION.md, IMPROVEMENTS.md, and PROGRESS.md; counts unchanged (13 validated, 2 flagged, 64 unvalidated).",
+ "generatedAt": "2026-11-25T04:36:00.000Z",
+ "summary": "Improvement cycle 384 running: SMM-S3 pair collection.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 384: SMM-S3 pair collection",
+   "detail": "Cycle 384 started: collecting Social Media Manager retest 2 SMM-S3 solver pair (ClipUp v2 hand-back plan).",
+   "currentTask": "Collecting SMM-S3 specialist and generic solver outputs",
+   "lastHeartbeat": "2026-11-25T04:36:00.000Z",
+   "observedAt": "2026-11-25T04:36:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2425,20 +2439,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 383: SMM retest 2, SMM-S2 pair",
-   "detail": "Cycle 383 complete: SMM-S2 pair collected and verified (specialist 15,571 bytes, 147s; generic 13,262 bytes, 85s). SMM-S3 next cycle 384; sealing 386, judging 387.",
-   "currentTask": "Cycle 383 filed",
-   "lastHeartbeat": "2026-11-25T04:22:30.000Z",
-   "observedAt": "2026-11-25T04:22:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-social-media-manager",
    "name": "Social Media Manager",
    "role": "builder",
@@ -3795,6 +3795,20 @@
    "observedAt": "2026-11-24T10:57:48.000Z",
    "needsUser": false,
    "category": "Apps"
+  },
+  {
+   "agentId": "team-competitor-analyst",
+   "name": "Competitor Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-T3 specialist run complete",
+   "detail": "CA-T3 specialist output collected (24,734 bytes, 127s). Start snapshot failed on schema; carried by cycle parent.",
+   "currentTask": "CA-T3 specialist run complete",
+   "lastHeartbeat": "2026-11-24T10:41:00.000Z",
+   "observedAt": "2026-11-24T10:41:00.000Z",
+   "needsUser": false,
+   "category": "validation"
   }
  ]
 }
