@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:36:00.000Z",
- "summary": "Improvement cycle 384 running: SMM-S3 pair collection.",
+ "generatedAt": "2026-11-25T04:40:00.000Z",
+ "summary": "SMM-S3 specialist run complete.",
  "agents": [
   {
    "agentId": null,
@@ -2411,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-social-media-manager",
+   "name": "Social Media Manager",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-S3 ClipUp v2 hand-back plan",
+   "detail": "SMM-S3 specialist draft done: 14,794 bytes, 7 sections in order, 0 em dashes. Flagged the state file vs GT96 submission conflict; all 3 input MD5s matched.",
+   "currentTask": "SMM-S3 draft complete",
+   "lastHeartbeat": "2026-11-25T04:40:00.000Z",
+   "observedAt": "2026-11-25T04:40:00.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver SMM-S3",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM-S3 generic solver (cycle 384)",
+   "detail": "SMM-S3 generic draft done: 7 sections in order, 1461 words, 0 em dashes, inputs verified by MD5.",
+   "currentTask": "SMM-S3 generic draft complete",
+   "lastHeartbeat": "2026-11-25T04:38:00.000Z",
+   "observedAt": "2026-11-25T04:38:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-flagged-decision",
    "name": "team-flagged-decision",
    "role": "coordinator",
@@ -3781,34 +3809,6 @@
    "observedAt": "2026-11-24T11:10:24.000Z",
    "needsUser": false,
    "category": "Apps"
-  },
-  {
-   "agentId": "b4d99ea9-7398-4ec8-8521-ea73248f232b",
-   "name": "Work Dashboard builder",
-   "role": "builder",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "Work Dashboard Mission Control redesign done",
-   "detail": "Work Dashboard redesigned as a phone-first Mission Control view: live clock, totals, needs-you section and stuck-worker detection.",
-   "currentTask": "Mission Control phone-first redesign",
-   "lastHeartbeat": "2026-11-24T10:57:48.000Z",
-   "observedAt": "2026-11-24T10:57:48.000Z",
-   "needsUser": false,
-   "category": "Apps"
-  },
-  {
-   "agentId": "team-competitor-analyst",
-   "name": "Competitor Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-T3 specialist run complete",
-   "detail": "CA-T3 specialist output collected (24,734 bytes, 127s). Start snapshot failed on schema; carried by cycle parent.",
-   "currentTask": "CA-T3 specialist run complete",
-   "lastHeartbeat": "2026-11-24T10:41:00.000Z",
-   "observedAt": "2026-11-24T10:41:00.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
