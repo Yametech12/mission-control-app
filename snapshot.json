@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T19:05:30.000Z",
- "summary": "Improvement cycle 449 in progress: Fact Checker retest FC-R3 pair collection.",
+ "generatedAt": "2026-11-25T19:06:30.000Z",
+ "summary": "Fact Checker FC-R3 specialist run started",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-fact-checker",
+   "name": "Fact Checker FC-R3",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Fact Checker FC-R3 started",
+   "detail": "FC-R3 specialist run started: ClinicFlow Connect audit verification, GT-20261125-134.",
+   "currentTask": "Checking 7 claims for GT-20261125-134 against audit reports",
+   "lastHeartbeat": "2026-11-25T19:06:30.000Z",
+   "observedAt": "2026-11-25T19:06:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2227,20 +2241,6 @@
    "observedAt": "2026-10-12T16:10:00.000Z",
    "needsUser": false,
    "category": "pandorabook"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 449: Fact Checker retest FC-R3",
-   "detail": "Cycle 449 running: FC-R3 pair collection, Fact Checker retest (specialist vs generic).",
-   "currentTask": "Cycle 449: FC-R3 pair collection",
-   "lastHeartbeat": "2026-11-25T19:05:30.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "sase-landing-portal-audit",
