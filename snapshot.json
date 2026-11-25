@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T20:44:56.000Z",
- "summary": "Routing panel cycle 455 complete",
+ "generatedAt": "2026-11-25T20:47:00.000Z",
+ "summary": "Improvement cycle 455 complete: routing check 1 of 5",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 455: routing check",
-   "detail": "Cycle 455 routing check started: 5 fresh legs (GT-117 S1, GT-118 S1, GT-117 S5b, GT-120 S10, GT-117 S7).",
-   "currentTask": "Routing check cycle 455: 5 fresh legs, panel read next",
-   "lastHeartbeat": "2026-11-25T20:35:00.000Z",
-   "observedAt": "2026-11-25T20:35:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,16 +2411,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 455: routing check",
+   "detail": "Cycle 455 routing check done: 1 of 5 (RC-T3 matched). Rule 50 added, rule 25 narrowed, 230 flag recurs on RC-T5. DA-R3 next cycle 456.",
+   "currentTask": "Cycle 455 routing check complete: 1 of 5",
+   "lastHeartbeat": "2026-11-25T20:47:00.000Z",
+   "observedAt": "2026-11-25T20:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-cycle-455",
    "name": "Division-leads routing panel",
    "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing panel cycle 455",
-   "detail": "Panel picks filed: Data Integrity Auditor, Data Integrity Auditor, Fresh-Eye Reviewer, Fulfillment Operator, Knowledge Manager.",
-   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-25T20:44:56.000Z",
-   "observedAt": "2026-11-25T20:44:56.000Z",
+   "detail": "Routing panel cycle 455 complete: picks filed (DIA 6-2, DIA 6-2, Fresh-Eye 7-1, Fulfillment 6-2, Knowledge Mgr 5-3). Posted by the cycle parent.",
+   "currentTask": "Panel picks filed: 1 of 5 matched",
+   "lastHeartbeat": "2026-11-25T20:47:00.000Z",
+   "observedAt": "2026-11-25T20:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3809,20 +3809,6 @@
    "observedAt": "2026-11-25T02:53:37.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "cm-r2-judge-r2",
-   "name": "CM-R2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R2 blind judgement",
-   "detail": "Judged CM-R2 blind: A 7.0 (8/7/7/6), B 8.0 (7/9/9/7). No contamination. No overlap concern.",
-   "currentTask": "CM-R2 judgement filed",
-   "lastHeartbeat": "2026-11-25T02:17:10.000Z",
-   "observedAt": "2026-11-25T02:17:10.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
