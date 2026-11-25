@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:21:02.000Z",
- "summary": "SMM-S2 specialist solver complete; clip 3 plan filed with 16 discrepancy findings.",
+ "generatedAt": "2026-11-25T04:26:12.000Z",
+ "summary": "GT-20261125-129 started: recording the owner's delegated KEEP decision for flagged specialists Watcher and Page Operator in the team files.",
  "agents": [
   {
    "agentId": null,
@@ -829,16 +829,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "agentId": "team-flagged-decision",
+   "name": "team-flagged-decision",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 383: SMM retest 2, SMM-S2 pair",
-   "detail": "Cycle 383 running: collecting SMM-S2 solver pair (KreekCraft clip 3 plan) for Social Media Manager retest 2.",
-   "currentTask": "SMM-S2 solver pair collection",
-   "lastHeartbeat": "2026-11-25T04:18:30.000Z",
-   "observedAt": "2026-11-25T04:18:30.000Z",
+   "title": "Flagged specialists decision record (GT-20261125-129)",
+   "detail": "Recording KEEP decision for Watcher and Page Operator in VALIDATION.md, IMPROVEMENTS.md, PROGRESS.md.",
+   "currentTask": "Updating VALIDATION.md Approval queue and tracker rows",
+   "lastHeartbeat": "2026-11-25T04:26:12.000Z",
+   "observedAt": "2026-11-25T04:26:12.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2411,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "Inbox check complete: 30 threads, 0 new buyer messages, 0 GCash refs. Page access OK.",
+   "currentTask": "Check complete, no action needed",
+   "lastHeartbeat": "2026-11-25T04:25:00.000Z",
+   "observedAt": "2026-11-25T04:25:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 383: SMM retest 2, SMM-S2 pair",
+   "detail": "Cycle 383 complete: SMM-S2 pair collected and verified (specialist 15,571 bytes, 147s; generic 13,262 bytes, 85s). SMM-S3 next cycle 384; sealing 386, judging 387.",
+   "currentTask": "Cycle 383 filed",
+   "lastHeartbeat": "2026-11-25T04:22:30.000Z",
+   "observedAt": "2026-11-25T04:22:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-social-media-manager",
    "name": "Social Media Manager",
    "role": "builder",
@@ -2521,20 +2549,6 @@
    "observedAt": "2026-11-25T03:58:00.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "11:54 PHT check complete: Page access OK, 30 threads, 0 new, 0 changed. No new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox watch complete; no action needed",
-   "lastHeartbeat": "2026-11-25T03:54:34.000Z",
-   "observedAt": "2026-11-25T03:54:34.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "drone-diagram-redesign-2",
@@ -3795,20 +3809,6 @@
    "observedAt": "2026-11-24T10:41:00.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-lead-gt112-blocktales-sample",
-   "name": "gt112-job-lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT112 Final Transmissions Short sample",
-   "detail": "DONE. Franklin note Short, 61.58 s, QA PASS (mouth 0 incidents, captions word-for-word, -15.9 LUFS). Sent to Lobot, message 1045. Not posted.",
-   "currentTask": "Complete: sample delivered to Lobot, message 1045",
-   "lastHeartbeat": "2026-11-24T09:55:00.000Z",
-   "observedAt": "2026-11-24T09:55:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
   }
  ]
 }
