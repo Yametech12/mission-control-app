@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:16:05.000Z",
- "summary": "Cycle 397 running: PRA-R3 solver pair for the Pricing and Revenue Analyst retest.",
+ "generatedAt": "2026-11-25T07:21:00.000Z",
+ "summary": "PRA-R3 specialist complete: Lacy pool pricing verification sheet delivered.",
  "agents": [
   {
    "agentId": null,
@@ -23,7 +23,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: delivery chat can no longer receive results (account action required). 87 consecutive failures; last success Nov 3. Needs the delivery chat fixed or moved.",
+   "detail": "87 consecutive failures and paused: the WhatsApp chat it posts to cannot receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-25T02:35:08.000Z",
@@ -37,12 +37,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: delivery chat can no longer receive results (account action required). 89 consecutive failures; last success Oct 6. Needs the delivery chat fixed or moved.",
+   "detail": "89 consecutive failures and paused: the WhatsApp chat it posts to cannot receive results. Last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-25T01:46:27.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Messaging"
   },
   {
    "agentId": null,
@@ -65,7 +65,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failing: 21 consecutive failures, last failed Nov 24 at 23:26 PHT, last success Nov 4. Next attempt 23:30 PHT today.",
+   "detail": "21 consecutive failures; last run failed Nov 24 and last success was Nov 4. Spawn error stopped the run before completion.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T15:26:48.000Z",
@@ -149,12 +149,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failing: 7 consecutive failures; last run Nov 23 failed before finishing with a spawn/binding error. Last success Nov 2. Next attempt Nov 26.",
+   "detail": "7 consecutive failures; last run failed Nov 23 and last success was Nov 2. Spawn error stopped the run before completion.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T11:05:58.000Z",
    "needsUser": false,
-   "category": "Epimetheus site"
+   "category": "Infrastructure"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -773,6 +773,20 @@
    "category": "CSE Reviewer"
   },
   {
+   "agentId": "gt88-jokoy-posting",
+   "name": "GT88 Jo Koy Posting",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "attention",
+   "title": "JK4 Jo Koy clip",
+   "detail": "Live on @yameb0y 15:00:54 PHT. Whop blocked: clip limit reached, JK1-JK3 pending occupy all 3 slots. Link saved, ready to submit when a slot frees.",
+   "currentTask": "JK4 submit: posted, Whop blocked on clip limit",
+   "lastHeartbeat": "2026-11-25T07:17:47.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
    "agentId": "partner-assistant-signing",
    "name": "Partner Signing",
    "role": "builder",
@@ -813,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 397: PRA-R3 pair",
-   "detail": "Cycle 397 started: Pricing and Revenue Analyst retest, PRA-R3 solver pair running (specialist from rewritten card, generic from task only).",
-   "currentTask": "Cycle 397: collect PRA-R3 solver pair (Lacy pool economics)",
-   "lastHeartbeat": "2026-11-25T07:16:05.000Z",
-   "observedAt": "2026-11-25T07:16:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "pra-r3-specialist",
+   "name": "PRA-R3 Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-R3 Lacy pool pricing verification",
+   "detail": "PRA-R3 complete: Lacy pool verification sheet written, 5,177 words, all inputs re-multiplied, 0 em dashes.",
+   "currentTask": "PRA-R3 sheet complete: 31,367 bytes, 7 sections, 0 em dashes.",
+   "lastHeartbeat": "2026-11-25T07:21:00.000Z",
+   "observedAt": "2026-11-25T07:21:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3781,20 +3795,6 @@
    "observedAt": "2026-11-24T15:54:11.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-lead-gt114",
-   "name": "GT114 Job Lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-20261124-114 SASE/CSE portal fix phase",
-   "detail": "DELIVERED: commit bf99124 live-verified. L2, L4, L5, L6, L8, L9, L10 live PASS; L3a, L7, L12 code and test verified; scoped progress write landed; 237 tests pass; D3 resolved (data authoritative). Follow-ups specified in the job record.",
-   "currentTask": "Fix phase delivered and closed",
-   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
-   "observedAt": "2026-11-24T15:34:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
   }
  ]
 }
