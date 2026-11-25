@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T15:25:27.000Z",
- "summary": "SASE inbox watch 23:24 PHT: 31 threads, no new buyer messages.",
+ "generatedAt": "2026-11-25T15:31:00.000Z",
+ "summary": "Improvement cycle 435: routing check 59 in progress.",
  "agents": [
   {
    "agentId": null,
@@ -834,11 +834,11 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team validation cycle 434",
-   "detail": "Cycle 434: opening Affiliate Program Manager retest 2, filing APM-S1 to APM-S3 and running the APM-S1 solver pair.",
-   "currentTask": "Filing APM-S1 to APM-S3 tasks and keys for retest 2",
-   "lastHeartbeat": "2026-11-25T15:16:21.000Z",
-   "observedAt": "2026-11-25T15:16:21.000Z",
+   "title": "Improvement cycle 435: routing check 59",
+   "detail": "Routing check 59 running: 5 fresh legs from GT-137, GT-131, GT-126; Coordinator picks sealed, panel reading now.",
+   "currentTask": "Routing check cycle 435: panel read in progress",
+   "lastHeartbeat": "2026-11-25T15:31:00.000Z",
+   "observedAt": "2026-11-25T15:31:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-apm-s1-generic",
+   "name": "APM-S1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "APM-S1 generic solver",
+   "detail": "APM-S1 generic output collected (6,182 bytes, 975 words, about 125s, 0 em dashes). Dashboard snapshots failed once on schema; carried by cycle parent.",
+   "currentTask": "APM-S1 generic output collected",
+   "lastHeartbeat": "2026-11-25T15:27:13.000Z",
+   "observedAt": "2026-11-25T15:27:13.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3806,20 +3820,6 @@
    "detail": "SO-R2 generic output collected by parent: 7,416 bytes, 1,242 words, 107s, 0 em dashes.",
    "currentTask": "SO-R2 generic output collected",
    "lastHeartbeat": "2026-11-24T22:52:54.000Z",
-   "observedAt": "2026-11-24T22:55:15.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "so-r2-specialist",
-   "name": "SO-R2 specialist solver",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SO-R2 specialist solver",
-   "detail": "SO-R2 specialist output collected by parent: 10,082 bytes, 1,557 words, 107s, 0 em dashes.",
-   "currentTask": "SO-R2 specialist output collected",
-   "lastHeartbeat": "2026-11-24T22:54:11.000Z",
    "observedAt": "2026-11-24T22:55:15.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
