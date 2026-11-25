@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T12:27:00.000Z",
- "summary": "Generic solver started CA-R3 competitive brief draft.",
+ "generatedAt": "2026-11-25T12:30:00.000Z",
+ "summary": "Cycle 422 complete: CA-R3 pair collected, key clean, sealing 423, judging 424.",
  "agents": [
   {
    "agentId": null,
@@ -827,62 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt134-design",
-   "name": "GT134 Design Auditor",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-134 ClinicFlow design audit",
-   "detail": "Audit underway: index.html read, live HTML matches local file byte for byte in structure",
-   "currentTask": "Scoring page against Standard v3 and anti-slop rules",
-   "lastHeartbeat": "2026-11-25T12:28:00.000Z",
-   "observedAt": "2026-11-25T12:28:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt134-qa",
-   "name": "gt134-qa",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT134 ClinicFlow QA audit",
-   "detail": "Started read-only functional and robustness audit of ClinicFlow Connect v1",
-   "currentTask": "Reading site code and Code.gs reference",
-   "lastHeartbeat": "2026-11-25T12:27:00.000Z",
-   "observedAt": "2026-11-25T12:27:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt134-copy",
-   "name": "gt134-copy",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-134 ClinicFlow copy and UX audit",
-   "detail": "Copy audit started: reading site copy and API status messages",
-   "currentTask": "Reading index.html and API user-facing messages",
-   "lastHeartbeat": "2026-11-25T12:26:04.000Z",
-   "observedAt": "2026-11-25T12:26:04.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 422",
-   "detail": "CA-R3 solver pair running: specialist from the rewrite 1 card, generic from the task file only.",
-   "currentTask": "Running CA-R3 solver pair",
-   "lastHeartbeat": "2026-11-25T12:26:00.000Z",
-   "observedAt": "2026-11-25T12:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2285,34 +2229,6 @@
    "category": "pandorabook"
   },
   {
-   "agentId": "team-competitor-analyst",
-   "name": "Competitor Analyst",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Competitor Analyst CA-R3",
-   "detail": "Competitor Analyst CA-R3 specialist run started; inputs verified against task file hashes.",
-   "currentTask": "Competitor Analyst CA-R3 specialist run: AI training and microtask brief",
-   "lastHeartbeat": "2026-11-25T12:26:28.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-validation-generic",
-   "name": "Validation generic",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Validation generic CA-R3",
-   "detail": "Generic solver started CA-R3: AI training and microtask platforms brief, inputs verified.",
-   "currentTask": "Generic solver draft for CA-R3 competitive brief",
-   "lastHeartbeat": "2026-11-25T12:27:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2493,6 +2409,62 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "gt134-qa",
+   "name": "gt134-qa",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT134 ClinicFlow QA audit",
+   "detail": "Audit complete: 1 Critical (webhook signature never verified, forged POST accepted live), 6 Major, 10 Minor; qa.md written",
+   "currentTask": "Audit complete, report delivered",
+   "lastHeartbeat": "2026-11-25T12:46:00.000Z",
+   "observedAt": "2026-11-25T12:46:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
+   "agentId": "gt134-design",
+   "name": "GT134 Design Auditor",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-134 ClinicFlow design audit",
+   "detail": "Completed: design.md written with 3 Critical, 7 Major, 6 Minor ranked fixes plus Top 5 list",
+   "currentTask": "Audit complete, report delivered",
+   "lastHeartbeat": "2026-11-25T12:31:00.000Z",
+   "observedAt": "2026-11-25T12:31:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 422",
+   "detail": "CA-R3 pair collected and verified: specialist 23,425 bytes 115s, generic 21,971 bytes 163s, key clean, no verdict yet.",
+   "currentTask": "Cycle 422 complete",
+   "lastHeartbeat": "2026-11-25T12:30:00.000Z",
+   "observedAt": "2026-11-25T12:30:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt134-copy",
+   "name": "gt134-copy",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-134 ClinicFlow copy and UX audit",
+   "detail": "Audit complete: 3 Critical, 6 Major, 5 Minor; findings and full copy deck written to GT-20261125-134-reports/copy.md",
+   "currentTask": "Audit complete, report delivered",
+   "lastHeartbeat": "2026-11-25T12:28:18.000Z",
+   "observedAt": "2026-11-25T12:28:18.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3837,62 +3809,6 @@
    "observedAt": "2026-11-24T18:39:21.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-improvement-cycle-ur-t2-generic",
-   "name": "UR-T2 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-T2 generic solver: CSE comment synthesis",
-   "detail": "Completed: 6-section synthesis written, 5527 bytes, 920 words. Inputs verified, no count or hash mismatch.",
-   "currentTask": "UR-T2 synthesis complete",
-   "lastHeartbeat": "2026-11-24T18:39:19.000Z",
-   "observedAt": "2026-11-24T18:39:19.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-lead-gt119-batch-radar",
-   "name": "GT119 Job Lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 GhostLabs Release 3 candidate: batch queue plus radar",
-   "detail": "GT-20261125-119 DELIVERED: Release 3 candidate ready for the owner's deploy decision. All Majors closed; QA119-3 Minor open by lead decision. Posted by the job lead.",
-   "currentTask": "Job delivered: gate package filed, deploy is a separate owner decision",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder (GT119)",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 Site Builder: batch, radar, fix loops",
-   "detail": "Batch plumbing, UI, radar, and three scoped fix loops (S7, S7c, S7f) all landed and QA-verified. Posted by the job lead.",
-   "currentTask": "S7f F3 fix verified closed by QA; build complete",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "QA Tester (GT119)",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 QA Tester: verification and closures",
-   "detail": "Batteries 129/129 and 29/29; all fix loops re-verified; F3 CLOSED, no new defects. Posted by the job lead.",
-   "currentTask": "F3 closure verified: 24 pass, 0 fail, hash gate PASS",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
