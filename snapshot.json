@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:59:00.000Z",
- "summary": "Cycle 386 complete: SMM retest 2 sealed for judging cycle 387. Scoreboard still 13 validated, 2 flagged, 64 unvalidated of 79.",
+ "generatedAt": "2026-11-25T05:05:34.000Z",
+ "summary": "Cycle 387: judging Social Media Manager retest 2",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 387",
+   "detail": "Cycle 387 judging SMM retest 2: three blind QA judges scoring SMM-S1 to SMM-S3",
+   "currentTask": "Cycle 387: judging Social Media Manager retest 2, three blind QA judges",
+   "lastHeartbeat": "2026-11-25T05:05:34.000Z",
+   "observedAt": "2026-11-25T05:05:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,20 +2411,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 386",
-   "detail": "Cycle 386 sealed SMM retest 2: 3 WT-R1 lines dropped, 856 neutral lines, 0 identity hits, SEAL_OK. Judging cycle 387.",
-   "currentTask": "Cycle 386 complete: SMM retest 2 sealed",
-   "lastHeartbeat": "2026-11-25T04:59:00.000Z",
-   "observedAt": "2026-11-25T04:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3795,6 +3795,20 @@
    "observedAt": "2026-11-24T11:12:00.000Z",
    "needsUser": false,
    "category": "apps"
+  },
+  {
+   "agentId": "3e39c899-7004-42e5-b840-13eda78e84e8",
+   "name": "Mission Control APK builder",
+   "role": "builder",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "Mission Control Android APK v1 built",
+   "detail": "Mission Control Android APK v1 built, signed, verified and delivered to the owner via Lobot.",
+   "currentTask": "Mission Control Android APK v1",
+   "lastHeartbeat": "2026-11-24T11:10:24.000Z",
+   "observedAt": "2026-11-24T11:10:24.000Z",
+   "needsUser": false,
+   "category": "Apps"
   }
  ]
 }
