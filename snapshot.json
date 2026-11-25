@@ -1,6 +1,6 @@
 {
  "generatedAt": "2026-11-25T13:12:00.000Z",
- "summary": "GT-135 builder completed the ClinicFlow landing/login split.",
+ "summary": "GT-136 design audit complete: 1 Critical, 6 Major, 10 Minor; report filed",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt136-qa",
+   "name": "gt136-qa-security-auditor",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-136 QA/Security Audit (ClinicFlow)",
+   "detail": "GT-136 QA/security audit started: GT-135 login/adoption surface, bookings auth, dashboard gate, live probes",
+   "currentTask": "GT-136 QA/security audit: reading code, probing live site",
+   "lastHeartbeat": "2026-11-25T13:05:00.000Z",
+   "observedAt": "2026-11-25T13:05:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
+   "agentId": "gt136-perf",
+   "name": "gt136-perf",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-136 Perf/SEO/Technical audit",
+   "detail": "Read-only audit started: page weight, CWV risks, SEO, OG cards, security headers, vercel.json.",
+   "currentTask": "Measuring live pages with curl, inspecting markup and config",
+   "lastHeartbeat": "2026-11-25T13:04:53.000Z",
+   "observedAt": "2026-11-25T13:04:53.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2439,6 +2467,34 @@
    "category": "automation-sprints"
   },
   {
+   "agentId": "gt136-copy",
+   "name": "gt136-copy",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-136 Copy/Conversion Audit",
+   "detail": "GT-136 copy/conversion audit complete: Critical 3, Major 7, Minor 6. Report: GT-20261125-136-reports/copy.md",
+   "currentTask": "Audit complete, report filed",
+   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
+   "observedAt": "2026-11-25T13:12:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "gt136-design",
+   "name": "gt136-design",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-136 Design audit: ClinicFlow landing + dashboard",
+   "detail": "Complete: 1 Critical, 6 Major, 10 Minor. Top issue: dashboard opens as a blank page up to 8s (no loading shell). Report: GT-20261125-136-reports/design.md",
+   "currentTask": "Audit complete, report filed",
+   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
+   "observedAt": "2026-11-25T13:12:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3795,34 +3851,6 @@
    "observedAt": "2026-11-24T19:53:23.000Z",
    "needsUser": false,
    "category": "Ghostname Team validation"
-  },
-  {
-   "agentId": "team-generic-solver-ur-t3",
-   "name": "Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver UR-T3",
-   "detail": "Generic solver UR-T3 done: 8927 bytes, 1533 words, 0 avail-intent of 14 messages classified.",
-   "currentTask": "UR-T3 generic triage",
-   "lastHeartbeat": "2026-11-24T18:49:50.000Z",
-   "observedAt": "2026-11-24T18:49:50.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-user-researcher",
-   "name": "User Researcher",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "User Researcher UR-T3 specialist",
-   "detail": "UR-T3 specialist triage done: 8,382 bytes, 1,359 words; 0 avail-intent of 14 messages; watch stays paused.",
-   "currentTask": "UR-T3 specialist triage",
-   "lastHeartbeat": "2026-11-24T18:49:28.000Z",
-   "observedAt": "2026-11-24T18:49:28.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
