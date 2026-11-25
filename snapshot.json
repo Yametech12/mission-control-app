@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:54:40.000Z",
- "summary": "SASE inbox watch 12:53 PHT: no new buyer messages.",
+ "generatedAt": "2026-11-25T04:59:00.000Z",
+ "summary": "Cycle 386 complete: SMM retest 2 sealed for judging cycle 387. Scoreboard still 13 validated, 2 flagged, 64 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 386",
+   "detail": "Cycle 386 sealed SMM retest 2: 3 WT-R1 lines dropped, 856 neutral lines, 0 identity hits, SEAL_OK. Judging cycle 387.",
+   "currentTask": "Cycle 386 complete: SMM retest 2 sealed",
+   "lastHeartbeat": "2026-11-25T04:59:00.000Z",
+   "observedAt": "2026-11-25T04:59:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-11-25T04:54:40.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 385",
-   "detail": "Routing check 49 done: 3 of 5 (RC-T1, RC-T4, RC-T5 matched). No rule fixes; rule 20 flag recurs 3rd check in a row. SMM sealing 386, judging 387.",
-   "currentTask": "Cycle 385 complete: routing check 49 scored 3 of 5",
-   "lastHeartbeat": "2026-11-25T04:51:36.000Z",
-   "observedAt": "2026-11-25T04:51:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel",
