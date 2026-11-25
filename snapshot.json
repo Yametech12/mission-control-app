@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T06:42:00.000Z",
- "summary": "PRA-R1 specialist solve started: Jo Koy campaign economics verification sheet.",
+ "generatedAt": "2026-11-25T06:44:30.000Z",
+ "summary": "Cycle 394 complete: PRA retest opened, PRA-R1 pair collected and verified",
  "agents": [
   {
    "agentId": null,
@@ -813,48 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "Pricing and Revenue Analyst",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PRA-R1 specialist solve",
-   "detail": "PRA-R1 specialist solve started: Jo Koy campaign economics verification sheet.",
-   "currentTask": "PRA-R1 specialist solve: Jo Koy campaign economics verification sheet",
-   "lastHeartbeat": "2026-11-25T06:42:00.000Z",
-   "observedAt": "2026-11-25T06:42:00.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "team-pra-generic",
-   "name": "PRA Generic Solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PRA-R1 generic solve",
-   "detail": "Generic solver started PRA-R1: Jo Koy campaign economics verification sheet, draft only.",
-   "currentTask": "PRA-R1 generic solve: Jo Koy pricing verification sheet",
-   "lastHeartbeat": "2026-11-25T06:40:49.000Z",
-   "observedAt": "2026-11-25T06:40:49.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 394: PRA retest opens",
-   "detail": "Cycle 394 started: Pricing and Revenue Analyst retest opens, tasks PRA-R1 to PRA-R3 filed, PRA-R1 solver pair running.",
-   "currentTask": "Filing PRA retest tasks and running PRA-R1 solver pair",
-   "lastHeartbeat": "2026-11-25T06:37:42.000Z",
-   "observedAt": "2026-11-25T06:37:42.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2425,6 +2383,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 394: PRA retest opened",
+   "detail": "Cycle 394 done: PRA retest tasks filed, PRA-R1 pair collected (specialist 18,250 bytes, generic 20,908 bytes), both solvers raised the same two discrepancies. PRA-R2 cycle 396.",
+   "currentTask": "Cycle 394 complete, PRA-R1 pair collected",
+   "lastHeartbeat": "2026-11-25T06:44:30.000Z",
+   "observedAt": "2026-11-25T06:44:30.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "team-pricing-revenue-analyst",
+   "name": "Pricing and Revenue Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-R1 specialist solve",
+   "detail": "PRA-R1 specialist solve done: Jo Koy sheet filed, all floors PASS, earnings USD 0.00 at recorded approval.",
+   "currentTask": "PRA-R1 specialist solve: Jo Koy campaign economics verification sheet",
+   "lastHeartbeat": "2026-11-25T06:43:33.000Z",
+   "observedAt": "2026-11-25T06:43:33.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "team-pra-generic",
+   "name": "PRA Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-R1 generic solve",
+   "detail": "PRA-R1 generic solve done: Jo Koy pricing verification sheet written, 20,908 bytes, all floors re-multiplied.",
+   "currentTask": "PRA-R1 generic solve: Jo Koy pricing verification sheet",
+   "lastHeartbeat": "2026-11-25T06:43:26.000Z",
+   "observedAt": "2026-11-25T06:43:26.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE Page Comment Watcher",
    "role": "monitor",
@@ -3781,48 +3781,6 @@
    "observedAt": "2026-11-24T15:54:40.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "cp-t1-generic",
-   "name": "CP-T1 Generic",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CP-T1 generic solve",
-   "detail": "CP-T1 generic draft filed: 14,376 bytes, 2,355 words, all 6 sections in order, 0 em dashes.",
-   "currentTask": "CP-T1 generic solve complete, draft filed",
-   "lastHeartbeat": "2026-11-24T15:54:11.000Z",
-   "observedAt": "2026-11-24T15:54:11.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-lead-gt114",
-   "name": "GT114 Job Lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-20261124-114 SASE/CSE portal fix phase",
-   "detail": "DELIVERED: commit bf99124 live-verified. L2, L4, L5, L6, L8, L9, L10 live PASS; L3a, L7, L12 code and test verified; scoped progress write landed; 237 tests pass; D3 resolved (data authoritative). Follow-ups specified in the job record.",
-   "currentTask": "Fix phase delivered and closed",
-   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
-   "observedAt": "2026-11-24T15:34:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-live-verifier",
-   "name": "Live Verifier",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Live Verifier: production checks",
-   "detail": "Live PASS on all fetch-verifiable fixes including both auth error wordings via live POSTs; L3a and L7 unverified live (browser pass outstanding) (posted by job lead).",
-   "currentTask": "Live verification complete (posted by job lead)",
-   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
-   "observedAt": "2026-11-24T15:34:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
   }
  ]
 }
