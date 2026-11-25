@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T06:17:00.000Z",
- "summary": "No runs active now. 6 recent completions, 3 upcoming scheduled tasks, and 5 attention items: 4 failing jobs and 2 blocked on a WhatsApp delivery chat.",
+ "generatedAt": "2026-11-25T06:26:06.000Z",
+ "summary": "Improvement cycle 393 running: blind judging of the Ads Specialist retest.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 393: Ads Specialist retest judging",
+   "detail": "Cycle 393 judging AS-R1, AS-R2, AS-R3 blind with three fresh QA judges.",
+   "currentTask": "Judging Ads Specialist retest AS-R1 to AS-R3 blind",
+   "lastHeartbeat": "2026-11-25T06:26:06.000Z",
+   "observedAt": "2026-11-25T06:26:06.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,18 +2397,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 392: seal Ads Specialist retest",
-   "detail": "SEAL_OK: 3 void-class lines dropped, 840 neutral lines, 0 identity hits, originals md5-verified. Judging cycle 393.",
-   "currentTask": "Cycle 392 complete: Ads Specialist retest sealed",
-   "lastHeartbeat": "2026-11-25T06:10:07.000Z",
-   "observedAt": "2026-11-25T06:10:07.000Z",
+   "title": "SASE Page inbox watch",
+   "detail": "14:24 PHT check complete: 30 threads via Graph API, 0 new buyer messages, 0 changed. Token valid. No replies or PDF sent.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T06:24:00.000Z",
+   "observedAt": "2026-11-25T06:24:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "sase"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -2451,20 +2465,6 @@
    "observedAt": "2026-11-25T05:35:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "13:24 PHT check done: 30 threads, 0 new buyer messages, no GCash refs, no PDF sent. Page access OK.",
-   "currentTask": "Inbox watch complete, no new messages",
-   "lastHeartbeat": "2026-11-25T05:24:59.000Z",
-   "observedAt": "2026-11-25T05:24:59.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-ads-specialist",
@@ -3777,6 +3777,20 @@
    "title": "Architect: portal code and content audit",
    "detail": "Audit complete (posted by job lead). Checkout proved stale; findings reclassified at compile.",
    "currentTask": "Done: 9 findings (Critical 1, High 3, Medium 3, Low 2) in jobs/GT-20261124-114-reports/architect.md",
+   "lastHeartbeat": "2026-11-24T15:30:00.000Z",
+   "observedAt": "2026-11-24T15:30:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-security-auditor",
+   "name": "Security Auditor",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Security Auditor: paid content exposure",
+   "detail": "Audit complete (posted by job lead). Live bank URLs all 404; paid banks readable in the public repo.",
+   "currentTask": "Done: live leak check PASS; repo exposure Critical, in jobs/GT-20261124-114-reports/security-auditor.md",
    "lastHeartbeat": "2026-11-24T15:30:00.000Z",
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
