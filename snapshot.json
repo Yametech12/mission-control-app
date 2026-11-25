@@ -1,35 +1,7 @@
 {
- "generatedAt": "2026-11-25T16:03:34.000Z",
- "summary": "Cycle 437 complete: APM retest 2 APM-S3 pair collected and verified, all three pairs ready for sealing",
+ "generatedAt": "2026-11-25T16:19:43.000Z",
+ "summary": "Cycle 438 sealing the Affiliate Program Manager retest 2 pairs.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 89 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T06:35:10.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog (auto re-login)",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog (auto re-login)",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 91 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T05:46:27.000Z",
-   "needsUser": true,
-   "category": "Telegram watchdog"
-  },
   {
    "agentId": null,
    "name": "Memory daily backup to Google Drive",
@@ -37,12 +9,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "21 consecutive failures with no recorded reason; last run failed Nov 24, last success Nov 4. Next attempt 23:30 PST.",
+   "detail": "Failed Nov 25 23:30 PHT, 22 consecutive failures, spawn error binding_retired; last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T07:26:48.000Z",
+   "observedAt": "2026-11-25T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results; 89 consecutive failures, last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T14:35:10.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results; 91 consecutive failures, last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T13:46:27.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -102,20 +102,6 @@
   },
   {
    "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures with no recorded reason; last run failed Nov 23, last success Nov 2. Next run Nov 26, 19:05 PST.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T03:05:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
    "name": "Watcher specialist flagged",
    "role": null,
    "agentStatus": null,
@@ -141,20 +127,6 @@
    "observedAt": "2026-11-24T00:16:40.000Z",
    "needsUser": true,
    "category": "Video production"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures with no recorded reason; last run failed Nov 23, last success Nov 4. Next run Mon Nov 30, 09:00 PST.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T16:56:31.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "kogama-gt98-coordinator",
@@ -827,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 438: seal APM retest 2",
+   "detail": "Cycle 438 sealing APM retest 2: neutralizing and sealing APM-S1 to APM-S3 pairs, judging lands cycle 439.",
+   "currentTask": "Cycle 438: sealing APM retest 2 pairs (APM-S1 to APM-S3)",
+   "lastHeartbeat": "2026-11-25T16:19:43.000Z",
+   "observedAt": "2026-11-25T16:19:43.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2439,20 +2425,6 @@
    "category": "ghostnameteam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 437: APM retest 2 APM-S3",
-   "detail": "Cycle 437 done: APM-S3 pair collected and verified (specialist 8,241 bytes, 115s; generic 8,911 bytes, 126s; key clean). Sealing 438, judging 439.",
-   "currentTask": "Cycle 437 complete: APM-S3 collected",
-   "lastHeartbeat": "2026-11-25T16:03:34.000Z",
-   "observedAt": "2026-11-25T16:03:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3806,6 +3778,20 @@
    "detail": "Delivered 07:23 PHT. Gap brief, panel sim (50 Qs), audit (39 defects), decision brief sent to Telegram as message 1049.",
    "currentTask": "Delivered. Decision brief on Telegram; one decision owed (Janette question).",
    "lastHeartbeat": "2026-11-24T23:24:00.000Z",
+   "observedAt": "2026-11-24T23:24:00.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
+   "agentId": "team-gap-researcher",
+   "name": "Thesis Researcher",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Gap evidence brief refresh",
+   "detail": "Done. Combined gap still holds (MODERATE overall). Doddamani now peer-reviewed; Balingbing RGB-only preprint narrows angle (a). Posted by job lead.",
+   "currentTask": "Completed: gap-evidence-brief-refresh.md",
+   "lastHeartbeat": "2026-11-24T23:07:42.000Z",
    "observedAt": "2026-11-24T23:24:00.000Z",
    "needsUser": false,
    "category": "thesis"
