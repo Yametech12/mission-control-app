@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T21:36:00.000Z",
- "summary": "Cycle 459: Compliance Officer retest opens; CO-R1 solver pair running",
+ "generatedAt": "2026-11-25T21:44:00.000Z",
+ "summary": "Cycle 459 complete: Compliance Officer retest opened, CO-R1 pair collected, key clean",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 459: Compliance Officer retest",
-   "detail": "Cycle 459: Compliance Officer retest opens; CO-R1 to CO-R3 tasks filed, CO-R1 solver pair running",
-   "currentTask": "Cycle 459: Compliance Officer retest opens, CO-R1 pair running",
-   "lastHeartbeat": "2026-11-25T21:36:00.000Z",
-   "observedAt": "2026-11-25T21:36:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2411,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 459: Compliance Officer retest",
+   "detail": "Cycle 459 complete: Compliance Officer retest opened, CO-R1 pair collected (spec 13,496B/157s, gen 9,961B/69s), key clean, no verdict yet",
+   "currentTask": "Cycle 459 complete: CO-R1 pair collected, key checked clean",
+   "lastHeartbeat": "2026-11-25T21:44:00.000Z",
+   "observedAt": "2026-11-25T21:44:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "co-r1-generic",
+   "name": "CO-R1 Generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CO-R1 generic solve",
+   "detail": "CO-R1 generic: 9,961 bytes, 1,563 words, 69s, verdict PROCEED clip work only",
+   "currentTask": "CO-R1 generic solve complete",
+   "lastHeartbeat": "2026-11-25T21:44:00.000Z",
+   "observedAt": "2026-11-25T21:44:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "co-r1-specialist",
+   "name": "CO-R1 Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CO-R1 specialist solve",
+   "detail": "CO-R1 specialist: 13,496 bytes, 1,848 words, 157s, verdict PROCEED clip work only",
+   "currentTask": "CO-R1 specialist solve complete",
+   "lastHeartbeat": "2026-11-25T21:44:00.000Z",
+   "observedAt": "2026-11-25T21:44:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3781,48 +3809,6 @@
    "observedAt": "2026-11-25T03:02:40.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-po-s2-generic",
-   "name": "po-s2-generic",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-S2 generic draft",
-   "detail": "PO-S2 draft done: 923 words, 7 sections, 0 em dashes, run 17 report filed.",
-   "currentTask": "PO-S2 generic draft complete",
-   "lastHeartbeat": "2026-11-25T03:01:16.000Z",
-   "observedAt": "2026-11-25T03:01:16.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "drone-diagram-improve",
-   "name": "drone-diagram-improve",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Drone thesis diagram improvement (GT-20261125-125)",
-   "detail": "GT-20261125-125 complete: 6 own diagrams improved, QA 6 PASS, previews on Lobot (messages 1061 to 1066), no manuscript edits",
-   "currentTask": "Complete: 6 improved diagram previews sent to Lobot, awaiting owner verdict",
-   "lastHeartbeat": "2026-11-25T02:58:58.000Z",
-   "observedAt": "2026-11-25T02:58:58.000Z",
-   "needsUser": true,
-   "category": "thesis"
-  },
-  {
-   "agentId": "team-po-s1-specialist",
-   "name": "PO-S1 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-S1 specialist solve",
-   "detail": "PO-S1 specialist solve complete: 5,661-byte draft report filed, 7 sections in order, 0 em dashes, MD5 d4c5e6df7d2d21d6301e76a285a22cd0.",
-   "currentTask": "PO-S1 specialist solve complete: report filed at runs/po-s1-specialist.md",
-   "lastHeartbeat": "2026-11-25T02:55:16.000Z",
-   "observedAt": "2026-11-25T02:55:16.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
