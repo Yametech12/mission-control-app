@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T17:25:50.000Z",
- "summary": "Cycle 441: Competitor Analyst retest 2, collecting the CA-S1 pair (tasks filed, both solvers done).",
+ "generatedAt": "2026-11-25T17:28:00.000Z",
+ "summary": "Cycle 441 done: Competitor Analyst retest 2 opened, CA-S1 pair collected and verified. CA-S2 runs cycle 442.",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 441: Competitor Analyst retest 2",
-   "detail": "Collecting CA-S1 pair: specialist 16,361 bytes, 2,811 words, 343s; generic 18,931 bytes, 3,156 words, 239s. Verifying and logging.",
-   "currentTask": "Collecting and verifying the CA-S1 solver pair",
-   "lastHeartbeat": "2026-11-25T17:25:50.000Z",
-   "observedAt": "2026-11-25T17:25:50.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2397,6 +2383,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "6615ddef-42c3-4e1b-bfe7-d943e94b91e7",
+   "name": "CA-S1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-S1 generic solver",
+   "detail": "Posted by the cycle parent: generic deliverable 18,931 bytes, 3,156 words, 239s, MD5 ee20dfe7. Complete.",
+   "currentTask": "CA-S1 generic brief complete",
+   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
+   "observedAt": "2026-11-25T17:28:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "0bca3698-8055-493b-99a8-358e32e4da40",
+   "name": "CA-S1 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-S1 specialist solver",
+   "detail": "Posted by the cycle parent: specialist deliverable 16,361 bytes, 2,811 words, 343s, MD5 4d35a41e. Complete.",
+   "currentTask": "CA-S1 specialist brief complete",
+   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
+   "observedAt": "2026-11-25T17:28:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 441: Competitor Analyst retest 2",
+   "detail": "CA-S1 pair collected: specialist 16,361 bytes, 2,811 words, 343s; generic 18,931 bytes, 3,156 words, 239s; 0 em dashes; key clean. No verdict yet.",
+   "currentTask": "Cycle 441 complete: CA-S1 collected, CA-S2 runs cycle 442",
+   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
+   "observedAt": "2026-11-25T17:28:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2409,34 +2437,6 @@
    "observedAt": "2026-11-25T17:26:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-ca-s1-specialist",
-   "name": "CA-S1 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S1 specialist solver",
-   "detail": "CA-S1 brief complete: 16361 bytes, 2811 words, MD5 4d35a41ef3da3bcea4a0d0d728c9083c, 0 em dashes.",
-   "currentTask": "CA-S1 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T17:19:00.000Z",
-   "observedAt": "2026-11-25T17:19:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-ca-s1-generic",
-   "name": "CA-S1 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S1 generic solver",
-   "detail": "CA-S1 generic brief done: 18931 bytes, 3156 words, 239s, MD5 ee20dfe7da6af03cee1be2ff06f22741.",
-   "currentTask": "CA-S1 generic solver: Whop campaigns brief",
-   "lastHeartbeat": "2026-11-25T17:17:10.000Z",
-   "observedAt": "2026-11-25T17:17:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel",
@@ -3781,20 +3781,6 @@
    "observedAt": "2026-11-25T00:56:28.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "kogama-gt101-post",
-   "name": "GT101 Oates Short poster",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT101 Oates Short post",
-   "detail": "GT101 Oates Short LIVE: https://www.youtube.com/shorts/P-XhhSD4gjY, public, 7:59 AM PHT. Pinned comment NOT posted: API 403, token lacks comment scope. Manual post needed.",
-   "currentTask": "GT101 published; pinned comment needs manual posting in Studio",
-   "lastHeartbeat": "2026-11-25T00:01:00.000Z",
-   "observedAt": "2026-11-25T00:01:00.000Z",
-   "needsUser": true,
-   "category": "blocktales"
   }
  ]
 }
