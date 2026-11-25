@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T15:08:36.000Z",
- "summary": "Cycle 433: Funnel and Conversion Specialist retest 2 judged and FLAGGED (7.92 vs 7.33). Scoreboard 14 validated, 5 flagged, 60 unvalidated of 79.",
+ "generatedAt": "2026-11-25T15:16:21.000Z",
+ "summary": "Cycle 434: Affiliate Program Manager retest 2 opening",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 434",
+   "detail": "Cycle 434: opening Affiliate Program Manager retest 2, filing APM-S1 to APM-S3 and running the APM-S1 solver pair.",
+   "currentTask": "Filing APM-S1 to APM-S3 tasks and keys for retest 2",
+   "lastHeartbeat": "2026-11-25T15:16:21.000Z",
+   "observedAt": "2026-11-25T15:16:21.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2383,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 433: FC retest 2 judged, FLAGGED",
-   "detail": "Cycle 433: FC retest 2 judged and FLAGGED, 7.92 vs 7.33, 2W 1L, net +0.58, not a clear win. Scoreboard 14 validated, 5 flagged, 60 unvalidated.",
-   "currentTask": "Cycle 433 complete: FC retest 2 judged and FLAGGED",
-   "lastHeartbeat": "2026-11-25T15:08:36.000Z",
-   "observedAt": "2026-11-25T15:08:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "gt137-clinicflow-design",
    "name": "gt137-clinicflow-design",
    "role": "builder",
@@ -3781,6 +3781,20 @@
    "observedAt": "2026-11-24T22:55:15.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver SO-R1",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SO-R1 generic solver",
+   "detail": "SO-R1 generic: 12,278 bytes, 1,920 words, 120s, MD5 a43c971d. Snapshot carried by parent.",
+   "currentTask": "SO-R1 generic complete",
+   "lastHeartbeat": "2026-11-24T22:48:00.000Z",
+   "observedAt": "2026-11-24T22:48:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
