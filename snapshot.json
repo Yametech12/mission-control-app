@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:09:30.000Z",
- "summary": "Cycle 396 complete: PRA-R2 pair collected and verified. PRA-R3 runs cycle 397.",
+ "generatedAt": "2026-11-25T07:16:05.000Z",
+ "summary": "Cycle 397 running: PRA-R3 solver pair for the Pricing and Revenue Analyst retest.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 397: PRA-R3 pair",
+   "detail": "Cycle 397 started: Pricing and Revenue Analyst retest, PRA-R3 solver pair running (specialist from rewritten card, generic from task only).",
+   "currentTask": "Cycle 397: collect PRA-R3 solver pair (Lacy pool economics)",
+   "lastHeartbeat": "2026-11-25T07:16:05.000Z",
+   "observedAt": "2026-11-25T07:16:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 396: PRA-R2 pair collected",
-   "detail": "Cycle 396 done. PRA-R2 pair verified: specialist 18,216 bytes, 124s; generic 11,047 bytes, 79s. PRA-R3 cycle 397.",
-   "currentTask": "Cycle 396 complete: PRA-R2 pair collected",
-   "lastHeartbeat": "2026-11-25T07:09:30.000Z",
-   "observedAt": "2026-11-25T07:09:30.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3781,6 +3781,20 @@
    "observedAt": "2026-11-24T15:54:11.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-lead-gt114",
+   "name": "GT114 Job Lead",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261124-114 SASE/CSE portal fix phase",
+   "detail": "DELIVERED: commit bf99124 live-verified. L2, L4, L5, L6, L8, L9, L10 live PASS; L3a, L7, L12 code and test verified; scoped progress write landed; 237 tests pass; D3 resolved (data authoritative). Follow-ups specified in the job record.",
+   "currentTask": "Fix phase delivered and closed",
+   "lastHeartbeat": "2026-11-24T15:34:00.000Z",
+   "observedAt": "2026-11-24T15:34:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
   }
  ]
 }
