@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T12:16:40.000Z",
- "summary": "CA-R2 generic solver working.",
+ "generatedAt": "2026-11-25T12:19:30.000Z",
+ "summary": "Cycle 421 done: CA-R2 pair collected, key clean, no verdict yet.",
  "agents": [
   {
    "agentId": null,
@@ -9,12 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: WhatsApp delivery chat cannot receive results (account action required); 88 consecutive failures, last success Nov 3.",
+   "detail": "Blocked: 88 consecutive failures, last success Nov 3. The chat it posts to can no longer receive results; next probe 22:35 PHT today.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T11:16:08.000Z",
+   "observedAt": "2026-11-25T12:16:19.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "posting"
   },
   {
    "agentId": null,
@@ -23,40 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: WhatsApp delivery chat cannot receive results; 90 consecutive failures, last success Oct 6.",
+   "detail": "Blocked: 90 consecutive failures, last success Oct 6. Same delivery block as Whop posts: its chat can no longer receive results; next probe 21:46 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T11:16:08.000Z",
+   "observedAt": "2026-11-25T12:16:19.000Z",
    "needsUser": true,
-   "category": "Telegram"
+   "category": "watch"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Drive",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Drive",
-   "detail": "21 consecutive failures; last success Nov 4; latest run Nov 24 failed at spawn (binding retired). No backup since Nov 4.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 21 consecutive failures, last success Nov 4. Latest run failed at spawn with a binding error. Next run 23:30 PHT today.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T11:16:08.000Z",
+   "observedAt": "2026-11-25T12:16:19.000Z",
    "needsUser": false,
-   "category": "Memory backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures; last success Nov 2; latest run Nov 23 failed at spawn (binding retired).",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T11:16:08.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
+   "category": "backup"
   },
   {
    "agentId": null,
@@ -65,12 +51,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last success Nov 4; latest run Nov 23 failed. Next check Mon Nov 30, 09:00 PHT.",
+   "detail": "Attention: 3 consecutive failures, last success Nov 4. Latest run failed at spawn with a binding error. Next run Mon Nov 30 at 09:00 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T11:16:08.000Z",
+   "observedAt": "2026-11-25T12:16:19.000Z",
    "needsUser": false,
-   "category": "Zulti"
+   "category": "promo"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 7 consecutive failures, last success Nov 2. Latest run failed at spawn with a binding error. Next run Thu Nov 26 at 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T12:16:19.000Z",
+   "needsUser": false,
+   "category": "site"
   },
   {
    "agentId": null,
@@ -829,32 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-validation-generic",
-   "name": "Generic Solver",
-   "role": "researcher",
+   "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
+   "name": "ClinicFlow browser task",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "CA-R2 generic solver",
-   "detail": "CA-R2 generic solver started; reading task inputs and drafting the brief.",
-   "currentTask": "CA-R2 generic solver: drafting competitive brief",
-   "lastHeartbeat": "2026-11-25T12:16:40.000Z",
-   "observedAt": "2026-11-25T12:16:40.000Z",
+   "title": "ClinicFlow Connect Upstash Redis setup",
+   "detail": "Browser task running: provisioning a free Upstash Redis database and adding its REST credentials to the Vercel clinicflow-connect project.",
+   "currentTask": "Provision free Upstash Redis and add REST credentials to Vercel clinicflow-connect",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T12:16:19.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 421: CA-R2 solvers",
-   "detail": "Competitor Analyst retest CA-R2 pair running (specialist + generic).",
-   "currentTask": "Running CA-R2 solver pair for Competitor Analyst retest",
-   "lastHeartbeat": "2026-11-25T12:16:30.000Z",
-   "observedAt": "2026-11-25T12:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "clinicflow"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2425,6 +2411,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 421: CA-R2 collected",
+   "detail": "CA-R2 pair collected (spec 17,677B/85s, gen 17,143B/73s), key clean. CA-R3 next cycle 422.",
+   "currentTask": "Cycle 421 complete, CA-R2 pair collected and verified",
+   "lastHeartbeat": "2026-11-25T12:19:30.000Z",
+   "observedAt": "2026-11-25T12:19:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-competitor-analyst",
+   "name": "Competitor Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-R2 specialist solver",
+   "detail": "CA-R2 brief filed: 17,677 bytes, 2,871 words, 85s, 2 figures flagged in the open.",
+   "currentTask": "CA-R2 brief filed, run complete",
+   "lastHeartbeat": "2026-11-25T12:17:56.000Z",
+   "observedAt": "2026-11-25T12:17:56.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-validation-generic",
+   "name": "Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-R2 generic solver",
+   "detail": "CA-R2 generic brief written: 17,143 bytes, 2,778 words, 73s wall, 0 em/en dashes, 7 sections in order.",
+   "currentTask": "CA-R2 generic solver: brief complete",
+   "lastHeartbeat": "2026-11-25T12:17:45.000Z",
+   "observedAt": "2026-11-25T12:17:45.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2437,20 +2465,6 @@
    "observedAt": "2026-11-25T11:54:35.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-competitor-analyst",
-   "name": "Competitor Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Competitor Analyst CA-R1",
-   "detail": "CA-R1 brief filed: 14,224 bytes, 2,353 words, 0 em dashes, rounding and count-conflict flags in the open.",
-   "currentTask": "CA-R1 SASE competitive brief filed",
-   "lastHeartbeat": "2026-11-25T11:50:30.000Z",
-   "observedAt": "2026-11-25T11:50:30.000Z",
-   "needsUser": false,
-   "category": "team-improvement"
   },
   {
    "agentId": "team-pricing-revenue-analyst",
@@ -3795,34 +3809,6 @@
    "observedAt": "2026-11-24T18:39:19.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-lead-gt119-batch-radar",
-   "name": "GT119 Job Lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 GhostLabs Release 3 candidate: batch queue plus radar",
-   "detail": "GT-20261125-119 DELIVERED: Release 3 candidate ready for the owner's deploy decision. All Majors closed; QA119-3 Minor open by lead decision. Posted by the job lead.",
-   "currentTask": "Job delivered: gate package filed, deploy is a separate owner decision",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder (GT119)",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 Site Builder: batch, radar, fix loops",
-   "detail": "Batch plumbing, UI, radar, and three scoped fix loops (S7, S7c, S7f) all landed and QA-verified. Posted by the job lead.",
-   "currentTask": "S7f F3 fix verified closed by QA; build complete",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
