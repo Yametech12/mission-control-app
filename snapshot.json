@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T11:24:28.000Z",
- "summary": "SASE inbox watch 19:23 PHT: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T11:28:30.000Z",
+ "summary": "Cycle 417: PRA retest 2 sealed; judging cycle 418.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 417",
+   "detail": "Cycle 417 complete: PRA retest 2 sealed SEAL_OK first run (13 changed lines, 999 neutral lines, 0 identity hits); judging cycle 418.",
+   "currentTask": "Cycle 417 complete: PRA retest 2 sealed",
+   "lastHeartbeat": "2026-11-25T11:28:30.000Z",
+   "observedAt": "2026-11-25T11:28:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-11-25T11:24:28.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 416: PRA-S3 solvers",
-   "detail": "Cycle 416 complete: PRA-S3 pair collected (spec 47,721B, gen 46,101B); key clean; all pairs ready, sealing 417.",
-   "currentTask": "Cycle 416 complete: PRA-S3 pair collected, sealing 417, judging 418",
-   "lastHeartbeat": "2026-11-25T11:22:37.000Z",
-   "observedAt": "2026-11-25T11:22:37.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-pricing-revenue-analyst",
