@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T03:24:15.000Z",
- "summary": "SASE inbox watch: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T03:53:00.000Z",
+ "summary": "GT127 complete: six round 2 diagrams in Solid Clean, QA PASS 6 of 6, previews on Lobot (msgs 1073 to 1078). Swap waits for the owner verdict.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "drone-diagram-redesign-2",
-   "name": "drone-diagram-redesign-2",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT127 Diagram redesign round 2: minimal text, solid colors",
-   "detail": "Started: rebuilding Figures 1, 10, 11, 12, 13, 14 with short labels only and one solid palette.",
-   "currentTask": "Designing the solid color system and short label set",
-   "lastHeartbeat": "2026-11-25T03:26:00.000Z",
-   "observedAt": "2026-11-25T03:26:00.000Z",
-   "needsUser": false,
-   "category": "thesis"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2383,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "drone-diagram-redesign-2",
+   "name": "drone-diagram-redesign-2",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT127 Diagram redesign round 2: minimal text, solid colors",
+   "detail": "Complete: six 300 dpi previews sent to Lobot (1073-1078). QA PASS 6 of 6 after the Figure 1 D1/D2 fix and re-audit. Manuscript untouched.",
+   "currentTask": "Complete: previews delivered, verdict pending with owner",
+   "lastHeartbeat": "2026-11-25T03:53:00.000Z",
+   "observedAt": "2026-11-25T03:53:00.000Z",
+   "needsUser": true,
+   "category": "thesis"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 379: Page Operator retest 2 sealed",
+   "detail": "Seal clean first run: 0 changed lines, 6 neutrals byte-identical, 0 identity hits. Judging cycle 381.",
+   "currentTask": "Cycle 379 complete",
+   "lastHeartbeat": "2026-11-25T03:30:06.000Z",
+   "observedAt": "2026-11-25T03:30:06.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-11-25T03:24:15.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 378: Page Operator retest 2 PO-S3",
-   "detail": "PO-S3 pair collected and verified: specialist 4,906 bytes 56s, generic 5,350 bytes 49s, 0 em dashes both. All 3 pairs collected; sealing 379, judging 381.",
-   "currentTask": "Cycle 378 complete: PO-S3 pair collected",
-   "lastHeartbeat": "2026-11-25T03:21:03.000Z",
-   "observedAt": "2026-11-25T03:21:03.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-po-s3-generic",
@@ -3781,20 +3781,6 @@
    "observedAt": "2026-11-24T09:16:00.000Z",
    "needsUser": false,
    "category": "blocktales"
-  },
-  {
-   "agentId": "team-apm-t1-specialist",
-   "name": "APM-T1 specialist",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-T1 specialist solver",
-   "detail": "Draft written: 8050 bytes, 1201 words, 0 em dashes, 5 NEW products, 1 within-batch duplicate, nothing posted",
-   "currentTask": "APM-T1 Batch 7 intake audit record complete",
-   "lastHeartbeat": "2026-11-24T09:11:47.000Z",
-   "observedAt": "2026-11-24T09:11:47.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
