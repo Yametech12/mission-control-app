@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T07:35:34.000Z",
- "summary": "Improvement cycle 399 running: blind judging of the Pricing and Revenue Analyst retest.",
+ "generatedAt": "2026-11-25T07:39:01.000Z",
+ "summary": "QA Judge PRA-R1 complete: Candidate A 8.75 beats Candidate B 8.25, margin 0.50.",
  "agents": [
   {
    "agentId": null,
