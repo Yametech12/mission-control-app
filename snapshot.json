@@ -1,7 +1,77 @@
 {
- "generatedAt": "2026-11-25T01:16:37.000Z",
- "summary": "GT-20261125-122 complete: the drone thesis v6 was mapped against the full COE format (all four handout pages). 10 present, 4 renamed, 4 split or merged, 7 missing, 3 not applicable of 28 items; restructure plan filed, mostly mechanical.",
+ "generatedAt": "2026-11-25T01:22:00.000Z",
+ "summary": "Routing Panel completed routing check cycle 370; panel picks filed.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 86 consecutive failures; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T01:16:16.000Z",
+   "needsUser": true,
+   "category": "Publishing"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 88 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T01:16:16.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "21 consecutive failures with no recorded reason; last success Nov 4. Last run failed Nov 24 at 23:26 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T01:16:16.000Z",
+   "needsUser": true,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "7 consecutive failures with no recorded reason; last success Nov 2. Last run failed Nov 23 at 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T01:16:16.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Last run failed Nov 23 with no recorded reason (3 consecutive failures); last success Nov 4. Next run is Monday Nov 30 at 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T01:16:16.000Z",
+   "needsUser": false,
+   "category": "Monitoring"
+  },
   {
    "agentId": null,
    "name": "BlockTales GT101 Oates Short posted",
@@ -15,48 +85,6 @@
    "observedAt": "2026-11-25T00:01:08.000Z",
    "needsUser": true,
    "category": "BlockTales"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 86 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T20:35:07.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 88 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T19:46:26.000Z",
-   "needsUser": true,
-   "category": "Telegram"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 24, 23:30 PHT with a spawn rejection; 21 consecutive failures, last success Nov 4. Next attempt 23:30 PHT today.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -127,20 +155,6 @@
    "observedAt": "2026-11-23T15:28:16.000Z",
    "needsUser": true,
    "category": "blocktales"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 23, 19:05 PHT with a spawn rejection; 7 consecutive failures, last success Nov 2. Next attempt Nov 26, 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T11:05:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -799,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "drone-panel-verify",
+   "name": "drone-panel-verify",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT123 use.ai panel verification (drone thesis)",
+   "detail": "Started: inventorying panel findings from Claude, GPT, Gemini passes; verifying each against v6 text.",
+   "currentTask": "Extracting v6 text and building the panel finding inventory",
+   "lastHeartbeat": "2026-11-25T01:17:16.000Z",
+   "observedAt": "2026-11-25T01:17:16.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 370: routing check",
+   "detail": "Cycle 370 routing check started: 5 real legs from GT-20261125-121 and GT-20261125-122, picks sealed, panel reading now.",
+   "currentTask": "Cycle 370 routing check: 5 legs from GT-121 and GT-122",
+   "lastHeartbeat": "2026-11-25T01:15:00.000Z",
+   "observedAt": "2026-11-25T01:15:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,20 +2425,6 @@
    "category": "thesis"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 369: CM-R3 collected",
-   "detail": "CM-R3 pair verified (specialist 18,792 bytes, 258s; generic 3,918 bytes, about 64s). All 3 pairs collected; routing check 370, sealing 371, judging 372.",
-   "currentTask": "Cycle 369 complete: CM-R3 pair collected and filed",
-   "lastHeartbeat": "2026-11-25T01:12:30.000Z",
-   "observedAt": "2026-11-25T01:12:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "team-cm-r3-specialist",
    "name": "CM-R3 specialist solver",
    "role": "researcher",
@@ -2479,20 +2507,6 @@
    "observedAt": "2026-11-25T00:38:00.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Division-leads panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel: cycle 365 picks",
-   "detail": "Picks: RC-T1 Thesis Researcher 6-2, RC-T2 Panel Simulator 8-0, RC-T3 Document Auditor 7-1, RC-T4 App Builder 8-0, RC-T5 QA Tester 7-1.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-25T00:22:00.000Z",
-   "observedAt": "2026-11-25T00:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "kogama-gt101-post",
@@ -3767,6 +3781,34 @@
    "observedAt": "2026-11-24T06:43:03.000Z",
    "needsUser": false,
    "category": "team-validation"
+  },
+  {
+   "agentId": "team-pra-t2-generic",
+   "name": "pra-t2-generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-T2 generic solver completed",
+   "detail": "PRA-T2 generic solver done: 7-section verification sheet written, 18 delivered SASE orders re-multiplied to P2,809, all inputs matched MD5.",
+   "currentTask": "PRA-T2 generic solver: SASE P167 vs CSE P369 pricing verification",
+   "lastHeartbeat": "2026-11-24T06:43:00.000Z",
+   "observedAt": "2026-11-24T06:43:00.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "team-pricing-revenue-analyst",
+   "name": "Pricing and Revenue Analyst (specialist solver)",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-T1 specialist solver",
+   "detail": "Posted by cycle parent: start snapshot failed once on schema, completion posted cleanly. PRA-T1 sheet done, 14,682 bytes, about 134s.",
+   "currentTask": "PRA-T1 pricing verification sheet",
+   "lastHeartbeat": "2026-11-24T06:36:00.000Z",
+   "observedAt": "2026-11-24T06:36:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
