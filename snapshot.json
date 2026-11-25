@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T01:31:00.000Z",
- "summary": "Cycle 371 done: Community Manager retest sealed, judging lands cycle 372.",
+ "generatedAt": "2026-11-25T01:49:46.000Z",
+ "summary": "GT-20261125-124 complete: drone thesis proposal restructured to the COE format and delivered print-ready (v7 DOCX + 90-page PDF, verification 17 of 17 passed).",
  "agents": [
   {
    "agentId": null,
@@ -815,18 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "drone-print-ready",
-   "name": "drone-print-ready",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Drone proposal restructure and print build (GT124)",
-   "detail": "Started. Reading plan, mapping, and patch list; inspecting the v6 structure before editing the v7 copy.",
-   "currentTask": "Inspecting v6 structure and planning the restructure script",
-   "lastHeartbeat": "2026-11-25T01:26:00.000Z",
-   "observedAt": "2026-11-25T01:26:00.000Z",
+   "title": "Improvement cycle 372: CM retest judging",
+   "detail": "Judging Community Manager retest CM-R1 to CM-R3 blind; verdict decides validated or rewrite 2.",
+   "currentTask": "Spawning three fresh-context QA judges for CM-R1 to CM-R3",
+   "lastHeartbeat": "2026-11-25T01:47:00.000Z",
+   "observedAt": "2026-11-25T01:47:00.000Z",
    "needsUser": false,
-   "category": "thesis"
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,18 +2397,60 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "team-cm-r3-judge",
+   "name": "CM-R3 Judge",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 371: CM retest sealed",
-   "detail": "Seal clean first run: 3 changed lines, 6 neutrals, 0 identity hits, originals md5-verified. Judging cycle 372.",
-   "currentTask": "Cycle 371 complete: CM retest sealed",
-   "lastHeartbeat": "2026-11-25T01:31:00.000Z",
-   "observedAt": "2026-11-25T01:31:00.000Z",
+   "title": "CM-R3 blind judging complete",
+   "detail": "A 8.5 vs B 6.0, A wins on depth and usefulness. Contamination flagged, pair stands.",
+   "currentTask": "Blind-judge CM-R3 candidate pair A vs B",
+   "lastHeartbeat": "2026-11-25T01:50:46.000Z",
+   "observedAt": "2026-11-25T01:50:46.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-cm-r2-judge",
+   "name": "CM-R2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R2 blind judging complete",
+   "detail": "Contamination CLEAN, pair valid. A 7.50 vs B 7.25, winner A by 0.25 on depth and usefulness despite baseline time deviation.",
+   "currentTask": "CM-R2 blind judging complete",
+   "lastHeartbeat": "2026-11-25T01:49:58.000Z",
+   "observedAt": "2026-11-25T01:49:58.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-cm-r1-judge",
+   "name": "CM-R1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R1 blind judgement complete",
+   "detail": "CLEAN pair. A 7.0 (8/7/7/6), B 8.5 (9/9/9/7). Winner B: full URLs, correct 7-section order, drift in section 2.",
+   "currentTask": "CM-R1 blind judgement complete",
+   "lastHeartbeat": "2026-11-25T01:49:52.000Z",
+   "observedAt": "2026-11-25T01:49:52.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "drone-print-ready",
+   "name": "drone-print-ready",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Drone thesis COE restructure and print build",
+   "detail": "COMPLETE: v7 print-ready DOCX + 90-page PDF in the proposal folder; 29 moves dispositioned, 9 of 9 patches, 8 study figures included, TOC and lists verified against the PDF.",
+   "currentTask": "Job complete: print-ready proposal delivered and verified",
+   "lastHeartbeat": "2026-11-25T01:49:46.000Z",
+   "observedAt": "2026-11-25T01:49:46.000Z",
+   "needsUser": false,
+   "category": "thesis"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3753,48 +3795,6 @@
    "observedAt": "2026-11-24T08:29:00.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-generic-solver-fc-t1",
-   "name": "Generic Solver FC-T1",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-T1 generic solver",
-   "detail": "FC-T1 generic done (14,367 bytes, 100s). Snapshots failed on schema; carried by parent.",
-   "currentTask": "FC-T1 generic deliverable collected",
-   "lastHeartbeat": "2026-11-24T08:02:30.000Z",
-   "observedAt": "2026-11-24T08:02:30.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "Pricing and Revenue Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-T3 pricing verification sheet completed",
-   "detail": "PRA-T3 complete: 14,745 bytes, 2,268 words, 7 sections, 0 em dashes. KreekCraft and ClipUp economics verified, draft only.",
-   "currentTask": "PRA-T3 pricing verification sheet complete",
-   "lastHeartbeat": "2026-11-24T07:18:33.000Z",
-   "observedAt": "2026-11-24T07:18:33.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "pra-t2-specialist",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-T2 pricing verification completed",
-   "detail": "PRA-T2 done: 18 delivered SASE orders re-multiplied to P2,809 verified-paid; SASE P167 and CSE P369 verified with sources.",
-   "currentTask": "PRA-T2 pricing verification sheet, SASE P167 vs CSE P369",
-   "lastHeartbeat": "2026-11-24T06:43:03.000Z",
-   "observedAt": "2026-11-24T06:43:03.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   }
  ]
 }
