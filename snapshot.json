@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T03:53:00.000Z",
- "summary": "GT127 complete: six round 2 diagrams in Solid Clean, QA PASS 6 of 6, previews on Lobot (msgs 1073 to 1078). Swap waits for the owner verdict.",
+ "generatedAt": "2026-11-25T03:58:00.000Z",
+ "summary": "GT128 complete: v8 print copy delivered to Lobot",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 380",
+   "detail": "Routing check 48 starting: 5 fresh legs from GT-127 and GT-125, Coordinator picks sealed first.",
+   "currentTask": "Routing check cycle 380: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-25T03:47:00.000Z",
+   "observedAt": "2026-11-25T03:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "drone-diagram-swap-v8",
+   "name": "drone-diagram-swap-v8",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Drone thesis v8 diagram swap (GT-20261125-128)",
+   "detail": "GT128 COMPLETE: v8 print copy built, 89 pages, six Solid Clean diagrams in, lists refreshed, 25 of 25 checks passed, sent to Lobot",
+   "currentTask": "Complete: v8 delivered to Lobot (PDF msg 1079, DOCX msg 1080)",
+   "lastHeartbeat": "2026-11-25T03:58:00.000Z",
+   "observedAt": "2026-11-25T03:58:00.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
    "agentId": "drone-diagram-redesign-2",
    "name": "drone-diagram-redesign-2",
    "role": "builder",
@@ -2397,18 +2425,18 @@
    "category": "thesis"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "agentId": "routing-panel-cycle-380",
+   "name": "Routing panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 379: Page Operator retest 2 sealed",
-   "detail": "Seal clean first run: 0 changed lines, 6 neutrals byte-identical, 0 identity hits. Judging cycle 381.",
-   "currentTask": "Cycle 379 complete",
-   "lastHeartbeat": "2026-11-25T03:30:06.000Z",
-   "observedAt": "2026-11-25T03:30:06.000Z",
+   "title": "Routing panel cycle 380",
+   "detail": "Panel complete: RC-T1 Illustration and Icon Designer 6-2, RC-T2 Evidence Auditor 6-2, RC-T3 Illustration and Icon Designer 7-1, RC-T4 Thesis Researcher 5-3, RC-T5 Device and Rendering Tester 6-2.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-25T03:50:27.000Z",
+   "observedAt": "2026-11-25T03:50:27.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3767,20 +3795,6 @@
    "observedAt": "2026-11-24T09:17:18.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-bt-fact-checker",
-   "name": "bt-fact-checker-gt112",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT112 Story Fact Checker",
-   "detail": "Posted by job lead. DONE: Franklin Victory Point note picked; fact record at production-gt112/fact-record.md, 2 minor UNVERIFIED items.",
-   "currentTask": "Complete: fact record delivered",
-   "lastHeartbeat": "2026-11-24T09:16:00.000Z",
-   "observedAt": "2026-11-24T09:16:00.000Z",
-   "needsUser": false,
-   "category": "blocktales"
   }
  ]
 }
