@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T19:06:30.000Z",
- "summary": "Fact Checker FC-R3 specialist run started",
+ "generatedAt": "2026-11-25T19:16:30.000Z",
+ "summary": "Improvement cycle 449 complete: Fact Checker retest FC-R3 pair collected; all three pairs filed, sealing cycle 451, judging cycle 452.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-fact-checker",
-   "name": "Fact Checker FC-R3",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Fact Checker FC-R3 started",
-   "detail": "FC-R3 specialist run started: ClinicFlow Connect audit verification, GT-20261125-134.",
-   "currentTask": "Checking 7 claims for GT-20261125-134 against audit reports",
-   "lastHeartbeat": "2026-11-25T19:06:30.000Z",
-   "observedAt": "2026-11-25T19:06:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
