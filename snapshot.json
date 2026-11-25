@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T13:56:22.000Z",
- "summary": "FC-S1 generic solve",
+ "generatedAt": "2026-11-25T14:01:26.000Z",
+ "summary": "FC-S1 specialist solve",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-fc-s1-generic",
-   "name": "FC-S1 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "FC-S1 generic solve",
-   "detail": "FC-S1 generic solve started; reading task inputs for the CSE funnel map.",
-   "currentTask": "FC-S1 generic solve",
-   "lastHeartbeat": "2026-11-25T13:56:22.000Z",
-   "observedAt": "2026-11-25T13:56:22.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2411,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fc-s1-specialist",
+   "name": "FC-S1 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S1 specialist solve",
+   "detail": "FC-S1 funnel map written: 2,691 words, 6 steps, Step 1 partial, rest unmeasured, 12 proposals, 0 em dashes.",
+   "currentTask": "FC-S1 specialist solve",
+   "lastHeartbeat": "2026-11-25T14:01:26.000Z",
+   "observedAt": "2026-11-25T14:01:26.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "team-fc-s1-generic",
+   "name": "FC-S1 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S1 generic solve",
+   "detail": "FC-S1 generic funnel map written: 15,962 bytes, 2,524 words, all six steps unmeasured, MD5 3e77c7d419df505a1481384fd8031472.",
+   "currentTask": "FC-S1 generic solve",
+   "lastHeartbeat": "2026-11-25T13:59:55.000Z",
+   "observedAt": "2026-11-25T13:59:55.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3779,34 +3793,6 @@
    "currentTask": "SMM-R2 Lacy clip 1 plan written, 7 sections, 0 em dashes",
    "lastHeartbeat": "2026-11-24T21:42:37.000Z",
    "observedAt": "2026-11-24T21:42:37.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-page-operator-po-r3-specialist",
-   "name": "PO-R3 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-R3 specialist report complete",
-   "detail": "PO-R3 specialist report written: 5890 bytes, 946 words, 7 sections in order, 0 em dashes. CSE Nov 22 Numerical run, live copy and skip recorded.",
-   "currentTask": "PO-R3 specialist report complete",
-   "lastHeartbeat": "2026-11-24T20:10:00.000Z",
-   "observedAt": "2026-11-24T20:10:00.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-page-operator-po-r3-generic",
-   "name": "PO-R3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-R3 Generic Solver",
-   "detail": "PO-R3 generic draft complete: 4485 bytes, 687 words, MD5 b20e55e629dbf18a451aa3f0476ff5b8, 0 em dashes, all 7 sections in order.",
-   "currentTask": "PO-R3 generic draft complete",
-   "lastHeartbeat": "2026-11-24T20:09:39.000Z",
-   "observedAt": "2026-11-24T20:09:39.000Z",
    "needsUser": false,
    "category": "validation"
   }
