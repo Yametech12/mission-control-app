@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T23:39:41.000Z",
- "summary": "DA-S2 specialist report complete: ClinicFlow GT-135 to GT-137 performance draft saved, 11,907 bytes.",
+ "generatedAt": "2026-11-25T23:42:30.000Z",
+ "summary": "Cycle 467 complete: DA-S2 pair collected, key checked, no defect; DA-S3 runs cycle 468.",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 467",
-   "detail": "Cycle 467 started: Data Analyst retest 2, DA-S2 solver pair running (specialist from rewrite 2 card, generic baseline).",
-   "currentTask": "Cycle 467: DA-S2 solver pair (ClinicFlow GT-135 to GT-137)",
-   "lastHeartbeat": "2026-11-25T23:36:30.000Z",
-   "observedAt": "2026-11-25T23:36:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2397,30 +2383,44 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "da-s2-specialist",
-   "name": "DA-S2 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DA-S2 specialist solver",
-   "detail": "DA-S2 specialist report done: 11,907 bytes, 1,890 words, exec summary before section 1, sections 1-5 in order.",
-   "currentTask": "DA-S2 ClinicFlow GT-135 to GT-137 performance report draft",
-   "lastHeartbeat": "2026-11-25T23:39:41.000Z",
-   "observedAt": "2026-11-25T23:39:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "da-s2-generic",
    "name": "DA-S2 Generic Solver",
    "role": "researcher",
    "agentStatus": "offline",
    "status": "completed",
    "title": "DA-S2 generic solver",
-   "detail": "DA-S2 generic report saved: 12,404 bytes, 1,968 words, 0 em dashes, sections in order, verdict GT-137 live, GT-135/136 not deployed.",
-   "currentTask": "DA-S2 generic report complete",
-   "lastHeartbeat": "2026-11-25T23:38:48.000Z",
-   "observedAt": "2026-11-25T23:38:48.000Z",
+   "detail": "DA-S2 generic solver done: 12,404 bytes, 1,968 words, 104s, MD5 af7651e4b75832e9095e30823344e8c0 (posted by cycle lead).",
+   "currentTask": "DA-S2 report done (posted by cycle lead)",
+   "lastHeartbeat": "2026-11-25T23:42:30.000Z",
+   "observedAt": "2026-11-25T23:42:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "da-s2-specialist",
+   "name": "DA-S2 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-S2 specialist solver",
+   "detail": "DA-S2 specialist solver done: 11,907 bytes, 1,890 words, 45s writing, MD5 cd6d8c999c0091b61260aaca9494f1d1 (posted by cycle lead).",
+   "currentTask": "DA-S2 report done (posted by cycle lead)",
+   "lastHeartbeat": "2026-11-25T23:42:30.000Z",
+   "observedAt": "2026-11-25T23:42:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 467",
+   "detail": "Cycle 467 complete: DA-S2 pair collected and verified (specialist 11,907 bytes, 45s writing; generic 12,404 bytes, 104s). Key checked, no defect; K4 partial specialist.",
+   "currentTask": "Cycle 467 complete: DA-S2 pair collected and filed",
+   "lastHeartbeat": "2026-11-25T23:42:30.000Z",
+   "observedAt": "2026-11-25T23:42:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3777,20 +3777,6 @@
    "title": "PO-S1 Judge: done",
    "detail": "PO-S1 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 7.50 vs 7.25.",
    "currentTask": "PO-S1 judged: specialist win 7.50 vs 7.25",
-   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
-   "observedAt": "2026-11-25T04:00:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-po-judge-s2",
-   "name": "PO-S2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-S2 Judge: done",
-   "detail": "PO-S2 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 8.00 vs 7.75.",
-   "currentTask": "PO-S2 judged: specialist win 8.00 vs 7.75",
    "lastHeartbeat": "2026-11-25T04:00:00.000Z",
    "observedAt": "2026-11-25T04:00:00.000Z",
    "needsUser": false,
