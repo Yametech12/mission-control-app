@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T14:07:55.000Z",
- "summary": "Cycle 429: Funnel and Conversion Specialist retest 2, FC-S2 solver pair running.",
+ "generatedAt": "2026-11-25T14:13:56.000Z",
+ "summary": "FC-S2 specialist deliverable complete: SASE funnel map written, 2,670 words, 290 seconds.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fc-s2-specialist",
+   "name": "FC-S2 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S2 specialist run complete",
+   "detail": "FC-S2 specialist deliverable written: 18,175 bytes, 2,670 words, MD5 be4975fb0137ac9560f8d95ba23d55fa, 0 em dashes, 290 seconds.",
+   "currentTask": "FC-S2 SASE funnel map, specialist run",
+   "lastHeartbeat": "2026-11-25T14:13:56.000Z",
+   "observedAt": "2026-11-25T14:13:56.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-fc-s2-generic",
+   "name": "FC-S2 Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S2 generic solve complete",
+   "detail": "Generic FC-S2 funnel map written: 16851 bytes, 2503 words, MD5 1f7509833acfa11d39b8f22a17a88ead, 0 em dashes, 279s wall clock.",
+   "currentTask": "FC-S2 generic solve",
+   "lastHeartbeat": "2026-11-25T14:13:44.000Z",
+   "observedAt": "2026-11-25T14:13:44.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "team-fc-s1-specialist",
    "name": "FC-S1 Specialist Solver",
    "role": "builder",
@@ -3767,34 +3795,6 @@
    "observedAt": "2026-11-24T21:56:02.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
-  },
-  {
-   "agentId": "team-smm-r3-generic",
-   "name": "SMM-R3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-R3 generic solver: weekly calendar draft",
-   "detail": "Calendar draft written: 3 confirmed Jo Koy slots, quota checked, 14 discrepancies flagged, no slot invented.",
-   "currentTask": "Draft Nov 25 to Dec 1 content calendar, generic solver",
-   "lastHeartbeat": "2026-11-24T21:51:39.000Z",
-   "observedAt": "2026-11-24T21:51:39.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
-   "agentId": "smm-r2-specialist",
-   "name": "SMM-R2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-R2 specialist solver completed",
-   "detail": "SMM-R2 specialist run done: 12,826 bytes, 1,881 words, 7 sections in order, 0 em dashes, 10 discrepancies flagged.",
-   "currentTask": "SMM-R2 Lacy clip 1 plan written, 7 sections, 0 em dashes",
-   "lastHeartbeat": "2026-11-24T21:42:37.000Z",
-   "observedAt": "2026-11-24T21:42:37.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
