@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-25T02:16:30.000Z",
- "summary": "CM-R2 blind judge started: scoring candidates A and B on the SASE inbox triage plan task.",
+ "generatedAt": "2026-11-25T18:17:00.000Z",
+ "summary": "1 team cycle running, JK3 submitted, feed and inbox checks completed today; 5 failing watches need attention, including 2 blocked on a chat that cannot receive results.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 86 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T01:16:16.000Z",
-   "needsUser": true,
-   "category": "Publishing"
-  },
   {
    "agentId": null,
    "name": "TG session watchdog",
@@ -23,12 +9,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 88 consecutive failures; last success Oct 6.",
+   "detail": "Failed today with 89 consecutive failures; paused because the chat it posts to can no longer receive results and needs account action.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T01:16:16.000Z",
+   "observedAt": "2026-11-25T17:46:27.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Watchdog"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Failed today with 86 consecutive failures; paused because the chat it posts to can no longer receive results and needs account action.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T12:35:07.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -37,40 +37,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "21 consecutive failures with no recorded reason; last success Nov 4. Last run failed Nov 24 at 23:26 PHT.",
+   "detail": "Failed last night with 21 consecutive failures; last success was Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T01:16:16.000Z",
-   "needsUser": true,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures with no recorded reason; last success Nov 2. Last run failed Nov 23 at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T01:16:16.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Last run failed Nov 23 with no recorded reason (3 consecutive failures); last success Nov 4. Next run is Monday Nov 30 at 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T01:16:16.000Z",
+   "observedAt": "2026-11-25T07:26:48.000Z",
    "needsUser": false,
-   "category": "Monitoring"
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -113,6 +85,20 @@
    "observedAt": "2026-11-24T13:08:42.000Z",
    "needsUser": true,
    "category": "Music Video"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed Nov 23 with 7 consecutive failures; last success was Nov 2. Next attempt is Nov 26.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-24T03:05:58.000Z",
+   "needsUser": false,
+   "category": "Website"
   },
   {
    "agentId": null,
@@ -169,20 +155,6 @@
    "observedAt": "2026-11-23T10:56:00.000Z",
    "needsUser": true,
    "category": "clipping"
-  },
-  {
-   "agentId": null,
-   "name": "KreekCraft clip 5 posting",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "KreekCraft clip 5 posting",
-   "detail": "Incomplete: YouTube and Instagram are live, TikTok failed on creator cap and is scheduled for 3:20 PM retry. No Whop submission; campaign has ended.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T08:16:13.000Z",
-   "needsUser": false,
-   "category": "Clipping"
   },
   {
    "agentId": "gt61-coordinator",
@@ -813,20 +785,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "cm-r2-judge-r2",
-   "name": "CM-R2 judge",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CM-R2 blind judgement",
-   "detail": "Fresh-context judge scoring CM-R2 candidates A and B blind on accuracy, depth, usefulness, originality.",
-   "currentTask": "Blind judging CM-R2 candidates A and B",
-   "lastHeartbeat": "2026-11-25T02:16:30.000Z",
-   "observedAt": "2026-11-25T02:16:30.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2411,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cm-r2-judge-r2",
+   "name": "CM-R2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CM-R2 blind judgement",
+   "detail": "Judged CM-R2 blind: A 7.0 (8/7/7/6), B 8.0 (7/9/9/7). No contamination. No overlap concern.",
+   "currentTask": "CM-R2 judgement filed",
+   "lastHeartbeat": "2026-11-25T02:17:10.000Z",
+   "observedAt": "2026-11-25T02:17:10.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "cm-r3-judge-r2",
    "name": "CM-R3 judge",
    "role": "auditor",
@@ -3795,20 +3767,6 @@
    "observedAt": "2026-11-24T08:29:00.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-generic-solver-fc-t1",
-   "name": "Generic Solver FC-T1",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-T1 generic solver",
-   "detail": "FC-T1 generic done (14,367 bytes, 100s). Snapshots failed on schema; carried by parent.",
-   "currentTask": "FC-T1 generic deliverable collected",
-   "lastHeartbeat": "2026-11-24T08:02:30.000Z",
-   "observedAt": "2026-11-24T08:02:30.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
   }
  ]
 }
