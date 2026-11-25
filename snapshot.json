@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T16:41:48.000Z",
- "summary": "Routing panel cycle 440 started: 8 division leads voting on 5 tasks from ROSTER_INDEX triggers only.",
+ "generatedAt": "2026-11-25T16:44:00.000Z",
+ "summary": "Improvement cycle 440 complete: routing check scored 5 of 5.",
  "agents": [
   {
    "agentId": null,
@@ -799,34 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing panel",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing panel, cycle 440",
-   "detail": "Routing panel cycle 440 started, 8 leads voting on RC-T1 to RC-T5 from roster triggers only.",
-   "currentTask": "Voting on 5 routing check tasks, cycle 440",
-   "lastHeartbeat": "2026-11-25T16:41:48.000Z",
-   "observedAt": "2026-11-25T16:41:48.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 440: routing check",
-   "detail": "Cycle 440 running: sixtieth routing check, 5 fresh legs (GT-128 swap, GT-135 landing split, GT-121 lead merge, GT-136 brief, GT-120 decision brief).",
-   "currentTask": "Routing check 440: panel reading 5 fresh legs",
-   "lastHeartbeat": "2026-11-25T16:40:00.000Z",
-   "observedAt": "2026-11-25T16:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2411,6 +2383,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 440: routing check",
+   "detail": "Cycle 440 complete: sixtieth routing check scored 5 of 5, clean sweeps thirteen in 60, no new rule, cycle 230 flag does not recur.",
+   "currentTask": "Cycle 440 done: routing check 5 of 5",
+   "lastHeartbeat": "2026-11-25T16:44:00.000Z",
+   "observedAt": "2026-11-25T16:44:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel",
+   "name": "Routing panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel, cycle 440",
+   "detail": "Cycle 440 complete: RC-T1 Thesis Researcher 6-2, RC-T2 Site Builder 7-1, RC-T3 Thesis Researcher 6-2, RC-T4 Architect 5-3, RC-T5 Thesis Researcher 7-1.",
+   "currentTask": "Routing panel cycle 440 complete, 5 picks filed",
+   "lastHeartbeat": "2026-11-25T16:42:24.000Z",
+   "observedAt": "2026-11-25T16:42:24.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3778,34 +3778,6 @@
    "detail": "Delivered 07:23 PHT. Gap brief, panel sim (50 Qs), audit (39 defects), decision brief sent to Telegram as message 1049.",
    "currentTask": "Delivered. Decision brief on Telegram; one decision owed (Janette question).",
    "lastHeartbeat": "2026-11-24T23:24:00.000Z",
-   "observedAt": "2026-11-24T23:24:00.000Z",
-   "needsUser": false,
-   "category": "thesis"
-  },
-  {
-   "agentId": "team-gap-researcher",
-   "name": "Thesis Researcher",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Gap evidence brief refresh",
-   "detail": "Done. Combined gap still holds (MODERATE overall). Doddamani now peer-reviewed; Balingbing RGB-only preprint narrows angle (a). Posted by job lead.",
-   "currentTask": "Completed: gap-evidence-brief-refresh.md",
-   "lastHeartbeat": "2026-11-24T23:07:42.000Z",
-   "observedAt": "2026-11-24T23:24:00.000Z",
-   "needsUser": false,
-   "category": "thesis"
-  },
-  {
-   "agentId": "team-panel-simulator",
-   "name": "Panel Simulator",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Panel simulation for v5 proposal",
-   "detail": "Done. 50 ranked questions, 30-item cannot-answer-yet fix list. Top risk: drone unconfirmed, validators unconfirmed. Posted by job lead.",
-   "currentTask": "Completed: panel-simulation.md",
-   "lastHeartbeat": "2026-11-24T23:11:11.000Z",
    "observedAt": "2026-11-24T23:24:00.000Z",
    "needsUser": false,
    "category": "thesis"
