@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T11:16:08.000Z",
- "summary": "1 cycle running, 3 recent completions, 7 scheduled, 5 attention items: Whop posts and TG watchdog blocked on WhatsApp delivery, plus repeated spawn failures on memory backup, Epimetheus keep-alive, and Zulti promo check.",
+ "generatedAt": "2026-11-25T11:21:09.000Z",
+ "summary": "PRA-S3 specialist solve complete.",
  "agents": [
   {
    "agentId": null,
@@ -2411,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-pricing-revenue-analyst",
+   "name": "Pricing and Revenue Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-S3 specialist solve",
+   "detail": "PRA-S3 specialist solve complete: 47,721-byte sheet filed, all 7 sections, 114 figure lines, 81 VERIFIED, 33 modeled UNVERIFIED.",
+   "currentTask": "PRA-S3 specialist solve complete",
+   "lastHeartbeat": "2026-11-25T11:21:09.000Z",
+   "observedAt": "2026-11-25T11:21:09.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-pra-s3-generic",
+   "name": "PRA-S3 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-S3 generic solve",
+   "detail": "PRA-S3 generic solve complete: 46,101 bytes, 7,306 words, MD5 5ec9dbe58ebabe776b75e1b13d75cdcc, 92s wall time, 0 em dashes.",
+   "currentTask": "PRA-S3 generic solve complete: draft verification sheet written.",
+   "lastHeartbeat": "2026-11-25T11:18:40.000Z",
+   "observedAt": "2026-11-25T11:18:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "routing-panel-cycle-415",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -3777,34 +3805,6 @@
    "title": "GT119 Site Builder: batch, radar, fix loops",
    "detail": "Batch plumbing, UI, radar, and three scoped fix loops (S7, S7c, S7f) all landed and QA-verified. Posted by the job lead.",
    "currentTask": "S7f F3 fix verified closed by QA; build complete",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "QA Tester (GT119)",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 QA Tester: verification and closures",
-   "detail": "Batteries 129/129 and 29/29; all fix loops re-verified; F3 CLOSED, no new defects. Posted by the job lead.",
-   "currentTask": "F3 closure verified: 24 pass, 0 fail, hash gate PASS",
-   "lastHeartbeat": "2026-11-24T18:24:01.000Z",
-   "observedAt": "2026-11-24T18:24:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fresh-eye",
-   "name": "Fresh-Eye Reviewer (GT119)",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT119 Fresh-Eye: owner-eye review",
-   "detail": "F3 catch raised to Major and closed in S7f; remaining Minors F1, F2, F4 and Notes F5, F6 recorded. Posted by the job lead.",
-   "currentTask": "Review complete: PASS WITH NOTES, anti-slop PASS, strip test PASS",
    "lastHeartbeat": "2026-11-24T18:24:01.000Z",
    "observedAt": "2026-11-24T18:24:01.000Z",
    "needsUser": false,
