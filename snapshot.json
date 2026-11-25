@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T05:24:36.000Z",
- "summary": "Cycle 388 complete: Ads Specialist retest AS-R1 pair collected, AS-R2 next",
+ "generatedAt": "2026-11-25T05:31:20.000Z",
+ "summary": "Generic solver completed AS-R2 Hapsay Lifestyle Meta Ads design pack.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-ads-specialist-generic",
+   "name": "Ads Specialist Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AS-R2 generic solve: Hapsay Meta Ads pack",
+   "detail": "AS-R2 generic pack done: 11,941 bytes, 1,966 words, 0 em dashes, PHP 0 paused draft.",
+   "currentTask": "AS-R2 generic pack written and verified",
+   "lastHeartbeat": "2026-11-25T05:31:20.000Z",
+   "observedAt": "2026-11-25T05:31:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2409,20 +2423,6 @@
    "observedAt": "2026-11-25T05:24:59.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 388: Ads Specialist retest AS-R1 collected",
-   "detail": "AS-R1 pair verified (specialist 12,948 bytes 72s, generic 10,339 bytes 43s); both chose Leads, split on discrepancy disclosure. AS-R2 cycle 389.",
-   "currentTask": "Cycle 388 complete: AS-R1 pair collected and filed",
-   "lastHeartbeat": "2026-11-25T05:24:36.000Z",
-   "observedAt": "2026-11-25T05:24:36.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-ads-specialist",
