@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T06:29:26.000Z",
- "summary": "Improvement cycle 393 complete: Ads Specialist retest VALIDATED 8.33 vs 7.58. Scoreboard now 14 validated, 3 flagged, 62 unvalidated of 79.",
+ "generatedAt": "2026-11-25T06:36:00.000Z",
+ "summary": "CSE comment watch complete: no new comments, 0 hearts, 0 replies, no flags.",
  "agents": [
   {
    "agentId": null,
@@ -2383,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE Page Comment Watcher",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Page Comment Watch",
+   "detail": "CSE comment watch complete: no new comments on Page posts Nov 18-25; 0 hearts, 0 replies, no flags. Latest Page post still Nov 22 06:50.",
+   "currentTask": "Run complete: no new comments",
+   "lastHeartbeat": "2026-11-25T06:36:00.000Z",
+   "observedAt": "2026-11-25T06:36:00.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement Cycle",
    "role": "coordinator",
@@ -2997,20 +3011,6 @@
    "observedAt": "2026-11-25T00:56:28.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "CSE comment watch complete: 10 posts checked Nov 18-25, 0 new genuine comments, 0 hearts, 0 replies, nothing flagged",
-   "currentTask": "Run complete: no new comments",
-   "lastHeartbeat": "2026-11-25T00:38:00.000Z",
-   "observedAt": "2026-11-25T00:38:00.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "kogama-gt101-post",
