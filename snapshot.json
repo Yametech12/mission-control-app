@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-25T14:13:56.000Z",
- "summary": "FC-S2 specialist deliverable complete: SASE funnel map written, 2,670 words, 290 seconds.",
+ "generatedAt": "2026-11-25T14:16:30.000Z",
+ "summary": "1 Ghostname cycle running now; Mission Control feed, SASE inbox, CSE comments and PAGCOR watches completed today. 5 jobs need attention, including TG session watch and Whop posts blocked on delivery. 15 items verified.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: delivery chat cannot receive results; 88 consecutive failures, last success Nov 3. No Townhall posts since.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T08:35:09.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
   {
    "agentId": null,
    "name": "TG session watchdog",
@@ -23,12 +9,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: delivery chat cannot receive results; 90 consecutive failures, last success Oct 6. Auto re-login not running.",
+   "detail": "Failed at 21:46, 91 consecutive failures. Blocked: its delivery chat can no longer receive results (account action required). Last success was Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T07:46:27.000Z",
+   "observedAt": "2026-11-25T13:46:27.000Z",
    "needsUser": true,
-   "category": "Telegram"
+   "category": "Session watch"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Failed at 16:35, 88 consecutive failures. Blocked: its delivery chat can no longer receive results (account action required). Last success was Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T08:35:09.000Z",
+   "needsUser": true,
+   "category": "Whop posts"
   },
   {
    "agentId": null,
@@ -65,7 +65,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 21 times in a row (spawn error, binding retired); last success Nov 4. Next attempt tonight 23:30.",
+   "detail": "Failed Nov 24 at 23:26, 21 consecutive failures, spawn error (binding retired). Last success was Nov 4. Next run is tonight at 23:30.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T15:26:48.000Z",
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 429",
-   "detail": "Cycle 429: FC-S2 solver pair running (specialist vs generic).",
-   "currentTask": "FC-S2 solver pair running",
-   "lastHeartbeat": "2026-11-25T14:07:55.000Z",
-   "observedAt": "2026-11-25T14:07:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2397,32 +2383,46 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-fc-s2-specialist",
-   "name": "FC-S2 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S2 specialist run complete",
-   "detail": "FC-S2 specialist deliverable written: 18,175 bytes, 2,670 words, MD5 be4975fb0137ac9560f8d95ba23d55fa, 0 em dashes, 290 seconds.",
-   "currentTask": "FC-S2 SASE funnel map, specialist run",
-   "lastHeartbeat": "2026-11-25T14:13:56.000Z",
-   "observedAt": "2026-11-25T14:13:56.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "team-fc-s2-generic",
    "name": "FC-S2 Generic Solver",
    "role": "researcher",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "FC-S2 generic solve complete",
-   "detail": "Generic FC-S2 funnel map written: 16851 bytes, 2503 words, MD5 1f7509833acfa11d39b8f22a17a88ead, 0 em dashes, 279s wall clock.",
-   "currentTask": "FC-S2 generic solve",
-   "lastHeartbeat": "2026-11-25T14:13:44.000Z",
-   "observedAt": "2026-11-25T14:13:44.000Z",
+   "title": "FC-S2 generic solve",
+   "detail": "FC-S2 generic: 16,851 bytes, 2,503 words, 279s, 0 em dashes. Posted by cycle parent; solver start snapshot failed on agentRole.",
+   "currentTask": "FC-S2 generic solve complete",
+   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
+   "observedAt": "2026-11-25T14:16:58.000Z",
    "needsUser": false,
-   "category": "validation"
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-fc-s2-specialist",
+   "name": "FC-S2 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S2 specialist solve",
+   "detail": "FC-S2 specialist: 18,175 bytes, 2,670 words, 290s, 0 em dashes. Posted by cycle parent; solver start snapshot failed on agentRole.",
+   "currentTask": "FC-S2 specialist solve complete",
+   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
+   "observedAt": "2026-11-25T14:16:58.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 429",
+   "detail": "Cycle 429 complete: FC-S2 pair collected and verified, specialist 290s, generic 279s, 0 em dashes both.",
+   "currentTask": "Cycle 429 complete",
+   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
+   "observedAt": "2026-11-25T14:16:58.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-fc-s1-specialist",
@@ -2493,20 +2493,6 @@
    "observedAt": "2026-11-25T13:20:00.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 425 routing check: 5 of 5 coordinator picks matched the panel; scoreboard 14 validated, 4 flagged, 61 unvalidated of 79.",
-   "currentTask": "Cycle 425 routing check complete, 5 of 5",
-   "lastHeartbeat": "2026-11-25T13:12:31.000Z",
-   "observedAt": "2026-11-25T13:12:31.000Z",
-   "needsUser": false,
-   "category": "Ghostname Team"
   },
   {
    "agentId": "gt135-builder",
