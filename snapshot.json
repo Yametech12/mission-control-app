@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T12:05:41.000Z",
- "summary": "Cycle 420 routing check in progress",
+ "generatedAt": "2026-11-25T12:08:31.000Z",
+ "summary": "Cycle 420 routing check complete: 4 of 5",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 420",
-   "detail": "Cycle 420 routing check started: 5 mixed real tasks from fresh Nov 25 job legs",
-   "currentTask": "Cycle 420 routing check: 5 mixed real tasks, Coordinator picks vs division leads",
-   "lastHeartbeat": "2026-11-25T12:05:41.000Z",
-   "observedAt": "2026-11-25T12:05:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 420",
+   "detail": "Cycle 420 routing check complete: 4 of 5, RC-T2 miss, Coordinator better call on rule 41",
+   "currentTask": "Cycle 420 routing check complete: 4 of 5, one miss on RC-T2",
+   "lastHeartbeat": "2026-11-25T12:08:31.000Z",
+   "observedAt": "2026-11-25T12:08:31.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2479,20 +2479,6 @@
    "observedAt": "2026-11-25T11:18:40.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "routing-panel-cycle-415",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check panel cycle 415",
-   "detail": "Panel picks filed: Systems Builder, Page Operator, Cron Fleet Manager, Data Integrity Auditor, Systems Builder.",
-   "currentTask": "Panel picks filed for routing tasks RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-25T10:58:46.000Z",
-   "observedAt": "2026-11-25T10:58:46.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-pra-s1-generic",
