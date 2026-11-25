@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-25T08:12:23.000Z",
- "summary": "Cycle 401: FC-R1 specialist solve",
+ "generatedAt": "2026-11-25T08:20:26.000Z",
+ "summary": "Cycle 402: Funnel and Conversion Specialist retest FC-R2 solver pair running.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 90 consecutive failures; last success Oct 6; last run failed with a spawn admission error.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T07:46:27.000Z",
+   "needsUser": true,
+   "category": "Telegram"
+  },
   {
    "agentId": null,
    "name": "Page Operator validation flagged",
@@ -23,26 +37,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "87 consecutive failures and paused: the WhatsApp chat it posts to cannot receive results. Last success Nov 3.",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 87 consecutive failures; last success Nov 3; last run failed at 10:35 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-25T02:35:08.000Z",
    "needsUser": true,
    "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "89 consecutive failures and paused: the WhatsApp chat it posts to cannot receive results. Last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T01:46:27.000Z",
-   "needsUser": true,
-   "category": "Messaging"
   },
   {
    "agentId": null,
@@ -65,7 +65,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "21 consecutive failures; last run failed Nov 24 and last success was Nov 4. Spawn error stopped the run before completion.",
+   "detail": "21 consecutive failures; last run failed Nov 24 at 23:26 PHT and last success was Nov 4. No failure reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-24T15:26:48.000Z",
@@ -149,12 +149,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures; last run failed Nov 23 and last success was Nov 2. Spawn error stopped the run before completion.",
+   "detail": "7 consecutive failures; last run failed Nov 23 at 19:05 PHT and last success was Nov 2. No failure reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-23T11:05:58.000Z",
    "needsUser": false,
-   "category": "Infrastructure"
+   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -169,20 +169,6 @@
    "observedAt": "2026-11-23T10:56:00.000Z",
    "needsUser": true,
    "category": "clipping"
-  },
-  {
-   "agentId": null,
-   "name": "KreekCraft clip 5 posting",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "KreekCraft clip 5 posting",
-   "detail": "Incomplete: YouTube and Instagram are live, TikTok failed on creator cap and is scheduled for 3:20 PM retry. No Whop submission; campaign has ended.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T08:16:13.000Z",
-   "needsUser": false,
-   "category": "Clipping"
   },
   {
    "agentId": "gt61-coordinator",
@@ -827,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 402: FC-R2 solver pair",
+   "detail": "Funnel and Conversion Specialist retest, FC-R2 CSE funnel map: specialist and generic solvers running.",
+   "currentTask": "Running FC-R2 specialist and generic solvers",
+   "lastHeartbeat": "2026-11-25T08:20:26.000Z",
+   "observedAt": "2026-11-25T08:20:26.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-funnel-conversion-specialist",
+   "name": "Funnel and Conversion Specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 specialist solve",
+   "detail": "Posted by cycle parent: FC-R1 specialist solve complete (15,331 bytes, 364s). Start snapshot failed once on schema; completion posted by solver.",
+   "currentTask": "FC-R1 specialist solve",
+   "lastHeartbeat": "2026-11-25T08:13:00.000Z",
+   "observedAt": "2026-11-25T08:13:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-generic",
+   "name": "Generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 generic solve",
+   "detail": "Posted by cycle parent: FC-R1 generic solve complete (12,066 bytes, about 298s). Start snapshot failed once on schema; completion posted by solver.",
+   "currentTask": "FC-R1 generic solve",
+   "lastHeartbeat": "2026-11-25T08:13:00.000Z",
+   "observedAt": "2026-11-25T08:13:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3767,34 +3795,6 @@
    "observedAt": "2026-11-24T16:02:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "cp-t1-specialist",
-   "name": "CP-T1 Specialist",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CP-T1 specialist solve",
-   "detail": "CP-T1 specialist solve complete: draft consequence map filed, 2,106 words, all 6 sections in order.",
-   "currentTask": "CP-T1 draft complete: 2,106 words, 6 sections, 0 em dashes",
-   "lastHeartbeat": "2026-11-24T15:54:40.000Z",
-   "observedAt": "2026-11-24T15:54:40.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "cp-t1-generic",
-   "name": "CP-T1 Generic",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CP-T1 generic solve",
-   "detail": "CP-T1 generic draft filed: 14,376 bytes, 2,355 words, all 6 sections in order, 0 em dashes.",
-   "currentTask": "CP-T1 generic solve complete, draft filed",
-   "lastHeartbeat": "2026-11-24T15:54:11.000Z",
-   "observedAt": "2026-11-24T15:54:11.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
