@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T19:16:30.000Z",
- "summary": "Improvement cycle 449 complete: Fact Checker retest FC-R3 pair collected; all three pairs filed, sealing cycle 451, judging cycle 452.",
+ "generatedAt": "2026-11-25T19:17:05.000Z",
+ "summary": "1 cycle running, 3 recent checks completed, 6 scheduled, 5 need attention: Whop and Telegram watches are blocked on WhatsApp delivery, and memory backup, Epimetheus keep-alive, and Zulti promo checks keep failing.",
  "agents": [
   {
    "agentId": null,
@@ -9,10 +9,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 89 consecutive failures. Last failed 22:35 PHT Nov 25; last success Nov 3. Delivery chat can no longer receive results; account action required.",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 89 consecutive failures, last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T18:16:15.000Z",
+   "observedAt": "2026-11-25T19:17:05.000Z",
    "needsUser": true,
    "category": "Whop"
   },
@@ -23,12 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Telegram session watchdog",
-   "detail": "Blocked: 91 consecutive failures. Last failed 21:46 PHT Nov 25; last success Oct 6. Delivery chat can no longer receive results; account action required.",
+   "detail": "Blocked: the WhatsApp delivery chat can no longer receive results; 91 consecutive failures, last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T18:16:15.000Z",
+   "observedAt": "2026-11-25T19:17:05.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -37,10 +37,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 22 consecutive failures. Last failed 23:30 PHT Nov 25; last success Nov 4. Runs fail before finishing with a spawn/binding error.",
+   "detail": "Failed again Nov 25 23:26 PHT; 22 consecutive failures with no recorded reason, last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T18:16:15.000Z",
+   "observedAt": "2026-11-25T19:17:05.000Z",
    "needsUser": false,
    "category": "Backup"
   },
@@ -51,10 +51,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures. Last failed Nov 23; last success Nov 2. Next run 19:05 PHT Nov 26.",
+   "detail": "Failed Nov 23; 7 consecutive failures with no recorded reason, last success Nov 2.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T18:16:15.000Z",
+   "observedAt": "2026-11-25T19:17:05.000Z",
    "needsUser": false,
    "category": "Epimetheus"
   },
@@ -65,10 +65,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures. Last failed Nov 23; last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
+   "detail": "Failed Nov 23; 3 consecutive failures with no recorded reason, last success Nov 4; next run Mon Nov 30.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T18:16:15.000Z",
+   "observedAt": "2026-11-25T19:17:05.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
