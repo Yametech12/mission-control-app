@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T08:20:26.000Z",
- "summary": "Cycle 402: Funnel and Conversion Specialist retest FC-R2 solver pair running.",
+ "generatedAt": "2026-11-25T08:26:00.000Z",
+ "summary": "Cycle 402 done: FC-R2 pair collected and verified, no key defect; FC-R3 runs cycle 403.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 402: FC-R2 solver pair",
-   "detail": "Funnel and Conversion Specialist retest, FC-R2 CSE funnel map: specialist and generic solvers running.",
-   "currentTask": "Running FC-R2 specialist and generic solvers",
-   "lastHeartbeat": "2026-11-25T08:20:26.000Z",
-   "observedAt": "2026-11-25T08:20:26.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2383,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 402: FC-R2 pair collected",
+   "detail": "FC-R2 pair verified (specialist 14,578 bytes, 125s; generic 16,120 bytes, 200s; 0 em dashes; key clean). FC-R3 cycle 403, sealing 404, judging 406.",
+   "currentTask": "Cycle 402 complete",
+   "lastHeartbeat": "2026-11-25T08:26:00.000Z",
+   "observedAt": "2026-11-25T08:26:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R2 generic solver",
+   "detail": "FC-R2 generic funnel map done: 16120 bytes, 2611 words, 0 em dashes, 7 sections in order.",
+   "currentTask": "FC-R2 generic funnel map complete",
+   "lastHeartbeat": "2026-11-25T08:25:05.000Z",
+   "observedAt": "2026-11-25T08:25:05.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "16:23 PHT check done: Page access OK, 30 threads, 0 new buyer messages, no replies or PDF sent.",
+   "currentTask": "SASE inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T08:24:57.000Z",
+   "observedAt": "2026-11-25T08:24:57.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-funnel-conversion-specialist",
+   "name": "Funnel and Conversion Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R2 specialist solver",
+   "detail": "FC-R2 map written: 14,578 bytes, 2,316 words, 0 em dashes, all 7 sections in order, all 6 steps unmeasured.",
+   "currentTask": "FC-R2 CSE funnel map complete",
+   "lastHeartbeat": "2026-11-25T08:24:23.000Z",
+   "observedAt": "2026-11-25T08:24:23.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-funnel-conversion-specialist",
    "name": "Funnel and Conversion Specialist",
    "role": "researcher",
@@ -2423,20 +2465,6 @@
    "observedAt": "2026-11-25T08:13:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE Inbox Watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Inbox Watch",
-   "detail": "Inbox check 15:53 PHT: 30 threads read via Graph API, 0 new, 0 changed. No new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-25T07:55:21.000Z",
-   "observedAt": "2026-11-25T07:55:21.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "routing-panel-cycle-400",
@@ -3753,48 +3781,6 @@
    "observedAt": "2026-11-24T16:17:10.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-consequence-planner",
-   "name": "Consequence Planner",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Consequence Planner CP-T2 specialist",
-   "detail": "Cycle 328 CP-T2 specialist map done: 13066 bytes, 2006 words, verified 0 em/en dashes.",
-   "currentTask": "CP-T2 specialist consequence map complete",
-   "lastHeartbeat": "2026-11-24T16:05:52.000Z",
-   "observedAt": "2026-11-24T16:05:52.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver-cp-t2",
-   "name": "Generic solver CP-T2",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver CP-T2",
-   "detail": "Cycle 328 CP-T2 generic consequence map done: 11231 bytes, 1785 words, verified.",
-   "currentTask": "CP-T2 generic consequence map complete",
-   "lastHeartbeat": "2026-11-24T16:04:04.000Z",
-   "observedAt": "2026-11-24T16:04:04.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-automation-engineer",
-   "name": "QA Automation Engineer",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Engine battery, GT105 vs Genspark",
-   "detail": "Complete: GT105 93/129, Genspark 91/129; report engine-battery.md with full score table and all 74 failures. Posted by the job lead.",
-   "currentTask": "S2 complete",
-   "lastHeartbeat": "2026-11-24T16:02:00.000Z",
-   "observedAt": "2026-11-24T16:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
