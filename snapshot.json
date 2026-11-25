@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T14:01:26.000Z",
- "summary": "FC-S1 specialist solve",
+ "generatedAt": "2026-11-25T14:02:00.000Z",
+ "summary": "Cycle 428 complete: FC retest 2 opened, FC-S1 pair collected",
  "agents": [
   {
    "agentId": null,
@@ -2199,20 +2199,6 @@
    "observedAt": "2026-10-12T16:10:00.000Z",
    "needsUser": false,
    "category": "pandorabook"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 428: FC retest 2 opens",
-   "detail": "Funnel and Conversion Specialist retest 2 opens; tasks FC-S1 to FC-S3 filed, FC-S1 solver pair running.",
-   "currentTask": "Funnel and Conversion Specialist retest 2: file FC-S1 to FC-S3, run FC-S1 pair",
-   "lastHeartbeat": "2026-11-25T13:45:34.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "team-validation"
   },
   {
    "agentId": "sase-landing-portal-audit",
