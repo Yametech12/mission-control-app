@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:06:30.000Z",
- "summary": "Cycle 406: blind judging of the Funnel and Conversion Specialist retest (FC-R1 to FC-R3, sealed cycle 404).",
+ "generatedAt": "2026-11-25T09:09:15.000Z",
+ "summary": "Cycle 406 judging Funnel and Conversion Specialist retest (FC-R1 to FC-R3, sealed cycle 404).",
  "agents": [
   {
    "agentId": null,
@@ -816,15 +816,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 406",
-   "detail": "Cycle 406 judging: FC retest FC-R1 to FC-R3, three blind QA judges, sealed cycle 404",
-   "currentTask": "Cycle 406: blind judging of Funnel and Conversion Specialist retest FC-R1 to FC-R3",
-   "lastHeartbeat": "2026-11-25T09:06:30.000Z",
-   "observedAt": "2026-11-25T09:06:30.000Z",
+   "title": "Ghostname Team validation cycle 406",
+   "detail": "Judging FC retest blind: FC-R1 judge filed no file, FC-R2 judge running; verifying and re-dispatching judges as needed.",
+   "currentTask": "Cycle 406: blind judging of FC retest (FC-R1 to FC-R3)",
+   "lastHeartbeat": "2026-11-25T09:09:15.000Z",
+   "observedAt": "2026-11-25T09:09:15.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
