@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T10:14:00.000Z",
- "summary": "sase-site-line-fix: element identified as the dark-mode .hero-visual border in landing.css; fix in progress.",
+ "generatedAt": "2026-11-25T10:16:04.000Z",
+ "summary": "Cycle 412: judging the Affiliate Program Manager retest blind.",
  "agents": [
   {
    "agentId": null,
@@ -815,18 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "sase-site-line-fix",
-   "name": "sase-site-line-fix",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Remove stray outline line from SASE/CS website",
-   "detail": "Element identified: dark-mode .hero-visual border in landing.css (line color matches owner crop exactly). Removing it and deploying.",
-   "currentTask": "Identified the element; removing the dark-mode .hero-visual border and deploying",
-   "lastHeartbeat": "2026-11-25T10:14:00.000Z",
-   "observedAt": "2026-11-25T10:14:00.000Z",
+   "title": "Improvement cycle 412: APM retest judging",
+   "detail": "Cycle 412 judging Affiliate Program Manager retest: 3 fresh-context QA judges scoring sealed APM-R1 to APM-R3 blind.",
+   "currentTask": "Cycle 412: judging APM retest, 3 blind QA judges",
+   "lastHeartbeat": "2026-11-25T10:16:04.000Z",
+   "observedAt": "2026-11-25T10:16:04.000Z",
    "needsUser": false,
-   "category": "sase-site"
+   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-site-line-fix",
+   "name": "sase-site-line-fix",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Remove stray outline line from SASE/CS website",
+   "detail": "Done: removed the dark-mode .hero-visual border from landing.css (commit 8911906), deployed to production, verified gone on home and civil-service pages.",
+   "currentTask": "Done: outline removed, deployed, verified live on both pages",
+   "lastHeartbeat": "2026-11-25T10:24:00.000Z",
+   "observedAt": "2026-11-25T10:24:00.000Z",
+   "needsUser": false,
+   "category": "sase-site"
+  },
+  {
    "agentId": "gt133-coordinator",
    "name": "gt133-coordinator",
    "role": "coordinator",
@@ -2437,20 +2451,6 @@
    "observedAt": "2026-11-25T10:15:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 411",
-   "detail": "APM retest sealed SEAL_OK (9 lines dropped, 6 neutral files, 569 lines, 0 identity hits); judging cycle 412.",
-   "currentTask": "Cycle 411 sealed; judging cycle 412",
-   "lastHeartbeat": "2026-11-25T10:08:39.000Z",
-   "observedAt": "2026-11-25T10:08:39.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt132-coordinator",
