@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T18:17:00.000Z",
- "summary": "1 team cycle running, JK3 submitted, feed and inbox checks completed today; 5 failing watches need attention, including 2 blocked on a chat that cannot receive results.",
+ "generatedAt": "2026-11-25T02:28:00.000Z",
+ "summary": "SASE inbox watch 10:23 PHT: 30 threads, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -129,6 +129,20 @@
    "category": "Video production"
   },
   {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed Nov 23 with 3 consecutive failures; last success was Nov 4. Next check is Mon Nov 30.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T16:56:31.000Z",
+   "needsUser": false,
+   "category": "Zulti"
+  },
+  {
    "agentId": "kogama-gt98-coordinator",
    "name": "kogama-gt98-coordinator",
    "role": "coordinator",
@@ -155,6 +169,20 @@
    "observedAt": "2026-11-23T10:56:00.000Z",
    "needsUser": true,
    "category": "clipping"
+  },
+  {
+   "agentId": null,
+   "name": "KreekCraft clip 5 posting",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "KreekCraft clip 5 posting",
+   "detail": "Incomplete: YouTube and Instagram are live, TikTok failed on creator cap and is scheduled for 3:20 PM retry. No Whop submission; campaign has ended.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-23T08:16:13.000Z",
+   "needsUser": false,
+   "category": "Clipping"
   },
   {
    "agentId": "gt61-coordinator",
@@ -785,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 374 started: clean re-judging of the Community Manager retest (CM-R1 to CM-R3) after the cycle 372 INVALID_RUN void.",
-   "currentTask": "Cycle 374: Community Manager retest clean re-judging",
-   "lastHeartbeat": "2026-11-25T02:12:07.000Z",
-   "observedAt": "2026-11-25T02:12:07.000Z",
-   "needsUser": false,
-   "category": "ghostnames team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2369,6 +2383,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "Inbox check complete: 30 threads read, 0 new, 0 changed. No new buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T02:28:00.000Z",
+   "observedAt": "2026-11-25T02:28:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 374 complete: Community Manager RETEST VALIDATED 8.17 vs 7.00, 3 wins, clean re-judging. Scoreboard now 13 validated, 1 flagged, 65 unvalidated of 79.",
+   "currentTask": "Cycle 374 complete: Community Manager validated",
+   "lastHeartbeat": "2026-11-25T02:22:49.000Z",
+   "observedAt": "2026-11-25T02:22:49.000Z",
+   "needsUser": false,
+   "category": "ghostnames team"
+  },
+  {
    "agentId": "cm-r2-judge-r2",
    "name": "CM-R2 judge",
    "role": "auditor",
@@ -2409,20 +2451,6 @@
    "observedAt": "2026-11-25T02:15:28.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page Inbox Watch",
-   "detail": "09:54 PHT check complete: 30 threads read via Graph API, 0 new, 0 changed. No buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox watch complete, no new messages",
-   "lastHeartbeat": "2026-11-25T01:55:30.000Z",
-   "observedAt": "2026-11-25T01:55:30.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "drone-print-ready",
@@ -3753,20 +3781,6 @@
    "observedAt": "2026-11-24T08:52:05.000Z",
    "needsUser": false,
    "category": "research"
-  },
-  {
-   "agentId": "team-funnel-conversion-specialist",
-   "name": "Funnel and Conversion Specialist",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-T3 funnel map complete",
-   "detail": "FC-T3 complete. Funnel map filed: 15,068 bytes, 2,506 words. Whole prospect path unmeasured; only measured break is form 500.",
-   "currentTask": "FC-T3 Pod landing-to-Audit funnel map",
-   "lastHeartbeat": "2026-11-24T08:29:00.000Z",
-   "observedAt": "2026-11-24T08:29:00.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
