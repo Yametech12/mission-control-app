@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T08:10:48.000Z",
- "summary": "Cycle 401: FC-R1 generic solve",
+ "generatedAt": "2026-11-25T08:12:23.000Z",
+ "summary": "Cycle 401: FC-R1 specialist solve",
  "agents": [
   {
    "agentId": null,
@@ -2397,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle-generic",
-   "name": "Generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R1 generic solve",
-   "detail": "Cycle 401: FC-R1 generic solve done, 12,066 bytes, 1,846 words, 7 sections, 0 em dashes, MD5 3b2dd135479b4c1cf6ab345ff44a395c.",
-   "currentTask": "FC-R1 generic solve",
-   "lastHeartbeat": "2026-11-25T08:10:48.000Z",
-   "observedAt": "2026-11-25T08:10:48.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3793,6 +3779,20 @@
    "currentTask": "CP-T1 draft complete: 2,106 words, 6 sections, 0 em dashes",
    "lastHeartbeat": "2026-11-24T15:54:40.000Z",
    "observedAt": "2026-11-24T15:54:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "cp-t1-generic",
+   "name": "CP-T1 Generic",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-T1 generic solve",
+   "detail": "CP-T1 generic draft filed: 14,376 bytes, 2,355 words, all 6 sections in order, 0 em dashes.",
+   "currentTask": "CP-T1 generic solve complete, draft filed",
+   "lastHeartbeat": "2026-11-24T15:54:11.000Z",
+   "observedAt": "2026-11-24T15:54:11.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
