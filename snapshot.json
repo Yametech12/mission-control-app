@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:01:00.000Z",
- "summary": "GT101 Oates Short is live on @BlockTalesVoxel. Pinned comment needs manual posting.",
+ "generatedAt": "2026-11-25T00:02:59.000Z",
+ "summary": "Cycle 363: Store Operator retest judging VOID as INVALID_RUN; re-seal 364, re-judging 366.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 363: Store Operator retest judging",
-   "detail": "Cycle 363 judging Store Operator retest: 3 fresh-context QA judges scoring sealed SO-R1 to SO-R3 pairs blind.",
-   "currentTask": "Cycle 363: judging Store Operator retest (3 fresh QA judges)",
-   "lastHeartbeat": "2026-11-24T23:56:21.000Z",
-   "observedAt": "2026-11-24T23:56:21.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "b1dd0780-3dc4-48a9-bf56-c23db78aaea6",
@@ -2383,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 363: Store Operator retest judging VOID",
+   "detail": "Cycle 363: Store Operator retest judging VOID as INVALID_RUN (SO-R1 seal leak); voided scores 8.33/7.67 audit only. Re-seal 364, re-judging 366.",
+   "currentTask": "Cycle 363 done: Store Operator retest judging VOID as INVALID_RUN",
+   "lastHeartbeat": "2026-11-25T00:02:59.000Z",
+   "observedAt": "2026-11-25T00:02:59.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "kogama-gt101-post",
    "name": "GT101 Oates Short poster",
    "role": "poster",
@@ -3767,20 +3767,6 @@
    "observedAt": "2026-11-24T04:42:00.000Z",
    "needsUser": false,
    "category": "Validation"
-  },
-  {
-   "agentId": "team-generic-po-t3",
-   "name": "Generic solver PO-T3",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-T3 generic solver",
-   "detail": "PO-T3 generic output written: 11,859 bytes, 1,976 words, all 7 sections present.",
-   "currentTask": "PO-T3 generic output written",
-   "lastHeartbeat": "2026-11-24T03:59:17.000Z",
-   "observedAt": "2026-11-24T03:59:17.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
