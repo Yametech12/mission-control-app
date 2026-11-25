@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:49:11.000Z",
- "summary": "GT-20261125-131 DELIVERED: Sumbong Wall recommended, Fourfold Table alternate, Target Practice killed; hook layer final.",
+ "generatedAt": "2026-11-25T09:58:00.000Z",
+ "summary": "GT-20261125-133 in progress: Ghostname Team diagnosing and fixing the portal saved-answers disappearance bug.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt133-coordinator",
+   "name": "gt133-coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT133: portal saved-answers bug fix",
+   "detail": "GT-20261125-133 started: diagnosing why buyers' saved answers disappear in the exam portal",
+   "currentTask": "Diagnosing portal saved-answers loss (Kenth Calasang)",
+   "lastHeartbeat": "2026-11-25T09:58:00.000Z",
+   "observedAt": "2026-11-25T09:58:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 410: routing check",
+   "detail": "Routing check 54 in progress: 5 mixed real tasks from GT-120 and GT-131, panel picks pending.",
+   "currentTask": "Cycle 410 routing check: panel reading tasks",
+   "lastHeartbeat": "2026-11-25T09:57:00.000Z",
+   "observedAt": "2026-11-25T09:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sase-site-line-fix",
+   "name": "sase-site-line-fix",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Remove stray outline line from SASE/CS website",
+   "detail": "Started: locating the thin light outline box on dark section of SASE/CS site from owner screenshot",
+   "currentTask": "Inspecting live site and code to identify the stray outline element",
+   "lastHeartbeat": "2026-11-25T09:57:00.000Z",
+   "observedAt": "2026-11-25T09:57:00.000Z",
+   "needsUser": false,
+   "category": "sase-site"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,6 +2425,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt132-coordinator",
+   "name": "gt132-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261125-132 CSE posting resume",
+   "detail": "Completed: first Sumbong Wall post live and Public (C1-V010), Quick Check every 8h (3/day), outreach every 72h, group copies deferred to scheduled runs.",
+   "currentTask": "Job complete, report filed",
+   "lastHeartbeat": "2026-11-25T09:56:28.000Z",
+   "observedAt": "2026-11-25T09:56:28.000Z",
+   "needsUser": false,
+   "category": "cse-posting"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "17:53 PHT check complete: 30 threads, 0 new buyer messages, 0 changes. Token valid, Page access OK. Silent per delivery rule.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T09:56:00.000Z",
+   "observedAt": "2026-11-25T09:56:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "gt131-coordinator",
    "name": "gt131-coordinator",
    "role": "coordinator",
@@ -2481,20 +2551,6 @@
    "category": "design"
   },
   {
-   "agentId": "team-improvement-cycle-apm-r3-generic",
-   "name": "APM-R3 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-R3 generic: 8,166 bytes, 42s",
-   "detail": "Generic 8,166 bytes, 1,339 words, about 42s, 0 em dashes. Start and completion snapshots posted cleanly.",
-   "currentTask": "APM-R3 generic output delivered",
-   "lastHeartbeat": "2026-11-25T09:47:01.000Z",
-   "observedAt": "2026-11-25T09:48:00.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "cse-posting-samples-v2",
    "name": "cse-posting-samples-v2",
    "role": "builder",
@@ -2549,20 +2605,6 @@
    "observedAt": "2026-11-25T09:26:57.000Z",
    "needsUser": false,
    "category": "cse-posting"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "17:23 PHT check complete: 30 threads, 0 new buyer messages, token valid. Silent per rule.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-25T09:25:03.000Z",
-   "observedAt": "2026-11-25T09:25:03.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-improvement-cycle-judge-fc-r1",
