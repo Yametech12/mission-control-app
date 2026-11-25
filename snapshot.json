@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T00:02:59.000Z",
- "summary": "Cycle 363: Store Operator retest judging VOID as INVALID_RUN; re-seal 364, re-judging 366.",
+ "generatedAt": "2026-11-25T00:11:23.000Z",
+ "summary": "Ghostname Team improvement cycle 364: Store Operator retest re-sealed clean",
  "agents": [
   {
    "agentId": null,
@@ -2374,11 +2374,11 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 363: Store Operator retest judging VOID",
-   "detail": "Cycle 363: Store Operator retest judging VOID as INVALID_RUN (SO-R1 seal leak); voided scores 8.33/7.67 audit only. Re-seal 364, re-judging 366.",
-   "currentTask": "Cycle 363 done: Store Operator retest judging VOID as INVALID_RUN",
-   "lastHeartbeat": "2026-11-25T00:02:59.000Z",
-   "observedAt": "2026-11-25T00:02:59.000Z",
+   "title": "Improvement cycle 364: Store Operator re-seal",
+   "detail": "Re-seal done: 14 changed lines, SO-R1 amendment citations dropped, 6 neutral files, 602 lines, 0 identity hits, new figure check clean, originals md5-verified. Routing check 365, re-judging 366.",
+   "currentTask": "Cycle 364 complete: Store Operator retest re-sealed",
+   "lastHeartbeat": "2026-11-25T00:11:23.000Z",
+   "observedAt": "2026-11-25T00:11:23.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
