@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T01:12:30.000Z",
- "summary": "GT-20261125-122 drone thesis COE format audit started: mapping the v6 manuscript structure against the official COE research format.",
+ "generatedAt": "2026-11-25T01:16:37.000Z",
+ "summary": "GT-20261125-122 complete: the drone thesis v6 was mapped against the full COE format (all four handout pages). 10 present, 4 renamed, 4 split or merged, 7 missing, 3 not applicable of 28 items; restructure plan filed, mostly mechanical.",
  "agents": [
   {
    "agentId": null,
@@ -197,20 +197,6 @@
    "observedAt": "2026-11-23T01:56:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": null,
-   "name": "Ghostname improvement cycle timed out",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Ghostname improvement cycle timed out",
-   "detail": "Cycle 140 hit its 1500s budget. Both solvers left partial builds with missing delivery notes and measurements, and item 12-5b remains open pending completion.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T01:13:34.000Z",
-   "needsUser": false,
-   "category": "Ghostname Team"
   },
   {
    "agentId": "gt-20261122-56-lead",
@@ -813,34 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "drone-format-audit",
-   "name": "drone-format-audit",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-20261125-122 Drone thesis COE format audit",
-   "detail": "Started: extracting the v6 heading structure and mapping it against the official COE research format.",
-   "currentTask": "Extracting v6 heading structure from the DOCX",
-   "lastHeartbeat": "2026-11-25T01:12:30.000Z",
-   "observedAt": "2026-11-25T01:12:30.000Z",
-   "needsUser": false,
-   "category": "thesis"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 369: CM-R3 solvers",
-   "detail": "Collecting CM-R3 solver pair (Community Manager retest, SASE group comment watch plan).",
-   "currentTask": "Cycle 369: CM-R3 specialist and generic solvers",
-   "lastHeartbeat": "2026-11-25T01:05:29.000Z",
-   "observedAt": "2026-11-25T01:05:29.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,6 +2369,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "drone-format-audit",
+   "name": "drone-format-audit",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261125-122 Drone thesis COE format audit",
+   "detail": "Complete: format-mapping.md (Tables 1 to 6, findings F-01 to F-20) and restructure-plan.md (moves R-01 to R-29) filed. Manuscript read-only, untouched.",
+   "currentTask": "Audit complete, deliverables filed",
+   "lastHeartbeat": "2026-11-25T01:16:37.000Z",
+   "observedAt": "2026-11-25T01:16:37.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 369: CM-R3 collected",
+   "detail": "CM-R3 pair verified (specialist 18,792 bytes, 258s; generic 3,918 bytes, about 64s). All 3 pairs collected; routing check 370, sealing 371, judging 372.",
+   "currentTask": "Cycle 369 complete: CM-R3 pair collected and filed",
+   "lastHeartbeat": "2026-11-25T01:12:30.000Z",
+   "observedAt": "2026-11-25T01:12:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-cm-r3-specialist",
    "name": "CM-R3 specialist solver",
    "role": "researcher",
@@ -3781,34 +3767,6 @@
    "observedAt": "2026-11-24T06:43:03.000Z",
    "needsUser": false,
    "category": "team-validation"
-  },
-  {
-   "agentId": "team-pra-t2-generic",
-   "name": "pra-t2-generic",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-T2 generic solver completed",
-   "detail": "PRA-T2 generic solver done: 7-section verification sheet written, 18 delivered SASE orders re-multiplied to P2,809, all inputs matched MD5.",
-   "currentTask": "PRA-T2 generic solver: SASE P167 vs CSE P369 pricing verification",
-   "lastHeartbeat": "2026-11-24T06:43:00.000Z",
-   "observedAt": "2026-11-24T06:43:00.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "Pricing and Revenue Analyst (specialist solver)",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-T1 specialist solver",
-   "detail": "Posted by cycle parent: start snapshot failed once on schema, completion posted cleanly. PRA-T1 sheet done, 14,682 bytes, about 134s.",
-   "currentTask": "PRA-T1 pricing verification sheet",
-   "lastHeartbeat": "2026-11-24T06:36:00.000Z",
-   "observedAt": "2026-11-24T06:36:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
