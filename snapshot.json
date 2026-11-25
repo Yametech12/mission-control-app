@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T13:24:00.000Z",
- "summary": "SASE inbox watch 21:24 PHT: no new buyer messages.",
+ "generatedAt": "2026-11-25T13:30:18.000Z",
+ "summary": "Cycle 426 complete: Competitor Analyst retest re-sealed (SEAL_OK, CA-R1 header fix); clean re-judging cycle 427.",
  "agents": [
   {
    "agentId": null,
@@ -2383,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 426 complete: CA retest re-sealed",
+   "detail": "Cycle 426 complete: CA retest re-sealed SEAL_OK first run, 19 changed lines, 501 neutral lines, 0 identity hits, 0 header hits. Re-judging cycle 427.",
+   "currentTask": "Cycle 426 complete: CA retest re-sealed; re-judging cycle 427",
+   "lastHeartbeat": "2026-11-25T13:30:18.000Z",
+   "observedAt": "2026-11-25T13:30:18.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2423,20 +2437,6 @@
    "observedAt": "2026-11-25T13:20:00.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 425: routing check",
-   "detail": "Cycle 425 routing check complete: 5 of 5, no new rule, clean sweeps 12 in 57; CA re-seal 426, re-judging 427",
-   "currentTask": "Routing check 57 complete: 5 of 5",
-   "lastHeartbeat": "2026-11-25T13:14:39.000Z",
-   "observedAt": "2026-11-25T13:14:39.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
