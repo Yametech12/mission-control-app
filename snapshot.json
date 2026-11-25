@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T08:26:00.000Z",
- "summary": "Cycle 402 done: FC-R2 pair collected and verified, no key defect; FC-R3 runs cycle 403.",
+ "generatedAt": "2026-11-25T08:35:00.000Z",
+ "summary": "Cycle 403: Funnel and Conversion Specialist retest, FC-R3 solver pair running",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 403: FC-R3 solver pair running",
+   "detail": "Specialist and generic solvers dispatched in parallel on FC-R3 Pod funnel map; sealing 404, judging 406.",
+   "currentTask": "Collect FC-R3 solver pair",
+   "lastHeartbeat": "2026-11-25T08:35:00.000Z",
+   "observedAt": "2026-11-25T08:35:00.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2383,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 402: FC-R2 pair collected",
-   "detail": "FC-R2 pair verified (specialist 14,578 bytes, 125s; generic 16,120 bytes, 200s; 0 em dashes; key clean). FC-R3 cycle 403, sealing 404, judging 406.",
-   "currentTask": "Cycle 402 complete",
-   "lastHeartbeat": "2026-11-25T08:26:00.000Z",
-   "observedAt": "2026-11-25T08:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "team-generic-solver",
    "name": "Generic Solver",
    "role": "builder",
@@ -3781,6 +3781,20 @@
    "observedAt": "2026-11-24T16:17:10.000Z",
    "needsUser": false,
    "category": "validation"
+  },
+  {
+   "agentId": "team-consequence-planner",
+   "name": "Consequence Planner",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Consequence Planner CP-T2 specialist",
+   "detail": "Cycle 328 CP-T2 specialist map done: 13066 bytes, 2006 words, verified 0 em/en dashes.",
+   "currentTask": "CP-T2 specialist consequence map complete",
+   "lastHeartbeat": "2026-11-24T16:05:52.000Z",
+   "observedAt": "2026-11-24T16:05:52.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
