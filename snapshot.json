@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T10:16:04.000Z",
- "summary": "Cycle 412: judging the Affiliate Program Manager retest blind.",
+ "generatedAt": "2026-11-25T10:20:30.000Z",
+ "summary": "Cycle 412 complete: APM retest judged, LOST 7.58 vs 7.92; card rewritten (rewrite 2).",
  "agents": [
   {
    "agentId": null,
@@ -9,26 +9,68 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 88 consecutive failures, last success Nov 3. The WhatsApp chat it posts to can no longer receive results; delivery must be restored or moved.",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 88 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T08:35:09.000Z",
+   "observedAt": "2026-11-25T10:16:34.000Z",
    "needsUser": true,
    "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "Telegram session watchdog",
+   "name": "TG session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Telegram session watchdog",
-   "detail": "Blocked: 90 consecutive failures, last success Oct 6, and the latest run failed on a spawn error. Its WhatsApp delivery chat can no longer receive results.",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 90 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T07:46:27.000Z",
+   "observedAt": "2026-11-25T10:16:34.000Z",
    "needsUser": true,
    "category": "Telegram"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failing at spawn (binding retired) for 21 consecutive runs; last success Nov 4. Next run tonight 23:30 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T10:16:34.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failing at spawn (binding retired) for 7 consecutive runs; last success Nov 2. Next run Nov 26 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T10:16:34.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed at spawn (binding retired) on Nov 23, 3 consecutive failures; last success Nov 4. Next run Mon Nov 30 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T10:16:34.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -57,20 +99,6 @@
    "observedAt": "2026-11-25T00:01:08.000Z",
    "needsUser": true,
    "category": "BlockTales"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failing: 21 consecutive failures, last success Nov 4. The Nov 24 run failed before finishing with a spawn error (binding_retired).",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -141,20 +169,6 @@
    "observedAt": "2026-11-23T15:28:16.000Z",
    "needsUser": true,
    "category": "blocktales"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failing: 7 consecutive failures, last success Nov 2. The Nov 23 run failed before finishing with a spawn error (binding_retired).",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-23T11:05:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": "gt90-clipup-join",
@@ -813,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 412: APM retest judging",
-   "detail": "Cycle 412 judging Affiliate Program Manager retest: 3 fresh-context QA judges scoring sealed APM-R1 to APM-R3 blind.",
-   "currentTask": "Cycle 412: judging APM retest, 3 blind QA judges",
-   "lastHeartbeat": "2026-11-25T10:16:04.000Z",
-   "observedAt": "2026-11-25T10:16:04.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2411,6 +2411,20 @@
    "category": "sase-site"
   },
   {
+   "agentId": "team-improvement-cycle-judge-apm-r3",
+   "name": "APM-R3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 412 judge APM-R3",
+   "detail": "APM-R3 judge: generic win 8.50 vs 8.00, contamination clean. Own snapshots posted.",
+   "currentTask": "APM-R3 blind judgement filed",
+   "lastHeartbeat": "2026-11-25T10:20:30.000Z",
+   "observedAt": "2026-11-25T10:20:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt133-coordinator",
    "name": "gt133-coordinator",
    "role": "coordinator",
@@ -3781,20 +3795,6 @@
    "observedAt": "2026-11-24T18:20:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "clipp-promax-sample",
-   "name": "clipp-promax-sample",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Pro Max SAMPLE clip build",
-   "detail": "Sample complete: Gemini picked the moment (score 42), Groq captions and hooks, QA passed, 34s 1080x1920, sent to owner Telegram msg 1048. Not posted, not submitted.",
-   "currentTask": "Done: sample delivered to owner Telegram for verdict",
-   "lastHeartbeat": "2026-11-24T18:11:53.000Z",
-   "observedAt": "2026-11-24T18:11:53.000Z",
-   "needsUser": true,
-   "category": "clipping"
   }
  ]
 }
