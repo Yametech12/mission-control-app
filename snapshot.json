@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T01:55:30.000Z",
- "summary": "SASE inbox watch 09:54 PHT: 30 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-25T02:00:17.000Z",
+ "summary": "Cycle 373: Community Manager retest re-seal after cycle 372 INVALID_RUN void.",
  "agents": [
   {
    "agentId": null,
@@ -816,17 +816,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 372: CM retest judging",
-   "detail": "Judging Community Manager retest CM-R1 to CM-R3 blind; verdict decides validated or rewrite 2.",
-   "currentTask": "Spawning three fresh-context QA judges for CM-R1 to CM-R3",
-   "lastHeartbeat": "2026-11-25T01:47:00.000Z",
-   "observedAt": "2026-11-25T01:47:00.000Z",
+   "title": "Improvement cycle 373: Community Manager retest re-seal",
+   "detail": "Re-sealing CM retest pairs after cycle 372 void on role-standard residue; fresh randomized mapping, no judging this cycle.",
+   "currentTask": "Re-sealing Community Manager retest pairs",
+   "lastHeartbeat": "2026-11-25T02:00:17.000Z",
+   "observedAt": "2026-11-25T02:00:17.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "drone-thesis-team",
