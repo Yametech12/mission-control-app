@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T17:44:39.000Z",
- "summary": "Cycle 442 complete: CA-S2 pair collected and verified for Competitor Analyst retest 2.",
+ "generatedAt": "2026-11-25T17:49:00.000Z",
+ "summary": "CA-S3 specialist solver done.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 443",
+   "detail": "Cycle 443 running: CA-S3 solver pair for Competitor Analyst retest 2 (sealing 444, judging 446).",
+   "currentTask": "Cycle 443: Competitor Analyst retest 2, CA-S3 solver pair",
+   "lastHeartbeat": "2026-11-25T17:47:00.000Z",
+   "observedAt": "2026-11-25T17:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2383,16 +2397,30 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
+   "agentId": "ca-s3-generic",
+   "name": "CA-S3 Generic Solver",
+   "role": "researcher",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Cycle 442: Competitor Analyst retest 2, CA-S2 collected",
-   "detail": "CA-S2 pair collected: specialist 14,750 bytes 167s, generic 15,329 bytes about 200s, key clean, no verdict. CA-S3 cycle 443.",
-   "currentTask": "Cycle 442 complete",
-   "lastHeartbeat": "2026-11-25T17:44:39.000Z",
-   "observedAt": "2026-11-25T17:44:39.000Z",
+   "title": "CA-S3 generic solver",
+   "detail": "CA-S3 generic brief done: 17993 bytes, 2643 words.",
+   "currentTask": "Solving CA-S3",
+   "lastHeartbeat": "2026-11-25T17:49:06.000Z",
+   "observedAt": "2026-11-25T17:49:06.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "ca-s3-specialist",
+   "name": "CA-S3 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-S3 specialist solver",
+   "detail": "CA-S3 brief filed: 16,209 bytes, 2,463 words, 7 sections in order.",
+   "currentTask": "Solving CA-S3",
+   "lastHeartbeat": "2026-11-25T17:49:00.000Z",
+   "observedAt": "2026-11-25T17:49:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3765,20 +3793,6 @@
    "currentTask": "CM-R2 specialist solve",
    "lastHeartbeat": "2026-11-25T00:59:16.000Z",
    "observedAt": "2026-11-25T00:59:16.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-cm-r2-generic",
-   "name": "CM-R2 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CM-R2 generic solver",
-   "detail": "CM-R2 generic solve complete: triage plan drafted, 5914 bytes, 953 words, 0 em dashes, MD5 b115eb118cfb5068eee2b461d5ab2ee4.",
-   "currentTask": "CM-R2 generic solve",
-   "lastHeartbeat": "2026-11-25T00:56:28.000Z",
-   "observedAt": "2026-11-25T00:56:28.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   }
