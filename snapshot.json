@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T08:38:00.000Z",
- "summary": "Cycle 403 complete: FC-R3 pair collected and verified, all three FC retest pairs ready for sealing",
+ "generatedAt": "2026-11-25T08:47:30.000Z",
+ "summary": "Cycle 404 complete: Funnel and Conversion Specialist retest sealed for blind judging in cycle 406; scoreboard still 14 validated, 3 flagged, 62 unvalidated.",
  "agents": [
   {
    "agentId": null,
@@ -2383,18 +2383,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "fc-r3-specialist",
-   "name": "FC-R3 Specialist Solver",
-   "role": "researcher",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "FC-R3 specialist solver (carried by parent)",
-   "detail": "Specialist start and completion snapshots failed on agentRole schema; parent carries this side. Output verified on disk.",
-   "currentTask": "FC-R3 specialist solve",
-   "lastHeartbeat": "2026-11-25T08:38:00.000Z",
-   "observedAt": "2026-11-25T08:38:00.000Z",
+   "title": "Ghostname Team improvement cycle 404",
+   "detail": "Cycle 404 complete: FC retest sealed SEAL_OK (6 neutrals, 697 lines, 5 drops, 0 identity hits). Judging cycle 406.",
+   "currentTask": "Cycle 404 complete: FC retest sealed",
+   "lastHeartbeat": "2026-11-25T08:47:30.000Z",
+   "observedAt": "2026-11-25T08:47:30.000Z",
    "needsUser": false,
-   "category": "validation"
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-generic-solver",
