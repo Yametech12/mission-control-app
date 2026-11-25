@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T09:09:15.000Z",
- "summary": "Cycle 406 judging Funnel and Conversion Specialist retest (FC-R1 to FC-R3, sealed cycle 404).",
+ "generatedAt": "2026-11-25T09:13:58.000Z",
+ "summary": "Cycle 406 judged: Funnel and Conversion Specialist retest NOT validated, 6.92 vs 7.50, card rewritten (rewrite 2). Duplicate dispatch cross-checked; verdict stands.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 406",
-   "detail": "Judging FC retest blind: FC-R1 judge filed no file, FC-R2 judge running; verifying and re-dispatching judges as needed.",
-   "currentTask": "Cycle 406: blind judging of FC retest (FC-R1 to FC-R3)",
-   "lastHeartbeat": "2026-11-25T09:09:15.000Z",
-   "observedAt": "2026-11-25T09:09:15.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "drone-thesis-team",
@@ -2397,6 +2383,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 406",
+   "detail": "Cycle 406 complete: FC retest 6.92/7.50, 1W 2L, rewrite 2 filed. Second blind reads cross-checked; FC-R1 disagrees but verdict stands under either reading.",
+   "currentTask": "Cycle 406: FC retest judged, rewrite 2 filed",
+   "lastHeartbeat": "2026-11-25T09:13:58.000Z",
+   "observedAt": "2026-11-25T09:13:58.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-fc-r1",
+   "name": "FC-R1 blind judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 blind judge",
+   "detail": "FC-R1 judgement filed: Candidate A 7.50 vs Candidate B 6.75. Posted by cycle parent; judge snapshot failed.",
+   "currentTask": "FC-R1 judgement filed",
+   "lastHeartbeat": "2026-11-25T09:12:42.000Z",
+   "observedAt": "2026-11-25T09:12:42.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-fc-r2",
+   "name": "FC-R2 blind judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R2 blind judge",
+   "detail": "FC-R2 judgement filed: Candidate A 8.25 vs Candidate B 6.75. Posted by cycle parent; judge snapshot failed.",
+   "currentTask": "FC-R2 judgement filed",
+   "lastHeartbeat": "2026-11-25T09:12:42.000Z",
+   "observedAt": "2026-11-25T09:12:42.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-fc-r3",
+   "name": "FC-R3 blind judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R3 blind judge",
+   "detail": "FC-R3 judgement filed: Candidate A 7.25 vs Candidate B 6.75. Posted by cycle parent; judge snapshot failed.",
+   "currentTask": "FC-R3 judgement filed",
+   "lastHeartbeat": "2026-11-25T09:12:42.000Z",
+   "observedAt": "2026-11-25T09:12:42.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3737,62 +3779,6 @@
    "currentTask": "Complete",
    "lastHeartbeat": "2026-11-24T16:24:00.000Z",
    "observedAt": "2026-11-24T16:24:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fresh-eye-reviewer",
-   "name": "Fresh-Eye Reviewer",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-115 S7 fresh-eye screenshots",
-   "detail": "PASS WITH NOTES: 21/21 shots, GT84 continuity held, D1 Major desktop headline clipping (posted by job lead).",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-24T16:24:00.000Z",
-   "observedAt": "2026-11-24T16:24:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-cp-t3-generic",
-   "name": "CP-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CP-T3 generic solver",
-   "detail": "CP-T3 generic draft done: cp-t3-generic.md, 12017 bytes, 1901 words, 6 sections in order, 0 em dashes.",
-   "currentTask": "CP-T3 generic draft complete.",
-   "lastHeartbeat": "2026-11-24T16:17:10.000Z",
-   "observedAt": "2026-11-24T16:17:10.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "team-consequence-planner",
-   "name": "Consequence Planner",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Consequence Planner CP-T2 specialist",
-   "detail": "Cycle 328 CP-T2 specialist map done: 13066 bytes, 2006 words, verified 0 em/en dashes.",
-   "currentTask": "CP-T2 specialist consequence map complete",
-   "lastHeartbeat": "2026-11-24T16:05:52.000Z",
-   "observedAt": "2026-11-24T16:05:52.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver-cp-t2",
-   "name": "Generic solver CP-T2",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver CP-T2",
-   "detail": "Cycle 328 CP-T2 generic consequence map done: 11231 bytes, 1785 words, verified.",
-   "currentTask": "CP-T2 generic consequence map complete",
-   "lastHeartbeat": "2026-11-24T16:04:04.000Z",
-   "observedAt": "2026-11-24T16:04:04.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
