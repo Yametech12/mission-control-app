@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T13:09:30.000Z",
- "summary": "Cycle 425 routing check in progress",
+ "generatedAt": "2026-11-25T13:14:39.000Z",
+ "summary": "Cycle 425 routing check complete: 5 of 5",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": "2026-11-25T13:10:00.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 425: routing check",
-   "detail": "Cycle 425 routing check started: 5 mixed real tasks from GT-134, GT-135, GT-136; Coordinator picks sealed",
-   "currentTask": "Routing check 57: 5 mixed real tasks from GT-134/135/136",
-   "lastHeartbeat": "2026-11-25T13:09:30.000Z",
-   "observedAt": "2026-11-25T13:09:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2453,6 +2439,20 @@
    "category": "automation-sprints"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 425: routing check",
+   "detail": "Cycle 425 routing check complete: 5 of 5, no new rule, clean sweeps 12 in 57; CA re-seal 426, re-judging 427",
+   "currentTask": "Routing check 57 complete: 5 of 5",
+   "lastHeartbeat": "2026-11-25T13:14:39.000Z",
+   "observedAt": "2026-11-25T13:14:39.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt135-builder",
    "name": "gt135-builder",
    "role": "builder",
@@ -3821,20 +3821,6 @@
    "currentTask": "PO-R2 action report complete",
    "lastHeartbeat": "2026-11-24T20:01:20.000Z",
    "observedAt": "2026-11-24T20:01:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-page-operator-po-r2-generic",
-   "name": "PO-R2 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-R2 generic solver",
-   "detail": "PO-R2 draft complete: 5,561 bytes, 944 words, no em dash, no password value.",
-   "currentTask": "PO-R2 action report complete",
-   "lastHeartbeat": "2026-11-24T19:59:36.000Z",
-   "observedAt": "2026-11-24T19:59:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
