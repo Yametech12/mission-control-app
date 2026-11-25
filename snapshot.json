@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T12:47:20.000Z",
- "summary": "GT-134 complete: brief Parts A, B, C fully implemented in the ClinicFlow working tree and verified locally (19/19 harness tests, syntax and greps clean). Not committed or deployed; ready for parent review.",
+ "generatedAt": "2026-11-25T12:57:00.000Z",
+ "summary": "GT-135 builder started on ClinicFlow landing/login split.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt135-builder",
+   "name": "gt135-builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-135 ClinicFlow landing/login split",
+   "detail": "GT-135 started: splitting ClinicFlow landing from client dashboard, adding Google login binding and recent bookings panel.",
+   "currentTask": "Reading project state: index.html, session/store/google layers, tests",
+   "lastHeartbeat": "2026-11-25T12:57:00.000Z",
+   "observedAt": "2026-11-25T12:57:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2411,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "Inbox watch done 20:53 PHT: 31 threads, 0 new, 0 changed. No buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete: 31 threads, no new buyer messages",
+   "lastHeartbeat": "2026-11-25T12:55:00.000Z",
+   "observedAt": "2026-11-25T12:55:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "gt134-builder",
    "name": "gt134-builder",
    "role": "builder",
@@ -2493,20 +2521,6 @@
    "observedAt": "2026-11-25T12:28:18.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "20:23 PHT check done: 31 threads, Sunadae portal-code question already answered 20:16 PHT by owner order; no new buyer messages needing action, no refs, no PDF sent.",
-   "currentTask": "Inbox check complete",
-   "lastHeartbeat": "2026-11-25T12:23:00.000Z",
-   "observedAt": "2026-11-25T12:23:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-pricing-revenue-analyst",
