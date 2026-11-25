@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T06:01:50.000Z",
- "summary": "Cycle 391 complete: Ads Specialist retest AS-R3 pair collected and verified; sealing 392, judging 393.",
+ "generatedAt": "2026-11-25T06:10:07.000Z",
+ "summary": "Cycle 392 sealed the Ads Specialist retest pairs; judging lands cycle 393.",
  "agents": [
   {
    "agentId": null,
@@ -2397,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 392: seal Ads Specialist retest",
+   "detail": "SEAL_OK: 3 void-class lines dropped, 840 neutral lines, 0 identity hits, originals md5-verified. Judging cycle 393.",
+   "currentTask": "Cycle 392 complete: Ads Specialist retest sealed",
+   "lastHeartbeat": "2026-11-25T06:10:07.000Z",
+   "observedAt": "2026-11-25T06:10:07.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3777,20 +3791,6 @@
    "title": "Architect: portal code and content audit",
    "detail": "Audit complete (posted by job lead). Checkout proved stale; findings reclassified at compile.",
    "currentTask": "Done: 9 findings (Critical 1, High 3, Medium 3, Low 2) in jobs/GT-20261124-114-reports/architect.md",
-   "lastHeartbeat": "2026-11-24T15:30:00.000Z",
-   "observedAt": "2026-11-24T15:30:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "team-security-auditor",
-   "name": "Security Auditor",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Security Auditor: paid content exposure",
-   "detail": "Audit complete (posted by job lead). Live bank URLs all 404; paid banks readable in the public repo.",
-   "currentTask": "Done: live leak check PASS; repo exposure Critical, in jobs/GT-20261124-114-reports/security-auditor.md",
    "lastHeartbeat": "2026-11-24T15:30:00.000Z",
    "observedAt": "2026-11-24T15:30:00.000Z",
    "needsUser": false,
