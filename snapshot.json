@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T10:04:00.000Z",
- "summary": "GT-20261125-133: diagnosis complete, fix in progress.",
+ "generatedAt": "2026-11-25T10:14:00.000Z",
+ "summary": "sase-site-line-fix: element identified as the dark-mode .hero-visual border in landing.css; fix in progress.",
  "agents": [
   {
    "agentId": null,
@@ -815,30 +815,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt133-coordinator",
-   "name": "gt133-coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT133: portal saved-answers bug fix",
-   "detail": "Root cause found: pre-Nov-23 exam state stranded by backend migrations (exams copied forward = 0); progress path already scoped Nov 24. Now fixing: heartbeat write skip, state snapshot tooling, tests.",
-   "currentTask": "Diagnosis complete, implementing the fix",
-   "lastHeartbeat": "2026-11-25T10:04:00.000Z",
-   "observedAt": "2026-11-25T10:04:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
    "agentId": "sase-site-line-fix",
    "name": "sase-site-line-fix",
    "role": "builder",
    "agentStatus": "active",
    "status": "working",
    "title": "Remove stray outline line from SASE/CS website",
-   "detail": "Started: locating the thin light outline box on dark section of SASE/CS site from owner screenshot",
-   "currentTask": "Inspecting live site and code to identify the stray outline element",
-   "lastHeartbeat": "2026-11-25T09:57:00.000Z",
-   "observedAt": "2026-11-25T09:57:00.000Z",
+   "detail": "Element identified: dark-mode .hero-visual border in landing.css (line color matches owner crop exactly). Removing it and deploying.",
+   "currentTask": "Identified the element; removing the dark-mode .hero-visual border and deploying",
+   "lastHeartbeat": "2026-11-25T10:14:00.000Z",
+   "observedAt": "2026-11-25T10:14:00.000Z",
    "needsUser": false,
    "category": "sase-site"
   },
@@ -2411,6 +2397,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt133-coordinator",
+   "name": "gt133-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT133: portal saved-answers bug fix",
+   "detail": "COMPLETE: Nov 23 migration stranded pre-Nov-23 results (exams copied = 0). Heartbeat-skip fix live (1c92100), 267 tests pass, smoke 12/12, snapshot saved, Kenth notified; his old results unrecoverable, stated honestly.",
+   "currentTask": "Complete: fix deployed and verified live, Kenth notified",
+   "lastHeartbeat": "2026-11-25T10:15:00.000Z",
+   "observedAt": "2026-11-25T10:15:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
    "agentId": "gt133-audit-specialist",
    "name": "gt133-audit-specialist",
    "role": "auditor",
@@ -2420,21 +2420,35 @@
    "detail": "Audit complete (posted by job lead): forfeit and write handlers clean; results-page snapshot and device-slot lockout flagged as visibility/access loss paths. Report in GT-20261125-133-reports.",
    "currentTask": "Independent audit complete",
    "lastHeartbeat": "2026-11-25T10:01:00.000Z",
-   "observedAt": "2026-11-25T10:04:00.000Z",
+   "observedAt": "2026-11-25T10:15:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "gt133-qa-specialist",
+   "name": "gt133-qa-specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT133: independent QA",
+   "detail": "QA complete (posted by job lead): heartbeat skip verified against all write cases; verdict SHIP WITH FIXES, both minors fixed before deploy. Suites re-run green.",
+   "currentTask": "Independent QA complete: SHIP WITH FIXES, both minors fixed",
+   "lastHeartbeat": "2026-11-25T10:04:00.000Z",
+   "observedAt": "2026-11-25T10:15:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "name": "team-improvement-cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 410: routing check",
-   "detail": "Routing check 54 complete: 4 of 5. RC-T1, RC-T2, RC-T3, RC-T4 matched; RC-T5 miss, Coordinator better call on rule 25. Scoreboard 14/79 validated.",
-   "currentTask": "Cycle 410 routing check complete",
-   "lastHeartbeat": "2026-11-25T09:58:30.000Z",
-   "observedAt": "2026-11-25T09:58:30.000Z",
+   "title": "Ghostname Team improvement cycle 411",
+   "detail": "APM retest sealed SEAL_OK (9 lines dropped, 6 neutral files, 569 lines, 0 identity hits); judging cycle 412.",
+   "currentTask": "Cycle 411 sealed; judging cycle 412",
+   "lastHeartbeat": "2026-11-25T10:08:39.000Z",
+   "observedAt": "2026-11-25T10:08:39.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3781,34 +3795,6 @@
    "observedAt": "2026-11-24T18:11:53.000Z",
    "needsUser": true,
    "category": "clipping"
-  },
-  {
-   "agentId": "clipp-team-promax",
-   "name": "Clipp Team Pro Max upgrade lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Clipp Team Pro Max upgrade (Gemini + Groq)",
-   "detail": "Done. Groq proven (Whisper timestamps + 10 ranked hooks on a real segment). Gemini video understanding proven via gemini-3.6-flash after flagship models 503d. Brief filed. Nothing posted.",
-   "currentTask": "Complete: both assists built and proven; brief filed",
-   "lastHeartbeat": "2026-11-24T17:52:00.000Z",
-   "observedAt": "2026-11-24T17:52:00.000Z",
-   "needsUser": false,
-   "category": "clipping"
-  },
-  {
-   "agentId": "team-lead-gt118-minors-deploy",
-   "name": "team-lead-gt118-minors-deploy",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-118: Release 2 Minor fixes + deploy (lead)",
-   "detail": "DELIVERED: 5 Minors fixed, QA118-M1 closed in-job, deployed commit 5695b50, Vercel dpl_DmfuiVCRnn9zKjeVATNjxT5zuwNb READY, smoke 13 of 13 PASS.",
-   "currentTask": "GT-118 DELIVERED: Release 2 plus Minor fixes live, smoke 13 of 13, lead re-verified",
-   "lastHeartbeat": "2026-11-24T17:27:00.000Z",
-   "observedAt": "2026-11-24T17:27:00.000Z",
-   "needsUser": false,
-   "category": "ghostlabs"
   }
  ]
 }
