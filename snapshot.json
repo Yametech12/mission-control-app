@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-25T15:16:21.000Z",
- "summary": "Cycle 434: Affiliate Program Manager retest 2 opening",
+ "generatedAt": "2026-11-26T07:17:00.000Z",
+ "summary": "1 Ghostname cycle running, 1 queued; CSE Quick Check, Mission Control feed, and SASE inbox checks completed tonight. 5 jobs need attention, including 2 blocked on a WhatsApp delivery chat.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Failed at 21:46, 91 consecutive failures. Blocked: its delivery chat can no longer receive results (account action required). Last success was Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T13:46:27.000Z",
-   "needsUser": true,
-   "category": "Session watch"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,12 +9,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Failed at 16:35, 88 consecutive failures. Blocked: its delivery chat can no longer receive results (account action required). Last success was Nov 3.",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 89 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T08:35:09.000Z",
+   "observedAt": "2026-11-26T06:35:10.000Z",
    "needsUser": true,
-   "category": "Whop posts"
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog (auto re-login)",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog (auto re-login)",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 91 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T05:46:27.000Z",
+   "needsUser": true,
+   "category": "Telegram watchdog"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "21 consecutive failures with no recorded reason; last run failed Nov 24, last success Nov 4. Next attempt 23:30 PST.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T07:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -59,20 +73,6 @@
    "category": "BlockTales"
   },
   {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 24 at 23:26, 21 consecutive failures, spawn error (binding retired). Last success was Nov 4. Next run is tonight at 23:30.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
    "agentId": "team-lead-yame-call",
    "name": "Yame Call Job Lead",
    "role": "coordinator",
@@ -99,34 +99,6 @@
    "observedAt": "2026-11-24T13:08:42.000Z",
    "needsUser": true,
    "category": "Music Video"
-  },
-  {
-   "agentId": null,
-   "name": "Watcher specialist flagged",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Watcher specialist flagged",
-   "detail": "Cycle 256 flagged Watcher after a second failed retest; blind judging 8.17 vs 7.50. It waits in the Approval queue: merge, delete, or keep as is.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T00:57:39.000Z",
-   "needsUser": true,
-   "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "BlockTales channel branding upload",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "BlockTales channel branding upload",
-   "detail": "Blocked: the browser YouTube channel is FragtasticReels, not BlockTales. No profile, banner or description changes were made.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T00:16:40.000Z",
-   "needsUser": true,
-   "category": "Video production"
   },
   {
    "agentId": "kogama-gt98-coordinator",
