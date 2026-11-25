@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T17:13:30.000Z",
- "summary": "CA-S1 generic solver started: Whop Content Rewards competitive brief, no role card",
+ "generatedAt": "2026-11-25T17:19:00.000Z",
+ "summary": "CA-S1 specialist solver completed: competitive brief written, 16361 bytes, 2811 words, 0 em dashes.",
  "agents": [
   {
    "agentId": null,
@@ -9,7 +9,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 25 23:30 PHT, 22 consecutive failures, spawn error binding_retired; last success Nov 4.",
+   "detail": "Failing: 22 consecutive failures, last success Nov 4. Last run failed Nov 25 at 23:26 PHT with no recorded reason.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-25T15:26:48.000Z",
@@ -23,7 +23,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results; 89 consecutive failures, last success Nov 3.",
+   "detail": "Blocked: 89 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be fixed or moved.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-25T14:35:10.000Z",
@@ -32,12 +32,12 @@
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
+   "name": "Telegram session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results; 91 consecutive failures, last success Oct 6.",
+   "title": "Telegram session watchdog",
+   "detail": "Blocked: 91 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be fixed or moved.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-25T13:46:27.000Z",
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-ca-s1-generic",
-   "name": "CA-S1 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CA-S1 generic solver",
-   "detail": "Generic solve started for CA-S1 Whop campaigns brief, reading task inputs only.",
-   "currentTask": "CA-S1 generic solver: Whop campaigns brief",
-   "lastHeartbeat": "2026-11-25T17:13:30.000Z",
-   "observedAt": "2026-11-25T17:13:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2411,6 +2397,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-ca-s1-specialist",
+   "name": "CA-S1 Specialist Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-S1 specialist solver",
+   "detail": "CA-S1 brief complete: 16361 bytes, 2811 words, MD5 4d35a41ef3da3bcea4a0d0d728c9083c, 0 em dashes.",
+   "currentTask": "CA-S1 specialist solve complete",
+   "lastHeartbeat": "2026-11-25T17:19:00.000Z",
+   "observedAt": "2026-11-25T17:19:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ca-s1-generic",
+   "name": "CA-S1 Generic Solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-S1 generic solver",
+   "detail": "CA-S1 generic brief done: 18931 bytes, 3156 words, 239s, MD5 ee20dfe7da6af03cee1be2ff06f22741.",
+   "currentTask": "CA-S1 generic solver: Whop campaigns brief",
+   "lastHeartbeat": "2026-11-25T17:17:10.000Z",
+   "observedAt": "2026-11-25T17:17:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3781,34 +3795,6 @@
    "observedAt": "2026-11-25T00:01:00.000Z",
    "needsUser": true,
    "category": "blocktales"
-  },
-  {
-   "agentId": "drone-thesis-team",
-   "name": "Drone Thesis Team",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Drone mapping thesis work session (GT-20261125-120)",
-   "detail": "Delivered 07:23 PHT. Gap brief, panel sim (50 Qs), audit (39 defects), decision brief sent to Telegram as message 1049.",
-   "currentTask": "Delivered. Decision brief on Telegram; one decision owed (Janette question).",
-   "lastHeartbeat": "2026-11-24T23:24:00.000Z",
-   "observedAt": "2026-11-24T23:24:00.000Z",
-   "needsUser": false,
-   "category": "thesis"
-  },
-  {
-   "agentId": "team-gap-researcher",
-   "name": "Thesis Researcher",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Gap evidence brief refresh",
-   "detail": "Done. Combined gap still holds (MODERATE overall). Doddamani now peer-reviewed; Balingbing RGB-only preprint narrows angle (a). Posted by job lead.",
-   "currentTask": "Completed: gap-evidence-brief-refresh.md",
-   "lastHeartbeat": "2026-11-24T23:07:42.000Z",
-   "observedAt": "2026-11-24T23:24:00.000Z",
-   "needsUser": false,
-   "category": "thesis"
   }
  ]
 }
