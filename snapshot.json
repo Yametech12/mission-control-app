@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T21:39:59.000Z",
- "summary": "Routing panel 570 complete: 5 picks filed",
+ "generatedAt": "2026-11-26T21:43:10.000Z",
+ "summary": "Cycle 570 routing check complete: 3 of 5, rule 61 added.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 570: routing check",
-   "detail": "Cycle 570 routing check started: 5 fresh Nov 26 legs, Coordinator picks sealing before the panel reads.",
-   "currentTask": "Cycle 570 routing check: harvesting 5 fresh legs, sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-26T21:38:22.000Z",
-   "observedAt": "2026-11-26T21:38:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,16 +2537,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 570: routing check",
+   "detail": "Cycle 570 routing check complete: 3 of 5. Rule 61 added. AIE-T3 re-seal moves to cycle 571.",
+   "currentTask": "Cycle 570 routing check complete: 3 of 5",
+   "lastHeartbeat": "2026-11-26T21:43:10.000Z",
+   "observedAt": "2026-11-26T21:43:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-570",
    "name": "Routing Panel 570",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing panel 570",
-   "detail": "Picks filed: RC-T1 DevOps and Release Engineer, RC-T2 Evidence Auditor, RC-T3 Live Verifier, RC-T4 Fact Checker, RC-T5 Caption Writer",
-   "currentTask": "Routing panel 570 complete: 5 picks filed",
-   "lastHeartbeat": "2026-11-26T21:39:59.000Z",
-   "observedAt": "2026-11-26T21:39:59.000Z",
+   "detail": "Routing panel 570 complete (carried by parent): picks DevOps, Evidence Auditor, Live Verifier, Fact Checker, Caption Writer.",
+   "currentTask": "Panel picks filed: 3 matches, 2 misses",
+   "lastHeartbeat": "2026-11-26T21:43:10.000Z",
+   "observedAt": "2026-11-26T21:43:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3935,20 +3935,6 @@
    "observedAt": "2026-11-26T05:47:46.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "ur-r3-generic",
-   "name": "UR-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R3 generic solver",
-   "detail": "UR-R3 generic solve done (7,530 bytes, 1,205 words, 94s). Posted by cycle parent.",
-   "currentTask": "UR-R3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
-   "observedAt": "2026-11-26T05:20:48.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
