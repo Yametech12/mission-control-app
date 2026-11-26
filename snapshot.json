@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:36:25.000Z",
- "summary": "Cycle 525 routing check in progress (seventy-seventh check): 5 fresh GT-147 legs.",
+ "generatedAt": "2026-11-26T11:38:59.000Z",
+ "summary": "Cycle 525 routing check complete: 4 of 5, rule 55 added, flag recurs on rule 25 (3rd time). Scoreboard 20 validated, 8 flagged, 51 unvalidated of 79.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -855,20 +855,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 525",
-   "detail": "Cycle 525 routing check started: 5 fresh GT-147 go-live legs, Coordinator picks sealed before the panel reads.",
-   "currentTask": "Cycle 525 routing check: GT-147 legs, Coordinator picks sealed",
-   "lastHeartbeat": "2026-11-26T11:36:25.000Z",
-   "observedAt": "2026-11-26T11:36:25.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "6da5c9d5-cfbf-4c95-be4e-3823aca3bf85",
@@ -2509,6 +2495,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 525",
+   "detail": "Cycle 525 routing check complete: 4 of 5 on GT-147 legs; rule 55 added; flag recurs on rule 25 (3rd time). Scoreboard 20/8/51.",
+   "currentTask": "Cycle 525 routing check complete: 4 of 5, rule 55 added",
+   "lastHeartbeat": "2026-11-26T11:38:59.000Z",
+   "observedAt": "2026-11-26T11:38:59.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "routing-check-panel-525",
+   "name": "Routing Check Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check panel cycle 525",
+   "detail": "Cycle 525 panel picks filed by the job lead (panel completion snapshot posted; its start snapshot failed on shape). Picks: Cron Fleet Manager, Page Operator x3, Live Verifier.",
+   "currentTask": "Cycle 525 panel picks filed",
+   "lastHeartbeat": "2026-11-26T11:37:22.000Z",
+   "observedAt": "2026-11-26T11:38:59.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt-147-cse-golive",
    "name": "gt147-cse-golive-lead",
    "role": "coordinator",
@@ -3877,34 +3891,6 @@
    "currentTask": "DA-R2 specialist report complete",
    "lastHeartbeat": "2026-11-25T20:22:28.000Z",
    "observedAt": "2026-11-25T20:22:28.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-da-r2-generic",
-   "name": "DA-R2 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DA-R2 generic solver",
-   "detail": "DA-R2 generic report drafted: 10,252 bytes, 1,757 words, verdict resumed but not yet at 3 per day.",
-   "currentTask": "DA-R2 generic report complete",
-   "lastHeartbeat": "2026-11-25T20:21:35.000Z",
-   "observedAt": "2026-11-25T20:21:35.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-data-analyst",
-   "name": "Data Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Data Analyst retest DA-R1 specialist solve",
-   "detail": "DA-R1 specialist solve done: 9,869 bytes, exec summary + 5 sections, verdict Hold, 0 em dashes.",
-   "currentTask": "DA-R1 specialist solve",
-   "lastHeartbeat": "2026-11-25T20:12:30.000Z",
-   "observedAt": "2026-11-25T20:12:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
