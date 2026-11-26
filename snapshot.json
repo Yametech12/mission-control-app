@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:45:54.000Z",
- "summary": "Cycle 526: Systems Builder retest, SYSB-R2 solver pair running.",
+ "generatedAt": "2026-11-26T11:51:19.000Z",
+ "summary": "SYSB-R2 specialist solve started",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -855,6 +855,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-systems-builder",
+   "name": "Systems Builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SYSB-R2 specialist solve",
+   "detail": "SYSB-R2 specialist solve started: building signin.js, test.js, delivery-note.md",
+   "currentTask": "SYSB-R2 specialist solve",
+   "lastHeartbeat": "2026-11-26T11:51:19.000Z",
+   "observedAt": "2026-11-26T11:51:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2509,6 +2523,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-R2 generic solve",
+   "detail": "SYSB-R2 generic solve done: 6/6 tests pass, exit 0, 0 em dashes, 60s wall.",
+   "currentTask": "SYSB-R2 generic solve",
+   "lastHeartbeat": "2026-11-26T11:48:36.000Z",
+   "observedAt": "2026-11-26T11:48:36.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-check-panel-525",
    "name": "Routing Check Panel",
    "role": "coordinator",
@@ -2813,20 +2841,6 @@
    "currentTask": "AB-T3 specialist solve complete (posted by parent)",
    "lastHeartbeat": "2026-11-26T09:27:56.000Z",
    "observedAt": "2026-11-26T09:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "generic-solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "App Builder AB-T2 generic solve",
-   "detail": "Generic AB-T2 solve complete: build note 1,522 bytes / 262 words, gate 23 assertions passed. Posted by job lead.",
-   "currentTask": "AB-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-26T09:12:00.000Z",
-   "observedAt": "2026-11-26T09:12:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
