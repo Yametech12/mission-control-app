@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T20:50:00.000Z",
- "summary": "Ghostname Team improvement cycle 565 complete: routing check 85 scored 4 of 5",
+ "generatedAt": "2026-11-26T20:56:30.000Z",
+ "summary": "Cycle 566 sealed API Integration Engineer pairs for blind judging in cycle 567.",
  "agents": [
   {
    "agentId": null,
@@ -2538,15 +2538,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "name": "Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 565",
-   "detail": "Routing check 85 complete: 4 of 5 (AIE 6-2, Coursework Planner 5-3, Systems Builder 5-3, Watcher 8-0; miss RC-T1 Fact Checker 6-2, panel better). Rule 60 added. Flag recurs RC-T1.",
-   "currentTask": "Routing check 85 complete",
-   "lastHeartbeat": "2026-11-26T20:50:00.000Z",
-   "observedAt": "2026-11-26T20:50:00.000Z",
+   "title": "Ghostname Team improvement cycle 566",
+   "detail": "Cycle 566 done: API Integration Engineer sealed SEAL_OK first run, 20 changed lines, 18 neutral files, 0 identity hits; judging cycle 567.",
+   "currentTask": "Cycle 566 done: AIE pairs sealed, judging in cycle 567",
+   "lastHeartbeat": "2026-11-26T20:56:30.000Z",
+   "observedAt": "2026-11-26T20:56:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
