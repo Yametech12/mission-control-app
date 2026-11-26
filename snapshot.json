@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T08:41:29.000Z",
- "summary": "Routing panel cycle 510 complete: 5 picks filed.",
+ "generatedAt": "2026-11-26T08:43:26.000Z",
+ "summary": "Ghostname Team improvement cycle 510 done: routing check 5 of 5, clean sweep 18 in 74.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 510",
-   "detail": "Routing check running: 5 GT-140 legs, Coordinator picks sealed, panel reading now.",
-   "currentTask": "Cycle 510 routing check: panel read in progress",
-   "lastHeartbeat": "2026-11-26T08:37:44.000Z",
-   "observedAt": "2026-11-26T08:37:44.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,16 +2453,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 510",
+   "detail": "Routing check done 5 of 5, no misses, clean sweep 18 in 74; no rule fixes, two precedents; GT-140 leg pool exhausted.",
+   "currentTask": "Cycle 510 routing check complete",
+   "lastHeartbeat": "2026-11-26T08:43:26.000Z",
+   "observedAt": "2026-11-26T08:43:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-panel-cycle510",
    "name": "Division-leads panel",
    "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Division-leads routing panel, cycle 510",
-   "detail": "Cycle 510 complete: Site Builder 7-1, Live Verifier 7-1, Knowledge Manager 6-2, Live Verifier 6-1-1, Knowledge Manager 7-1. Picks filed, score line left blank.",
-   "currentTask": "Done: panel-picks.md filed for cycle 510.",
-   "lastHeartbeat": "2026-11-26T08:41:29.000Z",
-   "observedAt": "2026-11-26T08:41:29.000Z",
+   "detail": "Panel item carried by parent: picks filed 5 of 5, snapshots posted cleanly first attempt each.",
+   "currentTask": "Cycle 510 panel read complete",
+   "lastHeartbeat": "2026-11-26T08:43:26.000Z",
+   "observedAt": "2026-11-26T08:43:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3849,20 +3849,6 @@
    "currentTask": "FC-S1 specialist solve",
    "lastHeartbeat": "2026-11-25T14:01:26.000Z",
    "observedAt": "2026-11-25T14:01:26.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "team-fc-s1-generic",
-   "name": "FC-S1 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S1 generic solve",
-   "detail": "FC-S1 generic funnel map written: 15,962 bytes, 2,524 words, all six steps unmeasured, MD5 3e77c7d419df505a1481384fd8031472.",
-   "currentTask": "FC-S1 generic solve",
-   "lastHeartbeat": "2026-11-25T13:59:55.000Z",
-   "observedAt": "2026-11-25T13:59:55.000Z",
    "needsUser": false,
    "category": "team-validation"
   }
