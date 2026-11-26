@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:35:45.000Z",
- "summary": "Cycle 499: SB-V2 solver pair running for Site Builder validation.",
+ "generatedAt": "2026-11-26T06:39:22.000Z",
+ "summary": "Cycle 499: SB-V2 pair collected and verified; cycle 500 is a routing check.",
  "agents": [
   {
    "agentId": null,
@@ -841,48 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 499: Site Builder SB-V2 solvers",
-   "detail": "Cycle 499 running SB-V2 solver pair (hidden guard, trace badge) for Site Builder validation.",
-   "currentTask": "SB-V2 solver pair running",
-   "lastHeartbeat": "2026-11-26T06:35:45.000Z",
-   "observedAt": "2026-11-26T06:35:45.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sb-v2-generic",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SB-V2 generic solver",
-   "detail": "Generic solver building SB-V2 page from the task file only (posted by cycle lead).",
-   "currentTask": "Building SB-V2 page from task file only",
-   "lastHeartbeat": "2026-11-26T06:35:45.000Z",
-   "observedAt": "2026-11-26T06:35:45.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SB-V2 specialist solver",
-   "detail": "Specialist solver building SB-V2 page from the Site Builder card (posted by cycle lead).",
-   "currentTask": "Building SB-V2 page from role card",
-   "lastHeartbeat": "2026-11-26T06:35:45.000Z",
-   "observedAt": "2026-11-26T06:35:45.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "cse-page-comment-watch",
@@ -2509,6 +2467,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 499: Site Builder SB-V2 collected",
+   "detail": "Cycle 499 done: SB-V2 pair collected and verified, K2-K6 pass both, K1 open (shift UNMEASURED, no browser), 6 splits filed for judging.",
+   "currentTask": "Cycle 499 complete",
+   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
+   "observedAt": "2026-11-26T06:39:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sb-v2-generic",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SB-V2 generic solver",
+   "detail": "SB-V2 generic build collected: 3,581/4,718 bytes, 801 words, 51s, 0 em dashes (posted by cycle lead).",
+   "currentTask": "SB-V2 complete",
+   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
+   "observedAt": "2026-11-26T06:39:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SB-V2 specialist solver",
+   "detail": "SB-V2 specialist build collected: 5,000/5,734 bytes, 1,020 words, 72s, 0 em dashes (posted by cycle lead).",
+   "currentTask": "SB-V2 complete",
+   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
+   "observedAt": "2026-11-26T06:39:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt-144-lead",
    "name": "gt-144-lead",
    "role": "coordinator",
@@ -3865,48 +3865,6 @@
    "observedAt": "2026-11-25T12:28:18.000Z",
    "needsUser": false,
    "category": "automation-sprints"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "Pricing and Revenue Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-S3 specialist solve",
-   "detail": "PRA-S3 specialist solve complete: 47,721-byte sheet filed, all 7 sections, 114 figure lines, 81 VERIFIED, 33 modeled UNVERIFIED.",
-   "currentTask": "PRA-S3 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T11:21:09.000Z",
-   "observedAt": "2026-11-25T11:21:09.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-pra-s3-generic",
-   "name": "PRA-S3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-S3 generic solve",
-   "detail": "PRA-S3 generic solve complete: 46,101 bytes, 7,306 words, MD5 5ec9dbe58ebabe776b75e1b13d75cdcc, 92s wall time, 0 em dashes.",
-   "currentTask": "PRA-S3 generic solve complete: draft verification sheet written.",
-   "lastHeartbeat": "2026-11-25T11:18:40.000Z",
-   "observedAt": "2026-11-25T11:18:40.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-pra-s1-generic",
-   "name": "PRA-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-S1 generic solve",
-   "detail": "PRA-S1 generic sheet done: 28,223 bytes, 7 sections in order, 0 em dashes, draft only.",
-   "currentTask": "PRA-S1 KreekCraft pricing verification sheet complete",
-   "lastHeartbeat": "2026-11-25T10:33:13.000Z",
-   "observedAt": "2026-11-25T10:33:13.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
