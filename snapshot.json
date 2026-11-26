@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:28:27.000Z",
- "summary": "GT-144 complete: drone thesis defense preparation pack delivered from the v8 print copy.",
+ "generatedAt": "2026-11-26T06:35:45.000Z",
+ "summary": "Cycle 499: SB-V2 solver pair running for Site Builder validation.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,62 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 499: Site Builder SB-V2 solvers",
+   "detail": "Cycle 499 running SB-V2 solver pair (hidden guard, trace badge) for Site Builder validation.",
+   "currentTask": "SB-V2 solver pair running",
+   "lastHeartbeat": "2026-11-26T06:35:45.000Z",
+   "observedAt": "2026-11-26T06:35:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sb-v2-generic",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SB-V2 generic solver",
+   "detail": "Generic solver building SB-V2 page from the task file only (posted by cycle lead).",
+   "currentTask": "Building SB-V2 page from task file only",
+   "lastHeartbeat": "2026-11-26T06:35:45.000Z",
+   "observedAt": "2026-11-26T06:35:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "SB-V2 specialist solver",
+   "detail": "Specialist solver building SB-V2 page from the Site Builder card (posted by cycle lead).",
+   "currentTask": "Building SB-V2 page from role card",
+   "lastHeartbeat": "2026-11-26T06:35:45.000Z",
+   "observedAt": "2026-11-26T06:35:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Page comment watch",
+   "detail": "Checking CSE Page posts Nov 19-26 for new comments to heart and reply.",
+   "currentTask": "Checking CSE Page posts for new comments",
+   "lastHeartbeat": "2026-11-26T06:32:05.000Z",
+   "observedAt": "2026-11-26T06:32:05.000Z",
+   "needsUser": false,
+   "category": "cse"
   },
   {
    "agentId": "gt-141-builder",
@@ -2481,20 +2537,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 498",
-   "detail": "Cycle 498 complete: SB-V1 pair collected, K1-K7 pass both sides, no key defect; SB-V2 runs cycle 499. Scoreboard 19/8/52.",
-   "currentTask": "Cycle 498 complete: SB-V1 pair collected, K1-K7 pass both sides",
-   "lastHeartbeat": "2026-11-26T06:21:00.000Z",
-   "observedAt": "2026-11-26T06:21:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-generic-solver",
    "name": "Generic solver",
    "role": "builder",
@@ -3123,20 +3165,6 @@
    "observedAt": "2026-11-26T00:57:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "Run complete: no new genuine comments on Page posts Nov 19-26. 0 hearts, 0 replies, nothing to flag.",
-   "currentTask": "Run complete",
-   "lastHeartbeat": "2026-11-26T00:40:00.000Z",
-   "observedAt": "2026-11-26T00:40:00.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "da-judge-s1",
@@ -3851,6 +3879,34 @@
    "observedAt": "2026-11-25T11:21:09.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-pra-s3-generic",
+   "name": "PRA-S3 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-S3 generic solve",
+   "detail": "PRA-S3 generic solve complete: 46,101 bytes, 7,306 words, MD5 5ec9dbe58ebabe776b75e1b13d75cdcc, 92s wall time, 0 em dashes.",
+   "currentTask": "PRA-S3 generic solve complete: draft verification sheet written.",
+   "lastHeartbeat": "2026-11-25T11:18:40.000Z",
+   "observedAt": "2026-11-25T11:18:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-pra-s1-generic",
+   "name": "PRA-S1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-S1 generic solve",
+   "detail": "PRA-S1 generic sheet done: 28,223 bytes, 7 sections in order, 0 em dashes, draft only.",
+   "currentTask": "PRA-S1 KreekCraft pricing verification sheet complete",
+   "lastHeartbeat": "2026-11-25T10:33:13.000Z",
+   "observedAt": "2026-11-25T10:33:13.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
