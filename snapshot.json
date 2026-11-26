@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:36:00.000Z",
- "summary": "GT-147 milestone: cron rewire verified, awaiting 19:30 run",
+ "generatedAt": "2026-11-26T10:10:00.000Z",
+ "summary": "SB-R1 specialist solver building the demo edge move page.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,34 @@
    "observedAt": "2026-11-26T10:36:00.000Z",
    "needsUser": false,
    "category": "cse"
+  },
+  {
+   "agentId": "team-site-builder-sb-r1-specialist",
+   "name": "Site Builder SB-R1 specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Site Builder SB-R1 specialist",
+   "detail": "SB-R1 specialist build started: demo edge move page, gate.js, delivery note.",
+   "currentTask": "Building SB-R1 demo page, gate, and delivery note",
+   "lastHeartbeat": "2026-11-26T10:10:00.000Z",
+   "observedAt": "2026-11-26T10:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 517",
+   "detail": "Cycle 517 started: Site Builder retest opens, SB-R1 solver pair dispatched.",
+   "currentTask": "Cycle 517: Site Builder retest, SB-R1 solver pair running",
+   "lastHeartbeat": "2026-11-26T10:09:30.000Z",
+   "observedAt": "2026-11-26T10:09:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2355,6 +2383,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "team-generic-sb-r1",
+   "name": "Generic solver SB-R1",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Generic solver SB-R1 (cycle 517)",
+   "detail": "Building index.html, gate.js, delivery-note.md for Site Builder retest SB-R1.",
+   "currentTask": "Building SB-R1 generic baseline files",
+   "lastHeartbeat": "2026-11-26T10:09:09.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2489,20 +2531,6 @@
    "title": "AB-T3 judge (cycle 516)",
    "detail": "AB-T3 judged (carried by parent, corrected category): specialist win 8.75 vs 5.25, contamination clean",
    "currentTask": "AB-T3 judged: specialist win 8.75 vs 5.25",
-   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
-   "observedAt": "2026-11-26T10:04:47.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 516: App Builder judging",
-   "detail": "Cycle 516 done: App Builder 8.00 vs 6.83, 2 wins 1 loss, NOT a clear win; card rewritten (rewrite 1), archive verified",
-   "currentTask": "Cycle 516 complete: App Builder judged, card rewritten",
    "lastHeartbeat": "2026-11-26T10:04:47.000Z",
    "observedAt": "2026-11-26T10:04:47.000Z",
    "needsUser": false,
@@ -3851,6 +3879,20 @@
    "observedAt": "2026-11-25T16:03:34.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-generic-solver-apm-s2",
+   "name": "Generic solver APM-S2",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "APM-S2 generic solver",
+   "detail": "Generic output filed: 5,212 bytes, 888 words, 34s, 0 em dashes. Posted by cycle parent.",
+   "currentTask": "APM-S2 generic solve complete",
+   "lastHeartbeat": "2026-11-25T15:49:30.000Z",
+   "observedAt": "2026-11-25T15:49:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
