@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:48:00.000Z",
- "summary": "Improvement cycle 495: routing check 4 of 5 on fresh GT-141/142/143 legs; User Researcher judging lands cycle 496.",
+ "generatedAt": "2026-11-26T05:56:30.000Z",
+ "summary": "Cycle 496 judging the User Researcher retest; 3 blind QA judges running.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 496",
+   "detail": "Cycle 496 started: blind judging of the User Researcher retest (UR-R1, UR-R2, UR-R3 sealed pairs).",
+   "currentTask": "Cycle 496: judging User Researcher retest, 3 blind QA judges",
+   "lastHeartbeat": "2026-11-26T05:56:30.000Z",
+   "observedAt": "2026-11-26T05:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2453,6 +2467,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "13:54 PHT check complete: 31 threads, 0 new buyer messages, 0 unread. Page access OK via Graph API.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T05:54:06.000Z",
+   "observedAt": "2026-11-26T05:54:06.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "gt-143-lead",
    "name": "gt-143-lead",
    "role": "coordinator",
@@ -2467,20 +2495,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 495",
-   "detail": "Cycle 495 routing check done: 4 of 5 on fresh GT-141/142/143 legs; miss RC-T1 only, Coordinator read better call. Scoreboard 18/8/53.",
-   "currentTask": "Cycle 495 complete: routing check 4 of 5",
-   "lastHeartbeat": "2026-11-26T05:48:00.000Z",
-   "observedAt": "2026-11-26T05:48:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-495",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -2493,20 +2507,6 @@
    "observedAt": "2026-11-26T05:47:46.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "13:24 PHT check done: 31 threads, 0 new buyer messages, 0 unread. No replies or PDF sent.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T05:24:31.000Z",
-   "observedAt": "2026-11-26T05:24:31.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "ur-r3-generic",
@@ -3851,6 +3851,20 @@
    "observedAt": "2026-11-25T10:24:00.000Z",
    "needsUser": false,
    "category": "sase-site"
+  },
+  {
+   "agentId": "gt133-coordinator",
+   "name": "gt133-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT133: portal saved-answers bug fix",
+   "detail": "COMPLETE: Nov 23 migration stranded pre-Nov-23 results (exams copied = 0). Heartbeat-skip fix live (1c92100), 267 tests pass, smoke 12/12, snapshot saved, Kenth notified; his old results unrecoverable, stated honestly.",
+   "currentTask": "Complete: fix deployed and verified live, Kenth notified",
+   "lastHeartbeat": "2026-11-25T10:15:00.000Z",
+   "observedAt": "2026-11-25T10:15:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
   }
  ]
 }
