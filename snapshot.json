@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:25:00.000Z",
- "summary": "SASE inbox watch 11:24 PHT: 31 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-26T03:27:00.000Z",
+ "summary": "Cycle 484: Fact Checker retest 2 opens; FC-S1 solver pair running.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 484: Fact Checker retest 2",
+   "detail": "Cycle 484: Fact Checker retest 2 opens; filing 3 fresh tasks from GT-138/139/140 and running the FC-S1 solver pair.",
+   "currentTask": "Cycle 484: Fact Checker retest 2 opens, FC-S1 solver pair",
+   "lastHeartbeat": "2026-11-26T03:27:00.000Z",
+   "observedAt": "2026-11-26T03:27:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,20 +2439,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 483: MIA retest validated",
-   "detail": "Cycle 483: Market Intelligence Analyst VALIDATED 8.17 vs 7.42, 3 wins, clean blind judging. Scoreboard 18/79 validated.",
-   "currentTask": "Cycle 483 complete: MIA retest validated",
-   "lastHeartbeat": "2026-11-26T03:22:48.000Z",
-   "observedAt": "2026-11-26T03:22:48.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-mia-r3-generic",
    "name": "MIA-R3 generic solver",
    "role": "researcher",
@@ -3809,6 +3809,20 @@
    "observedAt": "2026-11-25T08:13:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-pricing-revenue-analyst",
+   "name": "Pricing and Revenue Analyst",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-R1 specialist solve",
+   "detail": "PRA-R1 specialist solve done: Jo Koy sheet filed, all floors PASS, earnings USD 0.00 at recorded approval.",
+   "currentTask": "PRA-R1 specialist solve: Jo Koy campaign economics verification sheet",
+   "lastHeartbeat": "2026-11-25T06:43:33.000Z",
+   "observedAt": "2026-11-25T06:43:33.000Z",
+   "needsUser": false,
+   "category": "team-validation"
   }
  ]
 }
