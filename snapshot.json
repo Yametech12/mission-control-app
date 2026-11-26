@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T00:06:25.000Z",
- "summary": "Cycle 469 sealed Data Analyst retest 2; judging cycle 471.",
+ "generatedAt": "2026-11-26T00:21:00.000Z",
+ "summary": "Routing panel cycle 470 started: 8 division leads voting on 5 tasks",
  "agents": [
   {
    "agentId": null,
@@ -9,12 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 90 consecutive failures; last run failed Nov 26 at 04:35 PHT. Delivery chat can no longer receive results.",
+   "detail": "90 consecutive failures; blocked because its WhatsApp delivery chat can no longer receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T20:35:10.000Z",
+   "observedAt": "2026-11-26T00:16:44.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "Posting"
   },
   {
    "agentId": null,
@@ -23,12 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: 92 consecutive failures; last run failed Nov 26 at 03:46 PHT. Delivery chat can no longer receive results.",
+   "detail": "92 consecutive failures; blocked because its WhatsApp delivery chat can no longer receive results. Last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T19:46:27.000Z",
+   "observedAt": "2026-11-26T00:16:44.000Z",
    "needsUser": true,
-   "category": "Telegram"
+   "category": "Monitoring"
   },
   {
    "agentId": null,
@@ -37,12 +37,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failing: 22 consecutive failures; last run failed Nov 25 at 23:26 PHT, last success Nov 4. No reason recorded.",
+   "detail": "22 consecutive failures; last run failed Nov 25 at 23:26 PHT. Last success Nov 4. Next run 23:30 PHT tonight.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-25T15:26:48.000Z",
+   "observedAt": "2026-11-26T00:16:44.000Z",
    "needsUser": false,
    "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "7 consecutive failures; last run failed Nov 23. Last success Nov 2. Next run 19:05 PHT today.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T00:16:44.000Z",
+   "needsUser": false,
+   "category": "Keep-alive"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run failed Nov 23. Last success Nov 4. Next run Mon Nov 30 at 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T00:16:44.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -113,20 +141,6 @@
    "observedAt": "2026-11-24T00:57:39.000Z",
    "needsUser": true,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "BlockTales channel branding upload",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "BlockTales channel branding upload",
-   "detail": "Blocked: the browser YouTube channel is FragtasticReels, not BlockTales. No profile, banner or description changes were made.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T00:16:40.000Z",
-   "needsUser": true,
-   "category": "Video production"
   },
   {
    "agentId": "kogama-gt98-coordinator",
@@ -801,6 +815,90 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Ghostname Team routing panel",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing panel cycle 470",
+   "detail": "Panel voting on RC-T1 to RC-T5 from trigger lines only.",
+   "currentTask": "Voting on 5 routing check tasks, cycle 470",
+   "lastHeartbeat": "2026-11-26T00:21:00.000Z",
+   "observedAt": "2026-11-26T00:21:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 470",
+   "detail": "Cycle 470 routing check (66th): tasks filed, Coordinator picks sealed, panel read next.",
+   "currentTask": "Routing check cycle 470: 5 fresh legs, panel read next",
+   "lastHeartbeat": "2026-11-26T00:20:30.000Z",
+   "observedAt": "2026-11-26T00:20:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-lead-gt138",
+   "name": "gt138-job-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-138 ClinicFlow full tour, fixes, design pass",
+   "detail": "GT-138 started: full site tour, error fixes, design improvement all devices. Repo HEAD verified at GT-137 close (7f26b7e), no drift.",
+   "currentTask": "S1 fan-out: audit trio spawning; last step intake done, next step defect census",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "team-design-auditor",
+   "name": "design-auditor",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-138 Design Auditor",
+   "detail": "Design and alignment census across devices and themes (posted by job lead).",
+   "currentTask": "S1 design and alignment census (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "team-device-rendering-tester",
+   "name": "device-rendering-tester",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-138 Device and Rendering Tester",
+   "detail": "Responsive verification before fixes (posted by job lead).",
+   "currentTask": "S1 responsive checks 360/390/768/1280/1440 light and dark (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "qa-tester",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-138 QA Tester",
+   "detail": "Error hunt on live site and repo (posted by job lead).",
+   "currentTask": "S1 error hunt: links, endpoints, status codes, markup, tests (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
    "name": "ClinicFlow browser task",
    "role": "builder",
@@ -851,20 +949,6 @@
    "title": "Claims registry and banned-strings check",
    "detail": "Posted by the job lead: authoring candidate-gt115/claims.md and running the banned-strings check over all copy surfaces.",
    "currentTask": "S5: claims registry + banned-strings run",
-   "lastHeartbeat": "2026-11-24T16:12:00.000Z",
-   "observedAt": "2026-11-24T16:12:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fresh-eye-reviewer",
-   "name": "Fresh-Eye Reviewer",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Fresh-eye screenshot review",
-   "detail": "Posted by the job lead: shooting candidate pages at 360/390/768/1280 and playground states for the owner gate.",
-   "currentTask": "S7: screenshot pass over candidate-gt115",
    "lastHeartbeat": "2026-11-24T16:12:00.000Z",
    "observedAt": "2026-11-24T16:12:00.000Z",
    "needsUser": false,
@@ -2327,6 +2411,48 @@
    "category": "SASE portal"
   },
   {
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
+   "agentStatus": "waiting",
+   "status": "scheduled",
+   "title": "GT-138 Site Builder",
+   "detail": "Will apply fixes and design pass after S2 (posted by job lead).",
+   "currentTask": "S3 waits for graded fix list (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "team-fresh-eye-reviewer",
+   "name": "fresh-eye-reviewer",
+   "role": "auditor",
+   "agentStatus": "waiting",
+   "status": "scheduled",
+   "title": "GT-138 Fresh-Eye Reviewer",
+   "detail": "Independent post-fix review (posted by job lead).",
+   "currentTask": "S4 waits for fix diff (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "team-live-verifier",
+   "name": "live-verifier",
+   "role": "auditor",
+   "agentStatus": "waiting",
+   "status": "scheduled",
+   "title": "GT-138 Live Verifier",
+   "detail": "Production smoke test after deploy (posted by job lead).",
+   "currentTask": "S6 waits for deploy (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
+   "observedAt": "2026-11-26T00:20:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2381,20 +2507,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 469 complete: Data Analyst retest 2 sealed SEAL_OK first run (20 changes, 6 neutrals, 0 identity hits). Judging cycle 471.",
-   "currentTask": "Sealed Data Analyst retest 2; judging lands cycle 471",
-   "lastHeartbeat": "2026-11-26T00:06:25.000Z",
-   "observedAt": "2026-11-26T00:06:25.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -2465,20 +2577,6 @@
    "observedAt": "2026-11-25T23:24:24.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 465",
-   "detail": "Panel filed picks for routing check 465: Page Operator x2, Community Manager, Watcher, DevOps; start and completion posted.",
-   "currentTask": "Cycle 465 panel complete",
-   "lastHeartbeat": "2026-11-25T23:06:00.000Z",
-   "observedAt": "2026-11-25T23:06:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "cse-quick-check-6h",
@@ -3307,34 +3405,6 @@
    "category": "design"
   },
   {
-   "agentId": "team-design-auditor",
-   "name": "design-auditor",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-131: owner-eye gate",
-   "detail": "Gate and re-gate delivered: Sumbong Wall SHIP, Fourfold SHIP, Target Practice KILL. Field note written. Posted by the job lead.",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "qa-tester",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-131: verbatim verification",
-   "detail": "All 9 renders PASS letter for letter across two passes; field note written. Posted by the job lead.",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
-  },
-  {
    "agentId": "cse-posting-samples-v2",
    "name": "cse-posting-samples-v2",
    "role": "builder",
@@ -3781,6 +3851,62 @@
    "observedAt": "2026-11-25T04:00:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-po-judge-s2",
+   "name": "PO-S2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-S2 Judge: done",
+   "detail": "PO-S2 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 8.00 vs 7.75.",
+   "currentTask": "PO-S2 judged: specialist win 8.00 vs 7.75",
+   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
+   "observedAt": "2026-11-25T04:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-po-judge-s3",
+   "name": "PO-S3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PO-S3 Judge: done",
+   "detail": "PO-S3 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, B wins 8.25 vs 8.00.",
+   "currentTask": "PO-S3 judged: generic win 8.25 vs 8.00",
+   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
+   "observedAt": "2026-11-25T04:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "drone-diagram-swap-v8",
+   "name": "drone-diagram-swap-v8",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Drone thesis v8 diagram swap (GT-20261125-128)",
+   "detail": "GT128 COMPLETE: v8 print copy built, 89 pages, six Solid Clean diagrams in, lists refreshed, 25 of 25 checks passed, sent to Lobot",
+   "currentTask": "Complete: v8 delivered to Lobot (PDF msg 1079, DOCX msg 1080)",
+   "lastHeartbeat": "2026-11-25T03:58:00.000Z",
+   "observedAt": "2026-11-25T03:58:00.000Z",
+   "needsUser": false,
+   "category": "thesis"
+  },
+  {
+   "agentId": "drone-diagram-redesign-2",
+   "name": "drone-diagram-redesign-2",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT127 Diagram redesign round 2: minimal text, solid colors",
+   "detail": "Complete: six 300 dpi previews sent to Lobot (1073-1078). QA PASS 6 of 6 after the Figure 1 D1/D2 fix and re-audit. Manuscript untouched.",
+   "currentTask": "Complete: previews delivered, verdict pending with owner",
+   "lastHeartbeat": "2026-11-25T03:53:00.000Z",
+   "observedAt": "2026-11-25T03:53:00.000Z",
+   "needsUser": true,
+   "category": "thesis"
   }
  ]
 }
