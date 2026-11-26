@@ -1,35 +1,7 @@
 {
- "generatedAt": "2026-11-26T05:16:20.000Z",
- "summary": "Cycle 493: User Researcher retest UR-R3 solvers running.",
+ "generatedAt": "2026-11-26T05:20:48.000Z",
+ "summary": "Cycle 493 done: User Researcher retest UR-R3 pair collected, key clean, all 3 pairs ready for sealing.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results (account action required). 93 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T04:16:19.000Z",
-   "needsUser": true,
-   "category": "Session watchdog"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results (account action required). 91 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T04:16:19.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
   {
    "agentId": null,
    "name": "Memory daily backup to Google Drive",
@@ -37,11 +9,11 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 25 at 15:26:48Z with 22 consecutive failures and no recorded reason. Last success Nov 4. Next run 15:30:00Z today.",
+   "detail": "Attention: 22 consecutive failures. Last run Nov 25 failed at spawn with binding_retired; last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T04:16:19.000Z",
-   "needsUser": true,
+   "observedAt": "2026-11-26T05:16:27.000Z",
+   "needsUser": false,
    "category": "Backup"
   },
   {
@@ -51,12 +23,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 23 at 11:05:58Z with 7 consecutive failures and no recorded reason. Last success Nov 2. Next run 11:05:58Z today.",
+   "detail": "Attention: 7 consecutive failures. Last run Nov 23 failed at spawn with binding_retired; last success Nov 2.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T04:16:19.000Z",
+   "observedAt": "2026-11-26T05:16:27.000Z",
    "needsUser": false,
    "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results. 93 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T05:16:27.000Z",
+   "needsUser": true,
+   "category": "Telegram"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results. 91 consecutive failures; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T05:16:27.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -65,10 +65,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23 at 00:56:31Z with 3 consecutive failures and no recorded reason. Last success Nov 4. Next run Nov 30 at 01:00:00Z.",
+   "detail": "Attention: 3 consecutive failures. Last run Mon Nov 23 failed at spawn with binding_retired; last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T04:16:19.000Z",
+   "observedAt": "2026-11-26T05:16:15.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 493",
-   "detail": "User Researcher retest UR-R3 solver pair running (specialist vs generic).",
-   "currentTask": "UR-R3 solver pair",
-   "lastHeartbeat": "2026-11-26T05:16:20.000Z",
-   "observedAt": "2026-11-26T05:16:20.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt-141-builder",
@@ -2481,6 +2467,48 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 493",
+   "detail": "UR-R3 pair collected and verified (specialist 9,402 bytes, 115s; generic 7,530 bytes, 94s; key clean, K1-K7 pass both). Sealing cycle 494, judging 496.",
+   "currentTask": "Cycle 493 complete",
+   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
+   "observedAt": "2026-11-26T05:20:48.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "ur-r3-generic",
+   "name": "UR-R3 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R3 generic solver",
+   "detail": "UR-R3 generic solve done (7,530 bytes, 1,205 words, 94s). Posted by cycle parent.",
+   "currentTask": "UR-R3 generic solve complete",
+   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
+   "observedAt": "2026-11-26T05:20:48.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "ur-r3-specialist",
+   "name": "UR-R3 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R3 specialist solver",
+   "detail": "UR-R3 specialist solve done (9,402 bytes, 1,438 words, 115s). Posted by cycle parent.",
+   "currentTask": "UR-R3 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
+   "observedAt": "2026-11-26T05:20:48.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-user-researcher-generic",
    "name": "User Researcher generic",
    "role": "researcher",
@@ -3823,48 +3851,6 @@
    "observedAt": "2026-11-25T10:15:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
-  },
-  {
-   "agentId": "gt133-audit-specialist",
-   "name": "gt133-audit-specialist",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT133: independent audit",
-   "detail": "Audit complete (posted by job lead): forfeit and write handlers clean; results-page snapshot and device-slot lockout flagged as visibility/access loss paths. Report in GT-20261125-133-reports.",
-   "currentTask": "Independent audit complete",
-   "lastHeartbeat": "2026-11-25T10:01:00.000Z",
-   "observedAt": "2026-11-25T10:15:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "gt133-qa-specialist",
-   "name": "gt133-qa-specialist",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT133: independent QA",
-   "detail": "QA complete (posted by job lead): heartbeat skip verified against all write cases; verdict SHIP WITH FIXES, both minors fixed before deploy. Suites re-run green.",
-   "currentTask": "Independent QA complete: SHIP WITH FIXES, both minors fixed",
-   "lastHeartbeat": "2026-11-25T10:04:00.000Z",
-   "observedAt": "2026-11-25T10:15:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "gt132-coordinator",
-   "name": "gt132-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-20261125-132 CSE posting resume",
-   "detail": "Completed: first Sumbong Wall post live and Public (C1-V010), Quick Check every 8h (3/day), outreach every 72h, group copies deferred to scheduled runs.",
-   "currentTask": "Job complete, report filed",
-   "lastHeartbeat": "2026-11-25T09:56:28.000Z",
-   "observedAt": "2026-11-25T09:56:28.000Z",
-   "needsUser": false,
-   "category": "cse-posting"
   }
  ]
 }
