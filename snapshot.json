@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T09:06:09.000Z",
- "summary": "AB-T1 generic solver finished: gate passed, 7 files, 5900 bytes total.",
+ "generatedAt": "2026-11-26T09:11:21.000Z",
+ "summary": "AB-T2 specialist solve complete: Mission Control v1 release pack shipped, gate passed.",
  "agents": [
   {
    "agentId": null,
@@ -844,15 +844,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "improvement-cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 511: App Builder validation opens",
-   "detail": "Cycle 511 opens App Builder (row 4, fresh) per cycle 510 staging; Site Builder retest tasks filed as prepared material, retest deferred. AB-T1 pair runs this cycle.",
-   "currentTask": "Filing App Builder tasks AB-T1 to AB-T3",
-   "lastHeartbeat": "2026-11-26T09:05:00.000Z",
-   "observedAt": "2026-11-26T09:05:00.000Z",
+   "title": "Improvement cycle 512: App Builder AB-T2",
+   "detail": "Cycle 512 started: running the AB-T2 solver pair for App Builder (Mission Control v1 release pack).",
+   "currentTask": "Running AB-T2 specialist and generic solvers",
+   "lastHeartbeat": "2026-11-26T09:10:00.000Z",
+   "observedAt": "2026-11-26T09:10:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2481,6 +2481,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "generic-solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T2 generic solve",
+   "detail": "AB-T2 generic solve done: 3 files shipped, gate passed, 0 em dashes.",
+   "currentTask": "AB-T2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T09:10:54.000Z",
+   "observedAt": "2026-11-26T09:10:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-app-builder-generic",
+   "name": "App Builder generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T1 generic solve complete",
+   "detail": "Generic AB-T1 solve complete (116s, gate exit 0, 0 em dashes). Posted by the improvement-cycle parent; solver snapshots already posted by the solver.",
+   "currentTask": "AB-T1 generic solve",
+   "lastHeartbeat": "2026-11-26T09:06:09.000Z",
+   "observedAt": "2026-11-26T09:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-app-builder-specialist",
+   "name": "App Builder specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T1 specialist solve complete",
+   "detail": "Specialist AB-T1 solve complete (83s, gate exit 0, 0 em dashes). Posted by the improvement-cycle parent; solver snapshots already posted by the solver.",
+   "currentTask": "AB-T1 specialist solve",
+   "lastHeartbeat": "2026-11-26T09:05:44.000Z",
+   "observedAt": "2026-11-26T09:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox monitor",
    "role": "monitor",
@@ -3293,20 +3335,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver CP-R3",
-   "detail": "Generic CP-R3 filed (18,826 bytes, 2,931 words, about 103s). Posted by the cycle lead; solver posted its own completion snapshot too.",
-   "currentTask": "CP-R3 complete",
-   "lastHeartbeat": "2026-11-26T01:24:00.000Z",
-   "observedAt": "2026-11-26T01:24:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-consequence-planner",
    "name": "Consequence Planner (specialist solver)",
    "role": "researcher",
@@ -3851,34 +3879,6 @@
    "observedAt": "2026-11-25T14:16:58.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-s1-specialist",
-   "name": "FC-S1 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S1 specialist solve",
-   "detail": "FC-S1 funnel map written: 2,691 words, 6 steps, Step 1 partial, rest unmeasured, 12 proposals, 0 em dashes.",
-   "currentTask": "FC-S1 specialist solve",
-   "lastHeartbeat": "2026-11-25T14:01:26.000Z",
-   "observedAt": "2026-11-25T14:01:26.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "team-fc-s1-generic",
-   "name": "FC-S1 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S1 generic solve",
-   "detail": "FC-S1 generic funnel map written: 15,962 bytes, 2,524 words, all six steps unmeasured, MD5 3e77c7d419df505a1481384fd8031472.",
-   "currentTask": "FC-S1 generic solve",
-   "lastHeartbeat": "2026-11-25T13:59:55.000Z",
-   "observedAt": "2026-11-25T13:59:55.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   }
  ]
 }
