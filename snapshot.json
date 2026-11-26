@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T15:26:09.000Z",
- "summary": "Cycle 542: Automation Engineer judging in progress",
+ "generatedAt": "2026-11-26T15:31:54.000Z",
+ "summary": "Cycle 542: Automation Engineer judged 8.25 vs 8.00, card rewritten",
  "agents": [
   {
    "agentId": null,
@@ -855,20 +855,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 542: Automation Engineer judging",
-   "detail": "Judging AE-T1 to AE-T3 blind, three fresh QA judges, sealed pairs from cycle 541.",
-   "currentTask": "Judging Automation Engineer AE-T1 to AE-T3 blind",
-   "lastHeartbeat": "2026-11-26T15:26:09.000Z",
-   "observedAt": "2026-11-26T15:26:09.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2565,6 +2551,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 542: Automation Engineer judged",
+   "detail": "AE judged 8.25 vs 8.00, 2 wins 1 loss, not a clear win; card rewritten (rewrite 1), all 3 contamination checks clean.",
+   "currentTask": "Cycle 542 complete: Automation Engineer judged and card rewritten",
+   "lastHeartbeat": "2026-11-26T15:31:54.000Z",
+   "observedAt": "2026-11-26T15:31:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3945,20 +3945,6 @@
    "title": "MIA-R1 generic solver",
    "detail": "MIA-R1 generic output collected: 6,740 bytes, 1,054 words, 57s, MD5 4979cb7ab9848c0d7c9e352740a461da. Posted by cycle parent.",
    "currentTask": "MIA-R1 generic solve complete",
-   "lastHeartbeat": "2026-11-26T02:15:24.000Z",
-   "observedAt": "2026-11-26T02:15:24.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-market-intelligence-analyst",
-   "name": "Market Intelligence Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MIA-R1 specialist solver",
-   "detail": "MIA-R1 specialist output collected: 9,331 bytes, 1,421 words, 175s, MD5 803937e141532a7e84e53ed4e0ec0013. Posted by cycle parent.",
-   "currentTask": "MIA-R1 specialist solve complete",
    "lastHeartbeat": "2026-11-26T02:15:24.000Z",
    "observedAt": "2026-11-26T02:15:24.000Z",
    "needsUser": false,
