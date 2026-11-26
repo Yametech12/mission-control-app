@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:48:00.000Z",
- "summary": "GT-143 complete: webhook fast ack deployed to production and smoke-tested. Reports in ghostname-team/jobs/GT-20261126-143-reports/.",
+ "generatedAt": "2026-11-26T04:56:01.000Z",
+ "summary": "UR-R1 specialist solver completed the SASE buyer message pattern synthesis update (9,952 bytes, 1,628 words).",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 491",
+   "detail": "Cycle 491 started: User Researcher retest opens, tasks UR-R1 to UR-R3 filed, UR-R1 solvers running.",
+   "currentTask": "User Researcher retest, UR-R1 pair collection",
+   "lastHeartbeat": "2026-11-26T04:45:34.000Z",
+   "observedAt": "2026-11-26T04:45:34.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2481,20 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "12:53 PHT check done: Page access OK, 31 threads, 0 new buyer messages, 0 unread. Silent per rule.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T04:54:00.000Z",
+   "observedAt": "2026-11-26T04:54:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "gt-141-fresh-eye",
    "name": "gt-141-fresh-eye",
    "role": "auditor",
@@ -2481,20 +2509,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 490: routing check",
-   "detail": "Cycle 490 routing check done: 4 of 5. Miss RC-T1 (panel Architect 6-2); RC-T2 unanimous; rule 51 held; 230 flag recurs on RC-T1 only.",
-   "currentTask": "Cycle 490 routing check complete: 4 of 5",
-   "lastHeartbeat": "2026-11-26T04:41:00.000Z",
-   "observedAt": "2026-11-26T04:41:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-routing-panel-cycle-490",
    "name": "Routing Panel Cycle 490",
    "role": "coordinator",
@@ -2507,20 +2521,6 @@
    "observedAt": "2026-11-26T04:41:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "12:24 PHT check complete: token valid, 31 threads, 0 new, 0 changed, 0 unread. No buyer messages, no action needed.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T04:28:00.000Z",
-   "observedAt": "2026-11-26T04:28:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "gt-141-diagnosis",
@@ -3846,6 +3846,20 @@
    "status": "completed",
    "title": "GT-131: buyer-hook captions",
    "detail": "Captions final after review fixes; field note written. Posted by the job lead.",
+   "currentTask": "Complete",
+   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
+   "observedAt": "2026-11-25T09:49:11.000Z",
+   "needsUser": false,
+   "category": "design"
+  },
+  {
+   "agentId": "team-reviewer-marketer",
+   "name": "reviewer-marketer",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-131: hook bank and caption review",
+   "detail": "Hook bank (15) and caption review delivered; field note written. Posted by the job lead.",
    "currentTask": "Complete",
    "lastHeartbeat": "2026-11-25T09:49:11.000Z",
    "observedAt": "2026-11-25T09:49:11.000Z",
