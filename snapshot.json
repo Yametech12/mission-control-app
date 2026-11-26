@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T02:20:00.000Z",
- "summary": "MIA-R2 specialist run in progress",
+ "generatedAt": "2026-11-26T02:30:00.000Z",
+ "summary": "GT-140: build complete and lead-verified (14 commits, 53/53 tests, Firebase leg in). Fresh-Eye Reviewer judging the diff, icon set, and renders before deploy.",
  "agents": [
   {
    "agentId": null,
@@ -835,40 +835,26 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-140 ClinicFlow Pro Max improvement pass",
-   "detail": "S4 in progress: Site Builder implementing FL140-01 to FL140-12 with the confirmed Bisaya string table.",
-   "currentTask": "S4 build in progress with Site Builder",
-   "lastHeartbeat": "2026-11-26T02:22:00.000Z",
-   "observedAt": "2026-11-26T02:22:00.000Z",
+   "detail": "S4 and S5b done and lead-verified. S5 fresh-eye review running; deploy follows its verdict.",
+   "currentTask": "S5 fresh-eye review in progress",
+   "lastHeartbeat": "2026-11-26T02:30:00.000Z",
+   "observedAt": "2026-11-26T02:30:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
   {
-   "agentId": "team-site-builder",
-   "name": "team-site-builder",
-   "role": "builder",
+   "agentId": "team-fresh-eye-reviewer",
+   "name": "team-fresh-eye-reviewer",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Site Builder: GT-140 fixes and icon set",
-   "detail": "Posted by job lead. Building: 12 fix items, Booked Tooth icon set, privacy and terms, new test gates.",
-   "currentTask": "S4: implementing FL140-01 to FL140-12",
-   "lastHeartbeat": "2026-11-26T02:22:00.000Z",
-   "observedAt": "2026-11-26T02:22:00.000Z",
+   "title": "Fresh-Eye Reviewer: GT-140 diff and renders",
+   "detail": "Posted by job lead. Reviewing diff, icon set, and renders; deploy verdict pending.",
+   "currentTask": "S5: independent review of GT-140 diff and renders",
+   "lastHeartbeat": "2026-11-26T02:30:00.000Z",
+   "observedAt": "2026-11-26T02:30:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "mia-r2-specialist",
-   "name": "MIA-R2 specialist",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "MIA-R2 specialist brief",
-   "detail": "Specialist solver drafting the Validated Field Dataset Licensing brief from the rewritten card.",
-   "currentTask": "Drafting MIA-R2 category brief from the specialist card",
-   "lastHeartbeat": "2026-11-26T02:20:00.000Z",
-   "observedAt": "2026-11-26T02:20:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2383,20 +2369,6 @@
    "category": "SASE portal"
   },
   {
-   "agentId": "team-fresh-eye-reviewer",
-   "name": "team-fresh-eye-reviewer",
-   "role": "auditor",
-   "agentStatus": "idle",
-   "status": "scheduled",
-   "title": "Fresh-Eye Reviewer: GT-140 diff and renders",
-   "detail": "Posted by job lead. Queued behind S4 build.",
-   "currentTask": "Waiting for S4 build",
-   "lastHeartbeat": "2026-11-26T02:13:07.000Z",
-   "observedAt": "2026-11-26T02:13:07.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
    "agentId": "team-live-verifier",
    "name": "team-live-verifier",
    "role": "auditor",
@@ -2465,6 +2437,48 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "team-site-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder: GT-140 fixes and icon set",
+   "detail": "Posted by job lead. Complete: 14 commits to 052accc, 53/53 tests, builder-report.md filed.",
+   "currentTask": "Done: reports/builder-report.md delivered",
+   "lastHeartbeat": "2026-11-26T02:30:00.000Z",
+   "observedAt": "2026-11-26T02:30:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox monitor",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "10:24 PHT check complete: Page access OK, 31 threads, 0 unread, 0 new buyer messages, no replies or PDF sent.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T02:24:51.000Z",
+   "observedAt": "2026-11-26T02:24:51.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "mia-r2-generic",
+   "name": "MIA-R2 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MIA-R2 generic solver",
+   "detail": "Posted by the cycle parent: generic solver completed, 8,573 bytes, 1,319 words, 128s.",
+   "currentTask": "MIA-R2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T02:22:14.000Z",
+   "observedAt": "2026-11-26T02:24:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-localization-specialist",
@@ -2563,20 +2577,6 @@
    "observedAt": "2026-11-26T01:58:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "Checked 09:53 PHT: 31 threads, 0 unread, 0 new buyer messages. No replies sent, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T01:55:10.000Z",
-   "observedAt": "2026-11-26T01:55:10.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-api-integration-engineer",
@@ -3837,34 +3837,6 @@
    "observedAt": "2026-11-25T05:35:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-ads-specialist",
-   "name": "Ads Specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ads Specialist retest AS-R2 specialist",
-   "detail": "AS-R2 specialist output collected (14,712 bytes, 2,438 words, 184s). Posted by cycle parent; solver start post failed once on summary field.",
-   "currentTask": "AS-R2 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T05:35:10.000Z",
-   "observedAt": "2026-11-25T05:35:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-ads-specialist",
-   "name": "Ads Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AS-R1 specialist solve",
-   "detail": "AS-R1 specialist pack filed: 7 sections, 2120 words, Leads objective, spend USD 0 paused, all policy rows PENDING.",
-   "currentTask": "AS-R1 Pod Diagnostic campaign design pack complete",
-   "lastHeartbeat": "2026-11-25T05:23:07.000Z",
-   "observedAt": "2026-11-25T05:23:07.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
