@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T07:01:19.000Z",
- "summary": "SB-V3 generic solver completed.",
+ "generatedAt": "2026-11-26T07:05:00.000Z",
+ "summary": "Cycle 501 complete: SB-V3 pair collected and verified; sealing 502, judging 503.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 501: Site Builder SB-V3 solvers",
-   "detail": "Cycle 501 running: Site Builder SB-V3 solver pair dispatched (specialist + generic).",
-   "currentTask": "Cycle 501: SB-V3 solver pair dispatched",
-   "lastHeartbeat": "2026-11-26T06:56:00.000Z",
-   "observedAt": "2026-11-26T06:56:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2453,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 501: Site Builder SB-V3 collected",
+   "detail": "Cycle 501 done: SB-V3 pair collected (spec 6,417/5,444B 398s; gen 5,143/3,874B 276s). All 3 pairs collected; sealing 502, judging 503.",
+   "currentTask": "Cycle 501 complete: SB-V3 pair collected",
+   "lastHeartbeat": "2026-11-26T07:05:00.000Z",
+   "observedAt": "2026-11-26T07:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox monitor",
    "role": "monitor",
@@ -3849,20 +3849,6 @@
    "currentTask": "Audit complete, report delivered",
    "lastHeartbeat": "2026-11-25T12:31:00.000Z",
    "observedAt": "2026-11-25T12:31:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt134-copy",
-   "name": "gt134-copy",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-134 ClinicFlow copy and UX audit",
-   "detail": "Audit complete: 3 Critical, 6 Major, 5 Minor; findings and full copy deck written to GT-20261125-134-reports/copy.md",
-   "currentTask": "Audit complete, report delivered",
-   "lastHeartbeat": "2026-11-25T12:28:18.000Z",
-   "observedAt": "2026-11-25T12:28:18.000Z",
    "needsUser": false,
    "category": "automation-sprints"
   }
