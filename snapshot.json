@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T13:56:00.000Z",
- "summary": "Cycle 536: judging the App Builder retest (AB-R1 to AB-R3, sealed cycle 534).",
+ "generatedAt": "2026-11-26T14:01:41.000Z",
+ "summary": "AB-R3 judged: Candidate B wins 8.75 vs 6.75. Both pass K1-K7. No contamination, run valid.",
  "agents": [
   {
    "agentId": null,
