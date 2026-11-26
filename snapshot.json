@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:31:30.000Z",
- "summary": "Improvement cycle 524 complete: Systems Builder retest opened, SYSB-R1 pair collected.",
+ "generatedAt": "2026-11-26T11:36:25.000Z",
+ "summary": "Cycle 525 routing check in progress (seventy-seventh check): 5 fresh GT-147 legs.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -857,6 +857,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 525",
+   "detail": "Cycle 525 routing check started: 5 fresh GT-147 go-live legs, Coordinator picks sealed before the panel reads.",
+   "currentTask": "Cycle 525 routing check: GT-147 legs, Coordinator picks sealed",
+   "lastHeartbeat": "2026-11-26T11:36:25.000Z",
+   "observedAt": "2026-11-26T11:36:25.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "6da5c9d5-cfbf-4c95-be4e-3823aca3bf85",
    "name": "GT-147 CSE profile/cover agent",
    "role": "builder",
@@ -869,20 +883,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "CSE Page"
-  },
-  {
-   "agentId": "gt-147-cse-golive",
-   "name": "gt147-cse-golive-lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-147 CSE Pro Max go-live",
-   "detail": "Milestone: owner pick applied, Page profile picture is now P2 and cover is now C2, both verified by read-back and visual check; 19:30 run verification still pending",
-   "currentTask": "Profile P2 + cover C2 swapped and verified; waiting to verify tonight 19:30 E1 run",
-   "lastHeartbeat": "2026-11-26T10:26:00.000Z",
-   "observedAt": "2026-11-26T10:26:00.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "gt-141-builder",
@@ -2509,18 +2509,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "agentId": "gt-147-cse-golive",
+   "name": "gt147-cse-golive-lead",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 524",
-   "detail": "Cycle 524 complete: Systems Builder retest opened, SYSB-R1 pair collected and verified (both tests 6/6, 0 em dashes). R2 solvers cycle 526.",
-   "currentTask": "Cycle 524 complete: Systems Builder retest, SYSB-R1 collected",
-   "lastHeartbeat": "2026-11-26T11:31:30.000Z",
-   "observedAt": "2026-11-26T11:31:30.000Z",
+   "title": "GT-147 CSE Pro Max go-live",
+   "detail": "GT-147 complete: cron 06:30/12:15/19:30 live, About+description applied, profile P2 + cover C2 swapped, how-to-order video public; bio unsettable via API and video pin needs browser; Day 1 started, 19:30 E1 post verified public",
+   "currentTask": "GT-147 complete",
+   "lastHeartbeat": "2026-11-26T11:36:00.000Z",
+   "observedAt": "2026-11-26T11:36:00.000Z",
    "needsUser": false,
-   "category": "team-validation"
+   "category": "cse"
   },
   {
    "agentId": "sysb-r1-specialist-solver",
