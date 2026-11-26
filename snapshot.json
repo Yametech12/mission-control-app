@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:01:00.000Z",
- "summary": "Cycle 496 done: User Researcher retest VALIDATED 8.25 vs 6.83, 3 wins, clean judging. Scoreboard 19 validated, 8 flagged, 52 unvalidated of 79.",
+ "generatedAt": "2026-11-26T06:13:00.000Z",
+ "summary": "Cycle 497 complete: Site Builder validation opened, SB-V1 pair dispatched.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Generic solver SB-V1",
+   "detail": "SB-V1 generic solver building (posted by cycle lead); collects cycle 498.",
+   "currentTask": "SB-V1 generic build: dormant sign-in banner fix",
+   "lastHeartbeat": "2026-11-26T06:13:00.000Z",
+   "observedAt": "2026-11-26T06:13:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Site Builder SB-V1 specialist",
+   "detail": "SB-V1 specialist solver building (posted by cycle lead); collects cycle 498.",
+   "currentTask": "SB-V1 specialist build: dormant sign-in banner fix",
+   "lastHeartbeat": "2026-11-26T06:13:00.000Z",
+   "observedAt": "2026-11-26T06:13:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2454,15 +2482,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 496",
-   "detail": "Cycle 496 complete: User Researcher retest VALIDATED 8.25 vs 6.83, 3 wins. Scoreboard 19 validated, 8 flagged, 52 unvalidated.",
-   "currentTask": "Cycle 496 complete: User Researcher validated",
-   "lastHeartbeat": "2026-11-26T06:01:00.000Z",
-   "observedAt": "2026-11-26T06:01:00.000Z",
+   "title": "Ghostname Team improvement cycle 497",
+   "detail": "Cycle 497 complete: Site Builder validation opened, SB-V1 to SB-V3 filed with sealed keys, SB-V1 pair dispatched; SB-V1 collects cycle 498.",
+   "currentTask": "Cycle 497 done: SB-V1 pair dispatched, records filed",
+   "lastHeartbeat": "2026-11-26T06:13:00.000Z",
+   "observedAt": "2026-11-26T06:13:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2845,20 +2873,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-site-builder",
-   "name": "team-site-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Site Builder: GT-140 fixes and icon set",
-   "detail": "Posted by job lead. Complete: build round plus FE-1 fix round, final commit cd12ed7, suite 54/54.",
-   "currentTask": "Done: build and FE-1 fix delivered",
-   "lastHeartbeat": "2026-11-26T02:47:28.000Z",
-   "observedAt": "2026-11-26T02:47:28.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
    "agentId": "team-fresh-eye-reviewer",
    "name": "team-fresh-eye-reviewer",
    "role": "auditor",
@@ -3065,20 +3079,6 @@
    "currentTask": "CP-R3 complete",
    "lastHeartbeat": "2026-11-26T01:24:00.000Z",
    "observedAt": "2026-11-26T01:24:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CP-R1 generic solver",
-   "detail": "CP-R1 generic done: 21,091 bytes, 3,407 words, about 55s (posted by cycle lead).",
-   "currentTask": "CP-R1 consequence map done",
-   "lastHeartbeat": "2026-11-26T00:59:22.000Z",
-   "observedAt": "2026-11-26T00:59:22.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3851,6 +3851,34 @@
    "observedAt": "2026-11-25T11:18:40.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-pra-s1-generic",
+   "name": "PRA-S1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PRA-S1 generic solve",
+   "detail": "PRA-S1 generic sheet done: 28,223 bytes, 7 sections in order, 0 em dashes, draft only.",
+   "currentTask": "PRA-S1 KreekCraft pricing verification sheet complete",
+   "lastHeartbeat": "2026-11-25T10:33:13.000Z",
+   "observedAt": "2026-11-25T10:33:13.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "clinicflow-connect-build",
+   "name": "clinicflow-connect-build",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ClinicFlow Connect v1 build",
+   "detail": "Done. Live at clinicflow-connect-two.vercel.app, deployment READY, endpoints verified live, providers honestly report setup pending until central apps exist.",
+   "currentTask": "Build complete and deployed",
+   "lastHeartbeat": "2026-11-25T10:31:47.000Z",
+   "observedAt": "2026-11-25T10:31:47.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
   }
  ]
 }
