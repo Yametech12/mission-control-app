@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:58:00.000Z",
- "summary": "SYSB-R3 specialist solver done",
+ "generatedAt": "2026-11-26T12:01:20.000Z",
+ "summary": "Cycle 527 complete: Systems Builder retest SYSB-R3 pair collected, all three pairs ready for sealing",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -855,20 +855,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 527: Systems Builder retest SYSB-R3",
-   "detail": "SYSB-R3 solver pair dispatched (specialist vs generic); sealing 528, judging 529.",
-   "currentTask": "SYSB-R3 solver pair running",
-   "lastHeartbeat": "2026-11-26T11:55:34.000Z",
-   "observedAt": "2026-11-26T11:55:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "6da5c9d5-cfbf-4c95-be4e-3823aca3bf85",
@@ -2509,16 +2495,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 527: Systems Builder retest SYSB-R3",
+   "detail": "SYSB-R3 pair collected and verified; both tests exit 0, 7 of 7; K1-K7 pass both; sealing 528, judging 529.",
+   "currentTask": "Cycle 527 complete",
+   "lastHeartbeat": "2026-11-26T12:01:20.000Z",
+   "observedAt": "2026-11-26T12:01:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-generic-solver",
    "name": "Generic solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "SYSB-R3 generic solve",
-   "detail": "SYSB-R3 generic: snapshot.js 5911B, test.js 10762B, note 771 words; node test.js exit 0, 7/7 cases pass in 0.36s; 0 em/en dashes.",
+   "detail": "Generic solve complete: 5,911/10,762/4,885 bytes, 771 words, 65s; test exit 0, 7 of 7. Posted by cycle parent.",
    "currentTask": "SYSB-R3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T11:58:32.000Z",
-   "observedAt": "2026-11-26T11:58:32.000Z",
+   "lastHeartbeat": "2026-11-26T11:58:51.000Z",
+   "observedAt": "2026-11-26T12:01:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2529,10 +2529,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "SYSB-R3 specialist solve",
-   "detail": "snapshot.js 8033B, test.js 9225B, note 730 words; node test.js exit 0, 7/7 pass; 0 em/en dashes",
+   "detail": "Specialist solve complete: 8,033/9,225/4,501 bytes, 730 words, 122s; test exit 0, 7 of 7. Posted by cycle parent.",
    "currentTask": "SYSB-R3 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T11:58:00.000Z",
-   "observedAt": "2026-11-26T11:58:00.000Z",
+   "lastHeartbeat": "2026-11-26T11:58:57.000Z",
+   "observedAt": "2026-11-26T12:01:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3891,20 +3891,6 @@
    "currentTask": "DA-R3 specialist run complete",
    "lastHeartbeat": "2026-11-25T21:04:41.000Z",
    "observedAt": "2026-11-25T21:04:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-da-r2-specialist",
-   "name": "DA-R2 specialist solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DA-R2 specialist solver",
-   "detail": "DA-R2 specialist report written: 1,674 words, exec summary plus sections 1 to 5, all figures from the task record.",
-   "currentTask": "DA-R2 specialist report complete",
-   "lastHeartbeat": "2026-11-25T20:22:28.000Z",
-   "observedAt": "2026-11-25T20:22:28.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
