@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T01:42:22.000Z",
- "summary": "Cycle 476 complete: Consequence Planner retest sealed, judging cycle 477.",
+ "generatedAt": "2026-11-26T01:58:00.000Z",
+ "summary": "GT-139: all audits done (functional: 26 works, 3 Minor, 2 credential-blocked groups). Fix list FL139-01 to 08 compiled; Site Builder applying fixes and the Firebase migration.",
  "agents": [
   {
    "agentId": null,
@@ -807,24 +807,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-139 ClinicFlow fix and improve round 2",
-   "detail": "Three of four audits done; functional audit S5b running; then fix list and Site Builder",
-   "currentTask": "Waiting on functional audit, then S3 fix list",
-   "lastHeartbeat": "2026-11-26T01:52:00.000Z",
-   "observedAt": "2026-11-26T01:52:00.000Z",
+   "detail": "S3 fix list done; Site Builder working FL139-01 to 08 (design, 360px bar, method and session fixes, Firebase login)",
+   "currentTask": "S4 build in progress",
+   "lastHeartbeat": "2026-11-26T01:58:00.000Z",
+   "observedAt": "2026-11-26T01:58:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
   {
-   "agentId": "team-qa-tester",
-   "name": "QA Tester",
-   "role": "auditor",
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "QA Tester (GT-139)",
-   "detail": "Posted by the job lead: functional audit of every product flow running (S5b)",
-   "currentTask": "S5b functional audit: endpoints, webhook, Telegram",
-   "lastHeartbeat": "2026-11-26T01:40:00.000Z",
-   "observedAt": "2026-11-26T01:40:00.000Z",
+   "title": "Site Builder (GT-139)",
+   "detail": "Posted by the job lead: applying FL139-01 to 08 in the repo",
+   "currentTask": "S4 build: design fixes, functional fixes, Firebase login",
+   "lastHeartbeat": "2026-11-26T01:58:00.000Z",
+   "observedAt": "2026-11-26T01:58:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
@@ -2341,20 +2341,6 @@
    "category": "SASE portal"
   },
   {
-   "agentId": "team-site-builder",
-   "name": "Site Builder",
-   "role": "builder",
-   "agentStatus": "idle",
-   "status": "scheduled",
-   "title": "Site Builder (GT-139)",
-   "detail": "Posted by the job lead: queued, applies fixes after fix list is confirmed",
-   "currentTask": "Waiting for fix list",
-   "lastHeartbeat": "2026-11-26T01:26:00.000Z",
-   "observedAt": "2026-11-26T01:26:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
    "agentId": "team-fresh-eye-reviewer",
    "name": "Fresh-Eye Reviewer",
    "role": "auditor",
@@ -2437,6 +2423,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "QA Tester",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA Tester (GT-139)",
+   "detail": "Posted by the job lead: S5b done on re-dispatch, 26 works, 0C 0M 3m, 2 blocked groups, reports/functional-audit.md",
+   "currentTask": "Done: reports/functional-audit.md",
+   "lastHeartbeat": "2026-11-26T01:58:00.000Z",
+   "observedAt": "2026-11-26T01:58:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
   },
   {
    "agentId": "team-device-rendering-tester",
@@ -3819,20 +3819,6 @@
    "title": "SMM retest 2 judge S1",
    "detail": "SMM-S1 judged blind: generic win 8.50 vs 7.50, contamination clean (posted by cycle parent)",
    "currentTask": "SMM-S1 judged: generic win 8.50 vs 7.50",
-   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
-   "observedAt": "2026-11-25T05:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "smm-judge-s2",
-   "name": "SMM Judge S2",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM retest 2 judge S2",
-   "detail": "SMM-S2 judged blind: specialist win 8.75 vs 7.75, contamination clean (posted by cycle parent)",
-   "currentTask": "SMM-S2 judged: specialist win 8.75 vs 7.75",
    "lastHeartbeat": "2026-11-25T05:11:00.000Z",
    "observedAt": "2026-11-25T05:11:00.000Z",
    "needsUser": false,
