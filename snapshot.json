@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T07:37:53.000Z",
- "summary": "Ghostname Team improvement cycle 504 complete: Systems Builder SYSB-T1 pair collected and verified.",
+ "generatedAt": "2026-11-26T07:46:00.000Z",
+ "summary": "Routing Panel cycle 505 complete: panel-picks.md written with all 5 picks and vote splits.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 505: routing check",
+   "detail": "Cycle 505 routing check started: GT-142 panel legs, GT-144 evidence table, GT-141 Fresh-Eye",
+   "currentTask": "Cycle 505 routing check: 5 fresh legs, Coordinator picks sealed",
+   "lastHeartbeat": "2026-11-26T07:43:30.000Z",
+   "observedAt": "2026-11-26T07:43:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2425,18 +2439,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "agentId": "routing-check-panel-cycle-505",
+   "name": "Routing Panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 504: Systems Builder validation",
-   "detail": "Cycle 504 complete: SYSB-T1 pair collected and verified, K1-K7 pass both, 7 splits filed. SYSB-T2 runs cycle 506.",
-   "currentTask": "Cycle 504 complete: SYSB-T1 pair collected",
-   "lastHeartbeat": "2026-11-26T07:37:53.000Z",
-   "observedAt": "2026-11-26T07:37:53.000Z",
+   "title": "Routing Panel cycle 505",
+   "detail": "Picks: RC-T1 Architect 7-1, RC-T2 Architect 7-1, RC-T3 Money Researcher 6-2, RC-T4 Evidence Auditor 6-2, RC-T5 Fresh-Eye Reviewer 7-1.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-26T07:46:00.000Z",
+   "observedAt": "2026-11-26T07:46:00.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
   },
   {
    "agentId": "sysb-t1-generic",
