@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T20:38:00.000Z",
- "summary": "Ghostname Team improvement cycle 565: routing check 85 running",
+ "generatedAt": "2026-11-26T20:50:00.000Z",
+ "summary": "Ghostname Team improvement cycle 565 complete: routing check 85 scored 4 of 5",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 565",
-   "detail": "Routing check 85 running: 5 fresh Nov 26 legs, Coordinator picks sealing, panel reading next.",
-   "currentTask": "Routing check 85: sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-26T20:38:00.000Z",
-   "observedAt": "2026-11-26T20:38:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,6 +2537,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 565",
+   "detail": "Routing check 85 complete: 4 of 5 (AIE 6-2, Coursework Planner 5-3, Systems Builder 5-3, Watcher 8-0; miss RC-T1 Fact Checker 6-2, panel better). Rule 60 added. Flag recurs RC-T1.",
+   "currentTask": "Routing check 85 complete",
+   "lastHeartbeat": "2026-11-26T20:50:00.000Z",
+   "observedAt": "2026-11-26T20:50:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel-565",
+   "name": "Routing check panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 565 panel",
+   "detail": "Panel complete: Fact Checker 6-2, API Integration Engineer 6-2, Coursework Planner 5-3, Systems Builder 5-3, Watcher 8-0. Picks filed. Posted by parent in completion snapshot.",
+   "currentTask": "Routing check 565 panel complete",
+   "lastHeartbeat": "2026-11-26T20:50:00.000Z",
+   "observedAt": "2026-11-26T20:50:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-aie-t3-generic",
    "name": "AIE-T3 generic solver",
    "role": "builder",
@@ -3377,20 +3391,6 @@
    "category": "CSE Page"
   },
   {
-   "agentId": "team-routing-panel-520",
-   "name": "Routing Panel 520",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel 520",
-   "detail": "Panel picks filed: Art Director 6-2, Reviewer Marketer 5-3, Social Media Manager 6-2, Clip Producer 6-2, Caption Writer 7-1. (Posted by parent.)",
-   "currentTask": "Panel 520 complete",
-   "lastHeartbeat": "2026-11-26T10:49:00.000Z",
-   "observedAt": "2026-11-26T10:49:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "team-improvement-cycle-sb-r3-specialist",
    "name": "SB-R3 specialist solver",
    "role": "builder",
@@ -3935,20 +3935,6 @@
    "observedAt": "2026-11-26T05:06:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "ur-r1-generic",
-   "name": "UR-R1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R1 generic solver (posted by job lead)",
-   "detail": "UR-R1 generic deliverable complete: 8,234 bytes, 1,375 words, 70s, MD5 ec72d9558135372e668eb85b1f64da32.",
-   "currentTask": "UR-R1 generic deliverable complete",
-   "lastHeartbeat": "2026-11-26T04:55:55.000Z",
-   "observedAt": "2026-11-26T04:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
