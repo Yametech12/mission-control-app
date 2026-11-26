@@ -1,77 +1,7 @@
 {
- "generatedAt": "2026-11-26T07:16:30.000Z",
- "summary": "Improvement cycle 503 running: Site Builder judging.",
+ "generatedAt": "2026-11-26T07:21:30.000Z",
+ "summary": "Improvement cycle 503 complete: Site Builder judged 8.17/8.25, card rewritten.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 22 consecutive failures. Last run failed Nov 25 at 15:26Z; last success Nov 4. Spawn failed before execution started.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T06:16:10.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Attention: 91 consecutive failures and paused. The WhatsApp chat it posts to can no longer receive results; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T06:16:10.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: 93 consecutive failures and paused. The WhatsApp chat it posts to can no longer receive results; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T06:16:10.000Z",
-   "needsUser": true,
-   "category": "Telegram"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures. Last run failed Nov 23 at 11:05Z; last success Nov 2.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T06:16:10.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures. Last run failed Nov 23 at 00:56Z; last success Nov 4. Next run Mon Nov 30 at 01:00Z.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T06:16:10.000Z",
-   "needsUser": false,
-   "category": "Zulti"
-  },
   {
    "agentId": null,
    "name": "ClinicFlow Connect upgrade blocked",
@@ -88,6 +18,20 @@
   },
   {
    "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Attention: blocked, the chat it posts to can no longer receive results (account action required). 91 consecutive failures; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T02:35:11.000Z",
+   "needsUser": true,
+   "category": "whop"
+  },
+  {
+   "agentId": null,
    "name": "Jo Koy JK5: posted, Whop submission blocked",
    "role": null,
    "agentStatus": null,
@@ -99,6 +43,34 @@
    "observedAt": "2026-11-26T02:16:52.000Z",
    "needsUser": false,
    "category": "clipping"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Attention: blocked, the chat it posts to can no longer receive results (account action required). 93 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T01:46:27.000Z",
+   "needsUser": true,
+   "category": "telegram"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Drive",
+   "detail": "Attention: 22 consecutive failures; last run Nov 25 23:26 PHT failed at spawn with a platform admission error. Last success Nov 4.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T15:26:48.000Z",
+   "needsUser": false,
+   "category": "backup"
   },
   {
    "agentId": null,
@@ -841,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 503: Site Builder judging",
-   "detail": "Judging all three sealed Site Builder pairs blind, one fresh QA judge per task.",
-   "currentTask": "Judging SB-V1, SB-V2, SB-V3 blind",
-   "lastHeartbeat": "2026-11-26T07:16:30.000Z",
-   "observedAt": "2026-11-26T07:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 503: Site Builder judged, card rewritten",
+   "detail": "SB-V1 generic 8.75-7.50, SB-V2 generic 8.50-8.25, SB-V3 specialist 8.75-7.50; run 8.17/8.25, no clear win, card rewrite 1 filed.",
+   "currentTask": "Cycle 503 complete: Site Builder judged, card rewritten",
+   "lastHeartbeat": "2026-11-26T07:21:30.000Z",
+   "observedAt": "2026-11-26T07:21:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox monitor",
    "role": "monitor",
@@ -3849,20 +3821,6 @@
    "currentTask": "Audit complete, report delivered",
    "lastHeartbeat": "2026-11-25T12:31:00.000Z",
    "observedAt": "2026-11-25T12:31:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt134-copy",
-   "name": "gt134-copy",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-134 ClinicFlow copy and UX audit",
-   "detail": "Audit complete: 3 Critical, 6 Major, 5 Minor; findings and full copy deck written to GT-20261125-134-reports/copy.md",
-   "currentTask": "Audit complete, report delivered",
-   "lastHeartbeat": "2026-11-25T12:28:18.000Z",
-   "observedAt": "2026-11-25T12:28:18.000Z",
    "needsUser": false,
    "category": "automation-sprints"
   }
