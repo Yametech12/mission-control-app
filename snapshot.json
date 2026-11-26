@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:02:00.000Z",
- "summary": "GT-146 complete. Full CSE pro max pack in GT-20261126-146-reports: audit, brand directions, page copy, decided schedule and posting plan, 7-day posters and captions, 5 verified videos. Schedule ready for cron implementation; profile and cover swap awaits the owner's design pick.",
+ "generatedAt": "2026-11-26T10:36:00.000Z",
+ "summary": "GT-147 milestone: cron rewire verified, awaiting 19:30 run",
  "agents": [
   {
    "agentId": null,
@@ -815,18 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "agentId": "gt-147-cse-golive",
+   "name": "gt147-cse-golive-lead",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 516: App Builder judging",
-   "detail": "Cycle 516: App Builder judging started, 3 fresh-context QA judges on AB-T1, AB-T2, AB-T3",
-   "currentTask": "Cycle 516: judging the App Builder pairs blind",
-   "lastHeartbeat": "2026-11-26T09:56:39.000Z",
-   "observedAt": "2026-11-26T09:56:39.000Z",
+   "title": "GT-147 CSE Pro Max go-live",
+   "detail": "Milestone: cron rewired and verified via cron.view (morning 06:30, reel 12:15, evening 19:30); outreach job untouched; tonight 19:30 E1 run pending verification",
+   "currentTask": "Cron rewire verified (06:30/12:15/19:30 daily); waiting to verify tonight 19:30 E1 run",
+   "lastHeartbeat": "2026-11-26T10:36:00.000Z",
+   "observedAt": "2026-11-26T10:36:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "cse"
   },
   {
    "agentId": "gt-141-builder",
@@ -2453,6 +2453,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-judge-ab-t1",
+   "name": "AB-T1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T1 judge (cycle 516)",
+   "detail": "AB-T1 judged (carried by parent): generic win 7.75 vs 7.00, contamination clean",
+   "currentTask": "AB-T1 judged: generic win 7.75 vs 7.00",
+   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
+   "observedAt": "2026-11-26T10:04:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-ab-t2",
+   "name": "AB-T2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T2 judge (cycle 516)",
+   "detail": "AB-T2 judged (carried by parent): specialist win 8.25 vs 7.50, contamination clean",
+   "currentTask": "AB-T2 judged: specialist win 8.25 vs 7.50",
+   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
+   "observedAt": "2026-11-26T10:04:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-ab-t3",
+   "name": "AB-T3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T3 judge (cycle 516)",
+   "detail": "AB-T3 judged (carried by parent, corrected category): specialist win 8.75 vs 5.25, contamination clean",
+   "currentTask": "AB-T3 judged: specialist win 8.75 vs 5.25",
+   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
+   "observedAt": "2026-11-26T10:04:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 516: App Builder judging",
+   "detail": "Cycle 516 done: App Builder 8.00 vs 6.83, 2 wins 1 loss, NOT a clear win; card rewritten (rewrite 1), archive verified",
+   "currentTask": "Cycle 516 complete: App Builder judged, card rewritten",
+   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
+   "observedAt": "2026-11-26T10:04:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt-146-cse-promax",
    "name": "gt-146-cse-promax",
    "role": "coordinator",
@@ -2465,20 +2521,6 @@
    "observedAt": "2026-11-26T10:02:00.000Z",
    "needsUser": true,
    "category": "cse"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-ab-t3",
-   "name": "AB-T3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T3 Judge: judgement filed",
-   "detail": "AB-T3 judged: A 8.75, B 5.25. Winner A by 3.50. Both gates 15/15, no em dashes. Contamination check clean.",
-   "currentTask": "Blind judge AB-T3 App Builder validation",
-   "lastHeartbeat": "2026-11-26T09:59:58.000Z",
-   "observedAt": "2026-11-26T09:59:58.000Z",
-   "needsUser": false,
-   "category": "ghostnote-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3809,48 +3851,6 @@
    "observedAt": "2026-11-25T16:03:34.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-generic-solver-apm-s2",
-   "name": "Generic solver APM-S2",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-S2 generic solver",
-   "detail": "Generic output filed: 5,212 bytes, 888 words, 34s, 0 em dashes. Posted by cycle parent.",
-   "currentTask": "APM-S2 generic solve complete",
-   "lastHeartbeat": "2026-11-25T15:49:30.000Z",
-   "observedAt": "2026-11-25T15:49:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-affiliate-program-manager",
-   "name": "Affiliate Program Manager",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-S2 specialist solver",
-   "detail": "Specialist output filed: 3,966 bytes, 675 words, about 83s, 0 em dashes. Posted by cycle parent.",
-   "currentTask": "APM-S2 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T15:49:30.000Z",
-   "observedAt": "2026-11-25T15:49:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-apm-s1-generic",
-   "name": "APM-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-S1 generic solver",
-   "detail": "APM-S1 generic output collected (6,182 bytes, 975 words, about 125s, 0 em dashes). Dashboard snapshots failed once on schema; carried by cycle parent.",
-   "currentTask": "APM-S1 generic output collected",
-   "lastHeartbeat": "2026-11-25T15:27:13.000Z",
-   "observedAt": "2026-11-25T15:27:13.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
