@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:45:34.000Z",
- "summary": "Improvement cycle 495: routing check on 5 fresh GT-141/142/143 legs.",
+ "generatedAt": "2026-11-26T05:48:00.000Z",
+ "summary": "Improvement cycle 495: routing check 4 of 5 on fresh GT-141/142/143 legs; User Researcher judging lands cycle 496.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 495",
-   "detail": "Cycle 495 routing check started: 5 fresh GT-141/142/143 legs, coordinator picks sealed, panel reading.",
-   "currentTask": "Routing check cycle 495: 5 fresh GT-141/142/143 legs",
-   "lastHeartbeat": "2026-11-26T05:45:34.000Z",
-   "observedAt": "2026-11-26T05:45:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2481,6 +2467,34 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 495",
+   "detail": "Cycle 495 routing check done: 4 of 5 on fresh GT-141/142/143 legs; miss RC-T1 only, Coordinator read better call. Scoreboard 18/8/53.",
+   "currentTask": "Cycle 495 complete: routing check 4 of 5",
+   "lastHeartbeat": "2026-11-26T05:48:00.000Z",
+   "observedAt": "2026-11-26T05:48:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel-495",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 495",
+   "detail": "Routing panel cycle 495 complete: picks filed in panel-picks.md (4 matches, 1 miss on RC-T1). Posted by parent.",
+   "currentTask": "Panel picks filed for cycle 495",
+   "lastHeartbeat": "2026-11-26T05:47:46.000Z",
+   "observedAt": "2026-11-26T05:47:46.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3837,34 +3851,6 @@
    "observedAt": "2026-11-25T10:24:00.000Z",
    "needsUser": false,
    "category": "sase-site"
-  },
-  {
-   "agentId": "gt133-coordinator",
-   "name": "gt133-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT133: portal saved-answers bug fix",
-   "detail": "COMPLETE: Nov 23 migration stranded pre-Nov-23 results (exams copied = 0). Heartbeat-skip fix live (1c92100), 267 tests pass, smoke 12/12, snapshot saved, Kenth notified; his old results unrecoverable, stated honestly.",
-   "currentTask": "Complete: fix deployed and verified live, Kenth notified",
-   "lastHeartbeat": "2026-11-25T10:15:00.000Z",
-   "observedAt": "2026-11-25T10:15:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "gt133-audit-specialist",
-   "name": "gt133-audit-specialist",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT133: independent audit",
-   "detail": "Audit complete (posted by job lead): forfeit and write handlers clean; results-page snapshot and device-slot lockout flagged as visibility/access loss paths. Report in GT-20261125-133-reports.",
-   "currentTask": "Independent audit complete",
-   "lastHeartbeat": "2026-11-25T10:01:00.000Z",
-   "observedAt": "2026-11-25T10:15:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
   }
  ]
 }
