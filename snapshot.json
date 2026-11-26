@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:55:00.000Z",
- "summary": "SASE inbox watch: 31 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-26T04:01:15.000Z",
+ "summary": "FC-S2 generic solver completed",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "fc-s2-generic",
+   "name": "fc-s2-generic",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "FC-S2 generic solver",
+   "detail": "Posted by cycle parent: FC-S2 generic solver running.",
+   "currentTask": "FC-S2 generic solve",
+   "lastHeartbeat": "2026-11-26T03:55:34.000Z",
+   "observedAt": "2026-11-26T03:55:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "fc-s2-specialist",
+   "name": "fc-s2-specialist",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "FC-S2 specialist solver",
+   "detail": "Posted by cycle parent: FC-S2 specialist solver running.",
+   "currentTask": "FC-S2 specialist solve",
+   "lastHeartbeat": "2026-11-26T03:55:34.000Z",
+   "observedAt": "2026-11-26T03:55:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2411,6 +2439,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "fc-s2-generic",
+   "name": "FC-S2 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S2 generic solver",
+   "detail": "FC-S2 generic run complete: all 7 claims confirmed, 10,585 bytes, MD5 fb2e52f6b377808c0afcfa450cdff74e, 240s wall time.",
+   "currentTask": "FC-S2 generic deliverable written",
+   "lastHeartbeat": "2026-11-26T04:01:15.000Z",
+   "observedAt": "2026-11-26T04:01:15.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2423,20 +2465,6 @@
    "observedAt": "2026-11-26T03:55:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 485",
-   "detail": "Cycle 485 routing check complete: 4 of 5, RC-T3 miss to API Integration Engineer, rule 51 added.",
-   "currentTask": "Cycle 485 routing check complete: 4 of 5, rule 51 added",
-   "lastHeartbeat": "2026-11-26T03:46:57.000Z",
-   "observedAt": "2026-11-26T03:46:57.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel-485",
