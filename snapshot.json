@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T18:54:28.000Z",
- "summary": "Cycle 557 complete: Data Engineer DE-T2 pair collected and verified; DE-T3 next cycle 558.",
+ "generatedAt": "2026-11-26T19:06:15.000Z",
+ "summary": "Cycle 558: Data Engineer DE-T3 solver pair in progress.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 558",
+   "detail": "Cycle 558 running: Data Engineer DE-T3 solver pair (scoreboard reconciliation).",
+   "currentTask": "Cycle 558: Data Engineer DE-T3 solver pair",
+   "lastHeartbeat": "2026-11-26T19:06:15.000Z",
+   "observedAt": "2026-11-26T19:06:15.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,20 +2551,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 557: Data Engineer DE-T2 pair collected",
-   "detail": "Cycle 557 done: DE-T2 pair collected and verified, both gates 6/6 exit 0, K1-K7 pass both, no key defect. DE-T3 next cycle 558.",
-   "currentTask": "Cycle 557 complete",
-   "lastHeartbeat": "2026-11-26T18:54:28.000Z",
-   "observedAt": "2026-11-26T18:54:28.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-data-engineer-de-t2-generic",
    "name": "Data Engineer DE-T2 generic",
    "role": "builder",
@@ -3931,6 +3931,20 @@
    "title": "GT-142 frontend options",
    "detail": "Posted by job lead: frontend section complete, componentize without framework ranked first",
    "currentTask": "panel-frontend.md delivered",
+   "lastHeartbeat": "2026-11-26T04:18:30.000Z",
+   "observedAt": "2026-11-26T04:18:30.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "gt-142-costs",
+   "name": "gt-142-costs",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-142 cost and limits research",
+   "detail": "Posted by job lead: cost section complete, free tier limits verified on live vendor pages with sources",
+   "currentTask": "panel-costs.md delivered",
    "lastHeartbeat": "2026-11-26T04:18:30.000Z",
    "observedAt": "2026-11-26T04:18:30.000Z",
    "needsUser": false,
