@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T00:40:00.000Z",
- "summary": "CSE comment watch 08:32 PHT Nov 26 complete: no new comments, no actions needed.",
+ "generatedAt": "2026-11-26T00:47:00.000Z",
+ "summary": "GT-138: Fresh-Eye returned DEPLOY with FL-03 partial. Builder round 2 closing NF-1 and NF-2, then deploy (S5) and live verification (S6).",
  "agents": [
   {
    "agentId": null,
@@ -821,24 +821,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-138 ClinicFlow full tour, fixes, design pass",
-   "detail": "Fixes landed 37 of 37, tests 36/36 lead-verified, commits 1c76a2a to 93b2825 pushed. Fresh-Eye Reviewer checking the diff and post-fix renders before deploy.",
-   "currentTask": "S4 fresh-eye review running; last step S3 fixes lead-verified, next step deploy after review",
-   "lastHeartbeat": "2026-11-26T00:37:00.000Z",
-   "observedAt": "2026-11-26T00:37:00.000Z",
+   "detail": "Fresh-Eye verdict DEPLOY: 7 of 8 Majors fully closed, FL-03 partial (card message zones spread button bottoms 74.3px). Round 2 closing NF-1 and NF-2 before deploy.",
+   "currentTask": "S5 held for builder round 2 (NF-1, NF-2); next: verify round 2, then deploy",
+   "lastHeartbeat": "2026-11-26T00:47:00.000Z",
+   "observedAt": "2026-11-26T00:47:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
   {
-   "agentId": "team-fresh-eye-reviewer",
-   "name": "fresh-eye-reviewer",
-   "role": "auditor",
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-138 Fresh-Eye Reviewer",
-   "detail": "Independent post-fix review without the builder reasoning (posted by job lead).",
-   "currentTask": "S4 reviewing fix diff and post-fix renders (posted by job lead)",
-   "lastHeartbeat": "2026-11-26T00:37:00.000Z",
-   "observedAt": "2026-11-26T00:37:00.000Z",
+   "title": "GT-138 Site Builder",
+   "detail": "Round 2 in the repo: equalize connect button bottoms, flush booking rows (posted by job lead).",
+   "currentTask": "Round 2: NF-1 card message zones, NF-2 booking row inset (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:47:00.000Z",
+   "observedAt": "2026-11-26T00:47:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fresh-eye-reviewer",
+   "name": "fresh-eye-reviewer",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-138 Fresh-Eye Reviewer",
+   "detail": "Done: reports/fresh-eye.md. DEPLOY verdict, FL-03 partial with NF-1, no regressions (posted by job lead).",
+   "currentTask": "S4 complete: verdict DEPLOY (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:47:00.000Z",
+   "observedAt": "2026-11-26T00:47:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE comment watcher",
    "role": "monitor",
@@ -2437,20 +2451,6 @@
    "observedAt": "2026-11-26T00:40:00.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-138 Site Builder",
-   "detail": "Done: reports/builder-report.md. 37 of 37 fixes, moves M1 M2 M4 M5 M6 full, M3 partial, tests 36/36 (posted by job lead).",
-   "currentTask": "S3 complete (posted by job lead)",
-   "lastHeartbeat": "2026-11-26T00:37:00.000Z",
-   "observedAt": "2026-11-26T00:37:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
   },
   {
    "agentId": "team-improvement-cycle",
