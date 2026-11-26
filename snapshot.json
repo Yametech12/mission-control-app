@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:56:30.000Z",
- "summary": "Cycle 496 judging the User Researcher retest; 3 blind QA judges running.",
+ "generatedAt": "2026-11-26T06:01:00.000Z",
+ "summary": "Cycle 496 done: User Researcher retest VALIDATED 8.25 vs 6.83, 3 wins, clean judging. Scoreboard 19 validated, 8 flagged, 52 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 496",
-   "detail": "Cycle 496 started: blind judging of the User Researcher retest (UR-R1, UR-R2, UR-R3 sealed pairs).",
-   "currentTask": "Cycle 496: judging User Researcher retest, 3 blind QA judges",
-   "lastHeartbeat": "2026-11-26T05:56:30.000Z",
-   "observedAt": "2026-11-26T05:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2453,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 496",
+   "detail": "Cycle 496 complete: User Researcher retest VALIDATED 8.25 vs 6.83, 3 wins. Scoreboard 19 validated, 8 flagged, 52 unvalidated.",
+   "currentTask": "Cycle 496 complete: User Researcher validated",
+   "lastHeartbeat": "2026-11-26T06:01:00.000Z",
+   "observedAt": "2026-11-26T06:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ur-judge-r1",
+   "name": "UR-R1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R1 blind judge",
+   "detail": "UR-R1 judged blind (posted by parent): specialist win 8.50 vs 6.75, contamination clean.",
+   "currentTask": "UR-R1 judged: specialist win 8.50 vs 6.75",
+   "lastHeartbeat": "2026-11-26T05:59:22.000Z",
+   "observedAt": "2026-11-26T06:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ur-judge-r2",
+   "name": "UR-R2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R2 blind judge",
+   "detail": "UR-R2 judged blind (posted by parent): specialist win 7.50 vs 6.25, contamination clean.",
+   "currentTask": "UR-R2 judged: specialist win 7.50 vs 6.25",
+   "lastHeartbeat": "2026-11-26T05:59:27.000Z",
+   "observedAt": "2026-11-26T06:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ur-judge-r3",
+   "name": "UR-R3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R3 blind judge",
+   "detail": "UR-R3 judged blind (posted by parent): specialist win 8.75 vs 7.50, contamination clean.",
+   "currentTask": "UR-R3 judged: specialist win 8.75 vs 7.50",
+   "lastHeartbeat": "2026-11-26T05:58:55.000Z",
+   "observedAt": "2026-11-26T06:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -3809,62 +3851,6 @@
    "observedAt": "2026-11-25T11:18:40.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-pra-s1-generic",
-   "name": "PRA-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-S1 generic solve",
-   "detail": "PRA-S1 generic sheet done: 28,223 bytes, 7 sections in order, 0 em dashes, draft only.",
-   "currentTask": "PRA-S1 KreekCraft pricing verification sheet complete",
-   "lastHeartbeat": "2026-11-25T10:33:13.000Z",
-   "observedAt": "2026-11-25T10:33:13.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "clinicflow-connect-build",
-   "name": "clinicflow-connect-build",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ClinicFlow Connect v1 build",
-   "detail": "Done. Live at clinicflow-connect-two.vercel.app, deployment READY, endpoints verified live, providers honestly report setup pending until central apps exist.",
-   "currentTask": "Build complete and deployed",
-   "lastHeartbeat": "2026-11-25T10:31:47.000Z",
-   "observedAt": "2026-11-25T10:31:47.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "sase-site-line-fix",
-   "name": "sase-site-line-fix",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Remove stray outline line from SASE/CS website",
-   "detail": "Done: removed the dark-mode .hero-visual border from landing.css (commit 8911906), deployed to production, verified gone on home and civil-service pages.",
-   "currentTask": "Done: outline removed, deployed, verified live on both pages",
-   "lastHeartbeat": "2026-11-25T10:24:00.000Z",
-   "observedAt": "2026-11-25T10:24:00.000Z",
-   "needsUser": false,
-   "category": "sase-site"
-  },
-  {
-   "agentId": "gt133-coordinator",
-   "name": "gt133-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT133: portal saved-answers bug fix",
-   "detail": "COMPLETE: Nov 23 migration stranded pre-Nov-23 results (exams copied = 0). Heartbeat-skip fix live (1c92100), 267 tests pass, smoke 12/12, snapshot saved, Kenth notified; his old results unrecoverable, stated honestly.",
-   "currentTask": "Complete: fix deployed and verified live, Kenth notified",
-   "lastHeartbeat": "2026-11-25T10:15:00.000Z",
-   "observedAt": "2026-11-25T10:15:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
   }
  ]
 }
