@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T02:20:00.000Z",
- "summary": "GT-139 delivered: ClinicFlow round 2 live at sha 286e65f, all fixes verified, Firebase migration prepared to the last step.",
+ "generatedAt": "2026-11-26T02:10:18.000Z",
+ "summary": "JK5 verified live on @yameb0y; Whop submission blocked by clip limit. GT88 pack fully posted.",
  "agents": [
   {
    "agentId": null,
@@ -759,6 +759,20 @@
    "category": "clipping"
   },
   {
+   "agentId": "gt88-jokoy-posting",
+   "name": "GT88 Jo Koy Posting",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "attention",
+   "title": "JK5 posted, Whop blocked by clip limit",
+   "detail": "JK5 live on @yameb0y at 10:00:54 PHT: instagram.com/reel/DgL-3eNuykO/. Whop submission BLOCKED: campaign shows Clip limit reached, no form. Link recorded ready to submit. GT88 pack fully posted.",
+   "currentTask": "JK5 verify and Whop submit",
+   "lastHeartbeat": "2026-11-26T02:10:18.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Clipp Team"
+  },
+  {
    "agentId": "partner-assistant-signing",
    "name": "Partner Signing",
    "role": "builder",
@@ -799,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 478",
+   "detail": "Market Intelligence Analyst retest opens: filing 3 fresh tasks (R1 Verified Clip Desk, R2 Dataset Licensing, R3 AccessGuard), MIA-R1 solver pair running.",
+   "currentTask": "Filing MIA retest tasks and running MIA-R1 solver pair",
+   "lastHeartbeat": "2026-11-26T02:07:45.000Z",
+   "observedAt": "2026-11-26T02:07:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-fresh-eye-reviewer",
@@ -2425,20 +2453,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team Improvement Cycle",
-   "detail": "Cycle 477 done: Consequence Planner VALIDATED 8.08/7.17 (2 wins, 1 tie). Scoreboard now 17 validated, 7 flagged, 55 unvalidated of 79.",
-   "currentTask": "Cycle 477 complete: Consequence Planner validated",
-   "lastHeartbeat": "2026-11-26T02:02:00.000Z",
-   "observedAt": "2026-11-26T02:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-qa-tester",
    "name": "QA Tester",
    "role": "auditor",
@@ -3795,6 +3809,20 @@
    "observedAt": "2026-11-25T05:22:29.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-flagged-decision",
+   "name": "Flagged specialists decision record",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261125-130 SMM flagged decision",
+   "detail": "KEEP recorded for Social Media Manager (8.25 vs 7.75), flagged-kept, no merge or delete. Scoreboard 13 validated, 3 flagged, 63 unvalidated.",
+   "currentTask": "GT-20261125-130 complete",
+   "lastHeartbeat": "2026-11-25T05:17:17.000Z",
+   "observedAt": "2026-11-25T05:17:17.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
