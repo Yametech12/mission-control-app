@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T09:11:21.000Z",
- "summary": "AB-T2 specialist solve complete: Mission Control v1 release pack shipped, gate passed.",
+ "generatedAt": "2026-11-26T09:12:00.000Z",
+ "summary": "Ghostname Team improvement cycle 512 complete: App Builder AB-T2 pair collected and verified; AB-T3 solvers run cycle 513.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 512: App Builder AB-T2",
-   "detail": "Cycle 512 started: running the AB-T2 solver pair for App Builder (Mission Control v1 release pack).",
-   "currentTask": "Running AB-T2 specialist and generic solvers",
-   "lastHeartbeat": "2026-11-26T09:10:00.000Z",
-   "observedAt": "2026-11-26T09:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2486,11 +2472,39 @@
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "AB-T2 generic solve",
-   "detail": "AB-T2 generic solve done: 3 files shipped, gate passed, 0 em dashes.",
+   "title": "App Builder AB-T2 generic solve",
+   "detail": "Generic AB-T2 solve complete: build note 1,522 bytes / 262 words, gate 23 assertions passed. Posted by job lead.",
    "currentTask": "AB-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-26T09:10:54.000Z",
-   "observedAt": "2026-11-26T09:10:54.000Z",
+   "lastHeartbeat": "2026-11-26T09:12:00.000Z",
+   "observedAt": "2026-11-26T09:12:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-app-builder",
+   "name": "app-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "App Builder AB-T2 specialist solve",
+   "detail": "Specialist AB-T2 solve complete: build note 1,785 bytes / 304 words, gate 23 assertions passed. Posted by job lead.",
+   "currentTask": "AB-T2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T09:12:00.000Z",
+   "observedAt": "2026-11-26T09:12:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 512: App Builder AB-T2",
+   "detail": "Cycle 512 complete: AB-T2 pair collected and verified (specialist 79s, generic 54s; both gates exit 0, 23 assertions; K1-K7 pass both). AB-T3 runs cycle 513.",
+   "currentTask": "Cycle 512 complete; AB-T3 solvers run cycle 513",
+   "lastHeartbeat": "2026-11-26T09:12:00.000Z",
+   "observedAt": "2026-11-26T09:12:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3849,34 +3863,6 @@
    "currentTask": "FC-S3 specialist output collected",
    "lastHeartbeat": "2026-11-25T14:43:49.000Z",
    "observedAt": "2026-11-25T14:46:51.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-s2-generic",
-   "name": "FC-S2 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S2 generic solve",
-   "detail": "FC-S2 generic: 16,851 bytes, 2,503 words, 279s, 0 em dashes. Posted by cycle parent; solver start snapshot failed on agentRole.",
-   "currentTask": "FC-S2 generic solve complete",
-   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
-   "observedAt": "2026-11-25T14:16:58.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-s2-specialist",
-   "name": "FC-S2 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S2 specialist solve",
-   "detail": "FC-S2 specialist: 18,175 bytes, 2,670 words, 290s, 0 em dashes. Posted by cycle parent; solver start snapshot failed on agentRole.",
-   "currentTask": "FC-S2 specialist solve complete",
-   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
-   "observedAt": "2026-11-25T14:16:58.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
