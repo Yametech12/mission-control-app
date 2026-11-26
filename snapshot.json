@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T09:45:59.000Z",
- "summary": "GT-146 CSE Page branding and posting improvement started.",
+ "generatedAt": "2026-11-26T09:50:42.000Z",
+ "summary": "Routing panel cycle 515: complete",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 515",
+   "detail": "Cycle 515 routing check started: 5 fresh legs from GT-145 and GT-146",
+   "currentTask": "Routing check 75 (cycle 515): harvesting 5 fresh legs",
+   "lastHeartbeat": "2026-11-26T09:47:00.000Z",
+   "observedAt": "2026-11-26T09:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-146-cse-promax",
@@ -2453,6 +2467,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-panel-cycle-515",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check panel cycle 515",
+   "detail": "Panel picks filed: Thesis Researcher, Evidence Auditor, Knowledge Manager, Live Verifier, Data Integrity Auditor.",
+   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-26T09:50:42.000Z",
+   "observedAt": "2026-11-26T09:50:42.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt-145-v9-working-copy",
    "name": "gt-145-v9-working-copy",
    "role": "coordinator",
@@ -2465,20 +2493,6 @@
    "observedAt": "2026-11-26T09:45:00.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 514",
-   "detail": "App Builder pairs sealed SEAL_OK: 28 neutral files, 0 identity hits, originals unchanged; judging cycle 516.",
-   "currentTask": "Cycle 514 sealed; judging cycle 516",
-   "lastHeartbeat": "2026-11-26T09:40:00.000Z",
-   "observedAt": "2026-11-26T09:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "ab-t3-generic-solver",
@@ -2575,20 +2589,6 @@
    "currentTask": "AB-T1 specialist solve",
    "lastHeartbeat": "2026-11-26T09:05:44.000Z",
    "observedAt": "2026-11-26T09:07:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel-cycle510",
-   "name": "Division-leads panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Division-leads routing panel, cycle 510",
-   "detail": "Panel item carried by parent: picks filed 5 of 5, snapshots posted cleanly first attempt each.",
-   "currentTask": "Cycle 510 panel read complete",
-   "lastHeartbeat": "2026-11-26T08:43:26.000Z",
-   "observedAt": "2026-11-26T08:43:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3851,6 +3851,20 @@
    "observedAt": "2026-11-25T15:24:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt137-clinicflow-design",
+   "name": "gt137-clinicflow-design",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-137 ClinicFlow: remove side lines + design pass",
+   "detail": "Done and live. Stripes removed, ledger design pass shipped, 34/34 tests, smoke green, screenshots in GT-20261125-137-reports. Awaiting owner verdict.",
+   "currentTask": "Complete: deployed and smoked, screenshots saved",
+   "lastHeartbeat": "2026-11-25T15:02:00.000Z",
+   "observedAt": "2026-11-25T15:02:00.000Z",
+   "needsUser": true,
+   "category": "clinicflow"
   }
  ]
 }
