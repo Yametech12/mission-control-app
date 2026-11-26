@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T01:10:30.000Z",
- "summary": "Cycle 473 complete: Consequence Planner retest CP-R2 pair collected and verified.",
+ "generatedAt": "2026-11-26T01:17:00.000Z",
+ "summary": "Ghostname Team improvement cycle 474 running: Consequence Planner retest CP-R3 solver pair.",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-consequence-planner",
+   "name": "Consequence Planner",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Consequence Planner CP-R3 specialist solve",
+   "detail": "Specialist solver running CP-R3 from the Consequence Planner card and skill files. Posted by the cycle lead.",
+   "currentTask": "Solving CP-R3 from card and skills",
+   "lastHeartbeat": "2026-11-26T01:17:00.000Z",
+   "observedAt": "2026-11-26T01:17:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 474: Consequence Planner retest CP-R3",
+   "detail": "CP-R3 solver pair running: ClinicFlow full site tour deploy consequence map, specialist vs generic.",
+   "currentTask": "Running CP-R3 solver pair",
+   "lastHeartbeat": "2026-11-26T01:17:00.000Z",
+   "observedAt": "2026-11-26T01:17:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2369,20 +2397,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 473",
-   "detail": "Cycle 473 complete: CP-R2 pair verified, key clean, CP-R3 solvers next cycle 474.",
-   "currentTask": "Cycle 473 complete: CP-R2 pair collected and verified",
-   "lastHeartbeat": "2026-11-26T01:10:30.000Z",
-   "observedAt": "2026-11-26T01:10:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-generic-solver",
    "name": "Generic solver",
    "role": "researcher",
@@ -3763,6 +3777,20 @@
    "title": "SMM retest 2 judge S1",
    "detail": "SMM-S1 judged blind: generic win 8.50 vs 7.50, contamination clean (posted by cycle parent)",
    "currentTask": "SMM-S1 judged: generic win 8.50 vs 7.50",
+   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
+   "observedAt": "2026-11-25T05:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "smm-judge-s2",
+   "name": "SMM Judge S2",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SMM retest 2 judge S2",
+   "detail": "SMM-S2 judged blind: specialist win 8.75 vs 7.75, contamination clean (posted by cycle parent)",
+   "currentTask": "SMM-S2 judged: specialist win 8.75 vs 7.75",
    "lastHeartbeat": "2026-11-25T05:11:00.000Z",
    "observedAt": "2026-11-25T05:11:00.000Z",
    "needsUser": false,
