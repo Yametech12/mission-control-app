@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:15:00.000Z",
- "summary": "Site Builder SB-V1 specialist build complete.",
+ "generatedAt": "2026-11-26T06:21:00.000Z",
+ "summary": "Improvement cycle 498 complete: Site Builder SB-V1 collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -9,40 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 22 consecutive failures. Last run Nov 25 failed at spawn with binding_retired; last success Nov 4.",
+   "detail": "Attention: 22 consecutive failures. Last run failed Nov 25 at 15:26Z; last success Nov 4. Spawn failed before execution started.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T05:16:27.000Z",
+   "observedAt": "2026-11-26T06:16:10.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures. Last run Nov 23 failed at spawn with binding_retired; last success Nov 2.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T05:16:27.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results. 93 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T05:16:27.000Z",
-   "needsUser": true,
-   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -51,12 +23,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results. 91 consecutive failures; last success Nov 3.",
+   "detail": "Attention: 91 consecutive failures and paused. The WhatsApp chat it posts to can no longer receive results; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T05:16:27.000Z",
+   "observedAt": "2026-11-26T06:16:10.000Z",
    "needsUser": true,
    "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Attention: 93 consecutive failures and paused. The WhatsApp chat it posts to can no longer receive results; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T06:16:10.000Z",
+   "needsUser": true,
+   "category": "Telegram"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 7 consecutive failures. Last run failed Nov 23 at 11:05Z; last success Nov 2.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T06:16:10.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -65,10 +65,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures. Last run Mon Nov 23 failed at spawn with binding_retired; last success Nov 4.",
+   "detail": "Attention: 3 consecutive failures. Last run failed Nov 23 at 00:56Z; last success Nov 4. Next run Mon Nov 30 at 01:00Z.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T05:16:15.000Z",
+   "observedAt": "2026-11-26T06:16:10.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Generic solver SB-V1",
-   "detail": "SB-V1 generic solver building (posted by cycle lead); collects cycle 498.",
-   "currentTask": "SB-V1 generic build: dormant sign-in banner fix",
-   "lastHeartbeat": "2026-11-26T06:13:00.000Z",
-   "observedAt": "2026-11-26T06:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2453,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 498",
+   "detail": "Cycle 498 complete: SB-V1 pair collected, K1-K7 pass both sides, no key defect; SB-V2 runs cycle 499. Scoreboard 19/8/52.",
+   "currentTask": "Cycle 498 complete: SB-V1 pair collected, K1-K7 pass both sides",
+   "lastHeartbeat": "2026-11-26T06:21:00.000Z",
+   "observedAt": "2026-11-26T06:21:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Generic solver SB-V1",
+   "detail": "SB-V1 generic build complete. Gate pass, all 5 cases verified, banner 0px cold / 46px shown, 0 em dashes.",
+   "currentTask": "SB-V1 generic build complete",
+   "lastHeartbeat": "2026-11-26T06:17:15.000Z",
+   "observedAt": "2026-11-26T06:17:15.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-site-builder",
    "name": "Site Builder",
    "role": "builder",
@@ -2479,20 +2493,6 @@
    "observedAt": "2026-11-26T06:15:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 497",
-   "detail": "Cycle 497 complete: Site Builder validation opened, SB-V1 to SB-V3 filed with sealed keys, SB-V1 pair dispatched; SB-V1 collects cycle 498.",
-   "currentTask": "Cycle 497 done: SB-V1 pair dispatched, records filed",
-   "lastHeartbeat": "2026-11-26T06:13:00.000Z",
-   "observedAt": "2026-11-26T06:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-ur-judge-r1",
@@ -3851,20 +3851,6 @@
    "observedAt": "2026-11-25T11:18:40.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-pra-s1-generic",
-   "name": "PRA-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-S1 generic solve",
-   "detail": "PRA-S1 generic sheet done: 28,223 bytes, 7 sections in order, 0 em dashes, draft only.",
-   "currentTask": "PRA-S1 KreekCraft pricing verification sheet complete",
-   "lastHeartbeat": "2026-11-25T10:33:13.000Z",
-   "observedAt": "2026-11-25T10:33:13.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
