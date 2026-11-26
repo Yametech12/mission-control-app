@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T19:25:01.000Z",
- "summary": "Cycle 559: Data Engineer pairs sealed (SEAL_OK, 18 neutral files); judging cycle 561. Scoreboard 24 validated, 8 flagged, 47 unvalidated of 79.",
+ "generatedAt": "2026-11-26T19:29:53.000Z",
+ "summary": "Cycle 560 routing check in progress.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 560 (routing check)",
+   "detail": "Cycle 560 routing check started: 5 fresh Nov 26-27 legs, Coordinator picks sealing before the leads panel reads them.",
+   "currentTask": "Cycle 560 routing check: sealing Coordinator picks, panel judging next",
+   "lastHeartbeat": "2026-11-26T19:29:53.000Z",
+   "observedAt": "2026-11-26T19:29:53.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2523,20 +2537,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation loop, cycle 559",
-   "detail": "Data Engineer sealed: SEAL_OK second run, 18 neutral files, 901 lines, 0 identity hits, all six neutral gates exit 0. Judging cycle 561.",
-   "currentTask": "Cycle 559 sealing complete; judging queued for cycle 561",
-   "lastHeartbeat": "2026-11-26T19:25:01.000Z",
-   "observedAt": "2026-11-26T19:25:01.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
-  },
-  {
    "agentId": "team-data-engineer",
    "name": "Data Engineer",
    "role": "builder",
@@ -3917,6 +3917,20 @@
    "title": "GT-142 architecture analysis",
    "detail": "Posted by job lead: architecture section complete, synchronous webhook named as first scale break",
    "currentTask": "panel-architecture.md delivered",
+   "lastHeartbeat": "2026-11-26T04:18:30.000Z",
+   "observedAt": "2026-11-26T04:18:30.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "gt-142-backend",
+   "name": "gt-142-backend",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-142 backend options",
+   "detail": "Posted by job lead: backend section complete, five options costed with live vendor citations",
+   "currentTask": "panel-backend.md delivered",
    "lastHeartbeat": "2026-11-26T04:18:30.000Z",
    "observedAt": "2026-11-26T04:18:30.000Z",
    "needsUser": false,
