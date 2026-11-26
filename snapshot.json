@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T07:46:00.000Z",
- "summary": "Routing Panel cycle 505 complete: panel-picks.md written with all 5 picks and vote splits.",
+ "generatedAt": "2026-11-26T07:47:00.000Z",
+ "summary": "Improvement cycle 505 complete: routing check 5 of 5, first clean check since cycle 480. Scoreboard still 19 validated, 8 flagged, 52 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 505: routing check",
-   "detail": "Cycle 505 routing check started: GT-142 panel legs, GT-144 evidence table, GT-141 Fresh-Eye",
-   "currentTask": "Cycle 505 routing check: 5 fresh legs, Coordinator picks sealed",
-   "lastHeartbeat": "2026-11-26T07:43:30.000Z",
-   "observedAt": "2026-11-26T07:43:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2439,16 +2425,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 505: routing check",
+   "detail": "Cycle 505 routing check 5 of 5, first clean since cycle 480; no rule fixes, 3 precedents; SYSB-T2 runs 506",
+   "currentTask": "Cycle 505 routing check complete: 5 of 5",
+   "lastHeartbeat": "2026-11-26T07:47:00.000Z",
+   "observedAt": "2026-11-26T07:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-check-panel-cycle-505",
    "name": "Routing Panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Routing Panel cycle 505",
-   "detail": "Picks: RC-T1 Architect 7-1, RC-T2 Architect 7-1, RC-T3 Money Researcher 6-2, RC-T4 Evidence Auditor 6-2, RC-T5 Fresh-Eye Reviewer 7-1.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-26T07:46:00.000Z",
-   "observedAt": "2026-11-26T07:46:00.000Z",
+   "title": "Routing panel cycle 505",
+   "detail": "Panel picks filed by job lead: Architect, Architect, Money Researcher, Evidence Auditor, Fresh-Eye Reviewer",
+   "currentTask": "Cycle 505 panel picks filed: 5 of 5",
+   "lastHeartbeat": "2026-11-26T07:44:32.000Z",
+   "observedAt": "2026-11-26T07:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3823,20 +3823,6 @@
    "observedAt": "2026-11-25T13:07:20.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "gt134-builder",
-   "name": "gt134-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-134 ClinicFlow improvement: builder takeover",
-   "detail": "Complete: brief fully implemented and verified locally (19/19 harness tests). Working tree left uncommitted for parent review and deploy.",
-   "currentTask": "Done: audit, fixes, verification, TESTING.md and job record updated",
-   "lastHeartbeat": "2026-11-25T12:47:20.000Z",
-   "observedAt": "2026-11-25T12:47:20.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
   }
  ]
 }
