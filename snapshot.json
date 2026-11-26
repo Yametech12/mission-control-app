@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T01:17:00.000Z",
- "summary": "Ghostname Team improvement cycle 474 running: Consequence Planner retest CP-R3 solver pair.",
+ "generatedAt": "2026-11-26T01:20:26.000Z",
+ "summary": "Consequence Planner CP-R3 specialist solve complete: pre-event draft consequence map for the ClinicFlow Connect deploy written and verified.",
  "agents": [
   {
    "agentId": null,
@@ -9,26 +9,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "90 consecutive failures; blocked because its WhatsApp delivery chat can no longer receive results. Last success Nov 3.",
+   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results. 90 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T00:16:44.000Z",
+   "observedAt": "2026-11-26T01:16:17.000Z",
    "needsUser": true,
-   "category": "Posting"
+   "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
+   "name": "TG session watchdog (auto re-login)",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "92 consecutive failures; blocked because its WhatsApp delivery chat can no longer receive results. Last success Oct 6.",
+   "title": "TG session watchdog (auto re-login)",
+   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results. 92 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T00:16:44.000Z",
+   "observedAt": "2026-11-26T01:16:17.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -37,11 +37,11 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "22 consecutive failures; last run failed Nov 25 at 23:26 PHT. Last success Nov 4. Next run 23:30 PHT tonight.",
+   "detail": "22 consecutive failures with no recorded reason; last success Nov 4, last failed Nov 25 at 23:26 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T00:16:44.000Z",
-   "needsUser": false,
+   "observedAt": "2026-11-26T01:16:17.000Z",
+   "needsUser": true,
    "category": "Backup"
   },
   {
@@ -51,12 +51,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "7 consecutive failures; last run failed Nov 23. Last success Nov 2. Next run 19:05 PHT today.",
+   "detail": "7 consecutive failures with no recorded reason; last success Nov 2, last failed Nov 23 at 19:05 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T00:16:44.000Z",
-   "needsUser": false,
-   "category": "Keep-alive"
+   "observedAt": "2026-11-26T01:16:17.000Z",
+   "needsUser": true,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -65,11 +65,11 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run failed Nov 23. Last success Nov 4. Next run Mon Nov 30 at 09:00 PHT.",
+   "detail": "3 consecutive failures with no recorded reason; last success Nov 4, last failed Nov 23 at 08:56 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T00:16:44.000Z",
-   "needsUser": false,
+   "observedAt": "2026-11-26T01:16:17.000Z",
+   "needsUser": true,
    "category": "Zulti"
   },
   {
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-consequence-planner",
-   "name": "Consequence Planner",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Consequence Planner CP-R3 specialist solve",
-   "detail": "Specialist solver running CP-R3 from the Consequence Planner card and skill files. Posted by the cycle lead.",
-   "currentTask": "Solving CP-R3 from card and skills",
-   "lastHeartbeat": "2026-11-26T01:17:00.000Z",
-   "observedAt": "2026-11-26T01:17:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
