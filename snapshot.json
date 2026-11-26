@@ -1,7 +1,77 @@
 {
- "generatedAt": "2026-11-26T08:16:45.000Z",
- "summary": "Improvement cycle 508 in progress: sealing Systems Builder validation pairs.",
+ "generatedAt": "2026-11-26T08:17:42.000Z",
+ "summary": "Improvement cycle 508 complete: Systems Builder pairs sealed for blind judging in cycle 509.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Attention: 94 consecutive failures, last success Oct 6. Blocked because its delivery chat can no longer receive results; last run failed 15:46 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T08:16:16.000Z",
+   "needsUser": true,
+   "category": "Automation"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Attention: 91 consecutive failures, last success Nov 3. Blocked because its delivery chat can no longer receive results; last run failed 10:35 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T08:16:16.000Z",
+   "needsUser": true,
+   "category": "Automation"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 22 consecutive failures, last success Nov 4. Last run failed Nov 25 at 23:26 PHT with no recorded reason.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T08:16:16.000Z",
+   "needsUser": false,
+   "category": "Automation"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 7 consecutive failures, last success Nov 2. Last run failed Nov 23 at 19:05 PHT with no recorded reason.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T08:16:16.000Z",
+   "needsUser": false,
+   "category": "Automation"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Attention: 3 consecutive failures, last success Nov 4. Last run failed Nov 23 at 08:56 PHT with no recorded reason.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T08:16:16.000Z",
+   "needsUser": false,
+   "category": "Zulti"
+  },
   {
    "agentId": null,
    "name": "ClinicFlow Connect upgrade blocked",
@@ -18,20 +88,6 @@
   },
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Attention: blocked, the chat it posts to can no longer receive results (account action required). 91 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T02:35:11.000Z",
-   "needsUser": true,
-   "category": "whop"
-  },
-  {
-   "agentId": null,
    "name": "Jo Koy JK5: posted, Whop submission blocked",
    "role": null,
    "agentStatus": null,
@@ -43,34 +99,6 @@
    "observedAt": "2026-11-26T02:16:52.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: blocked, the chat it posts to can no longer receive results (account action required). 93 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T01:46:27.000Z",
-   "needsUser": true,
-   "category": "telegram"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Drive",
-   "detail": "Attention: 22 consecutive failures; last run Nov 25 23:26 PHT failed at spawn with a platform admission error. Last success Nov 4.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T15:26:48.000Z",
-   "needsUser": false,
-   "category": "backup"
   },
   {
    "agentId": null,
@@ -813,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 508: seal Systems Builder pairs",
-   "detail": "Cycle 508 sealing SYSB-T1/T2/T3 pairs under the cycle 199 differential rule; judging cycle 509.",
-   "currentTask": "Sealing Systems Builder pairs SYSB-T1 to SYSB-T3",
-   "lastHeartbeat": "2026-11-26T08:16:45.000Z",
-   "observedAt": "2026-11-26T08:16:45.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2439,6 +2453,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 508: Systems Builder pairs sealed",
+   "detail": "SEAL_OK: 20 neutral files, 0 identity hits, originals unchanged; judging cycle 509. Scoreboard 19 validated, 8 flagged, 52 unvalidated.",
+   "currentTask": "Cycle 508 complete: Systems Builder pairs sealed",
+   "lastHeartbeat": "2026-11-26T08:17:42.000Z",
+   "observedAt": "2026-11-26T08:17:42.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sysb-t3-specialist",
    "name": "SYSB-T3 specialist",
    "role": "builder",
@@ -3821,20 +3849,6 @@
    "currentTask": "GT-136 QA/security audit complete, report filed",
    "lastHeartbeat": "2026-11-25T13:20:00.000Z",
    "observedAt": "2026-11-25T13:20:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt135-builder",
-   "name": "gt135-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-135 ClinicFlow landing/login split",
-   "detail": "GT-135 done: landing split from dashboard, Google login binding with adoption, /api/bookings + /api/logout added, 24/24 tests pass, docs and job record updated. Not committed or deployed; parent ships.",
-   "currentTask": "GT-135 complete: landing/login split shipped in working tree, 24/24 tests pass",
-   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
-   "observedAt": "2026-11-25T13:12:00.000Z",
    "needsUser": false,
    "category": "automation-sprints"
   }
