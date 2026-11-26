@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T13:26:08.000Z",
- "summary": "SASE inbox watch complete: no new buyer messages",
+ "generatedAt": "2026-11-26T13:27:55.000Z",
+ "summary": "Cycle 534 complete: App Builder retest sealed (SEAL_OK, 30 neutral files, 0 identity hits); judging lands cycle 536.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 534",
-   "detail": "Sealing App Builder retest pairs AB-R1 to AB-R3; no judging this cycle (mapping cycle).",
-   "currentTask": "Sealing App Builder retest pairs AB-R1 to AB-R3",
-   "lastHeartbeat": "2026-11-26T13:22:40.000Z",
-   "observedAt": "2026-11-26T13:22:40.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "6da5c9d5-cfbf-4c95-be4e-3823aca3bf85",
@@ -2495,6 +2481,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 534",
+   "detail": "Sealed App Builder retest AB-R1 to AB-R3: SEAL_OK first run, 2 lines dropped, 30 neutral files, 0 identity hits, originals unchanged. Judging cycle 536.",
+   "currentTask": "Cycle 534 complete: App Builder retest sealed",
+   "lastHeartbeat": "2026-11-26T13:27:55.000Z",
+   "observedAt": "2026-11-26T13:27:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3879,20 +3879,6 @@
    "observedAt": "2026-11-25T22:10:56.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "co-r1-generic",
-   "name": "CO-R1 Generic",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CO-R1 generic solve",
-   "detail": "CO-R1 generic: 9,961 bytes, 1,563 words, 69s, verdict PROCEED clip work only",
-   "currentTask": "CO-R1 generic solve complete",
-   "lastHeartbeat": "2026-11-25T21:44:00.000Z",
-   "observedAt": "2026-11-25T21:44:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
