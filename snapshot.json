@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:36:36.000Z",
- "summary": "FC-S1 specialist solver: verification record complete, 14,429 bytes, 2,216 words",
+ "generatedAt": "2026-11-26T03:37:00.000Z",
+ "summary": "Cycle 484 complete: Fact Checker retest 2 opened, FC-S1 pair collected and verified; FC-S2 solvers cycle 486.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 484: Fact Checker retest 2",
-   "detail": "Cycle 484: Fact Checker retest 2 opens; filing 3 fresh tasks from GT-138/139/140 and running the FC-S1 solver pair.",
-   "currentTask": "Cycle 484: Fact Checker retest 2 opens, FC-S1 solver pair",
-   "lastHeartbeat": "2026-11-26T03:27:00.000Z",
-   "observedAt": "2026-11-26T03:27:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,16 +2411,30 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-fc-s1-specialist",
-   "name": "FC-S1 specialist solver",
+   "agentId": "team-fc-s1-generic",
+   "name": "FC-S1 generic solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "FC-S1 specialist solver",
-   "detail": "FC-S1 record done: 14,429 bytes, 2,216 words, 5/7 confirmed, 1 split, 2 corrected wordings",
+   "title": "FC-S1 generic solver",
+   "detail": "FC-S1 generic solver complete: 13,326 bytes, 2,064 words, 217s, 0 em dashes (posted by cycle lead).",
    "currentTask": "FC-S1 verification record",
-   "lastHeartbeat": "2026-11-26T03:36:36.000Z",
-   "observedAt": "2026-11-26T03:36:36.000Z",
+   "lastHeartbeat": "2026-11-26T03:37:00.000Z",
+   "observedAt": "2026-11-26T03:37:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 484: Fact Checker retest 2",
+   "detail": "Cycle 484 complete: Fact Checker retest 2 opened, FC-S1 pair collected and verified (specialist 14,429 bytes, generic 13,326 bytes, 0 em dashes). Next: FC-S2 cycle 486.",
+   "currentTask": "Cycle 484 complete: Fact Checker retest 2 FC-S1 pair collected",
+   "lastHeartbeat": "2026-11-26T03:37:00.000Z",
+   "observedAt": "2026-11-26T03:37:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3805,20 +3805,6 @@
    "title": "FC-R1 specialist solve",
    "detail": "Posted by cycle parent: FC-R1 specialist solve complete (15,331 bytes, 364s). Start snapshot failed once on schema; completion posted by solver.",
    "currentTask": "FC-R1 specialist solve",
-   "lastHeartbeat": "2026-11-25T08:13:00.000Z",
-   "observedAt": "2026-11-25T08:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-generic",
-   "name": "Generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R1 generic solve",
-   "detail": "Posted by cycle parent: FC-R1 generic solve complete (12,066 bytes, about 298s). Start snapshot failed once on schema; completion posted by solver.",
-   "currentTask": "FC-R1 generic solve",
    "lastHeartbeat": "2026-11-25T08:13:00.000Z",
    "observedAt": "2026-11-25T08:13:00.000Z",
    "needsUser": false,
