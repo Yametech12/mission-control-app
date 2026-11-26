@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T22:26:34.000Z",
- "summary": "AIE-R1 specialist solver: integration record complete, gate PASS, READ-BACK PASS",
+ "generatedAt": "2026-11-26T22:28:52.000Z",
+ "summary": "Cycle 573: API Integration Engineer retest opened, AIE-R1 pair collected and verified",
  "agents": [
   {
    "agentId": null,
@@ -843,18 +843,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
+   "agentId": "cse-quick-check-6h",
+   "name": "CSE Quick Check 06:30",
+   "role": "poster",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 573: AIE retest opens",
-   "detail": "Cycle 573 started. API Integration Engineer retest opens from the rewritten card; AIE-R1 solver pair running.",
-   "currentTask": "Cycle 573: filing AIE retest tasks, running AIE-R1 solvers",
-   "lastHeartbeat": "2026-11-26T22:20:09.000Z",
-   "observedAt": "2026-11-26T22:20:09.000Z",
+   "title": "CSE Quick Check 06:30",
+   "detail": "06:30 Quick Check: Verbal C1-V016 posted live as CSE Page; hook comment 5 verified; group copies in progress",
+   "currentTask": "Group copies in progress via browser; Page post live",
+   "lastHeartbeat": "2026-11-26T22:45:00.000Z",
+   "observedAt": "2026-11-26T22:45:00.000Z",
    "needsUser": false,
-   "category": "ghostnam team"
+   "category": "cse-reviewer"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,30 +2551,44 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-aie-r1-specialist",
-   "name": "AIE-R1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-R1 specialist solver",
-   "detail": "AIE-R1 done: gate PASS exit 0, live site HTTP 200, 5 of 6 rows UNVERIFIED BY READ-BACK, READ-BACK PASS",
-   "currentTask": "AIE-R1 ClinicFlow Connect integration record",
-   "lastHeartbeat": "2026-11-26T22:26:34.000Z",
-   "observedAt": "2026-11-26T22:26:34.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
-  },
-  {
    "agentId": "team-aie-r1-generic",
    "name": "AIE-R1 generic solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "AIE-R1 generic solver",
-   "detail": "Done: 6 integrations, 1 verified live (site HTTP 200), 5 UNVERIFIED BY READ-BACK, gate passed 7/7, READ-BACK: PASS.",
+   "detail": "AIE-R1 generic complete (carried by parent): record 11,968 bytes, 2,030 words, about 103s, gate exit 0, READ-BACK: PASS.",
    "currentTask": "AIE-R1 ClinicFlow Connect integration record",
-   "lastHeartbeat": "2026-11-26T22:25:31.000Z",
-   "observedAt": "2026-11-26T22:25:31.000Z",
+   "lastHeartbeat": "2026-11-26T22:25:43.000Z",
+   "observedAt": "2026-11-26T22:28:52.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
+   "agentId": "team-aie-r1-specialist",
+   "name": "AIE-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-R1 specialist solver",
+   "detail": "AIE-R1 specialist complete (carried by parent): record 12,750 bytes, 2,183 words, about 166s, gate exit 0, READ-BACK: PASS.",
+   "currentTask": "AIE-R1 ClinicFlow Connect integration record",
+   "lastHeartbeat": "2026-11-26T22:26:54.000Z",
+   "observedAt": "2026-11-26T22:28:52.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 573: AIE retest opened",
+   "detail": "Cycle 573 complete. AIE retest tasks filed; AIE-R1 pair collected and verified (both gates exit 0, K1-K7 pass). AIE-R2 runs cycle 574.",
+   "currentTask": "Cycle 573 complete: AIE retest opened, AIE-R1 collected",
+   "lastHeartbeat": "2026-11-26T22:28:52.000Z",
+   "observedAt": "2026-11-26T22:28:52.000Z",
    "needsUser": false,
    "category": "ghostnam team"
   },
@@ -3823,20 +3837,6 @@
    "observedAt": "2026-11-26T07:37:53.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "cse-quick-check-6h",
-   "name": "CSE Quick Check poster",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Quick Check 14:47",
-   "detail": "CSE Quick Check 14:47 done. General Information C1-G001 live on Page; answer B The people; 1 group live, 1 pending approval.",
-   "currentTask": "Run complete: General Information C1-G001 posted",
-   "lastHeartbeat": "2026-11-26T06:52:00.000Z",
-   "observedAt": "2026-11-26T06:52:00.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
   },
   {
    "agentId": "sb-v2-generic",
