@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-26T20:16:00.000Z",
- "summary": "AIE-T2 specialist solver started: ClinicFlow auth provider pick memo.",
+ "generatedAt": "2026-11-26T20:20:00.000Z",
+ "summary": "AIE-T2 specialist solver done: Firebase Authentication picked, gate passed.",
  "agents": [
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Telegram session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 23 consecutive failures. Last run failed Nov 26, 23:26 PHT; last success Nov 4. Spawn error: message admission authority unavailable (binding retired).",
+   "title": "Telegram session watchdog",
+   "detail": "96 consecutive failures; last success Oct 6. Blocked because the chat it posts to can no longer receive results.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
+   "observedAt": "2026-11-26T20:16:16.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -23,26 +23,54 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: blocked, 93 consecutive failures. The chat it posts to can no longer receive results; runs resume once that chat can receive again or delivery is moved.",
+   "detail": "93 consecutive failures; last success Nov 3. Blocked because the chat it posts to can no longer receive results.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T14:35:11.000Z",
+   "observedAt": "2026-11-26T20:16:16.000Z",
    "needsUser": true,
    "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "TG session watchdog (auto re-login)",
+   "name": "Zulti Monday promo code check",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog (auto re-login)",
-   "detail": "Attention: blocked, 95 consecutive failures. The chat it posts to can no longer receive results; runs resume once that chat can receive again or delivery is moved.",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run Nov 23 failed at spawn with a retired binding error. Last success Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T13:46:29.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
+   "observedAt": "2026-11-26T20:16:16.000Z",
+   "needsUser": false,
+   "category": "Zulti"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 consecutive failures; last success Nov 2. Next keep-alive attempt is Sunday.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T20:16:16.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "23 consecutive failures; last success Nov 4. Next backup attempt is tonight at 23:30.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T20:16:16.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -57,20 +85,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 8 consecutive failures. Last run failed Nov 26, 19:05 PHT; last success Nov 2. Spawn error: message admission authority unavailable (binding retired).",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:05:59.000Z",
-   "needsUser": false,
-   "category": "Website"
   },
   {
    "agentId": null,
@@ -827,34 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "aie-t2-specialist",
-   "name": "AIE-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-T2 specialist solver",
-   "detail": "AIE-T2 specialist solver started: fetching provider pricing live, writing pick-memo.md, gate.js, delivery-note.md.",
-   "currentTask": "Writing the ClinicFlow auth provider pick memo",
-   "lastHeartbeat": "2026-11-26T20:16:00.000Z",
-   "observedAt": "2026-11-26T20:16:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "aie-t2-generic",
-   "name": "AIE-T2 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-T2 generic solver",
-   "detail": "Generic solver started AIE-T2 auth provider pick memo; fetching live primary sources.",
-   "currentTask": "Fetching live Clerk, Supabase, Firebase pricing pages",
-   "lastHeartbeat": "2026-11-26T20:14:06.000Z",
-   "observedAt": "2026-11-26T20:14:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2565,6 +2551,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "aie-t2-specialist",
+   "name": "AIE-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-T2 specialist solver",
+   "detail": "AIE-T2 specialist solver done: pick Firebase Authentication (Spark plan), gate exit 0, read-back PASS, Supabase limits UNVERIFIED.",
+   "currentTask": "AIE-T2 memo shipped: Firebase Authentication picked, gate passed",
+   "lastHeartbeat": "2026-11-26T20:20:00.000Z",
+   "observedAt": "2026-11-26T20:20:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "aie-t2-generic",
+   "name": "AIE-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-T2 generic solver",
+   "detail": "Generic solver done: Firebase Authentication picked; gate exit 0, no em dashes, 297s wall time.",
+   "currentTask": "AIE-T2 generic memo complete",
+   "lastHeartbeat": "2026-11-26T20:19:03.000Z",
+   "observedAt": "2026-11-26T20:19:03.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-validation-generic",
    "name": "Validation Generic Solver",
    "role": "researcher",
@@ -3933,34 +3947,6 @@
    "currentTask": "Verdict DEPLOY; 0 Critical, 2 Major residual gaps, 4 Minor",
    "lastHeartbeat": "2026-11-26T04:45:00.000Z",
    "observedAt": "2026-11-26T04:45:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
-   "agentId": "team-routing-panel-cycle-490",
-   "name": "Routing Panel Cycle 490",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 490",
-   "detail": "Routing panel cycle 490 complete: picks filed with vote splits and trigger lines; 4 matches, 1 miss. Posted by parent.",
-   "currentTask": "Panel picks filed: 4 matches, 1 miss (RC-T1 Architect 6-2)",
-   "lastHeartbeat": "2026-11-26T04:41:00.000Z",
-   "observedAt": "2026-11-26T04:41:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "gt-141-diagnosis",
-   "name": "gt-141-diagnosis",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-141 diagnosis",
-   "detail": "Diagnosis complete (posted by job lead): missing-KV hypothesis refuted by production probe; D1-D4 in diagnosis.md",
-   "currentTask": "Diagnosis delivered (lead-executed): diagnosis.md filed",
-   "lastHeartbeat": "2026-11-26T04:20:00.000Z",
-   "observedAt": "2026-11-26T04:20:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   }
