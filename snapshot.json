@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:31:40.000Z",
- "summary": "Cycle 551 complete: ML-T2 pair collected and verified, no key defect, no verdict.",
+ "generatedAt": "2026-11-26T17:36:05.000Z",
+ "summary": "Cycle 552 running: ML Engineer ML-T3 solver pair.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team Improvement Cycle",
+   "detail": "Cycle 552: ML Engineer ML-T3 solver pair running (specialist + generic)",
+   "currentTask": "Cycle 552: ML Engineer ML-T3 solver pair",
+   "lastHeartbeat": "2026-11-26T17:36:05.000Z",
+   "observedAt": "2026-11-26T17:36:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,20 +2551,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 551: ML Engineer ML-T2 solvers",
-   "detail": "ML-T2 pair collected: specialist 1,148 words 122s, generic 560 words 104s; both gates 6/6 exit 0, K1-K7 pass both.",
-   "currentTask": "Cycle 551 done; ML-T3 solvers next cycle 552",
-   "lastHeartbeat": "2026-11-26T17:31:40.000Z",
-   "observedAt": "2026-11-26T17:31:40.000Z",
-   "needsUser": false,
-   "category": "team-improvement"
-  },
-  {
    "agentId": "team-ml-engineer-ml-t2-generic",
    "name": "ML-T2 generic solver",
    "role": "builder",
@@ -3931,6 +3931,20 @@
    "title": "MIA-R3 generic solver",
    "detail": "MIA-R3 generic brief complete: 8,596 bytes, 1,335 words, 113s, 0 em dashes. Posted by cycle parent.",
    "currentTask": "MIA-R3 generic brief complete",
+   "lastHeartbeat": "2026-11-26T03:01:37.000Z",
+   "observedAt": "2026-11-26T03:01:37.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mia-r3-specialist",
+   "name": "MIA-R3 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MIA-R3 specialist solver",
+   "detail": "MIA-R3 specialist brief complete: 8,619 bytes, 1,312 words, 175s, 0 em dashes. Posted by cycle parent.",
+   "currentTask": "MIA-R3 specialist brief complete",
    "lastHeartbeat": "2026-11-26T03:01:37.000Z",
    "observedAt": "2026-11-26T03:01:37.000Z",
    "needsUser": false,
