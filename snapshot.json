@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T09:26:00.000Z",
- "summary": "Cycle 513 running: App Builder AB-T3 solver pair.",
+ "generatedAt": "2026-11-26T09:29:30.000Z",
+ "summary": "Cycle 513 complete: App Builder AB-T3 pair collected and verified, K1-K7 pass both, no key defect. All three pairs collected; sealing 514, judging 516.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 513: App Builder AB-T3 solvers",
-   "detail": "Cycle 513 running: App Builder AB-T3 solver pair (release signing runbook and handoff).",
-   "currentTask": "Cycle 513: App Builder AB-T3 solver pair",
-   "lastHeartbeat": "2026-11-26T09:26:00.000Z",
-   "observedAt": "2026-11-26T09:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2453,6 +2439,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "ab-t3-generic-solver",
+   "name": "AB-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T3 generic solve",
+   "detail": "AB-T3 generic solve complete (posted by parent): runbook 2,256 bytes / 370 words, workflow 818, handoff 760, gate 2,154, 42s, gate exit 0.",
+   "currentTask": "AB-T3 generic solve complete (posted by parent)",
+   "lastHeartbeat": "2026-11-26T09:27:41.000Z",
+   "observedAt": "2026-11-26T09:29:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "ab-t3-specialist-solver",
+   "name": "AB-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T3 specialist solve",
+   "detail": "AB-T3 specialist solve complete (posted by parent): runbook 4,141 bytes / 687 words, workflow 1,137, handoff 1,270, gate 3,544, 67s, gate exit 0.",
+   "currentTask": "AB-T3 specialist solve complete (posted by parent)",
+   "lastHeartbeat": "2026-11-26T09:27:56.000Z",
+   "observedAt": "2026-11-26T09:29:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 513 complete: AB-T3 pair collected",
+   "detail": "Cycle 513 complete: App Builder AB-T3 pair collected and verified, K1-K7 pass both, no key defect. All three pairs collected; sealing 514, judging 516.",
+   "currentTask": "Cycle 513 complete: AB-T3 pair collected and verified",
+   "lastHeartbeat": "2026-11-26T09:29:30.000Z",
+   "observedAt": "2026-11-26T09:29:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3809,48 +3837,6 @@
    "observedAt": "2026-11-25T15:02:00.000Z",
    "needsUser": true,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "fc-s3-generic",
-   "name": "FC-S3 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S3 generic solver",
-   "detail": "FC-S3 generic: 17,426 bytes, 2,674 words, about 293.5s, MD5 c21ba3b635954b3ed5bbba4db4f13515. Posted by cycle parent.",
-   "currentTask": "FC-S3 generic output collected",
-   "lastHeartbeat": "2026-11-25T14:42:13.000Z",
-   "observedAt": "2026-11-25T14:46:51.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "fc-s3-specialist",
-   "name": "FC-S3 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S3 specialist solver",
-   "detail": "FC-S3 specialist: 22,543 bytes, 3,582 words, 397s, MD5 b01f84e89ded63f816dd304857b28a59. Posted by cycle parent.",
-   "currentTask": "FC-S3 specialist output collected",
-   "lastHeartbeat": "2026-11-25T14:43:49.000Z",
-   "observedAt": "2026-11-25T14:46:51.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-s2-generic",
-   "name": "FC-S2 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S2 generic solve",
-   "detail": "FC-S2 generic: 16,851 bytes, 2,503 words, 279s, 0 em dashes. Posted by cycle parent; solver start snapshot failed on agentRole.",
-   "currentTask": "FC-S2 generic solve complete",
-   "lastHeartbeat": "2026-11-25T14:16:58.000Z",
-   "observedAt": "2026-11-25T14:16:58.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
