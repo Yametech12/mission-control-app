@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T18:45:44.000Z",
- "summary": "Cycle 556: Data Engineer validation opened; DE-T1 pair collected and verified.",
+ "generatedAt": "2026-11-26T18:51:21.000Z",
+ "summary": "DE-T2 generic solver complete: gate 6/6, read-back PASS",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 557: Data Engineer DE-T2 solvers",
+   "detail": "Cycle 557 running DE-T2 SASE portal reconciliation solvers, specialist and generic, for Data Engineer validation.",
+   "currentTask": "DE-T2 solvers running",
+   "lastHeartbeat": "2026-11-26T18:48:15.000Z",
+   "observedAt": "2026-11-26T18:48:15.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2439,6 +2453,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "team-data-engineer-de-t2-specialist",
+   "name": "Data Engineer DE-T2 specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DE-T2 specialist: SASE export reconciliation",
+   "detail": "Started DE-T2 specialist run; re-reading export dir from disk, counts, sha256, mode 600 checks.",
+   "currentTask": "Reconcile SASE exams 1 to 5 export",
+   "lastHeartbeat": "2026-11-26T18:52:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2535,20 +2563,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 556: Data Engineer validation opened",
-   "detail": "Cycle 556 complete. DE-T1 pair collected and verified (both gates 6/6 exit 0, K1 to K7 pass both, no key defect). DE-T2 runs cycle 557.",
-   "currentTask": "Cycle 556 complete: DE-T1 pair collected, stage filed for DE-T2",
-   "lastHeartbeat": "2026-11-26T18:45:44.000Z",
-   "observedAt": "2026-11-26T18:45:44.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
   },
   {
    "agentId": "team-data-engineer-de-t1-generic",
@@ -3931,6 +3945,20 @@
    "title": "FC-S2 generic solver",
    "detail": "Posted by cycle parent: FC-S2 generic output collected (10,585 bytes, 240s).",
    "currentTask": "FC-S2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T04:06:01.000Z",
+   "observedAt": "2026-11-26T04:06:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "fc-s2-specialist",
+   "name": "fc-s2-specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S2 specialist solver",
+   "detail": "Posted by cycle parent: FC-S2 specialist output collected (14,709 bytes, 346s).",
+   "currentTask": "FC-S2 specialist solve complete",
    "lastHeartbeat": "2026-11-26T04:06:01.000Z",
    "observedAt": "2026-11-26T04:06:01.000Z",
    "needsUser": false,
