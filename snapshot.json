@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:10:00.000Z",
- "summary": "SB-R1 specialist solver building the demo edge move page.",
+ "generatedAt": "2026-11-26T10:13:14.000Z",
+ "summary": "Generic solver SB-R1 complete: gate passes, net shift 16.66 px.",
  "agents": [
   {
    "agentId": null,
@@ -2381,20 +2381,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "Audit"
-  },
-  {
-   "agentId": "team-generic-sb-r1",
-   "name": "Generic solver SB-R1",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Generic solver SB-R1 (cycle 517)",
-   "detail": "Building index.html, gate.js, delivery-note.md for Site Builder retest SB-R1.",
-   "currentTask": "Building SB-R1 generic baseline files",
-   "lastHeartbeat": "2026-11-26T10:09:09.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "sase-landing-portal-audit",
