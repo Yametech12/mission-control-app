@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T21:58:30.000Z",
- "summary": "Cycle 571: AIE-T3 fresh re-seal done (SEAL_OK first run); re-judging cycle 572. Scoreboard 25 validated, 8 flagged, 46 unvalidated of 79.",
+ "generatedAt": "2026-11-26T22:10:44.000Z",
+ "summary": "Cycle 572: AIE-T3 re-judged clean, specialist win 8.75 vs 8.00; full AIE run 1 complete at 8.25 vs 8.25, not validated; scoreboard 25 validated, 8 flagged, 46 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -2542,11 +2542,11 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 571: AIE-T3 re-seal",
-   "detail": "AIE-T3 fresh re-seal SEAL_OK first run (19 changed lines, 6 neutral files, 0 identity hits, 0 em dashes); fresh mapping in mapping-sealed-t3-571.md; re-judging cycle 572.",
-   "currentTask": "Cycle 571 complete: AIE-T3 re-sealed, judging cycle 572",
-   "lastHeartbeat": "2026-11-26T21:58:30.000Z",
-   "observedAt": "2026-11-26T21:58:30.000Z",
+   "title": "Improvement cycle 572: AIE-T3 re-judged",
+   "detail": "Cycle 572 done: AIE-T3 re-judged clean, specialist win 8.75 vs 8.00. Full AIE run 1: 8.25 vs 8.25, 1 win 2 losses, not validated. Scoreboard 25/8/46 of 79.",
+   "currentTask": "Cycle 572 complete: AIE-T3 re-judged, specialist win 8.75 vs 8.00",
+   "lastHeartbeat": "2026-11-26T22:10:44.000Z",
+   "observedAt": "2026-11-26T22:10:44.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
