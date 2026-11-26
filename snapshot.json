@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:37:00.000Z",
- "summary": "Cycle 484 complete: Fact Checker retest 2 opened, FC-S1 pair collected and verified; FC-S2 solvers cycle 486.",
+ "generatedAt": "2026-11-26T03:44:25.000Z",
+ "summary": "Routing panel cycle 485 complete: panel picks filed for RC-T1 to RC-T5. Majorities: Site Builder 7-1, Fresh-Eye Reviewer 6-1-1, API Integration Engineer 7-1, Design Auditor 5-2-1, Device and Rendering Tester 7-1.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 485",
+   "detail": "Cycle 485 routing check started: 5 fresh GT-139/GT-140 legs, coordinator picks sealing next.",
+   "currentTask": "Cycle 485 routing check: 5 fresh GT-139/GT-140 legs",
+   "lastHeartbeat": "2026-11-26T03:42:15.000Z",
+   "observedAt": "2026-11-26T03:42:15.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,20 +2439,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 484: Fact Checker retest 2",
-   "detail": "Cycle 484 complete: Fact Checker retest 2 opened, FC-S1 pair collected and verified (specialist 14,429 bytes, generic 13,326 bytes, 0 em dashes). Next: FC-S2 cycle 486.",
-   "currentTask": "Cycle 484 complete: Fact Checker retest 2 FC-S1 pair collected",
-   "lastHeartbeat": "2026-11-26T03:37:00.000Z",
-   "observedAt": "2026-11-26T03:37:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3805,6 +3805,20 @@
    "title": "FC-R1 specialist solve",
    "detail": "Posted by cycle parent: FC-R1 specialist solve complete (15,331 bytes, 364s). Start snapshot failed once on schema; completion posted by solver.",
    "currentTask": "FC-R1 specialist solve",
+   "lastHeartbeat": "2026-11-25T08:13:00.000Z",
+   "observedAt": "2026-11-25T08:13:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-generic",
+   "name": "Generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-R1 generic solve",
+   "detail": "Posted by cycle parent: FC-R1 generic solve complete (12,066 bytes, about 298s). Start snapshot failed once on schema; completion posted by solver.",
+   "currentTask": "FC-R1 generic solve",
    "lastHeartbeat": "2026-11-25T08:13:00.000Z",
    "observedAt": "2026-11-25T08:13:00.000Z",
    "needsUser": false,
