@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T23:00:00.000Z",
- "summary": "Cycle 576 complete: AIE-R3 pair collected and verified; sealing cycle 577, judging 578.",
+ "generatedAt": "2026-11-26T23:06:49.000Z",
+ "summary": "Improvement cycle 577 in progress: sealing AIE retest pairs.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 577",
+   "detail": "Cycle 577 started: sealing AIE retest pairs AIE-R1 to AIE-R3 for judging cycle 578.",
+   "currentTask": "Cycle 577: sealing AIE retest pairs AIE-R1 to AIE-R3",
+   "lastHeartbeat": "2026-11-26T23:06:49.000Z",
+   "observedAt": "2026-11-26T23:06:49.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2565,20 +2579,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 576",
-   "detail": "Cycle 576 complete: AIE-R3 pair collected and verified, K1-K7 pass both, sealing cycle 577.",
-   "currentTask": "Cycle 576 complete: AIE-R3 pair collected",
-   "lastHeartbeat": "2026-11-26T23:00:00.000Z",
-   "observedAt": "2026-11-26T23:00:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "cse-quick-check-6h",
    "name": "CSE Quick Check 06:30",
    "role": "poster",
@@ -3935,6 +3935,20 @@
    "observedAt": "2026-11-26T06:28:27.000Z",
    "needsUser": false,
    "category": "thesis"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder SB-V1 specialist",
+   "detail": "SB-V1 done: gate passes cases 1 and 3; all 5 cases measured (case 1 area 0px, cases 2-4 show at 48.5px, login banner intact); 0 em dashes.",
+   "currentTask": "SB-V1 build complete: gate green, all 5 cases measured in headless Chromium",
+   "lastHeartbeat": "2026-11-26T06:15:00.000Z",
+   "observedAt": "2026-11-26T06:15:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
