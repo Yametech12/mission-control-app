@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T22:38:00.000Z",
- "summary": "AIE-R2 specialist run complete",
+ "generatedAt": "2026-11-26T22:43:30.000Z",
+ "summary": "Cycle 575 routing check in progress",
  "agents": [
   {
    "agentId": null,
@@ -844,15 +844,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 574",
-   "detail": "Cycle 574 started: AIE-R2 solver pair dispatched (specialist from rewritten card, generic from task file only).",
-   "currentTask": "Cycle 574: AIE-R2 solvers (API Integration Engineer retest)",
-   "lastHeartbeat": "2026-11-26T22:34:30.000Z",
-   "observedAt": "2026-11-26T22:34:30.000Z",
+   "title": "Ghostname Team improvement cycle 575",
+   "detail": "Cycle 575 routing check started: harvesting 5 fresh legs from Nov 26-27 work",
+   "currentTask": "Cycle 575 routing check: harvesting 5 fresh legs",
+   "lastHeartbeat": "2026-11-26T22:43:30.000Z",
+   "observedAt": "2026-11-26T22:43:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2570,11 +2570,11 @@
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "AIE-R2 nine connectors re-audit",
-   "detail": "AIE-R2 done: record 26521 B, gate 1885 B, note 3619 B; gate passed; 7 of 9 verified live, Excalidraw failed, Shopee not connected.",
-   "currentTask": "AIE-R2 re-audit complete: record, gate, and delivery note written",
-   "lastHeartbeat": "2026-11-26T22:38:00.000Z",
-   "observedAt": "2026-11-26T22:38:00.000Z",
+   "title": "AIE-R2 specialist solver",
+   "detail": "AIE-R2 specialist solver complete (posted by cycle lead): record 26,521 bytes, gate exit 0, 250s.",
+   "currentTask": "AIE-R2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T22:41:50.000Z",
+   "observedAt": "2026-11-26T22:41:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2585,12 +2585,12 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "AIE-R2 generic solver",
-   "detail": "AIE-R2 generic done: record 27613B, gate 1530B, note 3511B; gate passed; Excalidraw 403 failed, Shopee blocked.",
-   "currentTask": "AIE-R2 generic re-audit done",
-   "lastHeartbeat": "2026-11-26T22:37:00.000Z",
-   "observedAt": "2026-11-26T22:37:00.000Z",
+   "detail": "AIE-R2 generic solver complete (posted by cycle lead): record 27,613 bytes, gate exit 0, 184s.",
+   "currentTask": "AIE-R2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T22:41:50.000Z",
+   "observedAt": "2026-11-26T22:41:50.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-aie-r1-generic",
