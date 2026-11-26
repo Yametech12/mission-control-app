@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:36:05.000Z",
- "summary": "Cycle 552 running: ML Engineer ML-T3 solver pair.",
+ "generatedAt": "2026-11-26T17:40:34.000Z",
+ "summary": "Cycle 552 complete: ML Engineer ML-T3 pair collected and verified; all three pairs collected, sealing 553, judging 554.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team Improvement Cycle",
-   "detail": "Cycle 552: ML Engineer ML-T3 solver pair running (specialist + generic)",
-   "currentTask": "Cycle 552: ML Engineer ML-T3 solver pair",
-   "lastHeartbeat": "2026-11-26T17:36:05.000Z",
-   "observedAt": "2026-11-26T17:36:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,6 +2537,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team Improvement Cycle",
+   "detail": "Cycle 552 complete: ML-T3 pair collected and verified, both gates 6/6, K1-K7 pass, no verdict",
+   "currentTask": "Cycle 552 complete: ML-T3 pair collected",
+   "lastHeartbeat": "2026-11-26T17:40:34.000Z",
+   "observedAt": "2026-11-26T17:40:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ml-engineer-ml-t3-specialist",
+   "name": "ML-T3 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ML-T3 Specialist Solver",
+   "detail": "ML-T3 specialist: 8,752/1,620/3,070 bytes, 1,437 words, gate 6/6 (posted by cycle lead)",
+   "currentTask": "ML-T3 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T17:38:52.000Z",
+   "observedAt": "2026-11-26T17:40:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ml-engineer-ml-t3-generic",
+   "name": "ML-T3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ML-T3 Generic Solver",
+   "detail": "ML-T3 generic: 2,904/1,269/2,184 bytes, 492 words, gate 6/6 (posted by cycle lead)",
+   "currentTask": "ML-T3 generic solve complete",
+   "lastHeartbeat": "2026-11-26T17:38:18.000Z",
+   "observedAt": "2026-11-26T17:40:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-ml-engineer-ml-t2-generic",
    "name": "ML-T2 generic solver",
    "role": "builder",
@@ -3905,48 +3933,6 @@
    "currentTask": "Routing check 485 panel picks filed",
    "lastHeartbeat": "2026-11-26T03:44:25.000Z",
    "observedAt": "2026-11-26T03:46:57.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-s1-generic",
-   "name": "FC-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S1 generic solver",
-   "detail": "FC-S1 generic solver complete: 13,326 bytes, 2,064 words, 217s, 0 em dashes (posted by cycle lead).",
-   "currentTask": "FC-S1 verification record",
-   "lastHeartbeat": "2026-11-26T03:37:00.000Z",
-   "observedAt": "2026-11-26T03:37:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mia-r3-generic",
-   "name": "MIA-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MIA-R3 generic solver",
-   "detail": "MIA-R3 generic brief complete: 8,596 bytes, 1,335 words, 113s, 0 em dashes. Posted by cycle parent.",
-   "currentTask": "MIA-R3 generic brief complete",
-   "lastHeartbeat": "2026-11-26T03:01:37.000Z",
-   "observedAt": "2026-11-26T03:01:37.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mia-r3-specialist",
-   "name": "MIA-R3 specialist solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MIA-R3 specialist solver",
-   "detail": "MIA-R3 specialist brief complete: 8,619 bytes, 1,312 words, 175s, 0 em dashes. Posted by cycle parent.",
-   "currentTask": "MIA-R3 specialist brief complete",
-   "lastHeartbeat": "2026-11-26T03:01:37.000Z",
-   "observedAt": "2026-11-26T03:01:37.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
