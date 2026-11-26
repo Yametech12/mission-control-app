@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:56:10.000Z",
- "summary": "Cycle 554: ML Engineer blind judging in progress.",
+ "generatedAt": "2026-11-26T18:00:14.000Z",
+ "summary": "Cycle 554 complete: ML Engineer validated 8.67 vs 6.50. Scoreboard 24 validated, 8 flagged, 47 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 554: ML Engineer judging",
-   "detail": "Cycle 554 judging ML Engineer: 3 fresh QA judges scoring sealed ML-T1/T2/T3 pairs blind.",
-   "currentTask": "Cycle 554: judging ML Engineer ML-T1 to ML-T3 blind",
-   "lastHeartbeat": "2026-11-26T17:56:10.000Z",
-   "observedAt": "2026-11-26T17:56:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,6 +2537,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 554: ML Engineer validated",
+   "detail": "Cycle 554 done: ML Engineer VALIDATED 8.67 vs 6.50, 3 wins 0 losses. Scoreboard 24/79 validated.",
+   "currentTask": "Cycle 554 complete: ML Engineer validated 8.67 vs 6.50",
+   "lastHeartbeat": "2026-11-26T18:00:14.000Z",
+   "observedAt": "2026-11-26T18:00:14.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-ml-engineer-ml-t3-specialist",
    "name": "ML-T3 Specialist Solver",
    "role": "builder",
@@ -3933,20 +3933,6 @@
    "currentTask": "Routing check 485 panel picks filed",
    "lastHeartbeat": "2026-11-26T03:44:25.000Z",
    "observedAt": "2026-11-26T03:46:57.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-s1-generic",
-   "name": "FC-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S1 generic solver",
-   "detail": "FC-S1 generic solver complete: 13,326 bytes, 2,064 words, 217s, 0 em dashes (posted by cycle lead).",
-   "currentTask": "FC-S1 verification record",
-   "lastHeartbeat": "2026-11-26T03:37:00.000Z",
-   "observedAt": "2026-11-26T03:37:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
