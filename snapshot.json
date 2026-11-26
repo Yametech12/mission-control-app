@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T22:36:00.000Z",
- "summary": "AIE-R2 specialist run started",
+ "generatedAt": "2026-11-26T22:38:00.000Z",
+ "summary": "AIE-R2 specialist run complete",
  "agents": [
   {
    "agentId": null,
@@ -843,20 +843,6 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-aie-r2-specialist",
-   "name": "AIE-R2 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-R2 nine connectors re-audit",
-   "detail": "AIE-R2 specialist solver started: nine custom connectors re-audit, reading role card and connector docs.",
-   "currentTask": "Nine custom connectors re-audit: reading connector docs",
-   "lastHeartbeat": "2026-11-26T22:36:00.000Z",
-   "observedAt": "2026-11-26T22:36:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement Cycle",
    "role": "coordinator",
@@ -869,20 +855,6 @@
    "observedAt": "2026-11-26T22:34:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-aie-r2-generic",
-   "name": "AIE-R2 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-R2 generic solver",
-   "detail": "AIE-R2 generic solver started: nine custom connectors re-audit.",
-   "currentTask": "Nine custom connectors re-audit, generic side",
-   "lastHeartbeat": "2026-11-26T22:34:03.000Z",
-   "observedAt": "2026-11-26T22:34:03.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2593,6 +2565,34 @@
    "category": "cse-reviewer"
   },
   {
+   "agentId": "team-aie-r2-specialist",
+   "name": "AIE-R2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-R2 nine connectors re-audit",
+   "detail": "AIE-R2 done: record 26521 B, gate 1885 B, note 3619 B; gate passed; 7 of 9 verified live, Excalidraw failed, Shopee not connected.",
+   "currentTask": "AIE-R2 re-audit complete: record, gate, and delivery note written",
+   "lastHeartbeat": "2026-11-26T22:38:00.000Z",
+   "observedAt": "2026-11-26T22:38:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-aie-r2-generic",
+   "name": "AIE-R2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-R2 generic solver",
+   "detail": "AIE-R2 generic done: record 27613B, gate 1530B, note 3511B; gate passed; Excalidraw 403 failed, Shopee blocked.",
+   "currentTask": "AIE-R2 generic re-audit done",
+   "lastHeartbeat": "2026-11-26T22:37:00.000Z",
+   "observedAt": "2026-11-26T22:37:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-aie-r1-generic",
    "name": "AIE-R1 generic solver",
    "role": "builder",
@@ -3949,34 +3949,6 @@
    "observedAt": "2026-11-26T06:01:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-ur-judge-r3",
-   "name": "UR-R3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R3 blind judge",
-   "detail": "UR-R3 judged blind (posted by parent): specialist win 8.75 vs 7.50, contamination clean.",
-   "currentTask": "UR-R3 judged: specialist win 8.75 vs 7.50",
-   "lastHeartbeat": "2026-11-26T05:58:55.000Z",
-   "observedAt": "2026-11-26T06:01:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt-143-lead",
-   "name": "gt-143-lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ClinicFlow webhook fast ack upgrade (GT-143)",
-   "detail": "GT-143 complete: fast ack live on production (dpl_FbZvumRQCFJfxsYtcZCVZLRKUHHL, commit 2144386). Ack 426ms to 1ms locally. Tests 65 to 74. Fresh-Eye round 3 DEPLOY. Live smoke all pass.",
-   "currentTask": "Complete: deployed and smoke-tested",
-   "lastHeartbeat": "2026-11-26T05:48:00.000Z",
-   "observedAt": "2026-11-26T05:48:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
   }
  ]
 }
