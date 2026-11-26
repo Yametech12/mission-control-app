@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T09:50:42.000Z",
- "summary": "Routing panel cycle 515: complete",
+ "generatedAt": "2026-11-26T09:56:39.000Z",
+ "summary": "Cycle 516 judging the App Builder validation pairs.",
  "agents": [
   {
    "agentId": null,
@@ -820,11 +820,11 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 515",
-   "detail": "Cycle 515 routing check started: 5 fresh legs from GT-145 and GT-146",
-   "currentTask": "Routing check 75 (cycle 515): harvesting 5 fresh legs",
-   "lastHeartbeat": "2026-11-26T09:47:00.000Z",
-   "observedAt": "2026-11-26T09:47:00.000Z",
+   "title": "Improvement cycle 516: App Builder judging",
+   "detail": "Cycle 516: App Builder judging started, 3 fresh-context QA judges on AB-T1, AB-T2, AB-T3",
+   "currentTask": "Cycle 516: judging the App Builder pairs blind",
+   "lastHeartbeat": "2026-11-26T09:56:39.000Z",
+   "observedAt": "2026-11-26T09:56:39.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2467,16 +2467,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE inbox watch",
+   "detail": "31 threads checked via Graph API, 0 new, 0 changed, 0 unread. No new buyer messages.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T09:55:00.000Z",
+   "observedAt": "2026-11-26T09:55:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "routing-panel-cycle-515",
    "name": "Routing Panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing check panel cycle 515",
-   "detail": "Panel picks filed: Thesis Researcher, Evidence Auditor, Knowledge Manager, Live Verifier, Data Integrity Auditor.",
-   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-26T09:50:42.000Z",
-   "observedAt": "2026-11-26T09:50:42.000Z",
+   "detail": "Routing panel cycle 515 complete: 3 of 5 (posted by parent; panel posted its own snapshots too)",
+   "currentTask": "Routing check panel cycle 515 complete",
+   "lastHeartbeat": "2026-11-26T09:50:53.000Z",
+   "observedAt": "2026-11-26T09:51:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2521,20 +2535,6 @@
    "observedAt": "2026-11-26T09:29:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "17:23 PHT check complete: 31 threads via Graph API, 0 new, 0 changed, 0 unread. No new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox watch complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T09:25:30.000Z",
-   "observedAt": "2026-11-26T09:25:30.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-generic-solver",
