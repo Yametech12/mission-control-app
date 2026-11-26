@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:42:17.000Z",
- "summary": "CSE comment watch 14:32 run complete: 1 heart, 1 reply, no flags.",
+ "generatedAt": "2026-11-26T06:53:00.000Z",
+ "summary": "Improvement cycle 500 complete: routing check 2 of 5; rules 52 and 53 added.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "cse-quick-check-6h",
+   "name": "CSE Quick Check poster",
+   "role": "poster",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Quick Check 14:47",
+   "detail": "CSE Quick Check 14:47 run started. Dropping answer for Nov 26 Analytical post, then posting General Information.",
+   "currentTask": "Step 0: drop answer for Analytical post; then pick General Information question",
+   "lastHeartbeat": "2026-11-26T06:47:00.000Z",
+   "observedAt": "2026-11-26T06:47:00.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
   },
   {
    "agentId": "gt-141-builder",
@@ -2453,6 +2467,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 500",
+   "detail": "Cycle 500 routing check done: 2 of 5, panel better call on all 3 misses; rules 52 and 53 added; cycle 230 flag recurs on RC-T1 only",
+   "currentTask": "Cycle 500 routing check complete: 2 of 5",
+   "lastHeartbeat": "2026-11-26T06:53:00.000Z",
+   "observedAt": "2026-11-26T06:53:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "routing-panel-cycle-500",
+   "name": "Routing panel cycle 500",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 500",
+   "detail": "Routing panel cycle 500 completed (posted by the cycle parent): picks App Builder, Money Researcher, Fresh-Eye, Panel Simulator, Evidence Auditor",
+   "currentTask": "Panel picks filed: 2 matches, 3 misses",
+   "lastHeartbeat": "2026-11-26T06:49:09.000Z",
+   "observedAt": "2026-11-26T06:53:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE comment watcher",
    "role": "monitor",
@@ -2465,20 +2507,6 @@
    "observedAt": "2026-11-26T06:42:17.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 499: Site Builder SB-V2 collected",
-   "detail": "Cycle 499 done: SB-V2 pair collected and verified, K2-K6 pass both, K1 open (shift UNMEASURED, no browser), 6 splits filed for judging.",
-   "currentTask": "Cycle 499 complete",
-   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
-   "observedAt": "2026-11-26T06:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "sb-v2-generic",
@@ -3097,20 +3125,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-routing-panel",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing Panel",
-   "detail": "Routing panel cycle 475: 5 picks filed, all matched Coordinator (QA Tester, Design Auditor, Site Builder, Fresh-Eye, Live Verifier).",
-   "currentTask": "Panel picks filed: QA Tester, Design Auditor, Site Builder, Fresh-Eye, Live Verifier",
-   "lastHeartbeat": "2026-11-26T01:30:06.000Z",
-   "observedAt": "2026-11-26T01:32:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-consequence-planner",
    "name": "Consequence Planner",
    "role": "researcher",
@@ -3263,20 +3277,6 @@
    "observedAt": "2026-11-25T23:24:24.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "cse-quick-check-6h",
-   "name": "cse-quick-check-6h",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Quick Check 6h",
-   "detail": "CSE Quick Check 06:47 done. Analytical C1-A001 (B, Distance) live on Page; answer drop for C1-N001 done; 1 group live, 1 pending approval.",
-   "currentTask": "Run complete: Analytical C1-A001 posted",
-   "lastHeartbeat": "2026-11-25T22:54:00.000Z",
-   "observedAt": "2026-11-25T22:54:00.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "team-compliance-officer",
@@ -3849,6 +3849,20 @@
    "currentTask": "Audit complete, report delivered",
    "lastHeartbeat": "2026-11-25T12:31:00.000Z",
    "observedAt": "2026-11-25T12:31:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
+   "agentId": "gt134-copy",
+   "name": "gt134-copy",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-134 ClinicFlow copy and UX audit",
+   "detail": "Audit complete: 3 Critical, 6 Major, 5 Minor; findings and full copy deck written to GT-20261125-134-reports/copy.md",
+   "currentTask": "Audit complete, report delivered",
+   "lastHeartbeat": "2026-11-25T12:28:18.000Z",
+   "observedAt": "2026-11-25T12:28:18.000Z",
    "needsUser": false,
    "category": "automation-sprints"
   }
