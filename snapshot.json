@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T00:59:22.000Z",
- "summary": "Cycle 472 complete: Consequence Planner retest opened; CP-R1 pair collected and verified.",
+ "generatedAt": "2026-11-26T01:06:15.000Z",
+ "summary": "CP-R2 generic solve complete",
  "agents": [
   {
    "agentId": null,
@@ -2369,6 +2369,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cp-r2-generic-solver",
+   "name": "CP-R2 generic solver",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-R2 generic solve (cycle 473)",
+   "detail": "Generic solve done: cp-r2-generic.md, 11486 bytes, 1817 words, MD5 5572f9bf652fca2a1e89364f43a8b876, 0 em/en dashes, 6 sections in order.",
+   "currentTask": "CP-R2 generic deliverable written and verified",
+   "lastHeartbeat": "2026-11-26T01:06:15.000Z",
+   "observedAt": "2026-11-26T01:06:15.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-generic-solver",
    "name": "Generic solver",
    "role": "researcher",
@@ -2391,20 +2405,6 @@
    "title": "CP-R1 specialist solver",
    "detail": "CP-R1 specialist done: 20,005 bytes, 3,142 words, 89s (posted by cycle lead).",
    "currentTask": "CP-R1 consequence map done",
-   "lastHeartbeat": "2026-11-26T00:59:22.000Z",
-   "observedAt": "2026-11-26T00:59:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 472",
-   "detail": "Cycle 472 complete: Consequence Planner retest opened, CP-R1 pair collected and verified, key clean. CP-R2 next cycle.",
-   "currentTask": "Cycle 472 complete: CP-R1 pair collected",
    "lastHeartbeat": "2026-11-26T00:59:22.000Z",
    "observedAt": "2026-11-26T00:59:22.000Z",
    "needsUser": false,
