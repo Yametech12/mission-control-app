@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T00:01:00.000Z",
- "summary": "Cycle 469 sealing Data Analyst retest 2.",
+ "generatedAt": "2026-11-26T00:06:25.000Z",
+ "summary": "Cycle 469 sealed Data Analyst retest 2; judging cycle 471.",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 469: sealing Data Analyst retest 2 (DA-S1 to DA-S3 pairs collected cycles 466-468); judging lands cycle 471.",
-   "currentTask": "Sealing Data Analyst retest 2 pairs (cycle 469)",
-   "lastHeartbeat": "2026-11-26T00:01:00.000Z",
-   "observedAt": "2026-11-26T00:01:00.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2397,6 +2383,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 469 complete: Data Analyst retest 2 sealed SEAL_OK first run (20 changes, 6 neutrals, 0 identity hits). Judging cycle 471.",
+   "currentTask": "Sealed Data Analyst retest 2; judging lands cycle 471",
+   "lastHeartbeat": "2026-11-26T00:06:25.000Z",
+   "observedAt": "2026-11-26T00:06:25.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3777,20 +3777,6 @@
    "title": "PO-S1 Judge: done",
    "detail": "PO-S1 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 7.50 vs 7.25.",
    "currentTask": "PO-S1 judged: specialist win 7.50 vs 7.25",
-   "lastHeartbeat": "2026-11-25T04:00:00.000Z",
-   "observedAt": "2026-11-25T04:00:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-po-judge-s2",
-   "name": "PO-S2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PO-S2 Judge: done",
-   "detail": "PO-S2 judge (posted by cycle parent; judge snapshot failed on schema): contamination clean, A wins 8.00 vs 7.75.",
-   "currentTask": "PO-S2 judged: specialist win 8.00 vs 7.75",
    "lastHeartbeat": "2026-11-25T04:00:00.000Z",
    "observedAt": "2026-11-25T04:00:00.000Z",
    "needsUser": false,
