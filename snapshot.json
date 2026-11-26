@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:26:32.000Z",
- "summary": "SB-R2 generic solve started.",
+ "generatedAt": "2026-11-26T10:31:00.000Z",
+ "summary": "Improvement cycle 518 complete: Site Builder retest SB-R2 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -843,20 +843,6 @@
    "category": "SASE"
   },
   {
-   "agentId": "sb-r2-generic",
-   "name": "sb-r2-generic",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SB-R2 generic solve (cycle 518)",
-   "detail": "SB-R2 generic solve started: building clinic booking demo page, gate, delivery note.",
-   "currentTask": "Building SB-R2 generic solve: index.html, gate.js, delivery-note.md",
-   "lastHeartbeat": "2026-11-26T10:26:32.000Z",
-   "observedAt": "2026-11-26T10:26:32.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "gt-147-cse-golive",
    "name": "gt147-cse-golive-lead",
    "role": "coordinator",
@@ -869,34 +855,6 @@
    "observedAt": "2026-11-26T10:26:00.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 518: Site Builder retest SB-R2",
-   "detail": "Cycle 518 started: SB-R2 solver pair running (specialist from rewritten card, generic from task only).",
-   "currentTask": "Running SB-R2 solver pair for Site Builder retest",
-   "lastHeartbeat": "2026-11-26T10:25:30.000Z",
-   "observedAt": "2026-11-26T10:25:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sb-r2-specialist",
-   "name": "SB-R2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SB-R2 specialist solver",
-   "detail": "Site Builder retest SB-R2 specialist solve running (posted by cycle lead).",
-   "currentTask": "Building SB-R2 page, gate, and delivery note from the card",
-   "lastHeartbeat": "2026-11-26T10:25:30.000Z",
-   "observedAt": "2026-11-26T10:25:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2523,6 +2481,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 518: Site Builder retest SB-R2",
+   "detail": "Cycle 518 complete: SB-R2 pair collected and verified, specialist gate 21/21, generic gate 3/3, K1-K7 pass both. SB-R3 runs cycle 519.",
+   "currentTask": "Cycle 518 complete; SB-R3 solvers run cycle 519",
+   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
+   "observedAt": "2026-11-26T10:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sb-r2-generic",
+   "name": "SB-R2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SB-R2 generic solver",
+   "detail": "SB-R2 generic solve complete: 1,530/2,367/3,390 bytes, 552 words, gate 3 passed 0 failed (posted by cycle lead).",
+   "currentTask": "SB-R2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
+   "observedAt": "2026-11-26T10:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sb-r2-specialist",
+   "name": "SB-R2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SB-R2 specialist solver",
+   "detail": "SB-R2 specialist solve complete: 1,548/4,937/6,315 bytes, 1,075 words, gate 21 passed 0 failed (posted by cycle lead).",
+   "currentTask": "SB-R2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
+   "observedAt": "2026-11-26T10:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3879,48 +3879,6 @@
    "observedAt": "2026-11-25T17:49:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "6615ddef-42c3-4e1b-bfe7-d943e94b91e7",
-   "name": "CA-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S1 generic solver",
-   "detail": "Posted by the cycle parent: generic deliverable 18,931 bytes, 3,156 words, 239s, MD5 ee20dfe7. Complete.",
-   "currentTask": "CA-S1 generic brief complete",
-   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
-   "observedAt": "2026-11-25T17:28:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "0bca3698-8055-493b-99a8-358e32e4da40",
-   "name": "CA-S1 specialist solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S1 specialist solver",
-   "detail": "Posted by the cycle parent: specialist deliverable 16,361 bytes, 2,811 words, 343s, MD5 4d35a41e. Complete.",
-   "currentTask": "CA-S1 specialist brief complete",
-   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
-   "observedAt": "2026-11-25T17:28:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "apm-s3-generic",
-   "name": "APM-S3 Generic Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-S3 generic solver",
-   "detail": "APM-S3 generic output collected and verified (8,911 bytes, 1,431 words, 126s, key clean). Posted by cycle parent at close.",
-   "currentTask": "APM-S3 generic solve complete",
-   "lastHeartbeat": "2026-11-25T16:03:34.000Z",
-   "observedAt": "2026-11-25T16:03:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
