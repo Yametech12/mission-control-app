@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T20:28:30.000Z",
- "summary": "AIE-T3 specialist run complete: gate PASS, READ-BACK: PASS.",
+ "generatedAt": "2026-11-26T20:29:54.000Z",
+ "summary": "Cycle 564 done: AIE-T3 pair collected and verified; all three AIE pairs collected, sealing 566, judging 567.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 564",
-   "detail": "AIE-T3 solvers running: specialist and generic building the Yame Bridge integration record.",
-   "currentTask": "Cycle 564: AIE-T3 solvers",
-   "lastHeartbeat": "2026-11-26T20:25:28.000Z",
-   "observedAt": "2026-11-26T20:25:28.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,30 +2537,44 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-aie-t3-specialist",
-   "name": "AIE-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-T3 specialist run: Yame Bridge integration record",
-   "detail": "Done: 3 files shipped, gate PASS, all 4 tools UNVERIFIED BY READ-BACK, delivery note READ-BACK: PASS.",
-   "currentTask": "AIE-T3 specialist run complete",
-   "lastHeartbeat": "2026-11-26T20:28:30.000Z",
-   "observedAt": "2026-11-26T20:28:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-aie-t3-generic",
    "name": "AIE-T3 generic solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "AIE-T3 generic solver",
-   "detail": "AIE-T3 generic done: gate PASS, all 4 tools UNVERIFIED BY READ-BACK, read-back PASS, 87s wall time",
-   "currentTask": "AIE-T3 generic run complete",
-   "lastHeartbeat": "2026-11-26T20:28:00.000Z",
-   "observedAt": "2026-11-26T20:28:00.000Z",
+   "detail": "Posted by job lead: AIE-T3 generic done, gate PASS, 7,108/1,639/2,951 bytes, 87s.",
+   "currentTask": "AIE-T3 generic done",
+   "lastHeartbeat": "2026-11-26T20:28:09.000Z",
+   "observedAt": "2026-11-26T20:29:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-aie-t3-specialist",
+   "name": "AIE-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-T3 specialist solver",
+   "detail": "Posted by job lead: AIE-T3 specialist done, gate PASS, 11,000/1,382/2,825 bytes, 119s.",
+   "currentTask": "AIE-T3 specialist done",
+   "lastHeartbeat": "2026-11-26T20:28:49.000Z",
+   "observedAt": "2026-11-26T20:29:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 564",
+   "detail": "Cycle 564 done: AIE-T3 pair collected and verified, K1-K7 pass both, no verdict; sealing 566, judging 567.",
+   "currentTask": "Cycle 564 done: AIE-T3 pair collected",
+   "lastHeartbeat": "2026-11-26T20:29:54.000Z",
+   "observedAt": "2026-11-26T20:29:54.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3935,20 +3935,6 @@
    "observedAt": "2026-11-26T05:06:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "ur-r1-generic",
-   "name": "UR-R1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R1 generic solver (posted by job lead)",
-   "detail": "UR-R1 generic deliverable complete: 8,234 bytes, 1,375 words, 70s, MD5 ec72d9558135372e668eb85b1f64da32.",
-   "currentTask": "UR-R1 generic deliverable complete",
-   "lastHeartbeat": "2026-11-26T04:55:55.000Z",
-   "observedAt": "2026-11-26T04:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
