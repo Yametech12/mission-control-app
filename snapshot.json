@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T14:55:16.000Z",
- "summary": "SASE inbox watch 22:53 PHT: 31 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-26T14:59:06.000Z",
+ "summary": "Improvement cycle 540 running: routing check on 5 fresh GT-148 legs.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 540: routing check",
+   "detail": "Cycle 540 routing check started: 5 fresh GT-148 legs, Coordinator picks sealing before panel read.",
+   "currentTask": "Cycle 540 routing check: GT-148 legs, Coordinator picks sealing",
+   "lastHeartbeat": "2026-11-26T14:59:06.000Z",
+   "observedAt": "2026-11-26T14:59:06.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,20 +2551,6 @@
    "category": "sase"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 539",
-   "detail": "Cycle 539 done: AE-T3 pair collected and verified (specialist 387 words, gate 7/7, 88s; generic 450 words, gate 7/7, 93s; K1-K7 pass both).",
-   "currentTask": "AE-T3 pair collected; sealing cycle 541",
-   "lastHeartbeat": "2026-11-26T14:42:50.000Z",
-   "observedAt": "2026-11-26T14:42:50.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-automation-engineer-ae-t3-specialist",
    "name": "AE-T3 specialist solver",
    "role": "builder",
@@ -3921,6 +3921,20 @@
    "observedAt": "2026-11-26T02:15:24.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-qa-tester",
+   "name": "QA Tester",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA Tester (GT-139)",
+   "detail": "Posted by the job lead: S5b done on re-dispatch, 26 works, 0C 0M 3m, 2 blocked groups, reports/functional-audit.md",
+   "currentTask": "Done: reports/functional-audit.md",
+   "lastHeartbeat": "2026-11-26T01:58:00.000Z",
+   "observedAt": "2026-11-26T01:58:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
   }
  ]
 }
