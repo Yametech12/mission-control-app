@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T13:02:00.000Z",
- "summary": "Cycle 532 started: App Builder retest AB-R2 solvers running.",
+ "generatedAt": "2026-11-26T13:06:11.000Z",
+ "summary": "App Builder AB-R2 specialist solve completed, gate passed 23/23",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -2495,6 +2495,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-app-builder",
+   "name": "App Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "App Builder AB-R2 specialist solve",
+   "detail": "Release pack done, gate.js exits 0 with 23 assertions passed, no em dash, 177 seconds.",
+   "currentTask": "AB-R2 specialist solve",
+   "lastHeartbeat": "2026-11-26T13:06:11.000Z",
+   "observedAt": "2026-11-26T13:06:11.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-R2 generic solve",
+   "detail": "AB-R2 generic pack done: gate 40/40 PASS, exit 0, 153s wall time.",
+   "currentTask": "AB-R2 generic solve",
+   "lastHeartbeat": "2026-11-26T13:05:36.000Z",
+   "observedAt": "2026-11-26T13:05:36.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "ab-r1-generic",
    "name": "AB-R1 Generic",
    "role": "builder",
@@ -3123,20 +3151,6 @@
    "observedAt": "2026-11-26T06:28:27.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver SB-V1",
-   "detail": "SB-V1 generic build complete. Gate pass, all 5 cases verified, banner 0px cold / 46px shown, 0 em dashes.",
-   "currentTask": "SB-V1 generic build complete",
-   "lastHeartbeat": "2026-11-26T06:17:15.000Z",
-   "observedAt": "2026-11-26T06:17:15.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-site-builder",
@@ -3875,20 +3889,6 @@
    "title": "CO-R1 generic solve",
    "detail": "CO-R1 generic: 9,961 bytes, 1,563 words, 69s, verdict PROCEED clip work only",
    "currentTask": "CO-R1 generic solve complete",
-   "lastHeartbeat": "2026-11-25T21:44:00.000Z",
-   "observedAt": "2026-11-25T21:44:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "co-r1-specialist",
-   "name": "CO-R1 Specialist",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CO-R1 specialist solve",
-   "detail": "CO-R1 specialist: 13,496 bytes, 1,848 words, 157s, verdict PROCEED clip work only",
-   "currentTask": "CO-R1 specialist solve complete",
    "lastHeartbeat": "2026-11-25T21:44:00.000Z",
    "observedAt": "2026-11-25T21:44:00.000Z",
    "needsUser": false,
