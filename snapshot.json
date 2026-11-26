@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T00:47:00.000Z",
- "summary": "GT-138: Fresh-Eye returned DEPLOY with FL-03 partial. Builder round 2 closing NF-1 and NF-2, then deploy (S5) and live verification (S6).",
+ "generatedAt": "2026-11-26T00:53:00.000Z",
+ "summary": "GT-138: deployed to production (dpl_8w4fAG6DgCDroc8Rb7RVZHkcyYbm, READY). Live Verifier running the production smoke test (S6).",
  "agents": [
   {
    "agentId": null,
@@ -821,24 +821,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-138 ClinicFlow full tour, fixes, design pass",
-   "detail": "Fresh-Eye verdict DEPLOY: 7 of 8 Majors fully closed, FL-03 partial (card message zones spread button bottoms 74.3px). Round 2 closing NF-1 and NF-2 before deploy.",
-   "currentTask": "S5 held for builder round 2 (NF-1, NF-2); next: verify round 2, then deploy",
-   "lastHeartbeat": "2026-11-26T00:47:00.000Z",
-   "observedAt": "2026-11-26T00:47:00.000Z",
+   "detail": "Round 2 closed NF-1 (button bottom spread 74.3px to 0) and NF-2, lead executed after builder session block. Deployed: dpl_8w4fAG6DgCDroc8Rb7RVZHkcyYbm READY at sha 37b2da5.",
+   "currentTask": "S6 live verification running; last step deploy READY, next step smoke results then screenshots",
+   "lastHeartbeat": "2026-11-26T00:53:00.000Z",
+   "observedAt": "2026-11-26T00:53:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
   {
-   "agentId": "team-site-builder",
-   "name": "site-builder",
-   "role": "builder",
+   "agentId": "team-live-verifier",
+   "name": "live-verifier",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-138 Site Builder",
-   "detail": "Round 2 in the repo: equalize connect button bottoms, flush booking rows (posted by job lead).",
-   "currentTask": "Round 2: NF-1 card message zones, NF-2 booking row inset (posted by job lead)",
-   "lastHeartbeat": "2026-11-26T00:47:00.000Z",
-   "observedAt": "2026-11-26T00:47:00.000Z",
+   "title": "GT-138 Live Verifier",
+   "detail": "Smoke testing production deployment dpl_8w4fAG6DgCDroc8Rb7RVZHkcyYbm (posted by job lead).",
+   "currentTask": "S6 production smoke test on the live URL (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:53:00.000Z",
+   "observedAt": "2026-11-26T00:53:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
@@ -2355,20 +2355,6 @@
    "category": "SASE portal"
   },
   {
-   "agentId": "team-live-verifier",
-   "name": "live-verifier",
-   "role": "auditor",
-   "agentStatus": "waiting",
-   "status": "scheduled",
-   "title": "GT-138 Live Verifier",
-   "detail": "Production smoke test after deploy (posted by job lead).",
-   "currentTask": "S6 waits for deploy (posted by job lead)",
-   "lastHeartbeat": "2026-11-26T00:20:00.000Z",
-   "observedAt": "2026-11-26T00:20:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2423,6 +2409,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "site-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-138 Site Builder",
+   "detail": "Done: 37 of 37 fixes round 1; round 2 NF-1 and NF-2 closed by lead takeover after the builder session was blocked (posted by job lead).",
+   "currentTask": "S3 and round 2 complete (posted by job lead)",
+   "lastHeartbeat": "2026-11-26T00:53:00.000Z",
+   "observedAt": "2026-11-26T00:53:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
   },
   {
    "agentId": "team-fresh-eye-reviewer",
@@ -3809,20 +3809,6 @@
    "observedAt": "2026-11-25T04:40:00.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-flagged-decision",
-   "name": "team-flagged-decision",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Flagged specialists decision record (GT-20261125-129)",
-   "detail": "Complete: Watcher and Page Operator KEEP (flagged-kept) recorded in VALIDATION.md, IMPROVEMENTS.md, PROGRESS.md. No merge, no delete, cards intact.",
-   "currentTask": "Decision recorded and verified in all three team files",
-   "lastHeartbeat": "2026-11-25T04:27:01.000Z",
-   "observedAt": "2026-11-25T04:27:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
