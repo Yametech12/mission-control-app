@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T15:03:00.000Z",
- "summary": "Routing check 540 panel: picks filed",
+ "generatedAt": "2026-11-26T15:10:08.000Z",
+ "summary": "Improvement cycle 540 complete: routing check 3 of 5 on GT-148 legs; rules 56 and 57 added.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 540: routing check",
-   "detail": "Cycle 540 routing check started: 5 fresh GT-148 legs, Coordinator picks sealing before panel read.",
-   "currentTask": "Cycle 540 routing check: GT-148 legs, Coordinator picks sealing",
-   "lastHeartbeat": "2026-11-26T14:59:06.000Z",
-   "observedAt": "2026-11-26T14:59:06.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,16 +2523,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 540: routing check",
+   "detail": "Cycle 540 routing check done: 3 of 5 on GT-148 legs, rules 56 and 57 added, cycle 230 flag recurs on both misses.",
+   "currentTask": "Cycle 540 routing check complete: 3 of 5",
+   "lastHeartbeat": "2026-11-26T15:10:08.000Z",
+   "observedAt": "2026-11-26T15:10:08.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "routing-check-540-panel",
    "name": "Routing check 540 panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing check 540 panel",
-   "detail": "Picks filed: RC-T1 Security Auditor 7-1, RC-T2 Accessibility Specialist 5-3, RC-T3 Design Auditor 7-1, RC-T4 Data Integrity Auditor 5-3, RC-T5 QA Tester 7-1.",
-   "currentTask": "Panel picks filed for routing check 540",
-   "lastHeartbeat": "2026-11-26T15:03:00.000Z",
-   "observedAt": "2026-11-26T15:03:00.000Z",
+   "detail": "Routing check 540 panel complete (posted by cycle parent): picks filed, Security Auditor 7-1, Accessibility Specialist 5-3, Design Auditor 7-1, Data Integrity Auditor 5-3, QA Tester 7-1.",
+   "currentTask": "Panel picks filed: 3 of 5 match",
+   "lastHeartbeat": "2026-11-26T15:04:13.000Z",
+   "observedAt": "2026-11-26T15:10:08.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -3917,20 +3917,6 @@
    "title": "MIA-R1 generic solver",
    "detail": "MIA-R1 generic output collected: 6,740 bytes, 1,054 words, 57s, MD5 4979cb7ab9848c0d7c9e352740a461da. Posted by cycle parent.",
    "currentTask": "MIA-R1 generic solve complete",
-   "lastHeartbeat": "2026-11-26T02:15:24.000Z",
-   "observedAt": "2026-11-26T02:15:24.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-market-intelligence-analyst",
-   "name": "Market Intelligence Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MIA-R1 specialist solver",
-   "detail": "MIA-R1 specialist output collected: 9,331 bytes, 1,421 words, 175s, MD5 803937e141532a7e84e53ed4e0ec0013. Posted by cycle parent.",
-   "currentTask": "MIA-R1 specialist solve complete",
    "lastHeartbeat": "2026-11-26T02:15:24.000Z",
    "observedAt": "2026-11-26T02:15:24.000Z",
    "needsUser": false,
