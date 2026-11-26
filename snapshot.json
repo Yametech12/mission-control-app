@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:01:15.000Z",
- "summary": "FC-S2 generic solver completed",
+ "generatedAt": "2026-11-26T04:06:01.000Z",
+ "summary": "Cycle 486 complete: FC-S2 pair collected, key clean, no verdict yet",
  "agents": [
   {
    "agentId": null,
@@ -843,32 +843,74 @@
    "category": "SASE"
   },
   {
-   "agentId": "fc-s2-generic",
-   "name": "fc-s2-generic",
-   "role": "auditor",
+   "agentId": "gt-141-lead",
+   "name": "gt-141-lead",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "FC-S2 generic solver",
-   "detail": "Posted by cycle parent: FC-S2 generic solver running.",
-   "currentTask": "FC-S2 generic solve",
-   "lastHeartbeat": "2026-11-26T03:55:34.000Z",
-   "observedAt": "2026-11-26T03:55:34.000Z",
+   "title": "GT-141 ClinicFlow sign-in fix lead",
+   "detail": "GT-141 ClinicFlow sign-in fix: diagnosis from production logs started",
+   "currentTask": "GT-141 started: pulling production logs and env presence check",
+   "lastHeartbeat": "2026-11-26T04:06:00.000Z",
+   "observedAt": "2026-11-26T04:06:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "clinicflow"
   },
   {
-   "agentId": "fc-s2-specialist",
-   "name": "fc-s2-specialist",
+   "agentId": "gt-141-diagnosis",
+   "name": "gt-141-diagnosis",
    "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "FC-S2 specialist solver",
-   "detail": "Posted by cycle parent: FC-S2 specialist solver running.",
-   "currentTask": "FC-S2 specialist solve",
-   "lastHeartbeat": "2026-11-26T03:55:34.000Z",
-   "observedAt": "2026-11-26T03:55:34.000Z",
+   "title": "GT-141 diagnosis",
+   "detail": "Diagnosis specialist on GT-141 (posted by job lead)",
+   "currentTask": "Tracing Firebase return path in code and logs",
+   "lastHeartbeat": "2026-11-26T04:06:00.000Z",
+   "observedAt": "2026-11-26T04:06:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "gt-141-builder",
+   "name": "gt-141-builder",
+   "role": "builder",
+   "agentStatus": "idle",
+   "status": "working",
+   "title": "GT-141 builder",
+   "detail": "Builder specialist on GT-141 (posted by job lead)",
+   "currentTask": "Waiting for verified diagnosis before fixes",
+   "lastHeartbeat": "2026-11-26T04:06:00.000Z",
+   "observedAt": "2026-11-26T04:06:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "gt-141-fresh-eye",
+   "name": "gt-141-fresh-eye",
+   "role": "auditor",
+   "agentStatus": "idle",
+   "status": "working",
+   "title": "GT-141 fresh-eye",
+   "detail": "Fresh-Eye reviewer on GT-141 (posted by job lead)",
+   "currentTask": "Waiting for builder output",
+   "lastHeartbeat": "2026-11-26T04:06:00.000Z",
+   "observedAt": "2026-11-26T04:06:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
+   "agentId": "gt-141-live-verifier",
+   "name": "gt-141-live-verifier",
+   "role": "auditor",
+   "agentStatus": "idle",
+   "status": "working",
+   "title": "GT-141 live verifier",
+   "detail": "Live verifier on GT-141 (posted by job lead)",
+   "currentTask": "Waiting for deploy",
+   "lastHeartbeat": "2026-11-26T04:06:00.000Z",
+   "observedAt": "2026-11-26T04:06:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2439,18 +2481,46 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 486: Fact Checker retest 2 FC-S2",
+   "detail": "FC-S2 pair collected and verified (specialist 14,709 bytes, 346s; generic 10,585 bytes, 240s; key clean, no defect). FC-S3 solvers cycle 487.",
+   "currentTask": "Cycle 486 complete",
+   "lastHeartbeat": "2026-11-26T04:06:01.000Z",
+   "observedAt": "2026-11-26T04:06:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "fc-s2-generic",
-   "name": "FC-S2 generic solver",
-   "role": "researcher",
+   "name": "fc-s2-generic",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
    "title": "FC-S2 generic solver",
-   "detail": "FC-S2 generic run complete: all 7 claims confirmed, 10,585 bytes, MD5 fb2e52f6b377808c0afcfa450cdff74e, 240s wall time.",
-   "currentTask": "FC-S2 generic deliverable written",
-   "lastHeartbeat": "2026-11-26T04:01:15.000Z",
-   "observedAt": "2026-11-26T04:01:15.000Z",
+   "detail": "Posted by cycle parent: FC-S2 generic output collected (10,585 bytes, 240s).",
+   "currentTask": "FC-S2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T04:06:01.000Z",
+   "observedAt": "2026-11-26T04:06:01.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "fc-s2-specialist",
+   "name": "fc-s2-specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S2 specialist solver",
+   "detail": "Posted by cycle parent: FC-S2 specialist output collected (14,709 bytes, 346s).",
+   "currentTask": "FC-S2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T04:06:01.000Z",
+   "observedAt": "2026-11-26T04:06:01.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "sase-inbox-watch",
@@ -3809,34 +3879,6 @@
    "observedAt": "2026-11-25T09:12:42.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R2 generic solver",
-   "detail": "FC-R2 generic funnel map done: 16120 bytes, 2611 words, 0 em dashes, 7 sections in order.",
-   "currentTask": "FC-R2 generic funnel map complete",
-   "lastHeartbeat": "2026-11-25T08:25:05.000Z",
-   "observedAt": "2026-11-25T08:25:05.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-funnel-conversion-specialist",
-   "name": "Funnel and Conversion Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R2 specialist solver",
-   "detail": "FC-R2 map written: 14,578 bytes, 2,316 words, 0 em dashes, all 7 sections in order, all 6 steps unmeasured.",
-   "currentTask": "FC-R2 CSE funnel map complete",
-   "lastHeartbeat": "2026-11-25T08:24:23.000Z",
-   "observedAt": "2026-11-25T08:24:23.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
