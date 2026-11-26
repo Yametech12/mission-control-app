@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:16:20.000Z",
- "summary": "Cycle 488: sealing Fact Checker retest 2 (all three pairs collected cycles 484-487).",
+ "generatedAt": "2026-11-26T04:25:34.000Z",
+ "summary": "Improvement cycle 489 running: Fact Checker retest 2 blind judging.",
  "agents": [
   {
    "agentId": null,
@@ -857,6 +857,20 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 489: Fact Checker retest 2 judging",
+   "detail": "Cycle 489 judging Fact Checker retest 2: three fresh-context QA judges scoring the sealed FC-S1 to FC-S3 neutrals.",
+   "currentTask": "Judging Fact Checker retest 2 sealed pairs",
+   "lastHeartbeat": "2026-11-26T04:25:34.000Z",
+   "observedAt": "2026-11-26T04:25:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt-141-lead",
    "name": "gt-141-lead",
    "role": "coordinator",
@@ -869,20 +883,6 @@
    "observedAt": "2026-11-26T04:20:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 488: sealing Fact Checker retest 2",
-   "detail": "Cycle 488 started: sealing Fact Checker retest 2 pairs (FC-S1 to FC-S3) under the differential rule; judging lands cycle 489.",
-   "currentTask": "Cycle 488: sealing Fact Checker retest 2 pairs",
-   "lastHeartbeat": "2026-11-26T04:16:20.000Z",
-   "observedAt": "2026-11-26T04:16:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-live-verifier",
@@ -2481,6 +2481,20 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "12:24 PHT check complete: token valid, 31 threads, 0 new, 0 changed, 0 unread. No buyer messages, no action needed.",
+   "currentTask": "Inbox watch complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T04:28:00.000Z",
+   "observedAt": "2026-11-26T04:28:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "gt-141-diagnosis",
    "name": "gt-141-diagnosis",
    "role": "auditor",
@@ -2591,20 +2605,6 @@
    "observedAt": "2026-11-26T04:06:01.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "Inbox check complete: 31 threads, 0 new, 0 unread, no buyer messages",
-   "currentTask": "Inbox check done: 31 threads, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T03:55:00.000Z",
-   "observedAt": "2026-11-26T03:55:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-routing-panel-485",
