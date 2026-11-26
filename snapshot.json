@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:16:30.000Z",
- "summary": "Cycle 550 routing check starting",
+ "generatedAt": "2026-11-26T17:19:19.000Z",
+ "summary": "Routing check 550 panel complete",
  "agents": [
   {
    "agentId": null,
@@ -9,26 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 2026-11-26T15:26:48Z with a spawn error (binding retired); 23 consecutive failures, last success Nov 4. Next run Nov 27 at 23:30.",
+   "detail": "Failed Nov 26 at 23:26 PHT, 23 consecutive failures, spawn error binding_retired. Last success was Nov 4. Backup has not completed in over three weeks.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T16:16:18.000Z",
+   "observedAt": "2026-11-26T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Telegram session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Telegram session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 95 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T16:16:18.000Z",
-   "needsUser": true,
-   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -37,12 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 93 consecutive failures; last success Nov 3.",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results, account action required. 93 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T16:16:18.000Z",
+   "observedAt": "2026-11-26T14:35:11.000Z",
    "needsUser": true,
    "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results, account action required. 95 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T13:46:29.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -51,40 +51,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "CSE Page comment watch",
-   "detail": "Last run failed 2026-11-26T12:44:27Z: required Page posts and comments read was not performed, so coverage is incomplete. Next run 2026-11-26T18:32:05Z.",
+   "detail": "Failed Nov 26 at 20:32 PHT: required Page and comment read was not performed, no evidence available, browser session state was missing. Last success was 14:42 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T16:16:18.000Z",
+   "observedAt": "2026-11-26T12:44:27.000Z",
    "needsUser": false,
-   "category": "CSE Reviewer"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Last run failed 2026-11-26T11:05:59Z; 8 consecutive failures, last success Nov 2. Next run Nov 29.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T16:16:18.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Last run failed Nov 23; 3 consecutive failures, last success Nov 4. Next run Mon Nov 30 at 09:00.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T16:16:18.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "category": "CSE Page"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -99,6 +71,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed Nov 26 at 19:05 PHT, 8 consecutive failures, spawn error binding_retired. Last success was Nov 2.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -2565,6 +2551,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-check-550-panel",
+   "name": "Routing check 550 panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 550 panel",
+   "detail": "Picks filed: RC-T1 Systems Builder 7-1, RC-T2 Systems Builder 6-2, RC-T3 Reviewer Marketer 7-1, RC-T4 Design Systems Engineer 6-2, RC-T5 Site Builder 8-0.",
+   "currentTask": "Panel picks filed for routing check 550",
+   "lastHeartbeat": "2026-11-26T17:19:19.000Z",
+   "observedAt": "2026-11-26T17:19:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-ml-engineer",
    "name": "ML Engineer",
    "role": "builder",
@@ -3945,20 +3945,6 @@
    "title": "Fresh-Eye Reviewer: GT-140 diff and renders",
    "detail": "Posted by job lead. Complete: round 1 DO NOT DEPLOY (FE-1), re-review DEPLOY, FE-1 closed.",
    "currentTask": "Done: fresh-eye.md with re-review DEPLOY verdict",
-   "lastHeartbeat": "2026-11-26T02:47:28.000Z",
-   "observedAt": "2026-11-26T02:47:28.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
-   "agentId": "team-live-verifier",
-   "name": "team-live-verifier",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Live Verifier: GT-140 production smoke",
-   "detail": "Posted by job lead. Complete: PASS 26, FAIL 0, SKIPPED 1 (login click drive, VM proxy). live-verification.md filed.",
-   "currentTask": "Done: reports/live-verification.md delivered",
    "lastHeartbeat": "2026-11-26T02:47:28.000Z",
    "observedAt": "2026-11-26T02:47:28.000Z",
    "needsUser": false,
