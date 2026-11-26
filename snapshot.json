@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:53:00.000Z",
- "summary": "Improvement cycle 500 complete: routing check 2 of 5; rules 52 and 53 added.",
+ "generatedAt": "2026-11-26T06:56:00.000Z",
+ "summary": "Cycle 501: Site Builder SB-V3 solver pair dispatched.",
  "agents": [
   {
    "agentId": null,
@@ -843,18 +843,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "cse-quick-check-6h",
-   "name": "CSE Quick Check poster",
-   "role": "poster",
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "CSE Quick Check 14:47",
-   "detail": "CSE Quick Check 14:47 run started. Dropping answer for Nov 26 Analytical post, then posting General Information.",
-   "currentTask": "Step 0: drop answer for Analytical post; then pick General Information question",
-   "lastHeartbeat": "2026-11-26T06:47:00.000Z",
-   "observedAt": "2026-11-26T06:47:00.000Z",
+   "title": "Improvement cycle 501: Site Builder SB-V3 solvers",
+   "detail": "Cycle 501 running: Site Builder SB-V3 solver pair dispatched (specialist + generic).",
+   "currentTask": "Cycle 501: SB-V3 solver pair dispatched",
+   "lastHeartbeat": "2026-11-26T06:56:00.000Z",
+   "observedAt": "2026-11-26T06:56:00.000Z",
    "needsUser": false,
-   "category": "cse-reviewer"
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,18 +2467,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
-   "role": "coordinator",
+   "agentId": "sase-inbox-watch",
+   "name": "SASE inbox monitor",
+   "role": "monitor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 500",
-   "detail": "Cycle 500 routing check done: 2 of 5, panel better call on all 3 misses; rules 52 and 53 added; cycle 230 flag recurs on RC-T1 only",
-   "currentTask": "Cycle 500 routing check complete: 2 of 5",
-   "lastHeartbeat": "2026-11-26T06:53:00.000Z",
-   "observedAt": "2026-11-26T06:53:00.000Z",
+   "title": "SASE Page inbox watch",
+   "detail": "14:54 PHT check complete: 31 threads, 0 new buyer messages, 0 unread, token valid. No action needed.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T06:54:41.000Z",
+   "observedAt": "2026-11-26T06:54:41.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "sase"
   },
   {
    "agentId": "routing-panel-cycle-500",
@@ -2493,6 +2493,20 @@
    "observedAt": "2026-11-26T06:53:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "cse-quick-check-6h",
+   "name": "CSE Quick Check poster",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Quick Check 14:47",
+   "detail": "CSE Quick Check 14:47 done. General Information C1-G001 live on Page; answer B The people; 1 group live, 1 pending approval.",
+   "currentTask": "Run complete: General Information C1-G001 posted",
+   "lastHeartbeat": "2026-11-26T06:52:00.000Z",
+   "observedAt": "2026-11-26T06:52:00.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
   },
   {
    "agentId": "cse-page-comment-watch",
@@ -2549,20 +2563,6 @@
    "observedAt": "2026-11-26T06:28:27.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "14:24 PHT check complete: 31 threads, 0 new, 0 changed, 0 unread. No new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T06:24:52.000Z",
-   "observedAt": "2026-11-26T06:24:52.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-generic-solver",
