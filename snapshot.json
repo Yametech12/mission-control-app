@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:01:00.000Z",
- "summary": "Improvement cycle 548 complete: Automation Engineer validated",
+ "generatedAt": "2026-11-26T17:10:28.000Z",
+ "summary": "ML-T1 specialist run completed: HAPT plan shipped, gate passed 7 of 7, exit 0, READ-BACK PASS.",
  "agents": [
   {
    "agentId": null,
@@ -855,6 +855,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 549: ML Engineer validation opens",
+   "detail": "Cycle 549 started: ML Engineer validation opens, tasks ML-T1 to ML-T3 being filed",
+   "currentTask": "Cycle 549: open ML Engineer validation, file ML-T1 to ML-T3 tasks",
+   "lastHeartbeat": "2026-11-26T17:06:30.000Z",
+   "observedAt": "2026-11-26T17:06:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,16 +2565,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "auditor",
+   "agentId": "team-ml-engineer",
+   "name": "ML Engineer",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 548: Automation Engineer validated",
-   "detail": "Retest judged blind: AE-R1 8.50 vs 7.25, AE-R2 8.50 vs 6.00, AE-R3 8.75 vs 8.25; run 8.58 vs 7.17, 3 wins. Scoreboard 23 validated, 8 flagged, 48 unvalidated.",
-   "currentTask": "Cycle 548 complete; ML Engineer validation opens cycle 549",
-   "lastHeartbeat": "2026-11-26T17:01:00.000Z",
-   "observedAt": "2026-11-26T17:01:00.000Z",
+   "title": "ML Engineer ML-T1 specialist run completed",
+   "detail": "ML-T1 done: plan, gate.js, delivery note shipped; gate passed 7 of 7, exit 0; 0 em dashes; READ-BACK PASS.",
+   "currentTask": "ML-T1 HAPT experiment plan done, gate 7 of 7 passed",
+   "lastHeartbeat": "2026-11-26T17:10:28.000Z",
+   "observedAt": "2026-11-26T17:10:28.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
