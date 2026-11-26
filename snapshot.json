@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T16:50:30.000Z",
- "summary": "Cycle 547 sealed the Automation Engineer retest for judging in cycle 548. Scoreboard still 22 validated, 8 flagged, 49 unvalidated of 79.",
+ "generatedAt": "2026-11-26T16:56:30.000Z",
+ "summary": "Improvement cycle 548 running: Automation Engineer retest judging",
  "agents": [
   {
    "agentId": null,
@@ -855,6 +855,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 548: Automation Engineer retest judging",
+   "detail": "Judging AE-R1, AE-R2, AE-R3 blind with three fresh QA judges; verdict decides validate or second rewrite.",
+   "currentTask": "Judging Automation Engineer retest AE-R1 to AE-R3",
+   "lastHeartbeat": "2026-11-26T16:56:30.000Z",
+   "observedAt": "2026-11-26T16:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,20 +2565,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 547: AE retest sealed",
-   "detail": "Cycle 547 done: AE retest sealed SEAL_OK first run, 18 neutral files, 1 changed line, mapping filed unread. Judging cycle 548.",
-   "currentTask": "Cycle 547 done: AE retest sealed, judging cycle 548",
-   "lastHeartbeat": "2026-11-26T16:50:30.000Z",
-   "observedAt": "2026-11-26T16:50:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-ae-r3-specialist",
    "name": "AE-R3 solver",
    "role": "builder",
@@ -3949,6 +3949,20 @@
    "observedAt": "2026-11-26T02:45:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
+  },
+  {
+   "agentId": "team-routing-panel-480",
+   "name": "routing-panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 480",
+   "detail": "Routing panel cycle 480: picks filed, 5 of 5 matches (Design Auditor, Device and Rendering Tester, QA Tester, API Integration Engineer, Live Verifier). Posted by the job lead.",
+   "currentTask": "Panel picks filed: 5 of 5 matches",
+   "lastHeartbeat": "2026-11-26T02:40:00.000Z",
+   "observedAt": "2026-11-26T02:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
