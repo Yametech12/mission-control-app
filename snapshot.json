@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T21:17:00.000Z",
- "summary": "Improvement cycle 568 in progress: AIE-T3 re-seal.",
+ "generatedAt": "2026-11-26T21:19:00.000Z",
+ "summary": "Improvement cycle 568 complete: AIE-T3 re-sealed, re-judging next cycle.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team Improvement Cycle 568",
-   "detail": "Cycle 568 started: re-sealing AIE-T3 after cycle 567 voided it on a missed Skills-used line.",
-   "currentTask": "Cycle 568: re-sealing AIE-T3 (voided cycle 567)",
-   "lastHeartbeat": "2026-11-26T21:17:00.000Z",
-   "observedAt": "2026-11-26T21:17:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,6 +2537,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team Improvement Cycle 568",
+   "detail": "Cycle 568 complete: AIE-T3 re-sealed SEAL_OK, Skills-used line dropped whole, re-judging cycle 569.",
+   "currentTask": "Cycle 568 complete: AIE-T3 re-sealed, re-judging cycle 569",
+   "lastHeartbeat": "2026-11-26T21:19:00.000Z",
+   "observedAt": "2026-11-26T21:19:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "aie-t1-judge-567",
    "name": "QA judge AIE-T1",
    "role": "auditor",
@@ -3931,20 +3931,6 @@
    "title": "UR-R3 generic solver",
    "detail": "UR-R3 generic solve done (7,530 bytes, 1,205 words, 94s). Posted by cycle parent.",
    "currentTask": "UR-R3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
-   "observedAt": "2026-11-26T05:20:48.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "ur-r3-specialist",
-   "name": "UR-R3 specialist solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R3 specialist solver",
-   "detail": "UR-R3 specialist solve done (9,402 bytes, 1,438 words, 115s). Posted by cycle parent.",
-   "currentTask": "UR-R3 specialist solve complete",
    "lastHeartbeat": "2026-11-26T05:20:48.000Z",
    "observedAt": "2026-11-26T05:20:48.000Z",
    "needsUser": false,
