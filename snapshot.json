@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T12:55:16.000Z",
- "summary": "SASE inbox watch 20:54 PHT: 31 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-26T13:02:00.000Z",
+ "summary": "Cycle 532 started: App Builder retest AB-R2 solvers running.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -844,15 +844,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "team-improvement-cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 531: App Builder retest",
-   "detail": "Cycle 531 open. App Builder retest (rewrite 1, cycle 516). Filing 3 fresh tasks, running AB-R1 pair.",
-   "currentTask": "Opening App Builder retest, filing AB-R1 to AB-R3 tasks",
-   "lastHeartbeat": "2026-11-26T12:49:00.000Z",
-   "observedAt": "2026-11-26T12:49:00.000Z",
+   "title": "Ghostname Team improvement cycle 532",
+   "detail": "Cycle 532 started: App Builder retest AB-R2 solvers running (specialist + generic).",
+   "currentTask": "Cycle 532: AB-R2 solver pair",
+   "lastHeartbeat": "2026-11-26T13:02:00.000Z",
+   "observedAt": "2026-11-26T13:02:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2495,16 +2495,30 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "ab-r1-specialist",
-   "name": "AB-R1 specialist solver",
+   "agentId": "ab-r1-generic",
+   "name": "AB-R1 Generic",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "AB-R1 specialist: Mission Control scaffold",
-   "detail": "AB-R1 specialist done: 7 files shipped, gate 42/42 PASS, 0 em dashes, 106 s wall time.",
-   "currentTask": "AB-R1 pack complete: gate 42/42 passed",
+   "title": "AB-R1 generic solver",
+   "detail": "Complete (posted by parent; start snapshot not posted). Generic 6,335 bytes, 238 words, gate 21/0 exit 0, 33.1s, 0 em dashes.",
+   "currentTask": "AB-R1 generic solve complete",
+   "lastHeartbeat": "2026-11-26T12:53:10.000Z",
+   "observedAt": "2026-11-26T12:59:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "ab-r1-specialist",
+   "name": "AB-R1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-R1 specialist solver",
+   "detail": "Complete (posted by parent). Specialist 11,624 bytes, 476 words, gate 42/42 exit 0, 106s, 0 em dashes.",
+   "currentTask": "AB-R1 specialist solve complete",
    "lastHeartbeat": "2026-11-26T12:55:17.000Z",
-   "observedAt": "2026-11-26T12:55:17.000Z",
+   "observedAt": "2026-11-26T12:59:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3879,20 +3893,6 @@
    "observedAt": "2026-11-25T21:44:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-da-r3-generic",
-   "name": "da-r3-generic",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DA-R3 generic solver",
-   "detail": "DA-R3 generic run complete (11,037 bytes, 171s, 0 em dashes).",
-   "currentTask": "DA-R3 generic run complete",
-   "lastHeartbeat": "2026-11-25T21:04:41.000Z",
-   "observedAt": "2026-11-25T21:04:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
