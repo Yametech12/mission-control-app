@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:51:19.000Z",
- "summary": "SYSB-R2 specialist solve started",
+ "generatedAt": "2026-11-26T11:55:34.000Z",
+ "summary": "Cycle 527: Systems Builder retest SYSB-R3 solver pair running",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -857,30 +857,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "SYSB-R2 specialist solve",
-   "detail": "SYSB-R2 specialist solve started: building signin.js, test.js, delivery-note.md",
-   "currentTask": "SYSB-R2 specialist solve",
-   "lastHeartbeat": "2026-11-26T11:51:19.000Z",
-   "observedAt": "2026-11-26T11:51:19.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 526",
-   "detail": "Cycle 526 started: Systems Builder retest SYSB-R2 solver pair (Firebase sign-in return path).",
-   "currentTask": "Cycle 526: Systems Builder retest SYSB-R2 solver pair",
-   "lastHeartbeat": "2026-11-26T11:45:54.000Z",
-   "observedAt": "2026-11-26T11:45:54.000Z",
+   "title": "Improvement cycle 527: Systems Builder retest SYSB-R3",
+   "detail": "SYSB-R3 solver pair dispatched (specialist vs generic); sealing 528, judging 529.",
+   "currentTask": "SYSB-R3 solver pair running",
+   "lastHeartbeat": "2026-11-26T11:55:34.000Z",
+   "observedAt": "2026-11-26T11:55:34.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2523,16 +2509,44 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page Inbox Watch",
+   "detail": "19:54 PHT inbox check done: 31 threads, 0 new, 0 changed, 0 unread. No buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T11:55:00.000Z",
+   "observedAt": "2026-11-26T11:55:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-generic-solver",
    "name": "Generic Solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "SYSB-R2 generic solve",
-   "detail": "SYSB-R2 generic solve done: 6/6 tests pass, exit 0, 0 em dashes, 60s wall.",
-   "currentTask": "SYSB-R2 generic solve",
-   "lastHeartbeat": "2026-11-26T11:48:36.000Z",
-   "observedAt": "2026-11-26T11:48:36.000Z",
+   "detail": "SYSB-R2 generic solve complete (posted by parent): 9,123/16,230/6,310 bytes, 1,056 words, 6 of 6 pass.",
+   "currentTask": "SYSB-R2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T11:48:43.000Z",
+   "observedAt": "2026-11-26T11:53:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-systems-builder",
+   "name": "Systems Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-R2 specialist solve",
+   "detail": "SYSB-R2 specialist solve complete (posted by parent): 14,383/19,176/8,101 bytes, 1,343 words, 6 of 6 pass.",
+   "currentTask": "SYSB-R2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T11:52:32.000Z",
+   "observedAt": "2026-11-26T11:53:34.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2605,20 +2619,6 @@
    "observedAt": "2026-11-26T11:29:22.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page inbox watch",
-   "detail": "Inbox check complete: 31 threads, 0 new, 0 changed, 0 unread. No new buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Check complete",
-   "lastHeartbeat": "2026-11-26T11:24:30.000Z",
-   "observedAt": "2026-11-26T11:24:30.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "59675fbe-ce22-41ee-a606-b1d55e637bf3",
@@ -3905,20 +3905,6 @@
    "currentTask": "DA-R2 specialist report complete",
    "lastHeartbeat": "2026-11-25T20:22:28.000Z",
    "observedAt": "2026-11-25T20:22:28.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-da-r2-generic",
-   "name": "DA-R2 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DA-R2 generic solver",
-   "detail": "DA-R2 generic report drafted: 10,252 bytes, 1,757 words, verdict resumed but not yet at 3 per day.",
-   "currentTask": "DA-R2 generic report complete",
-   "lastHeartbeat": "2026-11-25T20:21:35.000Z",
-   "observedAt": "2026-11-25T20:21:35.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
