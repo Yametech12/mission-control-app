@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T08:28:42.000Z",
- "summary": "SYSB-T3 blind judging done: Candidate A wins 8.50 to 7.75; judgement filed.",
+ "generatedAt": "2026-11-26T08:33:00.000Z",
+ "summary": "Cycle 509 complete: Systems Builder judged 8.50 vs 8.00, 2 wins 1 loss, not a clear win; card rewritten (rewrite 1).",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 509",
-   "detail": "Cycle 509 judging Systems Builder: three fresh-context QA judges scoring SYSB-T1 to T3 blind.",
-   "currentTask": "Cycle 509: judging Systems Builder SYSB-T1 to T3 blind",
-   "lastHeartbeat": "2026-11-26T08:26:00.000Z",
-   "observedAt": "2026-11-26T08:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2453,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 509",
+   "detail": "Cycle 509 done: Systems Builder 8.50 vs 8.00, 2 wins 1 loss, not a clear win. Card rewritten (rewrite 1).",
+   "currentTask": "Cycle 509 complete: Systems Builder judged, card rewritten",
+   "lastHeartbeat": "2026-11-26T08:33:00.000Z",
+   "observedAt": "2026-11-26T08:33:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sysb-t1-judge",
+   "name": "SYSB-T1 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-T1 blind judge",
+   "detail": "SYSB-T1 judge complete: specialist win 8.50 vs 7.25. Contamination flag misfired, scores stand.",
+   "currentTask": "SYSB-T1 judged: specialist win 8.50 vs 7.25",
+   "lastHeartbeat": "2026-11-26T08:29:24.000Z",
+   "observedAt": "2026-11-26T08:33:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sysb-t2-judge",
+   "name": "SYSB-T2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-T2 blind judge",
+   "detail": "SYSB-T2 judge complete: generic win 9.00 vs 8.50. Contamination clean.",
+   "currentTask": "SYSB-T2 judged: generic win 9.00 vs 8.50",
+   "lastHeartbeat": "2026-11-26T08:29:25.000Z",
+   "observedAt": "2026-11-26T08:33:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sysb-t3-judge",
+   "name": "SYSB-T3 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-T3 blind judge",
+   "detail": "SYSB-T3 judge complete: specialist win 8.50 vs 7.75. Contamination clean.",
+   "currentTask": "SYSB-T3 judged: specialist win 8.50 vs 7.75",
+   "lastHeartbeat": "2026-11-26T08:29:04.000Z",
+   "observedAt": "2026-11-26T08:33:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3809,62 +3851,6 @@
    "observedAt": "2026-11-25T14:01:26.000Z",
    "needsUser": false,
    "category": "team-validation"
-  },
-  {
-   "agentId": "team-fc-s1-generic",
-   "name": "FC-S1 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-S1 generic solve",
-   "detail": "FC-S1 generic funnel map written: 15,962 bytes, 2,524 words, all six steps unmeasured, MD5 3e77c7d419df505a1481384fd8031472.",
-   "currentTask": "FC-S1 generic solve",
-   "lastHeartbeat": "2026-11-25T13:59:55.000Z",
-   "observedAt": "2026-11-25T13:59:55.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "gt136-builder",
-   "name": "gt136-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ClinicFlow GT-136 full force improvement pass",
-   "detail": "GT-136 done: Part A security 11, Part B perf/SEO 5, Part C design 8 (+1 deliberate residual), Part D copy all. 33/33 tests pass. Not committed or deployed; parent ships.",
-   "currentTask": "GT-136 complete in working tree; parent to verify, commit, deploy",
-   "lastHeartbeat": "2026-11-25T13:21:52.000Z",
-   "observedAt": "2026-11-25T13:21:52.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt136-qa",
-   "name": "gt136-qa-security-auditor",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-136 QA/Security Audit (ClinicFlow)",
-   "detail": "GT-136 QA/security audit complete: Critical 1, Major 2, Minor 8. Full clinic takeover chain via unverified cf_key in connect/callback + adoption; bookings PII on id cookie alone; GT-134 fixes all re-verified live.",
-   "currentTask": "GT-136 QA/security audit complete, report filed",
-   "lastHeartbeat": "2026-11-25T13:20:00.000Z",
-   "observedAt": "2026-11-25T13:20:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt135-builder",
-   "name": "gt135-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-135 ClinicFlow landing/login split",
-   "detail": "GT-135 done: landing split from dashboard, Google login binding with adoption, /api/bookings + /api/logout added, 24/24 tests pass, docs and job record updated. Not committed or deployed; parent ships.",
-   "currentTask": "GT-135 complete: landing/login split shipped in working tree, 24/24 tests pass",
-   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
-   "observedAt": "2026-11-25T13:12:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
   }
  ]
 }
