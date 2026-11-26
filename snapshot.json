@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T07:05:00.000Z",
- "summary": "Cycle 501 complete: SB-V3 pair collected and verified; sealing 502, judging 503.",
+ "generatedAt": "2026-11-26T07:11:00.000Z",
+ "summary": "Improvement cycle 502 complete: Site Builder pairs sealed, judging lands cycle 503.",
  "agents": [
   {
    "agentId": null,
@@ -2454,17 +2454,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 501: Site Builder SB-V3 collected",
-   "detail": "Cycle 501 done: SB-V3 pair collected (spec 6,417/5,444B 398s; gen 5,143/3,874B 276s). All 3 pairs collected; sealing 502, judging 503.",
-   "currentTask": "Cycle 501 complete: SB-V3 pair collected",
-   "lastHeartbeat": "2026-11-26T07:05:00.000Z",
-   "observedAt": "2026-11-26T07:05:00.000Z",
+   "title": "Improvement cycle 502: Site Builder pairs sealed",
+   "detail": "Cycle 502 complete: Site Builder SB-V1/V2/V3 sealed, SEAL_OK first run, 14 neutral files, 0 identity hits, originals unchanged. Judging lands cycle 503.",
+   "currentTask": "Cycle 502 complete: Site Builder pairs sealed",
+   "lastHeartbeat": "2026-11-26T07:11:00.000Z",
+   "observedAt": "2026-11-26T07:11:00.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
   },
   {
    "agentId": "sase-inbox-watch",
