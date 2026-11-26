@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T16:56:30.000Z",
- "summary": "Improvement cycle 548 running: Automation Engineer retest judging",
+ "generatedAt": "2026-11-26T17:01:00.000Z",
+ "summary": "Improvement cycle 548 complete: Automation Engineer validated",
  "agents": [
   {
    "agentId": null,
@@ -855,20 +855,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 548: Automation Engineer retest judging",
-   "detail": "Judging AE-R1, AE-R2, AE-R3 blind with three fresh QA judges; verdict decides validate or second rewrite.",
-   "currentTask": "Judging Automation Engineer retest AE-R1 to AE-R3",
-   "lastHeartbeat": "2026-11-26T16:56:30.000Z",
-   "observedAt": "2026-11-26T16:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2565,6 +2551,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 548: Automation Engineer validated",
+   "detail": "Retest judged blind: AE-R1 8.50 vs 7.25, AE-R2 8.50 vs 6.00, AE-R3 8.75 vs 8.25; run 8.58 vs 7.17, 3 wins. Scoreboard 23 validated, 8 flagged, 48 unvalidated.",
+   "currentTask": "Cycle 548 complete; ML Engineer validation opens cycle 549",
+   "lastHeartbeat": "2026-11-26T17:01:00.000Z",
+   "observedAt": "2026-11-26T17:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-ae-r3-specialist",
    "name": "AE-R3 solver",
    "role": "builder",
@@ -3949,20 +3949,6 @@
    "observedAt": "2026-11-26T02:45:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "team-routing-panel-480",
-   "name": "routing-panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 480",
-   "detail": "Routing panel cycle 480: picks filed, 5 of 5 matches (Design Auditor, Device and Rendering Tester, QA Tester, API Integration Engineer, Live Verifier). Posted by the job lead.",
-   "currentTask": "Panel picks filed: 5 of 5 matches",
-   "lastHeartbeat": "2026-11-26T02:40:00.000Z",
-   "observedAt": "2026-11-26T02:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
