@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T12:43:30.000Z",
- "summary": "Ghostname Team improvement cycle 530: routing check VOID (legs reused from cycles 495/500)",
+ "generatedAt": "2026-11-26T12:49:00.000Z",
+ "summary": "Cycle 531 open: App Builder retest, filing tasks and running AB-R1 pair.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 531: App Builder retest",
+   "detail": "Cycle 531 open. App Builder retest (rewrite 1, cycle 516). Filing 3 fresh tasks, running AB-R1 pair.",
+   "currentTask": "Opening App Builder retest, filing AB-R1 to AB-R3 tasks",
+   "lastHeartbeat": "2026-11-26T12:49:00.000Z",
+   "observedAt": "2026-11-26T12:49:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "6da5c9d5-cfbf-4c95-be4e-3823aca3bf85",
@@ -2495,20 +2509,6 @@
    "category": "cse-reviewer"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 530",
-   "detail": "Routing check 530 VOID as INVALID_RUN: all 5 legs reused from cycles 495/500; picks kept as audit records only, 2 of 5 not counted. Pool-verification fix recorded. App Builder retest opens cycle 531.",
-   "currentTask": "Cycle 530 complete: routing check voided, records filed",
-   "lastHeartbeat": "2026-11-26T12:43:30.000Z",
-   "observedAt": "2026-11-26T12:43:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-530",
    "name": "Routing check 530 panel",
    "role": "auditor",
@@ -3875,6 +3875,20 @@
    "title": "DA-R3 generic solver",
    "detail": "DA-R3 generic run complete (11,037 bytes, 171s, 0 em dashes).",
    "currentTask": "DA-R3 generic run complete",
+   "lastHeartbeat": "2026-11-25T21:04:41.000Z",
+   "observedAt": "2026-11-25T21:04:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-da-r3-specialist",
+   "name": "da-r3-specialist",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-R3 specialist solver",
+   "detail": "Posted by job lead: DA-R3 specialist run complete (10,559 bytes, 177s, 0 em dashes).",
+   "currentTask": "DA-R3 specialist run complete",
    "lastHeartbeat": "2026-11-25T21:04:41.000Z",
    "observedAt": "2026-11-25T21:04:41.000Z",
    "needsUser": false,
