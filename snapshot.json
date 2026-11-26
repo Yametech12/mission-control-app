@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T22:20:09.000Z",
- "summary": "Cycle 573: API Integration Engineer retest opens, AIE-R1 solvers running",
+ "generatedAt": "2026-11-26T22:26:34.000Z",
+ "summary": "AIE-R1 specialist solver: integration record complete, gate PASS, READ-BACK PASS",
  "agents": [
   {
    "agentId": null,
@@ -2551,6 +2551,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-aie-r1-specialist",
+   "name": "AIE-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-R1 specialist solver",
+   "detail": "AIE-R1 done: gate PASS exit 0, live site HTTP 200, 5 of 6 rows UNVERIFIED BY READ-BACK, READ-BACK PASS",
+   "currentTask": "AIE-R1 ClinicFlow Connect integration record",
+   "lastHeartbeat": "2026-11-26T22:26:34.000Z",
+   "observedAt": "2026-11-26T22:26:34.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
+   "agentId": "team-aie-r1-generic",
+   "name": "AIE-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-R1 generic solver",
+   "detail": "Done: 6 integrations, 1 verified live (site HTTP 200), 5 UNVERIFIED BY READ-BACK, gate passed 7/7, READ-BACK: PASS.",
+   "currentTask": "AIE-R1 ClinicFlow Connect integration record",
+   "lastHeartbeat": "2026-11-26T22:25:31.000Z",
+   "observedAt": "2026-11-26T22:25:31.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
    "agentId": "routing-panel-570",
    "name": "Routing Panel 570",
    "role": "coordinator",
@@ -3921,34 +3949,6 @@
    "observedAt": "2026-11-26T05:48:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "team-routing-panel-495",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 495",
-   "detail": "Routing panel cycle 495 complete: picks filed in panel-picks.md (4 matches, 1 miss on RC-T1). Posted by parent.",
-   "currentTask": "Panel picks filed for cycle 495",
-   "lastHeartbeat": "2026-11-26T05:47:46.000Z",
-   "observedAt": "2026-11-26T05:47:46.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ur-r3-generic",
-   "name": "UR-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R3 generic solver",
-   "detail": "UR-R3 generic solve done (7,530 bytes, 1,205 words, 94s). Posted by cycle parent.",
-   "currentTask": "UR-R3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
-   "observedAt": "2026-11-26T05:20:48.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
