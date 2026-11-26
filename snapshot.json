@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T12:09:17.000Z",
- "summary": "Improvement cycle 528 complete: Systems Builder retest sealed, judging next.",
+ "generatedAt": "2026-11-26T12:16:07.000Z",
+ "summary": "No runs are queued or running. CSE evening post and Ghostname cycle 528 completed; most watches are scheduled. Five schedules need attention, including two blocked on WhatsApp delivery.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -18,31 +18,17 @@
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Epimetheus Supabase keep-alive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "22 consecutive failures; last run Nov 25 failed and last success was Nov 4. Daily backup is not completing.",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 consecutive failures; last keep-alive Nov 26 failed, last success Nov 2. Next attempt Sun Nov 29.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:05.000Z",
+   "observedAt": "2026-11-26T11:05:59.000Z",
    "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: account action required, the WhatsApp chat it posts to can no longer receive results. 94 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:05.000Z",
-   "needsUser": true,
-   "category": "Messaging"
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -51,40 +37,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: account action required, the WhatsApp chat it posts to can no longer receive results. 92 consecutive failures; last success Nov 3.",
+   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results, account action required. 92 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:05.000Z",
+   "observedAt": "2026-11-26T08:35:11.000Z",
    "needsUser": true,
    "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "Zulti Monday promo code check",
+   "name": "TG session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run Nov 23 failed and last success was Nov 4. Monday promo check is not completing.",
+   "title": "TG session watchdog",
+   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results, account action required. 94 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:05.000Z",
-   "needsUser": false,
-   "category": "Zulti"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed at 19:05 PHT with a spawn error (binding_retired); 8 consecutive failures, last success Nov 2. Keep-alive did not run.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:02.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
+   "observedAt": "2026-11-26T07:46:28.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -113,6 +85,20 @@
    "observedAt": "2026-11-26T02:16:52.000Z",
    "needsUser": false,
    "category": "clipping"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "22 consecutive failures; last run Nov 25 failed at spawn with binding_retired error. Last success Nov 4. Next attempt tonight 23:30 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T15:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
