@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:42:00.000Z",
- "summary": "Routing Panel Cycle 490 complete: 5 picks filed in panel-picks.md.",
+ "generatedAt": "2026-11-26T04:41:00.000Z",
+ "summary": "Cycle 490 routing check done: 4 of 5. Scoreboard still 18 validated, 8 flagged, 53 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -849,10 +849,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "ClinicFlow webhook fast ack upgrade (GT-143)",
-   "detail": "Fresh-Eye round 1: DO NOT DEPLOY, 2 Majors (drain double-send window, shared index races). Both fixed: reply_sent marker protocol, scan-based drain. Tests 72/72. Re-review next.",
-   "currentTask": "Fresh-Eye Majors fixed, re-review next",
-   "lastHeartbeat": "2026-11-26T05:05:00.000Z",
-   "observedAt": "2026-11-26T05:05:00.000Z",
+   "detail": "Round 2 Majors fixed: atomic evt_claim serializes re-drives, attempts bump moved into processRecordedEvent so the drain cap advances. Tests 74/74. Round 3 review next.",
+   "currentTask": "Fresh-Eye round 3 re-review",
+   "lastHeartbeat": "2026-11-26T05:20:00.000Z",
+   "observedAt": "2026-11-26T05:20:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
@@ -869,20 +869,6 @@
    "observedAt": "2026-11-26T04:45:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 490: routing check",
-   "detail": "Cycle 490 routing check started: 5 fresh GT-140 legs, coordinator picks sealed, division-leads panel reading.",
-   "currentTask": "Cycle 490 routing check: 5 fresh GT-140 legs, panel read running",
-   "lastHeartbeat": "2026-11-26T04:38:00.000Z",
-   "observedAt": "2026-11-26T04:38:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt-141-lead",
@@ -2495,6 +2481,34 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 490: routing check",
+   "detail": "Cycle 490 routing check done: 4 of 5. Miss RC-T1 (panel Architect 6-2); RC-T2 unanimous; rule 51 held; 230 flag recurs on RC-T1 only.",
+   "currentTask": "Cycle 490 routing check complete: 4 of 5",
+   "lastHeartbeat": "2026-11-26T04:41:00.000Z",
+   "observedAt": "2026-11-26T04:41:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-routing-panel-cycle-490",
+   "name": "Routing Panel Cycle 490",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 490",
+   "detail": "Routing panel cycle 490 complete: picks filed with vote splits and trigger lines; 4 matches, 1 miss. Posted by parent.",
+   "currentTask": "Panel picks filed: 4 matches, 1 miss (RC-T1 Architect 6-2)",
+   "lastHeartbeat": "2026-11-26T04:41:00.000Z",
+   "observedAt": "2026-11-26T04:41:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3851,34 +3865,6 @@
    "observedAt": "2026-11-25T09:49:11.000Z",
    "needsUser": false,
    "category": "design"
-  },
-  {
-   "agentId": "team-poster-designer",
-   "name": "poster-designer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-131: renders and re-renders",
-   "detail": "9 renders plus 3 builders delivered; field note written. Posted by the job lead.",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
-  },
-  {
-   "agentId": "cse-posting-samples-v2",
-   "name": "cse-posting-samples-v2",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE quiz samples v2, editorial redesign",
-   "detail": "Set 2 done: 3 editorial exam-sheet PNGs, verification 15 of 15 checks PASS per image, captions v2 and design note saved. Nothing posted live.",
-   "currentTask": "Set 2 samples delivered to parent for the owner verdict gate",
-   "lastHeartbeat": "2026-11-25T09:30:12.000Z",
-   "observedAt": "2026-11-25T09:30:12.000Z",
-   "needsUser": false,
-   "category": "cse-posting"
   }
  ]
 }
