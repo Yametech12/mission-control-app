@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-26T09:12:00.000Z",
- "summary": "Ghostname Team improvement cycle 512 complete: App Builder AB-T2 pair collected and verified; AB-T3 solvers run cycle 513.",
+ "generatedAt": "2026-11-26T09:16:54.000Z",
+ "summary": "Checked 14 user-facing schedules at 17:16 PHT. No runs queued or running and no artifact builds active. 7 completed recently, 2 scheduled, and 5 need attention for repeated failures or blocked delivery.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: 94 consecutive failures, last success Oct 6. Blocked because its delivery chat can no longer receive results; last run failed 15:46 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T08:16:16.000Z",
-   "needsUser": true,
-   "category": "Automation"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,54 +9,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: 91 consecutive failures, last success Nov 3. Blocked because its delivery chat can no longer receive results; last run failed 10:35 PHT.",
+   "detail": "Attention: 92 consecutive failures and paused. The chat it posts to can no longer receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T08:16:16.000Z",
+   "observedAt": "2026-11-26T08:35:11.000Z",
    "needsUser": true,
-   "category": "Automation"
+   "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "TG session watchdog (auto re-login)",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 22 consecutive failures, last success Nov 4. Last run failed Nov 25 at 23:26 PHT with no recorded reason.",
+   "title": "TG session watchdog (auto re-login)",
+   "detail": "Attention: 94 consecutive failures and paused. The chat it posts to can no longer receive results. Last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T08:16:16.000Z",
-   "needsUser": false,
-   "category": "Automation"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 7 consecutive failures, last success Nov 2. Last run failed Nov 23 at 19:05 PHT with no recorded reason.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T08:16:16.000Z",
-   "needsUser": false,
-   "category": "Automation"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures, last success Nov 4. Last run failed Nov 23 at 08:56 PHT with no recorded reason.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T08:16:16.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "observedAt": "2026-11-26T07:46:28.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -99,6 +57,20 @@
    "observedAt": "2026-11-26T02:16:52.000Z",
    "needsUser": false,
    "category": "clipping"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 22 consecutive failures. Last run Nov 25 failed before starting with a spawn error, last success Nov 4. Next run due 23:30 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-25T15:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
