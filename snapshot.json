@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:10:28.000Z",
- "summary": "ML-T1 specialist run completed: HAPT plan shipped, gate passed 7 of 7, exit 0, READ-BACK PASS.",
+ "generatedAt": "2026-11-26T17:16:30.000Z",
+ "summary": "Cycle 550 routing check starting",
  "agents": [
   {
    "agentId": null,
@@ -858,15 +858,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 549: ML Engineer validation opens",
-   "detail": "Cycle 549 started: ML Engineer validation opens, tasks ML-T1 to ML-T3 being filed",
-   "currentTask": "Cycle 549: open ML Engineer validation, file ML-T1 to ML-T3 tasks",
-   "lastHeartbeat": "2026-11-26T17:06:30.000Z",
-   "observedAt": "2026-11-26T17:06:30.000Z",
+   "title": "Ghostname Team improvement cycle 550",
+   "detail": "Routing check 82 starting: 5 fresh legs from GT-148 fix batch, Coordinator picks sealing next.",
+   "currentTask": "Routing check 82: pool verification and task filing",
+   "lastHeartbeat": "2026-11-26T17:16:30.000Z",
+   "observedAt": "2026-11-26T17:16:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2570,11 +2570,25 @@
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "ML Engineer ML-T1 specialist run completed",
-   "detail": "ML-T1 done: plan, gate.js, delivery note shipped; gate passed 7 of 7, exit 0; 0 em dashes; READ-BACK PASS.",
-   "currentTask": "ML-T1 HAPT experiment plan done, gate 7 of 7 passed",
+   "title": "ML Engineer ML-T1 specialist run",
+   "detail": "ML-T1 specialist plan complete: 11,229/1,728/3,491 bytes, gate 7/7, 94s (posted by cycle lead)",
+   "currentTask": "ML-T1 specialist plan complete (posted by cycle lead)",
    "lastHeartbeat": "2026-11-26T17:10:28.000Z",
-   "observedAt": "2026-11-26T17:10:28.000Z",
+   "observedAt": "2026-11-26T17:12:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-ml-engineer-generic",
+   "name": "ML Engineer generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ML Engineer ML-T1 generic run",
+   "detail": "ML-T1 generic plan complete: 3,119/1,773/2,681 bytes, gate 7/7, 58s (posted by cycle lead)",
+   "currentTask": "ML-T1 generic plan complete (posted by cycle lead)",
+   "lastHeartbeat": "2026-11-26T17:09:45.000Z",
+   "observedAt": "2026-11-26T17:12:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3947,20 +3961,6 @@
    "currentTask": "Done: reports/live-verification.md delivered",
    "lastHeartbeat": "2026-11-26T02:47:28.000Z",
    "observedAt": "2026-11-26T02:47:28.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
-   "agentId": "yame-bridge-builder",
-   "name": "yame-bridge-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Build Yame Bridge MCP server",
-   "detail": "Yame Bridge live: MCP server deployed on Vercel (dpl_7qiFPxtH9VHQZNnEkvp8DFTDrx68, READY), production smoke task 20261126-024117-0edff6 queued in the repo. Owner adds it to Claude as Yame Bridge.",
-   "currentTask": "Yame Bridge build complete",
-   "lastHeartbeat": "2026-11-26T02:45:00.000Z",
-   "observedAt": "2026-11-26T02:45:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   }
