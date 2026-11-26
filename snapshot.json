@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T00:56:38.000Z",
- "summary": "CP-R1 specialist solver started.",
+ "generatedAt": "2026-11-26T00:59:22.000Z",
+ "summary": "Cycle 472 complete: Consequence Planner retest opened; CP-R1 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -127,20 +127,6 @@
    "observedAt": "2026-11-24T13:08:42.000Z",
    "needsUser": true,
    "category": "Music Video"
-  },
-  {
-   "agentId": null,
-   "name": "Watcher specialist flagged",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Watcher specialist flagged",
-   "detail": "Cycle 256 flagged Watcher after a second failed retest; blind judging 8.17 vs 7.50. It waits in the Approval queue: merge, delete, or keep as is.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-24T00:57:39.000Z",
-   "needsUser": true,
-   "category": "Ghostname Team"
   },
   {
    "agentId": "kogama-gt98-coordinator",
@@ -813,48 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-consequence-planner",
-   "name": "Consequence Planner (specialist solver)",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CP-R1 specialist solver",
-   "detail": "CP-R1 specialist solver started: writing the ClinicFlow landing split consequence map.",
-   "currentTask": "CP-R1 specialist solver: ClinicFlow landing split consequence map",
-   "lastHeartbeat": "2026-11-26T00:56:38.000Z",
-   "observedAt": "2026-11-26T00:56:38.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CP-R1 generic solver",
-   "detail": "Generic solver started CP-R1 consequence map draft from the task file and GT-134/GT-135 job records.",
-   "currentTask": "CP-R1 generic solver: drafting consequence map from task file and two job records",
-   "lastHeartbeat": "2026-11-26T00:56:07.000Z",
-   "observedAt": "2026-11-26T00:56:07.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 472",
-   "detail": "Cycle 472: Consequence Planner retest opened, CP-R1 to CP-R3 filed with sealed keys; CP-R1 solver pair running.",
-   "currentTask": "Cycle 472: Consequence Planner retest CP-R1 pair running",
-   "lastHeartbeat": "2026-11-26T00:55:09.000Z",
-   "observedAt": "2026-11-26T00:55:09.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2369,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-R1 generic solver",
+   "detail": "CP-R1 generic done: 21,091 bytes, 3,407 words, about 55s (posted by cycle lead).",
+   "currentTask": "CP-R1 consequence map done",
+   "lastHeartbeat": "2026-11-26T00:59:22.000Z",
+   "observedAt": "2026-11-26T00:59:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-consequence-planner",
+   "name": "Consequence Planner (specialist solver)",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CP-R1 specialist solver",
+   "detail": "CP-R1 specialist done: 20,005 bytes, 3,142 words, 89s (posted by cycle lead).",
+   "currentTask": "CP-R1 consequence map done",
+   "lastHeartbeat": "2026-11-26T00:59:22.000Z",
+   "observedAt": "2026-11-26T00:59:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 472",
+   "detail": "Cycle 472 complete: Consequence Planner retest opened, CP-R1 pair collected and verified, key clean. CP-R2 next cycle.",
+   "currentTask": "Cycle 472 complete: CP-R1 pair collected",
+   "lastHeartbeat": "2026-11-26T00:59:22.000Z",
+   "observedAt": "2026-11-26T00:59:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-lead-gt138",
    "name": "gt138-job-lead",
    "role": "coordinator",
@@ -3781,48 +3767,6 @@
    "observedAt": "2026-11-25T05:11:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "smm-judge-s2",
-   "name": "SMM Judge S2",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM retest 2 judge S2",
-   "detail": "SMM-S2 judged blind: specialist win 8.75 vs 7.75, contamination clean (posted by cycle parent)",
-   "currentTask": "SMM-S2 judged: specialist win 8.75 vs 7.75",
-   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
-   "observedAt": "2026-11-25T05:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "smm-judge-s3",
-   "name": "SMM Judge S3",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM retest 2 judge S3",
-   "detail": "SMM-S3 judged blind: specialist win 8.50 vs 7.00, contamination clean (posted by cycle parent)",
-   "currentTask": "SMM-S3 judged: specialist win 8.50 vs 7.00",
-   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
-   "observedAt": "2026-11-25T05:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-social-media-manager",
-   "name": "Social Media Manager",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-S3 ClipUp v2 hand-back plan",
-   "detail": "SMM-S3 specialist draft done: 14,794 bytes, 7 sections in order, 0 em dashes. Flagged the state file vs GT96 submission conflict; all 3 input MD5s matched.",
-   "currentTask": "SMM-S3 draft complete",
-   "lastHeartbeat": "2026-11-25T04:40:00.000Z",
-   "observedAt": "2026-11-25T04:40:00.000Z",
-   "needsUser": false,
-   "category": "clipping"
   }
  ]
 }
