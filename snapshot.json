@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:06:00.000Z",
- "summary": "Ghostname Team improvement cycle 522: judging the Site Builder retest (SB-R1 to SB-R3) blind with three fresh QA judges.",
+ "generatedAt": "2026-11-26T11:10:00.000Z",
+ "summary": "Ghostname Team improvement cycle 522 complete: Site Builder retest judged, no run verdict. SB-R2 specialist win 9.0 vs 7.0; SB-R1/R3 voids ruled misfires, re-judging cycle 523.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 522",
-   "detail": "Cycle 522 started: judging Site Builder retest SB-R1 to SB-R3 blind, three fresh QA judges, one per task.",
-   "currentTask": "Judging Site Builder retest SB-R1 to SB-R3 blind",
-   "lastHeartbeat": "2026-11-26T11:06:00.000Z",
-   "observedAt": "2026-11-26T11:06:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-147-cse-golive",
@@ -2495,6 +2481,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 522",
+   "detail": "Cycle 522 complete: SB-R2 specialist win 9.0 vs 7.0; SB-R1/R3 judge voids ruled misfires (flagged candidates are the generic), re-judging 523.",
+   "currentTask": "Cycle 522 done; SB-R1/R3 re-judging staged for cycle 523",
+   "lastHeartbeat": "2026-11-26T11:10:00.000Z",
+   "observedAt": "2026-11-26T11:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3877,20 +3877,6 @@
    "currentTask": "Solving CA-S3",
    "lastHeartbeat": "2026-11-25T17:49:06.000Z",
    "observedAt": "2026-11-25T17:49:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ca-s3-specialist",
-   "name": "CA-S3 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S3 specialist solver",
-   "detail": "CA-S3 brief filed: 16,209 bytes, 2,463 words, 7 sections in order.",
-   "currentTask": "Solving CA-S3",
-   "lastHeartbeat": "2026-11-25T17:49:00.000Z",
-   "observedAt": "2026-11-25T17:49:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
