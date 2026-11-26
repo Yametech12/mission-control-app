@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-26T22:10:44.000Z",
- "summary": "Cycle 572: AIE-T3 re-judged clean, specialist win 8.75 vs 8.00; full AIE run 1 complete at 8.25 vs 8.25, not validated; scoreboard 25 validated, 8 flagged, 46 unvalidated of 79.",
+ "generatedAt": "2026-11-26T22:20:09.000Z",
+ "summary": "Cycle 573: API Integration Engineer retest opens, AIE-R1 solvers running",
  "agents": [
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Epimetheus Supabase keep-alive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: delivery chat can no longer receive results, account action required. 94 consecutive failures; last success Nov 3.",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed 8 times in a row; last run failed Thu 19:05 local, last success Nov 2. No reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T21:16:07.000Z",
-   "needsUser": true,
-   "category": "Whop"
+   "observedAt": "2026-11-26T22:16:26.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -23,40 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "23 consecutive failures; last run failed Thu 23:26 local and last success was Nov 4. No reason recorded.",
+   "detail": "Failed 23 times in a row; last run failed Thu 23:26 local, last success Nov 4. No reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T21:16:07.000Z",
+   "observedAt": "2026-11-26T22:16:26.000Z",
    "needsUser": false,
-   "category": "Memory Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 consecutive failures; last run failed Thu 19:05 local and last success was Nov 2. No reason recorded.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T21:16:07.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run failed Mon Nov 23 and last success was Nov 4. Next run Mon Nov 30, 09:00 local.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T21:16:07.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -68,9 +40,37 @@
    "detail": "Blocked: delivery chat can no longer receive results, account action required. 96 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T21:16:03.000Z",
+   "observedAt": "2026-11-26T22:16:26.000Z",
    "needsUser": true,
-   "category": "Telegram Session"
+   "category": "Messaging Watch"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: delivery chat can no longer receive results, account action required. 94 consecutive failures; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T22:16:26.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed 3 times in a row; last run failed Mon Nov 23, last success Nov 4. No reason recorded.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T22:16:26.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 573: AIE retest opens",
+   "detail": "Cycle 573 started. API Integration Engineer retest opens from the rewritten card; AIE-R1 solver pair running.",
+   "currentTask": "Cycle 573: filing AIE retest tasks, running AIE-R1 solvers",
+   "lastHeartbeat": "2026-11-26T22:20:09.000Z",
+   "observedAt": "2026-11-26T22:20:09.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,20 +2551,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 572: AIE-T3 re-judged",
-   "detail": "Cycle 572 done: AIE-T3 re-judged clean, specialist win 8.75 vs 8.00. Full AIE run 1: 8.25 vs 8.25, 1 win 2 losses, not validated. Scoreboard 25/8/46 of 79.",
-   "currentTask": "Cycle 572 complete: AIE-T3 re-judged, specialist win 8.75 vs 8.00",
-   "lastHeartbeat": "2026-11-26T22:10:44.000Z",
-   "observedAt": "2026-11-26T22:10:44.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "routing-panel-570",
    "name": "Routing Panel 570",
    "role": "coordinator",
@@ -3935,6 +3935,20 @@
    "observedAt": "2026-11-26T05:47:46.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "ur-r3-generic",
+   "name": "UR-R3 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R3 generic solver",
+   "detail": "UR-R3 generic solve done (7,530 bytes, 1,205 words, 94s). Posted by cycle parent.",
+   "currentTask": "UR-R3 generic solve complete",
+   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
+   "observedAt": "2026-11-26T05:20:48.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
