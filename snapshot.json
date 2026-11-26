@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:03:38.000Z",
- "summary": "User Researcher retest UR-R2 (cycle 492): specialist synthesis draft complete, 6,846 bytes, 0 em dashes, all 6 sections in order.",
+ "generatedAt": "2026-11-26T05:06:26.000Z",
+ "summary": "Improvement cycle 492 complete: User Researcher retest UR-R2 pair collected and verified, key clean, no verdict this cycle.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 492: User Researcher retest UR-R2",
-   "detail": "Cycle 492 running UR-R2 solver pair (specialist vs generic) for the User Researcher retest.",
-   "currentTask": "Running UR-R2 solver pair",
-   "lastHeartbeat": "2026-11-26T05:01:06.000Z",
-   "observedAt": "2026-11-26T05:01:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2481,18 +2467,46 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 492: User Researcher retest UR-R2",
+   "detail": "Cycle 492 done: UR-R2 pair collected and verified (specialist 6,846 bytes, 94s; generic 8,068 bytes, 74s; key clean). UR-R3 next cycle 493.",
+   "currentTask": "Cycle 492 complete",
+   "lastHeartbeat": "2026-11-26T05:06:26.000Z",
+   "observedAt": "2026-11-26T05:06:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-user-researcher-generic",
-   "name": "User Researcher generic solver",
+   "name": "User Researcher generic",
    "role": "researcher",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "UR-R2 generic solver",
-   "detail": "UR-R2 generic done: 8,068 bytes, 1,385 words, 0 em dashes, 6 sections in order.",
-   "currentTask": "UR-R2 generic deliverable written and verified",
+   "title": "User Researcher retest UR-R2 generic",
+   "detail": "Posted by job lead: UR-R2 generic output collected (8,068 bytes, 1,385 words, 74s, 0 em dashes).",
+   "currentTask": "UR-R2 generic solve complete",
    "lastHeartbeat": "2026-11-26T05:03:24.000Z",
-   "observedAt": "2026-11-26T05:03:24.000Z",
+   "observedAt": "2026-11-26T05:06:26.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-user-researcher",
+   "name": "User Researcher",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "User Researcher retest UR-R2 specialist",
+   "detail": "Posted by job lead: UR-R2 specialist output collected (6,846 bytes, 1,113 words, 94s, 0 em dashes).",
+   "currentTask": "UR-R2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T05:03:38.000Z",
+   "observedAt": "2026-11-26T05:06:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "ur-r1-generic",
@@ -3837,34 +3851,6 @@
    "observedAt": "2026-11-25T10:15:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
-  },
-  {
-   "agentId": "gt132-coordinator",
-   "name": "gt132-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-20261125-132 CSE posting resume",
-   "detail": "Completed: first Sumbong Wall post live and Public (C1-V010), Quick Check every 8h (3/day), outreach every 72h, group copies deferred to scheduled runs.",
-   "currentTask": "Job complete, report filed",
-   "lastHeartbeat": "2026-11-25T09:56:28.000Z",
-   "observedAt": "2026-11-25T09:56:28.000Z",
-   "needsUser": false,
-   "category": "cse-posting"
-  },
-  {
-   "agentId": "gt131-coordinator",
-   "name": "gt131-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-20261125-131 CSE quiz design, team round",
-   "detail": "DELIVERED: 3 directions, 9 renders all verified, recommendation Sumbong Wall (Fourfold alternate), captions plus 15-hook bank. Owner pick pending.",
-   "currentTask": "Job delivered; owner direction pick pending",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
   }
  ]
 }
