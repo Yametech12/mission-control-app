@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T01:25:34.000Z",
- "summary": "Cycle 475 routing check running.",
+ "generatedAt": "2026-11-26T01:29:41.000Z",
+ "summary": "Routing Panel: routing check cycle 475 complete, five picks filed to panel-picks.md.",
  "agents": [
   {
    "agentId": null,
@@ -2467,6 +2467,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Panel cycle 475",
+   "detail": "Picks: RC-T1 QA Tester, RC-T2 Design Auditor, RC-T3 Site Builder, RC-T4 Fresh-Eye Reviewer, RC-T5 Live Verifier.",
+   "currentTask": "Routing check cycle 475 complete: five picks filed.",
+   "lastHeartbeat": "2026-11-26T01:29:41.000Z",
+   "observedAt": "2026-11-26T01:29:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2617,20 +2631,6 @@
    "currentTask": "DA-S3 judged: specialist win 8.50 vs 8.40, contamination CLEAN",
    "lastHeartbeat": "2026-11-26T00:30:27.000Z",
    "observedAt": "2026-11-26T00:33:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Ghostname Team routing panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 470",
-   "detail": "Routing panel cycle 470: 5 picks filed with vote splits (posted by the cycle parent).",
-   "currentTask": "Panel picks filed for cycle 470",
-   "lastHeartbeat": "2026-11-26T00:22:43.000Z",
-   "observedAt": "2026-11-26T00:25:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
