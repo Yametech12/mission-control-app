@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:24:31.000Z",
- "summary": "SASE inbox watch 13:24 PHT: 31 threads checked, no new buyer messages.",
+ "generatedAt": "2026-11-26T05:28:52.000Z",
+ "summary": "Cycle 494 sealed User Researcher retest pairs; judging cycle 496.",
  "agents": [
   {
    "agentId": null,
@@ -2467,6 +2467,20 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 494",
+   "detail": "Cycle 494 done: User Researcher retest sealed SEAL_OK (21 changes, 6 neutrals, 0 identity hits). Judging cycle 496.",
+   "currentTask": "Cycle 494 complete: User Researcher retest sealed",
+   "lastHeartbeat": "2026-11-26T05:28:52.000Z",
+   "observedAt": "2026-11-26T05:28:52.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2479,20 +2493,6 @@
    "observedAt": "2026-11-26T05:24:31.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 493",
-   "detail": "UR-R3 pair collected and verified (specialist 9,402 bytes, 115s; generic 7,530 bytes, 94s; key clean, K1-K7 pass both). Sealing cycle 494, judging 496.",
-   "currentTask": "Cycle 493 complete",
-   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
-   "observedAt": "2026-11-26T05:20:48.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "ur-r3-generic",
