@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:56:01.000Z",
- "summary": "UR-R1 specialist solver completed the SASE buyer message pattern synthesis update (9,952 bytes, 1,628 words).",
+ "generatedAt": "2026-11-26T05:01:06.000Z",
+ "summary": "Improvement cycle 492 in progress: User Researcher retest, UR-R2 solvers running.",
  "agents": [
   {
    "agentId": null,
@@ -848,13 +848,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 491",
-   "detail": "Cycle 491 started: User Researcher retest opens, tasks UR-R1 to UR-R3 filed, UR-R1 solvers running.",
-   "currentTask": "User Researcher retest, UR-R1 pair collection",
-   "lastHeartbeat": "2026-11-26T04:45:34.000Z",
-   "observedAt": "2026-11-26T04:45:34.000Z",
+   "title": "Improvement cycle 492: User Researcher retest UR-R2",
+   "detail": "Cycle 492 running UR-R2 solver pair (specialist vs generic) for the User Researcher retest.",
+   "currentTask": "Running UR-R2 solver pair",
+   "lastHeartbeat": "2026-11-26T05:01:06.000Z",
+   "observedAt": "2026-11-26T05:01:06.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2481,6 +2481,34 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "ur-r1-generic",
+   "name": "UR-R1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R1 generic solver (posted by job lead)",
+   "detail": "UR-R1 generic deliverable complete: 8,234 bytes, 1,375 words, 70s, MD5 ec72d9558135372e668eb85b1f64da32.",
+   "currentTask": "UR-R1 generic deliverable complete",
+   "lastHeartbeat": "2026-11-26T04:55:55.000Z",
+   "observedAt": "2026-11-26T04:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "ur-r1-specialist",
+   "name": "UR-R1 specialist solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R1 specialist solver (posted by job lead)",
+   "detail": "UR-R1 specialist deliverable complete: 9,952 bytes, 1,628 words, about 74s, MD5 46b66be3b731f7bd117951da277c4e93.",
+   "currentTask": "UR-R1 specialist deliverable complete",
+   "lastHeartbeat": "2026-11-26T04:56:01.000Z",
+   "observedAt": "2026-11-26T04:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3832,34 +3860,6 @@
    "status": "completed",
    "title": "GT-131: directions and amendments",
    "detail": "Memo plus D1 and D2 amendments delivered; field note written. Posted by the job lead.",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
-  },
-  {
-   "agentId": "team-caption-writer",
-   "name": "caption-writer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-131: buyer-hook captions",
-   "detail": "Captions final after review fixes; field note written. Posted by the job lead.",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
-  },
-  {
-   "agentId": "team-reviewer-marketer",
-   "name": "reviewer-marketer",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-131: hook bank and caption review",
-   "detail": "Hook bank (15) and caption review delivered; field note written. Posted by the job lead.",
    "currentTask": "Complete",
    "lastHeartbeat": "2026-11-25T09:49:11.000Z",
    "observedAt": "2026-11-25T09:49:11.000Z",
