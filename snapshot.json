@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T06:21:00.000Z",
- "summary": "Improvement cycle 498 complete: Site Builder SB-V1 collected and verified.",
+ "generatedAt": "2026-11-26T06:26:09.000Z",
+ "summary": "GT-144 in progress: v8 anchors verified, deliverables being written.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt-144-lead",
+   "name": "gt-144-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Drone thesis defense prep pack (GT-144)",
+   "detail": "GT-144: v8 text extracted and MD5 verified; GT120 anchors re-verified against v8; writing the three deliverables",
+   "currentTask": "Writing defense-pack.md, evidence-table.md, cannot-answer-yet.md",
+   "lastHeartbeat": "2026-11-26T06:26:09.000Z",
+   "observedAt": "2026-11-26T06:26:09.000Z",
+   "needsUser": false,
+   "category": "thesis"
   },
   {
    "agentId": "gt-141-builder",
@@ -2453,6 +2467,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "14:24 PHT check complete: 31 threads, 0 new, 0 changed, 0 unread. No new buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete, no new buyer messages",
+   "lastHeartbeat": "2026-11-26T06:24:52.000Z",
+   "observedAt": "2026-11-26T06:24:52.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -2535,20 +2563,6 @@
    "observedAt": "2026-11-26T06:01:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE inbox watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE inbox watch",
-   "detail": "13:54 PHT check complete: 31 threads, 0 new buyer messages, 0 unread. Page access OK via Graph API.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T05:54:06.000Z",
-   "observedAt": "2026-11-26T05:54:06.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "gt-143-lead",
