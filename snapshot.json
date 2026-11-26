@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:06:26.000Z",
- "summary": "Improvement cycle 492 complete: User Researcher retest UR-R2 pair collected and verified, key clean, no verdict this cycle.",
+ "generatedAt": "2026-11-26T05:16:20.000Z",
+ "summary": "Cycle 493: User Researcher retest UR-R3 solvers running.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 493",
+   "detail": "User Researcher retest UR-R3 solver pair running (specialist vs generic).",
+   "currentTask": "UR-R3 solver pair",
+   "lastHeartbeat": "2026-11-26T05:16:20.000Z",
+   "observedAt": "2026-11-26T05:16:20.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,20 +2481,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 492: User Researcher retest UR-R2",
-   "detail": "Cycle 492 done: UR-R2 pair collected and verified (specialist 6,846 bytes, 94s; generic 8,068 bytes, 74s; key clean). UR-R3 next cycle 493.",
-   "currentTask": "Cycle 492 complete",
-   "lastHeartbeat": "2026-11-26T05:06:26.000Z",
-   "observedAt": "2026-11-26T05:06:26.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-user-researcher-generic",
    "name": "User Researcher generic",
    "role": "researcher",
@@ -3851,6 +3851,20 @@
    "observedAt": "2026-11-25T10:15:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
+  },
+  {
+   "agentId": "gt132-coordinator",
+   "name": "gt132-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-20261125-132 CSE posting resume",
+   "detail": "Completed: first Sumbong Wall post live and Public (C1-V010), Quick Check every 8h (3/day), outreach every 72h, group copies deferred to scheduled runs.",
+   "currentTask": "Job complete, report filed",
+   "lastHeartbeat": "2026-11-25T09:56:28.000Z",
+   "observedAt": "2026-11-25T09:56:28.000Z",
+   "needsUser": false,
+   "category": "cse-posting"
   }
  ]
 }
