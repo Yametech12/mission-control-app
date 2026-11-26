@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T21:56:00.000Z",
- "summary": "Cycle 571: AIE-T3 fresh re-seal (cycle 568 mapping compromised in cycle 569), judging cycle 572.",
+ "generatedAt": "2026-11-26T21:58:30.000Z",
+ "summary": "Cycle 571: AIE-T3 fresh re-seal done (SEAL_OK first run); re-judging cycle 572. Scoreboard 25 validated, 8 flagged, 46 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 571: AIE-T3 re-seal",
-   "detail": "Fresh randomized re-seal of AIE-T3 only; cycle 568 mapping was read by the parent in cycle 569 and is compromised.",
-   "currentTask": "Fresh re-seal of AIE-T3 (cycle 571)",
-   "lastHeartbeat": "2026-11-26T21:56:00.000Z",
-   "observedAt": "2026-11-26T21:56:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2551,6 +2537,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 571: AIE-T3 re-seal",
+   "detail": "AIE-T3 fresh re-seal SEAL_OK first run (19 changed lines, 6 neutral files, 0 identity hits, 0 em dashes); fresh mapping in mapping-sealed-t3-571.md; re-judging cycle 572.",
+   "currentTask": "Cycle 571 complete: AIE-T3 re-sealed, judging cycle 572",
+   "lastHeartbeat": "2026-11-26T21:58:30.000Z",
+   "observedAt": "2026-11-26T21:58:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-570",
    "name": "Routing Panel 570",
    "role": "coordinator",
@@ -3935,20 +3935,6 @@
    "observedAt": "2026-11-26T05:47:46.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "ur-r3-generic",
-   "name": "UR-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R3 generic solver",
-   "detail": "UR-R3 generic solve done (7,530 bytes, 1,205 words, 94s). Posted by cycle parent.",
-   "currentTask": "UR-R3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T05:20:48.000Z",
-   "observedAt": "2026-11-26T05:20:48.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
