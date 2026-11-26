@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T14:59:06.000Z",
- "summary": "Improvement cycle 540 running: routing check on 5 fresh GT-148 legs.",
+ "generatedAt": "2026-11-26T15:03:00.000Z",
+ "summary": "Routing check 540 panel: picks filed",
  "agents": [
   {
    "agentId": null,
@@ -2537,6 +2537,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-check-540-panel",
+   "name": "Routing check 540 panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 540 panel",
+   "detail": "Picks filed: RC-T1 Security Auditor 7-1, RC-T2 Accessibility Specialist 5-3, RC-T3 Design Auditor 7-1, RC-T4 Data Integrity Auditor 5-3, RC-T5 QA Tester 7-1.",
+   "currentTask": "Panel picks filed for routing check 540",
+   "lastHeartbeat": "2026-11-26T15:03:00.000Z",
+   "observedAt": "2026-11-26T15:03:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3921,20 +3935,6 @@
    "observedAt": "2026-11-26T02:15:24.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-qa-tester",
-   "name": "QA Tester",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA Tester (GT-139)",
-   "detail": "Posted by the job lead: S5b done on re-dispatch, 26 works, 0C 0M 3m, 2 blocked groups, reports/functional-audit.md",
-   "currentTask": "Done: reports/functional-audit.md",
-   "lastHeartbeat": "2026-11-26T01:58:00.000Z",
-   "observedAt": "2026-11-26T01:58:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
   }
  ]
 }
