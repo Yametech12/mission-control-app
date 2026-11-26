@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:27:00.000Z",
- "summary": "Cycle 484: Fact Checker retest 2 opens; FC-S1 solver pair running.",
+ "generatedAt": "2026-11-26T03:36:36.000Z",
+ "summary": "FC-S1 specialist solver: verification record complete, 14,429 bytes, 2,216 words",
  "agents": [
   {
    "agentId": null,
@@ -2425,6 +2425,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-fc-s1-specialist",
+   "name": "FC-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FC-S1 specialist solver",
+   "detail": "FC-S1 record done: 14,429 bytes, 2,216 words, 5/7 confirmed, 1 split, 2 corrected wordings",
+   "currentTask": "FC-S1 verification record",
+   "lastHeartbeat": "2026-11-26T03:36:36.000Z",
+   "observedAt": "2026-11-26T03:36:36.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3809,20 +3823,6 @@
    "observedAt": "2026-11-25T08:13:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "Pricing and Revenue Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-R1 specialist solve",
-   "detail": "PRA-R1 specialist solve done: Jo Koy sheet filed, all floors PASS, earnings USD 0.00 at recorded approval.",
-   "currentTask": "PRA-R1 specialist solve: Jo Koy campaign economics verification sheet",
-   "lastHeartbeat": "2026-11-25T06:43:33.000Z",
-   "observedAt": "2026-11-25T06:43:33.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   }
  ]
 }
