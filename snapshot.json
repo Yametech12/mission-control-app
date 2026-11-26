@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T23:20:00.000Z",
- "summary": "AIE-R3 blind judgement complete: B wins 8.75 to 8.00. Contamination clean. K5 fails narrowly for A only.",
+ "generatedAt": "2026-11-26T23:30:04.000Z",
+ "summary": "Cycle 578 done: AIE retest judged, partial record 1W 1L (specialist 8.50 / generic 8.25), AIE-R1 void, re-seal 579, re-judging 581.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 578",
-   "detail": "Cycle 578 started: judging AIE retest AIE-R1 to AIE-R3 from cycle 577 seal, 3 fresh QA judges.",
-   "currentTask": "Cycle 578 judging AIE retest (3 fresh QA judges)",
-   "lastHeartbeat": "2026-11-26T23:16:30.000Z",
-   "observedAt": "2026-11-26T23:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,6 +2523,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 578",
+   "detail": "Cycle 578 done: AIE-R2 generic win 8.50 vs 8.25, AIE-R3 specialist win 8.75 vs 8.00, AIE-R1 INVALID_RUN (seal missed connector-inventory.md citation), re-seal 579, judging 581.",
+   "currentTask": "Cycle 578 done: AIE retest judged, partial record 1W 1L, AIE-R1 void",
+   "lastHeartbeat": "2026-11-26T23:30:04.000Z",
+   "observedAt": "2026-11-26T23:30:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-aie-r1",
+   "name": "QA Judge AIE-R1",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AIE-R1",
+   "detail": "Judge AIE-R1 done (posted by parent; judge snapshot failed on schema): flagged connector-inventory.md citation, scores void, re-seal 579.",
+   "currentTask": "AIE-R1 judged, INVALID_RUN ruled (void scores filed)",
+   "lastHeartbeat": "2026-11-26T23:30:04.000Z",
+   "observedAt": "2026-11-26T23:30:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-aie-r2",
+   "name": "QA Judge AIE-R2",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AIE-R2",
+   "detail": "Judge AIE-R2 done (posted by parent; judge snapshot failed on schema): generic win 8.50 vs 8.25, contamination clean.",
+   "currentTask": "AIE-R2 judged, generic win 8.50 vs 8.25",
+   "lastHeartbeat": "2026-11-26T23:30:04.000Z",
+   "observedAt": "2026-11-26T23:30:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-aie-r3",
+   "name": "QA Judge AIE-R3",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AIE-R3",
+   "detail": "Judge AIE-R3 done (posted by parent; judge also posted its own completion): specialist win 8.75 vs 8.00, contamination clean.",
+   "currentTask": "AIE-R3 judged, specialist win 8.75 vs 8.00",
+   "lastHeartbeat": "2026-11-26T23:30:04.000Z",
+   "observedAt": "2026-11-26T23:30:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-aie-r3-generic",
    "name": "AIE-R3 generic solver",
    "role": "builder",
@@ -3877,62 +3919,6 @@
    "currentTask": "SYSB-T1 build complete",
    "lastHeartbeat": "2026-11-26T07:37:53.000Z",
    "observedAt": "2026-11-26T07:37:53.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "sb-v2-generic",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-V2 generic solver",
-   "detail": "SB-V2 generic build collected: 3,581/4,718 bytes, 801 words, 51s, 0 em dashes (posted by cycle lead).",
-   "currentTask": "SB-V2 complete",
-   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
-   "observedAt": "2026-11-26T06:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-V2 specialist solver",
-   "detail": "SB-V2 specialist build collected: 5,000/5,734 bytes, 1,020 words, 72s, 0 em dashes (posted by cycle lead).",
-   "currentTask": "SB-V2 complete",
-   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
-   "observedAt": "2026-11-26T06:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt-144-lead",
-   "name": "gt-144-lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Drone thesis defense prep pack (GT-144)",
-   "detail": "GT-144 complete: 53 ranked questions with anchored answers, evidence table, 36 cannot-answer items (17 owner-fact, 19 design with recommendations). No manuscript file edited.",
-   "currentTask": "Complete: defense pack, evidence table, cannot-answer-yet delivered",
-   "lastHeartbeat": "2026-11-26T06:28:27.000Z",
-   "observedAt": "2026-11-26T06:28:27.000Z",
-   "needsUser": false,
-   "category": "thesis"
-  },
-  {
-   "agentId": "team-site-builder",
-   "name": "Site Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Site Builder SB-V1 specialist",
-   "detail": "SB-V1 done: gate passes cases 1 and 3; all 5 cases measured (case 1 area 0px, cases 2-4 show at 48.5px, login banner intact); 0 em dashes.",
-   "currentTask": "SB-V1 build complete: gate green, all 5 cases measured in headless Chromium",
-   "lastHeartbeat": "2026-11-26T06:15:00.000Z",
-   "observedAt": "2026-11-26T06:15:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
