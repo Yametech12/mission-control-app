@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T21:19:00.000Z",
- "summary": "Improvement cycle 568 complete: AIE-T3 re-sealed, re-judging next cycle.",
+ "generatedAt": "2026-11-26T21:28:30.000Z",
+ "summary": "Cycle 569 closed void: AIE-T3 re-judging INVALID_RUN, no scores; re-seal 570, judging 571.",
  "agents": [
   {
    "agentId": null,
@@ -2538,15 +2538,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement Cycle",
    "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team Improvement Cycle 568",
-   "detail": "Cycle 568 complete: AIE-T3 re-sealed SEAL_OK, Skills-used line dropped whole, re-judging cycle 569.",
-   "currentTask": "Cycle 568 complete: AIE-T3 re-sealed, re-judging cycle 569",
-   "lastHeartbeat": "2026-11-26T21:19:00.000Z",
-   "observedAt": "2026-11-26T21:19:00.000Z",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 569 closed: AIE-T3 re-judging voided as INVALID_RUN, parent read mapping before judging; no scores; re-seal 570, judging 571.",
+   "currentTask": "Cycle 569 closed: AIE-T3 re-judging voided",
+   "lastHeartbeat": "2026-11-26T21:28:30.000Z",
+   "observedAt": "2026-11-26T21:28:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
