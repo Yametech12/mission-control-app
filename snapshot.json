@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:16:30.000Z",
- "summary": "1 run active (Ghostname improvement cycle), 2 recent completions, 7 scheduled, 6 attention items including a blocked ClinicFlow upgrade and WhatsApp-blocked watches.",
+ "generatedAt": "2026-11-26T03:25:00.000Z",
+ "summary": "SASE inbox watch 11:24 PHT: 31 threads checked, no new buyer messages.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 483: MIA retest judging",
-   "detail": "Cycle 483 judging MIA retest: 3 fresh-context QA judges scoring sealed MIA-R1/R2/R3 pairs blind.",
-   "currentTask": "Cycle 483: blind judging Market Intelligence Analyst retest",
-   "lastHeartbeat": "2026-11-26T03:15:34.000Z",
-   "observedAt": "2026-11-26T03:15:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2425,6 +2411,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "11:24 PHT check done: 31 threads, 0 new, 0 changed, 0 unread. No buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox check complete, no new messages",
+   "lastHeartbeat": "2026-11-26T03:25:00.000Z",
+   "observedAt": "2026-11-26T03:25:00.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 483: MIA retest validated",
+   "detail": "Cycle 483: Market Intelligence Analyst VALIDATED 8.17 vs 7.42, 3 wins, clean blind judging. Scoreboard 18/79 validated.",
+   "currentTask": "Cycle 483 complete: MIA retest validated",
+   "lastHeartbeat": "2026-11-26T03:22:48.000Z",
+   "observedAt": "2026-11-26T03:22:48.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-mia-r3-generic",
    "name": "MIA-R3 generic solver",
    "role": "researcher",
@@ -2451,20 +2465,6 @@
    "observedAt": "2026-11-26T03:01:37.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "SASE Inbox Watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page Inbox Watch",
-   "detail": "10:54 PHT check: Page access OK, 31 threads, 0 new, 0 unread, no buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T02:54:30.000Z",
-   "observedAt": "2026-11-26T02:54:30.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "team-lead-gt140",
@@ -3809,20 +3809,6 @@
    "observedAt": "2026-11-25T08:13:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pricing-revenue-analyst",
-   "name": "Pricing and Revenue Analyst",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PRA-R1 specialist solve",
-   "detail": "PRA-R1 specialist solve done: Jo Koy sheet filed, all floors PASS, earnings USD 0.00 at recorded approval.",
-   "currentTask": "PRA-R1 specialist solve: Jo Koy campaign economics verification sheet",
-   "lastHeartbeat": "2026-11-25T06:43:33.000Z",
-   "observedAt": "2026-11-25T06:43:33.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   }
  ]
 }
