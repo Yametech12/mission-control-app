@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T09:29:30.000Z",
- "summary": "Cycle 513 complete: App Builder AB-T3 pair collected and verified, K1-K7 pass both, no key defect. All three pairs collected; sealing 514, judging 516.",
+ "generatedAt": "2026-11-26T09:40:00.000Z",
+ "summary": "Improvement cycle 514 complete: App Builder pairs sealed, judging cycle 516.",
  "agents": [
   {
    "agentId": null,
@@ -2439,6 +2439,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 514",
+   "detail": "App Builder pairs sealed SEAL_OK: 28 neutral files, 0 identity hits, originals unchanged; judging cycle 516.",
+   "currentTask": "Cycle 514 sealed; judging cycle 516",
+   "lastHeartbeat": "2026-11-26T09:40:00.000Z",
+   "observedAt": "2026-11-26T09:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "ab-t3-generic-solver",
    "name": "AB-T3 generic solver",
    "role": "builder",
@@ -2462,20 +2476,6 @@
    "detail": "AB-T3 specialist solve complete (posted by parent): runbook 4,141 bytes / 687 words, workflow 1,137, handoff 1,270, gate 3,544, 67s, gate exit 0.",
    "currentTask": "AB-T3 specialist solve complete (posted by parent)",
    "lastHeartbeat": "2026-11-26T09:27:56.000Z",
-   "observedAt": "2026-11-26T09:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 513 complete: AB-T3 pair collected",
-   "detail": "Cycle 513 complete: App Builder AB-T3 pair collected and verified, K1-K7 pass both, no key defect. All three pairs collected; sealing 514, judging 516.",
-   "currentTask": "Cycle 513 complete: AB-T3 pair collected and verified",
-   "lastHeartbeat": "2026-11-26T09:29:30.000Z",
    "observedAt": "2026-11-26T09:29:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
