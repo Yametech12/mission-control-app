@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T16:16:18.000Z",
- "summary": "1 run active (Ghostname improvement cycle), recent CSE, Mission Control and Yame Bridge runs completed, SASE posting stopped for the Nov 29 exam; 6 items need attention, including blocked delivery chats and repeated backup failures.",
+ "generatedAt": "2026-11-26T16:31:30.000Z",
+ "summary": "Cycle 546 complete: AE-R3 pair collected and verified; sealing 547, judging 548.",
  "agents": [
   {
    "agentId": null,
@@ -2552,17 +2552,45 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 545: routing check 5 of 5",
-   "detail": "Cycle 545 routing check complete: 5 of 5 on fresh GT-149 legs, no new rule, clean sweeps 20 in 81. AE-R3 solvers next, cycle 546.",
-   "currentTask": "Cycle 545 routing check complete: 5 of 5",
-   "lastHeartbeat": "2026-11-26T16:13:27.000Z",
-   "observedAt": "2026-11-26T16:13:27.000Z",
+   "title": "Ghostname Team improvement cycle 546",
+   "detail": "Cycle 546: AE-R3 pair collected (spec 67s, gen 66s, both gates 7/7, K1-K7 pass, no key defect).",
+   "currentTask": "Cycle 546 complete: AE-R3 pair collected",
+   "lastHeartbeat": "2026-11-26T16:31:30.000Z",
+   "observedAt": "2026-11-26T16:31:30.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "Validation"
+  },
+  {
+   "agentId": "team-ae-r3-specialist",
+   "name": "AE-R3 solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AE-R3 Whop submit job instruction",
+   "detail": "Done: gate 7/7 PASS exit 0, 0 em dashes, 6311 bytes total, 67s wall time.",
+   "currentTask": "AE-R3 files written and verified",
+   "lastHeartbeat": "2026-11-26T16:28:40.000Z",
+   "observedAt": "2026-11-26T16:28:40.000Z",
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
+   "agentId": "team-ae-r3-generic",
+   "name": "AE-R3 solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AE-R3 generic solver",
+   "detail": "Done. Gate passed 7/7, exit 0, 6207 bytes total, 0 em dashes, 66s wall time.",
+   "currentTask": "AE-R3 files written and verified",
+   "lastHeartbeat": "2026-11-26T16:28:36.000Z",
+   "observedAt": "2026-11-26T16:28:36.000Z",
+   "needsUser": false,
+   "category": "Validation"
   },
   {
    "agentId": "routing-check-545-panel",
@@ -3919,34 +3947,6 @@
    "currentTask": "Yame Bridge build complete",
    "lastHeartbeat": "2026-11-26T02:45:00.000Z",
    "observedAt": "2026-11-26T02:45:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
-   "agentId": "team-routing-panel-480",
-   "name": "routing-panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 480",
-   "detail": "Routing panel cycle 480: picks filed, 5 of 5 matches (Design Auditor, Device and Rendering Tester, QA Tester, API Integration Engineer, Live Verifier). Posted by the job lead.",
-   "currentTask": "Panel picks filed: 5 of 5 matches",
-   "lastHeartbeat": "2026-11-26T02:40:00.000Z",
-   "observedAt": "2026-11-26T02:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-localization-specialist",
-   "name": "team-localization-specialist",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Localization Specialist: Bisaya fluency check",
-   "detail": "Posted by job lead. Complete: price reply corrected (po removed), 4 strings confirmed. localization-bisaya.md filed.",
-   "currentTask": "Done: reports/localization-bisaya.md delivered",
-   "lastHeartbeat": "2026-11-26T02:22:00.000Z",
-   "observedAt": "2026-11-26T02:22:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   }
