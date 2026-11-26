@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T17:40:34.000Z",
- "summary": "Cycle 552 complete: ML Engineer ML-T3 pair collected and verified; all three pairs collected, sealing 553, judging 554.",
+ "generatedAt": "2026-11-26T17:51:00.000Z",
+ "summary": "Cycle 553 complete: ML Engineer pairs sealed for judging cycle 554.",
  "agents": [
   {
    "agentId": null,
@@ -2538,15 +2538,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team Improvement Cycle",
-   "detail": "Cycle 552 complete: ML-T3 pair collected and verified, both gates 6/6, K1-K7 pass, no verdict",
-   "currentTask": "Cycle 552 complete: ML-T3 pair collected",
-   "lastHeartbeat": "2026-11-26T17:40:34.000Z",
-   "observedAt": "2026-11-26T17:40:34.000Z",
+   "title": "Cycle 553 sealed ML Engineer",
+   "detail": "Cycle 553 sealed ML Engineer pairs ML-T1 to ML-T3: SEAL_OK first run, 28 changed lines, 18 neutral files, 0 identity hits, all six neutral gates exit 0. Judging cycle 554.",
+   "currentTask": "Cycle 553 sealed ML Engineer pairs; judging cycle 554",
+   "lastHeartbeat": "2026-11-26T17:51:00.000Z",
+   "observedAt": "2026-11-26T17:51:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
