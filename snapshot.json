@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:24:30.000Z",
- "summary": "SASE inbox watch complete: no new buyer messages.",
+ "generatedAt": "2026-11-26T11:31:30.000Z",
+ "summary": "Improvement cycle 524 complete: Systems Builder retest opened, SYSB-R1 pair collected.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -2509,6 +2509,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 524",
+   "detail": "Cycle 524 complete: Systems Builder retest opened, SYSB-R1 pair collected and verified (both tests 6/6, 0 em dashes). R2 solvers cycle 526.",
+   "currentTask": "Cycle 524 complete: Systems Builder retest, SYSB-R1 collected",
+   "lastHeartbeat": "2026-11-26T11:31:30.000Z",
+   "observedAt": "2026-11-26T11:31:30.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "sysb-r1-specialist-solver",
+   "name": "SYSB-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-R1 specialist solver",
+   "detail": "session.js, test.js, delivery-note.md built; node test.js exit 0, 6 of 6 pass.",
+   "currentTask": "SYSB-R1 specialist solve",
+   "lastHeartbeat": "2026-11-26T11:31:00.000Z",
+   "observedAt": "2026-11-26T11:31:00.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "sysb-r1-generic-solver",
+   "name": "SYSB-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-R1 generic solver",
+   "detail": "session.js, test.js, delivery-note.md done. 6 of 6 cases pass.",
+   "currentTask": "SYSB-R1 generic solve",
+   "lastHeartbeat": "2026-11-26T11:29:50.000Z",
+   "observedAt": "2026-11-26T11:29:50.000Z",
+   "needsUser": false,
+   "category": "team-validation"
+  },
+  {
+   "agentId": "cse-qc-evening-1930",
+   "name": "CSE Evening Poster",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Evening 19:30 - Free Sample Push",
+   "detail": "19:30 free sample push LIVE: Day 1 caption, post 122104940049556083, Public, verified",
+   "currentTask": "Evening post published and logged",
+   "lastHeartbeat": "2026-11-26T11:29:22.000Z",
+   "observedAt": "2026-11-26T11:29:22.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE inbox watch",
    "role": "monitor",
@@ -2521,20 +2577,6 @@
    "observedAt": "2026-11-26T11:24:30.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 523: Site Builder validated",
-   "detail": "Cycle 523 complete: Site Builder VALIDATED 8.75 vs 7.17, 3 wins, 0 losses; scoreboard 20 validated, 8 flagged, 51 unvalidated of 79.",
-   "currentTask": "Cycle 523 complete: Site Builder validated",
-   "lastHeartbeat": "2026-11-26T11:19:36.000Z",
-   "observedAt": "2026-11-26T11:19:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "59675fbe-ce22-41ee-a606-b1d55e637bf3",
@@ -3863,48 +3905,6 @@
    "currentTask": "DA-R1 specialist solve",
    "lastHeartbeat": "2026-11-25T20:12:30.000Z",
    "observedAt": "2026-11-25T20:12:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-judge-r1",
-   "name": "FC-R1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R1 blind judge",
-   "detail": "FC-R1 judge complete (carried by parent): B 6.75 vs A 6.25, contamination clean.",
-   "currentTask": "FC-R1 judged: B 6.75 vs A 6.25",
-   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
-   "observedAt": "2026-11-25T19:57:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-judge-r2",
-   "name": "FC-R2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R2 blind judge",
-   "detail": "FC-R2 judge complete (carried by parent): tie 6.50 vs 6.50, contamination clean.",
-   "currentTask": "FC-R2 judged: tie 6.50 vs 6.50",
-   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
-   "observedAt": "2026-11-25T19:57:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-fc-judge-r3",
-   "name": "FC-R3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "FC-R3 blind judge",
-   "detail": "FC-R3 judge complete (carried by parent): A 7.75 vs B 6.50, contamination clean.",
-   "currentTask": "FC-R3 judged: A 7.75 vs B 6.50",
-   "lastHeartbeat": "2026-11-25T19:57:00.000Z",
-   "observedAt": "2026-11-25T19:57:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
