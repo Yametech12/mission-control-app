@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T19:16:05.000Z",
- "summary": "1 job running, 4 recent completions, 8 scheduled, and 5 jobs needing attention: 2 delivery-blocked, 3 repeatedly failing.",
+ "generatedAt": "2026-11-26T19:25:01.000Z",
+ "summary": "Cycle 559: Data Engineer pairs sealed (SEAL_OK, 18 neutral files); judging cycle 561. Scoreboard 24 validated, 8 flagged, 47 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -2524,17 +2524,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 558",
-   "detail": "Cycle 558 done: DE-T3 pair verified, both gates 4/4, K1-K7 pass, both RECONCILED. Sealing 559, judging 561.",
-   "currentTask": "Cycle 558 complete: DE-T3 pair collected",
-   "lastHeartbeat": "2026-11-26T19:11:30.000Z",
-   "observedAt": "2026-11-26T19:11:30.000Z",
+   "title": "Ghostname Team validation loop, cycle 559",
+   "detail": "Data Engineer sealed: SEAL_OK second run, 18 neutral files, 901 lines, 0 identity hits, all six neutral gates exit 0. Judging cycle 561.",
+   "currentTask": "Cycle 559 sealing complete; judging queued for cycle 561",
+   "lastHeartbeat": "2026-11-26T19:25:01.000Z",
+   "observedAt": "2026-11-26T19:25:01.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnam team validation"
   },
   {
    "agentId": "team-data-engineer",
