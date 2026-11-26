@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:25:34.000Z",
- "summary": "Improvement cycle 489 running: Fact Checker retest 2 blind judging.",
+ "generatedAt": "2026-11-26T04:52:00.000Z",
+ "summary": "GT-143 implementation complete in worktree: fast ack, FAQ cache, failure visibility. 70/70 tests. Fresh-Eye review in progress.",
  "agents": [
   {
    "agentId": null,
@@ -843,6 +843,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt-143-lead",
+   "name": "gt-143-lead",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "ClinicFlow webhook fast ack upgrade (GT-143)",
+   "detail": "Fast ack implemented in isolated worktree: ack 426ms -> 1ms at 400ms Gemini latency. Tests 65 -> 70, all green. Fresh-Eye review next.",
+   "currentTask": "Implementation done, 70/70 tests, Fresh-Eye review next",
+   "lastHeartbeat": "2026-11-26T04:52:00.000Z",
+   "observedAt": "2026-11-26T04:52:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
    "agentId": "gt-141-builder",
    "name": "gt-141-builder",
    "role": "builder",
@@ -855,20 +869,6 @@
    "observedAt": "2026-11-26T04:45:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 489: Fact Checker retest 2 judging",
-   "detail": "Cycle 489 judging Fact Checker retest 2: three fresh-context QA judges scoring the sealed FC-S1 to FC-S3 neutrals.",
-   "currentTask": "Judging Fact Checker retest 2 sealed pairs",
-   "lastHeartbeat": "2026-11-26T04:25:34.000Z",
-   "observedAt": "2026-11-26T04:25:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-lead",
@@ -2481,6 +2481,20 @@
    "category": "clinicflow"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 489: Fact Checker retest 2 judged",
+   "detail": "Fact Checker retest 2 judged: run score 6.83 / 7.42, 1 win, 2 losses. Two failed rewrites, Fact Checker FLAGGED to Approval queue. Scoreboard 18 validated, 8 flagged, 53 unvalidated.",
+   "currentTask": "Cycle 489 complete: Fact Checker flagged",
+   "lastHeartbeat": "2026-11-26T04:29:34.000Z",
+   "observedAt": "2026-11-26T04:29:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3851,20 +3865,6 @@
    "observedAt": "2026-11-25T09:49:11.000Z",
    "needsUser": false,
    "category": "design"
-  },
-  {
-   "agentId": "cse-posting-samples-v2",
-   "name": "cse-posting-samples-v2",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE quiz samples v2, editorial redesign",
-   "detail": "Set 2 done: 3 editorial exam-sheet PNGs, verification 15 of 15 checks PASS per image, captions v2 and design note saved. Nothing posted live.",
-   "currentTask": "Set 2 samples delivered to parent for the owner verdict gate",
-   "lastHeartbeat": "2026-11-25T09:30:12.000Z",
-   "observedAt": "2026-11-25T09:30:12.000Z",
-   "needsUser": false,
-   "category": "cse-posting"
   }
  ]
 }
