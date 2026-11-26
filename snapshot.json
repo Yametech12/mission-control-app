@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T08:11:00.000Z",
- "summary": "Cycle 507 complete: Systems Builder SYSB-T3 pair collected and verified; all three pairs ready for sealing in cycle 508.",
+ "generatedAt": "2026-11-26T08:16:45.000Z",
+ "summary": "Improvement cycle 508 in progress: sealing Systems Builder validation pairs.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 508: seal Systems Builder pairs",
+   "detail": "Cycle 508 sealing SYSB-T1/T2/T3 pairs under the cycle 199 differential rule; judging cycle 509.",
+   "currentTask": "Sealing Systems Builder pairs SYSB-T1 to SYSB-T3",
+   "lastHeartbeat": "2026-11-26T08:16:45.000Z",
+   "observedAt": "2026-11-26T08:16:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2425,20 +2439,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 507: SYSB-T3 collected",
-   "detail": "Cycle 507 complete: SYSB-T3 pair verified, K1-K7 pass both, 7 splits filed. Sealing 508, judging 509.",
-   "currentTask": "Cycle 507 complete: SYSB-T3 pair collected",
-   "lastHeartbeat": "2026-11-26T08:11:00.000Z",
-   "observedAt": "2026-11-26T08:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sysb-t3-specialist",
    "name": "SYSB-T3 specialist",
    "role": "builder",
@@ -3821,6 +3821,20 @@
    "currentTask": "GT-136 QA/security audit complete, report filed",
    "lastHeartbeat": "2026-11-25T13:20:00.000Z",
    "observedAt": "2026-11-25T13:20:00.000Z",
+   "needsUser": false,
+   "category": "automation-sprints"
+  },
+  {
+   "agentId": "gt135-builder",
+   "name": "gt135-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-135 ClinicFlow landing/login split",
+   "detail": "GT-135 done: landing split from dashboard, Google login binding with adoption, /api/bookings + /api/logout added, 24/24 tests pass, docs and job record updated. Not committed or deployed; parent ships.",
+   "currentTask": "GT-135 complete: landing/login split shipped in working tree, 24/24 tests pass",
+   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
+   "observedAt": "2026-11-25T13:12:00.000Z",
    "needsUser": false,
    "category": "automation-sprints"
   }
