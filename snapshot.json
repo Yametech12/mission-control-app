@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T18:29:24.000Z",
- "summary": "Cycle 556: Data Engineer validation opens (row 7, P3, first run).",
+ "generatedAt": "2026-11-26T18:36:20.000Z",
+ "summary": "DE-T1 generic solver: feed inventory re-audit.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-data-engineer-de-t1-generic",
+   "name": "Data Engineer DE-T1 generic",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DE-T1 generic: feed inventory re-audit",
+   "detail": "Working on the DE-T1 generic re-audit report.",
+   "currentTask": "DE-T1 generic re-audit report",
+   "lastHeartbeat": "2026-11-26T18:36:20.000Z",
+   "observedAt": "2026-11-26T18:36:20.000Z",
+   "needsUser": false,
+   "category": "validation-loop"
+  },
+  {
+   "agentId": "team-data-engineer-de-t1-specialist",
+   "name": "Data Engineer DE-T1 specialist",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DE-T1 specialist: feed inventory re-audit",
+   "detail": "Working on the DE-T1 specialist re-audit report.",
+   "currentTask": "DE-T1 specialist re-audit report",
+   "lastHeartbeat": "2026-11-26T18:32:43.000Z",
+   "observedAt": "2026-11-26T18:32:43.000Z",
+   "needsUser": false,
+   "category": "validation-loop"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Page comment watch",
+   "detail": "CSE comment watch started: checking Page posts from the last 7 days for new comments.",
+   "currentTask": "Checking CSE Page posts Nov 20-27 for new comments",
+   "lastHeartbeat": "2026-11-26T18:32:05.000Z",
+   "observedAt": "2026-11-26T18:32:05.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -3041,20 +3083,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "20:32 run complete: 15 posts checked Nov 19-26, no new genuine comments, 0 hearts, 0 replies, no flags.",
-   "currentTask": "Run complete, no new comments found",
-   "lastHeartbeat": "2026-11-26T12:44:00.000Z",
-   "observedAt": "2026-11-26T12:44:00.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
-  },
-  {
    "agentId": "team-routing-panel-530",
    "name": "Routing check 530 panel",
    "role": "auditor",
@@ -3947,6 +3975,20 @@
    "currentTask": "FC-S1 verification record",
    "lastHeartbeat": "2026-11-26T03:37:00.000Z",
    "observedAt": "2026-11-26T03:37:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mia-r3-generic",
+   "name": "MIA-R3 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MIA-R3 generic solver",
+   "detail": "MIA-R3 generic brief complete: 8,596 bytes, 1,335 words, 113s, 0 em dashes. Posted by cycle parent.",
+   "currentTask": "MIA-R3 generic brief complete",
+   "lastHeartbeat": "2026-11-26T03:01:37.000Z",
+   "observedAt": "2026-11-26T03:01:37.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
