@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T23:33:36.000Z",
- "summary": "Cycle 579: AIE-R1 re-seal (INVALID_RUN voided in cycle 578, seal missed the specialist connector-inventory.md citation).",
+ "generatedAt": "2026-11-26T23:37:49.000Z",
+ "summary": "Cycle 579 done: AIE-R1 re-sealed SEAL_OK, re-judging cycle 581. Scoreboard 25 validated, 8 flagged, 46 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 579: AIE-R1 re-seal",
-   "detail": "Re-sealing AIE-R1 only: dropping the missed connector-inventory.md citation, fresh randomized mapping. R2/R3 scores stand.",
-   "currentTask": "AIE-R1 re-seal: drop connector-inventory.md citation, fresh mapping",
-   "lastHeartbeat": "2026-11-26T23:33:36.000Z",
-   "observedAt": "2026-11-26T23:33:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,6 +2523,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 579: AIE-R1 re-seal",
+   "detail": "AIE-R1 re-sealed SEAL_OK first run: 3 lines changed, 6 neutral files, 0 identity hits, both gates exit 0. Re-judging cycle 581.",
+   "currentTask": "Cycle 579 complete: AIE-R1 re-sealed, re-judging cycle 581",
+   "lastHeartbeat": "2026-11-26T23:37:49.000Z",
+   "observedAt": "2026-11-26T23:37:49.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-aie-r1",
    "name": "QA Judge AIE-R1",
    "role": "auditor",
@@ -3921,20 +3921,6 @@
    "observedAt": "2026-11-26T07:37:53.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "sb-v2-generic",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-V2 generic solver",
-   "detail": "SB-V2 generic build collected: 3,581/4,718 bytes, 801 words, 51s, 0 em dashes (posted by cycle lead).",
-   "currentTask": "SB-V2 complete",
-   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
-   "observedAt": "2026-11-26T06:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
