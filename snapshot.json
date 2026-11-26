@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T22:43:30.000Z",
- "summary": "Cycle 575 routing check in progress",
+ "generatedAt": "2026-11-26T22:50:00.000Z",
+ "summary": "Routing check 575 panel complete",
  "agents": [
   {
    "agentId": null,
@@ -2565,6 +2565,20 @@
    "category": "cse-reviewer"
   },
   {
+   "agentId": "routing-check-panel-575",
+   "name": "Routing Check Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 575 panel",
+   "detail": "Routing check 575 panel complete: picks filed, Page Operator, Watcher, Coursework Planner, Data Analyst, Data Analyst.",
+   "currentTask": "Picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-26T22:50:00.000Z",
+   "observedAt": "2026-11-26T22:50:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-aie-r2-specialist",
    "name": "AIE-R2 specialist solver",
    "role": "builder",
@@ -2885,20 +2899,6 @@
    "observedAt": "2026-11-26T18:44:05.000Z",
    "needsUser": false,
    "category": "cse-reviewer"
-  },
-  {
-   "agentId": "routing-check-panel-555",
-   "name": "Routing check panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check panel cycle 555",
-   "detail": "Routing check panel cycle 555 complete: 5 picks filed (Cron Fleet Manager, DevOps and Release Engineer, Watcher, Live Verifier, Security Auditor). Posted by cycle parent.",
-   "currentTask": "Panel picks filed: Cron Fleet Manager, DevOps, Watcher, Live Verifier, Security Auditor",
-   "lastHeartbeat": "2026-11-26T18:11:33.000Z",
-   "observedAt": "2026-11-26T18:15:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-ml-engineer-ml-t3-specialist",
