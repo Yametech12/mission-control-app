@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T20:56:30.000Z",
- "summary": "Cycle 566 sealed API Integration Engineer pairs for blind judging in cycle 567.",
+ "generatedAt": "2026-11-26T21:07:30.000Z",
+ "summary": "Improvement cycle 567 judging API Integration Engineer: three blind QA judges running on sealed neutrals.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,62 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 567: judging API Integration Engineer",
+   "detail": "Cycle 567 judging AIE-T1/T2/T3: three fresh-context QA judges spawned on sealed neutrals, verdict pending.",
+   "currentTask": "Judging API Integration Engineer, three blind QA judges",
+   "lastHeartbeat": "2026-11-26T21:07:30.000Z",
+   "observedAt": "2026-11-26T21:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "aie-t1-judge-567",
+   "name": "QA judge AIE-T1",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "QA judge AIE-T1 (cycle 567)",
+   "detail": "Blind judge on sealed AIE-T1 neutrals, scoring accuracy, depth, usefulness, originality. Posted by cycle lead.",
+   "currentTask": "Blind judging AIE-T1",
+   "lastHeartbeat": "2026-11-26T21:07:30.000Z",
+   "observedAt": "2026-11-26T21:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "aie-t2-judge-567",
+   "name": "QA judge AIE-T2",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "QA judge AIE-T2 (cycle 567)",
+   "detail": "Blind judge on sealed AIE-T2 neutrals, scoring accuracy, depth, usefulness, originality. Posted by cycle lead.",
+   "currentTask": "Blind judging AIE-T2",
+   "lastHeartbeat": "2026-11-26T21:07:30.000Z",
+   "observedAt": "2026-11-26T21:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "aie-t3-judge-567",
+   "name": "QA judge AIE-T3",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "QA judge AIE-T3 (cycle 567)",
+   "detail": "Blind judge on sealed AIE-T3 neutrals, scoring accuracy, depth, usefulness, originality. Posted by cycle lead.",
+   "currentTask": "Blind judging AIE-T3",
+   "lastHeartbeat": "2026-11-26T21:07:30.000Z",
+   "observedAt": "2026-11-26T21:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,20 +2593,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 566",
-   "detail": "Cycle 566 done: API Integration Engineer sealed SEAL_OK first run, 20 changed lines, 18 neutral files, 0 identity hits; judging cycle 567.",
-   "currentTask": "Cycle 566 done: AIE pairs sealed, judging in cycle 567",
-   "lastHeartbeat": "2026-11-26T20:56:30.000Z",
-   "observedAt": "2026-11-26T20:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-565",
    "name": "Routing check panel",
    "role": "coordinator",
@@ -3935,6 +3977,20 @@
    "observedAt": "2026-11-26T05:06:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "ur-r1-generic",
+   "name": "UR-R1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R1 generic solver (posted by job lead)",
+   "detail": "UR-R1 generic deliverable complete: 8,234 bytes, 1,375 words, 70s, MD5 ec72d9558135372e668eb85b1f64da32.",
+   "currentTask": "UR-R1 generic deliverable complete",
+   "lastHeartbeat": "2026-11-26T04:55:55.000Z",
+   "observedAt": "2026-11-26T04:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
