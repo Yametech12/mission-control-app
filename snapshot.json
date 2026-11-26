@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T01:47:00.000Z",
- "summary": "GT-139: auth research done, pick is Firebase Authentication (Spark, no owner step). Rendering sweep and functional audit still running.",
+ "generatedAt": "2026-11-26T01:42:22.000Z",
+ "summary": "Cycle 476 complete: Consequence Planner retest sealed, judging cycle 477.",
  "agents": [
   {
    "agentId": null,
@@ -807,10 +807,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-139 ClinicFlow fix and improve round 2",
-   "detail": "Design audit and auth research done; rendering sweep and functional audit running; build step next",
-   "currentTask": "Waiting on rendering sweep and functional audit",
-   "lastHeartbeat": "2026-11-26T01:47:00.000Z",
-   "observedAt": "2026-11-26T01:47:00.000Z",
+   "detail": "Three of four audits done; functional audit S5b running; then fix list and Site Builder",
+   "currentTask": "Waiting on functional audit, then S3 fix list",
+   "lastHeartbeat": "2026-11-26T01:52:00.000Z",
+   "observedAt": "2026-11-26T01:52:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
   },
@@ -827,20 +827,6 @@
    "observedAt": "2026-11-26T01:40:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 476: sealing CP retest",
-   "detail": "Cycle 476 sealing Consequence Planner retest CP-R1 to CP-R3 pairs, judging cycle 477.",
-   "currentTask": "Cycle 476: sealing Consequence Planner retest pairs",
-   "lastHeartbeat": "2026-11-26T01:38:27.000Z",
-   "observedAt": "2026-11-26T01:38:27.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "4e535866-4027-4171-b7fa-5e97bc855051",
@@ -2355,20 +2341,6 @@
    "category": "SASE portal"
   },
   {
-   "agentId": "team-device-rendering-tester",
-   "name": "Device and Rendering Tester",
-   "role": "auditor",
-   "agentStatus": "idle",
-   "status": "scheduled",
-   "title": "Device and Rendering Tester (GT-139)",
-   "detail": "Posted by the job lead: queued, full re-sweep incl landscape and short-height",
-   "currentTask": "Waiting for fan-out",
-   "lastHeartbeat": "2026-11-26T01:26:00.000Z",
-   "observedAt": "2026-11-26T01:26:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
    "agentId": "team-site-builder",
    "name": "Site Builder",
    "role": "builder",
@@ -2467,6 +2439,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-device-rendering-tester",
+   "name": "Device and Rendering Tester",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Device and Rendering Tester (GT-139)",
+   "detail": "Posted by the job lead: re-sweep done, 0 Critical 1 Major 1 Minor, reports/device-rendering.md",
+   "currentTask": "Done: reports/device-rendering.md",
+   "lastHeartbeat": "2026-11-26T01:52:00.000Z",
+   "observedAt": "2026-11-26T01:52:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
    "agentId": "team-api-integration-engineer",
    "name": "API Integration Engineer",
    "role": "researcher",
@@ -2479,6 +2465,20 @@
    "observedAt": "2026-11-26T01:47:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 476: CP retest sealed",
+   "detail": "Cycle 476 sealed Consequence Planner retest pairs (SEAL_OK first run, 0 identity hits); judging cycle 477.",
+   "currentTask": "Cycle 476 complete: CP retest sealed, judging cycle 477",
+   "lastHeartbeat": "2026-11-26T01:42:22.000Z",
+   "observedAt": "2026-11-26T01:42:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-design-auditor",
@@ -3837,34 +3837,6 @@
    "observedAt": "2026-11-25T05:11:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "smm-judge-s3",
-   "name": "SMM Judge S3",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM retest 2 judge S3",
-   "detail": "SMM-S3 judged blind: specialist win 8.50 vs 7.00, contamination clean (posted by cycle parent)",
-   "currentTask": "SMM-S3 judged: specialist win 8.50 vs 7.00",
-   "lastHeartbeat": "2026-11-25T05:11:00.000Z",
-   "observedAt": "2026-11-25T05:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-social-media-manager",
-   "name": "Social Media Manager",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SMM-S3 ClipUp v2 hand-back plan",
-   "detail": "SMM-S3 specialist draft done: 14,794 bytes, 7 sections in order, 0 em dashes. Flagged the state file vs GT96 submission conflict; all 3 input MD5s matched.",
-   "currentTask": "SMM-S3 draft complete",
-   "lastHeartbeat": "2026-11-25T04:40:00.000Z",
-   "observedAt": "2026-11-25T04:40:00.000Z",
-   "needsUser": false,
-   "category": "clipping"
   }
  ]
 }
