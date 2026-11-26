@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T12:16:07.000Z",
- "summary": "No runs are queued or running. CSE evening post and Ghostname cycle 528 completed; most watches are scheduled. Five schedules need attention, including two blocked on WhatsApp delivery.",
+ "generatedAt": "2026-11-26T12:24:36.000Z",
+ "summary": "SASE inbox watch 20:24 PHT: 31 threads checked, no new buyer messages.",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -2481,6 +2481,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "sase-inbox-watch",
+   "name": "sase-inbox-watch",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SASE Page inbox watch",
+   "detail": "20:24 PHT check done: 31 threads, 0 new, 0 unread, no new buyer messages, no GCash refs, no PDF sent.",
+   "currentTask": "Inbox watch complete",
+   "lastHeartbeat": "2026-11-26T12:24:36.000Z",
+   "observedAt": "2026-11-26T12:24:36.000Z",
+   "needsUser": false,
+   "category": "sase"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -2521,20 +2535,6 @@
    "observedAt": "2026-11-26T12:01:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sase-inbox-watch",
-   "name": "sase-inbox-watch",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SASE Page Inbox Watch",
-   "detail": "19:54 PHT inbox check done: 31 threads, 0 new, 0 changed, 0 unread. No buyer messages, no GCash refs, no PDF sent.",
-   "currentTask": "Inbox check complete, no new buyer messages",
-   "lastHeartbeat": "2026-11-26T11:55:00.000Z",
-   "observedAt": "2026-11-26T11:55:00.000Z",
-   "needsUser": false,
-   "category": "sase"
   },
   {
    "agentId": "routing-check-panel-525",
