@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T05:28:52.000Z",
- "summary": "Cycle 494 sealed User Researcher retest pairs; judging cycle 496.",
+ "generatedAt": "2026-11-26T05:45:34.000Z",
+ "summary": "Improvement cycle 495: routing check on 5 fresh GT-141/142/143 legs.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 495",
+   "detail": "Cycle 495 routing check started: 5 fresh GT-141/142/143 legs, coordinator picks sealed, panel reading.",
+   "currentTask": "Routing check cycle 495: 5 fresh GT-141/142/143 legs",
+   "lastHeartbeat": "2026-11-26T05:45:34.000Z",
+   "observedAt": "2026-11-26T05:45:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,20 +2481,6 @@
    "category": "clinicflow"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 494",
-   "detail": "Cycle 494 done: User Researcher retest sealed SEAL_OK (21 changes, 6 neutrals, 0 identity hits). Judging cycle 496.",
-   "currentTask": "Cycle 494 complete: User Researcher retest sealed",
-   "lastHeartbeat": "2026-11-26T05:28:52.000Z",
-   "observedAt": "2026-11-26T05:28:52.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3848,6 +3848,20 @@
    "detail": "COMPLETE: Nov 23 migration stranded pre-Nov-23 results (exams copied = 0). Heartbeat-skip fix live (1c92100), 267 tests pass, smoke 12/12, snapshot saved, Kenth notified; his old results unrecoverable, stated honestly.",
    "currentTask": "Complete: fix deployed and verified live, Kenth notified",
    "lastHeartbeat": "2026-11-25T10:15:00.000Z",
+   "observedAt": "2026-11-25T10:15:00.000Z",
+   "needsUser": false,
+   "category": "sase-portal"
+  },
+  {
+   "agentId": "gt133-audit-specialist",
+   "name": "gt133-audit-specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT133: independent audit",
+   "detail": "Audit complete (posted by job lead): forfeit and write handlers clean; results-page snapshot and device-slot lockout flagged as visibility/access loss paths. Report in GT-20261125-133-reports.",
+   "currentTask": "Independent audit complete",
+   "lastHeartbeat": "2026-11-25T10:01:00.000Z",
    "observedAt": "2026-11-25T10:15:00.000Z",
    "needsUser": false,
    "category": "sase-portal"
