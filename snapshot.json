@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T18:36:20.000Z",
+ "generatedAt": "2026-11-26T18:38:44.000Z",
  "summary": "DE-T1 generic solver: feed inventory re-audit.",
  "agents": [
   {
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-data-engineer-de-t1-generic",
-   "name": "Data Engineer DE-T1 generic",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DE-T1 generic: feed inventory re-audit",
-   "detail": "Working on the DE-T1 generic re-audit report.",
-   "currentTask": "DE-T1 generic re-audit report",
-   "lastHeartbeat": "2026-11-26T18:36:20.000Z",
-   "observedAt": "2026-11-26T18:36:20.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
   },
   {
    "agentId": "team-data-engineer-de-t1-specialist",
@@ -2593,6 +2579,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-data-engineer-de-t1-generic",
+   "name": "Data Engineer DE-T1 generic",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DE-T1 generic: feed inventory re-audit",
+   "detail": "Done. Report complete: F1-F4 DRIFT, F5 UNVERIFIED BY READ-BACK; gate exit 0, 6 of 6 assertions.",
+   "currentTask": "DE-T1 generic re-audit report",
+   "lastHeartbeat": "2026-11-26T18:38:44.000Z",
+   "observedAt": "2026-11-26T18:38:44.000Z",
+   "needsUser": false,
+   "category": "validation-loop"
+  },
+  {
    "agentId": "routing-check-panel-555",
    "name": "Routing check panel",
    "role": "coordinator",
@@ -3975,20 +3975,6 @@
    "currentTask": "FC-S1 verification record",
    "lastHeartbeat": "2026-11-26T03:37:00.000Z",
    "observedAt": "2026-11-26T03:37:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mia-r3-generic",
-   "name": "MIA-R3 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MIA-R3 generic solver",
-   "detail": "MIA-R3 generic brief complete: 8,596 bytes, 1,335 words, 113s, 0 em dashes. Posted by cycle parent.",
-   "currentTask": "MIA-R3 generic brief complete",
-   "lastHeartbeat": "2026-11-26T03:01:37.000Z",
-   "observedAt": "2026-11-26T03:01:37.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
