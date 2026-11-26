@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T14:01:41.000Z",
- "summary": "AB-R3 judged: Candidate B wins 8.75 vs 6.75. Both pass K1-K7. No contamination, run valid.",
+ "generatedAt": "2026-11-26T14:04:00.000Z",
+ "summary": "Cycle 536: App Builder retest VALIDATED 8.83 vs 6.92 on clean first judging; scoreboard 22 validated, 8 flagged, 49 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 536",
-   "detail": "Cycle 536 judging App Builder retest: 3 blind QA judges on sealed AB-R1 to AB-R3 pairs.",
-   "currentTask": "Cycle 536: judging App Builder retest AB-R1 to AB-R3",
-   "lastHeartbeat": "2026-11-26T13:56:00.000Z",
-   "observedAt": "2026-11-26T13:56:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-148-site-audit",
@@ -2565,6 +2551,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 536",
+   "detail": "Cycle 536: App Builder VALIDATED 8.83 vs 6.92, 3 wins 0 losses, clean judging. Scoreboard 22 validated, 8 flagged, 49 unvalidated.",
+   "currentTask": "Cycle 536 complete: App Builder retest validated 8.83 vs 6.92",
+   "lastHeartbeat": "2026-11-26T14:04:00.000Z",
+   "observedAt": "2026-11-26T14:04:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -3949,20 +3949,6 @@
    "observedAt": "2026-11-25T22:18:20.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-compliance-officer",
-   "name": "Compliance Officer",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Compliance Officer CO-R2 specialist solve",
-   "detail": "CO-R2 specialist solve complete, 11,663 bytes in 116s (start item carried by parent; start snapshot failed on agentStatus).",
-   "currentTask": "CO-R2 specialist solve complete (posted by cycle parent)",
-   "lastHeartbeat": "2026-11-25T22:09:01.000Z",
-   "observedAt": "2026-11-25T22:10:56.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
