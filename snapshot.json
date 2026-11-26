@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T03:01:37.000Z",
- "summary": "Cycle 481 complete: MIA-R3 pair collected; all three MIA retest pairs collected; sealing 482, judging 483.",
+ "generatedAt": "2026-11-26T03:10:00.000Z",
+ "summary": "Ghostname Team improvement cycle 482 complete: Market Intelligence Analyst retest sealed for blind judging; judging lands cycle 483.",
  "agents": [
   {
    "agentId": null,
@@ -2402,11 +2402,11 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 481 complete: MIA-R3 pair collected (specialist 8,619 bytes, 175s; generic 8,596 bytes, 113s; key clean). Sealing 482, judging 483.",
-   "currentTask": "Cycle 481 complete: MIA-R3 pair collected",
-   "lastHeartbeat": "2026-11-26T03:01:37.000Z",
-   "observedAt": "2026-11-26T03:01:37.000Z",
+   "title": "Improvement cycle 482: MIA retest sealing",
+   "detail": "Cycle 482 complete: MIA retest sealed (6 neutral files, 343 lines, 15 changes, 0 identity hits). Judging cycle 483. Scoreboard still 17 validated, 7 flagged, 55 unvalidated of 79.",
+   "currentTask": "Cycle 482 complete: MIA retest sealed, judging cycle 483",
+   "lastHeartbeat": "2026-11-26T03:10:00.000Z",
+   "observedAt": "2026-11-26T03:10:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
