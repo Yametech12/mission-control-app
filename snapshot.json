@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:31:00.000Z",
- "summary": "Improvement cycle 518 complete: Site Builder retest SB-R2 pair collected and verified.",
+ "generatedAt": "2026-11-26T10:35:46.000Z",
+ "summary": "Cycle 519: Site Builder retest SB-R3 solver pair running.",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 519 started: SB-R3 solver pair (Site Builder retest, task 3 of 3).",
+   "currentTask": "Cycle 519: Site Builder retest SB-R3 solver pair",
+   "lastHeartbeat": "2026-11-26T10:35:46.000Z",
+   "observedAt": "2026-11-26T10:35:46.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-147-cse-golive",
@@ -2481,20 +2495,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 518: Site Builder retest SB-R2",
-   "detail": "Cycle 518 complete: SB-R2 pair collected and verified, specialist gate 21/21, generic gate 3/3, K1-K7 pass both. SB-R3 runs cycle 519.",
-   "currentTask": "Cycle 518 complete; SB-R3 solvers run cycle 519",
-   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
-   "observedAt": "2026-11-26T10:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sb-r2-generic",
    "name": "SB-R2 Generic Solver",
    "role": "builder",
@@ -3877,6 +3877,20 @@
    "currentTask": "Solving CA-S3",
    "lastHeartbeat": "2026-11-25T17:49:00.000Z",
    "observedAt": "2026-11-25T17:49:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "6615ddef-42c3-4e1b-bfe7-d943e94b91e7",
+   "name": "CA-S1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CA-S1 generic solver",
+   "detail": "Posted by the cycle parent: generic deliverable 18,931 bytes, 3,156 words, 239s, MD5 ee20dfe7. Complete.",
+   "currentTask": "CA-S1 generic brief complete",
+   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
+   "observedAt": "2026-11-25T17:28:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
