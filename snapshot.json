@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:13:14.000Z",
- "summary": "Generic solver SB-R1 complete: gate passes, net shift 16.66 px.",
+ "generatedAt": "2026-11-26T10:19:45.000Z",
+ "summary": "SB-R1 specialist solver build complete.",
  "agents": [
   {
    "agentId": null,
@@ -9,26 +9,68 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: 92 consecutive failures and paused. The chat it posts to can no longer receive results. Last success Nov 3.",
+   "detail": "Blocked: WhatsApp chat can no longer receive results; 92 consecutive failures, last failed 16:35 PHT. Needs delivery moved or chat restored.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T08:35:11.000Z",
+   "observedAt": "2026-11-26T10:16:12.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "Whop posting"
   },
   {
    "agentId": null,
-   "name": "TG session watchdog (auto re-login)",
+   "name": "TG session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog (auto re-login)",
-   "detail": "Attention: 94 consecutive failures and paused. The chat it posts to can no longer receive results. Last success Oct 6.",
+   "title": "TG session watchdog",
+   "detail": "Blocked: WhatsApp chat can no longer receive results; 94 consecutive failures, last failed 15:46 PHT. Needs delivery moved or chat restored.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T07:46:28.000Z",
+   "observedAt": "2026-11-26T10:16:12.000Z",
    "needsUser": true,
-   "category": "Telegram"
+   "category": "Telegram session"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "22 consecutive failures; last failed Nov 25, 23:30 PHT on a platform spawn error (binding retired). Last success Nov 4.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T10:16:12.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "7 consecutive failures; last failed Nov 23, 19:05 PHT on a platform spawn error (binding retired). Last success Nov 2.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T10:16:12.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last failed Nov 23, 08:56 PHT on a platform spawn error. Last success Nov 4. Next check Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T10:16:12.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -57,20 +99,6 @@
    "observedAt": "2026-11-26T02:16:52.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 22 consecutive failures. Last run Nov 25 failed before starting with a spawn error, last success Nov 4. Next run due 23:30 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
   },
   {
    "agentId": null,
@@ -827,20 +855,6 @@
    "observedAt": "2026-11-26T10:36:00.000Z",
    "needsUser": false,
    "category": "cse"
-  },
-  {
-   "agentId": "team-site-builder-sb-r1-specialist",
-   "name": "Site Builder SB-R1 specialist",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Site Builder SB-R1 specialist",
-   "detail": "SB-R1 specialist build started: demo edge move page, gate.js, delivery note.",
-   "currentTask": "Building SB-R1 demo page, gate, and delivery note",
-   "lastHeartbeat": "2026-11-26T10:10:00.000Z",
-   "observedAt": "2026-11-26T10:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2481,6 +2495,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-site-builder-sb-r1-specialist",
+   "name": "Site Builder SB-R1 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder SB-R1 specialist",
+   "detail": "SB-R1 specialist done: gate exit 0 (42/42), live paired reads 16.67 px vs 16.66 px declared net, LCP unmeasured.",
+   "currentTask": "SB-R1 build complete: gate 42/42, live net 16.67 px cross-check",
+   "lastHeartbeat": "2026-11-26T10:19:45.000Z",
+   "observedAt": "2026-11-26T10:19:45.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-ab-t1",
    "name": "AB-T1 Judge",
    "role": "auditor",
@@ -3865,20 +3893,6 @@
    "observedAt": "2026-11-25T16:03:34.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-generic-solver-apm-s2",
-   "name": "Generic solver APM-S2",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "APM-S2 generic solver",
-   "detail": "Generic output filed: 5,212 bytes, 888 words, 34s, 0 em dashes. Posted by cycle parent.",
-   "currentTask": "APM-S2 generic solve complete",
-   "lastHeartbeat": "2026-11-25T15:49:30.000Z",
-   "observedAt": "2026-11-25T15:49:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
