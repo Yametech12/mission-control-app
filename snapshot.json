@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T07:56:10.000Z",
- "summary": "Cycle 506 running: Systems Builder SYSB-T2 solver pair.",
+ "generatedAt": "2026-11-26T07:59:05.000Z",
+ "summary": "Cycle 506 complete: Systems Builder SYSB-T2 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 506: SYSB-T2 solvers",
-   "detail": "Cycle 506 started: Systems Builder SYSB-T2 solver pair (Google login binding and dashboard gate).",
-   "currentTask": "Cycle 506: Systems Builder SYSB-T2 solver pair",
-   "lastHeartbeat": "2026-11-26T07:56:10.000Z",
-   "observedAt": "2026-11-26T07:56:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-141-builder",
@@ -2439,6 +2425,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-generic",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Generic solver SYSB-T2",
+   "detail": "SYSB-T2 generic: auth.js 3,305, test.js 5,423, note 3,238 bytes, 529 words, 23s, tests 7/7. Posted by cycle parent.",
+   "currentTask": "SYSB-T2 generic solver (posted by cycle parent)",
+   "lastHeartbeat": "2026-11-26T07:59:05.000Z",
+   "observedAt": "2026-11-26T07:59:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 506: SYSB-T2 collected",
+   "detail": "Cycle 506 complete: SYSB-T2 pair collected, K1-K7 pass both, 7 splits filed. SYSB-T3 runs 507.",
+   "currentTask": "Cycle 506 complete: SYSB-T2 pair collected",
+   "lastHeartbeat": "2026-11-26T07:59:05.000Z",
+   "observedAt": "2026-11-26T07:59:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-systems-builder",
+   "name": "Systems Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Systems Builder SYSB-T2 specialist",
+   "detail": "SYSB-T2 specialist: auth.js 3,596, test.js 5,059, note 3,354 bytes, 562 words, 23s, tests 7/7. Posted by cycle parent.",
+   "currentTask": "SYSB-T2 specialist solver (posted by cycle parent)",
+   "lastHeartbeat": "2026-11-26T07:59:05.000Z",
+   "observedAt": "2026-11-26T07:59:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "SASE Inbox Watch",
    "role": "monitor",
@@ -3795,48 +3823,6 @@
    "observedAt": "2026-11-25T13:12:00.000Z",
    "needsUser": false,
    "category": "clinicflow"
-  },
-  {
-   "agentId": "gt136-design",
-   "name": "gt136-design",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-136 Design audit: ClinicFlow landing + dashboard",
-   "detail": "Complete: 1 Critical, 6 Major, 10 Minor. Top issue: dashboard opens as a blank page up to 8s (no loading shell). Report: GT-20261125-136-reports/design.md",
-   "currentTask": "Audit complete, report filed",
-   "lastHeartbeat": "2026-11-25T13:12:00.000Z",
-   "observedAt": "2026-11-25T13:12:00.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
-  },
-  {
-   "agentId": "gt136-perf",
-   "name": "gt136-perf",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-136 Perf/SEO/Technical audit",
-   "detail": "Complete: 0C/4M/8m. Top: no OG image or Twitter cards, no security headers beyond HSTS, robots/sitemap 404 + dashboard indexable, API sends public cache headers.",
-   "currentTask": "Audit complete, report filed",
-   "lastHeartbeat": "2026-11-25T13:07:20.000Z",
-   "observedAt": "2026-11-25T13:07:20.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
-  },
-  {
-   "agentId": "gt134-builder",
-   "name": "gt134-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-134 ClinicFlow improvement: builder takeover",
-   "detail": "Complete: brief fully implemented and verified locally (19/19 harness tests). Working tree left uncommitted for parent review and deploy.",
-   "currentTask": "Done: audit, fixes, verification, TESTING.md and job record updated",
-   "lastHeartbeat": "2026-11-25T12:47:20.000Z",
-   "observedAt": "2026-11-25T12:47:20.000Z",
-   "needsUser": false,
-   "category": "automation-sprints"
   }
  ]
 }
