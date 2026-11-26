@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T10:35:46.000Z",
- "summary": "Cycle 519: Site Builder retest SB-R3 solver pair running.",
+ "generatedAt": "2026-11-26T10:40:46.000Z",
+ "summary": "Cycle 519 complete: SB-R3 pair collected and verified; sealing 521, judging 522.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 519 started: SB-R3 solver pair (Site Builder retest, task 3 of 3).",
-   "currentTask": "Cycle 519: Site Builder retest SB-R3 solver pair",
-   "lastHeartbeat": "2026-11-26T10:35:46.000Z",
-   "observedAt": "2026-11-26T10:35:46.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-147-cse-golive",
@@ -2495,6 +2481,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 519 done: SB-R3 pair verified (spec 15-gate pass, gen 25-gate pass, both live-measured, 0 em dashes). All 3 pairs collected; sealing 521, judging 522.",
+   "currentTask": "Cycle 519 complete: SB-R3 pair collected and verified",
+   "lastHeartbeat": "2026-11-26T10:40:46.000Z",
+   "observedAt": "2026-11-26T10:40:46.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-sb-r3-specialist",
+   "name": "SB-R3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SB-R3 specialist solver",
+   "detail": "SB-R3 done: gate 15/15 exit 0, live-render bottom edges 277/277/277, spread 0 px, LCP unmeasured.",
+   "currentTask": "Done: SB-R3 page, gate 15/15, bottom edges 277/277/277 spread 0 px",
+   "lastHeartbeat": "2026-11-26T10:40:31.000Z",
+   "observedAt": "2026-11-26T10:40:31.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "sb-r2-generic",
    "name": "SB-R2 Generic Solver",
    "role": "builder",
@@ -3863,34 +3877,6 @@
    "currentTask": "Solving CA-S3",
    "lastHeartbeat": "2026-11-25T17:49:06.000Z",
    "observedAt": "2026-11-25T17:49:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ca-s3-specialist",
-   "name": "CA-S3 Specialist Solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S3 specialist solver",
-   "detail": "CA-S3 brief filed: 16,209 bytes, 2,463 words, 7 sections in order.",
-   "currentTask": "Solving CA-S3",
-   "lastHeartbeat": "2026-11-25T17:49:00.000Z",
-   "observedAt": "2026-11-25T17:49:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "6615ddef-42c3-4e1b-bfe7-d943e94b91e7",
-   "name": "CA-S1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CA-S1 generic solver",
-   "detail": "Posted by the cycle parent: generic deliverable 18,931 bytes, 3,156 words, 239s, MD5 ee20dfe7. Complete.",
-   "currentTask": "CA-S1 generic brief complete",
-   "lastHeartbeat": "2026-11-25T17:28:00.000Z",
-   "observedAt": "2026-11-25T17:28:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
