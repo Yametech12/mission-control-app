@@ -1,34 +1,20 @@
 {
- "generatedAt": "2026-11-26T23:14:19.000Z",
- "summary": "Improvement cycle 577 complete: AIE retest sealed, judging cycle 578.",
+ "generatedAt": "2026-11-26T23:20:00.000Z",
+ "summary": "AIE-R3 blind judgement complete: B wins 8.75 to 8.00. Contamination clean. K5 fails narrowly for A only.",
  "agents": [
   {
    "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
+   "name": "Whop Townhall product posts",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed 8 times in a row; last run failed Thu 19:05 local, last success Nov 2. No reason recorded.",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: 94 consecutive failures. Paused because the chat it posts to can no longer receive results; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T22:16:26.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 23 times in a row; last run failed Thu 23:26 local, last success Nov 4. No reason recorded.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T22:16:26.000Z",
-   "needsUser": false,
-   "category": "Backup"
+   "observedAt": "2026-11-26T20:35:11.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -37,40 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: delivery chat can no longer receive results, account action required. 96 consecutive failures; last success Oct 6.",
+   "detail": "Blocked: 96 consecutive failures. Paused because the chat it posts to can no longer receive results; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T22:16:26.000Z",
+   "observedAt": "2026-11-26T19:46:29.000Z",
    "needsUser": true,
-   "category": "Messaging Watch"
+   "category": "Messaging"
   },
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: delivery chat can no longer receive results, account action required. 94 consecutive failures; last success Nov 3.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 23 consecutive failures, latest Nov 26 at 23:26 PHT. Spawn error: message admission authority unavailable, binding retired.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T22:16:26.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed 3 times in a row; last run failed Mon Nov 23, last success Nov 4. No reason recorded.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T22:16:26.000Z",
+   "observedAt": "2026-11-26T15:26:48.000Z",
    "needsUser": false,
-   "category": "Zulti"
+   "category": "Backup"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -85,6 +57,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 8 consecutive failures, latest Nov 26 at 19:05 PHT. Spawn error: message admission authority unavailable, binding retired.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -841,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 578",
+   "detail": "Cycle 578 started: judging AIE retest AIE-R1 to AIE-R3 from cycle 577 seal, 3 fresh QA judges.",
+   "currentTask": "Cycle 578 judging AIE retest (3 fresh QA judges)",
+   "lastHeartbeat": "2026-11-26T23:16:30.000Z",
+   "observedAt": "2026-11-26T23:16:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,20 +2537,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 577",
-   "detail": "Cycle 577 done: AIE retest sealed SEAL_OK first run (12 changed lines, 18 neutral files, 0 identity hits); judging cycle 578.",
-   "currentTask": "Cycle 577 done: AIE retest sealed, judging cycle 578",
-   "lastHeartbeat": "2026-11-26T23:14:19.000Z",
-   "observedAt": "2026-11-26T23:14:19.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle-aie-r3-generic",
    "name": "AIE-R3 generic solver",
    "role": "builder",
@@ -3935,6 +3921,20 @@
    "observedAt": "2026-11-26T06:28:27.000Z",
    "needsUser": false,
    "category": "thesis"
+  },
+  {
+   "agentId": "team-site-builder",
+   "name": "Site Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder SB-V1 specialist",
+   "detail": "SB-V1 done: gate passes cases 1 and 3; all 5 cases measured (case 1 area 0px, cases 2-4 show at 48.5px, login banner intact); 0 em dashes.",
+   "currentTask": "SB-V1 build complete: gate green, all 5 cases measured in headless Chromium",
+   "lastHeartbeat": "2026-11-26T06:15:00.000Z",
+   "observedAt": "2026-11-26T06:15:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
