@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T20:26:31.000Z",
- "summary": "AIE-T3 specialist run in progress.",
+ "generatedAt": "2026-11-26T20:28:30.000Z",
+ "summary": "AIE-T3 specialist run complete: gate PASS, READ-BACK: PASS.",
  "agents": [
   {
    "agentId": null,
@@ -841,34 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-aie-t3-specialist",
-   "name": "AIE-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-T3 specialist run: Yame Bridge integration record",
-   "detail": "Building integration-record.md, gate.js, delivery-note.md for Yame Bridge MCP record.",
-   "currentTask": "Writing Yame Bridge integration record files",
-   "lastHeartbeat": "2026-11-26T20:26:31.000Z",
-   "observedAt": "2026-11-26T20:26:31.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-aie-t3-generic",
-   "name": "AIE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-T3 generic solver",
-   "detail": "AIE-T3 generic solver started: building integration-record.md, gate.js, delivery-note.md",
-   "currentTask": "Building Yame Bridge integration record, generic side",
-   "lastHeartbeat": "2026-11-26T20:26:00.000Z",
-   "observedAt": "2026-11-26T20:26:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2579,6 +2551,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-aie-t3-specialist",
+   "name": "AIE-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-T3 specialist run: Yame Bridge integration record",
+   "detail": "Done: 3 files shipped, gate PASS, all 4 tools UNVERIFIED BY READ-BACK, delivery note READ-BACK: PASS.",
+   "currentTask": "AIE-T3 specialist run complete",
+   "lastHeartbeat": "2026-11-26T20:28:30.000Z",
+   "observedAt": "2026-11-26T20:28:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-aie-t3-generic",
+   "name": "AIE-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-T3 generic solver",
+   "detail": "AIE-T3 generic done: gate PASS, all 4 tools UNVERIFIED BY READ-BACK, read-back PASS, 87s wall time",
+   "currentTask": "AIE-T3 generic run complete",
+   "lastHeartbeat": "2026-11-26T20:28:00.000Z",
+   "observedAt": "2026-11-26T20:28:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "aie-t2-generic",
    "name": "AIE-T2 generic solver",
    "role": "builder",
@@ -3949,34 +3949,6 @@
    "observedAt": "2026-11-26T04:56:30.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "ur-r1-specialist",
-   "name": "UR-R1 specialist solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UR-R1 specialist solver (posted by job lead)",
-   "detail": "UR-R1 specialist deliverable complete: 9,952 bytes, 1,628 words, about 74s, MD5 46b66be3b731f7bd117951da277c4e93.",
-   "currentTask": "UR-R1 specialist deliverable complete",
-   "lastHeartbeat": "2026-11-26T04:56:01.000Z",
-   "observedAt": "2026-11-26T04:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "gt-141-fresh-eye",
-   "name": "gt-141-fresh-eye",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-141 fresh-eye",
-   "detail": "Fresh-Eye complete (posted by job lead): DEPLOY, no Critical; M1 watchdog disarm and M2 cross-attempt gaps sent back for round 2 fix",
-   "currentTask": "Verdict DEPLOY; 0 Critical, 2 Major residual gaps, 4 Minor",
-   "lastHeartbeat": "2026-11-26T04:45:00.000Z",
-   "observedAt": "2026-11-26T04:45:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
   }
  ]
 }
