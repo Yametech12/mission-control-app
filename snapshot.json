@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:55:34.000Z",
- "summary": "Cycle 527: Systems Builder retest SYSB-R3 solver pair running",
+ "generatedAt": "2026-11-26T11:58:00.000Z",
+ "summary": "SYSB-R3 specialist solver done",
  "agents": [
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -2509,6 +2509,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-R3 generic solve",
+   "detail": "SYSB-R3 generic: snapshot.js 5911B, test.js 10762B, note 771 words; node test.js exit 0, 7/7 cases pass in 0.36s; 0 em/en dashes.",
+   "currentTask": "SYSB-R3 generic solve complete",
+   "lastHeartbeat": "2026-11-26T11:58:32.000Z",
+   "observedAt": "2026-11-26T11:58:32.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-systems-builder",
+   "name": "Systems Builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-R3 specialist solve",
+   "detail": "snapshot.js 8033B, test.js 9225B, note 730 words; node test.js exit 0, 7/7 pass; 0 em/en dashes",
+   "currentTask": "SYSB-R3 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T11:58:00.000Z",
+   "observedAt": "2026-11-26T11:58:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-inbox-watch",
    "name": "sase-inbox-watch",
    "role": "monitor",
@@ -2521,34 +2549,6 @@
    "observedAt": "2026-11-26T11:55:00.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-R2 generic solve",
-   "detail": "SYSB-R2 generic solve complete (posted by parent): 9,123/16,230/6,310 bytes, 1,056 words, 6 of 6 pass.",
-   "currentTask": "SYSB-R2 generic solve complete",
-   "lastHeartbeat": "2026-11-26T11:48:43.000Z",
-   "observedAt": "2026-11-26T11:53:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-R2 specialist solve",
-   "detail": "SYSB-R2 specialist solve complete (posted by parent): 14,383/19,176/8,101 bytes, 1,343 words, 6 of 6 pass.",
-   "currentTask": "SYSB-R2 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T11:52:32.000Z",
-   "observedAt": "2026-11-26T11:53:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "routing-check-panel-525",
