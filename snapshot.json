@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T20:29:54.000Z",
- "summary": "Cycle 564 done: AIE-T3 pair collected and verified; all three AIE pairs collected, sealing 566, judging 567.",
+ "generatedAt": "2026-11-26T20:38:00.000Z",
+ "summary": "Ghostname Team improvement cycle 565: routing check 85 running",
  "agents": [
   {
    "agentId": null,
@@ -841,6 +841,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 565",
+   "detail": "Routing check 85 running: 5 fresh Nov 26 legs, Coordinator picks sealing, panel reading next.",
+   "currentTask": "Routing check 85: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-26T20:38:00.000Z",
+   "observedAt": "2026-11-26T20:38:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2565,20 +2579,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 564",
-   "detail": "Cycle 564 done: AIE-T3 pair collected and verified, K1-K7 pass both, no verdict; sealing 566, judging 567.",
-   "currentTask": "Cycle 564 done: AIE-T3 pair collected",
-   "lastHeartbeat": "2026-11-26T20:29:54.000Z",
-   "observedAt": "2026-11-26T20:29:54.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "aie-t2-generic",
    "name": "AIE-T2 generic solver",
    "role": "builder",
@@ -3935,6 +3935,20 @@
    "observedAt": "2026-11-26T05:06:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "ur-r1-generic",
+   "name": "UR-R1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UR-R1 generic solver (posted by job lead)",
+   "detail": "UR-R1 generic deliverable complete: 8,234 bytes, 1,375 words, 70s, MD5 ec72d9558135372e668eb85b1f64da32.",
+   "currentTask": "UR-R1 generic deliverable complete",
+   "lastHeartbeat": "2026-11-26T04:55:55.000Z",
+   "observedAt": "2026-11-26T04:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
