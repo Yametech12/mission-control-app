@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T04:41:00.000Z",
- "summary": "Cycle 490 routing check done: 4 of 5. Scoreboard still 18 validated, 8 flagged, 53 unvalidated of 79.",
+ "generatedAt": "2026-11-26T05:48:00.000Z",
+ "summary": "GT-143 complete: webhook fast ack deployed to production and smoke-tested. Reports in ghostname-team/jobs/GT-20261126-143-reports/.",
  "agents": [
   {
    "agentId": null,
@@ -841,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt-143-lead",
-   "name": "gt-143-lead",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "ClinicFlow webhook fast ack upgrade (GT-143)",
-   "detail": "Round 2 Majors fixed: atomic evt_claim serializes re-drives, attempts bump moved into processRecordedEvent so the drain cap advances. Tests 74/74. Round 3 review next.",
-   "currentTask": "Fresh-Eye round 3 re-review",
-   "lastHeartbeat": "2026-11-26T05:20:00.000Z",
-   "observedAt": "2026-11-26T05:20:00.000Z",
-   "needsUser": false,
-   "category": "clinicflow"
   },
   {
    "agentId": "gt-141-builder",
@@ -2467,6 +2453,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt-143-lead",
+   "name": "gt-143-lead",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ClinicFlow webhook fast ack upgrade (GT-143)",
+   "detail": "GT-143 complete: fast ack live on production (dpl_FbZvumRQCFJfxsYtcZCVZLRKUHHL, commit 2144386). Ack 426ms to 1ms locally. Tests 65 to 74. Fresh-Eye round 3 DEPLOY. Live smoke all pass.",
+   "currentTask": "Complete: deployed and smoke-tested",
+   "lastHeartbeat": "2026-11-26T05:48:00.000Z",
+   "observedAt": "2026-11-26T05:48:00.000Z",
+   "needsUser": false,
+   "category": "clinicflow"
+  },
+  {
    "agentId": "gt-141-fresh-eye",
    "name": "gt-141-fresh-eye",
    "role": "auditor",
@@ -3846,20 +3846,6 @@
    "status": "completed",
    "title": "GT-131: buyer-hook captions",
    "detail": "Captions final after review fixes; field note written. Posted by the job lead.",
-   "currentTask": "Complete",
-   "lastHeartbeat": "2026-11-25T09:49:11.000Z",
-   "observedAt": "2026-11-25T09:49:11.000Z",
-   "needsUser": false,
-   "category": "design"
-  },
-  {
-   "agentId": "team-reviewer-marketer",
-   "name": "reviewer-marketer",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-131: hook bank and caption review",
-   "detail": "Hook bank (15) and caption review delivered; field note written. Posted by the job lead.",
    "currentTask": "Complete",
    "lastHeartbeat": "2026-11-25T09:49:11.000Z",
    "observedAt": "2026-11-25T09:49:11.000Z",
