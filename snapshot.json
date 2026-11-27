@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:52:00.000Z",
- "summary": "MH-T1 blind judgement filed: Candidate A wins 8.25 vs 7.25",
+ "generatedAt": "2026-11-27T16:52:30.000Z",
+ "summary": "Cycle 657: Moment Hunter judged 0-3, card rewritten.",
  "agents": [
   {
    "agentId": null,
@@ -897,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 657",
-   "detail": "Cycle 657 judging Moment Hunter: three fresh-context QA judges scoring sealed MH-T1 to MH-T3 pairs blind.",
-   "currentTask": "Cycle 657: judging Moment Hunter MH-T1 to MH-T3 blind",
-   "lastHeartbeat": "2026-11-27T16:46:30.000Z",
-   "observedAt": "2026-11-27T16:46:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,6 +2677,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 657",
+   "detail": "Cycle 657 done: Moment Hunter lost 0-3 to generic, 7.33 vs 8.17, card rewritten (rewrite 1) with standards 5-14. Three judges posted their own completion snapshots.",
+   "currentTask": "Cycle 657 complete: Moment Hunter judged, card rewritten",
+   "lastHeartbeat": "2026-11-27T16:52:30.000Z",
+   "observedAt": "2026-11-27T16:52:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "mh-t3-judge",
    "name": "MH-T3 judge",
    "role": "auditor",
@@ -4075,20 +4075,6 @@
    "observedAt": "2026-11-27T04:33:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle-pe-t1-judge",
-   "name": "PE-T1 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T1 blind judgement",
-   "detail": "PE-T1 judge (carried by cycle parent): specialist win 8.5 vs 7.5, contamination clean.",
-   "currentTask": "PE-T1 judged: specialist win 8.5 vs 7.5",
-   "lastHeartbeat": "2026-11-27T04:20:59.000Z",
-   "observedAt": "2026-11-27T04:26:11.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
