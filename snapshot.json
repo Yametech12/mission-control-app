@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:41:30.000Z",
- "summary": "PE-T3 builder started: Yame Call doorbell prototype build in progress",
+ "generatedAt": "2026-11-27T03:47:00.000Z",
+ "summary": "GT-159: building the paper Account Manager (watch mode, activation gate coded in) and the MEXC Team playbook upgrades.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,34 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt159-account-manager",
+   "name": "gt159-account-manager",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-159 Account Manager build + MEXC Team playbook",
+   "detail": "Started: reading job file, lane skill, GT-155 and GT-156 evidence; design fixed, build next.",
+   "currentTask": "Designing paper account engine on GT-155 v2 toolkit",
+   "lastHeartbeat": "2026-11-27T03:47:00.000Z",
+   "observedAt": "2026-11-27T03:47:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt158-accuracy-round2",
+   "name": "gt158-accuracy-round2",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-158 accuracy round 2 (MEXC Team)",
+   "detail": "Started. Reading GT-156 and GT-155 records; GT-157 report not yet filed, polling for it before pre-registration.",
+   "currentTask": "Reading source reports, awaiting GT-157 report",
+   "lastHeartbeat": "2026-11-27T03:44:00.000Z",
+   "observedAt": "2026-11-27T03:44:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "gt157-mass-simulation",
    "name": "gt157-mass-simulation",
    "role": "coordinator",
@@ -827,48 +855,6 @@
    "observedAt": "2026-11-27T03:42:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-pe-t3-specialist",
-   "name": "PE-T3 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PE-T3 specialist solver",
-   "detail": "Building the throwaway Yame Call doorbell prototype: six files for the PE-T3 validation task.",
-   "currentTask": "Build PE-T3 doorbell prototype files",
-   "lastHeartbeat": "2026-11-27T03:41:30.000Z",
-   "observedAt": "2026-11-27T03:41:30.000Z",
-   "needsUser": false,
-   "category": "ghostnamem-team"
-  },
-  {
-   "agentId": "team-pe-t3-generic",
-   "name": "PE-T3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PE-T3 generic solver",
-   "detail": "Building throwaway Yame Call doorbell prototype: six files for PE-T3.",
-   "currentTask": "Build PE-T3 Yame Call doorbell prototype files",
-   "lastHeartbeat": "2026-11-27T03:41:10.000Z",
-   "observedAt": "2026-11-27T03:41:10.000Z",
-   "needsUser": false,
-   "category": "ghostnamem-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 597",
-   "detail": "Cycle 597 started: PE-T3 specialist and generic solvers dispatched.",
-   "currentTask": "Cycle 597: PE-T3 solvers (Yame Call doorbell prototype)",
-   "lastHeartbeat": "2026-11-27T03:41:00.000Z",
-   "observedAt": "2026-11-27T03:41:00.000Z",
-   "needsUser": false,
-   "category": "ghostnamem-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2621,6 +2607,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 597",
+   "detail": "Cycle 597 complete: PE-T3 pair verified (spec 230w 91s, gen 237w 69s, gates 7/7). Sealing 598, judging 599.",
+   "currentTask": "Cycle 597 complete: PE-T3 pair collected and verified",
+   "lastHeartbeat": "2026-11-27T03:45:13.000Z",
+   "observedAt": "2026-11-27T03:45:13.000Z",
+   "needsUser": false,
+   "category": "ghostnamem-team"
+  },
+  {
+   "agentId": "team-pe-t3-generic",
+   "name": "PE-T3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T3 generic solver",
+   "detail": "PE-T3 generic: 237 words, 69s, gate 7/7 exit 0. Posted by job lead.",
+   "currentTask": "PE-T3 generic build complete",
+   "lastHeartbeat": "2026-11-27T03:45:13.000Z",
+   "observedAt": "2026-11-27T03:45:13.000Z",
+   "needsUser": false,
+   "category": "ghostnamem-team"
+  },
+  {
+   "agentId": "team-pe-t3-specialist",
+   "name": "PE-T3 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T3 specialist solver",
+   "detail": "PE-T3 specialist: 230 words, 91s, gate 7/7 exit 0. Posted by job lead.",
+   "currentTask": "PE-T3 specialist build complete",
+   "lastHeartbeat": "2026-11-27T03:45:13.000Z",
+   "observedAt": "2026-11-27T03:45:13.000Z",
+   "needsUser": false,
+   "category": "ghostnamem-team"
+  },
+  {
    "agentId": "gt155-trading-improve",
    "name": "gt155-trading-improve",
    "role": "auditor",
@@ -3977,48 +4005,6 @@
    "observedAt": "2026-11-26T12:43:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-R3 specialist solve",
-   "detail": "Specialist solve complete: 8,033/9,225/4,501 bytes, 730 words, 122s; test exit 0, 7 of 7. Posted by cycle parent.",
-   "currentTask": "SYSB-R3 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T11:58:57.000Z",
-   "observedAt": "2026-11-26T12:01:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt-147-cse-golive",
-   "name": "gt147-cse-golive-lead",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-147 CSE Pro Max go-live",
-   "detail": "GT-147 complete: cron 06:30/12:15/19:30 live, About+description applied, profile P2 + cover C2 swapped, how-to-order video public; bio unsettable via API and video pin needs browser; Day 1 started, 19:30 E1 post verified public",
-   "currentTask": "GT-147 complete",
-   "lastHeartbeat": "2026-11-26T11:36:00.000Z",
-   "observedAt": "2026-11-26T11:36:00.000Z",
-   "needsUser": false,
-   "category": "cse"
-  },
-  {
-   "agentId": "sysb-r1-specialist-solver",
-   "name": "SYSB-R1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-R1 specialist solver",
-   "detail": "session.js, test.js, delivery-note.md built; node test.js exit 0, 6 of 6 pass.",
-   "currentTask": "SYSB-R1 specialist solve",
-   "lastHeartbeat": "2026-11-26T11:31:00.000Z",
-   "observedAt": "2026-11-26T11:31:00.000Z",
-   "needsUser": false,
-   "category": "team-validation"
   }
  ]
 }
