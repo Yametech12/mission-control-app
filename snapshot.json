@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T18:17:00.000Z",
- "summary": "2 cycles running, 3 completed recently, 5 attention items (2 delivery-blocked, 3 failing), 10 scheduled. No artifact builds or workflow runs active.",
+ "generatedAt": "2026-11-27T18:29:26.000Z",
+ "summary": "Cycle 662 sealed WPE retest 2 for judging in cycle 663; scoreboard 29 validated, 9 flagged, 41 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -2696,11 +2696,11 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team validation cycle 661",
-   "detail": "Cycle 661 done: WPE-S3 pair collected and verified (specialist 1,822 words 180s, generic 1,160 words 152s, both gates 7/7). Sealing 662, judging 663.",
-   "currentTask": "Cycle 661 complete: WPE-S3 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T18:15:52.000Z",
-   "observedAt": "2026-11-27T18:15:52.000Z",
+   "title": "Improvement cycle 662: WPE retest 2 sealed",
+   "detail": "Cycle 662 complete: WPE retest 2 sealed SEAL_OK first run (4 changed lines, 18 neutral files, 0 identity hits, all 6 neutral gates exit 0). Judging in cycle 663.",
+   "currentTask": "Cycle 662 done: WPE retest 2 sealed",
+   "lastHeartbeat": "2026-11-27T18:29:26.000Z",
+   "observedAt": "2026-11-27T18:29:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
