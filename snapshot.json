@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:52:00.000Z",
- "summary": "GT-175 Mumford & Sons / Chris Stapleton campaign: Clipp Team building and scheduling the first clips under owner delegation.",
+ "generatedAt": "2026-11-27T11:56:16.000Z",
+ "summary": "Cycle 636: sealing IID pairs for blind judging.",
  "agents": [
   {
    "agentId": null,
@@ -829,16 +829,30 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 636",
+   "detail": "Cycle 636 sealing Illustration and Icon Designer pairs (IID-T1 to IID-T3) for blind judging in cycle 637.",
+   "currentTask": "Cycle 636: sealing IID pairs for blind judging",
+   "lastHeartbeat": "2026-11-27T11:56:16.000Z",
+   "observedAt": "2026-11-27T11:56:16.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt175-mumford-run",
    "name": "clipp-team-coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "GT-175 Mumford x Stapleton clips",
-   "detail": "Started: reading brief and gates done, checking Uplika accounts and downloading approved footage.",
-   "currentTask": "Setup: Uplika check + footage download",
-   "lastHeartbeat": "2026-11-27T11:52:00.000Z",
-   "observedAt": "2026-11-27T11:52:00.000Z",
+   "detail": "Uplika accounts verified. Note: Uplika TikTok connection is @ryu.vibes75; @ghostname_lofi is not connected to Uplika. Footage download in progress.",
+   "currentTask": "Downloading approved CMA footage",
+   "lastHeartbeat": "2026-11-27T11:54:00.000Z",
+   "observedAt": "2026-11-27T11:54:00.000Z",
    "needsUser": false,
    "category": "clipping"
   },
@@ -2621,20 +2635,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 635",
-   "detail": "Cycle 635 routing check done: 3 of 5, no rule fixes, flag does not recur. Scoreboard 28/9/42 of 79.",
-   "currentTask": "Cycle 635 routing check complete",
-   "lastHeartbeat": "2026-11-27T11:51:00.000Z",
-   "observedAt": "2026-11-27T11:51:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-635",
    "name": "Routing check panel 635",
    "role": "auditor",
@@ -4015,6 +4015,20 @@
    "title": "MRE-T3 generic solver",
    "detail": "MRE-T3 generic solver done: 1,653/1,346/2,377 bytes, gate 7/7 (posted by cycle lead).",
    "currentTask": "MRE-T3 generic runbook done (274 words, 51s, gate 7/7)",
+   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
+   "observedAt": "2026-11-27T00:50:17.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mobile-release-engineer-mre-t3-specialist",
+   "name": "MRE-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T3 specialist solver",
+   "detail": "MRE-T3 specialist solver done: 4,998/1,755/3,784 bytes, gate 7/7 (posted by cycle lead).",
+   "currentTask": "MRE-T3 specialist runbook done (830 words, 80s, gate 7/7)",
    "lastHeartbeat": "2026-11-27T00:50:17.000Z",
    "observedAt": "2026-11-27T00:50:17.000Z",
    "needsUser": false,
