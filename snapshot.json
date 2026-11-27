@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:00:37.000Z",
- "summary": "WPE-T2 specialist solver done: report shipped, gate 8/8 passed, verdict NOT VERIFIED as a device result",
+ "generatedAt": "2026-11-27T02:06:00.000Z",
+ "summary": "Cycle 589 complete: Web Performance Engineer WPE-T2 pair collected and verified, both gates 8/8, K1-K7 pass both. Routing check cycle 590, WPE-T3 cycle 591.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 589: WPE-T2 solvers",
-   "detail": "Cycle 589 running: Web Performance Engineer WPE-T2 solver pair (specialist vs generic)",
-   "currentTask": "Cycle 589: WPE-T2 solver pair",
-   "lastHeartbeat": "2026-11-27T01:54:45.000Z",
-   "observedAt": "2026-11-27T01:54:45.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt151-money-market",
@@ -2537,16 +2523,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-web-performance-engineer",
-   "name": "Web Performance Engineer",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "WPE-T2 specialist solver",
-   "detail": "WPE-T2 specialist solver done: report shipped, gate 8/8 passed, frame time OVER BUDGET on emulator measure",
-   "currentTask": "WPE-T2 specialist solve",
-   "lastHeartbeat": "2026-11-27T02:00:37.000Z",
-   "observedAt": "2026-11-27T02:00:37.000Z",
+   "title": "Improvement cycle 589: WPE-T2 collected",
+   "detail": "Cycle 589 done: WPE-T2 pair collected, both gates 8/8, K1-K7 pass both, no verdict yet",
+   "currentTask": "Cycle 589 complete: WPE-T2 pair collected",
+   "lastHeartbeat": "2026-11-27T02:06:00.000Z",
+   "observedAt": "2026-11-27T02:06:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2557,10 +2543,24 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "WPE-T2 generic solver",
-   "detail": "WPE-T2 generic solve done: report, gate.js 8/8 PASS, delivery note, read-back PASS",
-   "currentTask": "WPE-T2 generic solve",
-   "lastHeartbeat": "2026-11-27T01:57:49.000Z",
-   "observedAt": "2026-11-27T01:57:49.000Z",
+   "detail": "WPE-T2 generic done: 911 words, gate 8/8, READ-BACK PASS (posted by cycle lead)",
+   "currentTask": "WPE-T2 generic solve done",
+   "lastHeartbeat": "2026-11-27T02:06:00.000Z",
+   "observedAt": "2026-11-27T02:06:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-web-performance-engineer",
+   "name": "Web Performance Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T2 specialist solver",
+   "detail": "WPE-T2 specialist done: 1,033 words, gate 8/8, READ-BACK PASS (posted by cycle lead)",
+   "currentTask": "WPE-T2 specialist solve done",
+   "lastHeartbeat": "2026-11-27T02:06:00.000Z",
+   "observedAt": "2026-11-27T02:06:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3921,20 +3921,6 @@
    "observedAt": "2026-11-26T09:45:00.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "ab-t3-generic-solver",
-   "name": "AB-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T3 generic solve",
-   "detail": "AB-T3 generic solve complete (posted by parent): runbook 2,256 bytes / 370 words, workflow 818, handoff 760, gate 2,154, 42s, gate exit 0.",
-   "currentTask": "AB-T3 generic solve complete (posted by parent)",
-   "lastHeartbeat": "2026-11-26T09:27:41.000Z",
-   "observedAt": "2026-11-26T09:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
