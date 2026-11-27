@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T10:09:02.000Z",
- "summary": "AIE-S1 specialist solver started building the ClinicFlow connect-endpoint record.",
+ "generatedAt": "2026-11-27T10:15:35.000Z",
+ "summary": "Cycle 626 complete: AIE retest 2 opened, AIE-S1 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team Improvement Cycle 626",
-   "detail": "Cycle 626: API Integration Engineer retest 2 opens from rewrite 2 card; AIE-S1 solvers running.",
-   "currentTask": "Cycle 626: API Integration Engineer retest 2, AIE-S1 solvers",
-   "lastHeartbeat": "2026-11-27T10:05:00.000Z",
-   "observedAt": "2026-11-27T10:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2411,34 +2397,6 @@
    "category": "pandorabook"
   },
   {
-   "agentId": "team-api-integration-engineer-s1-generic",
-   "name": "AIE-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-S1 generic solver",
-   "detail": "Building ClinicFlow Connect endpoint-path determination record (generic side).",
-   "currentTask": "Build AIE-S1 generic integration record and gate",
-   "lastHeartbeat": "2026-11-27T10:08:57.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostnaname-team validation"
-  },
-  {
-   "agentId": "team-api-integration-engineer-s1-specialist",
-   "name": "API Integration Engineer S1",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "AIE-S1 specialist run started",
-   "detail": "AIE-S1 specialist solver started: building integration record, gate.js, delivery note.",
-   "currentTask": "Build AIE-S1 ClinicFlow connect-endpoint record, gate, and delivery note",
-   "lastHeartbeat": "2026-11-27T10:09:02.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostnaname-team validation"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2633,6 +2591,48 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-api-integration-engineer-s1-generic",
+   "name": "API Integration Engineer S1 Generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-S1 Generic Solver",
+   "detail": "AIE-S1 generic: 9,752/1,708/3,471 bytes, 1,623 words, gate 7/7, READ-BACK PASS.",
+   "currentTask": "AIE-S1 generic output collected and verified",
+   "lastHeartbeat": "2026-11-27T10:11:52.000Z",
+   "observedAt": "2026-11-27T10:15:35.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-api-integration-engineer-s1-specialist",
+   "name": "API Integration Engineer S1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-S1 Specialist Solver",
+   "detail": "AIE-S1 specialist: 16,887/2,125/3,997 bytes, 2,750 words, gate 7/7, READ-BACK PASS.",
+   "currentTask": "AIE-S1 specialist output collected and verified",
+   "lastHeartbeat": "2026-11-27T10:13:19.000Z",
+   "observedAt": "2026-11-27T10:15:35.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team Improvement Cycle 626",
+   "detail": "Cycle 626 complete: AIE retest 2 opened, AIE-S1 pair collected and verified, no verdict yet.",
+   "currentTask": "Cycle 626 complete: AIE retest 2 opened, AIE-S1 pair collected",
+   "lastHeartbeat": "2026-11-27T10:15:35.000Z",
+   "observedAt": "2026-11-27T10:15:35.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel-625",
@@ -3991,48 +3991,6 @@
    "observedAt": "2026-11-26T22:28:52.000Z",
    "needsUser": false,
    "category": "ghostnam team"
-  },
-  {
-   "agentId": "team-aie-r1-specialist",
-   "name": "AIE-R1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-R1 specialist solver",
-   "detail": "AIE-R1 specialist complete (carried by parent): record 12,750 bytes, 2,183 words, about 166s, gate exit 0, READ-BACK: PASS.",
-   "currentTask": "AIE-R1 ClinicFlow Connect integration record",
-   "lastHeartbeat": "2026-11-26T22:26:54.000Z",
-   "observedAt": "2026-11-26T22:28:52.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
-  },
-  {
-   "agentId": "routing-panel-570",
-   "name": "Routing Panel 570",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel 570",
-   "detail": "Routing panel 570 complete (carried by parent): picks DevOps, Evidence Auditor, Live Verifier, Fact Checker, Caption Writer.",
-   "currentTask": "Panel picks filed: 3 matches, 2 misses",
-   "lastHeartbeat": "2026-11-26T21:43:10.000Z",
-   "observedAt": "2026-11-26T21:43:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "aie-t1-judge-567",
-   "name": "QA judge AIE-T1",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA judge AIE-T1 (cycle 567)",
-   "detail": "Filed: Candidate A 8.5 vs B 8.0, A wins. Contamination clean. Posted by cycle lead.",
-   "currentTask": "AIE-T1 judgement filed",
-   "lastHeartbeat": "2026-11-26T21:13:00.000Z",
-   "observedAt": "2026-11-26T21:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
