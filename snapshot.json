@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:13:00.000Z",
- "summary": "Routing panel cycle 650 started: 8 division leads voting on RC-T1 to RC-T5 from ROSTER_INDEX.md triggers only.",
+ "generatedAt": "2026-11-27T15:14:22.000Z",
+ "summary": "Routing panel cycle 650 complete: 5 picks filed in panel-picks.md (ML Engineer x4, Watcher x1).",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -897,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-routing-panel-650",
-   "name": "Routing Panel 650",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing panel cycle 650",
-   "detail": "Panel started: voting on 5 routing tasks from roster triggers only.",
-   "currentTask": "Voting on RC-T1 to RC-T5 routing picks",
-   "lastHeartbeat": "2026-11-27T15:13:00.000Z",
-   "observedAt": "2026-11-27T15:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2747,6 +2733,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-routing-panel-650",
+   "name": "Routing Panel 650",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 650",
+   "detail": "Panel complete: ML Engineer 8-0, 6-2, 7-1, 5-3; Watcher 5-3. Picks filed.",
+   "currentTask": "Routing panel cycle 650 complete, picks filed",
+   "lastHeartbeat": "2026-11-27T15:14:22.000Z",
+   "observedAt": "2026-11-27T15:14:22.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt179-training-dataset",
    "name": "gt179-training-dataset",
    "role": "builder",
@@ -4129,20 +4129,6 @@
    "currentTask": "Panel picks filed",
    "lastHeartbeat": "2026-11-27T03:26:51.000Z",
    "observedAt": "2026-11-27T03:26:51.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pe-t1-generic",
-   "name": "PE-T1 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T1 generic solver (posted by cycle lead)",
-   "detail": "PE-T1 generic pair collected: 285 words, 75s, gate 7/7, READ-BACK PASS.",
-   "currentTask": "PE-T1 generic complete",
-   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
-   "observedAt": "2026-11-27T03:15:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
