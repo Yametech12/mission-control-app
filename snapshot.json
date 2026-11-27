@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-27T08:12:00.000Z",
- "summary": "GT-166 complete: 9-agent sequential pipeline built, repaired, and verified live in production on the MEXC Trading Bot Console.",
+ "generatedAt": "2026-11-27T08:16:11.000Z",
+ "summary": "1 run active, 13 scheduled or completed items healthy, and 6 attention items: Shadow Army freshness failed 13 times, TG and Whop delivery is blocked, plus repeated backup, keep-alive and Zulti failures. No artifact builds or workflow runs.",
  "agents": [
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Shadow Army track freshness failure",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 95 straight failures; last success Nov 3.",
+   "title": "Shadow Army track freshness failure",
+   "detail": "16:05 PHT check failed for the 13th consecutive time: tracks 2-4 candles behind, no shadow cycle since 13:05 PHT, owner message due since 14:15 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T07:16:32.000Z",
+   "observedAt": "2026-11-27T08:08:06.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "Trading"
   },
   {
    "agentId": null,
@@ -23,68 +23,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 97 straight failures; last success Oct 6.",
+   "detail": "Failed at 15:46 PHT with 98 consecutive failures; blocked because its delivery chat can no longer receive results. Last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T07:16:32.000Z",
+   "observedAt": "2026-11-27T07:46:29.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Messaging"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Drive",
+   "name": "Whop Townhall product posts",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Drive",
-   "detail": "23 straight failures; last run Thu 23:26 PHT failed, last success Nov 4. Next attempt tonight 23:30 PHT.",
+   "title": "Whop Townhall product posts",
+   "detail": "Failed with 95 consecutive failures; blocked because its delivery chat can no longer receive results. Last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T07:16:32.000Z",
+   "observedAt": "2026-11-27T02:35:11.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed Thu Nov 26 at 23:26 PHT with 23 consecutive failures and no recorded reason; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 straight failures; last run Thu 19:05 PHT failed, last success Nov 2. Next attempt Sun 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T07:16:32.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 straight failures; last run Mon Nov 23 failed, last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T07:16:32.000Z",
-   "needsUser": false,
-   "category": "Zulti"
-  },
-  {
-   "agentId": null,
-   "name": "Shadow Army improvement cycle",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Shadow Army improvement cycle",
-   "detail": "Check 3 failed 7th straight run: no shadow cycle since 13:05 PHT, all 30 candidate pairs 2+ hourly candles behind. Cause is missing schedule wiring; a team job decision is needed.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T07:07:05.000Z",
-   "needsUser": true,
-   "category": "Trading"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -99,6 +71,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed Thu Nov 26 at 19:05 PHT with 8 consecutive failures and no recorded reason; last success Nov 2.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -829,18 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "gt167-coordinator",
+   "name": "gt167-phase1-opening",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 617: Brand Identity Designer sealing",
-   "detail": "Sealing BID-T1 to BID-T3 pairs under the cycle 199 differential rule; judging lands cycle 618.",
-   "currentTask": "Sealing Brand Identity Designer pairs BID-T1 to BID-T3",
-   "lastHeartbeat": "2026-11-27T08:08:47.000Z",
-   "observedAt": "2026-11-27T08:08:47.000Z",
+   "title": "GT-167 Phase 1 opening (MEXC Team)",
+   "detail": "GT-167 milestone: Phase 1 registration frozen, GT-158 PASS recorded in both verdict gates, first cycle ran end to end (mode ARMED, ledger integrity OK, head b7c58b24). Cadence and console update next.",
+   "currentTask": "First Phase 1 cycle complete (ARMED, no fills); wiring cadence and console update",
+   "lastHeartbeat": "2026-11-27T08:17:00.000Z",
+   "observedAt": "2026-11-27T08:17:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2607,6 +2593,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 617: Brand Identity Designer sealing",
+   "detail": "SEAL_OK first run: 18 neutral files, 0 identity hits, originals unchanged; all six neutral gates exit 0. Judging cycle 618.",
+   "currentTask": "Cycle 617 complete; judging cycle 618 next",
+   "lastHeartbeat": "2026-11-27T08:12:18.000Z",
+   "observedAt": "2026-11-27T08:12:18.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt166-coordinator",
    "name": "gt166-coordinator",
    "role": "coordinator",
@@ -3991,20 +3991,6 @@
    "observedAt": "2026-11-26T18:45:44.000Z",
    "needsUser": false,
    "category": "validation-loop"
-  },
-  {
-   "agentId": "team-ml-engineer-ml-t3-specialist",
-   "name": "ML-T3 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ML-T3 Specialist Solver",
-   "detail": "ML-T3 specialist: 8,752/1,620/3,070 bytes, 1,437 words, gate 6/6 (posted by cycle lead)",
-   "currentTask": "ML-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T17:38:52.000Z",
-   "observedAt": "2026-11-26T17:40:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
