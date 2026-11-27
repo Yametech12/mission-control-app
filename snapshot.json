@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-27T05:17:00.000Z",
- "summary": "GT-157 COMPLETE: 386 trials over 37 pair-family units, zero survivors. TRXUSDT Family A passed all selection gates and failed the holdout (9 trades, -319.00 USD, PF 0.449). Report filed.",
+ "generatedAt": "2026-11-27T05:20:35.000Z",
+ "summary": "GT-164 FitOrSkip Pro Max v1: app code, verdict engine, icon and 8 screenshots done; commit be0734a pushed; CI run 45944984722 in progress; APK Drive upload and report remain.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 23 consecutive failures; last failed Nov 26 23:26 PHT with a platform spawn error. Last success Nov 4.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T04:16:38.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,12 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results; 95 consecutive failures, last success Nov 3.",
+   "detail": "Blocked: delivery chat cannot receive results; 95 consecutive failures, last success Nov 3. Needs delivery fix or move.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T04:16:38.000Z",
+   "observedAt": "2026-11-27T05:16:45.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "whop"
   },
   {
    "agentId": null,
@@ -37,12 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results; 97 consecutive failures, last success Oct 6.",
+   "detail": "Blocked: delivery chat cannot receive results; 97 consecutive failures, last success Oct 6. Needs delivery fix or move.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T04:16:38.000Z",
+   "observedAt": "2026-11-27T05:16:45.000Z",
    "needsUser": true,
-   "category": "Telegram watchdog"
+   "category": "monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed 23 times in a row; last success Nov 4. Spawn error: message admission authority unavailable, binding retired.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T05:16:45.000Z",
+   "needsUser": false,
+   "category": "backup"
   },
   {
    "agentId": null,
@@ -51,12 +51,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 8 consecutive failures; last failed Nov 26 19:05 PHT, last success Nov 2. Next run Sun Nov 29 19:05 PHT.",
+   "detail": "Failed 8 times in a row; last success Nov 2. Same spawn error; keep-alive did not run Nov 26.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T04:16:38.000Z",
+   "observedAt": "2026-11-27T05:16:45.000Z",
    "needsUser": false,
-   "category": "Epimetheus"
+   "category": "monitoring"
   },
   {
    "agentId": null,
@@ -65,12 +65,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures; last failed Mon Nov 23 08:56 PHT, last success Nov 4. Next run Mon Nov 30 09:00 PHT.",
+   "detail": "Failed 3 times in a row; last run Mon Nov 23 failed, last success Nov 4. Same spawn error.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T04:16:38.000Z",
+   "observedAt": "2026-11-27T05:16:45.000Z",
    "needsUser": false,
-   "category": "Zulti"
+   "category": "zulti"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -815,6 +815,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt164-fitorskip-promax",
+   "name": "gt164-fitorskip-promax",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-164 FitOrSkip Pro Max v1 build",
+   "detail": "Code, tests (22 pass), icon and screenshots complete; pushed be0734a; CI run 45944984722 running; next: APK to Drive as FitOrSkip-v0.2-demo.apk, then improvement report.",
+   "currentTask": "Watching CI run 45944984722 (Android + iOS)",
+   "lastHeartbeat": "2026-11-27T05:20:35.000Z",
+   "observedAt": "2026-11-27T05:20:35.000Z",
+   "needsUser": false,
+   "category": "apps"
+  },
+  {
    "agentId": "gt158-accuracy-round2",
    "name": "gt158-accuracy-round2",
    "role": "coordinator",
@@ -827,20 +841,6 @@
    "observedAt": "2026-11-27T05:13:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "gt164-fitorskip-promax",
-   "name": "fitorskip-promax-builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "FitOrSkip Pro Max v1 build (GT-164)",
-   "detail": "V1 flow, verdict engine, demo provider written; analyze clean; 20 of 20 tests pass",
-   "currentTask": "App code complete, tests green; building icon, screenshots, CI delivery",
-   "lastHeartbeat": "2026-11-27T05:05:00.000Z",
-   "observedAt": "2026-11-27T05:05:00.000Z",
-   "needsUser": false,
-   "category": "fitorskip"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2607,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 604: UI Designer sealing",
+   "detail": "Cycle 604 complete: UI Designer UID-T1 to UID-T3 sealed (SEAL_OK, 28 neutrals, 0 identity hits). Judging cycle 606.",
+   "currentTask": "Cycle 604 complete: UI Designer pairs sealed, judging cycle 606",
+   "lastHeartbeat": "2026-11-27T05:18:29.000Z",
+   "observedAt": "2026-11-27T05:18:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt157-mass-simulation",
    "name": "gt157-mass-simulation",
    "role": "coordinator",
@@ -2619,20 +2633,6 @@
    "observedAt": "2026-11-27T05:17:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 603",
-   "detail": "UID-T3 pair collected and verified (specialist 23,510 bytes, about 86s; generic 13,697 bytes, about 51s; gates 7/7 both; K1-K7 pass). Sealing 604.",
-   "currentTask": "Cycle 603 complete: UID-T3 pair collected",
-   "lastHeartbeat": "2026-11-27T05:09:23.000Z",
-   "observedAt": "2026-11-27T05:09:23.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-uid-t3-generic",
