@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T13:36:00.000Z",
- "summary": "DSE-T2 judgement complete: A 8.5, B 7.5. A wins on raw-value accuracy and depth.",
+ "generatedAt": "2026-11-27T13:39:30.000Z",
+ "summary": "Improvement cycle 644: DSE-T3 clean re-judgement in progress.",
  "agents": [
   {
    "agentId": null,
@@ -871,6 +871,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 644",
+   "detail": "Cycle 644 started: clean DSE-T3 re-judgement with a fresh judge briefed on the gate-depth rule.",
+   "currentTask": "DSE-T3 clean re-judgement, fresh judge",
+   "lastHeartbeat": "2026-11-27T13:39:30.000Z",
+   "observedAt": "2026-11-27T13:39:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "gt176-fitorskip-improve",
    "name": "gt176-fitorskip-improve",
    "role": "coordinator",
@@ -883,20 +897,6 @@
    "observedAt": "2026-11-27T13:31:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 643: judging Design Systems Engineer",
-   "detail": "Cycle 643 judging Design Systems Engineer: 3 blind QA judges on sealed DSE-T1 to DSE-T3 pairs.",
-   "currentTask": "Cycle 643: judging Design Systems Engineer DSE-T1 to DSE-T3",
-   "lastHeartbeat": "2026-11-27T13:27:36.000Z",
-   "observedAt": "2026-11-27T13:27:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2663,6 +2663,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-dse-t1-judge",
+   "name": "DSE-T1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T1 judgement filed",
+   "detail": "DSE-T1 judgement filed by its judge (carried by cycle parent): A 8.75 vs B 8.00, contamination clean.",
+   "currentTask": "DSE-T1 judgement filed: A 8.75 vs B 8.00",
+   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
+   "observedAt": "2026-11-27T13:38:23.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-dse-t2-judge",
+   "name": "DSE-T2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T2 judgement filed",
+   "detail": "DSE-T2 judgement filed by its judge (carried by cycle parent): A 8.5 vs B 7.5, contamination clean.",
+   "currentTask": "DSE-T2 judgement filed: A 8.5 vs B 7.5",
+   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
+   "observedAt": "2026-11-27T13:38:23.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-dse-t3-judge",
+   "name": "DSE-T3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T3 judgement void",
+   "detail": "DSE-T3 judgement voided by cycle parent: decisive gate split was a staging-depth artifact; re-judgement 644.",
+   "currentTask": "DSE-T3 judgement voided by parent (gate split was a depth artifact)",
+   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
+   "observedAt": "2026-11-27T13:38:23.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-dse-t3-generic",
    "name": "DSE-T3 generic solver",
    "role": "builder",
@@ -4019,48 +4061,6 @@
    "observedAt": "2026-11-27T02:12:36.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T2 generic solver",
-   "detail": "WPE-T2 generic done: 911 words, gate 8/8, READ-BACK PASS (posted by cycle lead)",
-   "currentTask": "WPE-T2 generic solve done",
-   "lastHeartbeat": "2026-11-27T02:06:00.000Z",
-   "observedAt": "2026-11-27T02:06:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-web-performance-engineer",
-   "name": "Web Performance Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T2 specialist solver",
-   "detail": "WPE-T2 specialist done: 1,033 words, gate 8/8, READ-BACK PASS (posted by cycle lead)",
-   "currentTask": "WPE-T2 specialist solve done",
-   "lastHeartbeat": "2026-11-27T02:06:00.000Z",
-   "observedAt": "2026-11-27T02:06:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ef9ca900-bc25-4fc0-9f76-1862674cf2dd",
-   "name": "CSE groups join browser task",
-   "role": "coordinator",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "CSE Page joined 3 Facebook groups",
-   "detail": "All 3 groups joined as CSE Practice Hub PH Page, no posts or comments made. Completed 09:52 PHT.",
-   "currentTask": "Join 3 Facebook groups as CSE Practice Hub PH Page",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T01:52:18.000Z",
-   "needsUser": false,
-   "category": "CSE Page"
   }
  ]
 }
