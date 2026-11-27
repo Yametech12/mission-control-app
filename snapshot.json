@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-27T20:16:00.000Z",
- "summary": "Improvement cycle 670 running: routing check.",
+ "generatedAt": "2026-11-27T20:21:36.000Z",
+ "summary": "Coordinator sealing routing check cycle 670 picks.",
  "agents": [
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "TG session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 24 consecutive failures. Last run failed Nov 27, 23:26 PHT; last success was Nov 4. No reason recorded.",
+   "title": "TG session watchdog",
+   "detail": "Failed 03:45 PHT with a spawn error; 100 consecutive failures, last success Oct 6. Paused because its WhatsApp chat can no longer receive results; account action required.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T19:16:28.000Z",
-   "needsUser": false,
-   "category": "Monitoring"
+   "observedAt": "2026-11-27T20:16:51.000Z",
+   "needsUser": true,
+   "category": "Messaging"
   },
   {
    "agentId": null,
@@ -23,26 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: blocked, 97 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be moved or the chat restored.",
+   "detail": "97 consecutive failures, last success Nov 3. Paused because its WhatsApp chat can no longer receive results; account action required before it can run again.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T19:16:28.000Z",
+   "observedAt": "2026-11-27T20:16:51.000Z",
    "needsUser": true,
-   "category": "Posting"
+   "category": "Clipping"
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: blocked, 99 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be moved or the chat restored.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "24 consecutive failures, last success Nov 4; last run Nov 27 at 23:26 PHT failed with no recorded reason.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T19:16:28.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
+   "observedAt": "2026-11-27T20:16:51.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -51,10 +51,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Attention: 3 consecutive failures. Last run failed Nov 23 with a spawn error (binding retired); last success was Nov 4.",
+   "detail": "Last run Nov 23 failed, 3 consecutive failures; last success Nov 4. Next check Mon Nov 30 at 09:00 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T19:16:20.000Z",
+   "observedAt": "2026-11-27T20:16:51.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
@@ -911,6 +911,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle-coordinator",
+   "name": "Improvement Cycle Coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team routing check cycle 670",
+   "detail": "Routing check cycle 670 started: verifying freshness of 5 legs, then sealing Coordinator picks.",
+   "currentTask": "Routing check cycle 670: sealing 5 picks from ROSTER_INDEX triggers",
+   "lastHeartbeat": "2026-11-27T20:21:36.000Z",
+   "observedAt": "2026-11-27T20:21:36.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2859,20 +2873,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "59b5fb75-57bd-4968-adbd-5b229b9ba9c3",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "Succeeded 02:42 PHT: checked CSE Page posts from Nov 21-28, found no new genuine comments, so no hearts or replies were added.",
-   "currentTask": "CSE Page comment watch",
-   "lastHeartbeat": "2026-11-27T18:42:29.000Z",
-   "observedAt": "2026-11-27T18:42:36.000Z",
-   "needsUser": false,
-   "category": "CSE"
-  },
-  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE Page Comment Watcher",
    "role": "monitor",
@@ -4100,6 +4100,20 @@
    "detail": "Completed cycle 609: 21,814 bytes, gate 7/7 exit 0, 236s. Posted by parent at close.",
    "currentTask": "M3D-T3 generic solve complete",
    "lastHeartbeat": "2026-11-27T06:33:05.000Z",
+   "observedAt": "2026-11-27T06:35:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-m3d-t3-specialist",
+   "name": "M3D-T3 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-T3 specialist solver",
+   "detail": "Completed cycle 609: 20,942 bytes, gate 7/7 exit 0, 245s. Posted by parent at close.",
+   "currentTask": "M3D-T3 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T06:33:21.000Z",
    "observedAt": "2026-11-27T06:35:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
