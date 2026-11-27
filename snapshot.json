@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-27T01:14:30.000Z",
- "summary": "Improvement cycle 586 in progress: MRE sealing.",
+ "generatedAt": "2026-11-27T01:19:30.000Z",
+ "summary": "Improvement cycle 586 complete: MRE sealed, judging cycle 587.",
  "agents": [
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Whop Townhall product posts",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 23 times in a row; last success Nov 4. Latest failure was a spawn error before execution finished.",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 94 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T00:16:39.000Z",
-   "needsUser": false,
-   "category": "Backup"
+   "observedAt": "2026-11-26T20:35:11.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -23,54 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 96 consecutive failures; last success Oct 6.",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 96 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T00:16:39.000Z",
+   "observedAt": "2026-11-26T19:46:29.000Z",
    "needsUser": true,
-   "category": "Monitoring"
+   "category": "Telegram"
   },
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Memory daily backup to Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 94 consecutive failures; last success Nov 3.",
+   "title": "Memory daily backup to Drive",
+   "detail": "23 consecutive failures; last run Nov 26 23:26 PHT failed and last success was Nov 4. No failure reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T00:16:39.000Z",
+   "observedAt": "2026-11-26T15:26:48.000Z",
    "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed 8 times in a row; last success Nov 2. Latest failure was a spawn error before execution finished.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T00:16:39.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Monday promo check failed Nov 23, the 3rd consecutive failure; last success Nov 4. Spawn error before execution finished.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T00:16:39.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "category": "Backup"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -85,6 +57,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 consecutive failures; last run Nov 26 19:05 PHT failed and last success was Nov 2. No failure reason recorded.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -827,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 586",
-   "detail": "Cycle 586 started: sealing Mobile Release Engineer pairs MRE-T1 to MRE-T3 for judging cycle 587.",
-   "currentTask": "Cycle 586: seal MRE pairs under cycle 199 differential rule",
-   "lastHeartbeat": "2026-11-27T01:14:30.000Z",
-   "observedAt": "2026-11-27T01:14:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,6 +2509,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 586",
+   "detail": "Cycle 586 complete: MRE sealed SEAL_OK first run, 1 changed line, 18 neutrals, 0 identity hits, all 6 gates exit 0. Judging cycle 587.",
+   "currentTask": "Cycle 586 complete: MRE pairs sealed, judging cycle 587",
+   "lastHeartbeat": "2026-11-27T01:19:30.000Z",
+   "observedAt": "2026-11-27T01:19:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Routing Check Panel",
    "role": "coordinator",
@@ -3918,20 +3904,6 @@
    "detail": "SYSB-T1 judge complete: specialist win 8.50 vs 7.25. Contamination flag misfired, scores stand.",
    "currentTask": "SYSB-T1 judged: specialist win 8.50 vs 7.25",
    "lastHeartbeat": "2026-11-26T08:29:24.000Z",
-   "observedAt": "2026-11-26T08:33:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t2-judge",
-   "name": "SYSB-T2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T2 blind judge",
-   "detail": "SYSB-T2 judge complete: generic win 9.00 vs 8.50. Contamination clean.",
-   "currentTask": "SYSB-T2 judged: generic win 9.00 vs 8.50",
-   "lastHeartbeat": "2026-11-26T08:29:25.000Z",
    "observedAt": "2026-11-26T08:33:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
