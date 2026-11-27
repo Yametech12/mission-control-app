@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T06:06:00.000Z",
- "summary": "M3D-T1 specialist solver complete: five fix areas applied, gate 7/7 PASS",
+ "generatedAt": "2026-11-27T06:10:47.000Z",
+ "summary": "Cycle 608: Motion and 3D M3D-T2 solver pair running (specialist vs generic).",
  "agents": [
   {
    "agentId": null,
@@ -815,32 +815,46 @@
    "category": "SASE"
   },
   {
-   "agentId": "m3d-t1-generic",
-   "name": "M3D-T1 generic",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-T1 generic solver",
-   "detail": "Started: copying v3 gl.js and applying optics, droplet, transition, damping, adaptive fixes",
-   "currentTask": "Applying five fix areas to v3 gl.js copy",
-   "lastHeartbeat": "2026-11-27T06:03:01.000Z",
-   "observedAt": "2026-11-27T06:03:01.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team validation cycle 607",
-   "detail": "Cycle 607 start: Motion and 3D (row 14, never tested) validation opens; M3D-T1 solver pair runs this cycle.",
-   "currentTask": "Cycle 607: Motion and 3D validation opens, M3D-T1 solver pair",
-   "lastHeartbeat": "2026-11-27T05:57:00.000Z",
-   "observedAt": "2026-11-27T05:57:00.000Z",
+   "title": "Improvement cycle 608: Motion and 3D M3D-T2",
+   "detail": "Running M3D-T2 solver pair (specialist vs generic), BlockTales Oates motion review.",
+   "currentTask": "Cycle 608: M3D-T2 solver pair",
+   "lastHeartbeat": "2026-11-27T06:10:47.000Z",
+   "observedAt": "2026-11-27T06:10:47.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-T2 generic solver",
+   "detail": "Generic solver running M3D-T2 (task file only). Posted by cycle lead.",
+   "currentTask": "M3D-T2 generic solve",
+   "lastHeartbeat": "2026-11-27T06:10:47.000Z",
+   "observedAt": "2026-11-27T06:10:47.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-motion-3d",
+   "name": "Motion and 3D solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-T2 specialist solver",
+   "detail": "Specialist solver running M3D-T2 (Motion and 3D card). Posted by cycle lead.",
+   "currentTask": "M3D-T2 specialist solve",
+   "lastHeartbeat": "2026-11-27T06:10:47.000Z",
+   "observedAt": "2026-11-27T06:10:47.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2607,16 +2621,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "m3d-t1-generic",
+   "name": "M3D-T1 generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-T1 generic solver",
+   "detail": "M3D-T1 generic done (posted by parent): gl.js 20,944 bytes, gate 7/7, K1-K7 pass, 284s.",
+   "currentTask": "M3D-T1 generic output collected and verified",
+   "lastHeartbeat": "2026-11-27T06:10:00.000Z",
+   "observedAt": "2026-11-27T06:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "m3d-t1-specialist",
    "name": "M3D-T1 specialist",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "M3D-T1 specialist solver",
-   "detail": "Done: gl.js fixed (optics, droplet, transitions, damping, adaptive), node check PASS, spot-checks PASS, gate 7/7 PASS.",
-   "currentTask": "M3D-T1 complete",
-   "lastHeartbeat": "2026-11-27T06:06:00.000Z",
-   "observedAt": "2026-11-27T06:06:00.000Z",
+   "detail": "M3D-T1 specialist done (posted by parent): gl.js 20,747 bytes, gate 7/7, K1-K7 pass, 168s.",
+   "currentTask": "M3D-T1 specialist output collected and verified",
+   "lastHeartbeat": "2026-11-27T06:10:00.000Z",
+   "observedAt": "2026-11-27T06:10:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2941,20 +2969,6 @@
    "observedAt": "2026-11-27T03:40:06.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T2 generic solver",
-   "detail": "Posted by cycle lead; solver dashboard posts failed on schema. PE-T2 generic build complete: 6 files, 15,635 bytes, proof note 253 words, gate 7/7 exit 0, 231s, no first-draft corrections.",
-   "currentTask": "PE-T2 generic build complete",
-   "lastHeartbeat": "2026-11-27T03:35:12.000Z",
-   "observedAt": "2026-11-27T03:38:26.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-prototype-engineer",
