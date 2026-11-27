@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:20:40.000Z",
- "summary": "TYPO-T3 specialist solver completed: gate 7/7 PASS",
+ "generatedAt": "2026-11-27T09:26:30.000Z",
+ "summary": "Cycle 623: sealing Typography Specialist pairs TYPO-T1 to TYPO-T3.",
  "agents": [
   {
    "agentId": null,
@@ -829,32 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt171-coordinator",
-   "name": "gt171-token-profiler-expansion",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-171 Token Profiler + Shadow Expansion",
-   "detail": "GT-171: profiler running; expansion engine and draft registration written (paper only)",
-   "currentTask": "Profiler running over full MEXC USDT universe",
-   "lastHeartbeat": "2026-11-27T09:21:00.000Z",
-   "observedAt": "2026-11-27T09:21:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 622: TYPO-T3 solvers",
-   "detail": "Typography Specialist TYPO-T3 solver pair running (specialist + generic). Sealing 623, judging 624.",
-   "currentTask": "Cycle 622 TYPO-T3 solver pair",
-   "lastHeartbeat": "2026-11-27T09:16:28.000Z",
-   "observedAt": "2026-11-27T09:16:28.000Z",
+   "title": "Improvement cycle 623: Typography Specialist sealing",
+   "detail": "Sealing TYPO-T1 to TYPO-T3 pairs into neutral A/B inputs with a sealed mapping; judging cycle 624.",
+   "currentTask": "Sealing Typography Specialist pairs",
+   "lastHeartbeat": "2026-11-27T09:26:30.000Z",
+   "observedAt": "2026-11-27T09:26:30.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnam team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2635,16 +2621,30 @@
    "category": "trading"
   },
   {
+   "agentId": "gt171-coordinator",
+   "name": "gt171-token-profiler-expansion",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-171 Token Profiler + Shadow Expansion",
+   "detail": "GT-171 COMPLETE: profiler + expansion division live (paper only); Dec 11 picture unchanged",
+   "currentTask": "Complete: expansion running in the 4h cycle",
+   "lastHeartbeat": "2026-11-27T09:29:00.000Z",
+   "observedAt": "2026-11-27T09:29:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-validation-generic",
    "name": "Generic solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "TYPO-T3 generic solver",
-   "detail": "TYPO-T3 done: type record, gate 7/7 pass, delivery note with READ-BACK PASS.",
-   "currentTask": "TYPO-T3 generic solver: complete",
-   "lastHeartbeat": "2026-11-27T09:21:00.000Z",
-   "observedAt": "2026-11-27T09:21:00.000Z",
+   "detail": "Generic pair verified by cycle lead: 10,841 B, 994 words, gate 7/7 exit 0. Posted by cycle lead.",
+   "currentTask": "TYPO-T3 type decision record (generic) done",
+   "lastHeartbeat": "2026-11-27T09:23:38.000Z",
+   "observedAt": "2026-11-27T09:23:38.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2655,10 +2655,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "TYPO-T3 specialist solver",
-   "detail": "TYPO-T3 done: type-record.md, gate.js 7/7 PASS, delivery-note.md READ-BACK PASS",
-   "currentTask": "TYPO-T3 specialist solver: record, gate, note done",
-   "lastHeartbeat": "2026-11-27T09:20:40.000Z",
-   "observedAt": "2026-11-27T09:20:40.000Z",
+   "detail": "Specialist pair verified by cycle lead: 10,461 B, 933 words, gate 7/7 exit 0. Posted by cycle lead.",
+   "currentTask": "TYPO-T3 type decision record (specialist) done",
+   "lastHeartbeat": "2026-11-27T09:23:38.000Z",
+   "observedAt": "2026-11-27T09:23:38.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -4001,20 +4001,6 @@
    "title": "AIE-T2 generic solver",
    "detail": "AIE-T2 generic done: 2,681-word memo, gate exit 0, Firebase Auth pick (posted by cycle parent).",
    "currentTask": "AIE-T2 generic complete",
-   "lastHeartbeat": "2026-11-26T20:21:49.000Z",
-   "observedAt": "2026-11-26T20:21:49.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "aie-t2-specialist",
-   "name": "AIE-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-T2 specialist solver",
-   "detail": "AIE-T2 specialist done: 1,861-word memo, gate exit 0, Firebase Auth pick (posted by cycle parent).",
-   "currentTask": "AIE-T2 specialist complete",
    "lastHeartbeat": "2026-11-26T20:21:49.000Z",
    "observedAt": "2026-11-26T20:21:49.000Z",
    "needsUser": false,
