@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T06:40:05.000Z",
- "summary": "CSE comment watch complete: 16 posts checked Nov 20-27, no new genuine comments, 0 hearts, 0 replies, nothing flagged",
+ "generatedAt": "2026-11-27T06:47:00.000Z",
+ "summary": "Cycle 610 routing check in progress",
  "agents": [
   {
    "agentId": null,
@@ -799,6 +799,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 610",
+   "detail": "Cycle 610 routing check started: 5 fresh legs from GT-152, GT-155, GT-157, GT-161, GT-164",
+   "currentTask": "Cycle 610 routing check: harvesting 5 fresh legs, sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-27T06:47:00.000Z",
+   "observedAt": "2026-11-27T06:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2579,20 +2593,6 @@
    "category": "cse-reviewer"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 609",
-   "detail": "M3D-T3 pair verified: specialist 20,942 bytes 245s, generic 21,814 bytes 236s, gates 7/7 both, K1-K7 pass. Sealing 611, judging 612.",
-   "currentTask": "Cycle 609 complete",
-   "lastHeartbeat": "2026-11-27T06:35:00.000Z",
-   "observedAt": "2026-11-27T06:35:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-m3d-t3-generic",
    "name": "M3D-T3 Generic Solver",
    "role": "builder",
@@ -3963,6 +3963,20 @@
    "observedAt": "2026-11-26T16:13:27.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "ae-r2-specialist",
+   "name": "AE-R2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AE-R2 specialist solver",
+   "detail": "AE-R2 specialist: 3,735/2,205/2,435 bytes, 639 words, gate 8/8 exit 0, 118s. Posted by cycle parent.",
+   "currentTask": "AE-R2 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T15:59:57.000Z",
+   "observedAt": "2026-11-26T16:02:51.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
