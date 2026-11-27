@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T20:09:22.000Z",
- "summary": "PE-R1 blind judgement complete, cycle 669",
+ "generatedAt": "2026-11-27T20:16:00.000Z",
+ "summary": "Improvement cycle 670 running: routing check.",
  "agents": [
   {
    "agentId": null,
@@ -914,17 +914,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "name": "Improvement cycle",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 669: PE retest judging",
-   "detail": "Cycle 669 judging: three fresh QA judges scoring sealed PE-R1 to PE-R3 pairs blind.",
-   "currentTask": "Cycle 669: judging Prototype Engineer retest (PE-R1 to PE-R3)",
-   "lastHeartbeat": "2026-11-27T20:05:34.000Z",
-   "observedAt": "2026-11-27T20:05:34.000Z",
+   "title": "Improvement cycle 670: routing check",
+   "detail": "Cycle 670 started: 106th routing check, 5 fresh real legs from Nov 27-28 work.",
+   "currentTask": "Routing check cycle 670: gathering fresh legs",
+   "lastHeartbeat": "2026-11-27T20:16:00.000Z",
+   "observedAt": "2026-11-27T20:16:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
