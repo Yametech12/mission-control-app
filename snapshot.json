@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:10:00.000Z",
- "summary": "WPE-S1 specialist run started for cycle 658.",
+ "generatedAt": "2026-11-27T17:15:30.000Z",
+ "summary": "Cycle 658 complete: WPE retest 2 opened, WPE-S1 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -897,48 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-web-performance-engineer",
-   "name": "Web Performance Engineer",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-S1 specialist run started",
-   "detail": "WPE-S1 specialist run started: Liquid Premium v2 performance report, cycle 658 retest 2.",
-   "currentTask": "Writing the Liquid Premium v2 performance report",
-   "lastHeartbeat": "2026-11-27T17:10:00.000Z",
-   "observedAt": "2026-11-27T17:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 658",
-   "detail": "Cycle 658 open: Web Performance Engineer retest 2 (rewrite 2, fail flags). WPE-S1 solvers dispatched.",
-   "currentTask": "Cycle 658: Web Performance Engineer retest 2, WPE-S1 pair",
-   "lastHeartbeat": "2026-11-27T17:02:00.000Z",
-   "observedAt": "2026-11-27T17:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-wpe-s1-generic",
-   "name": "WPE-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-S1 generic solver",
-   "detail": "WPE-S1 generic solve running (posted by cycle lead).",
-   "currentTask": "WPE-S1 generic solve: Liquid Premium v2 report",
-   "lastHeartbeat": "2026-11-27T17:02:00.000Z",
-   "observedAt": "2026-11-27T17:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,6 +2691,48 @@
    "category": "trading"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 658",
+   "detail": "Cycle 658 complete: WPE retest 2 opened, WPE-S1 pair verified (both gates 7/7, K1-K7 pass, no key defect).",
+   "currentTask": "Cycle 658 complete: WPE-S1 pair collected",
+   "lastHeartbeat": "2026-11-27T17:15:30.000Z",
+   "observedAt": "2026-11-27T17:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-wpe-s1-generic",
+   "name": "WPE-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-S1 generic solver",
+   "detail": "WPE-S1 generic solve complete: report 6,802 bytes, gate 7/7, READ-BACK: PASS (posted by cycle lead).",
+   "currentTask": "WPE-S1 generic solve complete",
+   "lastHeartbeat": "2026-11-27T17:15:30.000Z",
+   "observedAt": "2026-11-27T17:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-web-performance-engineer",
+   "name": "Web Performance Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-S1 specialist solver",
+   "detail": "WPE-S1 specialist solve complete: report 10,860 bytes, gate 7/7, READ-BACK: PASS.",
+   "currentTask": "WPE-S1 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T17:15:30.000Z",
+   "observedAt": "2026-11-27T17:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "mh-t3-judge",
    "name": "MH-T3 judge",
    "role": "auditor",
@@ -4075,48 +4075,6 @@
    "observedAt": "2026-11-27T04:46:52.000Z",
    "needsUser": false,
    "category": "CSE video"
-  },
-  {
-   "agentId": "routing-panel-600",
-   "name": "Routing Panel (8 division leads)",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 600 panel scoring complete",
-   "detail": "Panel item carried by parent: picks MR 7-1, MIA 6-2, MR 5-3, Watcher 7-1, Page Operator 7-1. Panel filed panel-picks.md.",
-   "currentTask": "Routing check 600 panel scoring complete",
-   "lastHeartbeat": "2026-11-27T04:32:50.000Z",
-   "observedAt": "2026-11-27T04:35:25.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "cse-qc-reel-1215",
-   "name": "CSE Quick Check Reel 12:15",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Quick Check Reel 12:15",
-   "detail": "Reel C1-V018 live at https://www.facebook.com/reel/1143670261483616/ (Public, ready). Morning answer C1-V016 dropped on Page, verified. Group drop blocked: copy still pending admin approval.",
-   "currentTask": "12:15 slot complete; group answer drop blocked pending approval",
-   "lastHeartbeat": "2026-11-27T04:35:00.000Z",
-   "observedAt": "2026-11-27T04:35:00.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
-  },
-  {
-   "agentId": "mexc-team-fivepair",
-   "name": "mexc-team-fivepair",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MEXC Team: five-pair entry investigation",
-   "detail": "GT-162 complete: five-pair entry analysis filed. Ranking FET 1, HYPE 2, CT 3, ZRO 4, BULLA 5 (watch-only). Shadow basis only, no orders.",
-   "currentTask": "GT-162 complete: report and job record filed",
-   "lastHeartbeat": "2026-11-27T04:33:00.000Z",
-   "observedAt": "2026-11-27T04:33:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
