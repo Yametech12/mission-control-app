@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T13:17:37.000Z",
- "summary": "2 improvement cycles running now; CSE, trading and feed runs succeeded today; 4 jobs need attention, including 2 blocked on a chat that cannot receive results.",
+ "generatedAt": "2026-11-27T13:31:00.000Z",
+ "summary": "GT-176: Results gallery, Wardrobe, USD pricing done in code. Three redesign directions ready for the owner pick, NOT applied. CI run 1 Android release failed on an AGP lint crash; fix applied, lands with next push.",
  "agents": [
   {
    "agentId": null,
@@ -871,30 +871,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 642",
-   "detail": "Cycle 642 started: sealing Design Systems Engineer pairs DSE-T1 to DSE-T3 under the cycle 199 differential rule.",
-   "currentTask": "Sealing DSE pairs DSE-T1 to DSE-T3 (cycle 642)",
-   "lastHeartbeat": "2026-11-27T13:14:00.000Z",
-   "observedAt": "2026-11-27T13:14:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "gt176-fitorskip-improve",
    "name": "gt176-fitorskip-improve",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "GT-176 FitOrSkip Improvement Pass 2",
-   "detail": "Items 1, 2, 4, 5 done locally: photo color sampling, shareable verdict card, expanded tables, polish. Tests 22 to 59, analyze clean. Next: keystore, CI release build.",
-   "currentTask": "Creating the release keystore and wiring CI signed release build",
-   "lastHeartbeat": "2026-11-27T13:12:00.000Z",
-   "observedAt": "2026-11-27T13:12:00.000Z",
+   "detail": "Directions for owner pick: 1) Atelier, engine What-If Tape; 2) Rack, engine The Rail plus Swing Tag; 3) Counter, engine Worth-It Meter. Hang Tag stays live. Next: tests, direction screenshots, push, CI sizes, Drive.",
+   "currentTask": "Full test suite and redesign direction screenshots",
+   "lastHeartbeat": "2026-11-27T13:31:00.000Z",
+   "observedAt": "2026-11-27T13:31:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
   },
@@ -2663,6 +2649,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 642",
+   "detail": "Cycle 642 complete: Design Systems Engineer sealed SEAL_OK first run, 7 changed lines, 18 neutral files, 0 identity hits; all six neutral gates exit 0. Judging cycle 643.",
+   "currentTask": "Cycle 642 complete: DSE sealed, judging cycle 643",
+   "lastHeartbeat": "2026-11-27T13:22:40.000Z",
+   "observedAt": "2026-11-27T13:22:40.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-dse-t3-generic",
    "name": "DSE-T3 generic solver",
    "role": "builder",
@@ -4047,20 +4047,6 @@
    "observedAt": "2026-11-27T02:06:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "ef9ca900-bc25-4fc0-9f76-1862674cf2dd",
-   "name": "CSE groups join browser task",
-   "role": "coordinator",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "CSE Page joined 3 Facebook groups",
-   "detail": "All 3 groups joined as CSE Practice Hub PH Page, no posts or comments made. Completed 09:52 PHT.",
-   "currentTask": "Join 3 Facebook groups as CSE Practice Hub PH Page",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T01:52:18.000Z",
-   "needsUser": false,
-   "category": "CSE Page"
   }
  ]
 }
