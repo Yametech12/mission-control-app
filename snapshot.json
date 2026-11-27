@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-27T03:15:30.000Z",
- "summary": "Improvement cycle 594 done: Prototype Engineer validation opened, PE-T1 pair collected and verified; PE-T2 runs cycle 596.",
+ "generatedAt": "2026-11-27T03:18:57.000Z",
+ "summary": "Cycle 595 routing check running",
  "agents": [
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Failed 09:46 PHT, 97 consecutive failures; blocked because its delivery chat can no longer receive results.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T01:46:29.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,12 +9,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Failed 04:35 PHT, 94 consecutive failures; blocked because its delivery chat can no longer receive results.",
+   "detail": "Attention: 95 consecutive failures and paused. The delivery chat can no longer receive results; it resumes once that chat can receive again or delivery is moved.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T20:35:11.000Z",
+   "observedAt": "2026-11-27T02:35:11.000Z",
    "needsUser": true,
    "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Attention: 97 consecutive failures and paused. The delivery chat can no longer receive results; it resumes once that chat can receive again or delivery is moved.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T01:46:29.000Z",
+   "needsUser": true,
+   "category": "Telegram"
   },
   {
    "agentId": null,
@@ -37,7 +37,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 26, 23 consecutive failures; last success Nov 4. No reason recorded.",
+   "detail": "Attention: 23 consecutive failures. Last run failed Nov 26 at 23:26 PHT before finishing; last success was Nov 4.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-26T15:26:48.000Z",
@@ -65,7 +65,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 26, 8 consecutive failures; last success Nov 2. No reason recorded.",
+   "detail": "Attention: 8 consecutive failures. Last run failed Nov 26 at 19:05 PHT before finishing; last success was Nov 2.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-26T11:05:59.000Z",
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 595: routing check",
+   "detail": "Routing check 91 running: 5 fresh Nov 27 legs (GT-152 problem hunt, GT-152 systems, GT-153 plan, GT-151 panel, CSE rotation update).",
+   "currentTask": "Routing check cycle 595: panel reading tasks",
+   "lastHeartbeat": "2026-11-27T03:18:57.000Z",
+   "observedAt": "2026-11-27T03:18:57.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2565,20 +2579,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 594: Prototype Engineer validation",
-   "detail": "PE-T1 pair collected and verified (specialist 326 words, about 160s; generic 285 words, 75s; both gates 7/7). PE-T2 cycle 596.",
-   "currentTask": "Cycle 594 complete; PE-T2 solvers cycle 596",
-   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
-   "observedAt": "2026-11-27T03:15:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-pe-t1-generic",
    "name": "PE-T1 Generic",
    "role": "builder",
@@ -3959,6 +3959,20 @@
    "title": "GT-146: CSE Page branding and posting pro max",
    "detail": "CSE Practice Hub PH branding and posting pro max complete; reports filed under GT-146.",
    "currentTask": "CSE Practice Hub PH branding and posting pro max",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:16:31.000Z",
+   "needsUser": false,
+   "category": "CSE Page"
+  },
+  {
+   "agentId": "8e166725-3bfa-4b46-90ad-e44d0f529eb2",
+   "name": "CSE Page bio and pin agent",
+   "role": "poster",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "CSE Page short bio and pinned reel",
+   "detail": "Short bio set and how-to-order reel pinned on the CSE Page; verified live on the Page timeline.",
+   "currentTask": "Set CSE Page short bio and pin how-to-order reel",
    "lastHeartbeat": null,
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
