@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T12:35:59.000Z",
- "summary": "DSE-T2 specialist solver started the one-token-system audit.",
+ "generatedAt": "2026-11-27T12:40:12.000Z",
+ "summary": "DSE-T2 specialist solver completed the one-token-system audit; gate passed 13/13.",
  "agents": [
   {
    "agentId": null,
@@ -869,48 +869,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "dse-t2-generic",
-   "name": "dse-t2-generic",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DSE-T2 generic solver",
-   "detail": "DSE-T2 generic solver started: auditing the SASE one-token system from the GT-20261121-08 records.",
-   "currentTask": "DSE-T2 generic solver: token audit, gate, delivery note",
-   "lastHeartbeat": "2026-11-27T12:40:00.000Z",
-   "observedAt": "2026-11-27T12:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "dse-t2-specialist",
-   "name": "dse-t2-specialist",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DSE-T2 specialist solver",
-   "detail": "DSE-T2 specialist solver started; measuring the four stylesheets and writing the one-token-system audit.",
-   "currentTask": "DSE-T2 one-token-system audit: token-audit.md, gate.js, delivery-note.md",
-   "lastHeartbeat": "2026-11-27T12:35:59.000Z",
-   "observedAt": "2026-11-27T12:35:59.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE Page Comment Watcher",
-   "role": "monitor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE Page Comment Watch",
-   "detail": "Comment watch run started: checking CSE Page posts from the last 7 days for new comments.",
-   "currentTask": "Checking CSE Page posts Nov 20-27 for new comments",
-   "lastHeartbeat": "2026-11-27T12:32:05.000Z",
-   "observedAt": "2026-11-27T12:32:05.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2691,6 +2649,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "dse-t2-generic",
+   "name": "dse-t2-generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T2 generic solver",
+   "detail": "DSE-T2 generic solver done: audit shipped, gate 13/13 exit 0, live f4f1ea count 0. READ-BACK: PASS.",
+   "currentTask": "DSE-T2 generic solver: token audit, gate, delivery note",
+   "lastHeartbeat": "2026-11-27T12:44:00.000Z",
+   "observedAt": "2026-11-27T12:44:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "dse-t2-specialist",
+   "name": "dse-t2-specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T2 specialist solver",
+   "detail": "DSE-T2 audit done: token-audit.md, gate.js, delivery-note.md shipped; gate 13/13 pass, exit 0; live f4f1ea count 0.",
+   "currentTask": "DSE-T2 audit shipped; gate 13/13 pass, live f4f1ea count 0",
+   "lastHeartbeat": "2026-11-27T12:40:12.000Z",
+   "observedAt": "2026-11-27T12:40:12.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE Page Comment Watcher",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Page Comment Watch",
+   "detail": "Comment watch done: 16 posts checked Nov 19-27, no new genuine comments, 0 hearts, 0 replies. New Nov 27 19:30 reviewer-contents post has 0 comments.",
+   "currentTask": "Run complete: no new comments found",
+   "lastHeartbeat": "2026-11-27T12:38:05.000Z",
+   "observedAt": "2026-11-27T12:38:05.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
    "agentId": "dse-t1-generic",
    "name": "DSE-T1 generic solver",
    "role": "builder",
@@ -4045,48 +4045,6 @@
    "currentTask": "Done: leg-builder-services.md delivered",
    "lastHeartbeat": "2026-11-27T01:45:23.000Z",
    "observedAt": "2026-11-27T01:45:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "judge-mre-t1-cycle-587",
-   "name": "MRE-T1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T1 judge: specialist win 8.50 vs 7.75",
-   "detail": "MRE-T1 judged blind, contamination clean. Posted by the cycle lead.",
-   "currentTask": "Judging complete",
-   "lastHeartbeat": "2026-11-27T01:35:42.000Z",
-   "observedAt": "2026-11-27T01:35:42.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "judge-mre-t3-cycle-587",
-   "name": "MRE-T3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T3 judge: specialist win 8.50 vs 6.75",
-   "detail": "MRE-T3 judged blind, contamination clean. Posted by the cycle lead.",
-   "currentTask": "Judging complete",
-   "lastHeartbeat": "2026-11-27T01:35:42.000Z",
-   "observedAt": "2026-11-27T01:35:42.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel",
-   "name": "Routing Check Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check panel cycle 585",
-   "detail": "Routing check panel cycle 585 complete: picks filed, 5 of 5 match (posted by panel; carried by parent).",
-   "currentTask": "Cycle 585 panel picks filed: 5 of 5 match",
-   "lastHeartbeat": "2026-11-27T01:05:58.000Z",
-   "observedAt": "2026-11-27T01:07:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
