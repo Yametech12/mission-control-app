@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T08:41:40.000Z",
- "summary": "TYPO-T1 specialist solver: type decision record in progress",
+ "generatedAt": "2026-11-27T08:47:00.000Z",
+ "summary": "GT-168 in progress: Pro Max spec, audit checklist, and prompt queue being written.",
  "agents": [
   {
    "agentId": null,
@@ -815,32 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-typography-specialist",
-   "name": "Typography Specialist",
-   "role": "builder",
+   "agentId": "gt168-coordinator",
+   "name": "gt168-coordinator",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "TYPO-T1 specialist solver",
-   "detail": "TYPO-T1 specialist solver started: reading task, card, job record, live fonts measured 77,840 bytes total.",
-   "currentTask": "Writing TYPO-T1 type decision record, gate, and delivery note",
-   "lastHeartbeat": "2026-11-27T08:41:40.000Z",
-   "observedAt": "2026-11-27T08:41:40.000Z",
+   "title": "GT-168 AI Studio Pro Max ownership pack",
+   "detail": "GT-168 started: MEXC Team taking technical ownership of the AI Studio Pro Max app (spec, audit checklist, prompt queue).",
+   "currentTask": "Reading lane sources, writing Pro Max spec/audit/prompt pack",
+   "lastHeartbeat": "2026-11-27T08:47:00.000Z",
+   "observedAt": "2026-11-27T08:47:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "validation-generic-typo-t1",
-   "name": "Validation Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "TYPO-T1 generic solver",
-   "detail": "Started TYPO-T1 generic run; reading job record and measuring live font subsets.",
-   "currentTask": "Reading TYPO-T1 inputs and measuring font subsets",
-   "lastHeartbeat": "2026-11-27T08:41:25.000Z",
-   "observedAt": "2026-11-27T08:41:25.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2621,6 +2607,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-T1 specialist solver",
+   "detail": "TYPO-T1 done: 3 files, 13,220 bytes total; gate.js 7/7 PASS exit 0; READ-BACK PASS; no em dashes.",
+   "currentTask": "TYPO-T1 complete",
+   "lastHeartbeat": "2026-11-27T08:43:00.000Z",
+   "observedAt": "2026-11-27T08:43:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "validation-generic-typo-t1",
+   "name": "Validation Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-T1 generic solver",
+   "detail": "Done: type-record.md, gate.js, delivery-note.md shipped; gate 7/7 PASS; read-back PASS; 13,041 bytes total.",
+   "currentTask": "TYPO-T1 generic run complete",
+   "lastHeartbeat": "2026-11-27T08:42:58.000Z",
+   "observedAt": "2026-11-27T08:42:58.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt167-coordinator",
    "name": "gt167-phase1-opening",
    "role": "coordinator",
@@ -3991,34 +4005,6 @@
    "observedAt": "2026-11-26T18:54:28.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-data-engineer-de-t1-generic",
-   "name": "Data Engineer DE-T1 generic",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DE-T1 generic: feed inventory re-audit",
-   "detail": "Posted by the cycle parent: DE-T1 generic re-audit complete, gate 6/6 exit 0, 144s.",
-   "currentTask": "DE-T1 generic re-audit complete",
-   "lastHeartbeat": "2026-11-26T18:45:44.000Z",
-   "observedAt": "2026-11-26T18:45:44.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
-  },
-  {
-   "agentId": "team-data-engineer-de-t1-specialist",
-   "name": "Data Engineer DE-T1 specialist",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DE-T1 specialist: feed inventory re-audit",
-   "detail": "Posted by the cycle parent: DE-T1 specialist re-audit complete, gate 6/6 exit 0, 566s.",
-   "currentTask": "DE-T1 specialist re-audit complete",
-   "lastHeartbeat": "2026-11-26T18:45:44.000Z",
-   "observedAt": "2026-11-26T18:45:44.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
   }
  ]
 }
