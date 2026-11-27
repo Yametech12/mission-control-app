@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T11:59:28.000Z",
- "summary": "Cycle 636 complete: IID pairs sealed, judging lands cycle 637.",
+ "generatedAt": "2026-11-27T12:10:00.000Z",
+ "summary": "GT-175: MS-1 and MS-2 built and QA passed, media staged in Uplika. Scheduling blocked: TikTok @ghostname_lofi is not connected to Uplika; needs the browser route or an account connection.",
  "agents": [
+  {
+   "agentId": "gt175-mumford-run",
+   "name": "clipp-team-coordinator",
+   "role": "coordinator",
+   "agentStatus": "error",
+   "status": "attention",
+   "title": "GT-175 Mumford x Stapleton clips",
+   "detail": "2 clips built, QA PASS, staged in Uplika. NOT scheduled: @ghostname_lofi not on Uplika (only ryu.vibes75, @yameb0y, KungSakalingPH). Needs browser route to @ghostname_lofi or owner connects it.",
+   "currentTask": "Blocked on TikTok account route; clips ready",
+   "lastHeartbeat": "2026-11-27T12:10:00.000Z",
+   "observedAt": "2026-11-27T12:10:00.000Z",
+   "needsUser": true,
+   "category": "clipping"
+  },
   {
    "agentId": null,
    "name": "TG session watchdog",
@@ -827,20 +841,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt175-mumford-run",
-   "name": "clipp-team-coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-175 Mumford x Stapleton clips",
-   "detail": "Uplika accounts verified. Note: Uplika TikTok connection is @ryu.vibes75; @ghostname_lofi is not connected to Uplika. Footage download in progress.",
-   "currentTask": "Downloading approved CMA footage",
-   "lastHeartbeat": "2026-11-27T11:54:00.000Z",
-   "observedAt": "2026-11-27T11:54:00.000Z",
-   "needsUser": false,
-   "category": "clipping"
   },
   {
    "agentId": null,
