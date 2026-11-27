@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T07:05:40.000Z",
- "summary": "Ghostname Team validation loop cycle 612 in progress: judging Motion and 3D.",
+ "generatedAt": "2026-11-27T07:10:15.000Z",
+ "summary": "Ghostname Team validation loop cycle 612 complete: Motion and 3D judged 8.00 vs 8.42, card rewritten.",
  "agents": [
   {
    "agentId": null,
@@ -799,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 612: Motion and 3D judging",
-   "detail": "Cycle 612 judging Motion and 3D: 3 fresh QA judges on sealed M3D-T1 to T3 pairs.",
-   "currentTask": "Cycle 612: judging Motion and 3D (M3D-T1 to T3)",
-   "lastHeartbeat": "2026-11-27T07:05:40.000Z",
-   "observedAt": "2026-11-27T07:05:40.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2579,6 +2565,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 612: Motion and 3D judging",
+   "detail": "Cycle 612: Motion and 3D judged 8.00 vs 8.42, 1 win, 1 tie, 1 loss, not a clear win; card rewritten (rewrite 1).",
+   "currentTask": "Cycle 612 complete: Motion and 3D judged, card rewritten",
+   "lastHeartbeat": "2026-11-27T07:10:15.000Z",
+   "observedAt": "2026-11-27T07:10:15.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-610",
    "name": "Routing Panel 610",
    "role": "coordinator",
@@ -3963,20 +3963,6 @@
    "observedAt": "2026-11-26T16:28:36.000Z",
    "needsUser": false,
    "category": "Validation"
-  },
-  {
-   "agentId": "routing-check-545-panel",
-   "name": "Routing check 545 panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 545 panel",
-   "detail": "Routing check 545 panel complete (posted by cycle parent): picks Systems Builder, Systems Builder, Data Integrity Auditor, Security Auditor, Site Builder.",
-   "currentTask": "Panel picks filed: 5 of 5",
-   "lastHeartbeat": "2026-11-26T16:11:03.000Z",
-   "observedAt": "2026-11-26T16:13:27.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
