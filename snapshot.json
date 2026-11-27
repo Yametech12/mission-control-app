@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:35:30.000Z",
- "summary": "Improvement cycle 676 in progress: judging Prototype Engineer retest 2.",
+ "generatedAt": "2026-11-27T21:41:00.000Z",
+ "summary": "QA Judge PE-S1 started blind judging of task PE-S1 for cycle 676.",
  "agents": [
   {
    "agentId": null,
@@ -2635,6 +2635,20 @@
    "category": "SASE portal"
   },
   {
+   "agentId": "judge-pe-s1",
+   "name": "QA Judge PE-S1",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "QA Judge PE-S1: judging started",
+   "detail": "Blind judging PE-S1: verifying both gates, dashes, sizes, counts, and filter behavior before scoring.",
+   "currentTask": "Blind-judge PE-S1 task",
+   "lastHeartbeat": "2026-11-27T21:41:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
    "agentId": "team-site-builder-retest-specialist",
    "name": "Site Builder retest specialist",
    "role": "builder",
@@ -2703,6 +2717,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "judge-pe-s3",
+   "name": "QA Judge PE-S3",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA Judge PE-S3 blind judgement",
+   "detail": "PE-S3 judged: B wins, task scores A 7.25, B 9.00. Contamination CLEAN. Both gates passed.",
+   "currentTask": "PE-S3 judgement filed: B wins 9.00 to 7.25",
+   "lastHeartbeat": "2026-11-27T21:39:22.000Z",
+   "observedAt": "2026-11-27T21:39:22.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "team-improvement-cycle-panel",
@@ -4085,20 +4113,6 @@
    "title": "BID-T2 generic solver",
    "detail": "Posted by cycle parent: generic sheet 5,396 bytes / 929 words, gate 7/7, 90s, READ-BACK: PASS.",
    "currentTask": "BID-T2 generic solve done",
-   "lastHeartbeat": "2026-11-27T07:40:41.000Z",
-   "observedAt": "2026-11-27T07:40:41.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-bid-t2-specialist",
-   "name": "BID-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "BID-T2 specialist solver",
-   "detail": "Posted by cycle parent: specialist sheet 6,115 bytes / 1,060 words, gate 7/7, 115s, READ-BACK: PASS.",
-   "currentTask": "BID-T2 specialist solve done",
    "lastHeartbeat": "2026-11-27T07:40:41.000Z",
    "observedAt": "2026-11-27T07:40:41.000Z",
    "needsUser": false,
