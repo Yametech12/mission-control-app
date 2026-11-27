@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T19:55:00.000Z",
- "summary": "Cycle 668 sealing Prototype Engineer retest pairs.",
+ "generatedAt": "2026-11-27T20:00:20.000Z",
+ "summary": "Cycle 668 sealed Prototype Engineer retest pairs; judging 669.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 668",
-   "detail": "Cycle 668 sealing PE retest: 3 pairs collected, 1 identity marker to drop, judging 669.",
-   "currentTask": "Cycle 668: sealing PE retest pairs PE-R1/R2/R3",
-   "lastHeartbeat": "2026-11-27T19:55:00.000Z",
-   "observedAt": "2026-11-27T19:55:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,6 +2691,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 668",
+   "detail": "Cycle 668 sealed PE retest: SEAL_OK first run, 1 line changed, 36 neutral files, gates 7/7. Judging 669.",
+   "currentTask": "Cycle 668 done: PE retest sealed, judging 669",
+   "lastHeartbeat": "2026-11-27T20:00:20.000Z",
+   "observedAt": "2026-11-27T20:00:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "pe-r3-specialist",
    "name": "PE-R3 Specialist Solver",
    "role": "builder",
@@ -4085,20 +4085,6 @@
    "title": "M3D-T2 generic solver",
    "detail": "Generic solve complete: 32,681 bytes, 798s, gate 7/7, overall PASS WITH MAJOR ISSUES 2/9/1. Posted by cycle lead.",
    "currentTask": "M3D-T2 generic solve complete",
-   "lastHeartbeat": "2026-11-27T06:26:26.000Z",
-   "observedAt": "2026-11-27T06:26:26.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-motion-3d",
-   "name": "Motion and 3D solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-T2 specialist solver",
-   "detail": "Specialist solve complete: 30,384 bytes, 619s, gate 7/7, overall PASS 3/9/0. Posted by cycle lead.",
-   "currentTask": "M3D-T2 specialist solve complete",
    "lastHeartbeat": "2026-11-27T06:26:26.000Z",
    "observedAt": "2026-11-27T06:26:26.000Z",
    "needsUser": false,
