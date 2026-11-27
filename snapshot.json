@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:19:30.000Z",
- "summary": "Improvement cycle 586 complete: MRE sealed, judging cycle 587.",
+ "generatedAt": "2026-11-27T01:30:47.000Z",
+ "summary": "MRE-T2 judging complete: candidate B wins 9.00 to 7.75. Both passed all key checks K1-K7; contamination CLEAN, overlap none.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 587: Mobile Release Engineer judging",
+   "detail": "Judging MRE-T1 to MRE-T3 blind on the cycle 586 seal, three fresh-context QA judges.",
+   "currentTask": "Judging MRE-T1 to MRE-T3 blind",
+   "lastHeartbeat": "2026-11-27T01:26:31.000Z",
+   "observedAt": "2026-11-27T01:26:31.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2425,6 +2439,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "judge-mre-t1-cycle-587",
+   "name": "MRE-T1 judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "MRE-T1 judging started",
+   "detail": "Blind scoring of MRE-T1 candidates A and B against task and key K1-K7.",
+   "currentTask": "Blind judging MRE-T1",
+   "lastHeartbeat": "2026-11-27T01:30:34.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "sase-neon-deploy",
    "name": "Neon Deploy Worker",
    "role": "builder",
@@ -2507,20 +2535,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 586",
-   "detail": "Cycle 586 complete: MRE sealed SEAL_OK first run, 1 changed line, 18 neutrals, 0 identity hits, all 6 gates exit 0. Judging cycle 587.",
-   "currentTask": "Cycle 586 complete: MRE pairs sealed, judging cycle 587",
-   "lastHeartbeat": "2026-11-27T01:19:30.000Z",
-   "observedAt": "2026-11-27T01:19:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-panel",
@@ -3904,6 +3918,20 @@
    "detail": "SYSB-T1 judge complete: specialist win 8.50 vs 7.25. Contamination flag misfired, scores stand.",
    "currentTask": "SYSB-T1 judged: specialist win 8.50 vs 7.25",
    "lastHeartbeat": "2026-11-26T08:29:24.000Z",
+   "observedAt": "2026-11-26T08:33:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "sysb-t2-judge",
+   "name": "SYSB-T2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-T2 blind judge",
+   "detail": "SYSB-T2 judge complete: generic win 9.00 vs 8.50. Contamination clean.",
+   "currentTask": "SYSB-T2 judged: generic win 9.00 vs 8.50",
+   "lastHeartbeat": "2026-11-26T08:29:25.000Z",
    "observedAt": "2026-11-26T08:33:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
