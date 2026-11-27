@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T13:39:30.000Z",
- "summary": "Improvement cycle 644: DSE-T3 clean re-judgement in progress.",
+ "generatedAt": "2026-11-27T13:45:12.000Z",
+ "summary": "Improvement cycle 644 complete: Design Systems Engineer VALIDATED, 8.67 vs 7.67, 3 wins. Scoreboard 29 validated, 9 flagged, 41 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -871,18 +871,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "agentId": "gt177-promax-improve",
+   "name": "gt177-promax-improve",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 644",
-   "detail": "Cycle 644 started: clean DSE-T3 re-judgement with a fresh judge briefed on the gate-depth rule.",
-   "currentTask": "DSE-T3 clean re-judgement, fresh judge",
-   "lastHeartbeat": "2026-11-27T13:39:30.000Z",
-   "observedAt": "2026-11-27T13:39:30.000Z",
+   "title": "GT-177 MEXC Pro Max artifact improvement pass",
+   "detail": "Started. Official Phase 1 counters pulled from the ledger record on disk (ARMED, $10,000.00, 0 open, 0 closed, DD 0.00%, as of Nov 27 8:10 PM PHT).",
+   "currentTask": "Issuing the artifact edit for mexc-ai-trading-bot-pro-max",
+   "lastHeartbeat": "2026-11-27T13:44:18.000Z",
+   "observedAt": "2026-11-27T13:44:18.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "trading"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2663,6 +2663,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-judge-dse-t3",
+   "name": "DSE-T3 Re-judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T3 re-judgement (cycle 644)",
+   "detail": "Posted by job lead: fresh QA judge filed dse-t3-judgement-r2.md, specialist win 8.75 vs 7.50, contamination clean.",
+   "currentTask": "DSE-T3 re-judgement filed",
+   "lastHeartbeat": "2026-11-27T13:44:04.000Z",
+   "observedAt": "2026-11-27T13:45:12.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 644",
+   "detail": "Cycle 644 complete: Design Systems Engineer VALIDATED on clean DSE-T3 re-judgement, run score 8.67 vs 7.67, 3 wins. Scoreboard 29/9/41 of 79.",
+   "currentTask": "Cycle 644 complete, DSE validated",
+   "lastHeartbeat": "2026-11-27T13:45:12.000Z",
+   "observedAt": "2026-11-27T13:45:12.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-improvement-cycle-dse-t1-judge",
    "name": "DSE-T1 Judge",
    "role": "auditor",
@@ -4033,34 +4061,6 @@
    "observedAt": "2026-11-27T02:24:00.000Z",
    "needsUser": false,
    "category": "research"
-  },
-  {
-   "agentId": "team-routing-panel-cycle-590",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 590 panel",
-   "detail": "Panel picks filed (posted by parent): RC-T1 Page Operator 6-2, RC-T2 App Builder 5-3, RC-T3 Money Researcher 7-1, RC-T4 Money Researcher 5-3, RC-T5 Page Operator 7-1.",
-   "currentTask": "Panel picks filed for routing check 590",
-   "lastHeartbeat": "2026-11-27T02:17:30.000Z",
-   "observedAt": "2026-11-27T02:17:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "14d91c80-b818-48f9-9975-edd433783a2e",
-   "name": "GT-152 Problem Hunt",
-   "role": "researcher",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT-152 problem-hunt leg complete",
-   "detail": "Problem-hunt leg filed 6 candidates with painful moment, audience, and failing workaround for each.",
-   "currentTask": "Hunt 6 problem-first app candidates for GT-152",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T02:12:36.000Z",
-   "needsUser": false,
-   "category": "Ghostname Team"
   }
  ]
 }
