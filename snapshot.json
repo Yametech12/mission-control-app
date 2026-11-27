@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T04:26:11.000Z",
- "summary": "Cycle 599: Prototype Engineer judged 7.83 vs 7.92, card rewritten.",
+ "generatedAt": "2026-11-27T04:31:17.000Z",
+ "summary": "Cycle 600 routing check started: 5 fresh Nov 26-27 legs, Coordinator picks sealed, panel scoring next.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 600 routing check started",
+   "detail": "Cycle 600 routing check started: 5 fresh Nov 26-27 legs, Coordinator picks sealed, panel scoring next.",
+   "currentTask": "Cycle 600 routing check: 5 fresh legs, panel scoring",
+   "lastHeartbeat": "2026-11-27T04:31:17.000Z",
+   "observedAt": "2026-11-27T04:31:17.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "gt163-cse-reel-hype",
+   "name": "gt163-cse-reel-hype",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-163 CSE Reel hype sample",
+   "detail": "Started: rebuilding only QC1 C1-V018 with an animated cobalt hype background.",
+   "currentTask": "Inspecting original Reel, manifest, timing, and source frames",
+   "lastHeartbeat": "2026-11-27T04:28:09.000Z",
+   "observedAt": "2026-11-27T04:28:09.000Z",
+   "needsUser": false,
+   "category": "CSE video"
   },
   {
    "agentId": "gt158-accuracy-round2",
@@ -2621,20 +2649,6 @@
    "category": "trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 599",
-   "detail": "Cycle 599 done: Prototype Engineer 7.83 vs 7.92, 2W 1L, not a clear win, card rewritten (rewrite 1). Scoreboard 26/79 validated.",
-   "currentTask": "Cycle 599 complete: Prototype Engineer judged, card rewritten",
-   "lastHeartbeat": "2026-11-27T04:26:11.000Z",
-   "observedAt": "2026-11-27T04:26:11.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle-pe-t1-judge",
    "name": "PE-T1 QA Judge",
    "role": "auditor",
@@ -4000,6 +4014,20 @@
    "status": "completed",
    "title": "GT-148 backend/API audit",
    "detail": "Complete (carried by job lead). 14 findings incl. BE-1 Critical (banks in public repo). Report: audit-backend.md.",
+   "currentTask": "Audit complete",
+   "lastHeartbeat": "2026-11-26T14:17:30.000Z",
+   "observedAt": "2026-11-26T14:17:30.000Z",
+   "needsUser": false,
+   "category": "sase-cse-site"
+  },
+  {
+   "agentId": "gt-148-uiux",
+   "name": "gt-148-uiux",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-148 UI/UX audit",
+   "detail": "Complete (carried by job lead). 12 findings incl. UX-1 Critical (72 vs 92 lessons). Report: audit-uiux.md.",
    "currentTask": "Audit complete",
    "lastHeartbeat": "2026-11-26T14:17:30.000Z",
    "observedAt": "2026-11-26T14:17:30.000Z",
