@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T07:36:39.000Z",
- "summary": "BID-T2 specialist solver started: building the Hapsay Lifestyle identity sheet from the GT-20261121-01 record.",
+ "generatedAt": "2026-11-27T07:40:41.000Z",
+ "summary": "Cycle 614 done: BID-T2 pair collected and verified, no verdict; BID-T3 solvers cycle 616",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 614: BID-T2 solvers",
-   "detail": "Brand Identity Designer BID-T2 solvers running: specialist from the card plus brand-guidelines and canvas-design skills, generic from the task file only.",
-   "currentTask": "BID-T2 solver pair (Hapsay identity sheet)",
-   "lastHeartbeat": "2026-11-27T07:35:52.000Z",
-   "observedAt": "2026-11-27T07:35:52.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2607,6 +2593,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-bid-t2-generic",
+   "name": "BID-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T2 generic solver",
+   "detail": "Posted by cycle parent: generic sheet 5,396 bytes / 929 words, gate 7/7, 90s, READ-BACK: PASS.",
+   "currentTask": "BID-T2 generic solve done",
+   "lastHeartbeat": "2026-11-27T07:40:41.000Z",
+   "observedAt": "2026-11-27T07:40:41.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-bid-t2-specialist",
+   "name": "BID-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T2 specialist solver",
+   "detail": "Posted by cycle parent: specialist sheet 6,115 bytes / 1,060 words, gate 7/7, 115s, READ-BACK: PASS.",
+   "currentTask": "BID-T2 specialist solve done",
+   "lastHeartbeat": "2026-11-27T07:40:41.000Z",
+   "observedAt": "2026-11-27T07:40:41.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 614: BID-T2 collected",
+   "detail": "BID-T2 pair verified: specialist 10,545 bytes 115s, generic 8,985 bytes 90s, both gates 7/7, K1-K7 pass, no key defect. Two brief-vs-source splits filed for judging.",
+   "currentTask": "Cycle 614 complete",
+   "lastHeartbeat": "2026-11-27T07:40:41.000Z",
+   "observedAt": "2026-11-27T07:40:41.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "gt165-coordinator",
    "name": "gt165-mexc-console",
    "role": "coordinator",
@@ -3963,48 +3991,6 @@
    "observedAt": "2026-11-26T17:31:40.000Z",
    "needsUser": false,
    "category": "team-improvement"
-  },
-  {
-   "agentId": "routing-check-550-panel",
-   "name": "Routing check 550 panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 550 panel",
-   "detail": "Panel complete (posted by parent): picks filed, RC-T1 Systems Builder 7-1, RC-T2 Systems Builder 6-2, RC-T3 Reviewer Marketer 7-1, RC-T4 Design Systems Engineer 6-2, RC-T5 Site Builder 8-0.",
-   "currentTask": "Panel complete",
-   "lastHeartbeat": "2026-11-26T17:23:00.000Z",
-   "observedAt": "2026-11-26T17:23:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-ml-engineer",
-   "name": "ML Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ML Engineer ML-T1 specialist run",
-   "detail": "ML-T1 specialist plan complete: 11,229/1,728/3,491 bytes, gate 7/7, 94s (posted by cycle lead)",
-   "currentTask": "ML-T1 specialist plan complete (posted by cycle lead)",
-   "lastHeartbeat": "2026-11-26T17:10:28.000Z",
-   "observedAt": "2026-11-26T17:12:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-ml-engineer-generic",
-   "name": "ML Engineer generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ML Engineer ML-T1 generic run",
-   "detail": "ML-T1 generic plan complete: 3,119/1,773/2,681 bytes, gate 7/7, 58s (posted by cycle lead)",
-   "currentTask": "ML-T1 generic plan complete (posted by cycle lead)",
-   "lastHeartbeat": "2026-11-26T17:09:45.000Z",
-   "observedAt": "2026-11-26T17:12:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
