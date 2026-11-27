@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T00:35:45.000Z",
- "summary": "Cycle 583: MRE-T2 specialist solver",
+ "generatedAt": "2026-11-27T00:38:30.000Z",
+ "summary": "Cycle 583: MRE-T2 pair collected and verified",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 583: Mobile Release Engineer MRE-T2",
-   "detail": "MRE-T2 solver pair running: Yame Call v1 close-out record, specialist vs generic.",
-   "currentTask": "MRE-T2 solver pair: specialist vs generic",
-   "lastHeartbeat": "2026-11-27T00:35:00.000Z",
-   "observedAt": "2026-11-27T00:35:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "cse-page-comment-watch",
@@ -2551,16 +2537,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 583: Mobile Release Engineer MRE-T2",
+   "detail": "MRE-T2 pair collected: specialist 518 words 54s, generic 310 words 52s, both gates 7/7, K1-K7 pass, no key defect.",
+   "currentTask": "Cycle 583 complete: MRE-T2 collected",
+   "lastHeartbeat": "2026-11-27T00:38:30.000Z",
+   "observedAt": "2026-11-27T00:38:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-mobile-release-engineer-specialist",
    "name": "MRE-T2 specialist solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "MRE-T2 specialist solver",
-   "detail": "MRE-T2 specialist solver complete: gate 7/7 pass, exit 0, READ-BACK PASS, 54s wall time.",
-   "currentTask": "MRE-T2 close-out record, gate, and delivery note complete",
-   "lastHeartbeat": "2026-11-27T00:35:45.000Z",
-   "observedAt": "2026-11-27T00:35:45.000Z",
+   "detail": "Specialist MRE-T2 done: 3,268/1,799/3,218 bytes, 518 words, gate 7/7 exit 0. Posted by cycle lead.",
+   "currentTask": "MRE-T2 complete",
+   "lastHeartbeat": "2026-11-27T00:38:30.000Z",
+   "observedAt": "2026-11-27T00:38:30.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2571,10 +2571,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "MRE-T2 generic solver",
-   "detail": "Done in 52s. Gate 7/7 passed, exit 0. Record states NOT DELIVERED; no em dashes; READ-BACK: PASS.",
-   "currentTask": "MRE-T2 generic solver: Yame Call v1 close-out record",
-   "lastHeartbeat": "2026-11-27T00:35:41.000Z",
-   "observedAt": "2026-11-27T00:35:41.000Z",
+   "detail": "Generic MRE-T2 done: 2,045/1,571/2,811 bytes, 310 words, gate 7/7 exit 0. Posted by cycle lead.",
+   "currentTask": "MRE-T2 complete",
+   "lastHeartbeat": "2026-11-27T00:38:30.000Z",
+   "observedAt": "2026-11-27T00:38:30.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -3933,20 +3933,6 @@
    "currentTask": "SYSB-T3 complete: 6 of 6 tests pass",
    "lastHeartbeat": "2026-11-26T08:10:12.000Z",
    "observedAt": "2026-11-26T08:10:12.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t3-generic",
-   "name": "SYSB-T3 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T3 generic solver",
-   "detail": "Done: portal-state.js, test.js, delivery-note.md built; 6 of 6 tests passed, exit 0.",
-   "currentTask": "SYSB-T3 generic build complete",
-   "lastHeartbeat": "2026-11-26T08:09:42.000Z",
-   "observedAt": "2026-11-26T08:09:42.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
