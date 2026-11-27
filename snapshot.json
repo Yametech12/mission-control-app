@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:57:00.000Z",
- "summary": "GT-172 sprint complete: all 3 ledgers PASS hash-chain verification read-only; pooled closed still 0 fleet / 0 expansion; 2 throughput proposals filed; app-side items blocked (owner browser offline), Manus change UNVERIFIED.",
+ "generatedAt": "2026-11-27T09:52:18.000Z",
+ "summary": "Routing panel 625 complete: all 5 picks filed, each 6-2.",
  "agents": [
   {
    "agentId": null,
@@ -2621,6 +2621,20 @@
    "category": "trading"
   },
   {
+   "agentId": "team-routing-panel-625",
+   "name": "Routing Panel 625",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel 625",
+   "detail": "Routing panel 625 complete: all 5 picks filed 6-2 (Systems Builder, Money Researcher, Data Engineer, Cron Fleet Manager, Site Builder).",
+   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-27T09:52:18.000Z",
+   "observedAt": "2026-11-27T09:52:18.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "typo-t1-judge-cycle-624",
    "name": "TYPO-T1 QA Judge",
    "role": "auditor",
@@ -3987,20 +4001,6 @@
    "title": "QA judge AIE-T1 (cycle 567)",
    "detail": "Filed: Candidate A 8.5 vs B 8.0, A wins. Contamination clean. Posted by cycle lead.",
    "currentTask": "AIE-T1 judgement filed",
-   "lastHeartbeat": "2026-11-26T21:13:00.000Z",
-   "observedAt": "2026-11-26T21:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "aie-t2-judge-567",
-   "name": "QA judge AIE-T2",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA judge AIE-T2 (cycle 567)",
-   "detail": "Filed: Candidate A 8.25 vs B 8.00, A wins. Contamination clean. Posted by cycle lead.",
-   "currentTask": "AIE-T2 judgement filed",
    "lastHeartbeat": "2026-11-26T21:13:00.000Z",
    "observedAt": "2026-11-26T21:13:00.000Z",
    "needsUser": false,
