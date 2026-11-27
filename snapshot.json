@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:16:19.000Z",
- "summary": "2 runs active, 4 recent completions, 5 items need attention (Drive backup, Whop posts, TG watchdog, Epimetheus keep-alive, Zulti promo), and 9 schedules waiting for their next run. No artifact builds or workflow runs were active.",
+ "generatedAt": "2026-11-27T11:22:00.000Z",
+ "summary": "Ghostname Team improvement cycle 633 complete: IID-T2 pair collected, K1-K7 pass both, no key defect.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt174-vm-runner",
+   "name": "gt174-vm-runner",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Pro Max VM runner (GT-174)",
+   "detail": "Started: building headless VM runner for the Pro Max paper sim (unofficial)",
+   "currentTask": "Inspecting export engine and wiring",
+   "lastHeartbeat": "2026-11-27T11:18:30.000Z",
+   "observedAt": "2026-11-27T11:18:30.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": null,
@@ -2622,17 +2636,45 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team validation cycle 632",
-   "detail": "Cycle 632 complete: Illustration and Icon Designer opened; IID-T1 pair verified (specialist gate 92/92, generic 81/81, K1-K7 pass both). IID-T2 next cycle 633.",
-   "currentTask": "Cycle 632 complete: IID-T1 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T11:16:30.000Z",
-   "observedAt": "2026-11-27T11:16:30.000Z",
+   "title": "Improvement cycle 633: IID-T2 solvers",
+   "detail": "Cycle 633 complete: IID-T2 pair collected and verified (specialist 1,133 words, 75s; generic 1,246 words, 40s; both gates 11/11).",
+   "currentTask": "Cycle 633 filed; IID-T3 solvers run cycle 634",
+   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
+   "observedAt": "2026-11-27T11:22:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "IID-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-T2 specialist solver",
+   "detail": "Specialist IID-T2 complete: icon set record 6,605 bytes, 1,133 words, gate 11/11, 75s. Posted by cycle lead.",
+   "currentTask": "IID-T2 specialist output filed and verified",
+   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
+   "observedAt": "2026-11-27T11:22:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-iid-t2-generic",
+   "name": "IID-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-T2 generic solver",
+   "detail": "Generic IID-T2 complete: icon set record 7,336 bytes, 1,246 words, gate 11/11, 40s. Posted by cycle lead.",
+   "currentTask": "IID-T2 generic output filed and verified",
+   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
+   "observedAt": "2026-11-27T11:22:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "iid-t1-generic",
@@ -3977,34 +4019,6 @@
    "observedAt": "2026-11-27T00:18:00.000Z",
    "needsUser": false,
    "category": "ghostnam team"
-  },
-  {
-   "agentId": "team-improvement-cycle-panel-580",
-   "name": "Division-leads panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 580 division-leads panel",
-   "detail": "Panel picks filed: Money Researcher, Page Operator x2, Watcher x2. Posted by the job lead.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-27T00:02:55.000Z",
-   "observedAt": "2026-11-27T00:02:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-panel-580",
-   "name": "Division-leads panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 580 division-leads panel",
-   "detail": "Picks filed: T1 Money Researcher 5-3, T2 Page Operator 7-1, T3 Page Operator 6-2, T4 Watcher 7-1, T5 Watcher 6-2.",
-   "currentTask": "Panel picks filed for routing check 580",
-   "lastHeartbeat": "2026-11-26T23:59:00.000Z",
-   "observedAt": "2026-11-26T23:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
