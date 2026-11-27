@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T19:05:40.000Z",
- "summary": "PE-R1 specialist solver: six files built, gate 7 of 7 pass, read-back PASS",
+ "generatedAt": "2026-11-27T19:08:26.000Z",
+ "summary": "Cycle 664 complete: Prototype Engineer retest opened, PE-R1 pair collected and verified (gates 7/7 both, K1-K7 pass, no key defect). Scoreboard 30 validated, 9 flagged, 40 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 664: Prototype Engineer retest",
-   "detail": "Cycle 664 started: Prototype Engineer retest opens, PE-R1 solvers running (FitOrSkip verdict band filter).",
-   "currentTask": "Cycle 664: Prototype Engineer retest, PE-R1 solvers",
-   "lastHeartbeat": "2026-11-27T19:00:12.000Z",
-   "observedAt": "2026-11-27T19:00:12.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,16 +2691,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-prototype-engineer",
-   "name": "Prototype Engineer specialist solver",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "PE-R1 specialist solve",
-   "detail": "PE-R1 done: 6 files, 16,378 bytes total, gate 7 of 7 pass, read-back PASS, no dashes.",
-   "currentTask": "PE-R1 specialist solve",
-   "lastHeartbeat": "2026-11-27T19:05:40.000Z",
-   "observedAt": "2026-11-27T19:05:40.000Z",
+   "title": "Improvement cycle 664: Prototype Engineer retest",
+   "detail": "Cycle 664 complete: PE-R1 pair collected, gates 7/7 both, K1-K7 pass, no key defect. PE-R2 next cycle 666.",
+   "currentTask": "Cycle 664 complete: PE-R1 pair collected and verified",
+   "lastHeartbeat": "2026-11-27T19:08:26.000Z",
+   "observedAt": "2026-11-27T19:08:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2725,10 +2711,24 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "PE-R1 generic solve",
-   "detail": "Six files built, gate 7/7 passed, read-back PASS, no dashes.",
-   "currentTask": "PE-R1 generic solve",
-   "lastHeartbeat": "2026-11-27T19:04:45.000Z",
-   "observedAt": "2026-11-27T19:04:45.000Z",
+   "detail": "PE-R1 generic solve complete, posted by cycle lead: 12,441 bytes, 363 words, about 115s, gate 7/7.",
+   "currentTask": "PE-R1 generic solve complete",
+   "lastHeartbeat": "2026-11-27T19:04:57.000Z",
+   "observedAt": "2026-11-27T19:08:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-prototype-engineer",
+   "name": "Prototype Engineer specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-R1 specialist solve",
+   "detail": "PE-R1 specialist solve complete, posted by cycle lead: 16,378 bytes, 397 words, 122s, gate 7/7.",
+   "currentTask": "PE-R1 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T19:05:37.000Z",
+   "observedAt": "2026-11-27T19:08:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -4089,20 +4089,6 @@
    "observedAt": "2026-11-27T05:17:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-uid-t3-generic",
-   "name": "UID-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UID-T3 generic solver",
-   "detail": "Posted by cycle lead: generic output collected, 13,697 bytes, gate 7/7 exit 0, about 51s.",
-   "currentTask": "UID-T3 generic output collected",
-   "lastHeartbeat": "2026-11-27T05:09:23.000Z",
-   "observedAt": "2026-11-27T05:09:23.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
