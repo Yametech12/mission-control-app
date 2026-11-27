@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:22:00.000Z",
- "summary": "GT-173 safety audit complete: GO for the console port with two binding conditions (ledger-sourced Phase 1 counters; strip dead Gemini boilerplate). Tests 14/14 pass.",
+ "generatedAt": "2026-11-27T11:07:00.000Z",
+ "summary": "Cycle 632 started: Illustration and Icon Designer validation opened.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 632",
+   "detail": "Cycle 632 started: Illustration and Icon Designer (row 18, never tested) picked; filing 3 real icon tasks, then IID-T1 solver pair.",
+   "currentTask": "Cycle 632: opening Illustration and Icon Designer validation, filing IID-T1 to IID-T3",
+   "lastHeartbeat": "2026-11-27T11:07:00.000Z",
+   "observedAt": "2026-11-27T11:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2649,20 +2663,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 631: AIE retest 2 judging",
-   "detail": "FLAGGED: AIE retest 2 run 8.38 / 7.59, 2W 1L, net +0.79, not a clear win. Deciding defect AIE-S3 quota axis. Owner decision pending.",
-   "currentTask": "Cycle 631 complete: AIE flagged, filed in VALIDATION.md and Approval queue",
-   "lastHeartbeat": "2026-11-27T11:03:30.000Z",
-   "observedAt": "2026-11-27T11:03:30.000Z",
-   "needsUser": true,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-630",
    "name": "Routing panel 630",
    "role": "coordinator",
@@ -3987,6 +3987,20 @@
    "title": "QA judge AIE-R2",
    "detail": "Judge AIE-R2 done (posted by parent; judge snapshot failed on schema): generic win 8.50 vs 8.25, contamination clean.",
    "currentTask": "AIE-R2 judged, generic win 8.50 vs 8.25",
+   "lastHeartbeat": "2026-11-26T23:30:04.000Z",
+   "observedAt": "2026-11-26T23:30:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-aie-r3",
+   "name": "QA Judge AIE-R3",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA judge AIE-R3",
+   "detail": "Judge AIE-R3 done (posted by parent; judge also posted its own completion): specialist win 8.75 vs 8.00, contamination clean.",
+   "currentTask": "AIE-R3 judged, specialist win 8.75 vs 8.00",
    "lastHeartbeat": "2026-11-26T23:30:04.000Z",
    "observedAt": "2026-11-26T23:30:04.000Z",
    "needsUser": false,
