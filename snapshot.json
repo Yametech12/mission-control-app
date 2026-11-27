@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:43:36.000Z",
- "summary": "Cycle 624 complete: Typography Specialist judged 8.33 vs 8.08, card rewritten.",
+ "generatedAt": "2026-11-27T09:57:00.000Z",
+ "summary": "GT-172 sprint complete: all 3 ledgers PASS hash-chain verification read-only; pooled closed still 0 fleet / 0 expansion; 2 throughput proposals filed; app-side items blocked (owner browser offline), Manus change UNVERIFIED.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 625: routing check",
+   "detail": "Routing check 625 running: 5 fresh legs from GT-169, GT-170, GT-171; Coordinator picks sealing, panel next.",
+   "currentTask": "Routing check 625: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-27T09:47:30.000Z",
+   "observedAt": "2026-11-27T09:47:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,18 +2607,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "gt172-sprint",
+   "name": "gt172-sprint",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team validation loop cycle 624",
-   "detail": "Cycle 624 done: Typography Specialist 8.33 vs 8.08, 2 wins 1 loss, not a clear win; card rewritten (rewrite 1). Next routing check 625.",
-   "currentTask": "Cycle 624 complete: Typography Specialist judged, card rewritten",
-   "lastHeartbeat": "2026-11-27T09:43:36.000Z",
-   "observedAt": "2026-11-27T09:43:36.000Z",
+   "title": "GT-172 accuracy-first sprint (ledger verify + evidence audit)",
+   "detail": "Complete: Phase 1, fleet, expansion ledgers all PASS integrity (read-only). Pooled closed 0/300 fleet, 0 expansion. Proposals filed. App-side blocked: owner Chrome offline; Manus freshness claim UNVERIFIED.",
+   "currentTask": "Sprint complete; report GT-20261127-172 filed",
+   "lastHeartbeat": "2026-11-27T09:57:00.000Z",
+   "observedAt": "2026-11-27T09:57:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "typo-t1-judge-cycle-624",
