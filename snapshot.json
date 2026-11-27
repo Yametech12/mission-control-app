@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-27T22:16:24.000Z",
- "summary": "Cycle 678: Motion and 3D retest 1, M3D-R1 pair re-dispatched after cycle 677 timeout with no files written.",
+ "generatedAt": "2026-11-27T22:16:25.000Z",
+ "summary": "2 runs active now (Shadow Army, Ghostname Team), 7 recent completions, 8 scheduled slots today, and 2 attention items: memory backup failed 24 times and Zulti promo 3 times on the same spawn error.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures; last run Nov 27 at 23:26 PHT failed without a recorded reason, last success Nov 4.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T21:17:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
   {
    "agentId": null,
    "name": "TG session watchdog",
@@ -29,20 +15,6 @@
    "observedAt": "2026-11-27T21:16:25.000Z",
    "needsUser": true,
    "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run Nov 23 failed without a recorded reason, last success Nov 4; next run Mon Nov 30, 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T21:16:25.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -71,6 +43,20 @@
    "observedAt": "2026-11-27T18:16:19.000Z",
    "needsUser": false,
    "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 24 consecutive failures, last Nov 27 at 23:26 PHT, spawn error binding_retired; last success Nov 4.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T15:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -918,11 +904,25 @@
    "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "M3D-R1 specialist solver",
-   "detail": "M3D-R1 specialist solver started; reading GT112 story, timing, script, frames, mouth manifest, and engine code.",
-   "currentTask": "Reading GT112 inputs and building motion review",
-   "lastHeartbeat": "2026-11-28T06:03:30.000Z",
-   "observedAt": "2026-11-28T06:03:30.000Z",
+   "title": "M3D-R1 solver",
+   "detail": "M3D-R1 specialist solver started; reading role card, craft guide, task file and GT112 inputs.",
+   "currentTask": "Reading GT112 inputs, starting M3D-R1 specialist review",
+   "lastHeartbeat": "2026-11-28T06:18:00.000Z",
+   "observedAt": "2026-11-28T06:18:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-r1-generic",
+   "name": "M3D-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-R1 solver",
+   "detail": "M3D-R1 generic solver started: reading story, timing, script, frames, mouth manifest, engine code, build log.",
+   "currentTask": "Reading GT112 inputs, reviewing 36 frames and 12 shots",
+   "lastHeartbeat": "2026-11-27T22:17:28.000Z",
+   "observedAt": "2026-11-27T22:17:28.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
