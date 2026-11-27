@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:22:30.000Z",
- "summary": "Cycle 651 judging: Web Performance Engineer retest WPE-R1/R2/R3, three fresh QA judges blind.",
+ "generatedAt": "2026-11-27T15:34:35.000Z",
+ "summary": "GT-186 interim: Option A ruling applied and verified; pull running in background (PID 9619). 9 of 1000 pairs archived, 122,164 candles, 14 documented gaps, 0 drops, 0 rate events.",
  "agents": [
   {
    "agentId": null,
@@ -913,18 +913,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "auditor",
+   "agentId": "gt187-mumford-igyt",
+   "name": "gt187-mumford-igyt",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 651",
-   "detail": "Cycle 651 judging: Web Performance Engineer retest WPE-R1/R2/R3, three fresh QA judges blind.",
-   "currentTask": "Judging WPE retest pairs, cycle 651",
-   "lastHeartbeat": "2026-11-27T15:22:30.000Z",
-   "observedAt": "2026-11-27T15:22:30.000Z",
+   "title": "GT-187 Mumford IG and YT scheduling",
+   "detail": "Started. MD5s verified for MS-1 and MS-2. Checking Uplika accounts, quota, and staged media before scheduling.",
+   "currentTask": "Verifying Uplika accounts, quota, and staged media",
+   "lastHeartbeat": "2026-11-27T15:36:00.000Z",
+   "observedAt": "2026-11-27T15:36:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "clipping"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2627,9 +2627,9 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-186 raw 4h archive (top 1000)",
-   "detail": "Resumed under Option A: gaps verified absent on the API are documented per pair, never filled. Patching collector verify(), then restarting the pull.",
-   "currentTask": "Resuming raw archive pull under Option A gap ruling",
-   "lastHeartbeat": "2026-11-27T15:21:00.000Z",
+   "detail": "INTERIM: Option A applied; 9 of 1000 pairs archived (122,164 candles, 14 documented gaps), 0 drops, 0 rate events. Collector PID 9619 running in background; pull continues.",
+   "currentTask": "Background pull running: 9 of 1000 pairs archived under Option A",
+   "lastHeartbeat": "2026-11-27T15:34:35.000Z",
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
@@ -2731,6 +2731,62 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 651",
+   "detail": "Cycle 651 done: WPE retest judged 8.58 vs 8.08, 2W 1L, not a clear win; card rewritten a second time, standards 13-20 added.",
+   "currentTask": "Cycle 651 complete",
+   "lastHeartbeat": "2026-11-27T15:34:30.000Z",
+   "observedAt": "2026-11-27T15:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-r1-judge-651",
+   "name": "WPE-R1 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R1 blind judge, cycle 651",
+   "detail": "WPE-R1 judged: generic win 8.50 vs 8.25. Contamination clean. Judgement filed.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T15:26:39.000Z",
+   "observedAt": "2026-11-27T15:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-r2-judge-651",
+   "name": "WPE-R2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R2 blind judge, cycle 651",
+   "detail": "WPE-R2 judged: specialist win 8.50 vs 7.50. Contamination clean. Judgement filed.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T15:26:50.000Z",
+   "observedAt": "2026-11-27T15:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-r3-judge-651",
+   "name": "WPE-R3 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R3 blind judge, cycle 651",
+   "detail": "WPE-R3 judged: specialist win 9.00 vs 8.25. Contamination clean. Judgement filed.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T15:26:28.000Z",
+   "observedAt": "2026-11-27T15:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -4075,62 +4131,6 @@
    "observedAt": "2026-11-27T03:45:13.000Z",
    "needsUser": false,
    "category": "ghostnamem-team"
-  },
-  {
-   "agentId": "gt155-trading-improve",
-   "name": "gt155-trading-improve",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-155 trading bot setup improvement pass",
-   "detail": "Done: v2 watcher live on demand, hash-chain ledger verified, backtest gate completed, drills 3/3 pass. Watcher schedule ready to enable, needs owner yes.",
-   "currentTask": "Complete: improvement report filed",
-   "lastHeartbeat": "2026-11-27T03:44:00.000Z",
-   "observedAt": "2026-11-27T03:44:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt156-strategy-training",
-   "name": "gt156-strategy-training",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-156 Strategy Training Run",
-   "detail": "Complete. A-Revised FAIL: PF 1.355, 80 OOS trades, 93.3% ETH profit share. B FAIL: PF 1.444, 27 OOS trades, 90.1% BTC share, 7 of 10 neighbours profitable.",
-   "currentTask": "Completed GT-156 training report",
-   "lastHeartbeat": "2026-11-27T03:40:06.000Z",
-   "observedAt": "2026-11-27T03:40:06.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-prototype-engineer",
-   "name": "Prototype Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T2 specialist solver",
-   "detail": "Posted by cycle lead. PE-T2 specialist build complete: 6 files, 17,990 bytes, proof note 315 words, gate 7/7 exit 0, 152s, no first-draft corrections.",
-   "currentTask": "PE-T2 specialist build complete",
-   "lastHeartbeat": "2026-11-27T03:34:47.000Z",
-   "observedAt": "2026-11-27T03:38:26.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt154-trading-plan",
-   "name": "gt154-trading-plan",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-154 personal trading bot plan",
-   "detail": "Complete: trading-bot-plan.md filed. VM default (PHP 0/month), Pi option PHP 9,000 to 13,500 one-time plus PHP 50 to 100/month. Awaiting owner decisions.",
-   "currentTask": "Plan delivered",
-   "lastHeartbeat": "2026-11-27T03:36:00.000Z",
-   "observedAt": "2026-11-27T03:36:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
