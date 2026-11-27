@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:00:56.000Z",
- "summary": "Ghostname Team improvement cycle 645: routing check (101st) in progress, 5 fresh Nov 27 legs.",
+ "generatedAt": "2026-11-27T14:06:44.000Z",
+ "summary": "Routing check cycle 645 panel: picks filed in panel-picks.md.",
  "agents": [
   {
    "agentId": null,
@@ -869,6 +869,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt178-kronos-colab",
+   "name": "gt178-kronos-colab",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-178 Kronos Colab notebook",
+   "detail": "GT-178 started: building self-contained Colab notebook for the Kronos gauntlet (GPU runtime, frozen registration spec).",
+   "currentTask": "Aligning to GT-177 frozen registration; authoring Colab notebook",
+   "lastHeartbeat": "2026-11-27T14:06:00.000Z",
+   "observedAt": "2026-11-27T14:06:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt177-kronos-gauntlet",
+   "name": "gt177-kronos-gauntlet",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-177 Kronos Phase 0 gauntlet",
+   "detail": "Started: setting up CPU inference env and benchmarking Kronos before freezing the pre-registration.",
+   "currentTask": "Env setup: venv, torch CPU install, Kronos repo clone, speed benchmark",
+   "lastHeartbeat": "2026-11-27T14:05:00.000Z",
+   "observedAt": "2026-11-27T14:05:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2663,6 +2691,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-panel-645",
+   "name": "routing-panel-645",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 645 panel",
+   "detail": "Panel picks filed: one specialist named per task with verbatim triggers.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T14:06:44.000Z",
+   "observedAt": "2026-11-27T14:06:44.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt175-trained-ai-scout",
    "name": "gt175-trained-ai-scout",
    "role": "researcher",
@@ -4044,20 +4086,6 @@
    "detail": "WPE-T3 generic solve complete, posted by the parent: budget-audit 6,371 bytes, 1,113 words, gate 7/7, about 60s. (posted by the job lead)",
    "currentTask": "WPE-T3 generic solve complete",
    "lastHeartbeat": "2026-11-27T02:29:03.000Z",
-   "observedAt": "2026-11-27T02:31:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-wpe-t3-specialist",
-   "name": "WPE-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T3 specialist solver",
-   "detail": "WPE-T3 specialist solve complete, posted by the parent: budget-audit 6,578 bytes, 1,120 words, gate 7/7, about 124s. (posted by the job lead)",
-   "currentTask": "WPE-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T02:29:10.000Z",
    "observedAt": "2026-11-27T02:31:41.000Z",
    "needsUser": false,
    "category": "ghostname-team"
