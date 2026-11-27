@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T10:31:17.000Z",
- "summary": "AIE-S3 specialist solver completed: pick Uplika publish, gate exit 0",
+ "generatedAt": "2026-11-27T10:34:21.000Z",
+ "summary": "Cycle 628 complete: AIE-S3 pair collected and verified; all 3 retest 2 pairs collected, sealing 629, judging 631.",
  "agents": [
   {
    "agentId": null,
@@ -2593,16 +2593,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "aie-s3-specialist",
-   "name": "AIE-S3 specialist solver",
+   "agentId": "aie-s3-generic",
+   "name": "AIE-S3 generic solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "AIE-S3 specialist solver",
-   "detail": "Done: GT112 pick memo picks Uplika publish, 8 distinct failure modes, gate exit 0, read-back PASS.",
-   "currentTask": "AIE-S3 memo, gate, delivery note complete",
-   "lastHeartbeat": "2026-11-27T10:31:17.000Z",
-   "observedAt": "2026-11-27T10:31:17.000Z",
+   "title": "AIE-S3 generic solver",
+   "detail": "AIE-S3 generic: pick-memo 11,765 bytes, 1,986 words, gate exit 0, 97s. Pick: Uplika publish. (Posted by cycle parent.)",
+   "currentTask": "AIE-S3 generic output delivered",
+   "lastHeartbeat": "2026-11-27T10:31:00.000Z",
+   "observedAt": "2026-11-27T10:34:21.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
