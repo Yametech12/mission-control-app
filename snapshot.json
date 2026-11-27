@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:53:55.000Z",
- "summary": "Cycle 652 complete: Moment Hunter validation opened, MH-T1 pair collected and verified.",
+ "generatedAt": "2026-11-27T16:01:37.000Z",
+ "summary": "MH-T2 generic solver complete: 10 ranked candidates, gate passed 112 checks, delivery note READ-BACK PASS.",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 653",
+   "detail": "Cycle 653 started: MH-T2 solvers (Moment Hunter, Lacy marathon mine). Specialist and generic runs in progress.",
+   "currentTask": "MH-T2 solvers: specialist and generic",
+   "lastHeartbeat": "2026-11-27T15:57:00.000Z",
+   "observedAt": "2026-11-27T15:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mh-t2-specialist",
+   "name": "MH-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "MH-T2 specialist solver",
+   "detail": "Moment Hunter specialist solving MH-T2 (Lacy marathon mine) from its role card. Posted by the cycle lead.",
+   "currentTask": "Solving MH-T2 from the Moment Hunter card",
+   "lastHeartbeat": "2026-11-27T15:57:00.000Z",
+   "observedAt": "2026-11-27T15:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2719,20 +2747,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 652: Moment Hunter validation",
-   "detail": "Cycle 652 complete: Moment Hunter validation opened; MH-T1 pair collected, both gates exit 0, K1-K7 pass both, no key defect.",
-   "currentTask": "Cycle 652 complete: MH-T1 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T15:53:55.000Z",
-   "observedAt": "2026-11-27T15:53:55.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
    "agentId": "team-moment-hunter",
    "name": "Moment Hunter MH-T1 generic solver",
    "role": "builder",
@@ -4115,6 +4129,20 @@
    "currentTask": "Done: verification and snapshot 1 written to track file and GT-161",
    "lastHeartbeat": "2026-11-27T04:08:00.000Z",
    "observedAt": "2026-11-27T04:08:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt159-account-manager",
+   "name": "gt159-account-manager",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-159 Account Manager build + MEXC Team playbook",
+   "detail": "Complete. Engine in WATCH mode (no Phase 0 PASS on record); drills A to D PASS; shadow mode isolated in its own labelled ledger; deliverable at GT-20261127-159-reports/account-manager-report.md.",
+   "currentTask": "Complete: report delivered",
+   "lastHeartbeat": "2026-11-27T03:52:00.000Z",
+   "observedAt": "2026-11-27T03:52:00.000Z",
    "needsUser": false,
    "category": "trading"
   }
