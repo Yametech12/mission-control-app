@@ -1,20 +1,34 @@
 {
- "generatedAt": "2026-11-27T16:15:41.000Z",
- "summary": "MH-T3 generic solver complete, gate passed",
+ "generatedAt": "2026-11-27T16:18:00.000Z",
+ "summary": "Cycle 654 complete: Moment Hunter MH-T3 pair collected and verified, all three pairs now in hand.",
  "agents": [
   {
    "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
+   "name": "TG session watchdog (auto re-login)",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed 8 times in a row; last run failed Nov 26 19:05, last success Nov 2. Next attempt Nov 29 19:05.",
+   "title": "TG session watchdog (auto re-login)",
+   "detail": "ATTENTION: blocked, 99 consecutive failures. The WhatsApp chat it posts to can no longer receive results; last success Oct 6. Needs the delivery chat restored or moved.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:17:13.000Z",
-   "needsUser": false,
-   "category": "Monitoring"
+   "observedAt": "2026-11-27T16:16:47.000Z",
+   "needsUser": true,
+   "category": "Messaging"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts (5h)",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts (5h)",
+   "detail": "ATTENTION: blocked, 97 consecutive failures. The WhatsApp chat it posts to can no longer receive results; last success Nov 3. Needs the delivery chat restored or moved.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T16:16:47.000Z",
+   "needsUser": true,
+   "category": "Clipping"
   },
   {
    "agentId": null,
@@ -23,40 +37,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 23 times in a row; last run failed Nov 26 23:26, last success Nov 4. Next attempt 23:30 tonight.",
+   "detail": "ATTENTION: 24 consecutive failures; last success Nov 4. Last run Nov 27, 23:30 PHT failed at spawn with a retired binding error. Next try 23:30 PHT today.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:17:13.000Z",
+   "observedAt": "2026-11-27T15:26:48.000Z",
    "needsUser": false,
    "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results; 99 consecutive failures, last success Oct 6. Needs the delivery chat fixed or moved.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:17:13.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results; 97 consecutive failures, last success Nov 3. Needs the delivery chat fixed or moved.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:17:13.000Z",
-   "needsUser": true,
-   "category": "Posting"
   },
   {
    "agentId": null,
@@ -99,20 +85,6 @@
    "observedAt": "2026-11-27T14:24:00.000Z",
    "needsUser": true,
    "category": "trading"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run Nov 23 failed with no recorded reason.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T12:16:11.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": "gt175-mumford-run",
@@ -183,6 +155,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive (3 days)",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive (3 days)",
+   "detail": "ATTENTION: 8 consecutive failures; last success Nov 2. Last run Nov 26, 19:05 PHT failed with no recorded reason. Next try Nov 29, 7:05 PM PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -2577,20 +2563,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "Audit"
-  },
-  {
-   "agentId": "gt182-own-model-training",
-   "name": "GT-182 Own-Model Training",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-182 Own-model training spec + train",
-   "detail": "Training started 15:00 UTC after hash verification passed. Grid: 16 HistGB configs x 2 thresholds on train split; validation selection, walk-forward, baselines, 2x stress to follow in the same run.",
-   "currentTask": "Training 32 frozen trials on GT-179 v1 train split",
-   "lastHeartbeat": "2026-11-27T15:01:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "MEXC Team"
   },
   {
    "agentId": "gt186-raw-archive",
