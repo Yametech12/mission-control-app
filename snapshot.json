@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T20:41:26.000Z",
- "summary": "Cycle 671 complete: Prototype Engineer retest 2 opened, PE-S1 pair collected and verified.",
+ "generatedAt": "2026-11-27T20:46:31.000Z",
+ "summary": "PE-S2 generic side done: 6 files built, gate 7/7, read-back PASS, 0 corrections.",
  "agents": [
   {
    "agentId": null,
@@ -2691,20 +2691,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 671",
-   "detail": "Cycle 671 complete: PE retest 2 opened, PE-S1 pair verified (gates 7/7 both, K1-K7 pass, no key defect).",
-   "currentTask": "Cycle 671 complete: PE-S1 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T20:41:26.000Z",
-   "observedAt": "2026-11-27T20:41:26.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
    "agentId": "pe-s1-generic",
    "name": "PE-S1 generic solver",
    "role": "builder",
@@ -4086,6 +4072,20 @@
    "detail": "Posted by the cycle lead: generic audit 7,361 bytes / 1,249 words, gate exit 0, 7/7, READ-BACK: PASS, about 109s.",
    "currentTask": "BID-T1 generic audit done",
    "lastHeartbeat": "2026-11-27T07:22:49.000Z",
+   "observedAt": "2026-11-27T07:24:34.000Z",
+   "needsUser": false,
+   "category": "ghostame-team"
+  },
+  {
+   "agentId": "team-bid-t1-specialist",
+   "name": "BID-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T1 specialist solver",
+   "detail": "Posted by the cycle lead: specialist audit 14,894 bytes / 2,537 words, gate exit 0, 7/7, READ-BACK: PASS, 169s.",
+   "currentTask": "BID-T1 specialist audit done",
+   "lastHeartbeat": "2026-11-27T07:23:47.000Z",
    "observedAt": "2026-11-27T07:24:34.000Z",
    "needsUser": false,
    "category": "ghostame-team"
