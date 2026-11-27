@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T19:00:12.000Z",
- "summary": "Cycle 664 running: Prototype Engineer retest opens with PE-R1 solvers.",
+ "generatedAt": "2026-11-27T19:05:40.000Z",
+ "summary": "PE-R1 specialist solver: six files built, gate 7 of 7 pass, read-back PASS",
  "agents": [
   {
    "agentId": null,
@@ -2705,6 +2705,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-prototype-engineer",
+   "name": "Prototype Engineer specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-R1 specialist solve",
+   "detail": "PE-R1 done: 6 files, 16,378 bytes total, gate 7 of 7 pass, read-back PASS, no dashes.",
+   "currentTask": "PE-R1 specialist solve",
+   "lastHeartbeat": "2026-11-27T19:05:40.000Z",
+   "observedAt": "2026-11-27T19:05:40.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "pe-r1-generic-solver",
+   "name": "PE-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-R1 generic solve",
+   "detail": "Six files built, gate 7/7 passed, read-back PASS, no dashes.",
+   "currentTask": "PE-R1 generic solve",
+   "lastHeartbeat": "2026-11-27T19:04:45.000Z",
+   "observedAt": "2026-11-27T19:04:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE Page Comment Watcher",
    "role": "monitor",
@@ -4075,34 +4103,6 @@
    "observedAt": "2026-11-27T05:09:23.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-uid-t3-specialist",
-   "name": "UID-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UID-T3 specialist solver",
-   "detail": "Posted by cycle lead: specialist output collected, 23,510 bytes, gate 7/7 exit 0, about 86s.",
-   "currentTask": "UID-T3 specialist output collected",
-   "lastHeartbeat": "2026-11-27T05:09:23.000Z",
-   "observedAt": "2026-11-27T05:09:23.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-ui-designer-generic",
-   "name": "Generic solver UID-T2",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UI Designer UID-T2 generic",
-   "detail": "UID-T2 generic done: 14,735 bytes, 218 words, 188s, gate 7/7 pass. Posted by cycle parent.",
-   "currentTask": "UID-T2 generic complete",
-   "lastHeartbeat": "2026-11-27T05:02:09.000Z",
-   "observedAt": "2026-11-27T05:02:09.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
   }
  ]
 }
