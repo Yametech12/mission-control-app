@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T08:16:11.000Z",
- "summary": "1 run active, 13 scheduled or completed items healthy, and 6 attention items: Shadow Army freshness failed 13 times, TG and Whop delivery is blocked, plus repeated backup, keep-alive and Zulti failures. No artifact builds or workflow runs.",
+ "generatedAt": "2026-11-27T08:26:30.000Z",
+ "summary": "Cycle 618: Brand Identity Designer judging in progress.",
  "agents": [
   {
    "agentId": null,
@@ -815,18 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt167-coordinator",
-   "name": "gt167-phase1-opening",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-167 Phase 1 opening (MEXC Team)",
-   "detail": "GT-167 milestone: Phase 1 registration frozen, GT-158 PASS recorded in both verdict gates, first cycle ran end to end (mode ARMED, ledger integrity OK, head b7c58b24). Cadence and console update next.",
-   "currentTask": "First Phase 1 cycle complete (ARMED, no fills); wiring cadence and console update",
-   "lastHeartbeat": "2026-11-27T08:17:00.000Z",
-   "observedAt": "2026-11-27T08:17:00.000Z",
+   "title": "Ghostname Team validation cycle 618",
+   "detail": "Cycle 618 judging Brand Identity Designer: three fresh QA judges scoring sealed BID-T1 to BID-T3 pairs blind.",
+   "currentTask": "Cycle 618: judging Brand Identity Designer BID-T1 to BID-T3",
+   "lastHeartbeat": "2026-11-27T08:26:30.000Z",
+   "observedAt": "2026-11-27T08:26:30.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,18 +2593,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "gt167-coordinator",
+   "name": "gt167-phase1-opening",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 617: Brand Identity Designer sealing",
-   "detail": "SEAL_OK first run: 18 neutral files, 0 identity hits, originals unchanged; all six neutral gates exit 0. Judging cycle 618.",
-   "currentTask": "Cycle 617 complete; judging cycle 618 next",
-   "lastHeartbeat": "2026-11-27T08:12:18.000Z",
-   "observedAt": "2026-11-27T08:12:18.000Z",
+   "title": "GT-167 Phase 1 opening (MEXC Team)",
+   "detail": "GT-167 COMPLETE: Phase 1 opened for the GT-158 PASS config. First cycle 16:14 PHT: all 8 pairs DO_NOTHING, no fills, ledger OK head b7c58b24. Cadence and console updated.",
+   "currentTask": "Complete: Phase 1 opened, first cycle verified, cadence live, console updated",
+   "lastHeartbeat": "2026-11-27T08:23:00.000Z",
+   "observedAt": "2026-11-27T08:23:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "gt166-coordinator",
