@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:55:54.000Z",
- "summary": "WPE-T2 specialist solver working: writing the Liquid Premium v3 performance report",
+ "generatedAt": "2026-11-27T02:00:37.000Z",
+ "summary": "WPE-T2 specialist solver done: report shipped, gate 8/8 passed, verdict NOT VERIFIED as a device result",
  "agents": [
   {
    "agentId": null,
@@ -813,34 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-web-performance-engineer",
-   "name": "Web Performance Engineer",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-T2 specialist solver",
-   "detail": "WPE-T2 specialist solver working: writing the Liquid Premium v3 performance report from the GT-14 record",
-   "currentTask": "WPE-T2 specialist solve",
-   "lastHeartbeat": "2026-11-27T01:55:54.000Z",
-   "observedAt": "2026-11-27T01:55:54.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-T2 generic solver",
-   "detail": "WPE-T2 generic solver working on Liquid Premium v3 report, gate, and delivery note",
-   "currentTask": "WPE-T2 generic solve",
-   "lastHeartbeat": "2026-11-27T01:55:40.000Z",
-   "observedAt": "2026-11-27T01:55:40.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2565,6 +2537,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-web-performance-engineer",
+   "name": "Web Performance Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T2 specialist solver",
+   "detail": "WPE-T2 specialist solver done: report shipped, gate 8/8 passed, frame time OVER BUDGET on emulator measure",
+   "currentTask": "WPE-T2 specialist solve",
+   "lastHeartbeat": "2026-11-27T02:00:37.000Z",
+   "observedAt": "2026-11-27T02:00:37.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T2 generic solver",
+   "detail": "WPE-T2 generic solve done: report, gate.js 8/8 PASS, delivery note, read-back PASS",
+   "currentTask": "WPE-T2 generic solve",
+   "lastHeartbeat": "2026-11-27T01:57:49.000Z",
+   "observedAt": "2026-11-27T01:57:49.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-wpe-t1-specialist",
    "name": "WPE-T1 specialist solver",
    "role": "builder",
@@ -3933,34 +3933,6 @@
    "currentTask": "AB-T3 generic solve complete (posted by parent)",
    "lastHeartbeat": "2026-11-26T09:27:41.000Z",
    "observedAt": "2026-11-26T09:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ab-t3-specialist-solver",
-   "name": "AB-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T3 specialist solve",
-   "detail": "AB-T3 specialist solve complete (posted by parent): runbook 4,141 bytes / 687 words, workflow 1,137, handoff 1,270, gate 3,544, 67s, gate exit 0.",
-   "currentTask": "AB-T3 specialist solve complete (posted by parent)",
-   "lastHeartbeat": "2026-11-26T09:27:56.000Z",
-   "observedAt": "2026-11-26T09:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-app-builder",
-   "name": "app-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "App Builder AB-T2 specialist solve",
-   "detail": "Specialist AB-T2 solve complete: build note 1,785 bytes / 304 words, gate 23 assertions passed. Posted by job lead.",
-   "currentTask": "AB-T2 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T09:12:00.000Z",
-   "observedAt": "2026-11-26T09:12:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
