@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:01:37.000Z",
- "summary": "TYPO-T2 generic solver started",
+ "generatedAt": "2026-11-27T09:20:00.000Z",
+ "summary": "GT-170 milestone: data complete for 13 pairs x 3 timeframes; running the 1,248-config grid.",
  "agents": [
   {
    "agentId": null,
@@ -815,46 +815,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt169-coordinator",
-   "name": "GT-169 Coordinator (MEXC Team)",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-169 Plan B Shadow Fleet launch",
-   "detail": "GT-169 milestone: fleet engine live, first cycle 149 candles, 5 paper entries, 0 closed, ledger OK; Phase 1 proven untouched; crons wired (trading-observe-4h updated, F6 hourly and fleet weekly added)",
-   "currentTask": "Fleet live and verified; console Shadow Fleet panel edit in flight",
-   "lastHeartbeat": "2026-11-27T09:04:00.000Z",
-   "observedAt": "2026-11-27T09:04:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
    "agentId": "gt170-coordinator",
    "name": "gt170-coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "GT-170 Candle Pattern Research Blitz",
-   "detail": "Started: rules read (lane skill, GT-157, GT-169 registration); building causal pattern engine.",
-   "currentTask": "Data sourcing: MEXC klines for 13 pairs x 3 timeframes",
-   "lastHeartbeat": "2026-11-27T09:01:00.000Z",
-   "observedAt": "2026-11-27T09:01:00.000Z",
+   "detail": "Milestone: data fetched (MEXC API + lane 4h archive); running 8 patterns x 13 pairs x 3 TF x 2 filters x 2 exits = 1,248 trials.",
+   "currentTask": "Running the full pattern grid",
+   "lastHeartbeat": "2026-11-27T09:20:00.000Z",
+   "observedAt": "2026-11-27T09:20:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 621 started: Typography Specialist TYPO-T2 solver pair running",
-   "currentTask": "Cycle 621: Typography Specialist TYPO-T2 solver pair",
-   "lastHeartbeat": "2026-11-27T09:00:36.000Z",
-   "observedAt": "2026-11-27T09:00:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2425,20 +2397,6 @@
    "category": "pandorabook"
   },
   {
-   "agentId": "team-typography-generic",
-   "name": "Typography Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "TYPO-T2 generic solver running",
-   "detail": "TYPO-T2 generic solver started: reading task and named inputs, measuring live fonts and index counts.",
-   "currentTask": "TYPO-T2 generic solver: Hapsay type decision record",
-   "lastHeartbeat": "2026-11-27T09:01:37.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2635,6 +2593,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 621 done: TYPO-T2 pair collected, both gates 7/7, K1-K7 pass both; TYPO-T3 next",
+   "currentTask": "Cycle 621 complete: TYPO-T2 pair collected and verified",
+   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
+   "observedAt": "2026-11-27T09:06:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "team-typography-specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Typography Specialist TYPO-T2",
+   "detail": "TYPO-T2 specialist: 13,821 bytes, 1,228 words, 160s, gate 7/7 (posted by cycle lead)",
+   "currentTask": "TYPO-T2 specialist output collected",
+   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
+   "observedAt": "2026-11-27T09:06:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-typography-generic",
+   "name": "team-typography-generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Typography generic TYPO-T2",
+   "detail": "TYPO-T2 generic: 12,201 bytes, 1,262 words, 164s, gate 7/7 (posted by cycle lead)",
+   "currentTask": "TYPO-T2 generic output collected",
+   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
+   "observedAt": "2026-11-27T09:06:20.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt169-coordinator",
+   "name": "GT-169 Coordinator (MEXC Team)",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-169 Plan B Shadow Fleet launch",
+   "detail": "GT-169 COMPLETE: Plan B Shadow Fleet live (19 soldiers + Auditor + Guardian), first cycle 149 candles, 5 paper entries, 0 closed of 300, verdict COLLECTING, Phase 1 untouched, console panel verified",
+   "currentTask": "GT-169 complete: Plan B Shadow Fleet launched and verified",
+   "lastHeartbeat": "2026-11-27T09:05:00.000Z",
+   "observedAt": "2026-11-27T09:05:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "routing-check-620-panel",
    "name": "Routing Check 620 Panel",
    "role": "auditor",
@@ -2672,20 +2686,6 @@
    "detail": "TYPO-T1 generic solver complete (posted by run lead): type record 13,041 bytes, gate 7/7, READ-BACK PASS.",
    "currentTask": "TYPO-T1 generic solver complete",
    "lastHeartbeat": "2026-11-27T08:42:58.000Z",
-   "observedAt": "2026-11-27T08:47:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-typography-specialist",
-   "name": "Typography Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T1 specialist solver",
-   "detail": "TYPO-T1 specialist solver complete (posted by run lead): type record 13,220 bytes, gate 7/7, READ-BACK PASS.",
-   "currentTask": "TYPO-T1 specialist solver complete",
-   "lastHeartbeat": "2026-11-27T08:43:00.000Z",
    "observedAt": "2026-11-27T08:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
@@ -3989,48 +3989,6 @@
    "currentTask": "AIE-T1 connector inventory re-audit",
    "lastHeartbeat": "2026-11-26T20:09:09.000Z",
    "observedAt": "2026-11-26T20:09:09.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-panel",
-   "name": "Division-leads panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 560 panel",
-   "detail": "Panel item carried by parent: routing check 560 panel picks filed (Watcher 7-1, Cron Fleet Manager 5-3, Knowledge Manager 5-3, DevOps and Release Engineer 6-2, API Integration Engineer 7-1).",
-   "currentTask": "Panel picks filed for cycle 560",
-   "lastHeartbeat": "2026-11-26T19:32:48.000Z",
-   "observedAt": "2026-11-26T19:34:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-data-engineer",
-   "name": "Data Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DE-T3 specialist solve",
-   "detail": "DE-T3 specialist: 7,085/1,271/3,485 bytes, 1,185 words, 186s, gate 4/4, READ-BACK: PASS.",
-   "currentTask": "DE-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T19:10:20.000Z",
-   "observedAt": "2026-11-26T19:10:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-de-t3-generic",
-   "name": "DE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DE-T3 generic solve",
-   "detail": "DE-T3 generic: 6,419/1,241/2,817 bytes, 1,154 words, 108s, gate 4/4, READ-BACK: PASS.",
-   "currentTask": "DE-T3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T19:09:42.000Z",
-   "observedAt": "2026-11-26T19:09:42.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
