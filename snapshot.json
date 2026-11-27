@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:52:30.000Z",
- "summary": "Cycle 657: Moment Hunter judged 0-3, card rewritten.",
+ "generatedAt": "2026-11-27T17:02:00.000Z",
+ "summary": "Cycle 658: Web Performance Engineer retest 2 opened, WPE-S1 pair dispatched.",
  "agents": [
   {
    "agentId": null,
@@ -897,6 +897,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 658",
+   "detail": "Cycle 658 open: Web Performance Engineer retest 2 (rewrite 2, fail flags). WPE-S1 solvers dispatched.",
+   "currentTask": "Cycle 658: Web Performance Engineer retest 2, WPE-S1 pair",
+   "lastHeartbeat": "2026-11-27T17:02:00.000Z",
+   "observedAt": "2026-11-27T17:02:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-wpe-s1-generic",
+   "name": "WPE-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-S1 generic solver",
+   "detail": "WPE-S1 generic solve running (posted by cycle lead).",
+   "currentTask": "WPE-S1 generic solve: Liquid Premium v2 report",
+   "lastHeartbeat": "2026-11-27T17:02:00.000Z",
+   "observedAt": "2026-11-27T17:02:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-web-performance-engineer",
+   "name": "Web Performance Engineer",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-S1 specialist solver",
+   "detail": "WPE-S1 specialist solve running (posted by cycle lead).",
+   "currentTask": "WPE-S1 specialist solve: Liquid Premium v2 report",
+   "lastHeartbeat": "2026-11-27T17:02:00.000Z",
+   "observedAt": "2026-11-27T17:02:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2677,18 +2719,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "gt189-hypergrok-eval",
+   "name": "gt189-hypergrok-eval",
+   "role": "researcher",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 657",
-   "detail": "Cycle 657 done: Moment Hunter lost 0-3 to generic, 7.33 vs 8.17, card rewritten (rewrite 1) with standards 5-14. Three judges posted their own completion snapshots.",
-   "currentTask": "Cycle 657 complete: Moment Hunter judged, card rewritten",
-   "lastHeartbeat": "2026-11-27T16:52:30.000Z",
-   "observedAt": "2026-11-27T16:52:30.000Z",
+   "title": "GT-189 HyperGrok desk evaluation",
+   "detail": "Complete: evaluation.md filed. 7 adopt, 8 adapt, 7 reject. Standing mandate rejected (conflicts with lane gate 3); ticket lifecycle, unknown-result protocol, unavailable verdict and hashed data bundles adopted as proposals.",
+   "currentTask": "Complete: report filed at GT-20261128-189-reports/evaluation.md",
+   "lastHeartbeat": "2026-11-27T17:32:00.000Z",
+   "observedAt": "2026-11-27T17:32:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "mh-t3-judge",
