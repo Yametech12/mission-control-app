@@ -1,34 +1,20 @@
 {
- "generatedAt": "2026-11-27T10:15:35.000Z",
- "summary": "Cycle 626 complete: AIE retest 2 opened, AIE-S1 pair collected and verified.",
+ "generatedAt": "2026-11-27T10:21:00.000Z",
+ "summary": "AIE-S2 generic solver complete: gate 7/7 PASS",
  "agents": [
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Epimetheus Supabase keep-alive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Failed 16:34 PHT, 96 consecutive failures, blocked because its WhatsApp chat cannot receive results. Needs the chat restored or delivery moved.",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 8 consecutive failures. Last run failed Thu 19:05 PHT; last success Nov 2. Next run Sun 19:05 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T09:16:25.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked, 98 consecutive failures, its WhatsApp chat cannot receive results. Last success Oct 6. Needs the chat restored or delivery moved.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T09:16:25.000Z",
-   "needsUser": true,
-   "category": "Telegram"
+   "observedAt": "2026-11-27T10:16:26.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -37,12 +23,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 26 23:30 PHT, 23 consecutive failures since last success Nov 4. Spawn rejected before execution; backup did not run.",
+   "detail": "Attention: 23 consecutive failures. Last run failed Thu 23:26 PHT; last success was Nov 4. Next run tonight 23:30 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T09:16:25.000Z",
-   "needsUser": false,
+   "observedAt": "2026-11-27T10:16:26.000Z",
+   "needsUser": true,
    "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Attention: blocked, 98 consecutive failures. The chat it posts to can no longer receive results; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T10:16:26.000Z",
+   "needsUser": true,
+   "category": "Telegram"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Attention: blocked, 96 consecutive failures. The chat it posts to can no longer receive results; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T10:16:26.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -51,26 +65,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23 09:00 PHT, 3 consecutive failures, last success Nov 4. Spawn rejected before execution; promo check did not run.",
+   "detail": "Attention: 3 consecutive failures. Last run failed Mon Nov 23, 08:56 PHT; last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T09:16:25.000Z",
+   "observedAt": "2026-11-27T10:16:26.000Z",
    "needsUser": false,
    "category": "Zulti"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed Nov 26 19:05 PHT, 8 consecutive failures, last success Nov 2. Spawn rejected before execution; keep-alive did not run.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T09:16:25.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 627",
+   "detail": "Cycle 627 running: AIE-S2 solver pair dispatched (specialist + generic), Pod form record.",
+   "currentTask": "Cycle 627: AIE-S2 solvers running",
+   "lastHeartbeat": "2026-11-27T10:17:00.000Z",
+   "observedAt": "2026-11-27T10:17:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,6 +2607,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-aie-s2-generic",
+   "name": "AIE-S2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-S2 generic solver",
+   "detail": "AIE-S2 generic done: gate 7/7 PASS, read-back PASS, landing live HTTP 200.",
+   "currentTask": "AIE-S2 generic done: gate 7/7 PASS, read-back PASS",
+   "lastHeartbeat": "2026-11-27T10:21:00.000Z",
+   "observedAt": "2026-11-27T10:21:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-aie-s2-specialist",
+   "name": "AIE-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-S2 Ghostname Pod form integration record",
+   "detail": "Done: record + gate 7/7 pass + delivery note, READ-BACK PASS, live root 200, 18 distinct modes.",
+   "currentTask": "Complete: gate 7/7, READ-BACK PASS",
+   "lastHeartbeat": "2026-11-27T10:20:15.000Z",
+   "observedAt": "2026-11-27T10:20:15.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-api-integration-engineer-s1-generic",
    "name": "API Integration Engineer S1 Generic",
    "role": "builder",
@@ -2616,20 +2658,6 @@
    "detail": "AIE-S1 specialist: 16,887/2,125/3,997 bytes, 2,750 words, gate 7/7, READ-BACK PASS.",
    "currentTask": "AIE-S1 specialist output collected and verified",
    "lastHeartbeat": "2026-11-27T10:13:19.000Z",
-   "observedAt": "2026-11-27T10:15:35.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team Improvement Cycle 626",
-   "detail": "Cycle 626 complete: AIE retest 2 opened, AIE-S1 pair collected and verified, no verdict yet.",
-   "currentTask": "Cycle 626 complete: AIE retest 2 opened, AIE-S1 pair collected",
-   "lastHeartbeat": "2026-11-27T10:15:35.000Z",
    "observedAt": "2026-11-27T10:15:35.000Z",
    "needsUser": false,
    "category": "ghostname-team"
@@ -3977,20 +4005,6 @@
    "observedAt": "2026-11-26T22:41:50.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-aie-r1-generic",
-   "name": "AIE-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-R1 generic solver",
-   "detail": "AIE-R1 generic complete (carried by parent): record 11,968 bytes, 2,030 words, about 103s, gate exit 0, READ-BACK: PASS.",
-   "currentTask": "AIE-R1 ClinicFlow Connect integration record",
-   "lastHeartbeat": "2026-11-26T22:25:43.000Z",
-   "observedAt": "2026-11-26T22:28:52.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
   }
  ]
 }
