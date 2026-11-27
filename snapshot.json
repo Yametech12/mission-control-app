@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:18:57.000Z",
- "summary": "Cycle 595 routing check running",
+ "generatedAt": "2026-11-27T03:36:00.000Z",
+ "summary": "GT-154 trading bot plan complete: VM recommended now, Pi as later upgrade; 5 phases, 12 to 21 build days plus 8-week paper run.",
  "agents": [
   {
    "agentId": null,
@@ -2579,6 +2579,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt154-trading-plan",
+   "name": "gt154-trading-plan",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-154 personal trading bot plan",
+   "detail": "Complete: trading-bot-plan.md filed. VM default (PHP 0/month), Pi option PHP 9,000 to 13,500 one-time plus PHP 50 to 100/month. Awaiting owner decisions.",
+   "currentTask": "Plan delivered",
+   "lastHeartbeat": "2026-11-27T03:36:00.000Z",
+   "observedAt": "2026-11-27T03:36:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "routing-check-595-panel",
+   "name": "Routing Check 595 Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 595 panel",
+   "detail": "Picks filed: RC-T1 User Researcher 5-3, RC-T2 Systems Builder 6-2, RC-T3 Architect 7-1, RC-T4 Money Researcher 6-2, RC-T5 Cron Fleet Manager 7-1.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T03:24:00.000Z",
+   "observedAt": "2026-11-27T03:24:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-pe-t1-generic",
    "name": "PE-T1 Generic",
    "role": "builder",
@@ -3949,34 +3977,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Thesis"
-  },
-  {
-   "agentId": "9f2bc792-63b3-4668-ad71-5146e120fdbc",
-   "name": "GT-146 CSE branding agent",
-   "role": "builder",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT-146: CSE Page branding and posting pro max",
-   "detail": "CSE Practice Hub PH branding and posting pro max complete; reports filed under GT-146.",
-   "currentTask": "CSE Practice Hub PH branding and posting pro max",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:31.000Z",
-   "needsUser": false,
-   "category": "CSE Page"
-  },
-  {
-   "agentId": "8e166725-3bfa-4b46-90ad-e44d0f529eb2",
-   "name": "CSE Page bio and pin agent",
-   "role": "poster",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "CSE Page short bio and pinned reel",
-   "detail": "Short bio set and how-to-order reel pinned on the CSE Page; verified live on the Page timeline.",
-   "currentTask": "Set CSE Page short bio and pin how-to-order reel",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:31.000Z",
-   "needsUser": false,
-   "category": "CSE Page"
   }
  ]
 }
