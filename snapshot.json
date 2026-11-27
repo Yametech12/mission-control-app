@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:19:39.000Z",
- "summary": "WPE-S2 specialist solver started: building Liquid Premium v3 recovery measurement record",
+ "generatedAt": "2026-11-27T17:26:05.000Z",
+ "summary": "WPE-S2 specialist solver complete: report, gate, and delivery note shipped, gate passed 7 of 7",
  "agents": [
   {
    "agentId": null,
@@ -911,34 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "wpe-s2-specialist-solver",
-   "name": "WPE-S2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-S2 specialist solver",
-   "detail": "Started: reading role card, skills, budget doc, GT-14 record, and WPE-S2 task brief",
-   "currentTask": "Reading WPE-S2 brief and sources, then building the three deliverable files",
-   "lastHeartbeat": "2026-11-27T17:19:39.000Z",
-   "observedAt": "2026-11-27T17:19:39.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "wpe-s2-generic-solver",
-   "name": "WPE-S2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-S2 generic solver",
-   "detail": "Generic solver started: reading task WPE-S2 and building the performance record.",
-   "currentTask": "Building WPE-S2 generic performance record",
-   "lastHeartbeat": "2026-11-27T17:19:31.000Z",
-   "observedAt": "2026-11-27T17:19:31.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2747,6 +2719,34 @@
    "category": "trading"
   },
   {
+   "agentId": "wpe-s2-specialist-solver",
+   "name": "WPE-S2 Specialist Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-S2 specialist solver",
+   "detail": "Complete: performance-report.md, gate.js, delivery-note.md shipped; gate exit 0, 7 OK lines; read-back PASS; verdict NOT VERIFIED",
+   "currentTask": "WPE-S2 deliverables complete, gate passed",
+   "lastHeartbeat": "2026-11-27T17:26:05.000Z",
+   "observedAt": "2026-11-27T17:26:05.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "wpe-s2-generic-solver",
+   "name": "WPE-S2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-S2 generic solver",
+   "detail": "Generic solver done: report, gate.js (7/7 OK, exit 0), delivery note written; read-back PASS; 0 em dashes.",
+   "currentTask": "WPE-S2 generic deliverables complete",
+   "lastHeartbeat": "2026-11-27T17:22:15.000Z",
+   "observedAt": "2026-11-27T17:22:15.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-wpe-s1-generic",
    "name": "WPE-S1 generic solver",
    "role": "builder",
@@ -4103,34 +4103,6 @@
    "observedAt": "2026-11-27T04:52:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt163-cse-reel-hype",
-   "name": "gt163-cse-reel-hype",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-163 CSE Reel hype sample",
-   "detail": "Completed: video-qc1 hype sample at GT-20261127-163-reports, 1080x1920, 22.5 s, text and reveal timing verified against the original.",
-   "currentTask": "Done: sample delivered for owner approval",
-   "lastHeartbeat": "2026-11-27T04:46:52.000Z",
-   "observedAt": "2026-11-27T04:46:52.000Z",
-   "needsUser": false,
-   "category": "CSE video"
-  },
-  {
-   "agentId": "routing-panel-600",
-   "name": "Routing Panel (8 division leads)",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 600 panel scoring complete",
-   "detail": "Panel item carried by parent: picks MR 7-1, MIA 6-2, MR 5-3, Watcher 7-1, Page Operator 7-1. Panel filed panel-picks.md.",
-   "currentTask": "Routing check 600 panel scoring complete",
-   "lastHeartbeat": "2026-11-27T04:32:50.000Z",
-   "observedAt": "2026-11-27T04:35:25.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
