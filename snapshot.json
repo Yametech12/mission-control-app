@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:01:37.000Z",
- "summary": "MH-T2 generic solver complete: 10 ranked candidates, gate passed 112 checks, delivery note READ-BACK PASS.",
+ "generatedAt": "2026-11-27T16:03:26.000Z",
+ "summary": "MH-T2 specialist solver finished: 10 ranked candidates, gate passed 113/113, read-back PASS.",
  "agents": [
   {
    "agentId": null,
@@ -921,20 +921,6 @@
    "title": "Ghostname Team improvement cycle 653",
    "detail": "Cycle 653 started: MH-T2 solvers (Moment Hunter, Lacy marathon mine). Specialist and generic runs in progress.",
    "currentTask": "MH-T2 solvers: specialist and generic",
-   "lastHeartbeat": "2026-11-27T15:57:00.000Z",
-   "observedAt": "2026-11-27T15:57:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mh-t2-specialist",
-   "name": "MH-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "MH-T2 specialist solver",
-   "detail": "Moment Hunter specialist solving MH-T2 (Lacy marathon mine) from its role card. Posted by the cycle lead.",
-   "currentTask": "Solving MH-T2 from the Moment Hunter card",
    "lastHeartbeat": "2026-11-27T15:57:00.000Z",
    "observedAt": "2026-11-27T15:57:00.000Z",
    "needsUser": false,
