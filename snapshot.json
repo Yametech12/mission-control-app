@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:10:30.000Z",
- "summary": "Cycle 654 started: Moment Hunter MH-T3 solvers (Jo Koy interview mine).",
+ "generatedAt": "2026-11-27T16:15:41.000Z",
+ "summary": "MH-T3 generic solver complete, gate passed",
  "agents": [
   {
    "agentId": null,
@@ -2605,20 +2605,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 654",
-   "detail": "Moment Hunter MH-T3 solvers running: specialist and generic sides on the Jo Koy interview mine.",
-   "currentTask": "Cycle 654: MH-T3 solvers",
-   "lastHeartbeat": "2026-11-27T16:10:30.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "sase-landing-portal-audit",
