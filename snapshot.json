@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T06:17:07.000Z",
- "summary": "2 working, 10 completed, 3 scheduled, 5 attention. Blocked WhatsApp delivery stops Whop posts and TG session watch; backups, keep-alive and Zulti promo also failing. No artifact builds running.",
+ "generatedAt": "2026-11-27T06:25:06.000Z",
+ "summary": "M3D-T2 generic solver: review complete, PASS WITH MAJOR ISSUES (B3 major)",
  "agents": [
   {
    "agentId": null,
@@ -799,34 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-T2 generic solver",
-   "detail": "M3D-T2 generic solver started: reading GT99 production inputs and viewing all 20 stills",
-   "currentTask": "M3D-T2 generic solve",
-   "lastHeartbeat": "2026-11-27T06:11:00.000Z",
-   "observedAt": "2026-11-27T06:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-motion-3d",
-   "name": "Motion and 3D solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-T2 specialist solver",
-   "detail": "M3D-T2 specialist solver started, reading scenes99, vox99, timings and stills",
-   "currentTask": "M3D-T2 specialist solve",
-   "lastHeartbeat": "2026-11-27T06:11:00.000Z",
-   "observedAt": "2026-11-27T06:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2607,6 +2579,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-T2 generic solver",
+   "detail": "M3D-T2 generic solve done: PASS WITH MAJOR ISSUES, 2 PASS, 9 minor, 1 major (B3); gate 7/7",
+   "currentTask": "M3D-T2 generic solve",
+   "lastHeartbeat": "2026-11-27T06:25:06.000Z",
+   "observedAt": "2026-11-27T06:25:06.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-motion-3d",
+   "name": "Motion and 3D solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-T2 specialist solver",
+   "detail": "M3D-T2 review complete: PASS (3 PASS, 9 minor, 0 major), gate 7/7, 5 stale stills flagged for re-still",
+   "currentTask": "M3D-T2 specialist solve",
+   "lastHeartbeat": "2026-11-27T06:22:08.000Z",
+   "observedAt": "2026-11-27T06:22:08.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "m3d-t1-generic",
    "name": "M3D-T1 generic",
    "role": "builder",
@@ -3977,34 +3977,6 @@
    "observedAt": "2026-11-26T15:53:59.000Z",
    "needsUser": false,
    "category": "sase"
-  },
-  {
-   "agentId": "team-ae-r1-generic",
-   "name": "AE-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AE-R1 generic solver",
-   "detail": "Done: 3 files built, gate 8/8 passed, exit 0, 41s, 0 em dashes.",
-   "currentTask": "AE-R1 generic files complete",
-   "lastHeartbeat": "2026-11-26T15:41:13.000Z",
-   "observedAt": "2026-11-26T15:41:13.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "routing-check-540-panel",
-   "name": "Routing check 540 panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 540 panel",
-   "detail": "Routing check 540 panel complete (posted by cycle parent): picks filed, Security Auditor 7-1, Accessibility Specialist 5-3, Design Auditor 7-1, Data Integrity Auditor 5-3, QA Tester 7-1.",
-   "currentTask": "Panel picks filed: 3 of 5 match",
-   "lastHeartbeat": "2026-11-26T15:04:13.000Z",
-   "observedAt": "2026-11-26T15:10:08.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
