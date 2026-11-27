@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T14:06:44.000Z",
- "summary": "Routing check cycle 645 panel: picks filed in panel-picks.md.",
+ "generatedAt": "2026-11-27T14:16:00.000Z",
+ "summary": "GT-177 Kronos gauntlet pre-registration frozen (2 trials, window 2025-11-01 to 2026-11-26, lane cost model, Bonferroni for 2 trials). Pulling MEXC data; inference step awaits owner approval to run upstream Kronos code.",
  "agents": [
+  {
+   "agentId": "gt177-kronos-gauntlet",
+   "name": "gt177-kronos-gauntlet",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "attention",
+   "title": "GT-177 Kronos Phase 0 gauntlet",
+   "detail": "Registration frozen before any results. MEXC data pull running. Blocked at inference: upstream Kronos code needs owner approval after a security check.",
+   "currentTask": "Registration frozen; pulling MEXC 4h klines; inference blocked pending code approval",
+   "lastHeartbeat": "2026-11-27T14:16:00.000Z",
+   "observedAt": "2026-11-27T14:16:00.000Z",
+   "needsUser": true,
+   "category": "trading"
+  },
   {
    "agentId": null,
    "name": "Memory daily backup to Drive",
@@ -883,34 +897,6 @@
    "observedAt": "2026-11-27T14:06:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "gt177-kronos-gauntlet",
-   "name": "gt177-kronos-gauntlet",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-177 Kronos Phase 0 gauntlet",
-   "detail": "Started: setting up CPU inference env and benchmarking Kronos before freezing the pre-registration.",
-   "currentTask": "Env setup: venv, torch CPU install, Kronos repo clone, speed benchmark",
-   "lastHeartbeat": "2026-11-27T14:05:00.000Z",
-   "observedAt": "2026-11-27T14:05:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 645",
-   "detail": "Routing check 101st in progress: 5 fresh Nov 27 legs, Coordinator picks sealed, panel read next.",
-   "currentTask": "Routing check cycle 645: sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-27T14:00:56.000Z",
-   "observedAt": "2026-11-27T14:00:56.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2691,6 +2677,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 645",
+   "detail": "Routing check 101st complete: 3 of 5 vs division leads; Coordinator better call on RC-T1 and RC-T5; no rule fix.",
+   "currentTask": "Cycle 645 closed: routing check scored and logged",
+   "lastHeartbeat": "2026-11-27T14:10:19.000Z",
+   "observedAt": "2026-11-27T14:10:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "routing-panel-645",
+   "name": "routing-panel-645",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 645 panel",
+   "detail": "Panel picks filed: Site Builder, Money Researcher, Art Director, App Builder, Scheduler. Posted by the job lead.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T14:10:19.000Z",
+   "observedAt": "2026-11-27T14:10:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-645",
    "name": "routing-panel-645",
    "role": "coordinator",
@@ -4059,34 +4073,6 @@
    "currentTask": "WPE-T3 judged: generic win 8.90 vs 8.80",
    "lastHeartbeat": "2026-11-27T03:05:00.000Z",
    "observedAt": "2026-11-27T03:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt153-team-plan",
-   "name": "gt153-team-plan",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-153 Dressing Room AI plan",
-   "detail": "GT-153 Dressing Room AI team plan complete: full phased plan filed. Try-on costs P2.32 to P4.35 per generation, verdict about P0.12. P99 survives only credit-capped; seller mode is the revenue spine. v1 in 10 to 14 days.",
-   "currentTask": "Plan complete: team-plan.md filed with full phased product plan",
-   "lastHeartbeat": "2026-11-27T02:40:57.000Z",
-   "observedAt": "2026-11-27T02:40:57.000Z",
-   "needsUser": false,
-   "category": "apps"
-  },
-  {
-   "agentId": "team-wpe-t3-generic",
-   "name": "WPE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T3 generic solver",
-   "detail": "WPE-T3 generic solve complete, posted by the parent: budget-audit 6,371 bytes, 1,113 words, gate 7/7, about 60s. (posted by the job lead)",
-   "currentTask": "WPE-T3 generic solve complete",
-   "lastHeartbeat": "2026-11-27T02:29:03.000Z",
-   "observedAt": "2026-11-27T02:31:41.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
