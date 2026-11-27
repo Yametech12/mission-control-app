@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T23:59:00.000Z",
- "summary": "Cycle 580 panel: all 5 picks filed",
+ "generatedAt": "2026-11-27T00:02:55.000Z",
+ "summary": "Cycle 580: routing check 5 of 5, clean sweep; AIE-R1 re-judging cycle 581.",
  "agents": [
   {
    "agentId": null,
@@ -113,20 +113,6 @@
    "observedAt": "2026-11-25T04:01:05.000Z",
    "needsUser": true,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "BlockTales GT101 Oates Short posted",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "BlockTales GT101 Oates Short posted",
-   "detail": "Video is live and verified, but the pinned comment could not be posted via API (token scope). Post and pin it manually in YouTube Studio.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T00:01:08.000Z",
-   "needsUser": true,
-   "category": "BlockTales"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -827,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 580 (routing check)",
-   "detail": "Cycle 580 routing check started: 5 fresh Nov 26 legs, Coordinator picks sealing.",
-   "currentTask": "Routing check 580: sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-26T23:54:06.000Z",
-   "observedAt": "2026-11-26T23:54:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,6 +2509,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 580 (routing check)",
+   "detail": "Cycle 580 done: routing check 5 of 5, clean sweep, no rule fixes.",
+   "currentTask": "Cycle 580 complete",
+   "lastHeartbeat": "2026-11-27T00:02:55.000Z",
+   "observedAt": "2026-11-27T00:02:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-panel-580",
+   "name": "Division-leads panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 580 division-leads panel",
+   "detail": "Panel picks filed: Money Researcher, Page Operator x2, Watcher x2. Posted by the job lead.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T00:02:55.000Z",
+   "observedAt": "2026-11-27T00:02:55.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-panel-580",
    "name": "Division-leads panel",
    "role": "coordinator",
@@ -3907,34 +3907,6 @@
    "observedAt": "2026-11-26T07:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t1-generic",
-   "name": "SYSB-T1 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T1 generic build",
-   "detail": "SYSB-T1 generic done (carried by cycle lead): 4 files, 22 checks pass, 227s.",
-   "currentTask": "SYSB-T1 build complete",
-   "lastHeartbeat": "2026-11-26T07:37:53.000Z",
-   "observedAt": "2026-11-26T07:37:53.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "sysb-t1-specialist",
-   "name": "SYSB-T1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T1 specialist build",
-   "detail": "SYSB-T1 specialist done (carried by cycle lead): 4 files, tests exit 0, 157s. Start snapshot was not posted.",
-   "currentTask": "SYSB-T1 build complete",
-   "lastHeartbeat": "2026-11-26T07:37:53.000Z",
-   "observedAt": "2026-11-26T07:37:53.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
