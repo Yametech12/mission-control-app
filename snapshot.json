@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:01:00.000Z",
- "summary": "GT-182 training started: GT-179 v1 dataset freeze verified (SHA-256 of train.csv and validation.csv match the manifest; test.csv untouched). 32 frozen trials now fitting on the train split (97,994 rows, 34 symbols).",
+ "generatedAt": "2026-11-27T15:00:00.000Z",
+ "summary": "Cycle 649: Web Performance Engineer retest sealed clean on first run; judging cycle 651.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -2719,6 +2719,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 649",
+   "detail": "Cycle 649 sealed WPE retest (SEAL_OK first run, 3 lines changed, 18 neutrals, 0 identity hits, 6 gates exit 0). Judging cycle 651.",
+   "currentTask": "Cycle 649: WPE retest sealed, judging queued cycle 651",
+   "lastHeartbeat": "2026-11-27T15:00:00.000Z",
+   "observedAt": "2026-11-27T15:00:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt179-training-dataset",
    "name": "gt179-training-dataset",
    "role": "builder",
@@ -2731,20 +2745,6 @@
    "observedAt": "2026-11-27T14:59:54.000Z",
    "needsUser": false,
    "category": "api-trading"
-  },
-  {
-   "agentId": "team-wpe-r3-generic",
-   "name": "WPE-R3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R3 generic solver",
-   "detail": "Generic run complete: budget-audit 7,960 bytes / 1,397 words, gate 7/7 exit 0, READ-BACK: PASS, 146s.",
-   "currentTask": "WPE-R3 generic run complete",
-   "lastHeartbeat": "2026-11-27T14:50:27.000Z",
-   "observedAt": "2026-11-27T14:54:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt183-kronos-finetune-spec",
