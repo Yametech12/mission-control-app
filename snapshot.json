@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T23:46:00.000Z",
- "summary": "Cycle 683 done: M3D retest 1 judged 7.67 vs 8.17, card rewritten (rewrite 2).",
+ "generatedAt": "2026-11-27T23:50:00.000Z",
+ "summary": "Cycle 684: Motion and 3D retest 2 opening",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 684: Motion and 3D retest 2",
+   "detail": "Cycle 684 started. Motion and 3D retest 2 opens: 3 fresh tasks probing rewrite 2 standards 13 to 23; fail here means FLAGGED.",
+   "currentTask": "Filing Motion and 3D retest 2 tasks M3D-S1 to S3",
+   "lastHeartbeat": "2026-11-27T23:50:00.000Z",
+   "observedAt": "2026-11-27T23:50:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2719,20 +2733,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 683 judging Motion and 3D retest",
-   "detail": "Cycle 683 done: M3D retest 1 run 7.67 vs 8.17, 1 win 2 losses, card rewritten (rewrite 2).",
-   "currentTask": "Cycle 683 done: M3D retest 1 judged, card rewritten (rewrite 2)",
-   "lastHeartbeat": "2026-11-27T23:46:00.000Z",
-   "observedAt": "2026-11-27T23:46:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "m3d-r3-generic",
    "name": "M3D-R3 generic solver",
    "role": "builder",
@@ -4103,6 +4103,20 @@
    "observedAt": "2026-11-27T09:06:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt169-coordinator",
+   "name": "GT-169 Coordinator (MEXC Team)",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-169 Plan B Shadow Fleet launch",
+   "detail": "GT-169 COMPLETE: Plan B Shadow Fleet live (19 soldiers + Auditor + Guardian), first cycle 149 candles, 5 paper entries, 0 closed of 300, verdict COLLECTING, Phase 1 untouched, console panel verified",
+   "currentTask": "GT-169 complete: Plan B Shadow Fleet launched and verified",
+   "lastHeartbeat": "2026-11-27T09:05:00.000Z",
+   "observedAt": "2026-11-27T09:05:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   }
  ]
 }
