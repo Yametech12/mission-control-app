@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:46:30.000Z",
- "summary": "Cycle 657: judging Moment Hunter blind.",
+ "generatedAt": "2026-11-27T16:52:00.000Z",
+ "summary": "MH-T1 blind judgement filed: Candidate A wins 8.25 vs 7.25",
  "agents": [
   {
    "agentId": null,
@@ -2691,6 +2691,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "mh-t3-judge",
+   "name": "MH-T3 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-T3 judge",
+   "detail": "MH-T3 judged blind: Candidate A 8.00 beats Candidate B 7.25. Winner A; B gate counts chosen windows as extras.",
+   "currentTask": "MH-T3 blind judging complete: A wins 8.00 to 7.25.",
+   "lastHeartbeat": "2026-11-27T16:50:24.000Z",
+   "observedAt": "2026-11-27T16:50:24.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-routing-panel-655",
    "name": "Routing Panel cycle 655",
    "role": "coordinator",
@@ -4072,20 +4086,6 @@
    "detail": "PE-T1 judge (carried by cycle parent): specialist win 8.5 vs 7.5, contamination clean.",
    "currentTask": "PE-T1 judged: specialist win 8.5 vs 7.5",
    "lastHeartbeat": "2026-11-27T04:20:59.000Z",
-   "observedAt": "2026-11-27T04:26:11.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-pe-t2-judge",
-   "name": "PE-T2 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T2 blind judgement",
-   "detail": "PE-T2 judge (carried by cycle parent): generic win 8.0 vs 6.0, contamination clean.",
-   "currentTask": "PE-T2 judged: generic win 8.0 vs 6.0",
-   "lastHeartbeat": "2026-11-27T04:19:52.000Z",
    "observedAt": "2026-11-27T04:26:11.000Z",
    "needsUser": false,
    "category": "ghostname-team"
