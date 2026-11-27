@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:41:12.000Z",
- "summary": "Cycle 652: Moment Hunter validation opens.",
+ "generatedAt": "2026-11-27T15:52:00.000Z",
+ "summary": "GT-188 Whop full audit complete: 36 itemized submissions, $0 earned, root causes filed, support evidence pack included. Report at GT-20261127-188.md.",
  "agents": [
   {
    "agentId": null,
@@ -2675,20 +2675,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "gt188-whop-full-audit",
-   "name": "GT-188 Whop Auditor",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Whop full audit: why no progress",
-   "detail": "Audit started. Reading Clipp Team per-clip log, STOP state, clipping research, and campaign job reports to build the evidence inventory.",
-   "currentTask": "Reading Whop records and building submission inventory",
-   "lastHeartbeat": "2026-11-27T15:41:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "audit"
   },
   {
    "agentId": "gt88-jokoy-posting",
