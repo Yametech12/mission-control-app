@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:05:00.000Z",
- "summary": "GT-175 trained-AI scout complete: 20 candidates graded; no pre-trained AI with a verified live record exists. Report filed as GT-20261127-175-trained-ai-survey.md (assigned filename was already taken by a clipping job, left untouched).",
+ "generatedAt": "2026-11-27T14:00:56.000Z",
+ "summary": "Ghostname Team improvement cycle 645: routing check (101st) in progress, 5 fresh Nov 27 legs.",
  "agents": [
   {
    "agentId": null,
@@ -869,6 +869,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 645",
+   "detail": "Routing check 101st in progress: 5 fresh Nov 27 legs, Coordinator picks sealed, panel read next.",
+   "currentTask": "Routing check cycle 645: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-27T14:00:56.000Z",
+   "observedAt": "2026-11-27T14:00:56.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2691,20 +2705,6 @@
    "category": "ghostnameteam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 644",
-   "detail": "Cycle 644 complete: Design Systems Engineer VALIDATED on clean DSE-T3 re-judgement, run score 8.67 vs 7.67, 3 wins. Scoreboard 29/9/41 of 79.",
-   "currentTask": "Cycle 644 complete, DSE validated",
-   "lastHeartbeat": "2026-11-27T13:45:12.000Z",
-   "observedAt": "2026-11-27T13:45:12.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-improvement-cycle-dse-t1-judge",
    "name": "DSE-T1 Judge",
    "role": "auditor",
@@ -4044,6 +4044,20 @@
    "detail": "WPE-T3 generic solve complete, posted by the parent: budget-audit 6,371 bytes, 1,113 words, gate 7/7, about 60s. (posted by the job lead)",
    "currentTask": "WPE-T3 generic solve complete",
    "lastHeartbeat": "2026-11-27T02:29:03.000Z",
+   "observedAt": "2026-11-27T02:31:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-t3-specialist",
+   "name": "WPE-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T3 specialist solver",
+   "detail": "WPE-T3 specialist solve complete, posted by the parent: budget-audit 6,578 bytes, 1,120 words, gate 7/7, about 124s. (posted by the job lead)",
+   "currentTask": "WPE-T3 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T02:29:10.000Z",
    "observedAt": "2026-11-27T02:31:41.000Z",
    "needsUser": false,
    "category": "ghostname-team"
