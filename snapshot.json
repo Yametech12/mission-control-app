@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T07:51:30.000Z",
- "summary": "Cycle 615 routing check complete: 4 of 5, rule 64 added.",
+ "generatedAt": "2026-11-27T07:56:30.000Z",
+ "summary": "Cycle 616: BID-T3 solvers running.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "bid-t3-generic-solver",
+   "name": "bid-t3-generic-solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "BID-T3 generic solver",
+   "detail": "Building the Ghostname Pod identity sheet with no role card. Posted by cycle lead.",
+   "currentTask": "BID-T3 generic solve",
+   "lastHeartbeat": "2026-11-27T07:56:30.000Z",
+   "observedAt": "2026-11-27T07:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "bid-t3-specialist-solver",
+   "name": "bid-t3-specialist-solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "BID-T3 specialist solver",
+   "detail": "Building the Ghostname Pod identity sheet from the Brand Identity Designer card. Posted by cycle lead.",
+   "currentTask": "BID-T3 specialist solve",
+   "lastHeartbeat": "2026-11-27T07:56:30.000Z",
+   "observedAt": "2026-11-27T07:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "team-improvement-cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation loop, cycle 616",
+   "detail": "BID-T3 solvers running: Brand Identity Designer specialist vs generic on the Ghostname Pod identity sheet.",
+   "currentTask": "Cycle 616: BID-T3 solver pair (specialist + generic)",
+   "lastHeartbeat": "2026-11-27T07:56:30.000Z",
+   "observedAt": "2026-11-27T07:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt166-coordinator",
@@ -2607,20 +2649,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 615",
-   "detail": "Cycle 615 routing check done: 4 of 5, miss RC-T5 (panel App Builder, better call), rule 64 added. Scoreboard 27/79.",
-   "currentTask": "Cycle 615 routing check complete: 4 of 5, rule 64 added",
-   "lastHeartbeat": "2026-11-27T07:51:30.000Z",
-   "observedAt": "2026-11-27T07:51:30.000Z",
-   "needsUser": false,
-   "category": "ghostame-team"
-  },
-  {
    "agentId": "routing-panel-615",
    "name": "Routing panel",
    "role": "auditor",
@@ -4001,6 +4029,20 @@
    "title": "ML-T2 generic solver",
    "detail": "ML-T2 generic done: plan 3,223 bytes 560 words, gate 6/6 exit 0, READ-BACK PASS. Posted by cycle lead.",
    "currentTask": "ML-T2 generic complete",
+   "lastHeartbeat": "2026-11-26T17:31:40.000Z",
+   "observedAt": "2026-11-26T17:31:40.000Z",
+   "needsUser": false,
+   "category": "team-improvement"
+  },
+  {
+   "agentId": "team-ml-engineer-ml-t2-specialist",
+   "name": "ML-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "ML-T2 specialist solver",
+   "detail": "ML-T2 specialist done: plan 6,617 bytes 1,148 words, gate 6/6 exit 0, READ-BACK PASS. Posted by cycle lead.",
+   "currentTask": "ML-T2 specialist complete",
    "lastHeartbeat": "2026-11-26T17:31:40.000Z",
    "observedAt": "2026-11-26T17:31:40.000Z",
    "needsUser": false,
