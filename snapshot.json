@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:47:00.000Z",
- "summary": "GT-159: building the paper Account Manager (watch mode, activation gate coded in) and the MEXC Team playbook upgrades.",
+ "generatedAt": "2026-11-27T03:52:00.000Z",
+ "summary": "GT-159 complete: paper Account Manager live in WATCH mode, 4 of 4 drills PASS, training shadow mode built with guardrails, MEXC Team PLAYBOOK.md written.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt159-account-manager",
-   "name": "gt159-account-manager",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-159 Account Manager build + MEXC Team playbook",
-   "detail": "Started: reading job file, lane skill, GT-155 and GT-156 evidence; design fixed, build next.",
-   "currentTask": "Designing paper account engine on GT-155 v2 toolkit",
-   "lastHeartbeat": "2026-11-27T03:47:00.000Z",
-   "observedAt": "2026-11-27T03:47:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt158-accuracy-round2",
@@ -2607,6 +2593,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt159-account-manager",
+   "name": "gt159-account-manager",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-159 Account Manager build + MEXC Team playbook",
+   "detail": "Complete. Engine in WATCH mode (no Phase 0 PASS on record); drills A to D PASS; shadow mode isolated in its own labelled ledger; deliverable at GT-20261127-159-reports/account-manager-report.md.",
+   "currentTask": "Complete: report delivered",
+   "lastHeartbeat": "2026-11-27T03:52:00.000Z",
+   "observedAt": "2026-11-27T03:52:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -3989,20 +3989,6 @@
    "currentTask": "AB-R1 specialist solve complete",
    "lastHeartbeat": "2026-11-26T12:55:17.000Z",
    "observedAt": "2026-11-26T12:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel-530",
-   "name": "Routing check 530 panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 530 panel",
-   "detail": "Panel picks filed (Evidence Auditor 6-2, Systems Builder 6-2, Systems Builder 6-2, Panel Simulator 8-0, Document Auditor 5-3) and kept as audit records only; the check is VOID, score not counted. Posted by the parent.",
-   "currentTask": "Panel complete; picks filed as audit records for the voided check",
-   "lastHeartbeat": "2026-11-26T12:43:30.000Z",
-   "observedAt": "2026-11-26T12:43:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
