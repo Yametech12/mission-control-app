@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:35:42.000Z",
- "summary": "Improvement cycle 587 complete: Mobile Release Engineer VALIDATED 8.67 vs 7.42.",
+ "generatedAt": "2026-11-27T01:46:25.000Z",
+ "summary": "WPE-T1 generic solver started.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt151-money-market",
+   "name": "gt151-money-market",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-151 candidate apps: money and market research leg",
+   "detail": "Started: web research on PH monthly willingness to pay, competitor prices, and demand evidence for 10 candidates.",
+   "currentTask": "Researching PH demand and price points for monthly-revenue app candidates",
+   "lastHeartbeat": "2026-11-27T01:44:33.000Z",
+   "observedAt": "2026-11-27T01:44:33.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 588: Web Performance Engineer",
+   "detail": "Cycle 588 open: Web Performance Engineer validation (row 10, first test). WPE-T1 pair running.",
+   "currentTask": "Cycle 588: Web Performance Engineer validation, WPE-T1 pair",
+   "lastHeartbeat": "2026-11-27T01:40:00.000Z",
+   "observedAt": "2026-11-27T01:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2453,6 +2481,20 @@
    "category": "validation"
   },
   {
+   "agentId": "team-wpe-t1-generic",
+   "name": "WPE-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-T1 generic solver",
+   "detail": "WPE-T1 generic solver started, building report, gate, delivery note.",
+   "currentTask": "WPE-T1 generic solve",
+   "lastHeartbeat": "2026-11-27T01:46:25.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2509,16 +2551,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
+   "agentId": "gt151-builder-services",
+   "name": "gt151-app-builder",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 587: Mobile Release Engineer VALIDATED",
-   "detail": "Blind judging done: specialist 8.67 vs generic 7.42, 3 wins, 0 ties, 0 losses. Scoreboard now 26 validated, 8 flagged, 45 unvalidated.",
-   "currentTask": "Cycle 587 complete",
-   "lastHeartbeat": "2026-11-27T01:35:42.000Z",
-   "observedAt": "2026-11-27T01:35:42.000Z",
+   "title": "GT-151 candidate apps (builder leg)",
+   "detail": "Completed: 10 candidates ranked by buildability and maintenance; top pick ClinicFlow Retainer, then white-label Reviewer Engine, then PagePilot.",
+   "currentTask": "Done: leg-builder-services.md delivered",
+   "lastHeartbeat": "2026-11-27T01:45:23.000Z",
+   "observedAt": "2026-11-27T01:45:23.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
