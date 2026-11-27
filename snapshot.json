@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:29:50.000Z",
- "summary": "Division Leads Panel filed routing check cycle 675 picks: all 5 majorities Watcher; RC-T5 closest at 5-3 over Data Integrity Auditor; RC-T1 6-2, RC-T2 7-1, RC-T3 6-2, RC-T4 7-1.",
+ "generatedAt": "2026-11-27T21:35:30.000Z",
+ "summary": "Improvement cycle 676 in progress: judging Prototype Engineer retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -915,14 +915,14 @@
   {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Team Improvement Cycle 675",
-   "detail": "Cycle 675 routing check started; finding 5 fresh Nov 28 legs",
-   "currentTask": "Cycle 675 routing check: finding fresh legs",
-   "lastHeartbeat": "2026-11-27T21:16:30.000Z",
-   "observedAt": "2026-11-27T21:16:30.000Z",
+   "title": "Improvement cycle 676: Prototype Engineer retest 2 judging",
+   "detail": "Cycle 676 judging PE-S1, PE-S2, PE-S3 sealed pairs; three fresh-context QA judges dispatched.",
+   "currentTask": "Judging Prototype Engineer retest 2 sealed pairs",
+   "lastHeartbeat": "2026-11-27T21:35:30.000Z",
+   "observedAt": "2026-11-27T21:35:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2710,13 +2710,13 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Routing check cycle 675: panel picks filed",
-   "detail": "Panel picks filed: Watcher 6-2, 7-1, 6-2, 7-1, 5-3. Closest call RC-T5 health cycle vs Data Integrity Auditor.",
-   "currentTask": "Routing check cycle 675 panel picks filed",
-   "lastHeartbeat": "2026-11-27T21:29:50.000Z",
-   "observedAt": "2026-11-27T21:29:50.000Z",
+   "title": "Division Leads Panel",
+   "detail": "Panel cycle 675 complete: Watcher on all five tasks",
+   "currentTask": "Cycle 675 votes filed",
+   "lastHeartbeat": "2026-11-27T21:32:29.000Z",
+   "observedAt": "2026-11-27T21:32:29.000Z",
    "needsUser": false,
-   "category": "Ghostname Team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle-coordinator",
@@ -2724,13 +2724,13 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Routing check cycle 675 coordinator picks",
-   "detail": "Cycle 675 picks sealed: RC-T1 Watcher, RC-T2 Watcher, RC-T3 Watcher, RC-T4 ML Engineer, RC-T5 Data Integrity Auditor. Freshness verified.",
+   "title": "Routing Check Coordinator",
+   "detail": "Coordinator cycle 675 complete: Watcher x3, ML Engineer, Data Integrity Auditor",
    "currentTask": "Cycle 675 picks sealed and filed",
-   "lastHeartbeat": "2026-11-27T21:27:02.000Z",
-   "observedAt": "2026-11-27T21:27:02.000Z",
+   "lastHeartbeat": "2026-11-27T21:32:29.000Z",
+   "observedAt": "2026-11-27T21:32:29.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-prototype-engineer-pe-s3-generic",
