@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T10:05:00.000Z",
- "summary": "Cycle 626: API Integration Engineer retest 2 opens.",
+ "generatedAt": "2026-11-27T10:09:02.000Z",
+ "summary": "AIE-S1 specialist solver started building the ClinicFlow connect-endpoint record.",
  "agents": [
   {
    "agentId": null,
@@ -2409,6 +2409,34 @@
    "observedAt": "2026-10-12T16:10:00.000Z",
    "needsUser": false,
    "category": "pandorabook"
+  },
+  {
+   "agentId": "team-api-integration-engineer-s1-generic",
+   "name": "AIE-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "AIE-S1 generic solver",
+   "detail": "Building ClinicFlow Connect endpoint-path determination record (generic side).",
+   "currentTask": "Build AIE-S1 generic integration record and gate",
+   "lastHeartbeat": "2026-11-27T10:08:57.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "ghostnaname-team validation"
+  },
+  {
+   "agentId": "team-api-integration-engineer-s1-specialist",
+   "name": "API Integration Engineer S1",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "AIE-S1 specialist run started",
+   "detail": "AIE-S1 specialist solver started: building integration record, gate.js, delivery note.",
+   "currentTask": "Build AIE-S1 ClinicFlow connect-endpoint record, gate, and delivery note",
+   "lastHeartbeat": "2026-11-27T10:09:02.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "ghostnaname-team validation"
   },
   {
    "agentId": "sase-landing-portal-audit",
