@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:40:59.000Z",
- "summary": "Improvement cycle 592 sealed Web Performance Engineer pairs; judging next cycle.",
+ "generatedAt": "2026-11-27T02:56:30.000Z",
+ "summary": "Improvement cycle 593: judging Web Performance Engineer (3 fresh QA judges).",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,62 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 593",
+   "detail": "Cycle 593 judging WPE: 3 fresh-context QA judges dispatched, one per task (WPE-T1/T2/T3).",
+   "currentTask": "Cycle 593: judging Web Performance Engineer, 3 fresh QA judges dispatched",
+   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
+   "observedAt": "2026-11-27T02:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-wpe-t1",
+   "name": "WPE-T1 judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-T1 blind judge",
+   "detail": "WPE-T1 judge: blind scoring of sealed candidates A/B vs key. Posted by cycle lead.",
+   "currentTask": "Blind judging WPE-T1 sealed neutrals",
+   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
+   "observedAt": "2026-11-27T02:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-wpe-t2",
+   "name": "WPE-T2 judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-T2 blind judge",
+   "detail": "WPE-T2 judge: blind scoring of sealed candidates A/B vs key. Posted by cycle lead.",
+   "currentTask": "Blind judging WPE-T2 sealed neutrals",
+   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
+   "observedAt": "2026-11-27T02:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-wpe-t3",
+   "name": "WPE-T3 judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-T3 blind judge",
+   "detail": "WPE-T3 judge: blind scoring of sealed candidates A/B vs key. Posted by cycle lead.",
+   "currentTask": "Blind judging WPE-T3 sealed neutrals",
+   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
+   "observedAt": "2026-11-27T02:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2565,20 +2621,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 592: Web Performance Engineer sealed",
-   "detail": "SEAL_OK first run, 4 changed lines, 18 neutral files, 0 identity hits, all six neutral gates exit 0; judging lands cycle 593.",
-   "currentTask": "Cycle 592 sealed; judging cycle 593",
-   "lastHeartbeat": "2026-11-27T02:40:59.000Z",
-   "observedAt": "2026-11-27T02:40:59.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "gt153-team-plan",
    "name": "gt153-team-plan",
    "role": "builder",
@@ -3959,6 +4001,20 @@
    "title": "Generic SB-R1 solver",
    "detail": "SB-R1 generic complete, posted by parent: 4,641 byte note, 783 words, gate exit 0, no browser.",
    "currentTask": "SB-R1 generic build complete",
+   "lastHeartbeat": "2026-11-26T10:21:30.000Z",
+   "observedAt": "2026-11-26T10:21:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-site-builder-sb-r1-specialist",
+   "name": "Site Builder SB-R1 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Site Builder SB-R1 specialist",
+   "detail": "SB-R1 specialist complete, posted by parent: 6,418 byte note, 1,098 words, gate 42 passed, live reads.",
+   "currentTask": "SB-R1 specialist build complete",
    "lastHeartbeat": "2026-11-26T10:21:30.000Z",
    "observedAt": "2026-11-26T10:21:30.000Z",
    "needsUser": false,
