@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T04:35:34.000Z",
- "summary": "GT-163 sample render is complete and verification is under way.",
+ "generatedAt": "2026-11-27T04:47:00.000Z",
+ "summary": "GT-158 still sequenced on GT-157: its data fetch crashed on a network timeout mid-run and was relaunched by its agent at 04:32 UTC; mass run has not started yet.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,48 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt158-accuracy-round2",
+   "name": "gt158-accuracy-round2",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-158 accuracy round 2 (MEXC Team)",
+   "detail": "GT-157 fetch attempt crashed on a proxy timeout and was relaunched; report not filed yet. GT-158 holds its pre-registration until the report lands, per the job sequencing.",
+   "currentTask": "Polling for GT-157 report (its fetch relaunched after a timeout)",
+   "lastHeartbeat": "2026-11-27T04:47:00.000Z",
+   "observedAt": "2026-11-27T04:47:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 601: UI Designer validation opens",
+   "detail": "Cycle 601 started: UI Designer (row 13, Design, P3, never tested) opens; UID-T1 solver pair runs this cycle.",
+   "currentTask": "Cycle 601: file UID tasks and run UID-T1 solver pair",
+   "lastHeartbeat": "2026-11-27T04:46:30.000Z",
+   "observedAt": "2026-11-27T04:46:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt164-fitorskip-promax",
+   "name": "fitorskip-promax-builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "FitOrSkip Pro Max v1 build (GT-164)",
+   "detail": "GT-164 started: building real v1 flow, verdict engine, demo render provider",
+   "currentTask": "Reading plan and scaffold, setting up v1 app structure",
+   "lastHeartbeat": "2026-11-27T04:45:00.000Z",
+   "observedAt": "2026-11-27T04:45:00.000Z",
+   "needsUser": false,
+   "category": "fitorskip"
+  },
+  {
    "agentId": "gt163-cse-reel-hype",
    "name": "gt163-cse-reel-hype",
    "role": "builder",
@@ -827,20 +869,6 @@
    "observedAt": "2026-11-27T04:35:34.000Z",
    "needsUser": false,
    "category": "CSE video"
-  },
-  {
-   "agentId": "gt158-accuracy-round2",
-   "name": "gt158-accuracy-round2",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-158 accuracy round 2 (MEXC Team)",
-   "detail": "GT-157 fixed two fetch bugs (errata filed) and is re-fetching; mass run follows. GT-158 engine and basket rule ready; no runs before the GT-157 report files.",
-   "currentTask": "Polling for GT-157 report after its data-stage fix",
-   "lastHeartbeat": "2026-11-27T04:22:00.000Z",
-   "observedAt": "2026-11-27T04:22:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt157-mass-simulation",
@@ -2621,20 +2649,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 600 routing check complete",
-   "detail": "Cycle 600 routing check complete: 4 of 5, no clean sweep; miss RC-T2, Coordinator better call; no rule fixes; scoreboard 26/8/45 of 79.",
-   "currentTask": "Cycle 600 routing check complete: 4 of 5",
-   "lastHeartbeat": "2026-11-27T04:35:25.000Z",
-   "observedAt": "2026-11-27T04:35:25.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "routing-panel-600",
    "name": "Routing Panel (8 division leads)",
    "role": "coordinator",
@@ -4014,6 +4028,20 @@
    "status": "completed",
    "title": "GT-148 frontend audit",
    "detail": "Complete (carried by job lead). 9 findings; FE-1 refuted on cascade verification. Report: audit-frontend.md.",
+   "currentTask": "Audit complete",
+   "lastHeartbeat": "2026-11-26T14:17:30.000Z",
+   "observedAt": "2026-11-26T14:17:30.000Z",
+   "needsUser": false,
+   "category": "sase-cse-site"
+  },
+  {
+   "agentId": "gt-148-backend",
+   "name": "gt-148-backend",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-148 backend/API audit",
+   "detail": "Complete (carried by job lead). 14 findings incl. BE-1 Critical (banks in public repo). Report: audit-backend.md.",
    "currentTask": "Audit complete",
    "lastHeartbeat": "2026-11-26T14:17:30.000Z",
    "observedAt": "2026-11-26T14:17:30.000Z",
