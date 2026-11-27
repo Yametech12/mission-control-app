@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:30:00.000Z",
- "summary": "CSE evening 19:30 slot complete: Reel answer drop done (C1-V018, B thorough) and Inside the reviewer conversion post live on the CSE Page.",
+ "generatedAt": "2026-11-27T11:36:41.000Z",
+ "summary": "Illustration and Icon Designer running IID-T3 validation task.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,62 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "Illustration and Icon Designer",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "IID-T3 ClinicFlow mark set",
+   "detail": "IID-T3 specialist run started: ClinicFlow Connect Booked Tooth mark set record and SVG master.",
+   "currentTask": "Writing IID-T3 ClinicFlow Booked Tooth mark set record",
+   "lastHeartbeat": "2026-11-27T11:36:41.000Z",
+   "observedAt": "2026-11-27T11:36:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation loop, cycle 634",
+   "detail": "Cycle 634 started: IID-T3 solvers running, specialist and generic in parallel; sealing 636, judging 637.",
+   "currentTask": "Cycle 634: IID-T3 solvers (Illustration and Icon Designer)",
+   "lastHeartbeat": "2026-11-27T11:36:00.000Z",
+   "observedAt": "2026-11-27T11:36:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "clipp-scout-nov27",
+   "name": "clipp-scout",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Scout: new Whop campaigns with fast approval",
+   "detail": "Started survey of Whop Content Rewards listings against owner floors.",
+   "currentTask": "Surveying Whop Content Rewards campaigns",
+   "lastHeartbeat": "2026-11-27T11:36:00.000Z",
+   "observedAt": "2026-11-27T11:36:00.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
+   "agentId": "team-iid-t3-generic",
+   "name": "IID-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "IID-T3 generic solver",
+   "detail": "IID-T3 generic solver starting (posted by cycle lead).",
+   "currentTask": "IID-T3 generic solve: ClinicFlow Booked Tooth mark set record",
+   "lastHeartbeat": "2026-11-27T11:36:00.000Z",
+   "observedAt": "2026-11-27T11:36:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": null,
@@ -2649,20 +2705,6 @@
    "category": "trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 633: IID-T2 solvers",
-   "detail": "Cycle 633 complete: IID-T2 pair collected and verified (specialist 1,133 words, 75s; generic 1,246 words, 40s; both gates 11/11).",
-   "currentTask": "Cycle 633 filed; IID-T3 solvers run cycle 634",
-   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
-   "observedAt": "2026-11-27T11:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-illustration-icon-designer",
    "name": "IID-T2 specialist solver",
    "role": "builder",
@@ -4002,6 +4044,20 @@
    "detail": "MRE-T1 generic done: checklist 3,314 bytes, gate 7/7 exit 0, note READ-BACK: PASS, about 82s.",
    "currentTask": "MRE-T1 generic pair delivered",
    "lastHeartbeat": "2026-11-27T00:30:26.000Z",
+   "observedAt": "2026-11-27T00:32:57.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mre-t1-specialist",
+   "name": "MRE-T1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T1 specialist solver",
+   "detail": "MRE-T1 specialist done: checklist 3,363 bytes, gate 7/7 exit 0, note READ-BACK: PASS, about 89s.",
+   "currentTask": "MRE-T1 specialist pair delivered",
+   "lastHeartbeat": "2026-11-27T00:30:32.000Z",
    "observedAt": "2026-11-27T00:32:57.000Z",
    "needsUser": false,
    "category": "ghostname-team"
