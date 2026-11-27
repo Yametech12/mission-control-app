@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:22:00.000Z",
- "summary": "Ghostname Team improvement cycle 633 complete: IID-T2 pair collected, K1-K7 pass both, no key defect.",
+ "generatedAt": "2026-11-27T11:24:00.000Z",
+ "summary": "GT-174 Pro Max VM runner live as a systemd user service (REST transport, unofficial sim)",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt174-vm-runner",
-   "name": "gt174-vm-runner",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Pro Max VM runner (GT-174)",
-   "detail": "Started: building headless VM runner for the Pro Max paper sim (unofficial)",
-   "currentTask": "Inspecting export engine and wiring",
-   "lastHeartbeat": "2026-11-27T11:18:30.000Z",
-   "observedAt": "2026-11-27T11:18:30.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": null,
@@ -2621,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt174-vm-runner",
+   "name": "gt174-vm-runner",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Pro Max VM runner (GT-174)",
+   "detail": "Complete: headless VM runner live as systemd user service promax-vm-runner; REST transport (WS blocked from Node on this VM); fresh unofficial $10,000 sim; cycles running, zero fills so far",
+   "currentTask": "Done: runner live and verified",
+   "lastHeartbeat": "2026-11-27T11:24:00.000Z",
+   "observedAt": "2026-11-27T11:24:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "gt173-audit",
    "name": "gt173-audit",
    "role": "auditor",
@@ -4005,20 +4005,6 @@
    "observedAt": "2026-11-27T00:32:57.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "aie-r1-judge-r2",
-   "name": "AIE-R1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-R1 re-judge",
-   "detail": "AIE-R1 re-judge filed: A 8.50 vs B 7.75, contamination CLEAN, both read as API Integration Engineer records.",
-   "currentTask": "AIE-R1 re-judging filed",
-   "lastHeartbeat": "2026-11-27T00:18:00.000Z",
-   "observedAt": "2026-11-27T00:18:00.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
   }
  ]
 }
