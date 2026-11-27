@@ -1,34 +1,20 @@
 {
- "generatedAt": "2026-11-27T19:13:05.000Z",
- "summary": "Improvement cycle 665 running: routing check 105.",
+ "generatedAt": "2026-11-27T19:22:00.000Z",
+ "summary": "Routing check 665 panel done: all 5 picks Watcher (RC-T1 5-2, RC-T2 7-1, RC-T3 6-2, RC-T4 7-1, RC-T5 5-2).",
  "agents": [
   {
    "agentId": null,
-   "name": "TG session watchdog",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: 99 consecutive failures. Same WhatsApp delivery block; last success Oct 6.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 24 consecutive failures. Last run failed Nov 27, 23:26 PHT; last success was Nov 4. No reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T18:16:26.000Z",
-   "needsUser": true,
-   "category": "Messaging"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run Nov 23 failed and last success was Nov 4.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T18:16:26.000Z",
+   "observedAt": "2026-11-27T19:16:28.000Z",
    "needsUser": false,
-   "category": "Zulti"
+   "category": "Monitoring"
   },
   {
    "agentId": null,
@@ -37,26 +23,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 97 consecutive failures. The WhatsApp chat it posts to can no longer receive results; last success Nov 3.",
+   "detail": "Attention: blocked, 97 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be moved or the chat restored.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T18:16:19.000Z",
+   "observedAt": "2026-11-27T19:16:28.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "Posting"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "TG session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures; last run Nov 27 23:26 failed and last success was Nov 4.",
+   "title": "TG session watchdog",
+   "detail": "Attention: blocked, 99 consecutive failures. The WhatsApp chat it posts to can no longer receive results; delivery must be moved or the chat restored.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T18:16:19.000Z",
+   "observedAt": "2026-11-27T19:16:28.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Attention: 3 consecutive failures. Last run failed Nov 23 with a spawn error (binding retired); last success was Nov 4.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T19:16:20.000Z",
    "needsUser": false,
-   "category": "Backup"
+   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -2705,6 +2705,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-panel-cycle-665",
+   "name": "Routing Panel 665",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 665: division-leads panel",
+   "detail": "Routing check 665 panel done: all 5 picks Watcher (RC-T1 5-2, RC-T2 7-1, RC-T3 6-2, RC-T4 7-1, RC-T5 5-2).",
+   "currentTask": "Panel picks filed for cycle 665",
+   "lastHeartbeat": "2026-11-27T19:22:00.000Z",
+   "observedAt": "2026-11-27T19:22:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "routing-coordinator-cycle-665",
+   "name": "Routing Coordinator 665",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 665: Coordinator picks",
+   "detail": "Routing check 665 picks sealed: RC-T1 Watcher, RC-T2 Watcher, RC-T3 Watcher, RC-T4 Watcher, RC-T5 Watcher.",
+   "currentTask": "Coordinator picks sealed",
+   "lastHeartbeat": "2026-11-27T19:19:20.000Z",
+   "observedAt": "2026-11-27T19:19:20.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "pe-r1-generic-solver",
    "name": "PE-R1 generic solver",
    "role": "builder",
@@ -2731,6 +2759,20 @@
    "observedAt": "2026-11-27T19:08:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "59b5fb75-57bd-4968-adbd-5b229b9ba9c3",
+   "name": "CSE comment watcher",
+   "role": "monitor",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "CSE Page comment watch",
+   "detail": "Succeeded 02:42 PHT: checked CSE Page posts from Nov 21-28, found no new genuine comments, so no hearts or replies were added.",
+   "currentTask": "CSE Page comment watch",
+   "lastHeartbeat": "2026-11-27T18:42:29.000Z",
+   "observedAt": "2026-11-27T18:42:36.000Z",
+   "needsUser": false,
+   "category": "CSE"
   },
   {
    "agentId": "cse-page-comment-watch",
@@ -4061,48 +4103,6 @@
    "observedAt": "2026-11-27T05:34:30.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "gt164-fitorskip-promax",
-   "name": "gt164-fitorskip-promax",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-164 FitOrSkip Pro Max v1 build",
-   "detail": "Complete. CI 45944984722 success both jobs. APK on Drive as FitOrSkip-v0.2-demo.apk, 163,551,324 bytes, MD5 fd5f63b192e997bfc846e06d912702e5 verified. Report: GT-20261127-164-reports/improvement-report.md.",
-   "currentTask": "Done: report filed, APK delivered",
-   "lastHeartbeat": "2026-11-27T05:26:31.000Z",
-   "observedAt": "2026-11-27T05:26:31.000Z",
-   "needsUser": false,
-   "category": "apps"
-  },
-  {
-   "agentId": "gt157-mass-simulation",
-   "name": "gt157-mass-simulation",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-157 all-coins mass simulation",
-   "detail": "Universe 1,668 MEXC symbols to 29 pairs (A) and 8 pairs (B). 386 trials, 1 finalist, 0 survivors. Failure mass: 20 units died at expectancy, 11 at trade count.",
-   "currentTask": "Complete: mass-simulation-report.md filed",
-   "lastHeartbeat": "2026-11-27T05:17:00.000Z",
-   "observedAt": "2026-11-27T05:17:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-uid-t3-generic",
-   "name": "UID-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UID-T3 generic solver",
-   "detail": "Posted by cycle lead: generic output collected, 13,697 bytes, gate 7/7 exit 0, about 51s.",
-   "currentTask": "UID-T3 generic output collected",
-   "lastHeartbeat": "2026-11-27T05:09:23.000Z",
-   "observedAt": "2026-11-27T05:09:23.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
