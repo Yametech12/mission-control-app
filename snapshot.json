@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T06:10:47.000Z",
- "summary": "Cycle 608: Motion and 3D M3D-T2 solver pair running (specialist vs generic).",
+ "generatedAt": "2026-11-27T06:11:00.000Z",
+ "summary": "M3D-T2 specialist solver: review started, reading production inputs",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-motion-3d",
+   "name": "Motion and 3D solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-T2 specialist solver",
+   "detail": "M3D-T2 specialist solver started, reading scenes99, vox99, timings and stills",
+   "currentTask": "M3D-T2 specialist solve",
+   "lastHeartbeat": "2026-11-27T06:11:00.000Z",
+   "observedAt": "2026-11-27T06:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement cycle",
    "role": "coordinator",
@@ -837,20 +851,6 @@
    "title": "M3D-T2 generic solver",
    "detail": "Generic solver running M3D-T2 (task file only). Posted by cycle lead.",
    "currentTask": "M3D-T2 generic solve",
-   "lastHeartbeat": "2026-11-27T06:10:47.000Z",
-   "observedAt": "2026-11-27T06:10:47.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-motion-3d",
-   "name": "Motion and 3D solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-T2 specialist solver",
-   "detail": "Specialist solver running M3D-T2 (Motion and 3D card). Posted by cycle lead.",
-   "currentTask": "M3D-T2 specialist solve",
    "lastHeartbeat": "2026-11-27T06:10:47.000Z",
    "observedAt": "2026-11-27T06:10:47.000Z",
    "needsUser": false,
