@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:24:00.000Z",
- "summary": "GT-176 COMPLETE: FitOrSkip v0.3.0 shipped. Signed release APK on Drive, CI green, 61 of 61 tests. Three redesign directions ready for the owner pick, not applied.",
+ "generatedAt": "2026-11-27T15:22:30.000Z",
+ "summary": "Cycle 651 judging: Web Performance Engineer retest WPE-R1/R2/R3, three fresh QA judges blind.",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 651",
+   "detail": "Cycle 651 judging: Web Performance Engineer retest WPE-R1/R2/R3, three fresh QA judges blind.",
+   "currentTask": "Judging WPE retest pairs, cycle 651",
+   "lastHeartbeat": "2026-11-27T15:22:30.000Z",
+   "observedAt": "2026-11-27T15:22:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,20 +2747,6 @@
    "category": "fitorskip"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 650",
-   "detail": "Routing check done: 1 of 5 (match RC-T3 ML Engineer). Rules 69 and 70 added. Panel better on RC-T1/RC-T4, Coordinator better on RC-T2/RC-T5.",
-   "currentTask": "Cycle 650 routing check complete",
-   "lastHeartbeat": "2026-11-27T15:19:00.000Z",
-   "observedAt": "2026-11-27T15:19:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-650",
    "name": "Routing Panel 650",
    "role": "coordinator",
@@ -4117,6 +4117,20 @@
    "observedAt": "2026-11-27T03:38:26.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt154-trading-plan",
+   "name": "gt154-trading-plan",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-154 personal trading bot plan",
+   "detail": "Complete: trading-bot-plan.md filed. VM default (PHP 0/month), Pi option PHP 9,000 to 13,500 one-time plus PHP 50 to 100/month. Awaiting owner decisions.",
+   "currentTask": "Plan delivered",
+   "lastHeartbeat": "2026-11-27T03:36:00.000Z",
+   "observedAt": "2026-11-27T03:36:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   }
  ]
 }
