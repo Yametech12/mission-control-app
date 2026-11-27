@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:29:21.000Z",
- "summary": "Improvement cycle 596 in progress: Prototype Engineer PE-T2 solvers.",
+ "generatedAt": "2026-11-27T03:37:00.000Z",
+ "summary": "GT-157 all-coins mass simulation started: pre-registering the multiple-testing correction and grids, then building the MEXC USDT universe and running parallel Phase 0 backtests.",
  "agents": [
   {
    "agentId": null,
@@ -815,16 +815,30 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt155-trading-improve",
-   "name": "gt155-trading-improve",
-   "role": "auditor",
+   "agentId": "gt157-mass-simulation",
+   "name": "gt157-mass-simulation",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-155 trading bot setup improvement pass",
-   "detail": "Audit done: 11 weaknesses (in-progress candle signals, Donchian from closes, no log, no ledger, no staleness check). Building v2 fixes.",
-   "currentTask": "Building hardened v2 watcher, ledger, and backtest harness",
-   "lastHeartbeat": "2026-11-27T03:36:00.000Z",
-   "observedAt": "2026-11-27T03:36:00.000Z",
+   "title": "GT-157 all-coins mass simulation",
+   "detail": "Started. Reading GT-156 registration and GT-155 gate; writing the GT-157 pre-registration before any mass run.",
+   "currentTask": "Pre-registration: correction, grids, universe rules",
+   "lastHeartbeat": "2026-11-27T03:37:00.000Z",
+   "observedAt": "2026-11-27T03:37:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt156-strategy-training",
+   "name": "gt156-strategy-training",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-156 Strategy Training Run",
+   "detail": "Pre-registration filed at 03:33:17 UTC. A-Revised and a Bollinger RSI mean reversion baseline are locked; no grid changes are permitted after results.",
+   "currentTask": "Building the job-local causal runner and fetching registered 1h data",
+   "lastHeartbeat": "2026-11-27T03:33:56.000Z",
+   "observedAt": "2026-11-27T03:33:56.000Z",
    "needsUser": false,
    "category": "trading"
   },
@@ -2593,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt155-trading-improve",
+   "name": "gt155-trading-improve",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-155 trading bot setup improvement pass",
+   "detail": "Done: v2 watcher live on demand, hash-chain ledger verified, backtest gate completed, drills 3/3 pass. Watcher schedule ready to enable, needs owner yes.",
+   "currentTask": "Complete: improvement report filed",
+   "lastHeartbeat": "2026-11-27T03:44:00.000Z",
+   "observedAt": "2026-11-27T03:44:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "gt154-trading-plan",
    "name": "gt154-trading-plan",
    "role": "researcher",
@@ -2605,6 +2633,20 @@
    "observedAt": "2026-11-27T03:36:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-prototype-engineer",
+   "name": "Prototype Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T2 findings explorer prototype",
+   "detail": "PE-T2 complete: 6 files, gate 7/7 pass, no em/en dashes.",
+   "currentTask": "PE-T2 build complete, gate 7/7 pass",
+   "lastHeartbeat": "2026-11-27T03:34:09.000Z",
+   "observedAt": "2026-11-27T03:34:09.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "routing-check-595-panel",
@@ -3963,34 +4005,6 @@
    "observedAt": "2026-11-26T11:29:50.000Z",
    "needsUser": false,
    "category": "team-validation"
-  },
-  {
-   "agentId": "cse-qc-evening-1930",
-   "name": "CSE Evening Poster",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Evening 19:30 - Free Sample Push",
-   "detail": "19:30 free sample push LIVE: Day 1 caption, post 122104940049556083, Public, verified",
-   "currentTask": "Evening post published and logged",
-   "lastHeartbeat": "2026-11-26T11:29:22.000Z",
-   "observedAt": "2026-11-26T11:29:22.000Z",
-   "needsUser": false,
-   "category": "cse"
-  },
-  {
-   "agentId": "59675fbe-ce22-41ee-a606-b1d55e637bf3",
-   "name": "GT-145 drone thesis v9 agent",
-   "role": "builder",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "GT-145: Drone thesis v9 working copy",
-   "detail": "Drone thesis v9 working copy complete: all 19 approved GT-144 recommendations applied with full verification.",
-   "currentTask": "Apply 19 GT-144 recommendations to drone thesis v9 working copy",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:31.000Z",
-   "needsUser": false,
-   "category": "Thesis"
   }
  ]
 }
