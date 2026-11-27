@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T19:48:14.000Z",
- "summary": "PE-R3 specialist build complete",
+ "generatedAt": "2026-11-27T19:55:00.000Z",
+ "summary": "Cycle 668 sealing Prototype Engineer retest pairs.",
  "agents": [
   {
    "agentId": null,
@@ -914,15 +914,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team Improvement Cycle 667",
-   "detail": "Cycle 667 started: PE-R3 solvers, Prototype Engineer retest. Sealing 668, judging 669.",
-   "currentTask": "Cycle 667: PE-R3 solvers (PalayLens scan button prototype)",
-   "lastHeartbeat": "2026-11-27T19:42:30.000Z",
-   "observedAt": "2026-11-27T19:42:30.000Z",
+   "title": "Ghostname Team validation cycle 668",
+   "detail": "Cycle 668 sealing PE retest: 3 pairs collected, 1 identity marker to drop, judging 669.",
+   "currentTask": "Cycle 668: sealing PE retest pairs PE-R1/R2/R3",
+   "lastHeartbeat": "2026-11-27T19:55:00.000Z",
+   "observedAt": "2026-11-27T19:55:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2706,15 +2706,29 @@
   },
   {
    "agentId": "pe-r3-specialist",
-   "name": "pe-r3-specialist",
+   "name": "PE-R3 Specialist Solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "PE-R3 PalayLens scan button prototype",
-   "detail": "PE-R3 specialist build complete: 6 files, gate PASS 7/7, read-back PASS, 285s wall time.",
-   "currentTask": "PE-R3 build complete, gate passed 7/7",
-   "lastHeartbeat": "2026-11-27T19:48:14.000Z",
-   "observedAt": "2026-11-27T19:48:14.000Z",
+   "title": "PE-R3 Specialist Solver",
+   "detail": "PE-R3 specialist solver complete: 18,957 bytes, 402 words, 285s, gate 7/7, READ-BACK: PASS. Posted by cycle lead.",
+   "currentTask": "PE-R3 specialist build complete",
+   "lastHeartbeat": "2026-11-27T19:48:34.000Z",
+   "observedAt": "2026-11-27T19:53:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "pe-r3-generic",
+   "name": "PE-R3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-R3 Generic Solver",
+   "detail": "PE-R3 generic solver complete: 13,048 bytes, 341 words, 134s, gate 7/7, READ-BACK: PASS. Posted by cycle lead.",
+   "currentTask": "PE-R3 generic build complete",
+   "lastHeartbeat": "2026-11-27T19:46:18.000Z",
+   "observedAt": "2026-11-27T19:53:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -4089,20 +4103,6 @@
    "observedAt": "2026-11-27T06:26:26.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-t1-generic",
-   "name": "M3D-T1 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-T1 generic solver",
-   "detail": "M3D-T1 generic done (posted by parent): gl.js 20,944 bytes, gate 7/7, K1-K7 pass, 284s.",
-   "currentTask": "M3D-T1 generic output collected and verified",
-   "lastHeartbeat": "2026-11-27T06:10:00.000Z",
-   "observedAt": "2026-11-27T06:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
