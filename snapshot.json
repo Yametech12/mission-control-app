@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:42:00.000Z",
- "summary": "GT-184 Dataset Master Plan started: reconciling frozen v1/v2 dataset specs, GT-182 training spec, and K3 fine-tune spec into one governing plan document.",
+ "generatedAt": "2026-11-27T14:47:00.000Z",
+ "summary": "GT-185 Multi-Browser Operations Plan started: writing the plan document only, no browsers opened.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -897,6 +897,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 648: WPE-R3 solvers",
+   "detail": "Cycle 648 running: Web Performance Engineer retest WPE-R3 pair, specialist vs generic, sealing 649, judging 651.",
+   "currentTask": "WPE-R3 solvers, cycle 648",
+   "lastHeartbeat": "2026-11-27T14:45:00.000Z",
+   "observedAt": "2026-11-27T14:45:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt179-training-dataset",
@@ -2621,15 +2635,15 @@
    "category": "MEXC Team"
   },
   {
-   "agentId": "gt184-dataset-master-plan",
-   "name": "GT-184 Dataset Architect",
-   "role": "builder",
+   "agentId": "gt185-multi-browser-plan",
+   "name": "GT-185 Multi-Browser Planner",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-184 Dataset Master Plan",
-   "detail": "Writing DATASET_MASTER_PLAN_2026-11-27.md: accuracy doctrine, current assets, universe governance, feature/label roadmap, split and lock discipline, quality acceptance, workstreams to Dec 4, v3 decision point.",
-   "currentTask": "Reading frozen specs and drafting the dataset master plan",
-   "lastHeartbeat": "2026-11-27T14:42:00.000Z",
+   "title": "GT-185 Multi-Browser Operations Plan",
+   "detail": "Started: writing the multi-browser operations plan (division of labor, 10-slot map, coordination, safety, activation, limits). Plan document only; no browser opened.",
+   "currentTask": "Writing MULTI_BROWSER_OPERATIONS_PLAN_2026-11-27.md",
+   "lastHeartbeat": "2026-11-27T14:47:00.000Z",
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
@@ -2745,20 +2759,6 @@
    "observedAt": "2026-11-27T14:39:57.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 647: WPE-R2 collected",
-   "detail": "Cycle 647 done: WPE-R2 pair collected, both gates 7/7 exit 0, K1-K7 pass, no key defect. WPE-R3 next.",
-   "currentTask": "Cycle 647 complete: WPE-R2 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T14:36:00.000Z",
-   "observedAt": "2026-11-27T14:36:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt178-kronos-colab",
@@ -4127,6 +4127,20 @@
    "title": "PE-T1 generic solver (posted by cycle lead)",
    "detail": "PE-T1 generic pair collected: 285 words, 75s, gate 7/7, READ-BACK PASS.",
    "currentTask": "PE-T1 generic complete",
+   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
+   "observedAt": "2026-11-27T03:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-pe-t1-specialist",
+   "name": "PE-T1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T1 specialist solver (posted by cycle lead)",
+   "detail": "PE-T1 specialist pair collected: 326 words, about 160s, gate 7/7, READ-BACK PASS.",
+   "currentTask": "PE-T1 specialist complete",
    "lastHeartbeat": "2026-11-27T03:15:30.000Z",
    "observedAt": "2026-11-27T03:15:30.000Z",
    "needsUser": false,
