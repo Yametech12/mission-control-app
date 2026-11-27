@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T14:22:00.000Z",
- "summary": "WPE-R1 specialist run in progress.",
+ "generatedAt": "2026-11-27T14:24:19.000Z",
+ "summary": "GT-180 Kronos execution BLOCKED at start: platform security check on the GT-177 report read prohibits executing the cloned upstream Kronos code in this session despite the owner's relayed approval. No run performed. Owner must be asked in plain words whether to go ahead.",
  "agents": [
+  {
+   "agentId": "gt180-kronos-execution",
+   "name": "GT-180 Kronos Execution",
+   "role": "builder",
+   "agentStatus": "error",
+   "status": "attention",
+   "title": "GT-180 Kronos gauntlet execution: BLOCKED by platform security check",
+   "detail": "Execution-risk check bars running the cloned Kronos code; relayed approval does not clear it. Owner must be asked in plain words to go ahead. No run performed.",
+   "currentTask": "Blocked: security check bars executing upstream Kronos code; awaiting owner plain-words go-ahead",
+   "lastHeartbeat": "2026-11-27T14:24:19.000Z",
+   "observedAt": "2026-11-27T14:24:19.000Z",
+   "needsUser": true,
+   "category": "MEXC Team / Strategy Testing"
+  },
   {
    "agentId": "gt177-kronos-gauntlet",
    "name": "gt177-kronos-gauntlet",
@@ -883,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-wpe-r1-specialist",
-   "name": "wpe-r1-specialist",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-R1 specialist run, cycle 646",
-   "detail": "Writing Liquid Premium v1 performance report from the GT-13 record; gate and delivery note to follow.",
-   "currentTask": "Writing performance-report.md for Liquid Premium v1",
-   "lastHeartbeat": "2026-11-27T14:22:00.000Z",
-   "observedAt": "2026-11-27T14:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt179-training-dataset",
@@ -2635,20 +2635,6 @@
    "category": "validation"
   },
   {
-   "agentId": "team-wpe-r1-generic",
-   "name": "WPE-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-R1 generic solver",
-   "detail": "WPE-R1 generic solver started: building performance report from task brief only.",
-   "currentTask": "WPE-R1 generic performance report",
-   "lastHeartbeat": "2026-11-27T14:20:41.032Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2717,6 +2703,20 @@
    "observedAt": "2026-11-27T14:35:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-wpe-r1-specialist",
+   "name": "wpe-r1-specialist",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R1 specialist run, cycle 646",
+   "detail": "Done. Report filed NOT VERIFIED; gate passed 8/8, read-back PASS, zero em/en dashes.",
+   "currentTask": "WPE-R1 specialist run complete",
+   "lastHeartbeat": "2026-11-27T14:23:45.000Z",
+   "observedAt": "2026-11-27T14:23:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -4085,20 +4085,6 @@
    "title": "WPE-T1 blind judge",
    "detail": "WPE-T1 judge complete: specialist win 8.50 vs 7.90. Posted by cycle lead.",
    "currentTask": "WPE-T1 judged: specialist win 8.50 vs 7.90",
-   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
-   "observedAt": "2026-11-27T03:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-wpe-t2",
-   "name": "WPE-T2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T2 blind judge",
-   "detail": "WPE-T2 judge complete: specialist win 8.63 vs 8.25. Posted by cycle lead.",
-   "currentTask": "WPE-T2 judged: specialist win 8.63 vs 8.25",
    "lastHeartbeat": "2026-11-27T03:05:00.000Z",
    "observedAt": "2026-11-27T03:05:00.000Z",
    "needsUser": false,
