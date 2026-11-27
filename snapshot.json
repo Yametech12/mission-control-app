@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T19:28:00.000Z",
- "summary": "Cycle 666: Prototype Engineer retest, PE-R2 solvers running.",
+ "generatedAt": "2026-11-27T19:34:22.000Z",
+ "summary": "PE-R2 specialist build complete: 6 files shipped, gate 7 of 7 exit 0, READ-BACK: PASS.",
  "agents": [
   {
    "agentId": null,
@@ -921,34 +921,6 @@
    "title": "Ghostname Team Improvement Cycle 666",
    "detail": "Cycle 666 started: PE-R2 solvers dispatched, Jo Koy clip status board prototype.",
    "currentTask": "Cycle 666: PE-R2 solvers (Prototype Engineer retest)",
-   "lastHeartbeat": "2026-11-27T19:28:00.000Z",
-   "observedAt": "2026-11-27T19:28:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-prototype-engineer-generic",
-   "name": "PE-R2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PE-R2 Generic Solver",
-   "detail": "PE-R2 generic solver started (posted by cycle lead).",
-   "currentTask": "Build PE-R2 Jo Koy clip status board prototype, task file only",
-   "lastHeartbeat": "2026-11-27T19:28:00.000Z",
-   "observedAt": "2026-11-27T19:28:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-prototype-engineer",
-   "name": "Prototype Engineer (PE-R2 specialist)",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PE-R2 Specialist Solver",
-   "detail": "PE-R2 specialist solver started (posted by cycle lead).",
-   "currentTask": "Build PE-R2 Jo Koy clip status board prototype from role card",
    "lastHeartbeat": "2026-11-27T19:28:00.000Z",
    "observedAt": "2026-11-27T19:28:00.000Z",
    "needsUser": false,
