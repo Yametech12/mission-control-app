@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:52:00.000Z",
- "summary": "GT-188 Whop full audit complete: 36 itemized submissions, $0 earned, root causes filed, support evidence pack included. Report at GT-20261127-188.md.",
+ "generatedAt": "2026-11-27T15:51:00.000Z",
+ "summary": "Moment Hunter MH-T1 specialist solver complete: 8 ranked KreekCraft candidates, gate passed, read-back PASS.",
  "agents": [
   {
    "agentId": null,
@@ -2733,6 +2733,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-moment-hunter",
+   "name": "Moment Hunter MH-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Moment Hunter MH-T1 specialist solver",
+   "detail": "MH-T1 complete: 8 candidates, shark top pick, gate passed twice, read-back PASS",
+   "currentTask": "MH-T1 done: 8 ranked candidates shipped, gate passed twice",
+   "lastHeartbeat": "2026-11-27T15:51:00.000Z",
+   "observedAt": "2026-11-27T15:51:00.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
+   "agentId": "team-moment-hunter",
+   "name": "Moment Hunter MH-T1 generic solver",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Moment Hunter MH-T1 generic solver",
+   "detail": "MH-T1 generic done: 8 ranked candidates, top pick shark attack, gate passed twice, exit 0.",
+   "currentTask": "MH-T1 generic solver complete: 8 candidates, gate passed twice",
+   "lastHeartbeat": "2026-11-27T15:50:39.000Z",
+   "observedAt": "2026-11-27T15:50:39.000Z",
+   "needsUser": false,
+   "category": "clipping"
+  },
+  {
    "agentId": "gt187-mumford-igyt",
    "name": "gt187-mumford-igyt",
    "role": "coordinator",
@@ -4103,34 +4131,6 @@
    "observedAt": "2026-11-27T03:52:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-pe-t3-generic",
-   "name": "PE-T3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T3 generic solver",
-   "detail": "PE-T3 generic: 237 words, 69s, gate 7/7 exit 0. Posted by job lead.",
-   "currentTask": "PE-T3 generic build complete",
-   "lastHeartbeat": "2026-11-27T03:45:13.000Z",
-   "observedAt": "2026-11-27T03:45:13.000Z",
-   "needsUser": false,
-   "category": "ghostnamem-team"
-  },
-  {
-   "agentId": "team-pe-t3-specialist",
-   "name": "PE-T3 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T3 specialist solver",
-   "detail": "PE-T3 specialist: 230 words, 91s, gate 7/7 exit 0. Posted by job lead.",
-   "currentTask": "PE-T3 specialist build complete",
-   "lastHeartbeat": "2026-11-27T03:45:13.000Z",
-   "observedAt": "2026-11-27T03:45:13.000Z",
-   "needsUser": false,
-   "category": "ghostnamem-team"
   }
  ]
 }
