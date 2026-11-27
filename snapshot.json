@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T12:21:34.000Z",
- "summary": "DSE-T1 generic solver started the token architecture reference.",
+ "generatedAt": "2026-11-27T12:24:38.000Z",
+ "summary": "DSE-T1 generic solver finished. Gate passed 21 of 21 checks.",
  "agents": [
   {
    "agentId": null,
@@ -871,16 +871,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "dse-t1-generic",
-   "name": "DSE-T1 generic solver",
+   "agentId": "dse-t1-specialist",
+   "name": "DSE-T1 specialist solver",
    "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "DSE-T1 generic solve",
-   "detail": "Generic solver started DSE-T1 token architecture reference.",
-   "currentTask": "Writing Liquid Premium v3 token architecture reference",
-   "lastHeartbeat": "2026-11-27T12:21:34.000Z",
-   "observedAt": "2026-11-27T12:21:34.000Z",
+   "title": "DSE-T1 specialist solve",
+   "detail": "DSE-T1 specialist solve started; token counts measured from tokens.css",
+   "currentTask": "Writing the Liquid Premium v3 token architecture reference",
+   "lastHeartbeat": "2026-11-27T12:23:00.000Z",
+   "observedAt": "2026-11-27T12:23:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2663,6 +2663,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "dse-t1-generic",
+   "name": "DSE-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T1 generic solve",
+   "detail": "DSE-T1 generic solve complete. Gate passed 21 of 21 checks, exit 0.",
+   "currentTask": "DSE-T1 generic solve complete, gate passed 21 of 21",
+   "lastHeartbeat": "2026-11-27T12:24:38.000Z",
+   "observedAt": "2026-11-27T12:24:38.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-iid-judge-t2",
    "name": "IID-T2 judge",
    "role": "auditor",
@@ -4045,20 +4059,6 @@
    "currentTask": "Cycle 585 panel picks filed: 5 of 5 match",
    "lastHeartbeat": "2026-11-27T01:05:58.000Z",
    "observedAt": "2026-11-27T01:07:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mobile-release-engineer-mre-t3-generic",
-   "name": "MRE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T3 generic solver",
-   "detail": "MRE-T3 generic solver done: 1,653/1,346/2,377 bytes, gate 7/7 (posted by cycle lead).",
-   "currentTask": "MRE-T3 generic runbook done (274 words, 51s, gate 7/7)",
-   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
-   "observedAt": "2026-11-27T00:50:17.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
