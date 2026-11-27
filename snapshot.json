@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:54:00.000Z",
- "summary": "Improvement cycle 648 complete: WPE-R3 pair collected and verified; all three retest pairs now collected.",
+ "generatedAt": "2026-11-27T15:01:00.000Z",
+ "summary": "GT-182 training started: GT-179 v1 dataset freeze verified (SHA-256 of train.csv and validation.csv match the manifest; test.csv untouched). 32 frozen trials now fitting on the train split (97,994 rows, 34 symbols).",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -897,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt179-training-dataset",
-   "name": "gt179-training-dataset",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-179 Training Dataset Build",
-   "detail": "GT-179 spec frozen before build: 40 GT-171 soldier-eligible pairs, causal 4h features, 1/6/12-candle labels, dated splits with 18-candle embargoes.",
-   "currentTask": "Spec frozen; building MEXC 4h dataset",
-   "lastHeartbeat": "2026-11-27T14:20:03.000Z",
-   "observedAt": "2026-11-27T14:20:03.000Z",
-   "needsUser": false,
-   "category": "api-trading"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2610,12 +2596,12 @@
    "agentId": "gt182-own-model-training",
    "name": "GT-182 Own-Model Training",
    "role": "builder",
-   "agentStatus": "waiting",
+   "agentStatus": "active",
    "status": "working",
    "title": "GT-182 Own-model training spec + train",
-   "detail": "Spec frozen at files/OWN_MODEL_TRAINING_SPEC_2026-11-27.md: 58 features, 16 configs x 2 thresholds = 32 trials, lane cost model + 2x stress, walk-forward check, baselines. Waiting on GT-179 dataset freeze.",
-   "currentTask": "Spec frozen; waiting for GT-179 dataset + manifest to verify hashes",
-   "lastHeartbeat": "2026-11-27T14:42:00.000Z",
+   "detail": "Training started 15:00 UTC after hash verification passed. Grid: 16 HistGB configs x 2 thresholds on train split; validation selection, walk-forward, baselines, 2x stress to follow in the same run.",
+   "currentTask": "Training 32 frozen trials on GT-179 v1 train split",
+   "lastHeartbeat": "2026-11-27T15:01:00.000Z",
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
@@ -2731,6 +2717,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "gt179-training-dataset",
+   "name": "gt179-training-dataset",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-179 Training Dataset Build",
+   "detail": "GT-179 complete: 201,318 rows, 34 pairs, MEXC 4h causal features, cost-adjusted labels. Verification 34/34 PASS (2,040 re-pulled candles, 0 mismatches). Test split locked and hashed.",
+   "currentTask": "Complete: dataset built, verified, organized",
+   "lastHeartbeat": "2026-11-27T14:59:54.000Z",
+   "observedAt": "2026-11-27T14:59:54.000Z",
+   "needsUser": false,
+   "category": "api-trading"
   },
   {
    "agentId": "team-wpe-r3-generic",
@@ -4115,20 +4115,6 @@
    "currentTask": "Panel picks filed",
    "lastHeartbeat": "2026-11-27T03:26:51.000Z",
    "observedAt": "2026-11-27T03:26:51.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pe-t1-generic",
-   "name": "PE-T1 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T1 generic solver (posted by cycle lead)",
-   "detail": "PE-T1 generic pair collected: 285 words, 75s, gate 7/7, READ-BACK PASS.",
-   "currentTask": "PE-T1 generic complete",
-   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
-   "observedAt": "2026-11-27T03:15:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
