@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T07:10:15.000Z",
- "summary": "Ghostname Team validation loop cycle 612 complete: Motion and 3D judged 8.00 vs 8.42, card rewritten.",
+ "generatedAt": "2026-11-27T07:21:24.000Z",
+ "summary": "BID-T1 specialist solver started: label identity audit of SASE, CSE, Hapsay, Ghostname.",
  "agents": [
   {
    "agentId": null,
@@ -9,10 +9,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: delivery chat cannot receive results; 95 consecutive failures. Last success Nov 3, last failed run Nov 27 10:35 PHT.",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 95 straight failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T02:35:11.000Z",
+   "observedAt": "2026-11-27T07:16:32.000Z",
    "needsUser": true,
    "category": "Whop"
   },
@@ -23,26 +23,68 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: delivery chat cannot receive results; 97 consecutive failures. Last success Oct 6, last failed run Nov 27 09:46 PHT.",
+   "detail": "Blocked: the chat it posts to can no longer receive results (account action required). 97 straight failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T01:46:29.000Z",
+   "observedAt": "2026-11-27T07:16:32.000Z",
    "needsUser": true,
-   "category": "Messaging"
+   "category": "Monitoring"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Memory daily backup to Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 23 consecutive times; last success Nov 4. Last failed run Nov 26 23:26 PHT, next run tonight 23:30 PHT.",
+   "title": "Memory daily backup to Drive",
+   "detail": "23 straight failures; last run Thu 23:26 PHT failed, last success Nov 4. Next attempt tonight 23:30 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T15:26:48.000Z",
+   "observedAt": "2026-11-27T07:16:32.000Z",
    "needsUser": false,
    "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 straight failures; last run Thu 19:05 PHT failed, last success Nov 2. Next attempt Sun 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T07:16:32.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 straight failures; last run Mon Nov 23 failed, last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T07:16:32.000Z",
+   "needsUser": false,
+   "category": "Zulti"
+  },
+  {
+   "agentId": null,
+   "name": "Shadow Army improvement cycle",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Shadow Army improvement cycle",
+   "detail": "Check 3 failed 7th straight run: no shadow cycle since 13:05 PHT, all 30 candidate pairs 2+ hourly candles behind. Cause is missing schedule wiring; a team job decision is needed.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T07:07:05.000Z",
+   "needsUser": true,
+   "category": "Trading"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -57,20 +99,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed 8 consecutive times with a spawn error before finishing. Last success Nov 2; last failed run Nov 26 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:05:59.000Z",
-   "needsUser": false,
-   "category": "Website"
   },
   {
    "agentId": null,
@@ -799,6 +827,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-bid-t1-generic",
+   "name": "BID-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "BID-T1 generic solver",
+   "detail": "Generic solver started BID-T1 label identity audit of SASE, CSE, Hapsay, Ghostname.",
+   "currentTask": "BID-T1 label identity audit, generic side",
+   "lastHeartbeat": "2026-11-27T07:21:30.000Z",
+   "observedAt": "2026-11-27T07:21:30.000Z",
+   "needsUser": false,
+   "category": "ghostame-team"
+  },
+  {
+   "agentId": "team-bid-t1-specialist",
+   "name": "BID-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "BID-T1 specialist solver",
+   "detail": "Auditing four label identities against live records; building audit, gate, delivery note.",
+   "currentTask": "BID-T1 label identity audit, four labels",
+   "lastHeartbeat": "2026-11-27T07:21:24.000Z",
+   "observedAt": "2026-11-27T07:21:24.000Z",
+   "needsUser": false,
+   "category": "ghostame-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 613: Brand Identity Designer validation opens",
+   "detail": "Cycle 613 opens Brand Identity Designer (row 16, never tested). BID-T1 solver pair runs this cycle; BID-T2 cycle 614, BID-T3 cycle 616, sealing 617, judging 618.",
+   "currentTask": "Cycle 613: file BID tasks and run BID-T1 solver pair",
+   "lastHeartbeat": "2026-11-27T07:17:27.000Z",
+   "observedAt": "2026-11-27T07:17:27.000Z",
+   "needsUser": false,
+   "category": "ghostame-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2565,20 +2635,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 612: Motion and 3D judging",
-   "detail": "Cycle 612: Motion and 3D judged 8.00 vs 8.42, 1 win, 1 tie, 1 loss, not a clear win; card rewritten (rewrite 1).",
-   "currentTask": "Cycle 612 complete: Motion and 3D judged, card rewritten",
-   "lastHeartbeat": "2026-11-27T07:10:15.000Z",
-   "observedAt": "2026-11-27T07:10:15.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "routing-panel-610",
    "name": "Routing Panel 610",
    "role": "coordinator",
@@ -3963,6 +4019,20 @@
    "observedAt": "2026-11-26T16:28:36.000Z",
    "needsUser": false,
    "category": "Validation"
+  },
+  {
+   "agentId": "routing-check-545-panel",
+   "name": "Routing check 545 panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 545 panel",
+   "detail": "Routing check 545 panel complete (posted by cycle parent): picks Systems Builder, Systems Builder, Data Integrity Auditor, Security Auditor, Site Builder.",
+   "currentTask": "Panel picks filed: 5 of 5",
+   "lastHeartbeat": "2026-11-26T16:11:03.000Z",
+   "observedAt": "2026-11-26T16:13:27.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
