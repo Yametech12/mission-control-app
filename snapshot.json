@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:37:00.000Z",
- "summary": "GT-157 all-coins mass simulation started: pre-registering the multiple-testing correction and grids, then building the MEXC USDT universe and running parallel Phase 0 backtests.",
+ "generatedAt": "2026-11-27T03:41:30.000Z",
+ "summary": "PE-T3 builder started: Yame Call doorbell prototype build in progress",
  "agents": [
   {
    "agentId": null,
@@ -821,40 +821,54 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-157 all-coins mass simulation",
-   "detail": "Started. Reading GT-156 registration and GT-155 gate; writing the GT-157 pre-registration before any mass run.",
-   "currentTask": "Pre-registration: correction, grids, universe rules",
-   "lastHeartbeat": "2026-11-27T03:37:00.000Z",
-   "observedAt": "2026-11-27T03:37:00.000Z",
+   "detail": "Universe done: 30 evaluable pairs (liquidity floor cut 1,213 of 1,266). Fetching 4h and 1h Binance Vision archives, then 660 registered trials.",
+   "currentTask": "Downloading and verifying kline archives for 30 pairs",
+   "lastHeartbeat": "2026-11-27T03:42:00.000Z",
+   "observedAt": "2026-11-27T03:42:00.000Z",
    "needsUser": false,
    "category": "trading"
   },
   {
-   "agentId": "gt156-strategy-training",
-   "name": "gt156-strategy-training",
-   "role": "coordinator",
+   "agentId": "team-pe-t3-specialist",
+   "name": "PE-T3 Specialist Solver",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-156 Strategy Training Run",
-   "detail": "Pre-registration filed at 03:33:17 UTC. A-Revised and a Bollinger RSI mean reversion baseline are locked; no grid changes are permitted after results.",
-   "currentTask": "Building the job-local causal runner and fetching registered 1h data",
-   "lastHeartbeat": "2026-11-27T03:33:56.000Z",
-   "observedAt": "2026-11-27T03:33:56.000Z",
+   "title": "PE-T3 specialist solver",
+   "detail": "Building the throwaway Yame Call doorbell prototype: six files for the PE-T3 validation task.",
+   "currentTask": "Build PE-T3 doorbell prototype files",
+   "lastHeartbeat": "2026-11-27T03:41:30.000Z",
+   "observedAt": "2026-11-27T03:41:30.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "ghostnamem-team"
+  },
+  {
+   "agentId": "team-pe-t3-generic",
+   "name": "PE-T3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "PE-T3 generic solver",
+   "detail": "Building throwaway Yame Call doorbell prototype: six files for PE-T3.",
+   "currentTask": "Build PE-T3 Yame Call doorbell prototype files",
+   "lastHeartbeat": "2026-11-27T03:41:10.000Z",
+   "observedAt": "2026-11-27T03:41:10.000Z",
+   "needsUser": false,
+   "category": "ghostnamem-team"
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 596: Prototype Engineer PE-T2 solvers",
-   "detail": "Cycle 596 running PE-T2 solver pair (specialist vs generic) for Prototype Engineer validation.",
-   "currentTask": "PE-T2 solvers: specialist and generic",
-   "lastHeartbeat": "2026-11-27T03:29:21.000Z",
-   "observedAt": "2026-11-27T03:29:21.000Z",
+   "title": "Ghostname Team validation cycle 597",
+   "detail": "Cycle 597 started: PE-T3 specialist and generic solvers dispatched.",
+   "currentTask": "Cycle 597: PE-T3 solvers (Yame Call doorbell prototype)",
+   "lastHeartbeat": "2026-11-27T03:41:00.000Z",
+   "observedAt": "2026-11-27T03:41:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnamem-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2621,6 +2635,48 @@
    "category": "trading"
   },
   {
+   "agentId": "gt156-strategy-training",
+   "name": "gt156-strategy-training",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-156 Strategy Training Run",
+   "detail": "Complete. A-Revised FAIL: PF 1.355, 80 OOS trades, 93.3% ETH profit share. B FAIL: PF 1.444, 27 OOS trades, 90.1% BTC share, 7 of 10 neighbours profitable.",
+   "currentTask": "Completed GT-156 training report",
+   "lastHeartbeat": "2026-11-27T03:40:06.000Z",
+   "observedAt": "2026-11-27T03:40:06.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T2 generic solver",
+   "detail": "Posted by cycle lead; solver dashboard posts failed on schema. PE-T2 generic build complete: 6 files, 15,635 bytes, proof note 253 words, gate 7/7 exit 0, 231s, no first-draft corrections.",
+   "currentTask": "PE-T2 generic build complete",
+   "lastHeartbeat": "2026-11-27T03:35:12.000Z",
+   "observedAt": "2026-11-27T03:38:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-prototype-engineer",
+   "name": "Prototype Engineer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T2 specialist solver",
+   "detail": "Posted by cycle lead. PE-T2 specialist build complete: 6 files, 17,990 bytes, proof note 315 words, gate 7/7 exit 0, 152s, no first-draft corrections.",
+   "currentTask": "PE-T2 specialist build complete",
+   "lastHeartbeat": "2026-11-27T03:34:47.000Z",
+   "observedAt": "2026-11-27T03:38:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt154-trading-plan",
    "name": "gt154-trading-plan",
    "role": "researcher",
@@ -2633,20 +2689,6 @@
    "observedAt": "2026-11-27T03:36:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-prototype-engineer",
-   "name": "Prototype Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T2 findings explorer prototype",
-   "detail": "PE-T2 complete: 6 files, gate 7/7 pass, no em/en dashes.",
-   "currentTask": "PE-T2 build complete, gate 7/7 pass",
-   "lastHeartbeat": "2026-11-27T03:34:09.000Z",
-   "observedAt": "2026-11-27T03:34:09.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "routing-check-595-panel",
@@ -3895,20 +3937,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-R2 generic solve",
-   "detail": "AB-R2 generic pack done: gate 40/40 PASS, exit 0, 153s wall time.",
-   "currentTask": "AB-R2 generic solve",
-   "lastHeartbeat": "2026-11-26T13:05:36.000Z",
-   "observedAt": "2026-11-26T13:05:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "ab-r1-generic",
    "name": "AB-R1 Generic",
    "role": "builder",
@@ -3989,20 +4017,6 @@
    "currentTask": "SYSB-R1 specialist solve",
    "lastHeartbeat": "2026-11-26T11:31:00.000Z",
    "observedAt": "2026-11-26T11:31:00.000Z",
-   "needsUser": false,
-   "category": "team-validation"
-  },
-  {
-   "agentId": "sysb-r1-generic-solver",
-   "name": "SYSB-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-R1 generic solver",
-   "detail": "session.js, test.js, delivery-note.md done. 6 of 6 cases pass.",
-   "currentTask": "SYSB-R1 generic solve",
-   "lastHeartbeat": "2026-11-26T11:29:50.000Z",
-   "observedAt": "2026-11-26T11:29:50.000Z",
    "needsUser": false,
    "category": "team-validation"
   }
