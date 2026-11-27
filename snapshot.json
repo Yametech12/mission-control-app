@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:52:00.000Z",
- "summary": "GT-151 Money and Market leg complete: 10 ranked nationwide PH monthly-revenue app candidates in leg-money-market.md, now with the both-platforms (iOS and Android) line per candidate.",
+ "generatedAt": "2026-11-27T01:55:54.000Z",
+ "summary": "WPE-T2 specialist solver working: writing the Liquid Premium v3 performance report",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,48 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-web-performance-engineer",
+   "name": "Web Performance Engineer",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-T2 specialist solver",
+   "detail": "WPE-T2 specialist solver working: writing the Liquid Premium v3 performance report from the GT-14 record",
+   "currentTask": "WPE-T2 specialist solve",
+   "lastHeartbeat": "2026-11-27T01:55:54.000Z",
+   "observedAt": "2026-11-27T01:55:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-T2 generic solver",
+   "detail": "WPE-T2 generic solver working on Liquid Premium v3 report, gate, and delivery note",
+   "currentTask": "WPE-T2 generic solve",
+   "lastHeartbeat": "2026-11-27T01:55:40.000Z",
+   "observedAt": "2026-11-27T01:55:40.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 589: WPE-T2 solvers",
+   "detail": "Cycle 589 running: Web Performance Engineer WPE-T2 solver pair (specialist vs generic)",
+   "currentTask": "Cycle 589: WPE-T2 solver pair",
+   "lastHeartbeat": "2026-11-27T01:54:45.000Z",
+   "observedAt": "2026-11-27T01:54:45.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt151-money-market",
    "name": "gt151-money-market",
    "role": "researcher",
@@ -827,20 +869,6 @@
    "observedAt": "2026-11-27T01:44:33.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 588: Web Performance Engineer",
-   "detail": "Cycle 588 open: Web Performance Engineer validation (row 10, first test). WPE-T1 pair running.",
-   "currentTask": "Cycle 588: Web Performance Engineer validation, WPE-T1 pair",
-   "lastHeartbeat": "2026-11-27T01:40:00.000Z",
-   "observedAt": "2026-11-27T01:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,6 +2565,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-wpe-t1-specialist",
+   "name": "WPE-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T1 specialist solver",
+   "detail": "WPE-T1 specialist: report 4,634 bytes, 811 words, gate 7/7, about 80s. Snapshots posted by the solver.",
+   "currentTask": "WPE-T1 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T01:49:21.000Z",
+   "observedAt": "2026-11-27T01:49:21.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-wpe-t1-generic",
+   "name": "WPE-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T1 generic solver",
+   "detail": "WPE-T1 generic: report 4,885 bytes, 860 words, gate 7/7, 101s. Snapshots posted by the solver.",
+   "currentTask": "WPE-T1 generic solve complete",
+   "lastHeartbeat": "2026-11-27T01:48:23.000Z",
+   "observedAt": "2026-11-27T01:48:23.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "gt151-builder-services",
    "name": "gt151-app-builder",
    "role": "builder",
@@ -3615,20 +3671,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-R3 generic solve",
-   "detail": "Generic solve complete: 5,911/10,762/4,885 bytes, 771 words, 65s; test exit 0, 7 of 7. Posted by cycle parent.",
-   "currentTask": "SYSB-R3 generic solve complete",
-   "lastHeartbeat": "2026-11-26T11:58:51.000Z",
-   "observedAt": "2026-11-26T12:01:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-systems-builder",
    "name": "Systems Builder",
    "role": "builder",
@@ -3919,20 +3961,6 @@
    "currentTask": "AB-T2 specialist solve complete",
    "lastHeartbeat": "2026-11-26T09:12:00.000Z",
    "observedAt": "2026-11-26T09:12:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-app-builder-generic",
-   "name": "App Builder generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T1 generic solve complete",
-   "detail": "Generic AB-T1 solve complete (116s, gate exit 0, 0 em dashes). Posted by the improvement-cycle parent; solver snapshots already posted by the solver.",
-   "currentTask": "AB-T1 generic solve",
-   "lastHeartbeat": "2026-11-26T09:06:09.000Z",
-   "observedAt": "2026-11-26T09:07:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
