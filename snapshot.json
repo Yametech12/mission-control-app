@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T10:39:30.000Z",
- "summary": "Improvement cycle 629 complete: API Integration Engineer retest 2 sealed for blind judging in cycle 631.",
+ "generatedAt": "2026-11-27T10:49:29.000Z",
+ "summary": "Routing panel cycle 630 complete: five picks filed with vote splits.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 630",
+   "detail": "Routing check 98: five fresh legs from GT-169, GT-170, GT-171, GT-172; Coordinator picks sealed, panel reading next.",
+   "currentTask": "Cycle 630 routing check: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-27T10:46:30.000Z",
+   "observedAt": "2026-11-27T10:46:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,16 +2607,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "agentId": "team-routing-panel-630",
+   "name": "Routing panel 630",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 629",
-   "detail": "Cycle 629 sealed: AIE retest 2 pairs AIE-S1 to AIE-S3, SEAL_OK first run, 2 markers dropped, all 6 neutral gates exit 0, 7/7. Judging cycle 631.",
-   "currentTask": "Cycle 629 sealing complete",
-   "lastHeartbeat": "2026-11-27T10:39:30.000Z",
-   "observedAt": "2026-11-27T10:39:30.000Z",
+   "title": "Routing panel cycle 630",
+   "detail": "Panel done: Systems Builder, Systems Builder, Data Integrity Auditor, Data Engineer, Money Researcher. Picks filed.",
+   "currentTask": "Panel verdicts filed for routing check cycle 630",
+   "lastHeartbeat": "2026-11-27T10:49:29.000Z",
+   "observedAt": "2026-11-27T10:49:29.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
