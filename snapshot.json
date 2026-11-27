@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T20:25:30.000Z",
- "summary": "Routing check cycle 670 panel complete: all 5 picks Watcher (RC-T1 7-1, RC-T2 7-1, RC-T3 6-2, RC-T4 7-1, RC-T5 6-2). Picks filed.",
+ "generatedAt": "2026-11-27T20:30:55.000Z",
+ "summary": "Cycle 671 started: Prototype Engineer retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -914,17 +914,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 670: routing check",
-   "detail": "Cycle 670 started: 106th routing check, 5 fresh real legs from Nov 27-28 work.",
-   "currentTask": "Routing check cycle 670: gathering fresh legs",
-   "lastHeartbeat": "2026-11-27T20:16:00.000Z",
-   "observedAt": "2026-11-27T20:16:00.000Z",
+   "title": "Ghostname Team validation cycle 671",
+   "detail": "Cycle 671 started: Prototype Engineer retest 2 of rewrite 2, filing 3 fresh tasks, PE-S1 solvers next.",
+   "currentTask": "Cycle 671: Prototype Engineer retest 2, filing PE-S1 to PE-S3 tasks",
+   "lastHeartbeat": "2026-11-27T20:30:55.000Z",
+   "observedAt": "2026-11-27T20:30:55.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostnam-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
