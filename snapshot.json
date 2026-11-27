@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:26:30.000Z",
- "summary": "Cycle 623: sealing Typography Specialist pairs TYPO-T1 to TYPO-T3.",
+ "generatedAt": "2026-11-27T09:36:30.000Z",
+ "summary": "Cycle 624: Typography Specialist blind judging in progress.",
  "agents": [
   {
    "agentId": null,
@@ -834,13 +834,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 623: Typography Specialist sealing",
-   "detail": "Sealing TYPO-T1 to TYPO-T3 pairs into neutral A/B inputs with a sealed mapping; judging cycle 624.",
-   "currentTask": "Sealing Typography Specialist pairs",
-   "lastHeartbeat": "2026-11-27T09:26:30.000Z",
-   "observedAt": "2026-11-27T09:26:30.000Z",
+   "title": "Ghostname Team validation loop cycle 624",
+   "detail": "Cycle 624 started: blind QA judging of Typography Specialist TYPO-T1 to TYPO-T3.",
+   "currentTask": "Cycle 624: judging Typography Specialist TYPO-T1 to TYPO-T3 blind",
+   "lastHeartbeat": "2026-11-27T09:36:30.000Z",
+   "observedAt": "2026-11-27T09:36:30.000Z",
    "needsUser": false,
-   "category": "ghostnam team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
