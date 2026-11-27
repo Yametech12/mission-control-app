@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T22:54:50.000Z",
- "summary": "Routing panel cycle 680 complete: Watcher x3, Money Researcher, Data Integrity Auditor.",
+ "generatedAt": "2026-11-27T23:00:30.000Z",
+ "summary": "Cycle 681: Motion and 3D retest M3D-R3 solvers running",
  "agents": [
   {
    "agentId": null,
@@ -904,13 +904,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 680: routing check",
-   "detail": "Cycle 680 routing check started: 5 fresh Nov 28 legs (VERITY/MONTRA/BULLA 06:28 watches, F6 cycle 06:11, health cycle 06:45).",
-   "currentTask": "Cycle 680 routing check: 5 fresh Nov 28 legs, panel scoring next",
-   "lastHeartbeat": "2026-11-27T22:52:00.000Z",
-   "observedAt": "2026-11-27T22:52:00.000Z",
+   "title": "Improvement cycle 681",
+   "detail": "Cycle 681 started: Motion and 3D retest, M3D-R3 solver pair running",
+   "currentTask": "Cycle 681: M3D-R3 solver pair",
+   "lastHeartbeat": "2026-11-27T23:00:30.000Z",
+   "observedAt": "2026-11-27T23:00:30.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2711,10 +2711,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing panel cycle 680",
-   "detail": "Panel complete: RC-T1 Watcher 7-1, RC-T2 Watcher 8-0, RC-T3 Watcher 8-0, RC-T4 Money Researcher 6-2, RC-T5 Data Integrity Auditor 6-2.",
-   "currentTask": "Scoring 5 routing tasks from ROSTER_INDEX triggers",
-   "lastHeartbeat": "2026-11-27T22:54:50.000Z",
-   "observedAt": "2026-11-27T22:54:50.000Z",
+   "detail": "Routing panel cycle 680 filed its picks (posted by the cycle parent as carried item).",
+   "currentTask": "Panel picks filed: 4 of 5 match Coordinator",
+   "lastHeartbeat": "2026-11-27T22:55:04.000Z",
+   "observedAt": "2026-11-27T22:58:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
