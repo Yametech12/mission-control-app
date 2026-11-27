@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T12:10:00.000Z",
- "summary": "GT-175: MS-1 and MS-2 built and QA passed, media staged in Uplika. Scheduling blocked: TikTok @ghostname_lofi is not connected to Uplika; needs the browser route or an account connection.",
+ "generatedAt": "2026-11-27T12:11:30.000Z",
+ "summary": "Cycle 637 done: IID judged 8.00 / 7.67, card rewritten (rewrite 1)",
  "agents": [
   {
    "agentId": "gt175-mumford-run",
@@ -2622,17 +2622,31 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team validation cycle 636",
-   "detail": "Cycle 636 done: IID sealed SEAL_OK first run, 46 neutral files, 0 identity hits, all 6 neutral gates exit 0. Judging cycle 637.",
-   "currentTask": "Cycle 636 complete: IID pairs sealed for blind judging",
-   "lastHeartbeat": "2026-11-27T11:59:28.000Z",
-   "observedAt": "2026-11-27T11:59:28.000Z",
+   "title": "Cycle 637 judging IID",
+   "detail": "Cycle 637 done: IID judged 8.00 / 7.67 (2 wins, 1 loss, net +0.33), not a clear win, no VALIDATED mark; card rewritten, rewrite 1.",
+   "currentTask": "Cycle 637 done: IID judged 8.00 / 7.67, card rewritten (rewrite 1)",
+   "lastHeartbeat": "2026-11-27T12:11:30.000Z",
+   "observedAt": "2026-11-27T12:11:30.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-iid-judge-t2",
+   "name": "IID-T2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-T2 judge",
+   "detail": "IID-T2 judged by fresh-context QA judge: B wins 8.50 vs 7.25. Posted by parent; judge did not read the reporting playbook.",
+   "currentTask": "IID-T2 judged: B wins 8.50 vs 7.25",
+   "lastHeartbeat": "2026-11-27T12:11:30.000Z",
+   "observedAt": "2026-11-27T12:11:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-routing-panel-635",
@@ -4003,20 +4017,6 @@
    "currentTask": "Cycle 585 panel picks filed: 5 of 5 match",
    "lastHeartbeat": "2026-11-27T01:05:58.000Z",
    "observedAt": "2026-11-27T01:07:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mobile-release-engineer-mre-t3-generic",
-   "name": "MRE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T3 generic solver",
-   "detail": "MRE-T3 generic solver done: 1,653/1,346/2,377 bytes, gate 7/7 (posted by cycle lead).",
-   "currentTask": "MRE-T3 generic runbook done (274 words, 51s, gate 7/7)",
-   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
-   "observedAt": "2026-11-27T00:50:17.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
