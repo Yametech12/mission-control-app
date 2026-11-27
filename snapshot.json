@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:14:00.000Z",
- "summary": "GT-152 problem-hunt leg started: hunting 6 unique problem-first PH app candidates with web evidence.",
+ "generatedAt": "2026-11-27T03:05:00.000Z",
+ "summary": "GT-152 Systems Builder leg COMPLETE. 4 vetted candidates in leg-systems-build.md with P10k/P50k/P100k models, build days, ops burden, kill criteria. 7 crowded ideas dropped on evidence.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt152-problem-hunt",
-   "name": "gt152-problem-hunt",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-152 problem hunt (User Researcher leg)",
-   "detail": "Started: gathering real signals for 6 unique problem-first candidates (GT-152).",
-   "currentTask": "Web research: scams, appointment fixers, IMEI theft checks, medicine prices, farmgate, riders",
-   "lastHeartbeat": "2026-11-27T02:14:00.000Z",
-   "observedAt": "2026-11-27T02:14:00.000Z",
-   "needsUser": false,
-   "category": "research"
   },
   {
    "agentId": "gt152-systems-build",
@@ -2565,6 +2551,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt152-problem-hunt",
+   "name": "gt152-problem-hunt",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-152 problem hunt (User Researcher leg)",
+   "detail": "Completed: 6 unique problem-first candidates filed (LegitCheck, GamotPresyo, SlotWatch, CheckMuna IMEI, PresyoSaUma, RiderNet); generic scam checker killed, Whoscall owns it.",
+   "currentTask": "Done: leg-problem-hunt.md filed with 6 evidenced candidates",
+   "lastHeartbeat": "2026-11-27T02:24:00.000Z",
+   "observedAt": "2026-11-27T02:24:00.000Z",
+   "needsUser": false,
+   "category": "research"
+  },
+  {
+   "agentId": "team-routing-panel-cycle-590",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 590 panel",
+   "detail": "Picks: RC-T1 Page Operator 6-2, RC-T2 App Builder 5-3, RC-T3 Money Researcher 7-1, RC-T4 Money Researcher 5-3, RC-T5 Page Operator 7-1.",
+   "currentTask": "Panel picks written to panel-picks.md",
+   "lastHeartbeat": "2026-11-27T02:14:00.000Z",
+   "observedAt": "2026-11-27T02:14:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-generic-solver",
    "name": "Generic Solver",
    "role": "builder",
@@ -3009,20 +3023,6 @@
    "currentTask": "AIE-T3 judgement voided, re-judge pending",
    "lastHeartbeat": "2026-11-26T21:13:00.000Z",
    "observedAt": "2026-11-26T21:13:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel-565",
-   "name": "Routing check panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 565 panel",
-   "detail": "Panel complete: Fact Checker 6-2, API Integration Engineer 6-2, Coursework Planner 5-3, Systems Builder 5-3, Watcher 8-0. Picks filed. Posted by parent in completion snapshot.",
-   "currentTask": "Routing check 565 panel complete",
-   "lastHeartbeat": "2026-11-26T20:50:00.000Z",
-   "observedAt": "2026-11-26T20:50:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3949,20 +3949,6 @@
    "observedAt": "2026-11-26T09:45:00.000Z",
    "needsUser": false,
    "category": "thesis"
-  },
-  {
-   "agentId": "ab-t3-generic-solver",
-   "name": "AB-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T3 generic solve",
-   "detail": "AB-T3 generic solve complete (posted by parent): runbook 2,256 bytes / 370 words, workflow 818, handoff 760, gate 2,154, 42s, gate exit 0.",
-   "currentTask": "AB-T3 generic solve complete (posted by parent)",
-   "lastHeartbeat": "2026-11-26T09:27:41.000Z",
-   "observedAt": "2026-11-26T09:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
