@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T08:03:00.000Z",
- "summary": "Cycle 616 complete: BID-T3 pair collected and verified; all 3 Brand Identity Designer pairs collected, sealing 617, judging 618.",
+ "generatedAt": "2026-11-27T08:12:00.000Z",
+ "summary": "GT-166 complete: 9-agent sequential pipeline built, repaired, and verified live in production on the MEXC Trading Bot Console.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt166-coordinator",
-   "name": "gt166-coordinator",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-166: 9-Agent Pipeline upgrade, MEXC Console",
-   "detail": "GT-166 verification: build live with real sandbox vetoes, but production runPipelineCycle returns feed-unavailable while getTickers succeeds. Repair inspection dispatched to find the failing requests.",
-   "currentTask": "Repair edit dispatched: pipeline cycle feed failure in production",
-   "lastHeartbeat": "2026-11-27T08:01:00.000Z",
-   "observedAt": "2026-11-27T08:01:00.000Z",
+   "title": "Improvement cycle 617: Brand Identity Designer sealing",
+   "detail": "Sealing BID-T1 to BID-T3 pairs under the cycle 199 differential rule; judging lands cycle 618.",
+   "currentTask": "Sealing Brand Identity Designer pairs BID-T1 to BID-T3",
+   "lastHeartbeat": "2026-11-27T08:08:47.000Z",
+   "observedAt": "2026-11-27T08:08:47.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2607,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt166-coordinator",
+   "name": "gt166-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-166: 9-Agent Pipeline upgrade, MEXC Console",
+   "detail": "GT-166 complete: 9-agent pipeline live on the MEXC Console and verified in production (real Scanner candidates, BlackMint vetoes, hash-chained ledger persisted). Report: jobs/GT-20261127-166.md.",
+   "currentTask": "GT-166 complete: pipeline verified live in production",
+   "lastHeartbeat": "2026-11-27T08:12:00.000Z",
+   "observedAt": "2026-11-27T08:12:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "bid-t3-generic-solver",
    "name": "bid-t3-generic-solver",
    "role": "builder",
@@ -2629,20 +2643,6 @@
    "title": "BID-T3 specialist solver",
    "detail": "Pod identity sheet done: 11,677 bytes, gate 7/7 exit 0, READ-BACK PASS. Posted by cycle lead.",
    "currentTask": "BID-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T08:03:00.000Z",
-   "observedAt": "2026-11-27T08:03:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation loop, cycle 616",
-   "detail": "BID-T3 pair collected and verified: specialist 11,677 bytes, 154s; generic 10,094 bytes, 106s; both gates 7/7, K1-K7 pass both. All 3 pairs collected; sealing 617, judging 618.",
-   "currentTask": "Cycle 616 complete: BID-T3 pair collected",
    "lastHeartbeat": "2026-11-27T08:03:00.000Z",
    "observedAt": "2026-11-27T08:03:00.000Z",
    "needsUser": false,
