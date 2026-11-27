@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:50:04.000Z",
- "summary": "WPE-R3 generic solver complete: audit shipped, gate 7/7 PASS, verdict NOT VERIFIED.",
+ "generatedAt": "2026-11-27T14:54:00.000Z",
+ "summary": "Improvement cycle 648 complete: WPE-R3 pair collected and verified; all three retest pairs now collected.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -2621,6 +2621,20 @@
    "category": "MEXC Team"
   },
   {
+   "agentId": "gt186-raw-archive",
+   "name": "GT-186 Raw Archive",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-186 raw candle archive: universe confirmed",
+   "detail": "Universe confirmed: 1646 tickers, 1307 USDT pairs; top 1000 cutoff 24h quote volume about 52,845 USDT. Snapshot and ranked list saved. Collector starting.",
+   "currentTask": "Universe confirmed: 1307 USDT pairs, pulling top 1000",
+   "lastHeartbeat": "2026-11-27T14:56:30.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "MEXC Team"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2717,6 +2731,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-wpe-r3-generic",
+   "name": "WPE-R3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R3 generic solver",
+   "detail": "Generic run complete: budget-audit 7,960 bytes / 1,397 words, gate 7/7 exit 0, READ-BACK: PASS, 146s.",
+   "currentTask": "WPE-R3 generic run complete",
+   "lastHeartbeat": "2026-11-27T14:50:27.000Z",
+   "observedAt": "2026-11-27T14:54:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt183-kronos-finetune-spec",
@@ -4099,20 +4127,6 @@
    "title": "PE-T1 generic solver (posted by cycle lead)",
    "detail": "PE-T1 generic pair collected: 285 words, 75s, gate 7/7, READ-BACK PASS.",
    "currentTask": "PE-T1 generic complete",
-   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
-   "observedAt": "2026-11-27T03:15:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pe-t1-specialist",
-   "name": "PE-T1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T1 specialist solver (posted by cycle lead)",
-   "detail": "PE-T1 specialist pair collected: 326 words, about 160s, gate 7/7, READ-BACK PASS.",
-   "currentTask": "PE-T1 specialist complete",
    "lastHeartbeat": "2026-11-27T03:15:30.000Z",
    "observedAt": "2026-11-27T03:15:30.000Z",
    "needsUser": false,
