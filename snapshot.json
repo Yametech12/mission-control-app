@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:47:00.000Z",
- "summary": "Cycle 635 routing check in progress.",
+ "generatedAt": "2026-11-27T11:52:00.000Z",
+ "summary": "GT-175 Mumford & Sons / Chris Stapleton campaign: Clipp Team building and scheduling the first clips under owner delegation.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
+   "agentId": "gt175-mumford-run",
+   "name": "clipp-team-coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 635",
-   "detail": "Cycle 635 routing check started: 5 fresh Nov 27 legs from GT-169/171/173/174",
-   "currentTask": "Routing check cycle 635: harvesting 5 fresh Nov 27 legs",
-   "lastHeartbeat": "2026-11-27T11:47:00.000Z",
-   "observedAt": "2026-11-27T11:47:00.000Z",
+   "title": "GT-175 Mumford x Stapleton clips",
+   "detail": "Started: reading brief and gates done, checking Uplika accounts and downloading approved footage.",
+   "currentTask": "Setup: Uplika check + footage download",
+   "lastHeartbeat": "2026-11-27T11:52:00.000Z",
+   "observedAt": "2026-11-27T11:52:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "clipping"
   },
   {
    "agentId": null,
@@ -2621,6 +2621,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 635",
+   "detail": "Cycle 635 routing check done: 3 of 5, no rule fixes, flag does not recur. Scoreboard 28/9/42 of 79.",
+   "currentTask": "Cycle 635 routing check complete",
+   "lastHeartbeat": "2026-11-27T11:51:00.000Z",
+   "observedAt": "2026-11-27T11:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel-635",
+   "name": "Routing check panel 635",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check panel 635",
+   "detail": "Panel picks filed for 5 tasks (posted by cycle parent).",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T11:48:28.000Z",
+   "observedAt": "2026-11-27T11:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "clipp-scout-nov27",
    "name": "clipp-scout",
    "role": "researcher",
@@ -3991,34 +4019,6 @@
    "observedAt": "2026-11-27T00:50:17.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mobile-release-engineer-mre-t3-specialist",
-   "name": "MRE-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T3 specialist solver",
-   "detail": "MRE-T3 specialist solver done: 4,998/1,755/3,784 bytes, gate 7/7 (posted by cycle lead).",
-   "currentTask": "MRE-T3 specialist runbook done (830 words, 80s, gate 7/7)",
-   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
-   "observedAt": "2026-11-27T00:50:17.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mobile-release-engineer-specialist",
-   "name": "MRE-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T2 specialist solver",
-   "detail": "Specialist MRE-T2 done: 3,268/1,799/3,218 bytes, 518 words, gate 7/7 exit 0. Posted by cycle lead.",
-   "currentTask": "MRE-T2 complete",
-   "lastHeartbeat": "2026-11-27T00:38:30.000Z",
-   "observedAt": "2026-11-27T00:38:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
