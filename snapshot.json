@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:31:30.000Z",
- "summary": "GT-181 started: pre-registering the v2 wide-universe training dataset spec (top 150 MEXC USDT pairs by volume, spread/history gates, target 100+ pairs), mirroring v1 features, labels, and splits.",
+ "generatedAt": "2026-11-27T14:36:00.000Z",
+ "summary": "Cycle 647 complete: WPE-R2 pair collected and verified. Scoreboard 29 validated, 9 flagged, 41 unvalidated of 79.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -2598,10 +2598,10 @@
    "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-181: Training dataset v2 (100+ tokens) build started",
-   "detail": "GT-181 started: building training dataset v2 (top 150 by 24h volume, quality gates, target 100+ pairs). Mirroring v1 features, labels, and split rule. No v1 files touched.",
-   "currentTask": "Pre-registering v2 spec, then pulling top-150 MEXC USDT pairs for the wide training dataset",
-   "lastHeartbeat": "2026-11-27T14:31:30.000Z",
+   "title": "GT-181: V2 spec frozen (with potential screen); data pull starting",
+   "detail": "V2 spec frozen pre-pull: top 150 by volume, spread <=0.50%, >=500 candles, plus potential screen (7d avg vol >=250k USD/day; median ATR% 0.3-8%) and token taxonomy. Features/labels/splits mirror v1.",
+   "currentTask": "Spec frozen with potential screen and taxonomy amendment; starting the MEXC data pull for the top-150 candidates",
+   "lastHeartbeat": "2026-11-27T14:36:00.000Z",
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team / Data"
@@ -2705,6 +2705,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 647: WPE-R2 collected",
+   "detail": "Cycle 647 done: WPE-R2 pair collected, both gates 7/7 exit 0, K1-K7 pass, no key defect. WPE-R3 next.",
+   "currentTask": "Cycle 647 complete: WPE-R2 pair collected and verified",
+   "lastHeartbeat": "2026-11-27T14:36:00.000Z",
+   "observedAt": "2026-11-27T14:36:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt178-kronos-colab",
    "name": "gt178-kronos-colab",
    "role": "builder",
@@ -2717,20 +2731,6 @@
    "observedAt": "2026-11-27T14:35:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 646: WPE retest opened, R1 pair collected",
-   "detail": "Cycle 646 done: WPE retest opened, WPE-R1 pair collected and verified (specialist 956 words gate 8/8, generic 944 words gate 7/7, K1-K7 pass both, no key defect). R2 solvers next cycle.",
-   "currentTask": "Cycle 646 complete",
-   "lastHeartbeat": "2026-11-27T14:29:30.000Z",
-   "observedAt": "2026-11-27T14:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-wpe-r1-generic",
