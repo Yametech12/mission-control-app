@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T22:47:03.000Z",
- "summary": "Cycle 679 complete: M3D-R2 pair collected and verified.",
+ "generatedAt": "2026-11-27T22:54:50.000Z",
+ "summary": "Routing panel cycle 680 complete: Watcher x3, Money Researcher, Data Integrity Auditor.",
  "agents": [
   {
    "agentId": null,
@@ -897,6 +897,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 680: routing check",
+   "detail": "Cycle 680 routing check started: 5 fresh Nov 28 legs (VERITY/MONTRA/BULLA 06:28 watches, F6 cycle 06:11, health cycle 06:45).",
+   "currentTask": "Cycle 680 routing check: 5 fresh Nov 28 legs, panel scoring next",
+   "lastHeartbeat": "2026-11-27T22:52:00.000Z",
+   "observedAt": "2026-11-27T22:52:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,18 +2705,18 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "team-routing-panel-cycle-680",
+   "name": "Routing Panel 680",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Cycle 679: M3D-R2 collected",
-   "detail": "Cycle 679 done: M3D-R2 pair collected, both gates 7/7 exit 0, K1-K7 pass both, no key defect. M3D-R3 solvers cycle 681.",
-   "currentTask": "Cycle 679 complete: M3D-R2 pair collected",
-   "lastHeartbeat": "2026-11-27T22:47:03.000Z",
-   "observedAt": "2026-11-27T22:47:03.000Z",
+   "title": "Routing panel cycle 680",
+   "detail": "Panel complete: RC-T1 Watcher 7-1, RC-T2 Watcher 8-0, RC-T3 Watcher 8-0, RC-T4 Money Researcher 6-2, RC-T5 Data Integrity Auditor 6-2.",
+   "currentTask": "Scoring 5 routing tasks from ROSTER_INDEX triggers",
+   "lastHeartbeat": "2026-11-27T22:54:50.000Z",
+   "observedAt": "2026-11-27T22:54:50.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "m3d-r2-generic",
