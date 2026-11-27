@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T03:05:00.000Z",
- "summary": "GT-152 Systems Builder leg COMPLETE. 4 vetted candidates in leg-systems-build.md with P10k/P50k/P100k models, build days, ops burden, kill criteria. 7 crowded ideas dropped on evidence.",
+ "generatedAt": "2026-11-27T02:16:52.000Z",
+ "summary": "1 Ghostname cycle running, 2 chat agents active, CSE morning and evening posts completed, and 5 schedules need attention, including 2 blocked on delivery.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Failed 09:46 PHT, 97 consecutive failures; blocked because its delivery chat can no longer receive results.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T01:46:29.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
+  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -9,7 +23,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results. 94 consecutive failures; last success Nov 3.",
+   "detail": "Failed 04:35 PHT, 94 consecutive failures; blocked because its delivery chat can no longer receive results.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-26T20:35:11.000Z",
@@ -18,30 +32,16 @@
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results. 96 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T19:46:29.000Z",
-   "needsUser": true,
-   "category": "Telegram"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Drive",
-   "detail": "23 consecutive failures; last run Nov 26 23:26 PHT failed and last success was Nov 4. No failure reason recorded.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed Nov 26, 23 consecutive failures; last success Nov 4. No reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-26T15:26:48.000Z",
-   "needsUser": true,
+   "needsUser": false,
    "category": "Backup"
   },
   {
@@ -65,7 +65,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 consecutive failures; last run Nov 26 19:05 PHT failed and last success was Nov 2. No failure reason recorded.",
+   "detail": "Failed Nov 26, 8 consecutive failures; last success Nov 2. No reason recorded.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-26T11:05:59.000Z",
@@ -815,6 +815,34 @@
    "category": "SASE"
   },
   {
+   "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
+   "name": "GT-152 Systems Builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-152 app candidates, Systems Builder leg",
+   "detail": "Builder agent running, producing 4 unique problem-first app candidates for the Philippines brief.",
+   "currentTask": "Produce 4 unique app candidates for GT-152",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T02:16:52.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
+  },
+  {
+   "agentId": "8a4d128d-7f45-4586-bc0a-bc86afcad043",
+   "name": "use.ai three-model panel",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "use.ai three-model panel question",
+   "detail": "Browser agent running, asking the same question to three models on use.ai in the signed-in session.",
+   "currentTask": "Ask the same question to three models on use.ai",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T02:16:52.000Z",
+   "needsUser": false,
+   "category": "Research"
+  },
+  {
    "agentId": "gt152-systems-build",
    "name": "gt152-systems-build",
    "role": "researcher",
@@ -827,20 +855,6 @@
    "observedAt": "2026-11-27T02:12:00.000Z",
    "needsUser": false,
    "category": "research"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 590: routing check",
-   "detail": "Routing check 90 running: 5 fresh Nov 27 legs (GT-150 group investigation, GT-151 legs, CSE group joins).",
-   "currentTask": "Routing check 590: sealing coordinator picks, panel read next",
-   "lastHeartbeat": "2026-11-27T02:11:00.000Z",
-   "observedAt": "2026-11-27T02:11:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt151-money-market",
@@ -2565,18 +2579,46 @@
    "category": "research"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 590: routing check",
+   "detail": "Routing check 90 done: 2 of 5 (RC-T3 Money Researcher, RC-T5 Page Operator match). Better call is Coordinator on all 3 misses; no rule fixes; WPE-T3 next cycle 591.",
+   "currentTask": "Cycle 590 complete: routing check 90 scored 2 of 5",
+   "lastHeartbeat": "2026-11-27T02:17:30.000Z",
+   "observedAt": "2026-11-27T02:17:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-panel-cycle-590",
    "name": "Routing Panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing check 590 panel",
-   "detail": "Picks: RC-T1 Page Operator 6-2, RC-T2 App Builder 5-3, RC-T3 Money Researcher 7-1, RC-T4 Money Researcher 5-3, RC-T5 Page Operator 7-1.",
-   "currentTask": "Panel picks written to panel-picks.md",
-   "lastHeartbeat": "2026-11-27T02:14:00.000Z",
-   "observedAt": "2026-11-27T02:14:00.000Z",
+   "detail": "Panel picks filed (posted by parent): RC-T1 Page Operator 6-2, RC-T2 App Builder 5-3, RC-T3 Money Researcher 7-1, RC-T4 Money Researcher 5-3, RC-T5 Page Operator 7-1.",
+   "currentTask": "Panel picks filed for routing check 590",
+   "lastHeartbeat": "2026-11-27T02:17:30.000Z",
+   "observedAt": "2026-11-27T02:17:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "14d91c80-b818-48f9-9975-edd433783a2e",
+   "name": "GT-152 Problem Hunt",
+   "role": "researcher",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "GT-152 problem-hunt leg complete",
+   "detail": "Problem-hunt leg filed 6 candidates with painful moment, audience, and failing workaround for each.",
+   "currentTask": "Hunt 6 problem-first app candidates for GT-152",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T02:12:36.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
   },
   {
    "agentId": "team-generic-solver",
@@ -2605,6 +2647,20 @@
    "observedAt": "2026-11-27T02:06:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "ef9ca900-bc25-4fc0-9f76-1862674cf2dd",
+   "name": "CSE groups join browser task",
+   "role": "coordinator",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "CSE Page joined 3 Facebook groups",
+   "detail": "All 3 groups joined as CSE Practice Hub PH Page, no posts or comments made. Completed 09:52 PHT.",
+   "currentTask": "Join 3 Facebook groups as CSE Practice Hub PH Page",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T01:52:18.000Z",
+   "needsUser": false,
+   "category": "CSE Page"
   },
   {
    "agentId": "team-wpe-t1-specialist",
@@ -3907,48 +3963,6 @@
    "observedAt": "2026-11-26T10:04:47.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-ab-t3",
-   "name": "AB-T3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T3 judge (cycle 516)",
-   "detail": "AB-T3 judged (carried by parent, corrected category): specialist win 8.75 vs 5.25, contamination clean",
-   "currentTask": "AB-T3 judged: specialist win 8.75 vs 5.25",
-   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
-   "observedAt": "2026-11-26T10:04:47.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt-146-cse-promax",
-   "name": "gt-146-cse-promax",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-146 CSE Page branding and posting pro max",
-   "detail": "GT-146 complete: audit, 3+3 brand directions, decided schedule, 7-day pack, 5 verified videos. Only profile/cover swap awaits owner verdict.",
-   "currentTask": "Job complete; pack delivered to parent agent",
-   "lastHeartbeat": "2026-11-26T10:02:00.000Z",
-   "observedAt": "2026-11-26T10:02:00.000Z",
-   "needsUser": true,
-   "category": "cse"
-  },
-  {
-   "agentId": "gt-145-v9-working-copy",
-   "name": "gt-145-v9-working-copy",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-145 Drone thesis v9 working copy",
-   "detail": "GT-145 complete: 19 of 19 approved recommendations applied to the v9 working copy. v8 MD5 unchanged, all 6 TO CONFIRM markers intact, tables identical, change log filed.",
-   "currentTask": "Complete: v9 working copy built and verified",
-   "lastHeartbeat": "2026-11-26T09:45:00.000Z",
-   "observedAt": "2026-11-26T09:45:00.000Z",
-   "needsUser": false,
-   "category": "thesis"
   }
  ]
 }
