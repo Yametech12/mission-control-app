@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:16:52.000Z",
- "summary": "1 Ghostname cycle running, 2 chat agents active, CSE morning and evening posts completed, and 5 schedules need attention, including 2 blocked on delivery.",
+ "generatedAt": "2026-11-27T02:26:09.000Z",
+ "summary": "Cycle 591 running: Web Performance Engineer WPE-T3 solver pair.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 591",
+   "detail": "WPE-T3 solvers running: specialist vs generic WebGL budget audit pair.",
+   "currentTask": "Cycle 591: WPE-T3 solver pair",
+   "lastHeartbeat": "2026-11-27T02:26:09.000Z",
+   "observedAt": "2026-11-27T02:26:09.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2579,20 +2593,6 @@
    "category": "research"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 590: routing check",
-   "detail": "Routing check 90 done: 2 of 5 (RC-T3 Money Researcher, RC-T5 Page Operator match). Better call is Coordinator on all 3 misses; no rule fixes; WPE-T3 next cycle 591.",
-   "currentTask": "Cycle 590 complete: routing check 90 scored 2 of 5",
-   "lastHeartbeat": "2026-11-27T02:17:30.000Z",
-   "observedAt": "2026-11-27T02:17:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-panel-cycle-590",
    "name": "Routing Panel",
    "role": "coordinator",
@@ -3959,6 +3959,20 @@
    "title": "AB-T2 judge (cycle 516)",
    "detail": "AB-T2 judged (carried by parent): specialist win 8.25 vs 7.50, contamination clean",
    "currentTask": "AB-T2 judged: specialist win 8.25 vs 7.50",
+   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
+   "observedAt": "2026-11-26T10:04:47.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-ab-t3",
+   "name": "AB-T3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T3 judge (cycle 516)",
+   "detail": "AB-T3 judged (carried by parent, corrected category): specialist win 8.75 vs 5.25, contamination clean",
+   "currentTask": "AB-T3 judged: specialist win 8.75 vs 5.25",
    "lastHeartbeat": "2026-11-26T10:04:47.000Z",
    "observedAt": "2026-11-26T10:04:47.000Z",
    "needsUser": false,
