@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T05:47:00.000Z",
- "summary": "Cycle 606: UI Designer judging in progress.",
+ "generatedAt": "2026-11-27T05:51:19.000Z",
+ "summary": "Cycle 606: UI Designer VALIDATED 8.67 vs 6.00; scoreboard 27 of 79.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 606",
-   "detail": "Cycle 606 judging UI Designer: 3 fresh-context QA judges scoring sealed UID-T1 to UID-T3 pairs blind.",
-   "currentTask": "Cycle 606: judging UI Designer UID-T1 to UID-T3",
-   "lastHeartbeat": "2026-11-27T05:47:00.000Z",
-   "observedAt": "2026-11-27T05:47:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,6 +2579,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 606",
+   "detail": "Cycle 606 done: UI Designer VALIDATED 8.67 vs 6.00, 3 wins. Scoreboard 27 validated, 8 flagged, 44 unvalidated of 79.",
+   "currentTask": "Cycle 606 complete: UI Designer VALIDATED 8.67 vs 6.00",
+   "lastHeartbeat": "2026-11-27T05:51:19.000Z",
+   "observedAt": "2026-11-27T05:51:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-605",
    "name": "Routing Panel 605",
    "role": "auditor",
@@ -3977,20 +3977,6 @@
    "observedAt": "2026-11-26T15:10:08.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-automation-engineer-ae-t3-specialist",
-   "name": "AE-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AE-T3 specialist solver",
-   "detail": "AE-T3 done: gate PASS 7/7, exit 0, no em dashes, 3 files 7,591 bytes total.",
-   "currentTask": "AE-T3 specialist solve",
-   "lastHeartbeat": "2026-11-26T14:39:44.000Z",
-   "observedAt": "2026-11-26T14:39:44.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
