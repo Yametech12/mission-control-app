@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T13:45:12.000Z",
- "summary": "Improvement cycle 644 complete: Design Systems Engineer VALIDATED, 8.67 vs 7.67, 3 wins. Scoreboard 29 validated, 9 flagged, 41 unvalidated of 79.",
+ "generatedAt": "2026-11-27T14:05:00.000Z",
+ "summary": "GT-175 trained-AI scout complete: 20 candidates graded; no pre-trained AI with a verified live record exists. Report filed as GT-20261127-175-trained-ai-survey.md (assigned filename was already taken by a clipping job, left untouched).",
  "agents": [
   {
    "agentId": null,
@@ -869,20 +869,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt177-promax-improve",
-   "name": "gt177-promax-improve",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-177 MEXC Pro Max artifact improvement pass",
-   "detail": "Started. Official Phase 1 counters pulled from the ledger record on disk (ARMED, $10,000.00, 0 open, 0 closed, DD 0.00%, as of Nov 27 8:10 PM PHT).",
-   "currentTask": "Issuing the artifact edit for mexc-ai-trading-bot-pro-max",
-   "lastHeartbeat": "2026-11-27T13:44:18.000Z",
-   "observedAt": "2026-11-27T13:44:18.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2663,6 +2649,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt175-trained-ai-scout",
+   "name": "gt175-trained-ai-scout",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-175: Pre-trained trading AI survey",
+   "detail": "Complete: 20 candidates graded. 0 with verified live track record. Kronos best artifact but independent eval shows no edge vs random walk. AlgosOne/Quantum AI flagged likely scam. Report: GT-20261127-175-trained-ai-survey.md.",
+   "currentTask": "Survey complete, report delivered",
+   "lastHeartbeat": "2026-11-27T14:05:00.000Z",
+   "observedAt": "2026-11-27T14:05:00.000Z",
+   "needsUser": false,
+   "category": "trading-research"
+  },
+  {
+   "agentId": "gt177-promax-improve",
+   "name": "gt177-promax-improve",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-177 MEXC Pro Max artifact improvement pass",
+   "detail": "Complete. OFFICIAL PHASE 1 panel shows ledger counters as of Nov 27 8:10 PM PHT; SIMULATION labelled everywhere; phone overflow 0px; retry with backoff added; Guardian ignores STALE marks. Report filed.",
+   "currentTask": "GT-177 complete, report filed",
+   "lastHeartbeat": "2026-11-27T13:51:55.000Z",
+   "observedAt": "2026-11-27T13:51:55.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-dse-t3",
    "name": "DSE-T3 Re-judge",
    "role": "auditor",
@@ -4033,34 +4047,6 @@
    "observedAt": "2026-11-27T02:31:41.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-wpe-t3-specialist",
-   "name": "WPE-T3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T3 specialist solver",
-   "detail": "WPE-T3 specialist solve complete, posted by the parent: budget-audit 6,578 bytes, 1,120 words, gate 7/7, about 124s. (posted by the job lead)",
-   "currentTask": "WPE-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T02:29:10.000Z",
-   "observedAt": "2026-11-27T02:31:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt152-problem-hunt",
-   "name": "gt152-problem-hunt",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-152 problem hunt (User Researcher leg)",
-   "detail": "Completed: 6 unique problem-first candidates filed (LegitCheck, GamotPresyo, SlotWatch, CheckMuna IMEI, PresyoSaUma, RiderNet); generic scam checker killed, Whoscall owns it.",
-   "currentTask": "Done: leg-problem-hunt.md filed with 6 evidenced candidates",
-   "lastHeartbeat": "2026-11-27T02:24:00.000Z",
-   "observedAt": "2026-11-27T02:24:00.000Z",
-   "needsUser": false,
-   "category": "research"
   }
  ]
 }
