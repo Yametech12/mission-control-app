@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T08:26:30.000Z",
- "summary": "Cycle 618: Brand Identity Designer judging in progress.",
+ "generatedAt": "2026-11-27T08:31:30.000Z",
+ "summary": "Cycle 618 complete: Brand Identity Designer VALIDATED 8.25 vs 7.42. Scoreboard 28 validated, 8 flagged, 43 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 618",
-   "detail": "Cycle 618 judging Brand Identity Designer: three fresh QA judges scoring sealed BID-T1 to BID-T3 pairs blind.",
-   "currentTask": "Cycle 618: judging Brand Identity Designer BID-T1 to BID-T3",
-   "lastHeartbeat": "2026-11-27T08:26:30.000Z",
-   "observedAt": "2026-11-27T08:26:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,6 +2579,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "bid-t3-judge",
+   "name": "BID-T3 QA Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T3 QA Judge",
+   "detail": "BID-T3 judgement filed: A 7.00 vs B 7.75, winner B. Posted by parent; judge snapshot failed on schema.",
+   "currentTask": "BID-T3 judgement filed",
+   "lastHeartbeat": "2026-11-27T08:31:30.000Z",
+   "observedAt": "2026-11-27T08:31:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt167-coordinator",
    "name": "gt167-phase1-opening",
    "role": "coordinator",
@@ -3973,20 +3973,6 @@
    "title": "DE-T1 generic: feed inventory re-audit",
    "detail": "Posted by the cycle parent: DE-T1 generic re-audit complete, gate 6/6 exit 0, 144s.",
    "currentTask": "DE-T1 generic re-audit complete",
-   "lastHeartbeat": "2026-11-26T18:45:44.000Z",
-   "observedAt": "2026-11-26T18:45:44.000Z",
-   "needsUser": false,
-   "category": "validation-loop"
-  },
-  {
-   "agentId": "team-data-engineer-de-t1-specialist",
-   "name": "Data Engineer DE-T1 specialist",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DE-T1 specialist: feed inventory re-audit",
-   "detail": "Posted by the cycle parent: DE-T1 specialist re-audit complete, gate 6/6 exit 0, 566s.",
-   "currentTask": "DE-T1 specialist re-audit complete",
    "lastHeartbeat": "2026-11-26T18:45:44.000Z",
    "observedAt": "2026-11-26T18:45:44.000Z",
    "needsUser": false,
