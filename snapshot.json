@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:56:00.000Z",
- "summary": "GT-158 in progress: basket engine built in the job folder; GT-157 mass simulation still running, its report is the required input before pre-registration.",
+ "generatedAt": "2026-11-27T04:00:41.000Z",
+ "summary": "Cycle 598 complete: Prototype Engineer pairs sealed for blind judging cycle 599; scoreboard 26 validated, 8 flagged, 45 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "mexc-team-verity",
+   "name": "mexc-team-verity",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "VERITY Shadow Army priority track (GT-161)",
+   "detail": "Verifying VERITY registration facts vs live MEXC API, first shadow snapshot",
+   "currentTask": "Verifying VERITY facts on MEXC public API",
+   "lastHeartbeat": "2026-11-27T03:58:00.000Z",
+   "observedAt": "2026-11-27T03:58:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": "gt158-accuracy-round2",
@@ -2607,6 +2621,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 598: Prototype Engineer sealed",
+   "detail": "Cycle 598 done: Prototype Engineer sealed SEAL_OK first run, 36 neutral files, 0 identity hits; judging cycle 599.",
+   "currentTask": "Cycle 598 complete: Prototype Engineer pairs sealed",
+   "lastHeartbeat": "2026-11-27T04:00:41.000Z",
+   "observedAt": "2026-11-27T04:00:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt159-account-manager",
    "name": "gt159-account-manager",
    "role": "builder",
@@ -2619,20 +2647,6 @@
    "observedAt": "2026-11-27T03:52:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 597",
-   "detail": "Cycle 597 complete: PE-T3 pair verified (spec 230w 91s, gen 237w 69s, gates 7/7). Sealing 598, judging 599.",
-   "currentTask": "Cycle 597 complete: PE-T3 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T03:45:13.000Z",
-   "observedAt": "2026-11-27T03:45:13.000Z",
-   "needsUser": false,
-   "category": "ghostnamem-team"
   },
   {
    "agentId": "team-pe-t3-generic",
