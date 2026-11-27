@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:05:00.000Z",
- "summary": "Improvement cycle 593 complete: WPE judged 8.63/8.33, card rewritten (rewrite 1).",
+ "generatedAt": "2026-11-27T03:11:30.000Z",
+ "summary": "PE-T1 specialist building TaskBoard status filter prototype",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-pe-t1-specialist",
+   "name": "PE-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "PE-T1 TaskBoard prototype",
+   "detail": "PE-T1 specialist started: building TaskBoard status filter prototype",
+   "currentTask": "Building TaskBoard status filter prototype PE-T1",
+   "lastHeartbeat": "2026-11-27T03:11:30.000Z",
+   "observedAt": "2026-11-27T03:11:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 594: Prototype Engineer validation",
+   "detail": "Opening Prototype Engineer validation; tasks PE-T1 to PE-T3 filed, PE-T1 solver pair running.",
+   "currentTask": "Prototype Engineer validation open, PE-T1 solvers running",
+   "lastHeartbeat": "2026-11-27T03:07:00.000Z",
+   "observedAt": "2026-11-27T03:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2565,20 +2593,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 593",
-   "detail": "Cycle 593 done: WPE judged 8.63/8.33 (2 wins, 1 loss), not a clear win; card rewritten (rewrite 1), retest later.",
-   "currentTask": "Cycle 593 complete: WPE judged 8.63/8.33, card rewritten",
-   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
-   "observedAt": "2026-11-27T03:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle-judge-wpe-t1",
    "name": "WPE-T1 judge",
    "role": "auditor",
@@ -3963,6 +3977,20 @@
    "observedAt": "2026-11-26T10:40:31.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "sb-r2-generic",
+   "name": "SB-R2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SB-R2 generic solver",
+   "detail": "SB-R2 generic solve complete: 1,530/2,367/3,390 bytes, 552 words, gate 3 passed 0 failed (posted by cycle lead).",
+   "currentTask": "SB-R2 generic solve complete",
+   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
+   "observedAt": "2026-11-26T10:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
