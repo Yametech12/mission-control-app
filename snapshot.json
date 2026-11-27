@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:56:30.000Z",
- "summary": "Improvement cycle 593: judging Web Performance Engineer (3 fresh QA judges).",
+ "generatedAt": "2026-11-27T03:05:00.000Z",
+ "summary": "Improvement cycle 593 complete: WPE judged 8.63/8.33, card rewritten (rewrite 1).",
  "agents": [
   {
    "agentId": null,
@@ -813,62 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 593",
-   "detail": "Cycle 593 judging WPE: 3 fresh-context QA judges dispatched, one per task (WPE-T1/T2/T3).",
-   "currentTask": "Cycle 593: judging Web Performance Engineer, 3 fresh QA judges dispatched",
-   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
-   "observedAt": "2026-11-27T02:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-wpe-t1",
-   "name": "WPE-T1 judge",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-T1 blind judge",
-   "detail": "WPE-T1 judge: blind scoring of sealed candidates A/B vs key. Posted by cycle lead.",
-   "currentTask": "Blind judging WPE-T1 sealed neutrals",
-   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
-   "observedAt": "2026-11-27T02:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-wpe-t2",
-   "name": "WPE-T2 judge",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-T2 blind judge",
-   "detail": "WPE-T2 judge: blind scoring of sealed candidates A/B vs key. Posted by cycle lead.",
-   "currentTask": "Blind judging WPE-T2 sealed neutrals",
-   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
-   "observedAt": "2026-11-27T02:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-wpe-t3",
-   "name": "WPE-T3 judge",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-T3 blind judge",
-   "detail": "WPE-T3 judge: blind scoring of sealed candidates A/B vs key. Posted by cycle lead.",
-   "currentTask": "Blind judging WPE-T3 sealed neutrals",
-   "lastHeartbeat": "2026-11-27T02:56:30.000Z",
-   "observedAt": "2026-11-27T02:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2621,6 +2565,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 593",
+   "detail": "Cycle 593 done: WPE judged 8.63/8.33 (2 wins, 1 loss), not a clear win; card rewritten (rewrite 1), retest later.",
+   "currentTask": "Cycle 593 complete: WPE judged 8.63/8.33, card rewritten",
+   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
+   "observedAt": "2026-11-27T03:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-wpe-t1",
+   "name": "WPE-T1 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T1 blind judge",
+   "detail": "WPE-T1 judge complete: specialist win 8.50 vs 7.90. Posted by cycle lead.",
+   "currentTask": "WPE-T1 judged: specialist win 8.50 vs 7.90",
+   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
+   "observedAt": "2026-11-27T03:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-wpe-t2",
+   "name": "WPE-T2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T2 blind judge",
+   "detail": "WPE-T2 judge complete: specialist win 8.63 vs 8.25. Posted by cycle lead.",
+   "currentTask": "WPE-T2 judged: specialist win 8.63 vs 8.25",
+   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
+   "observedAt": "2026-11-27T03:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-wpe-t3",
+   "name": "WPE-T3 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T3 blind judge",
+   "detail": "WPE-T3 judge complete: generic win 8.90 vs 8.80. Posted by cycle lead.",
+   "currentTask": "WPE-T3 judged: generic win 8.90 vs 8.80",
+   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
+   "observedAt": "2026-11-27T03:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt153-team-plan",
    "name": "gt153-team-plan",
    "role": "builder",
@@ -3963,62 +3963,6 @@
    "observedAt": "2026-11-26T10:40:31.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "sb-r2-generic",
-   "name": "SB-R2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-R2 generic solver",
-   "detail": "SB-R2 generic solve complete: 1,530/2,367/3,390 bytes, 552 words, gate 3 passed 0 failed (posted by cycle lead).",
-   "currentTask": "SB-R2 generic solve complete",
-   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
-   "observedAt": "2026-11-26T10:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sb-r2-specialist",
-   "name": "SB-R2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-R2 specialist solver",
-   "detail": "SB-R2 specialist solve complete: 1,548/4,937/6,315 bytes, 1,075 words, gate 21 passed 0 failed (posted by cycle lead).",
-   "currentTask": "SB-R2 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
-   "observedAt": "2026-11-26T10:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-generic-sb-r1",
-   "name": "Generic SB-R1 solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic SB-R1 solver",
-   "detail": "SB-R1 generic complete, posted by parent: 4,641 byte note, 783 words, gate exit 0, no browser.",
-   "currentTask": "SB-R1 generic build complete",
-   "lastHeartbeat": "2026-11-26T10:21:30.000Z",
-   "observedAt": "2026-11-26T10:21:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder-sb-r1-specialist",
-   "name": "Site Builder SB-R1 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Site Builder SB-R1 specialist",
-   "detail": "SB-R1 specialist complete, posted by parent: 6,418 byte note, 1,098 words, gate 42 passed, live reads.",
-   "currentTask": "SB-R1 specialist build complete",
-   "lastHeartbeat": "2026-11-26T10:21:30.000Z",
-   "observedAt": "2026-11-26T10:21:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
