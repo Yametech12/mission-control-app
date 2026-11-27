@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:25:50.000Z",
- "summary": "Routing panel cycle 655 started: 8 division leads voting on 5 tasks.",
+ "generatedAt": "2026-11-27T16:30:29.000Z",
+ "summary": "Routing check cycle 655 complete: Coordinator 3 of 5 (App Builder 7-1, ML Engineer 8-0 unanimous). Moment Hunter sealing 656, judging 657; next routing check 660.",
  "agents": [
   {
    "agentId": null,
@@ -897,34 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-routing-panel-655",
-   "name": "Routing Panel cycle 655",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing panel cycle 655",
-   "detail": "Routing panel cycle 655 started: 8 division leads voting on 5 tasks from trigger lines only.",
-   "currentTask": "Routing panel cycle 655: voting on 5 tasks from ROSTER_INDEX.md triggers",
-   "lastHeartbeat": "2026-11-27T16:25:50.000Z",
-   "observedAt": "2026-11-27T16:25:50.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 655",
-   "detail": "Routing check cycle 655 started: GT-176, GT-181, GT-182, GT-187, GT-188 legs; Coordinator picks sealed, panel reading next.",
-   "currentTask": "Routing check cycle 655: 5 fresh legs, Coordinator picks sealed",
-   "lastHeartbeat": "2026-11-27T16:22:00.000Z",
-   "observedAt": "2026-11-27T16:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,6 +2677,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 655",
+   "detail": "Routing check cycle 655 done: 3 of 5. Matches App Builder 7-1, ML Engineer 8-0 unanimous. Misses on Data Engineer, Social Media Manager, Affiliate Program Manager picks.",
+   "currentTask": "Routing check cycle 655 complete: 3 of 5",
+   "lastHeartbeat": "2026-11-27T16:30:29.000Z",
+   "observedAt": "2026-11-27T16:30:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel-655",
+   "name": "Routing Panel cycle 655",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing panel cycle 655",
+   "detail": "Routing panel cycle 655 complete (posted by cycle parent): picks filed, both snapshots clean on first attempt.",
+   "currentTask": "Panel picks filed: App Builder, ML Engineer, ML Engineer, Scheduler, Affiliate Program Manager",
+   "lastHeartbeat": "2026-11-27T16:27:30.000Z",
+   "observedAt": "2026-11-27T16:30:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-mh-t2-generic",
    "name": "MH-T2 generic solver",
    "role": "builder",
@@ -4072,34 +4072,6 @@
    "detail": "PE-T1 judge (carried by cycle parent): specialist win 8.5 vs 7.5, contamination clean.",
    "currentTask": "PE-T1 judged: specialist win 8.5 vs 7.5",
    "lastHeartbeat": "2026-11-27T04:20:59.000Z",
-   "observedAt": "2026-11-27T04:26:11.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-pe-t2-judge",
-   "name": "PE-T2 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T2 blind judgement",
-   "detail": "PE-T2 judge (carried by cycle parent): generic win 8.0 vs 6.0, contamination clean.",
-   "currentTask": "PE-T2 judged: generic win 8.0 vs 6.0",
-   "lastHeartbeat": "2026-11-27T04:19:52.000Z",
-   "observedAt": "2026-11-27T04:26:11.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-pe-t3-judge",
-   "name": "PE-T3 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T3 blind judgement",
-   "detail": "PE-T3 judge (carried by cycle parent): specialist win 9.00 vs 8.25, contamination clean.",
-   "currentTask": "PE-T3 judged: specialist win 9.00 vs 8.25",
-   "lastHeartbeat": "2026-11-27T04:18:42.000Z",
    "observedAt": "2026-11-27T04:26:11.000Z",
    "needsUser": false,
    "category": "ghostname-team"
