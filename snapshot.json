@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T08:50:00.000Z",
- "summary": "Improvement cycle 620 routing check in progress.",
+ "generatedAt": "2026-11-27T08:56:00.000Z",
+ "summary": "GT-169 in progress: Plan B Shadow Fleet pre-registration and engine build.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt169-coordinator",
+   "name": "GT-169 Coordinator (MEXC Team)",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-169 Plan B Shadow Fleet launch",
+   "detail": "GT-169 started: building and launching the Plan B Shadow Fleet (19 soldiers + Auditor + Guardian), paper only",
+   "currentTask": "Reading lane docs; pre-registering the Plan B Shadow Fleet",
+   "lastHeartbeat": "2026-11-27T08:56:00.000Z",
+   "observedAt": "2026-11-27T08:56:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2607,6 +2621,20 @@
    "category": "trading"
   },
   {
+   "agentId": "routing-check-620-panel",
+   "name": "Routing Check 620 Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 620 panel",
+   "detail": "Picks filed: RC-T1 Architect, RC-T2 API Integration Engineer, RC-T3 ML Engineer, RC-T4 Scheduler, RC-T5 Evidence Auditor.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T08:53:23.000Z",
+   "observedAt": "2026-11-27T08:53:23.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "validation-generic-typo-t1",
    "name": "Validation Generic Solver",
    "role": "builder",
@@ -3975,20 +4003,6 @@
    "currentTask": "DE-T3 generic solve complete",
    "lastHeartbeat": "2026-11-26T19:09:42.000Z",
    "observedAt": "2026-11-26T19:09:42.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-data-engineer-de-t2-generic",
-   "name": "Data Engineer DE-T2 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DE-T2 generic solver",
-   "detail": "Generic done: 7,093/1,515/2,633 bytes, 990 words, 115s, gate 6/6 exit 0, READ-BACK: PASS. Posted by the cycle lead.",
-   "currentTask": "DE-T2 generic complete",
-   "lastHeartbeat": "2026-11-26T18:54:28.000Z",
-   "observedAt": "2026-11-26T18:54:28.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
