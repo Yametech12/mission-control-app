@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T13:14:00.000Z",
- "summary": "Cycle 642 sealing Design Systems Engineer pairs; judging cycle 643.",
+ "generatedAt": "2026-11-27T13:17:37.000Z",
+ "summary": "2 improvement cycles running now; CSE, trading and feed runs succeeded today; 4 jobs need attention, including 2 blocked on a chat that cannot receive results.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Drive",
+   "detail": "23 consecutive failures; last run failed Nov 26 at 23:26 local, last success Nov 4. Next attempt tonight at 23:30 local.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T13:17:37.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -9,12 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: WhatsApp chat it posts to can no longer receive results. 96 consecutive failures; last success Nov 3. Runs again once the chat can receive or delivery is moved.",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 96 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T12:16:15.000Z",
+   "observedAt": "2026-11-27T13:17:37.000Z",
    "needsUser": true,
-   "category": "Whop"
+   "category": "Posting"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 98 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T13:17:37.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
   },
   {
    "agentId": null,
@@ -23,26 +51,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 consecutive failures; last success Nov 2, last run Nov 26 failed with no recorded reason.",
+   "detail": "8 consecutive failures; last run failed Nov 26 at 19:05 local, last success Nov 2. Next attempt Sun Nov 29.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T12:16:15.000Z",
+   "observedAt": "2026-11-27T13:17:37.000Z",
    "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "23 consecutive failures; last success Nov 4, last run Nov 26 failed with no recorded reason.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T12:16:11.000Z",
-   "needsUser": false,
-   "category": "Backup"
+   "category": "Monitoring"
   },
   {
    "agentId": null,
@@ -99,20 +113,6 @@
    "observedAt": "2026-11-27T12:03:50.000Z",
    "needsUser": false,
    "category": "Clipping"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Attention: 98 consecutive failures and blocked. The WhatsApp chat it posts to needs account action; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T11:16:13.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
   },
   {
    "agentId": null,
