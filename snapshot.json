@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T21:12:30.000Z",
- "summary": "Cycle 674: Prototype Engineer retest 2 sealed.",
+ "generatedAt": "2026-11-27T21:17:48.000Z",
+ "summary": "2 improvement cycles running, 3 items need attention, 3 recent completions, and 12 scheduled items verified as of 05:17 PHT Nov 28. No artifact builds or workflow runs were active.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "24 consecutive failures; last run Nov 27 at 23:26 PHT failed without a recorded reason, last success Nov 4.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T21:17:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
   {
    "agentId": null,
    "name": "TG session watchdog",
@@ -9,12 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Failed 03:45 PHT with a spawn error; 100 consecutive failures, last success Oct 6. Paused because its WhatsApp chat can no longer receive results; account action required.",
+   "detail": "Blocked: 100 consecutive failures, last failed 03:46 PHT, last success Oct 6. The WhatsApp chat it posts to can no longer receive results.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T20:16:51.000Z",
+   "observedAt": "2026-11-27T21:16:25.000Z",
    "needsUser": true,
-   "category": "Messaging"
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run Nov 23 failed without a recorded reason, last success Nov 4; next run Mon Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T21:16:25.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -29,34 +57,6 @@
    "observedAt": "2026-11-27T20:16:51.000Z",
    "needsUser": true,
    "category": "Clipping"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures, last success Nov 4; last run Nov 27 at 23:26 PHT failed with no recorded reason.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T20:16:51.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Last run Nov 23 failed, 3 consecutive failures; last success Nov 4. Next check Mon Nov 30 at 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T20:16:51.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -911,6 +911,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle-panel",
+   "name": "Division Leads Panel",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Division Leads Panel",
+   "detail": "Panel standing by for cycle 675 tasks",
+   "currentTask": "Awaiting tasks.md to vote",
+   "lastHeartbeat": "2026-11-27T21:16:30.000Z",
+   "observedAt": "2026-11-27T21:16:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-coordinator",
+   "name": "Routing Check Coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing Check Coordinator",
+   "detail": "Coordinator standing by for cycle 675 tasks",
+   "currentTask": "Awaiting tasks.md to seal picks",
+   "lastHeartbeat": "2026-11-27T21:16:30.000Z",
+   "observedAt": "2026-11-27T21:16:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Team Improvement Cycle 675",
+   "detail": "Cycle 675 routing check started; finding 5 fresh Nov 28 legs",
+   "currentTask": "Cycle 675 routing check: finding fresh legs",
+   "lastHeartbeat": "2026-11-27T21:16:30.000Z",
+   "observedAt": "2026-11-27T21:16:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,20 +2733,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 674",
-   "detail": "Cycle 674 done: PE retest 2 sealed, SEAL_OK first run, 36 neutral files, all six neutral gates exit 0. Judging cycle 676.",
-   "currentTask": "Cycle 674 sealing done",
-   "lastHeartbeat": "2026-11-27T21:12:30.000Z",
-   "observedAt": "2026-11-27T21:12:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-prototype-engineer-pe-s3-generic",
    "name": "PE-S3 Generic Solver",
    "role": "builder",
@@ -2759,20 +2787,6 @@
    "observedAt": "2026-11-27T20:41:26.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-coordinator",
-   "name": "Improvement Cycle Coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team routing check cycle 670",
-   "detail": "Cycle 670 picks sealed: Watcher x3 (RC-T1 to RC-T3), ML Engineer x2 (RC-T4, RC-T5). Freshness verified, all 5 legs fresh.",
-   "currentTask": "Routing check cycle 670 picks sealed",
-   "lastHeartbeat": "2026-11-27T20:22:17.000Z",
-   "observedAt": "2026-11-27T20:22:17.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle-judge-pe-r1",
@@ -4089,6 +4103,34 @@
    "observedAt": "2026-11-27T07:40:41.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "gt165-coordinator",
+   "name": "gt165-mexc-console",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-165 MEXC Trading Bot Console",
+   "detail": "COMPLETE: MEXC Trading Bot Console (mexc-trading-bot-console) built and audit-verified. Live public prices proven, Phase board incl. GT-158 PASS, shadow tracks, local-runner key flow, zero secret fields. Report filed.",
+   "currentTask": "Complete: console built and verified; job report filed",
+   "lastHeartbeat": "2026-11-27T07:36:00.000Z",
+   "observedAt": "2026-11-27T07:36:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-bid-t1-generic",
+   "name": "BID-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T1 generic solver",
+   "detail": "Posted by the cycle lead: generic audit 7,361 bytes / 1,249 words, gate exit 0, 7/7, READ-BACK: PASS, about 109s.",
+   "currentTask": "BID-T1 generic audit done",
+   "lastHeartbeat": "2026-11-27T07:22:49.000Z",
+   "observedAt": "2026-11-27T07:24:34.000Z",
+   "needsUser": false,
+   "category": "ghostame-team"
   }
  ]
 }
