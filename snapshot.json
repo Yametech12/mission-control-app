@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T00:22:57.000Z",
- "summary": "Improvement cycle 582 running: Mobile Release Engineer validation opens (row 9, Build, P3, never tested).",
+ "generatedAt": "2026-11-27T00:30:40.000Z",
+ "summary": "MRE-T1 specialist solver complete: gate 7/7 PASS",
  "agents": [
   {
    "agentId": null,
@@ -2537,6 +2537,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-mre-t1-specialist",
+   "name": "MRE-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T1 specialist: Mission Control v1 release checklist",
+   "detail": "MRE-T1 done: checklist, gate.js 7/7 PASS exit 0, delivery note READ-BACK PASS, no em dash",
+   "currentTask": "MRE-T1 complete: gate 7/7 PASS, READ-BACK PASS",
+   "lastHeartbeat": "2026-11-27T00:30:40.000Z",
+   "observedAt": "2026-11-27T00:30:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-mre-t1-generic",
+   "name": "mre-t1-generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T1 generic solver",
+   "detail": "MRE-T1 generic done: checklist, gate.js (7/7 pass, exit 0), delivery note; READ-BACK PASS; 82s wall time.",
+   "currentTask": "MRE-T1 generic run complete; gate 7/7 pass, exit 0",
+   "lastHeartbeat": "2026-11-27T00:30:26.000Z",
+   "observedAt": "2026-11-27T00:30:26.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "aie-r1-judge-r2",
    "name": "AIE-R1 Judge",
    "role": "auditor",
@@ -3905,34 +3933,6 @@
    "currentTask": "SYSB-T2 generic solver (posted by cycle parent)",
    "lastHeartbeat": "2026-11-26T07:59:05.000Z",
    "observedAt": "2026-11-26T07:59:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-systems-builder",
-   "name": "Systems Builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Systems Builder SYSB-T2 specialist",
-   "detail": "SYSB-T2 specialist: auth.js 3,596, test.js 5,059, note 3,354 bytes, 562 words, 23s, tests 7/7. Posted by cycle parent.",
-   "currentTask": "SYSB-T2 specialist solver (posted by cycle parent)",
-   "lastHeartbeat": "2026-11-26T07:59:05.000Z",
-   "observedAt": "2026-11-26T07:59:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-check-panel-cycle-505",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 505",
-   "detail": "Panel picks filed by job lead: Architect, Architect, Money Researcher, Evidence Auditor, Fresh-Eye Reviewer",
-   "currentTask": "Cycle 505 panel picks filed: 5 of 5",
-   "lastHeartbeat": "2026-11-26T07:44:32.000Z",
-   "observedAt": "2026-11-26T07:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
