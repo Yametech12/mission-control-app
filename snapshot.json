@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T06:11:00.000Z",
- "summary": "M3D-T2 specialist solver: review started, reading production inputs",
+ "generatedAt": "2026-11-27T06:17:07.000Z",
+ "summary": "2 working, 10 completed, 3 scheduled, 5 attention. Blocked WhatsApp delivery stops Whop posts and TG session watch; backups, keep-alive and Zulti promo also failing. No artifact builds running.",
  "agents": [
   {
    "agentId": null,
@@ -9,12 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: delivery chat cannot receive results; 95 consecutive failures, last success Nov 3. Needs delivery fix or move.",
+   "detail": "Blocked: delivery chat cannot receive results; 95 consecutive failures. Last success Nov 3, last failed run Nov 27 10:35 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T05:16:45.000Z",
+   "observedAt": "2026-11-27T02:35:11.000Z",
    "needsUser": true,
-   "category": "whop"
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -23,12 +23,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: delivery chat cannot receive results; 97 consecutive failures, last success Oct 6. Needs delivery fix or move.",
+   "detail": "Blocked: delivery chat cannot receive results; 97 consecutive failures. Last success Oct 6, last failed run Nov 27 09:46 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T05:16:45.000Z",
+   "observedAt": "2026-11-27T01:46:29.000Z",
    "needsUser": true,
-   "category": "monitoring"
+   "category": "Messaging"
   },
   {
    "agentId": null,
@@ -37,40 +37,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 23 times in a row; last success Nov 4. Spawn error: message admission authority unavailable, binding retired.",
+   "detail": "Failed 23 consecutive times; last success Nov 4. Last failed run Nov 26 23:26 PHT, next run tonight 23:30 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T05:16:45.000Z",
+   "observedAt": "2026-11-26T15:26:48.000Z",
    "needsUser": false,
-   "category": "backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed 8 times in a row; last success Nov 2. Same spawn error; keep-alive did not run Nov 26.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T05:16:45.000Z",
-   "needsUser": false,
-   "category": "monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed 3 times in a row; last run Mon Nov 23 failed, last success Nov 4. Same spawn error.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T05:16:45.000Z",
-   "needsUser": false,
-   "category": "zulti"
+   "category": "Backup"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -85,6 +57,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed 8 consecutive times with a spawn error before finishing. Last success Nov 2; last failed run Nov 26 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Website"
   },
   {
    "agentId": null,
@@ -815,6 +801,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-generic-solver",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-T2 generic solver",
+   "detail": "M3D-T2 generic solver started: reading GT99 production inputs and viewing all 20 stills",
+   "currentTask": "M3D-T2 generic solve",
+   "lastHeartbeat": "2026-11-27T06:11:00.000Z",
+   "observedAt": "2026-11-27T06:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-motion-3d",
    "name": "Motion and 3D solver",
    "role": "builder",
@@ -837,20 +837,6 @@
    "title": "Improvement cycle 608: Motion and 3D M3D-T2",
    "detail": "Running M3D-T2 solver pair (specialist vs generic), BlockTales Oates motion review.",
    "currentTask": "Cycle 608: M3D-T2 solver pair",
-   "lastHeartbeat": "2026-11-27T06:10:47.000Z",
-   "observedAt": "2026-11-27T06:10:47.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-generic-solver",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-T2 generic solver",
-   "detail": "Generic solver running M3D-T2 (task file only). Posted by cycle lead.",
-   "currentTask": "M3D-T2 generic solve",
    "lastHeartbeat": "2026-11-27T06:10:47.000Z",
    "observedAt": "2026-11-27T06:10:47.000Z",
    "needsUser": false,
