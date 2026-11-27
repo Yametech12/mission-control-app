@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:51:00.000Z",
- "summary": "Moment Hunter MH-T1 specialist solver complete: 8 ranked KreekCraft candidates, gate passed, read-back PASS.",
+ "generatedAt": "2026-11-27T15:53:55.000Z",
+ "summary": "Cycle 652 complete: Moment Hunter validation opened, MH-T1 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 652: Moment Hunter validation",
-   "detail": "Cycle 652 started: Moment Hunter validation opens (row 21, never tested); filing 3 tasks with sealed keys.",
-   "currentTask": "Cycle 652: open Moment Hunter validation, file MH-T1 to MH-T3",
-   "lastHeartbeat": "2026-11-27T15:41:12.000Z",
-   "observedAt": "2026-11-27T15:41:12.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,32 +2719,46 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 652: Moment Hunter validation",
+   "detail": "Cycle 652 complete: Moment Hunter validation opened; MH-T1 pair collected, both gates exit 0, K1-K7 pass both, no key defect.",
+   "currentTask": "Cycle 652 complete: MH-T1 pair collected and verified",
+   "lastHeartbeat": "2026-11-27T15:53:55.000Z",
+   "observedAt": "2026-11-27T15:53:55.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
+   "agentId": "team-moment-hunter",
+   "name": "Moment Hunter MH-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-T1 generic solver",
+   "detail": "MH-T1 generic pair done (posted by cycle lead): clips.json 5,942 bytes, gate exit 0, 132s.",
+   "currentTask": "MH-T1 generic pair done",
+   "lastHeartbeat": "2026-11-27T15:51:02.000Z",
+   "observedAt": "2026-11-27T15:53:55.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
    "agentId": "team-moment-hunter",
    "name": "Moment Hunter MH-T1 specialist solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Moment Hunter MH-T1 specialist solver",
-   "detail": "MH-T1 complete: 8 candidates, shark top pick, gate passed twice, read-back PASS",
-   "currentTask": "MH-T1 done: 8 ranked candidates shipped, gate passed twice",
-   "lastHeartbeat": "2026-11-27T15:51:00.000Z",
-   "observedAt": "2026-11-27T15:51:00.000Z",
+   "title": "MH-T1 specialist solver",
+   "detail": "MH-T1 specialist pair done (posted by cycle lead): clips.json 7,245 bytes, gate exit 0, 198s.",
+   "currentTask": "MH-T1 specialist pair done",
+   "lastHeartbeat": "2026-11-27T15:51:21.000Z",
+   "observedAt": "2026-11-27T15:53:55.000Z",
    "needsUser": false,
-   "category": "clipping"
-  },
-  {
-   "agentId": "team-moment-hunter",
-   "name": "Moment Hunter MH-T1 generic solver",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Moment Hunter MH-T1 generic solver",
-   "detail": "MH-T1 generic done: 8 ranked candidates, top pick shark attack, gate passed twice, exit 0.",
-   "currentTask": "MH-T1 generic solver complete: 8 candidates, gate passed twice",
-   "lastHeartbeat": "2026-11-27T15:50:39.000Z",
-   "observedAt": "2026-11-27T15:50:39.000Z",
-   "needsUser": false,
-   "category": "clipping"
+   "category": "ghostnam-team"
   },
   {
    "agentId": "gt187-mumford-igyt",
@@ -4115,20 +4115,6 @@
    "currentTask": "Done: verification and snapshot 1 written to track file and GT-161",
    "lastHeartbeat": "2026-11-27T04:08:00.000Z",
    "observedAt": "2026-11-27T04:08:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt159-account-manager",
-   "name": "gt159-account-manager",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-159 Account Manager build + MEXC Team playbook",
-   "detail": "Complete. Engine in WATCH mode (no Phase 0 PASS on record); drills A to D PASS; shadow mode isolated in its own labelled ledger; deliverable at GT-20261127-159-reports/account-manager-report.md.",
-   "currentTask": "Complete: report delivered",
-   "lastHeartbeat": "2026-11-27T03:52:00.000Z",
-   "observedAt": "2026-11-27T03:52:00.000Z",
    "needsUser": false,
    "category": "trading"
   }
