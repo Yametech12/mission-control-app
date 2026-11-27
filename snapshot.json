@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-27T00:18:00.000Z",
- "summary": "AIE-R1 re-judge filed: Candidate A 8.50 leads Candidate B 7.75; contamination CLEAN.",
+ "generatedAt": "2026-11-27T00:18:35.000Z",
+ "summary": "Cycle 581 complete: AIE retest closed, specialist 8.25 / generic 8.33, 1 win, 2 losses, no validation; card rewritten (rewrite 2).",
  "agents": [
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: 94 consecutive failures. Paused because the chat it posts to can no longer receive results; last success Nov 3.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed 23 times in a row; last success Nov 4. Latest failure was a spawn error before execution finished.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T20:35:11.000Z",
-   "needsUser": true,
-   "category": "Whop"
+   "observedAt": "2026-11-27T00:16:39.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -23,26 +23,54 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: 96 consecutive failures. Paused because the chat it posts to can no longer receive results; last success Oct 6.",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 96 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T19:46:29.000Z",
+   "observedAt": "2026-11-27T00:16:39.000Z",
    "needsUser": true,
-   "category": "Messaging"
+   "category": "Monitoring"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Whop Townhall product posts",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 23 consecutive failures, latest Nov 26 at 23:26 PHT. Spawn error: message admission authority unavailable, binding retired.",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results. 94 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T15:26:48.000Z",
+   "observedAt": "2026-11-27T00:16:39.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Failed 8 times in a row; last success Nov 2. Latest failure was a spawn error before execution finished.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T00:16:39.000Z",
    "needsUser": false,
-   "category": "Backup"
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Monday promo check failed Nov 23, the 3rd consecutive failure; last success Nov 4. Spawn error before execution finished.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T00:16:39.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -57,20 +85,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 8 consecutive failures, latest Nov 26 at 19:05 PHT. Spawn error: message admission authority unavailable, binding retired.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:05:59.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -813,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 581: AIE-R1 re-judging",
-   "detail": "Re-judging AIE-R1 on the cycle 579 re-seal with one fresh judge; R2/R3 scores stand (1 win, 1 loss).",
-   "currentTask": "AIE-R1 re-judging with one fresh judge",
-   "lastHeartbeat": "2026-11-27T00:07:20.000Z",
-   "observedAt": "2026-11-27T00:07:20.000Z",
-   "needsUser": false,
-   "category": "ghostnam team"
   },
   {
    "agentId": "gt-149-security",
@@ -2523,6 +2523,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 581: AIE retest verdict",
+   "detail": "AIE-R1 re-judged generic win 8.50 vs 7.75; retest 8.25 vs 8.33, 1 win, 2 losses, not validated; card rewritten (rewrite 2).",
+   "currentTask": "Cycle 581 complete",
+   "lastHeartbeat": "2026-11-27T00:18:35.000Z",
+   "observedAt": "2026-11-27T00:18:35.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
    "agentId": "aie-r1-judge-r2",
    "name": "AIE-R1 Judge",
    "role": "auditor",
@@ -3905,20 +3919,6 @@
    "currentTask": "SYSB-T2 specialist solver (posted by cycle parent)",
    "lastHeartbeat": "2026-11-26T07:59:05.000Z",
    "observedAt": "2026-11-26T07:59:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-check-panel-cycle-505",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 505",
-   "detail": "Panel picks filed by job lead: Architect, Architect, Money Researcher, Evidence Auditor, Fresh-Eye Reviewer",
-   "currentTask": "Cycle 505 panel picks filed: 5 of 5",
-   "lastHeartbeat": "2026-11-26T07:44:32.000Z",
-   "observedAt": "2026-11-26T07:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
