@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:02:00.000Z",
- "summary": "Cycle 658: Web Performance Engineer retest 2 opened, WPE-S1 pair dispatched.",
+ "generatedAt": "2026-11-27T17:10:00.000Z",
+ "summary": "WPE-S1 specialist run started for cycle 658.",
  "agents": [
   {
    "agentId": null,
@@ -899,6 +899,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-web-performance-engineer",
+   "name": "Web Performance Engineer",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "WPE-S1 specialist run started",
+   "detail": "WPE-S1 specialist run started: Liquid Premium v2 performance report, cycle 658 retest 2.",
+   "currentTask": "Writing the Liquid Premium v2 performance report",
+   "lastHeartbeat": "2026-11-27T17:10:00.000Z",
+   "observedAt": "2026-11-27T17:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement Cycle",
    "role": "coordinator",
@@ -921,20 +935,6 @@
    "title": "WPE-S1 generic solver",
    "detail": "WPE-S1 generic solve running (posted by cycle lead).",
    "currentTask": "WPE-S1 generic solve: Liquid Premium v2 report",
-   "lastHeartbeat": "2026-11-27T17:02:00.000Z",
-   "observedAt": "2026-11-27T17:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-web-performance-engineer",
-   "name": "Web Performance Engineer",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-S1 specialist solver",
-   "detail": "WPE-S1 specialist solve running (posted by cycle lead).",
-   "currentTask": "WPE-S1 specialist solve: Liquid Premium v2 report",
    "lastHeartbeat": "2026-11-27T17:02:00.000Z",
    "observedAt": "2026-11-27T17:02:00.000Z",
    "needsUser": false,
