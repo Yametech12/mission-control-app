@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T00:44:16.000Z",
- "summary": "CSE comment watch Nov 27 08:32 PHT complete: 17 Page posts checked (incl. new Nov 27 06:28 Candid Quick Check), no new genuine comments, 0 hearts, 0 replies, nothing flagged. Session healthy, CSE identity verified throughout.",
+ "generatedAt": "2026-11-27T00:50:17.000Z",
+ "summary": "Cycle 584 done: MRE-T3 pair collected and verified; all three MRE pairs collected.",
  "agents": [
   {
    "agentId": null,
@@ -2523,6 +2523,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 584",
+   "detail": "Cycle 584 done: MRE-T3 pair collected, both gates re-run 7/7, K1-K7 pass, all 3 MRE pairs collected.",
+   "currentTask": "Cycle 584 done: MRE-T3 pair collected and verified",
+   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
+   "observedAt": "2026-11-27T00:50:17.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mobile-release-engineer-mre-t3-generic",
+   "name": "MRE-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T3 generic solver",
+   "detail": "MRE-T3 generic solver done: 1,653/1,346/2,377 bytes, gate 7/7 (posted by cycle lead).",
+   "currentTask": "MRE-T3 generic runbook done (274 words, 51s, gate 7/7)",
+   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
+   "observedAt": "2026-11-27T00:50:17.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mobile-release-engineer-mre-t3-specialist",
+   "name": "MRE-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T3 specialist solver",
+   "detail": "MRE-T3 specialist solver done: 4,998/1,755/3,784 bytes, gate 7/7 (posted by cycle lead).",
+   "currentTask": "MRE-T3 specialist runbook done (830 words, 80s, gate 7/7)",
+   "lastHeartbeat": "2026-11-27T00:50:17.000Z",
+   "observedAt": "2026-11-27T00:50:17.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE Page Comment Watcher",
    "role": "monitor",
@@ -2535,20 +2577,6 @@
    "observedAt": "2026-11-27T00:44:16.000Z",
    "needsUser": false,
    "category": "cse-reviewer"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 583: Mobile Release Engineer MRE-T2",
-   "detail": "MRE-T2 pair collected: specialist 518 words 54s, generic 310 words 52s, both gates 7/7, K1-K7 pass, no key defect.",
-   "currentTask": "Cycle 583 complete: MRE-T2 collected",
-   "lastHeartbeat": "2026-11-27T00:38:30.000Z",
-   "observedAt": "2026-11-27T00:38:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-mobile-release-engineer-specialist",
@@ -3890,34 +3918,6 @@
    "detail": "SYSB-T1 judge complete: specialist win 8.50 vs 7.25. Contamination flag misfired, scores stand.",
    "currentTask": "SYSB-T1 judged: specialist win 8.50 vs 7.25",
    "lastHeartbeat": "2026-11-26T08:29:24.000Z",
-   "observedAt": "2026-11-26T08:33:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t2-judge",
-   "name": "SYSB-T2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T2 blind judge",
-   "detail": "SYSB-T2 judge complete: generic win 9.00 vs 8.50. Contamination clean.",
-   "currentTask": "SYSB-T2 judged: generic win 9.00 vs 8.50",
-   "lastHeartbeat": "2026-11-26T08:29:25.000Z",
-   "observedAt": "2026-11-26T08:33:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t3-judge",
-   "name": "SYSB-T3 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T3 blind judge",
-   "detail": "SYSB-T3 judge complete: specialist win 8.50 vs 7.75. Contamination clean.",
-   "currentTask": "SYSB-T3 judged: specialist win 8.50 vs 7.75",
-   "lastHeartbeat": "2026-11-26T08:29:04.000Z",
    "observedAt": "2026-11-26T08:33:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
