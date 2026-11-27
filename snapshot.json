@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T06:25:06.000Z",
- "summary": "M3D-T2 generic solver: review complete, PASS WITH MAJOR ISSUES (B3 major)",
+ "generatedAt": "2026-11-27T06:30:00.000Z",
+ "summary": "M3D-T3 generic solver running",
  "agents": [
   {
    "agentId": null,
@@ -801,18 +801,32 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-m3d-t3-generic",
+   "name": "m3d-t3-generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-T3 generic solver",
+   "detail": "M3D-T3 generic solver started: building the five-file run for THE AUTOPSY WebGL spec.",
+   "currentTask": "Building M3D-T3 generic run: 3D spec, budget sheet, spec note, gate",
+   "lastHeartbeat": "2026-11-27T06:30:00.000Z",
+   "observedAt": "2026-11-27T06:30:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 608: Motion and 3D M3D-T2",
-   "detail": "Running M3D-T2 solver pair (specialist vs generic), BlockTales Oates motion review.",
-   "currentTask": "Cycle 608: M3D-T2 solver pair",
-   "lastHeartbeat": "2026-11-27T06:10:47.000Z",
-   "observedAt": "2026-11-27T06:10:47.000Z",
+   "title": "Ghostname Team validation cycle 609",
+   "detail": "Motion and 3D M3D-T3 solvers running (specialist + generic). Sealing 611, judging 612.",
+   "currentTask": "Cycle 609: M3D-T3 solver pair",
+   "lastHeartbeat": "2026-11-27T06:29:30.000Z",
+   "observedAt": "2026-11-27T06:29:30.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2495,6 +2509,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "team-m3d-t3-specialist",
+   "name": "M3D-T3 specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-T3 Autopsy WebGL spec",
+   "detail": "Cycle 609 M3D-T3 specialist run started: building Autopsy WebGL 3D spec, budget sheet, spec note, gate, delivery note.",
+   "currentTask": "M3D-T3 Autopsy WebGL spec",
+   "lastHeartbeat": "2026-11-27T06:30:16.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Ghostname Team validation"
+  },
+  {
    "agentId": "sase-neon-deploy",
    "name": "Neon Deploy Worker",
    "role": "builder",
@@ -2585,10 +2613,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "M3D-T2 generic solver",
-   "detail": "M3D-T2 generic solve done: PASS WITH MAJOR ISSUES, 2 PASS, 9 minor, 1 major (B3); gate 7/7",
-   "currentTask": "M3D-T2 generic solve",
-   "lastHeartbeat": "2026-11-27T06:25:06.000Z",
-   "observedAt": "2026-11-27T06:25:06.000Z",
+   "detail": "Generic solve complete: 32,681 bytes, 798s, gate 7/7, overall PASS WITH MAJOR ISSUES 2/9/1. Posted by cycle lead.",
+   "currentTask": "M3D-T2 generic solve complete",
+   "lastHeartbeat": "2026-11-27T06:26:26.000Z",
+   "observedAt": "2026-11-27T06:26:26.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2599,10 +2627,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "M3D-T2 specialist solver",
-   "detail": "M3D-T2 review complete: PASS (3 PASS, 9 minor, 0 major), gate 7/7, 5 stale stills flagged for re-still",
-   "currentTask": "M3D-T2 specialist solve",
-   "lastHeartbeat": "2026-11-27T06:22:08.000Z",
-   "observedAt": "2026-11-27T06:22:08.000Z",
+   "detail": "Specialist solve complete: 30,384 bytes, 619s, gate 7/7, overall PASS 3/9/0. Posted by cycle lead.",
+   "currentTask": "M3D-T2 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T06:26:26.000Z",
+   "observedAt": "2026-11-27T06:26:26.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
