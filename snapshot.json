@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:17:48.000Z",
- "summary": "2 improvement cycles running, 3 items need attention, 3 recent completions, and 12 scheduled items verified as of 05:17 PHT Nov 28. No artifact builds or workflow runs were active.",
+ "generatedAt": "2026-11-27T21:25:49.000Z",
+ "summary": "Routing check cycle 675 coordinator sealing 5 picks.",
  "agents": [
   {
    "agentId": null,
@@ -913,6 +913,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle-coordinator",
+   "name": "Routing Check Coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing check cycle 675 coordinator picks",
+   "detail": "Routing check cycle 675: sealing 5 coordinator picks from ROSTER_INDEX.md triggers, freshness verified.",
+   "currentTask": "Sealing routing check cycle 675 coordinator picks",
+   "lastHeartbeat": "2026-11-27T21:25:49.000Z",
+   "observedAt": "2026-11-27T21:25:49.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle-panel",
    "name": "Division Leads Panel",
    "role": "coordinator",
@@ -921,20 +935,6 @@
    "title": "Division Leads Panel",
    "detail": "Panel standing by for cycle 675 tasks",
    "currentTask": "Awaiting tasks.md to vote",
-   "lastHeartbeat": "2026-11-27T21:16:30.000Z",
-   "observedAt": "2026-11-27T21:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-coordinator",
-   "name": "Routing Check Coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing Check Coordinator",
-   "detail": "Coordinator standing by for cycle 675 tasks",
-   "currentTask": "Awaiting tasks.md to seal picks",
    "lastHeartbeat": "2026-11-27T21:16:30.000Z",
    "observedAt": "2026-11-27T21:16:30.000Z",
    "needsUser": false,
