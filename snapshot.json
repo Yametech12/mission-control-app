@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:24:00.000Z",
- "summary": "GT-174 Pro Max VM runner live as a systemd user service (REST transport, unofficial sim)",
+ "generatedAt": "2026-11-27T11:30:00.000Z",
+ "summary": "CSE evening 19:30 slot complete: Reel answer drop done (C1-V018, B thorough) and Inside the reviewer conversion post live on the CSE Page.",
  "agents": [
   {
    "agentId": null,
@@ -2607,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cse-qc-evening-1930",
+   "name": "CSE Evening Poster",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE 19:30 evening slot",
+   "detail": "Reel answer drop done (C1-V018, B thorough, comment verified). Evening post LIVE: Inside the reviewer, Day 5 caption, https://www.facebook.com/122104050213556083/posts/122105836647556083",
+   "currentTask": "19:30 evening slot done: Reel answer drop + Inside the reviewer post",
+   "lastHeartbeat": "2026-11-27T11:30:00.000Z",
+   "observedAt": "2026-11-27T11:30:00.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
+  },
+  {
    "agentId": "gt174-vm-runner",
    "name": "gt174-vm-runner",
    "role": "builder",
@@ -3988,20 +4002,6 @@
    "detail": "MRE-T1 generic done: checklist 3,314 bytes, gate 7/7 exit 0, note READ-BACK: PASS, about 82s.",
    "currentTask": "MRE-T1 generic pair delivered",
    "lastHeartbeat": "2026-11-27T00:30:26.000Z",
-   "observedAt": "2026-11-27T00:32:57.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mre-t1-specialist",
-   "name": "MRE-T1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MRE-T1 specialist solver",
-   "detail": "MRE-T1 specialist done: checklist 3,363 bytes, gate 7/7 exit 0, note READ-BACK: PASS, about 89s.",
-   "currentTask": "MRE-T1 specialist pair delivered",
-   "lastHeartbeat": "2026-11-27T00:30:32.000Z",
    "observedAt": "2026-11-27T00:32:57.000Z",
    "needsUser": false,
    "category": "ghostname-team"
