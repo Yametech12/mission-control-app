@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T18:46:22.000Z",
- "summary": "Cycle 663: judging Web Performance Engineer retest 2 (WPE-S1 to WPE-S3).",
+ "generatedAt": "2026-11-27T18:52:26.000Z",
+ "summary": "Cycle 663: Web Performance Engineer retest 2 VALIDATED 8.08 vs 6.83.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 663: WPE retest 2 judging",
-   "detail": "Judging WPE-S1 to WPE-S3 blind with three fresh-context QA judges; sealed cycle 662.",
-   "currentTask": "Judging WPE retest 2 blind, three fresh QA judges",
-   "lastHeartbeat": "2026-11-27T18:46:22.000Z",
-   "observedAt": "2026-11-27T18:46:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,6 +2691,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 663: WPE retest 2 VALIDATED",
+   "detail": "WPE validated 8.08 vs 6.83, 3 wins 0 losses; clean blind judging, seal held. Scoreboard 30/79.",
+   "currentTask": "Cycle 663 complete: WPE validated",
+   "lastHeartbeat": "2026-11-27T18:52:26.000Z",
+   "observedAt": "2026-11-27T18:52:26.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE Page Comment Watcher",
    "role": "monitor",
@@ -4089,20 +4089,6 @@
    "observedAt": "2026-11-27T05:09:23.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-ui-designer-generic",
-   "name": "Generic solver UID-T2",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UI Designer UID-T2 generic",
-   "detail": "UID-T2 generic done: 14,735 bytes, 218 words, 188s, gate 7/7 pass. Posted by cycle parent.",
-   "currentTask": "UID-T2 generic complete",
-   "lastHeartbeat": "2026-11-27T05:02:09.000Z",
-   "observedAt": "2026-11-27T05:02:09.000Z",
-   "needsUser": false,
-   "category": "ghostnam team validation"
   }
  ]
 }
