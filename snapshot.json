@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T07:31:00.000Z",
- "summary": "GT-165 build in progress: MEXC Trading Bot Console artifact.",
+ "generatedAt": "2026-11-27T07:36:39.000Z",
+ "summary": "BID-T2 specialist solver started: building the Hapsay Lifestyle identity sheet from the GT-20261121-01 record.",
  "agents": [
   {
    "agentId": null,
@@ -829,18 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt165-coordinator",
-   "name": "gt165-mexc-console",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-165 MEXC Trading Bot Console",
-   "detail": "Milestone: console build dispatched with all verified lane data embedded (GT-158 Phase 0 PASS, Phase 1 not started, VERITY/BULLA shadow states, local-runner key flow, no key fields).",
-   "currentTask": "Artifact build running: MEXC Trading Bot Console (slug mexc-trading-bot-console)",
-   "lastHeartbeat": "2026-11-27T07:31:00.000Z",
-   "observedAt": "2026-11-27T07:31:00.000Z",
+   "title": "Improvement cycle 614: BID-T2 solvers",
+   "detail": "Brand Identity Designer BID-T2 solvers running: specialist from the card plus brand-guidelines and canvas-design skills, generic from the task file only.",
+   "currentTask": "BID-T2 solver pair (Hapsay identity sheet)",
+   "lastHeartbeat": "2026-11-27T07:35:52.000Z",
+   "observedAt": "2026-11-27T07:35:52.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2607,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt165-coordinator",
+   "name": "gt165-mexc-console",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-165 MEXC Trading Bot Console",
+   "detail": "COMPLETE: MEXC Trading Bot Console (mexc-trading-bot-console) built and audit-verified. Live public prices proven, Phase board incl. GT-158 PASS, shadow tracks, local-runner key flow, zero secret fields. Report filed.",
+   "currentTask": "Complete: console built and verified; job report filed",
+   "lastHeartbeat": "2026-11-27T07:36:00.000Z",
+   "observedAt": "2026-11-27T07:36:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-bid-t1-generic",
    "name": "BID-T1 generic solver",
    "role": "builder",
@@ -2630,20 +2644,6 @@
    "detail": "Posted by the cycle lead: specialist audit 14,894 bytes / 2,537 words, gate exit 0, 7/7, READ-BACK: PASS, 169s.",
    "currentTask": "BID-T1 specialist audit done",
    "lastHeartbeat": "2026-11-27T07:23:47.000Z",
-   "observedAt": "2026-11-27T07:24:34.000Z",
-   "needsUser": false,
-   "category": "ghostame-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 613: Brand Identity Designer validation opens",
-   "detail": "Cycle 613 done. BID-T1 pair collected and verified (specialist 20,215 bytes, 169s; generic 11,792 bytes, about 109s; both gates 7/7, K1 to K7 pass). BID-T2 solvers cycle 614; next routing check cycle 615.",
-   "currentTask": "Cycle 613 complete: BID-T1 pair collected",
-   "lastHeartbeat": "2026-11-27T07:24:34.000Z",
    "observedAt": "2026-11-27T07:24:34.000Z",
    "needsUser": false,
    "category": "ghostame-team"
