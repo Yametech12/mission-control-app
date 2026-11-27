@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T13:31:00.000Z",
- "summary": "GT-176: Results gallery, Wardrobe, USD pricing done in code. Three redesign directions ready for the owner pick, NOT applied. CI run 1 Android release failed on an AGP lint crash; fix applied, lands with next push.",
+ "generatedAt": "2026-11-27T13:27:36.000Z",
+ "summary": "Cycle 643 judging Design Systems Engineer (3 blind QA judges, sealed pairs).",
  "agents": [
   {
    "agentId": null,
@@ -883,6 +883,20 @@
    "observedAt": "2026-11-27T13:31:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 643: judging Design Systems Engineer",
+   "detail": "Cycle 643 judging Design Systems Engineer: 3 blind QA judges on sealed DSE-T1 to DSE-T3 pairs.",
+   "currentTask": "Cycle 643: judging Design Systems Engineer DSE-T1 to DSE-T3",
+   "lastHeartbeat": "2026-11-27T13:27:36.000Z",
+   "observedAt": "2026-11-27T13:27:36.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2649,20 +2663,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation cycle 642",
-   "detail": "Cycle 642 complete: Design Systems Engineer sealed SEAL_OK first run, 7 changed lines, 18 neutral files, 0 identity hits; all six neutral gates exit 0. Judging cycle 643.",
-   "currentTask": "Cycle 642 complete: DSE sealed, judging cycle 643",
-   "lastHeartbeat": "2026-11-27T13:22:40.000Z",
-   "observedAt": "2026-11-27T13:22:40.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-dse-t3-generic",
    "name": "DSE-T3 generic solver",
    "role": "builder",
@@ -4047,6 +4047,20 @@
    "observedAt": "2026-11-27T02:06:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "ef9ca900-bc25-4fc0-9f76-1862674cf2dd",
+   "name": "CSE groups join browser task",
+   "role": "coordinator",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "CSE Page joined 3 Facebook groups",
+   "detail": "All 3 groups joined as CSE Practice Hub PH Page, no posts or comments made. Completed 09:52 PHT.",
+   "currentTask": "Join 3 Facebook groups as CSE Practice Hub PH Page",
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T01:52:18.000Z",
+   "needsUser": false,
+   "category": "CSE Page"
   }
  ]
 }
