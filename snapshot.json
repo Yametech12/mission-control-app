@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T10:49:29.000Z",
- "summary": "Routing panel cycle 630 complete: five picks filed with vote splits.",
+ "generatedAt": "2026-11-27T10:56:40.000Z",
+ "summary": "Improvement cycle 631 started: blind judging of API Integration Engineer retest 2 (AIE-S1 to AIE-S3).",
  "agents": [
   {
    "agentId": null,
@@ -830,15 +830,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 630",
-   "detail": "Routing check 98: five fresh legs from GT-169, GT-170, GT-171, GT-172; Coordinator picks sealed, panel reading next.",
-   "currentTask": "Cycle 630 routing check: sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-27T10:46:30.000Z",
-   "observedAt": "2026-11-27T10:46:30.000Z",
+   "title": "Improvement cycle 631: AIE retest 2 judging",
+   "detail": "Judging AIE-S1 to AIE-S3 blind (3 fresh QA judges); sealed cycle 629, verdict decides VALIDATED vs FLAGGED.",
+   "currentTask": "Cycle 631 judging: dispatching 3 blind QA judges for AIE-S1/S2/S3",
+   "lastHeartbeat": "2026-11-27T10:56:40.000Z",
+   "observedAt": "2026-11-27T10:56:40.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2613,10 +2613,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing panel cycle 630",
-   "detail": "Panel done: Systems Builder, Systems Builder, Data Integrity Auditor, Data Engineer, Money Researcher. Picks filed.",
-   "currentTask": "Panel verdicts filed for routing check cycle 630",
+   "detail": "Panel verdicts filed: Systems Builder 6-2, Systems Builder 6-2, Data Integrity Auditor 7-1, Data Engineer 5-3, Money Researcher 6-2. Posted by the cycle lead.",
+   "currentTask": "Panel verdicts filed",
    "lastHeartbeat": "2026-11-27T10:49:29.000Z",
-   "observedAt": "2026-11-27T10:49:29.000Z",
+   "observedAt": "2026-11-27T10:52:05.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
