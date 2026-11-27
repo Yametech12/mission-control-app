@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T12:40:12.000Z",
- "summary": "DSE-T2 specialist solver completed the one-token-system audit; gate passed 13/13.",
+ "generatedAt": "2026-11-27T12:47:30.000Z",
+ "summary": "Ghostname Team improvement cycle 640: routing check (100th) in progress.",
  "agents": [
   {
    "agentId": null,
@@ -872,17 +872,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 639",
-   "detail": "Cycle 639 running: Design Systems Engineer DSE-T2 solver pair (specialist vs generic).",
-   "currentTask": "Cycle 639: DSE-T2 solver pair running",
-   "lastHeartbeat": "2026-11-27T12:31:44.000Z",
-   "observedAt": "2026-11-27T12:31:44.000Z",
+   "title": "Ghostname Team improvement cycle 640",
+   "detail": "Routing check 640 (100th): 5 fresh Nov 27 legs, Coordinator picks sealing now.",
+   "currentTask": "Routing check 640: sealing Coordinator picks",
+   "lastHeartbeat": "2026-11-27T12:47:30.000Z",
+   "observedAt": "2026-11-27T12:47:30.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2655,10 +2655,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "DSE-T2 generic solver",
-   "detail": "DSE-T2 generic solver done: audit shipped, gate 13/13 exit 0, live f4f1ea count 0. READ-BACK: PASS.",
-   "currentTask": "DSE-T2 generic solver: token audit, gate, delivery note",
-   "lastHeartbeat": "2026-11-27T12:44:00.000Z",
-   "observedAt": "2026-11-27T12:44:00.000Z",
+   "detail": "DSE-T2 generic done (posted by cycle lead): audit 28,324 bytes, 4,473 words, gate 13/13, f4f1ea 0 live.",
+   "currentTask": "DSE-T2 generic solver done",
+   "lastHeartbeat": "2026-11-27T12:39:37.000Z",
+   "observedAt": "2026-11-27T12:42:35.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2669,10 +2669,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "DSE-T2 specialist solver",
-   "detail": "DSE-T2 audit done: token-audit.md, gate.js, delivery-note.md shipped; gate 13/13 pass, exit 0; live f4f1ea count 0.",
-   "currentTask": "DSE-T2 audit shipped; gate 13/13 pass, live f4f1ea count 0",
+   "detail": "DSE-T2 specialist done (posted by cycle lead): audit 41,444 bytes, 6,875 words, gate 13/13, f4f1ea 0 live.",
+   "currentTask": "DSE-T2 specialist solver done",
    "lastHeartbeat": "2026-11-27T12:40:12.000Z",
-   "observedAt": "2026-11-27T12:40:12.000Z",
+   "observedAt": "2026-11-27T12:42:35.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
