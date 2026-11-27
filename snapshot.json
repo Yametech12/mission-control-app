@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T07:56:30.000Z",
- "summary": "Cycle 616: BID-T3 solvers running.",
+ "generatedAt": "2026-11-27T08:00:30.000Z",
+ "summary": "BID-T3 specialist solve complete: identity sheet shipped, gate 7/7 PASS.",
  "agents": [
   {
    "agentId": null,
@@ -829,32 +829,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "bid-t3-generic-solver",
-   "name": "bid-t3-generic-solver",
-   "role": "builder",
+   "agentId": "gt166-coordinator",
+   "name": "gt166-coordinator",
+   "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "BID-T3 generic solver",
-   "detail": "Building the Ghostname Pod identity sheet with no role card. Posted by cycle lead.",
-   "currentTask": "BID-T3 generic solve",
-   "lastHeartbeat": "2026-11-27T07:56:30.000Z",
-   "observedAt": "2026-11-27T07:56:30.000Z",
+   "title": "GT-166: 9-Agent Pipeline upgrade, MEXC Console",
+   "detail": "GT-166 verification: build live with real sandbox vetoes, but production runPipelineCycle returns feed-unavailable while getTickers succeeds. Repair inspection dispatched to find the failing requests.",
+   "currentTask": "Repair edit dispatched: pipeline cycle feed failure in production",
+   "lastHeartbeat": "2026-11-27T08:01:00.000Z",
+   "observedAt": "2026-11-27T08:01:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "bid-t3-specialist-solver",
-   "name": "bid-t3-specialist-solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "BID-T3 specialist solver",
-   "detail": "Building the Ghostname Pod identity sheet from the Brand Identity Designer card. Posted by cycle lead.",
-   "currentTask": "BID-T3 specialist solve",
-   "lastHeartbeat": "2026-11-27T07:56:30.000Z",
-   "observedAt": "2026-11-27T07:56:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -869,20 +855,6 @@
    "observedAt": "2026-11-27T07:56:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt166-coordinator",
-   "name": "gt166-coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-166: 9-Agent Pipeline upgrade, MEXC Console",
-   "detail": "GT-166 milestone: pipeline edit in build. Pre-check found natural BlackMint vetoes (FET spread 0.160%, CT 0.588%, BULLA 0.245% vs 0.15% line); BTC 15m -0.37%, Regime open.",
-   "currentTask": "Builder running: 9-agent pipeline edit on mexc-trading-bot-console",
-   "lastHeartbeat": "2026-11-27T07:55:00.000Z",
-   "observedAt": "2026-11-27T07:55:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2551,6 +2523,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "bid-t3-generic-solver",
+   "name": "bid-t3-generic-solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "BID-T3 generic solve started",
+   "detail": "BID-T3 generic solver started: Ghostname Pod identity sheet, no role card, task file plus 5 named inputs only.",
+   "currentTask": "BID-T3 generic solve in progress",
+   "lastHeartbeat": "2026-11-27T07:57:43.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2647,6 +2633,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "bid-t3-specialist-solver",
+   "name": "bid-t3-specialist-solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T3 specialist solve: Ghostname Pod identity sheet",
+   "detail": "Done. Sheet 6748 B, gate 7/7 PASS exit 0, note 3184 B. Total 11677 B. READ-BACK: PASS.",
+   "currentTask": "BID-T3 complete: identity sheet, gate, delivery note shipped",
+   "lastHeartbeat": "2026-11-27T08:00:30.000Z",
+   "observedAt": "2026-11-27T08:00:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "routing-panel-615",
@@ -4029,20 +4029,6 @@
    "title": "ML-T2 generic solver",
    "detail": "ML-T2 generic done: plan 3,223 bytes 560 words, gate 6/6 exit 0, READ-BACK PASS. Posted by cycle lead.",
    "currentTask": "ML-T2 generic complete",
-   "lastHeartbeat": "2026-11-26T17:31:40.000Z",
-   "observedAt": "2026-11-26T17:31:40.000Z",
-   "needsUser": false,
-   "category": "team-improvement"
-  },
-  {
-   "agentId": "team-ml-engineer-ml-t2-specialist",
-   "name": "ML-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "ML-T2 specialist solver",
-   "detail": "ML-T2 specialist done: plan 6,617 bytes 1,148 words, gate 6/6 exit 0, READ-BACK PASS. Posted by cycle lead.",
-   "currentTask": "ML-T2 specialist complete",
    "lastHeartbeat": "2026-11-26T17:31:40.000Z",
    "observedAt": "2026-11-26T17:31:40.000Z",
    "needsUser": false,
