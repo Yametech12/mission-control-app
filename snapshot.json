@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:26:05.000Z",
- "summary": "WPE-S2 specialist solver complete: report, gate, and delivery note shipped, gate passed 7 of 7",
+ "generatedAt": "2026-11-27T17:31:00.000Z",
+ "summary": "Cycle 660 routing check in progress.",
  "agents": [
   {
    "agentId": null,
@@ -918,13 +918,13 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 659: WPE-S2 solvers",
-   "detail": "Web Performance Engineer retest 2, WPE-S2 solver pair running (specialist vs generic).",
-   "currentTask": "Cycle 659: WPE-S2 solver pair",
-   "lastHeartbeat": "2026-11-27T17:18:29.000Z",
-   "observedAt": "2026-11-27T17:18:29.000Z",
+   "title": "Improvement cycle 660 (routing check)",
+   "detail": "Cycle 660 routing check started: 5 fresh real tasks from Nov 27-28 job records.",
+   "currentTask": "Cycle 660 routing check: harvest 5 fresh real tasks",
+   "lastHeartbeat": "2026-11-27T17:31:00.000Z",
+   "observedAt": "2026-11-27T17:31:00.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
