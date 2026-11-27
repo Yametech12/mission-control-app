@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T12:47:30.000Z",
- "summary": "Ghostname Team improvement cycle 640: routing check (100th) in progress.",
+ "generatedAt": "2026-11-27T12:52:00.000Z",
+ "summary": "Ghostname Team improvement cycle 640 complete: routing check 4 of 5, no rule fix, flag does not recur.",
  "agents": [
   {
    "agentId": null,
@@ -871,18 +871,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "gt176-fitorskip-improve",
+   "name": "gt176-fitorskip-improve",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 640",
-   "detail": "Routing check 640 (100th): 5 fresh Nov 27 legs, Coordinator picks sealing now.",
-   "currentTask": "Routing check 640: sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-27T12:47:30.000Z",
-   "observedAt": "2026-11-27T12:47:30.000Z",
+   "title": "GT-176 FitOrSkip Improvement Pass 2",
+   "detail": "Started: baseline verified at commit be0734a, v0.2.0+2, clean tree. Building all five scope items.",
+   "currentTask": "Reading app sources, planning the five improvement items",
+   "lastHeartbeat": "2026-11-27T12:52:00.000Z",
+   "observedAt": "2026-11-27T12:52:00.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "fitorskip"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2649,6 +2649,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 640",
+   "detail": "Routing check 640 (100th) done: 4 of 5 vs division leads; miss RC-T2 Coordinator better call; no rule fix; DSE-T3 solvers cycle 641.",
+   "currentTask": "Cycle 640 complete",
+   "lastHeartbeat": "2026-11-27T12:52:00.000Z",
+   "observedAt": "2026-11-27T12:52:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-routing-panel-640",
+   "name": "Routing Panel 640",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 640 panel",
+   "detail": "Panel picks filed by the panel (posted by the parent): Evidence Auditor, Data Analyst, Page Operator, Money Researcher, Clip Producer.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T12:49:53.000Z",
+   "observedAt": "2026-11-27T12:52:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "dse-t2-generic",
    "name": "dse-t2-generic",
    "role": "builder",
@@ -4019,34 +4047,6 @@
    "observedAt": "2026-11-27T01:49:21.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-wpe-t1-generic",
-   "name": "WPE-T1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T1 generic solver",
-   "detail": "WPE-T1 generic: report 4,885 bytes, 860 words, gate 7/7, 101s. Snapshots posted by the solver.",
-   "currentTask": "WPE-T1 generic solve complete",
-   "lastHeartbeat": "2026-11-27T01:48:23.000Z",
-   "observedAt": "2026-11-27T01:48:23.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "gt151-builder-services",
-   "name": "gt151-app-builder",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-151 candidate apps (builder leg)",
-   "detail": "Completed: 10 candidates ranked by buildability and maintenance; top pick ClinicFlow Retainer, then white-label Reviewer Engine, then PagePilot.",
-   "currentTask": "Done: leg-builder-services.md delivered",
-   "lastHeartbeat": "2026-11-27T01:45:23.000Z",
-   "observedAt": "2026-11-27T01:45:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
