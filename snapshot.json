@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:05:42.000Z",
- "summary": "Routing check panel cycle 585 complete: 5 picks filed.",
+ "generatedAt": "2026-11-27T01:07:30.000Z",
+ "summary": "Cycle 585 routing check complete: 5 of 5, clean sweep.",
  "agents": [
   {
    "agentId": null,
@@ -827,20 +827,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 585 (routing check)",
-   "detail": "Cycle 585 routing check started: 5 fresh Nov 26-27 legs, Coordinator picks being sealed.",
-   "currentTask": "Cycle 585 routing check: 5 fresh legs, sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-27T00:56:00.000Z",
-   "observedAt": "2026-11-27T00:56:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,16 +2523,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 585 (routing check)",
+   "detail": "Cycle 585 routing check complete: 5 of 5, clean sweep (23rd in 89). No misses, no rule fixes.",
+   "currentTask": "Cycle 585 routing check complete: 5 of 5, clean sweep",
+   "lastHeartbeat": "2026-11-27T01:07:30.000Z",
+   "observedAt": "2026-11-27T01:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-panel",
    "name": "Routing Check Panel",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing check panel cycle 585",
-   "detail": "Routing check panel cycle 585 complete: Watcher, Watcher, Knowledge Manager, Watcher, Cron Fleet Manager. Picks filed.",
-   "currentTask": "Routing check panel cycle 585: picks filed for RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-27T01:05:42.000Z",
-   "observedAt": "2026-11-27T01:05:42.000Z",
+   "detail": "Routing check panel cycle 585 complete: picks filed, 5 of 5 match (posted by panel; carried by parent).",
+   "currentTask": "Cycle 585 panel picks filed: 5 of 5 match",
+   "lastHeartbeat": "2026-11-27T01:05:58.000Z",
+   "observedAt": "2026-11-27T01:07:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3918,20 +3918,6 @@
    "detail": "SYSB-T1 judge complete: specialist win 8.50 vs 7.25. Contamination flag misfired, scores stand.",
    "currentTask": "SYSB-T1 judged: specialist win 8.50 vs 7.25",
    "lastHeartbeat": "2026-11-26T08:29:24.000Z",
-   "observedAt": "2026-11-26T08:33:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t2-judge",
-   "name": "SYSB-T2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T2 blind judge",
-   "detail": "SYSB-T2 judge complete: generic win 9.00 vs 8.50. Contamination clean.",
-   "currentTask": "SYSB-T2 judged: generic win 9.00 vs 8.50",
-   "lastHeartbeat": "2026-11-26T08:29:25.000Z",
    "observedAt": "2026-11-26T08:33:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
