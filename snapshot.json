@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:31:00.000Z",
- "summary": "Cycle 660 routing check in progress.",
+ "generatedAt": "2026-11-27T17:51:43.000Z",
+ "summary": "Routing check 660 panel: voting started",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "routing-check-panel-660",
+   "name": "Routing Check Panel",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing check 660 panel",
+   "detail": "Panel voting started on 5 routing tasks RC-T1 to RC-T5.",
+   "currentTask": "Voting on RC-T1 to RC-T5 from ROSTER_INDEX.md triggers",
+   "lastHeartbeat": "2026-11-27T17:51:43.000Z",
+   "observedAt": "2026-11-27T17:51:43.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
