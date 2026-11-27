@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T23:02:42.000Z",
- "summary": "M3D-R3 generic solver started",
+ "generatedAt": "2026-11-27T23:10:29.000Z",
+ "summary": "M3D-R3 specialist solver started.",
  "agents": [
   {
    "agentId": null,
@@ -897,6 +897,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "m3d-r3-specialist",
+   "name": "M3D-R3 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-R3 solver",
+   "detail": "M3D-R3 solver started: measuring both Three.js candidates and drafting the Sealed Wall spec.",
+   "currentTask": "Measuring Three.js builds and drafting the Sealed Wall 3D spec",
+   "lastHeartbeat": "2026-11-27T23:10:29.000Z",
+   "observedAt": "2026-11-27T23:10:29.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "m3d-r3-generic",
