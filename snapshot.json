@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:20:00.000Z",
- "summary": "GT-170 milestone: data complete for 13 pairs x 3 timeframes; running the 1,248-config grid.",
+ "generatedAt": "2026-11-27T09:11:30.000Z",
+ "summary": "GT-171 Token Profiler plus All-Liquid Shadow Expansion started (paper only).",
  "agents": [
   {
    "agentId": null,
@@ -815,16 +815,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt170-coordinator",
-   "name": "gt170-coordinator",
+   "agentId": "gt171-coordinator",
+   "name": "gt171-token-profiler-expansion",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-170 Candle Pattern Research Blitz",
-   "detail": "Milestone: data fetched (MEXC API + lane 4h archive); running 8 patterns x 13 pairs x 3 TF x 2 filters x 2 exits = 1,248 trials.",
-   "currentTask": "Running the full pattern grid",
-   "lastHeartbeat": "2026-11-27T09:20:00.000Z",
-   "observedAt": "2026-11-27T09:20:00.000Z",
+   "title": "GT-171 Token Profiler + Shadow Expansion",
+   "detail": "GT-171 started: Token Profiler plus All-Liquid Shadow Expansion (paper only)",
+   "currentTask": "Building Token Profiler (public MEXC data)",
+   "lastHeartbeat": "2026-11-27T09:11:30.000Z",
+   "observedAt": "2026-11-27T09:11:30.000Z",
    "needsUser": false,
    "category": "trading"
   },
@@ -2593,6 +2593,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt170-coordinator",
+   "name": "gt170-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-170 Candle Pattern Research Blitz",
+   "detail": "Complete: 1,248 trials, 0 survivors (68 failed only the correction). Scale-in hurt; scale-out neutral. Report GT-20261127-170.md and CANDIDATES.md filed.",
+   "currentTask": "Complete: report and candidates file delivered",
+   "lastHeartbeat": "2026-11-27T09:35:00.000Z",
+   "observedAt": "2026-11-27T09:35:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "team-improvement-cycle",
    "role": "coordinator",
@@ -3972,20 +3986,6 @@
    "status": "completed",
    "title": "AIE-T1 generic solver",
    "detail": "AIE-T1 generic solver complete: record 20,147 bytes, gate 7/7 PASS, READ-BACK: PASS. (Carried by cycle parent.)",
-   "currentTask": "AIE-T1 connector inventory re-audit",
-   "lastHeartbeat": "2026-11-26T20:09:09.000Z",
-   "observedAt": "2026-11-26T20:09:09.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-api-integration-engineer",
-   "name": "API Integration Engineer",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-T1 specialist solver",
-   "detail": "AIE-T1 specialist solver complete: record 15,680 bytes, gate 7/7 PASS, READ-BACK: PASS. (Carried by cycle parent.)",
    "currentTask": "AIE-T1 connector inventory re-audit",
    "lastHeartbeat": "2026-11-26T20:09:09.000Z",
    "observedAt": "2026-11-26T20:09:09.000Z",
