@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T22:35:00.000Z",
- "summary": "CSE Quick Check 06:30 run Nov 28: pack day 2 C1-N002 Numerical posted to Page, hook comment 7 verified; group copies in progress via browser.",
+ "generatedAt": "2026-11-27T22:36:03.000Z",
+ "summary": "Cycle 678: M3D-R1 pair collected on re-dispatch after the cycle 677 timeout; both gates 7/7, K1 to K7 pass both, no key defect.",
  "agents": [
   {
    "agentId": null,
@@ -897,62 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "m3d-r1-specialist",
-   "name": "M3D-R1 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-R1 solver",
-   "detail": "M3D-R1 specialist solver started; reading role card, craft guide, task file and GT112 inputs.",
-   "currentTask": "Reading GT112 inputs, starting M3D-R1 specialist review",
-   "lastHeartbeat": "2026-11-28T06:18:00.000Z",
-   "observedAt": "2026-11-28T06:18:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "cse-quick-check-6h",
-   "name": "cse-quick-check-6h",
-   "role": "poster",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE Quick Check 06:30",
-   "detail": "Page post live (C1-N002, answer D 36); group copies to 1874873903166428 and 1181804859726035 in progress via browser.",
-   "currentTask": "Group copies via browser; then log and report",
-   "lastHeartbeat": "2026-11-27T22:35:00.000Z",
-   "observedAt": "2026-11-27T22:35:00.000Z",
-   "needsUser": false,
-   "category": "cse"
-  },
-  {
-   "agentId": "m3d-r1-generic",
-   "name": "M3D-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-R1 solver",
-   "detail": "M3D-R1 generic solver started: reading story, timing, script, frames, mouth manifest, engine code, build log.",
-   "currentTask": "Reading GT112 inputs, reviewing 36 frames and 12 shots",
-   "lastHeartbeat": "2026-11-27T22:17:28.000Z",
-   "observedAt": "2026-11-27T22:17:28.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 678: Motion and 3D retest, M3D-R1 re-run",
-   "detail": "Cycle 677 M3D-R1 solvers both timed out with no files; re-dispatching the pair this cycle.",
-   "currentTask": "Re-dispatch M3D-R1 solver pair (Motion and 3D retest 1)",
-   "lastHeartbeat": "2026-11-27T22:16:24.000Z",
-   "observedAt": "2026-11-27T22:16:24.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,6 +2677,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cse-quick-check-6h",
+   "name": "cse-quick-check-6h",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Quick Check 06:30",
+   "detail": "Done: C1-N002 Numerical, answer D 36. Page post live; hook comment 7 verified; both group copies live (1874873903166428, 1181804859726035). Answer drop due 12:15.",
+   "currentTask": "Run complete",
+   "lastHeartbeat": "2026-11-27T22:40:00.000Z",
+   "observedAt": "2026-11-27T22:40:00.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 678: Motion and 3D retest, M3D-R1 collected",
+   "detail": "M3D-R1 pair collected: specialist 37,142 bytes, generic 35,047 bytes; both gates exit 0, K1 to K7 pass both; M3D-R2 solvers cycle 679.",
+   "currentTask": "Cycle 678 complete: M3D-R1 collected and verified",
+   "lastHeartbeat": "2026-11-27T22:36:03.000Z",
+   "observedAt": "2026-11-27T22:36:03.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-r1-specialist",
+   "name": "M3D-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-R1 solver",
+   "detail": "Specialist M3D-R1 complete: 37,142 bytes, gate 7/7 exit 0, PASS WITH MAJOR ISSUES (S7). Posted by cycle parent.",
+   "currentTask": "M3D-R1 specialist complete",
+   "lastHeartbeat": "2026-11-27T22:36:03.000Z",
+   "observedAt": "2026-11-27T22:36:03.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-r1-generic",
+   "name": "M3D-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-R1 solver",
+   "detail": "Generic M3D-R1 complete: 35,047 bytes, gate 7/7 exit 0, PASS WITH MAJOR ISSUES (S4). Posted by cycle parent.",
+   "currentTask": "M3D-R1 generic complete",
+   "lastHeartbeat": "2026-11-27T22:36:03.000Z",
+   "observedAt": "2026-11-27T22:36:03.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "judge-pe-s3",
    "name": "QA Judge PE-S3",
    "role": "auditor",
@@ -4075,62 +4075,6 @@
    "observedAt": "2026-11-27T08:12:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "bid-t3-generic-solver",
-   "name": "bid-t3-generic-solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "BID-T3 generic solver",
-   "detail": "Pod identity sheet done: 10,094 bytes, gate 7/7 exit 0, READ-BACK PASS. Posted by cycle lead.",
-   "currentTask": "BID-T3 generic solve complete",
-   "lastHeartbeat": "2026-11-27T08:03:00.000Z",
-   "observedAt": "2026-11-27T08:03:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "bid-t3-specialist-solver",
-   "name": "bid-t3-specialist-solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "BID-T3 specialist solver",
-   "detail": "Pod identity sheet done: 11,677 bytes, gate 7/7 exit 0, READ-BACK PASS. Posted by cycle lead.",
-   "currentTask": "BID-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T08:03:00.000Z",
-   "observedAt": "2026-11-27T08:03:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-panel-615",
-   "name": "Routing panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 615 panel",
-   "detail": "Routing panel 615 complete (carried by parent): picks ML Engineer, ML Engineer, Systems Builder, Systems Builder, App Builder.",
-   "currentTask": "Panel picks filed: ML Engineer, ML Engineer, Systems Builder, Systems Builder, App Builder",
-   "lastHeartbeat": "2026-11-27T07:51:30.000Z",
-   "observedAt": "2026-11-27T07:51:30.000Z",
-   "needsUser": false,
-   "category": "ghostame-team"
-  },
-  {
-   "agentId": "team-bid-t2-generic",
-   "name": "BID-T2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "BID-T2 generic solver",
-   "detail": "Posted by cycle parent: generic sheet 5,396 bytes / 929 words, gate 7/7, 90s, READ-BACK: PASS.",
-   "currentTask": "BID-T2 generic solve done",
-   "lastHeartbeat": "2026-11-27T07:40:41.000Z",
-   "observedAt": "2026-11-27T07:40:41.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
