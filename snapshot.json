@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T04:16:05.000Z",
- "summary": "Cycle 599: judging Prototype Engineer.",
+ "generatedAt": "2026-11-27T04:22:00.000Z",
+ "summary": "GT-158 waiting on GT-157: its first data pass verified zero pairs due to two fetch-code bugs, both fixed and documented in its errata; re-fetch running since 04:15 UTC.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Attention: 23 consecutive failures; last failed Nov 26 23:26 PHT with a platform spawn error. Last success Nov 4.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T04:16:38.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -9,10 +23,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Attention: 95 consecutive failures and paused. The delivery chat can no longer receive results; it resumes once that chat can receive again or delivery is moved.",
+   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results; 95 consecutive failures, last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T02:35:11.000Z",
+   "observedAt": "2026-11-27T04:16:38.000Z",
    "needsUser": true,
    "category": "Whop"
   },
@@ -23,26 +37,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Attention: 97 consecutive failures and paused. The delivery chat can no longer receive results; it resumes once that chat can receive again or delivery is moved.",
+   "detail": "Attention: blocked, the WhatsApp chat it posts to can no longer receive results; 97 consecutive failures, last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T01:46:29.000Z",
+   "observedAt": "2026-11-27T04:16:38.000Z",
    "needsUser": true,
-   "category": "Telegram"
+   "category": "Telegram watchdog"
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Epimetheus Supabase keep-alive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Attention: 23 consecutive failures. Last run failed Nov 26 at 23:26 PHT before finishing; last success was Nov 4.",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "Attention: 8 consecutive failures; last failed Nov 26 19:05 PHT, last success Nov 2. Next run Sun Nov 29 19:05 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-26T15:26:48.000Z",
+   "observedAt": "2026-11-27T04:16:38.000Z",
    "needsUser": false,
-   "category": "Backup"
+   "category": "Epimetheus"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Attention: 3 consecutive failures; last failed Mon Nov 23 08:56 PHT, last success Nov 4. Next run Mon Nov 30 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T04:16:38.000Z",
+   "needsUser": false,
+   "category": "Zulti"
   },
   {
    "agentId": "9bc3b699-9c2b-49df-a453-5ca824b2ef61",
@@ -57,20 +85,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Attention: 8 consecutive failures. Last run failed Nov 26 at 19:05 PHT before finishing; last success was Nov 2.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:05:59.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": null,
@@ -801,6 +815,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt158-accuracy-round2",
+   "name": "gt158-accuracy-round2",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-158 accuracy round 2 (MEXC Team)",
+   "detail": "GT-157 fixed two fetch bugs (errata filed) and is re-fetching; mass run follows. GT-158 engine and basket rule ready; no runs before the GT-157 report files.",
+   "currentTask": "Polling for GT-157 report after its data-stage fix",
+   "lastHeartbeat": "2026-11-27T04:22:00.000Z",
+   "observedAt": "2026-11-27T04:22:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -839,20 +867,6 @@
    "currentTask": "Pulling MEXC public API data for BULLA, CT, ZRO, FET, HYPE",
    "lastHeartbeat": "2026-11-27T04:16:00.000Z",
    "observedAt": "2026-11-27T04:16:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt158-accuracy-round2",
-   "name": "gt158-accuracy-round2",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-158 accuracy round 2 (MEXC Team)",
-   "detail": "Basket engine built and basket rule fixed from GT-157 universe data (30 evaluable pairs). Polling for the GT-157 report; no runs started before it files.",
-   "currentTask": "Waiting on GT-157 report; engine and basket rule ready",
-   "lastHeartbeat": "2026-11-27T03:56:00.000Z",
-   "observedAt": "2026-11-27T03:56:00.000Z",
    "needsUser": false,
    "category": "trading"
   },
@@ -2621,6 +2635,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cse-qc-reel-1215",
+   "name": "CSE Quick Check Reel 12:15",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Quick Check Reel 12:15",
+   "detail": "Reel C1-V018 live at https://www.facebook.com/reel/1143670261483616/ (Public, ready). Morning answer C1-V016 dropped on Page, verified. Group drop pending browser result.",
+   "currentTask": "Reel posted; morning answer dropped; group drop pending browser handoff",
+   "lastHeartbeat": "2026-11-27T04:20:00.000Z",
+   "observedAt": "2026-11-27T04:20:00.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
+  },
+  {
    "agentId": "mexc-team-verity",
    "name": "mexc-team-verity",
    "role": "researcher",
@@ -4002,20 +4030,6 @@
    "detail": "Complete (posted by parent; start snapshot not posted). Generic 6,335 bytes, 238 words, gate 21/0 exit 0, 33.1s, 0 em dashes.",
    "currentTask": "AB-R1 generic solve complete",
    "lastHeartbeat": "2026-11-26T12:53:10.000Z",
-   "observedAt": "2026-11-26T12:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ab-r1-specialist",
-   "name": "AB-R1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-R1 specialist solver",
-   "detail": "Complete (posted by parent). Specialist 11,624 bytes, 476 words, gate 42/42 exit 0, 106s, 0 em dashes.",
-   "currentTask": "AB-R1 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T12:55:17.000Z",
    "observedAt": "2026-11-26T12:59:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
