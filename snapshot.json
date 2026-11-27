@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:33:00.000Z",
- "summary": "Improvement cycle 656 running: Moment Hunter sealing.",
+ "generatedAt": "2026-11-27T16:37:30.000Z",
+ "summary": "Improvement cycle 656 complete: Moment Hunter sealed, judging next cycle 657.",
  "agents": [
   {
    "agentId": null,
@@ -897,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 656",
-   "detail": "Sealing Moment Hunter MH-T1 to MH-T3 pairs for blind judging; cycle 657 judges.",
-   "currentTask": "Cycle 656: sealing Moment Hunter pairs",
-   "lastHeartbeat": "2026-11-27T16:33:00.000Z",
-   "observedAt": "2026-11-27T16:33:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,6 +2677,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 656",
+   "detail": "Moment Hunter sealed: SEAL_OK first run, 6 changed lines, 24 neutral files, 0 identity hits; all 6 neutral gates exit 0. Judging cycle 657.",
+   "currentTask": "Cycle 656 complete: Moment Hunter sealed",
+   "lastHeartbeat": "2026-11-27T16:37:30.000Z",
+   "observedAt": "2026-11-27T16:37:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-panel-655",
    "name": "Routing Panel cycle 655",
    "role": "coordinator",
@@ -4072,20 +4072,6 @@
    "detail": "PE-T1 judge (carried by cycle parent): specialist win 8.5 vs 7.5, contamination clean.",
    "currentTask": "PE-T1 judged: specialist win 8.5 vs 7.5",
    "lastHeartbeat": "2026-11-27T04:20:59.000Z",
-   "observedAt": "2026-11-27T04:26:11.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-pe-t2-judge",
-   "name": "PE-T2 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T2 blind judgement",
-   "detail": "PE-T2 judge (carried by cycle parent): generic win 8.0 vs 6.0, contamination clean.",
-   "currentTask": "PE-T2 judged: generic win 8.0 vs 6.0",
-   "lastHeartbeat": "2026-11-27T04:19:52.000Z",
    "observedAt": "2026-11-27T04:26:11.000Z",
    "needsUser": false,
    "category": "ghostname-team"
