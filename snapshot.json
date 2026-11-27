@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T00:07:20.000Z",
- "summary": "Cycle 581: AIE-R1 re-judging (API Integration Engineer retest, one fresh judge, cycle 579 re-seal).",
+ "generatedAt": "2026-11-27T00:18:00.000Z",
+ "summary": "AIE-R1 re-judge filed: Candidate A 8.50 leads Candidate B 7.75; contamination CLEAN.",
  "agents": [
   {
    "agentId": null,
@@ -2523,6 +2523,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "aie-r1-judge-r2",
+   "name": "AIE-R1 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-R1 re-judge",
+   "detail": "AIE-R1 re-judge filed: A 8.50 vs B 7.75, contamination CLEAN, both read as API Integration Engineer records.",
+   "currentTask": "AIE-R1 re-judging filed",
+   "lastHeartbeat": "2026-11-27T00:18:00.000Z",
+   "observedAt": "2026-11-27T00:18:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
    "agentId": "team-improvement-cycle-panel-580",
    "name": "Division-leads panel",
    "role": "coordinator",
@@ -3907,20 +3921,6 @@
    "observedAt": "2026-11-26T07:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "sysb-t1-generic",
-   "name": "SYSB-T1 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SYSB-T1 generic build",
-   "detail": "SYSB-T1 generic done (carried by cycle lead): 4 files, 22 checks pass, 227s.",
-   "currentTask": "SYSB-T1 build complete",
-   "lastHeartbeat": "2026-11-26T07:37:53.000Z",
-   "observedAt": "2026-11-26T07:37:53.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
