@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T05:09:23.000Z",
- "summary": "Cycle 603 complete: UI Designer UID-T3 pair collected and verified; sealing 604, judging 606.",
+ "generatedAt": "2026-11-27T05:17:00.000Z",
+ "summary": "GT-157 COMPLETE: 386 trials over 37 pair-family units, zero survivors. TRXUSDT Family A passed all selection gates and failed the holdout (9 trades, -319.00 USD, PF 0.449). Report filed.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt158-accuracy-round2",
+   "name": "gt158-accuracy-round2",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-158 accuracy round 2 (MEXC Team)",
+   "detail": "Basket fixed: top 8 by MEXC volume among 21 full-window 4h pairs. Registration drafted; filing waits for the GT-157 report so survivor candidates are named from its evidence.",
+   "currentTask": "Basket resolved; polling for GT-157 mass run results",
+   "lastHeartbeat": "2026-11-27T05:13:00.000Z",
+   "observedAt": "2026-11-27T05:13:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "gt164-fitorskip-promax",
    "name": "fitorskip-promax-builder",
    "role": "builder",
@@ -827,34 +841,6 @@
    "observedAt": "2026-11-27T05:05:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
-  },
-  {
-   "agentId": "gt158-accuracy-round2",
-   "name": "gt158-accuracy-round2",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-158 accuracy round 2 (MEXC Team)",
-   "detail": "GT-157 fetch attempt crashed on a proxy timeout and was relaunched; report not filed yet. GT-158 holds its pre-registration until the report lands, per the job sequencing.",
-   "currentTask": "Polling for GT-157 report (its fetch relaunched after a timeout)",
-   "lastHeartbeat": "2026-11-27T04:47:00.000Z",
-   "observedAt": "2026-11-27T04:47:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt157-mass-simulation",
-   "name": "gt157-mass-simulation",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-157 all-coins mass simulation",
-   "detail": "Data stage: corrected fetch re-running for 30 pairs (4h and 1h). Errata note filed in the reports folder. Backtest starts once coverage verifies.",
-   "currentTask": "Re-fetching kline archives with corrected verifier",
-   "lastHeartbeat": "2026-11-27T04:16:00.000Z",
-   "observedAt": "2026-11-27T04:16:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2621,6 +2607,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt157-mass-simulation",
+   "name": "gt157-mass-simulation",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-157 all-coins mass simulation",
+   "detail": "Universe 1,668 MEXC symbols to 29 pairs (A) and 8 pairs (B). 386 trials, 1 finalist, 0 survivors. Failure mass: 20 units died at expectancy, 11 at trade count.",
+   "currentTask": "Complete: mass-simulation-report.md filed",
+   "lastHeartbeat": "2026-11-27T05:17:00.000Z",
+   "observedAt": "2026-11-27T05:17:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team improvement cycle",
    "role": "coordinator",
@@ -4000,20 +4000,6 @@
    "status": "completed",
    "title": "GT-149 QA-2 exam backup export",
    "detail": "Complete, PASS. SASE exams 1-5 exported and checksum verified, plus live copies of 6-8; posted by job lead.",
-   "currentTask": "Done",
-   "lastHeartbeat": "2026-11-26T14:36:00.000Z",
-   "observedAt": "2026-11-26T14:36:00.000Z",
-   "needsUser": false,
-   "category": "sase-portal"
-  },
-  {
-   "agentId": "gt-149-sweep",
-   "name": "security-auditor",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-149 security sweep",
-   "detail": "Complete. One gap: no CSP. Cookies none, CORS no change, secrets scan clean except known items; posted by job lead.",
    "currentTask": "Done",
    "lastHeartbeat": "2026-11-26T14:36:00.000Z",
    "observedAt": "2026-11-26T14:36:00.000Z",
