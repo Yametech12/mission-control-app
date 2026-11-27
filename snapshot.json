@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:10:00.000Z",
- "summary": "Cycle 674: sealing Prototype Engineer retest 2.",
+ "generatedAt": "2026-11-27T21:12:30.000Z",
+ "summary": "Cycle 674: Prototype Engineer retest 2 sealed.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 674",
-   "detail": "Cycle 674 sealing Prototype Engineer retest 2 pairs PE-S1 to PE-S3 under the cycle 199 differential rule.",
-   "currentTask": "Sealing PE retest 2 pairs PE-S1 to PE-S3",
-   "lastHeartbeat": "2026-11-27T21:10:00.000Z",
-   "observedAt": "2026-11-27T21:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,6 +2691,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 674",
+   "detail": "Cycle 674 done: PE retest 2 sealed, SEAL_OK first run, 36 neutral files, all six neutral gates exit 0. Judging cycle 676.",
+   "currentTask": "Cycle 674 sealing done",
+   "lastHeartbeat": "2026-11-27T21:12:30.000Z",
+   "observedAt": "2026-11-27T21:12:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-prototype-engineer-pe-s3-generic",
    "name": "PE-S3 Generic Solver",
    "role": "builder",
@@ -4089,20 +4089,6 @@
    "observedAt": "2026-11-27T07:40:41.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "gt165-coordinator",
-   "name": "gt165-mexc-console",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-165 MEXC Trading Bot Console",
-   "detail": "COMPLETE: MEXC Trading Bot Console (mexc-trading-bot-console) built and audit-verified. Live public prices proven, Phase board incl. GT-158 PASS, shadow tracks, local-runner key flow, zero secret fields. Report filed.",
-   "currentTask": "Complete: console built and verified; job report filed",
-   "lastHeartbeat": "2026-11-27T07:36:00.000Z",
-   "observedAt": "2026-11-27T07:36:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
