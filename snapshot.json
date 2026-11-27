@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T06:03:30.000Z",
- "summary": "M3D-R1 specialist solver started: reading GT112 inputs.",
+ "generatedAt": "2026-11-27T22:16:24.000Z",
+ "summary": "Cycle 678: Motion and 3D retest 1, M3D-R1 pair re-dispatched after cycle 677 timeout with no files written.",
  "agents": [
   {
    "agentId": null,
@@ -183,6 +183,34 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "ClinicFlow Connect upgrade blocked",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "ClinicFlow Connect upgrade blocked",
+   "detail": "Read-only audit completed, but implementation could not proceed: execution-risk check failed for the cloned repo, so branch, edits, build, test, and push were prohibited. Owner approval required.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T02:59:45.000Z",
+   "needsUser": true,
+   "category": "ClinicFlow"
+  },
+  {
+   "agentId": null,
+   "name": "Jo Koy JK5: posted, Whop submission blocked",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Jo Koy JK5: posted, Whop submission blocked",
+   "detail": "JK5 posted live on Instagram at 10:00 PHT Nov 26 and the GT88 pack is fully posted (JK1-JK5), but Whop submission is blocked: campaign shows clip limit reached, no submission form.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T02:16:52.000Z",
+   "needsUser": false,
+   "category": "clipping"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -900,15 +928,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
+   "name": "Team improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 677: Motion and 3D retest",
-   "detail": "Cycle 677 opening the Motion and 3D retest (rewrite 1): 3 fresh tasks filed, M3D-R1 solver pair running.",
-   "currentTask": "Motion and 3D retest 1: filing tasks and running M3D-R1 solvers",
-   "lastHeartbeat": "2026-11-27T21:54:42.000Z",
-   "observedAt": "2026-11-27T21:54:42.000Z",
+   "title": "Improvement cycle 678: Motion and 3D retest, M3D-R1 re-run",
+   "detail": "Cycle 677 M3D-R1 solvers both timed out with no files; re-dispatching the pair this cycle.",
+   "currentTask": "Re-dispatch M3D-R1 solver pair (Motion and 3D retest 1)",
+   "lastHeartbeat": "2026-11-27T22:16:24.000Z",
+   "observedAt": "2026-11-27T22:16:24.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
