@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:46:25.000Z",
- "summary": "WPE-T1 generic solver started.",
+ "generatedAt": "2026-11-27T01:52:00.000Z",
+ "summary": "GT-151 Money and Market leg complete: 10 ranked nationwide PH monthly-revenue app candidates in leg-money-market.md, now with the both-platforms (iOS and Android) line per candidate.",
  "agents": [
   {
    "agentId": null,
@@ -2479,20 +2479,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-wpe-t1-generic",
-   "name": "WPE-T1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "WPE-T1 generic solver",
-   "detail": "WPE-T1 generic solver started, building report, gate, delivery note.",
-   "currentTask": "WPE-T1 generic solve",
-   "lastHeartbeat": "2026-11-27T01:46:25.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "Validation"
   },
   {
    "agentId": "gt88-jokoy-posting",
