@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:36:00.000Z",
- "summary": "GT-154 trading bot plan complete: VM recommended now, Pi as later upgrade; 5 phases, 12 to 21 build days plus 8-week paper run.",
+ "generatedAt": "2026-11-27T03:29:21.000Z",
+ "summary": "Improvement cycle 596 in progress: Prototype Engineer PE-T2 solvers.",
  "agents": [
   {
    "agentId": null,
@@ -815,16 +815,30 @@
    "category": "SASE"
   },
   {
+   "agentId": "gt155-trading-improve",
+   "name": "gt155-trading-improve",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-155 trading bot setup improvement pass",
+   "detail": "Audit done: 11 weaknesses (in-progress candle signals, Donchian from closes, no log, no ledger, no staleness check). Building v2 fixes.",
+   "currentTask": "Building hardened v2 watcher, ledger, and backtest harness",
+   "lastHeartbeat": "2026-11-27T03:36:00.000Z",
+   "observedAt": "2026-11-27T03:36:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 595: routing check",
-   "detail": "Routing check 91 running: 5 fresh Nov 27 legs (GT-152 problem hunt, GT-152 systems, GT-153 plan, GT-151 panel, CSE rotation update).",
-   "currentTask": "Routing check cycle 595: panel reading tasks",
-   "lastHeartbeat": "2026-11-27T03:18:57.000Z",
-   "observedAt": "2026-11-27T03:18:57.000Z",
+   "title": "Improvement cycle 596: Prototype Engineer PE-T2 solvers",
+   "detail": "Cycle 596 running PE-T2 solver pair (specialist vs generic) for Prototype Engineer validation.",
+   "currentTask": "PE-T2 solvers: specialist and generic",
+   "lastHeartbeat": "2026-11-27T03:29:21.000Z",
+   "observedAt": "2026-11-27T03:29:21.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2599,10 +2613,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "Routing check 595 panel",
-   "detail": "Picks filed: RC-T1 User Researcher 5-3, RC-T2 Systems Builder 6-2, RC-T3 Architect 7-1, RC-T4 Money Researcher 6-2, RC-T5 Cron Fleet Manager 7-1.",
+   "detail": "Panel picks filed by the division leads (posted by the cycle parent): User Researcher, Systems Builder, Architect, Money Researcher, Cron Fleet Manager.",
    "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-27T03:24:00.000Z",
-   "observedAt": "2026-11-27T03:24:00.000Z",
+   "lastHeartbeat": "2026-11-27T03:26:51.000Z",
+   "observedAt": "2026-11-27T03:26:51.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
