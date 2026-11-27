@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T22:16:25.000Z",
- "summary": "2 runs active now (Shadow Army, Ghostname Team), 7 recent completions, 8 scheduled slots today, and 2 attention items: memory backup failed 24 times and Zulti promo 3 times on the same spawn error.",
+ "generatedAt": "2026-11-27T22:35:00.000Z",
+ "summary": "CSE Quick Check 06:30 run Nov 28: pack day 2 C1-N002 Numerical posted to Page, hook comment 7 verified; group copies in progress via browser.",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,20 @@
    "observedAt": "2026-11-28T06:18:00.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "cse-quick-check-6h",
+   "name": "cse-quick-check-6h",
+   "role": "poster",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Quick Check 06:30",
+   "detail": "Page post live (C1-N002, answer D 36); group copies to 1874873903166428 and 1181804859726035 in progress via browser.",
+   "currentTask": "Group copies via browser; then log and report",
+   "lastHeartbeat": "2026-11-27T22:35:00.000Z",
+   "observedAt": "2026-11-27T22:35:00.000Z",
+   "needsUser": false,
+   "category": "cse"
   },
   {
    "agentId": "m3d-r1-generic",
