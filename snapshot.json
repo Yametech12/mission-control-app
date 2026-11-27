@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T15:34:35.000Z",
- "summary": "GT-186 interim: Option A ruling applied and verified; pull running in background (PID 9619). 9 of 1000 pairs archived, 122,164 candles, 14 documented gaps, 0 drops, 0 rate events.",
+ "generatedAt": "2026-11-27T15:41:12.000Z",
+ "summary": "Cycle 652: Moment Hunter validation opens.",
  "agents": [
   {
    "agentId": null,
@@ -913,18 +913,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt187-mumford-igyt",
-   "name": "gt187-mumford-igyt",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-187 Mumford IG and YT scheduling",
-   "detail": "Started. MD5s verified for MS-1 and MS-2. Checking Uplika accounts, quota, and staged media before scheduling.",
-   "currentTask": "Verifying Uplika accounts, quota, and staged media",
-   "lastHeartbeat": "2026-11-27T15:36:00.000Z",
-   "observedAt": "2026-11-27T15:36:00.000Z",
+   "title": "Improvement cycle 652: Moment Hunter validation",
+   "detail": "Cycle 652 started: Moment Hunter validation opens (row 21, never tested); filing 3 tasks with sealed keys.",
+   "currentTask": "Cycle 652: open Moment Hunter validation, file MH-T1 to MH-T3",
+   "lastHeartbeat": "2026-11-27T15:41:12.000Z",
+   "observedAt": "2026-11-27T15:41:12.000Z",
    "needsUser": false,
-   "category": "clipping"
+   "category": "ghostnam-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2677,6 +2677,20 @@
    "category": "validation"
   },
   {
+   "agentId": "gt188-whop-full-audit",
+   "name": "GT-188 Whop Auditor",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Whop full audit: why no progress",
+   "detail": "Audit started. Reading Clipp Team per-clip log, STOP state, clipping research, and campaign job reports to build the evidence inventory.",
+   "currentTask": "Reading Whop records and building submission inventory",
+   "lastHeartbeat": "2026-11-27T15:41:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "audit"
+  },
+  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2733,18 +2747,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "auditor",
+   "agentId": "gt187-mumford-igyt",
+   "name": "gt187-mumford-igyt",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 651",
-   "detail": "Cycle 651 done: WPE retest judged 8.58 vs 8.08, 2W 1L, not a clear win; card rewritten a second time, standards 13-20 added.",
-   "currentTask": "Cycle 651 complete",
-   "lastHeartbeat": "2026-11-27T15:34:30.000Z",
-   "observedAt": "2026-11-27T15:34:30.000Z",
+   "title": "GT-187 Mumford IG and YT scheduling",
+   "detail": "Complete. MS-1 Nov 28 10:00 PHT: IG post_ac57d5b19303fb98, YT post_31b73ccde5684f45. MS-2 Nov 28 15:00 PHT: IG post_98cb7f22a9a27548, YT post_d08ccdedaa582a66. Captions verbatim, verified by get_post read-back. Report filed.",
+   "currentTask": "Done: IG and YT legs scheduled and verified",
+   "lastHeartbeat": "2026-11-27T15:45:00.000Z",
+   "observedAt": "2026-11-27T15:45:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "clipping"
   },
   {
    "agentId": "team-wpe-r1-judge-651",
