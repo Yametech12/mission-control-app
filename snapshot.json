@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:53:42.000Z",
- "summary": "Routing check 660 panel: voting complete",
+ "generatedAt": "2026-11-27T18:05:38.000Z",
+ "summary": "Cycle 660 routing check complete: Coordinator scored 4 of 5 vs the division leads. Scoreboard still 29 validated, 9 flagged, 41 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 660 (routing check)",
-   "detail": "Cycle 660 routing check started: 5 fresh real tasks from Nov 27-28 job records.",
-   "currentTask": "Cycle 660 routing check: harvest 5 fresh real tasks",
-   "lastHeartbeat": "2026-11-27T17:31:00.000Z",
-   "observedAt": "2026-11-27T17:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,6 +2691,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 660",
+   "detail": "Cycle 660 routing check (104th) complete: 4 of 5. Miss RC-T1, Coordinator better call, rule 15. No rule fix.",
+   "currentTask": "Cycle 660 routing check complete",
+   "lastHeartbeat": "2026-11-27T18:05:38.000Z",
+   "observedAt": "2026-11-27T18:05:38.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "routing-check-panel-660",
    "name": "Routing Check Panel",
    "role": "coordinator",
@@ -4089,20 +4089,6 @@
    "observedAt": "2026-11-27T05:02:09.000Z",
    "needsUser": false,
    "category": "ghostnam team validation"
-  },
-  {
-   "agentId": "team-uid-t1-generic",
-   "name": "UID-T1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UID-T1 generic solver complete (posted by cycle parent)",
-   "detail": "Generic UID-T1 complete: 14,579 bytes, 305 words, gate 7/7 exit 0, READ-BACK: PASS.",
-   "currentTask": "UID-T1 generic solve complete",
-   "lastHeartbeat": "2026-11-27T04:50:29.000Z",
-   "observedAt": "2026-11-27T04:52:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
