@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:06:00.000Z",
- "summary": "Cycle 589 complete: Web Performance Engineer WPE-T2 pair collected and verified, both gates 8/8, K1-K7 pass both. Routing check cycle 590, WPE-T3 cycle 591.",
+ "generatedAt": "2026-11-27T02:14:00.000Z",
+ "summary": "GT-152 problem-hunt leg started: hunting 6 unique problem-first PH app candidates with web evidence.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "gt152-problem-hunt",
+   "name": "gt152-problem-hunt",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-152 problem hunt (User Researcher leg)",
+   "detail": "Started: gathering real signals for 6 unique problem-first candidates (GT-152).",
+   "currentTask": "Web research: scams, appointment fixers, IMEI theft checks, medicine prices, farmgate, riders",
+   "lastHeartbeat": "2026-11-27T02:14:00.000Z",
+   "observedAt": "2026-11-27T02:14:00.000Z",
+   "needsUser": false,
+   "category": "research"
+  },
+  {
+   "agentId": "gt152-systems-build",
+   "name": "gt152-systems-build",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-152 Systems Builder leg: 4 unique problem-first candidates",
+   "detail": "Started: hunting painful unsolved PH problems, checking for entrenched free competitors, stress-testing monthly models.",
+   "currentTask": "Problem hunting and competitor checks for 4 unique candidates",
+   "lastHeartbeat": "2026-11-27T02:12:00.000Z",
+   "observedAt": "2026-11-27T02:12:00.000Z",
+   "needsUser": false,
+   "category": "research"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 590: routing check",
+   "detail": "Routing check 90 running: 5 fresh Nov 27 legs (GT-150 group investigation, GT-151 legs, CSE group joins).",
+   "currentTask": "Routing check 590: sealing coordinator picks, panel read next",
+   "lastHeartbeat": "2026-11-27T02:11:00.000Z",
+   "observedAt": "2026-11-27T02:11:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt151-money-market",
@@ -2523,20 +2565,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 589: WPE-T2 collected",
-   "detail": "Cycle 589 done: WPE-T2 pair collected, both gates 8/8, K1-K7 pass both, no verdict yet",
-   "currentTask": "Cycle 589 complete: WPE-T2 pair collected",
-   "lastHeartbeat": "2026-11-27T02:06:00.000Z",
-   "observedAt": "2026-11-27T02:06:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-generic-solver",
    "name": "Generic Solver",
    "role": "builder",
@@ -3921,6 +3949,20 @@
    "observedAt": "2026-11-26T09:45:00.000Z",
    "needsUser": false,
    "category": "thesis"
+  },
+  {
+   "agentId": "ab-t3-generic-solver",
+   "name": "AB-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-T3 generic solve",
+   "detail": "AB-T3 generic solve complete (posted by parent): runbook 2,256 bytes / 370 words, workflow 818, handoff 760, gate 2,154, 42s, gate exit 0.",
+   "currentTask": "AB-T3 generic solve complete (posted by parent)",
+   "lastHeartbeat": "2026-11-26T09:27:41.000Z",
+   "observedAt": "2026-11-26T09:29:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
