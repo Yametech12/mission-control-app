@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T23:10:29.000Z",
- "summary": "M3D-R3 specialist solver started.",
+ "generatedAt": "2026-11-27T23:14:34.000Z",
+ "summary": "M3D-R3 specialist solver completed: spec shipped, gate 7/7 passing.",
  "agents": [
   {
    "agentId": null,
@@ -897,34 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "m3d-r3-specialist",
-   "name": "M3D-R3 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-R3 solver",
-   "detail": "M3D-R3 solver started: measuring both Three.js candidates and drafting the Sealed Wall spec.",
-   "currentTask": "Measuring Three.js builds and drafting the Sealed Wall 3D spec",
-   "lastHeartbeat": "2026-11-27T23:10:29.000Z",
-   "observedAt": "2026-11-27T23:10:29.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-r3-generic",
-   "name": "M3D-R3 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-R3 solver",
-   "detail": "Generic solver started M3D-R3; reading inputs and measuring Three.js builds.",
-   "currentTask": "Reading task inputs and measuring library builds",
-   "lastHeartbeat": "2026-11-27T23:02:42.000Z",
-   "observedAt": "2026-11-27T23:02:42.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2733,6 +2705,34 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "m3d-r3-specialist",
+   "name": "M3D-R3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-R3 solver",
+   "detail": "M3D-R3 done: 5 files shipped, gate 7/7 PASS, Three.js decided on tree-shaken bundle 138,340 B gz.",
+   "currentTask": "M3D-R3 spec shipped, gate 7/7 passing",
+   "lastHeartbeat": "2026-11-27T23:14:34.000Z",
+   "observedAt": "2026-11-27T23:14:34.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-r3-generic",
+   "name": "M3D-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-R3 solver",
+   "detail": "M3D-R3 generic done: 5 files shipped, gate.js exits 0 with all 7 verbatim items present.",
+   "currentTask": "M3D-R3 generic run complete",
+   "lastHeartbeat": "2026-11-27T23:14:17.000Z",
+   "observedAt": "2026-11-27T23:14:17.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-routing-panel-cycle-680",
    "name": "Routing Panel 680",
    "role": "coordinator",
@@ -4087,34 +4087,6 @@
    "currentTask": "Panel picks filed",
    "lastHeartbeat": "2026-11-27T08:53:31.000Z",
    "observedAt": "2026-11-27T08:58:18.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt168-coordinator",
-   "name": "gt168-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-168 AI Studio Pro Max ownership pack",
-   "detail": "GT-168 complete: SPEC.md, AUDIT_CHECKLIST.md, PROMPT_QUEUE.md (6 hard-ruled prompts) and job report delivered; 6 app-vs-lane-law conflicts recorded, safety surface clean.",
-   "currentTask": "GT-168 complete",
-   "lastHeartbeat": "2026-11-27T08:55:00.000Z",
-   "observedAt": "2026-11-27T08:55:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "validation-generic-typo-t1",
-   "name": "Validation Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T1 generic solver",
-   "detail": "TYPO-T1 generic solver complete (posted by run lead): type record 13,041 bytes, gate 7/7, READ-BACK PASS.",
-   "currentTask": "TYPO-T1 generic solver complete",
-   "lastHeartbeat": "2026-11-27T08:42:58.000Z",
-   "observedAt": "2026-11-27T08:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
