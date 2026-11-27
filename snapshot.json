@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T23:54:06.000Z",
- "summary": "Cycle 580: routing check (88th) started, 5 fresh Nov 26 legs.",
+ "generatedAt": "2026-11-26T23:59:00.000Z",
+ "summary": "Cycle 580 panel: all 5 picks filed",
  "agents": [
   {
    "agentId": null,
@@ -2537,6 +2537,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-panel-580",
+   "name": "Division-leads panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 580 division-leads panel",
+   "detail": "Picks filed: T1 Money Researcher 5-3, T2 Page Operator 7-1, T3 Page Operator 6-2, T4 Watcher 7-1, T5 Watcher 6-2.",
+   "currentTask": "Panel picks filed for routing check 580",
+   "lastHeartbeat": "2026-11-26T23:59:00.000Z",
+   "observedAt": "2026-11-26T23:59:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-aie-r1",
    "name": "QA Judge AIE-R1",
    "role": "auditor",
@@ -3921,20 +3935,6 @@
    "observedAt": "2026-11-26T07:37:53.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "sb-v2-generic",
-   "name": "Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-V2 generic solver",
-   "detail": "SB-V2 generic build collected: 3,581/4,718 bytes, 801 words, 51s, 0 em dashes (posted by cycle lead).",
-   "currentTask": "SB-V2 complete",
-   "lastHeartbeat": "2026-11-26T06:39:22.000Z",
-   "observedAt": "2026-11-26T06:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
