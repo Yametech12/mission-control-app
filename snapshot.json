@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T04:47:00.000Z",
- "summary": "GT-158 still sequenced on GT-157: its data fetch crashed on a network timeout mid-run and was relaunched by its agent at 04:32 UTC; mass run has not started yet.",
+ "generatedAt": "2026-11-27T04:51:30.000Z",
+ "summary": "UID-T1 specialist run complete: 5 deliverables built, gate 7/7 passed, read-back PASS.",
  "agents": [
   {
    "agentId": null,
@@ -855,20 +855,6 @@
    "observedAt": "2026-11-27T04:45:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
-  },
-  {
-   "agentId": "gt163-cse-reel-hype",
-   "name": "gt163-cse-reel-hype",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-163 CSE Reel hype sample",
-   "detail": "Milestone: sample MP4 rendered at 1080x1920 and 22.5 seconds; frame grabs extracted.",
-   "currentTask": "Verifying text, reveal timing, motion, and palette",
-   "lastHeartbeat": "2026-11-27T04:35:34.000Z",
-   "observedAt": "2026-11-27T04:35:34.000Z",
-   "needsUser": false,
-   "category": "CSE video"
   },
   {
    "agentId": "gt157-mass-simulation",
@@ -2649,6 +2635,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt163-cse-reel-hype",
+   "name": "gt163-cse-reel-hype",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-163 CSE Reel hype sample",
+   "detail": "Completed: video-qc1 hype sample at GT-20261127-163-reports, 1080x1920, 22.5 s, text and reveal timing verified against the original.",
+   "currentTask": "Done: sample delivered for owner approval",
+   "lastHeartbeat": "2026-11-27T04:46:52.000Z",
+   "observedAt": "2026-11-27T04:46:52.000Z",
+   "needsUser": false,
+   "category": "CSE video"
+  },
+  {
    "agentId": "routing-panel-600",
    "name": "Routing Panel (8 division leads)",
    "role": "coordinator",
@@ -4028,20 +4028,6 @@
    "status": "completed",
    "title": "GT-148 frontend audit",
    "detail": "Complete (carried by job lead). 9 findings; FE-1 refuted on cascade verification. Report: audit-frontend.md.",
-   "currentTask": "Audit complete",
-   "lastHeartbeat": "2026-11-26T14:17:30.000Z",
-   "observedAt": "2026-11-26T14:17:30.000Z",
-   "needsUser": false,
-   "category": "sase-cse-site"
-  },
-  {
-   "agentId": "gt-148-backend",
-   "name": "gt-148-backend",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-148 backend/API audit",
-   "detail": "Complete (carried by job lead). 14 findings incl. BE-1 Critical (banks in public repo). Report: audit-backend.md.",
    "currentTask": "Audit complete",
    "lastHeartbeat": "2026-11-26T14:17:30.000Z",
    "observedAt": "2026-11-26T14:17:30.000Z",
