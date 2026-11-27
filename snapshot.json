@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:11:30.000Z",
- "summary": "PE-T1 specialist building TaskBoard status filter prototype",
+ "generatedAt": "2026-11-27T03:15:30.000Z",
+ "summary": "Improvement cycle 594 done: Prototype Engineer validation opened, PE-T1 pair collected and verified; PE-T2 runs cycle 596.",
  "agents": [
   {
    "agentId": null,
@@ -813,34 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-pe-t1-specialist",
-   "name": "PE-T1 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "PE-T1 TaskBoard prototype",
-   "detail": "PE-T1 specialist started: building TaskBoard status filter prototype",
-   "currentTask": "Building TaskBoard status filter prototype PE-T1",
-   "lastHeartbeat": "2026-11-27T03:11:30.000Z",
-   "observedAt": "2026-11-27T03:11:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 594: Prototype Engineer validation",
-   "detail": "Opening Prototype Engineer validation; tasks PE-T1 to PE-T3 filed, PE-T1 solver pair running.",
-   "currentTask": "Prototype Engineer validation open, PE-T1 solvers running",
-   "lastHeartbeat": "2026-11-27T03:07:00.000Z",
-   "observedAt": "2026-11-27T03:07:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2593,6 +2565,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 594: Prototype Engineer validation",
+   "detail": "PE-T1 pair collected and verified (specialist 326 words, about 160s; generic 285 words, 75s; both gates 7/7). PE-T2 cycle 596.",
+   "currentTask": "Cycle 594 complete; PE-T2 solvers cycle 596",
+   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
+   "observedAt": "2026-11-27T03:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-pe-t1-generic",
+   "name": "PE-T1 Generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T1 generic solver (posted by cycle lead)",
+   "detail": "PE-T1 generic pair collected: 285 words, 75s, gate 7/7, READ-BACK PASS.",
+   "currentTask": "PE-T1 generic complete",
+   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
+   "observedAt": "2026-11-27T03:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-pe-t1-specialist",
+   "name": "PE-T1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-T1 specialist solver (posted by cycle lead)",
+   "detail": "PE-T1 specialist pair collected: 326 words, about 160s, gate 7/7, READ-BACK PASS.",
+   "currentTask": "PE-T1 specialist complete",
+   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
+   "observedAt": "2026-11-27T03:15:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-wpe-t1",
    "name": "WPE-T1 judge",
    "role": "auditor",
@@ -3949,48 +3963,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "CSE Page"
-  },
-  {
-   "agentId": "8e166725-3bfa-4b46-90ad-e44d0f529eb2",
-   "name": "CSE Page bio and pin agent",
-   "role": "poster",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "CSE Page short bio and pinned reel",
-   "detail": "Short bio set and how-to-order reel pinned on the CSE Page; verified live on the Page timeline.",
-   "currentTask": "Set CSE Page short bio and pin how-to-order reel",
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:16:31.000Z",
-   "needsUser": false,
-   "category": "CSE Page"
-  },
-  {
-   "agentId": "team-improvement-cycle-sb-r3-specialist",
-   "name": "SB-R3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-R3 specialist solver",
-   "detail": "SB-R3 done: gate 15/15 exit 0, live-render bottom edges 277/277/277, spread 0 px, LCP unmeasured.",
-   "currentTask": "Done: SB-R3 page, gate 15/15, bottom edges 277/277/277 spread 0 px",
-   "lastHeartbeat": "2026-11-26T10:40:31.000Z",
-   "observedAt": "2026-11-26T10:40:31.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "sb-r2-generic",
-   "name": "SB-R2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "SB-R2 generic solver",
-   "detail": "SB-R2 generic solve complete: 1,530/2,367/3,390 bytes, 552 words, gate 3 passed 0 failed (posted by cycle lead).",
-   "currentTask": "SB-R2 generic solve complete",
-   "lastHeartbeat": "2026-11-26T10:31:00.000Z",
-   "observedAt": "2026-11-26T10:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
