@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T03:52:00.000Z",
- "summary": "GT-159 complete: paper Account Manager live in WATCH mode, 4 of 4 drills PASS, training shadow mode built with guardrails, MEXC Team PLAYBOOK.md written.",
+ "generatedAt": "2026-11-27T03:56:00.000Z",
+ "summary": "GT-158 in progress: basket engine built in the job folder; GT-157 mass simulation still running, its report is the required input before pre-registration.",
  "agents": [
   {
    "agentId": null,
@@ -821,10 +821,24 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-158 accuracy round 2 (MEXC Team)",
-   "detail": "Started. Reading GT-156 and GT-155 records; GT-157 report not yet filed, polling for it before pre-registration.",
-   "currentTask": "Reading source reports, awaiting GT-157 report",
-   "lastHeartbeat": "2026-11-27T03:44:00.000Z",
-   "observedAt": "2026-11-27T03:44:00.000Z",
+   "detail": "Basket engine built and basket rule fixed from GT-157 universe data (30 evaluable pairs). Polling for the GT-157 report; no runs started before it files.",
+   "currentTask": "Waiting on GT-157 report; engine and basket rule ready",
+   "lastHeartbeat": "2026-11-27T03:56:00.000Z",
+   "observedAt": "2026-11-27T03:56:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt160-shadow-upgrade",
+   "name": "gt160-shadow-upgrade",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-160 Training Shadow Mode upgrade",
+   "detail": "Started: inputs read (job file, lane skill, GT-159 report, GT-156/GT-157 registrations); building the shadow engine.",
+   "currentTask": "Building multi-track multi-pair shadow engine (shadow2.py)",
+   "lastHeartbeat": "2026-11-27T03:55:25.000Z",
+   "observedAt": "2026-11-27T03:55:25.000Z",
    "needsUser": false,
    "category": "trading"
   },
