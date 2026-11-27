@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:24:19.000Z",
- "summary": "GT-180 Kronos execution BLOCKED at start: platform security check on the GT-177 report read prohibits executing the cloned upstream Kronos code in this session despite the owner's relayed approval. No run performed. Owner must be asked in plain words whether to go ahead.",
+ "generatedAt": "2026-11-27T14:31:30.000Z",
+ "summary": "GT-181 started: pre-registering the v2 wide-universe training dataset spec (top 150 MEXC USDT pairs by volume, spread/history gates, target 100+ pairs), mirroring v1 features, labels, and splits.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -2593,6 +2593,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "gt181-training-dataset-v2",
+   "name": "GT-181 Dataset V2 Builder",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-181: Training dataset v2 (100+ tokens) build started",
+   "detail": "GT-181 started: building training dataset v2 (top 150 by 24h volume, quality gates, target 100+ pairs). Mirroring v1 features, labels, and split rule. No v1 files touched.",
+   "currentTask": "Pre-registering v2 spec, then pulling top-150 MEXC USDT pairs for the wide training dataset",
+   "lastHeartbeat": "2026-11-27T14:31:30.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "MEXC Team / Data"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2705,30 +2719,44 @@
    "category": "trading"
   },
   {
-   "agentId": "team-wpe-r1-specialist",
-   "name": "wpe-r1-specialist",
-   "role": "auditor",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "WPE-R1 specialist run, cycle 646",
-   "detail": "Done. Report filed NOT VERIFIED; gate passed 8/8, read-back PASS, zero em/en dashes.",
-   "currentTask": "WPE-R1 specialist run complete",
-   "lastHeartbeat": "2026-11-27T14:23:45.000Z",
-   "observedAt": "2026-11-27T14:23:45.000Z",
+   "title": "Improvement cycle 646: WPE retest opened, R1 pair collected",
+   "detail": "Cycle 646 done: WPE retest opened, WPE-R1 pair collected and verified (specialist 956 words gate 8/8, generic 944 words gate 7/7, K1-K7 pass both, no key defect). R2 solvers next cycle.",
+   "currentTask": "Cycle 646 complete",
+   "lastHeartbeat": "2026-11-27T14:29:30.000Z",
+   "observedAt": "2026-11-27T14:29:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
+   "agentId": "team-wpe-r1-generic",
+   "name": "WPE-R1 generic",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 645",
-   "detail": "Routing check 101st complete: 3 of 5 vs division leads; Coordinator better call on RC-T1 and RC-T5; no rule fix.",
-   "currentTask": "Cycle 645 closed: routing check scored and logged",
-   "lastHeartbeat": "2026-11-27T14:10:19.000Z",
-   "observedAt": "2026-11-27T14:10:19.000Z",
+   "title": "WPE-R1 generic solver",
+   "detail": "Posted by cycle lead: WPE-R1 generic pair collected, gate 7/7 exit 0, READ-BACK: PASS.",
+   "currentTask": "WPE-R1 generic run complete",
+   "lastHeartbeat": "2026-11-27T14:22:49.000Z",
+   "observedAt": "2026-11-27T14:29:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-r1-specialist",
+   "name": "WPE-R1 specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R1 specialist solver",
+   "detail": "Posted by cycle lead: WPE-R1 specialist pair collected, gate 8/8 exit 0, READ-BACK: PASS.",
+   "currentTask": "WPE-R1 specialist run complete",
+   "lastHeartbeat": "2026-11-27T14:23:29.000Z",
+   "observedAt": "2026-11-27T14:29:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -4073,20 +4101,6 @@
    "currentTask": "PE-T1 specialist complete",
    "lastHeartbeat": "2026-11-27T03:15:30.000Z",
    "observedAt": "2026-11-27T03:15:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-wpe-t1",
-   "name": "WPE-T1 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T1 blind judge",
-   "detail": "WPE-T1 judge complete: specialist win 8.50 vs 7.90. Posted by cycle lead.",
-   "currentTask": "WPE-T1 judged: specialist win 8.50 vs 7.90",
-   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
-   "observedAt": "2026-11-27T03:05:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
