@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:18:00.000Z",
- "summary": "Cycle 654 complete: Moment Hunter MH-T3 pair collected and verified, all three pairs now in hand.",
+ "generatedAt": "2026-11-27T16:25:50.000Z",
+ "summary": "Routing panel cycle 655 started: 8 division leads voting on 5 tasks.",
  "agents": [
   {
    "agentId": null,
@@ -897,6 +897,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-routing-panel-655",
+   "name": "Routing Panel cycle 655",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing panel cycle 655",
+   "detail": "Routing panel cycle 655 started: 8 division leads voting on 5 tasks from trigger lines only.",
+   "currentTask": "Routing panel cycle 655: voting on 5 tasks from ROSTER_INDEX.md triggers",
+   "lastHeartbeat": "2026-11-27T16:25:50.000Z",
+   "observedAt": "2026-11-27T16:25:50.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 655",
+   "detail": "Routing check cycle 655 started: GT-176, GT-181, GT-182, GT-187, GT-188 legs; Coordinator picks sealed, panel reading next.",
+   "currentTask": "Routing check cycle 655: 5 fresh legs, Coordinator picks sealed",
+   "lastHeartbeat": "2026-11-27T16:22:00.000Z",
+   "observedAt": "2026-11-27T16:22:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
