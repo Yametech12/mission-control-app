@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:45:30.000Z",
- "summary": "Improvement cycle 676 complete: Prototype Engineer validated 8.58 vs 7.67.",
+ "generatedAt": "2026-11-27T21:54:42.000Z",
+ "summary": "Improvement cycle 677: Motion and 3D retest 1 opening.",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 677: Motion and 3D retest",
+   "detail": "Cycle 677 opening the Motion and 3D retest (rewrite 1): 3 fresh tasks filed, M3D-R1 solver pair running.",
+   "currentTask": "Motion and 3D retest 1: filing tasks and running M3D-R1 solvers",
+   "lastHeartbeat": "2026-11-27T21:54:42.000Z",
+   "observedAt": "2026-11-27T21:54:42.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,20 +2705,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 676: Prototype Engineer retest 2 judging",
-   "detail": "Cycle 676 complete: Prototype Engineer VALIDATED 8.58 vs 7.67, 3 wins, 0 ties, 0 losses, all three contamination checks clean. Scoreboard 31 validated, 9 flagged, 39 unvalidated.",
-   "currentTask": "Cycle 676 complete: Prototype Engineer validated",
-   "lastHeartbeat": "2026-11-27T21:45:30.000Z",
-   "observedAt": "2026-11-27T21:45:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "judge-pe-s3",
    "name": "QA Judge PE-S3",
    "role": "auditor",
@@ -4089,6 +4089,20 @@
    "observedAt": "2026-11-27T07:51:30.000Z",
    "needsUser": false,
    "category": "ghostame-team"
+  },
+  {
+   "agentId": "team-bid-t2-generic",
+   "name": "BID-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "BID-T2 generic solver",
+   "detail": "Posted by cycle parent: generic sheet 5,396 bytes / 929 words, gate 7/7, 90s, READ-BACK: PASS.",
+   "currentTask": "BID-T2 generic solve done",
+   "lastHeartbeat": "2026-11-27T07:40:41.000Z",
+   "observedAt": "2026-11-27T07:40:41.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
