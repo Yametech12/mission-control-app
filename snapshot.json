@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T20:30:55.000Z",
- "summary": "Cycle 671 started: Prototype Engineer retest 2.",
+ "generatedAt": "2026-11-27T20:35:28.000Z",
+ "summary": "PE-S1 specialist solver started building the FitOrSkip item tracker prototype",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "pe-s1-specialist",
+   "name": "PE-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "PE-S1 specialist solver",
+   "detail": "Building the throwaway FitOrSkip improvement item tracker prototype with static list and seeded defects.",
+   "currentTask": "Build PE-S1 specialist prototype files",
+   "lastHeartbeat": "2026-11-27T20:35:28.000Z",
+   "observedAt": "2026-11-27T20:35:28.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
+   "agentId": "pe-s1-generic",
+   "name": "PE-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "PE-S1 generic solver",
+   "detail": "PE-S1 generic solver started: building throwaway FitOrSkip item tracker prototype.",
+   "currentTask": "Build PE-S1 generic prototype per task brief",
+   "lastHeartbeat": "2026-11-27T20:34:30.000Z",
+   "observedAt": "2026-11-27T20:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
   },
   {
    "agentId": "team-improvement-cycle",
