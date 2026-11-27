@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:40:00.000Z",
- "summary": "Cycle 634 complete: IID-T3 pair collected and verified for Illustration and Icon Designer; all three pairs collected, sealing 636, judging 637.",
+ "generatedAt": "2026-11-27T11:47:00.000Z",
+ "summary": "Cycle 635 routing check in progress.",
  "agents": [
   {
    "agentId": null,
@@ -827,6 +827,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 635",
+   "detail": "Cycle 635 routing check started: 5 fresh Nov 27 legs from GT-169/171/173/174",
+   "currentTask": "Routing check cycle 635: harvesting 5 fresh Nov 27 legs",
+   "lastHeartbeat": "2026-11-27T11:47:00.000Z",
+   "observedAt": "2026-11-27T11:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": null,
@@ -2621,20 +2635,6 @@
    "category": "clipping"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team validation loop, cycle 634",
-   "detail": "Cycle 634 done: IID-T3 pair verified, both gates 13/13, K1-K7 pass, no key defect; sealing 636, judging 637.",
-   "currentTask": "Cycle 634 done: IID-T3 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T11:40:00.000Z",
-   "observedAt": "2026-11-27T11:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-illustration-icon-designer",
    "name": "Illustration and Icon Designer solver",
    "role": "builder",
@@ -4005,6 +4005,20 @@
    "observedAt": "2026-11-27T00:50:17.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mobile-release-engineer-specialist",
+   "name": "MRE-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T2 specialist solver",
+   "detail": "Specialist MRE-T2 done: 3,268/1,799/3,218 bytes, 518 words, gate 7/7 exit 0. Posted by cycle lead.",
+   "currentTask": "MRE-T2 complete",
+   "lastHeartbeat": "2026-11-27T00:38:30.000Z",
+   "observedAt": "2026-11-27T00:38:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
