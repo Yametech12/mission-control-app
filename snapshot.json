@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T04:51:30.000Z",
- "summary": "UID-T1 specialist run complete: 5 deliverables built, gate 7/7 passed, read-back PASS.",
+ "generatedAt": "2026-11-27T04:56:30.000Z",
+ "summary": "UI Designer UID-T2 specialist run started.",
  "agents": [
   {
    "agentId": null,
@@ -815,6 +815,48 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-ui-designer",
+   "name": "UI Designer",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "UI Designer UID-T2 specialist",
+   "detail": "UI Designer UID-T2 specialist run started, building corrections and spec note.",
+   "currentTask": "Building UID-T2 specialist spec corrections",
+   "lastHeartbeat": "2026-11-27T04:56:30.000Z",
+   "observedAt": "2026-11-27T04:56:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-ui-designer-generic",
+   "name": "Generic solver UID-T2",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "UI Designer UID-T2 generic",
+   "detail": "Generic baseline solver building UID-T2 corrections, spec note, gate, delivery note.",
+   "currentTask": "Building UID-T2 generic deliverable files",
+   "lastHeartbeat": "2026-11-27T04:56:26.000Z",
+   "observedAt": "2026-11-27T04:56:26.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 602: UI Designer UID-T2",
+   "detail": "Cycle 602 running UID-T2 solver pair for UI Designer validation.",
+   "currentTask": "Running UI Designer UID-T2 solver pair",
+   "lastHeartbeat": "2026-11-27T04:55:51.000Z",
+   "observedAt": "2026-11-27T04:55:51.000Z",
+   "needsUser": false,
+   "category": "ghostnam team validation"
+  },
+  {
    "agentId": "gt158-accuracy-round2",
    "name": "gt158-accuracy-round2",
    "role": "coordinator",
@@ -827,20 +869,6 @@
    "observedAt": "2026-11-27T04:47:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 601: UI Designer validation opens",
-   "detail": "Cycle 601 started: UI Designer (row 13, Design, P3, never tested) opens; UID-T1 solver pair runs this cycle.",
-   "currentTask": "Cycle 601: file UID tasks and run UID-T1 solver pair",
-   "lastHeartbeat": "2026-11-27T04:46:30.000Z",
-   "observedAt": "2026-11-27T04:46:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt164-fitorskip-promax",
@@ -2635,6 +2663,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-uid-t1-generic",
+   "name": "UID-T1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UID-T1 generic solver complete (posted by cycle parent)",
+   "detail": "Generic UID-T1 complete: 14,579 bytes, 305 words, gate 7/7 exit 0, READ-BACK: PASS.",
+   "currentTask": "UID-T1 generic solve complete",
+   "lastHeartbeat": "2026-11-27T04:50:29.000Z",
+   "observedAt": "2026-11-27T04:52:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-uid-t1-specialist",
+   "name": "UID-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UID-T1 specialist solver complete (posted by cycle parent)",
+   "detail": "Specialist UID-T1 complete: 26,544 bytes, 256 words, gate 7/7 exit 0, READ-BACK: PASS.",
+   "currentTask": "UID-T1 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T04:50:58.000Z",
+   "observedAt": "2026-11-27T04:52:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt163-cse-reel-hype",
    "name": "gt163-cse-reel-hype",
    "role": "builder",
@@ -4005,34 +4061,6 @@
    "observedAt": "2026-11-26T14:27:00.000Z",
    "needsUser": false,
    "category": "security"
-  },
-  {
-   "agentId": "gt-148-site-audit",
-   "name": "gt-148-site-audit",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-148 SASE/CSE website full audit, test, fix",
-   "detail": "Complete. 36 verified findings, 19 fixes live (3ebfa9c), suites 267/267, live E2E 16/16, cleanup verified. Reports in GT-20261126-148-reports.",
-   "currentTask": "Job complete; reports delivered",
-   "lastHeartbeat": "2026-11-26T14:17:30.000Z",
-   "observedAt": "2026-11-26T14:17:30.000Z",
-   "needsUser": false,
-   "category": "sase-cse-site"
-  },
-  {
-   "agentId": "gt-148-frontend",
-   "name": "gt-148-frontend",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-148 frontend audit",
-   "detail": "Complete (carried by job lead). 9 findings; FE-1 refuted on cascade verification. Report: audit-frontend.md.",
-   "currentTask": "Audit complete",
-   "lastHeartbeat": "2026-11-26T14:17:30.000Z",
-   "observedAt": "2026-11-26T14:17:30.000Z",
-   "needsUser": false,
-   "category": "sase-cse-site"
   }
  ]
 }
