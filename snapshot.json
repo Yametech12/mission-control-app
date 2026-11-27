@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T05:26:31.000Z",
- "summary": "GT-164 FitOrSkip Pro Max v1 COMPLETE: full flow and Bagay Verdict engine shipped, 22 of 22 tests pass, CI run 45944984722 green on Android and iOS, APK verified on Drive as FitOrSkip-v0.2-demo.apk, report filed.",
+ "generatedAt": "2026-11-27T05:34:30.000Z",
+ "summary": "GT-158 complete: A-Revised at basket level PASSED all nine portfolio gates (323 OOS trades, PF 1.314, top pair 30.4 percent). First Phase 0 pass in the lane; Phase 1 not started.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "gt158-accuracy-round2",
-   "name": "gt158-accuracy-round2",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-158 accuracy round 2 (MEXC Team)",
-   "detail": "Basket fixed: top 8 by MEXC volume among 21 full-window 4h pairs. Registration drafted; filing waits for the GT-157 report so survivor candidates are named from its evidence.",
-   "currentTask": "Basket resolved; polling for GT-157 mass run results",
-   "lastHeartbeat": "2026-11-27T05:13:00.000Z",
-   "observedAt": "2026-11-27T05:13:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,6 +2579,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt158-accuracy-round2",
+   "name": "gt158-accuracy-round2",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-158 accuracy round 2 (MEXC Team)",
+   "detail": "Complete. Candidate 1 PASS: basket OOS 323 trades, net +4,735.74 USD, PF 1.314, DD 5.16 percent, 8 of 8 pairs positive, top share 30.4 percent, neighbours 8 of 8, stress positive. GT-157 survivor slot void; no new family used. Report filed.",
+   "currentTask": "Complete: round2-report.md filed",
+   "lastHeartbeat": "2026-11-27T05:34:30.000Z",
+   "observedAt": "2026-11-27T05:34:30.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "gt164-fitorskip-promax",
    "name": "gt164-fitorskip-promax",
    "role": "coordinator",
@@ -3975,20 +3975,6 @@
    "currentTask": "AE-T3 specialist solve",
    "lastHeartbeat": "2026-11-26T14:39:44.000Z",
    "observedAt": "2026-11-26T14:39:44.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-automation-engineer-ae-t3-generic",
-   "name": "AE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AE-T3 generic solver",
-   "detail": "AE-T3 generic pack done: gate PASS (7/7, exit 0), 0 em dashes, 9,312 bytes total, 93s wall time.",
-   "currentTask": "AE-T3 generic solve",
-   "lastHeartbeat": "2026-11-26T14:39:35.000Z",
-   "observedAt": "2026-11-26T14:39:35.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   }
