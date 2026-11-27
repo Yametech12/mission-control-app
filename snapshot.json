@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T08:56:00.000Z",
- "summary": "GT-169 in progress: Plan B Shadow Fleet pre-registration and engine build.",
+ "generatedAt": "2026-11-27T09:01:37.000Z",
+ "summary": "TYPO-T2 generic solver started",
  "agents": [
   {
    "agentId": null,
@@ -821,24 +821,38 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-169 Plan B Shadow Fleet launch",
-   "detail": "GT-169 started: building and launching the Plan B Shadow Fleet (19 soldiers + Auditor + Guardian), paper only",
-   "currentTask": "Reading lane docs; pre-registering the Plan B Shadow Fleet",
-   "lastHeartbeat": "2026-11-27T08:56:00.000Z",
-   "observedAt": "2026-11-27T08:56:00.000Z",
+   "detail": "GT-169 milestone: fleet engine live, first cycle 149 candles, 5 paper entries, 0 closed, ledger OK; Phase 1 proven untouched; crons wired (trading-observe-4h updated, F6 hourly and fleet weekly added)",
+   "currentTask": "Fleet live and verified; console Shadow Fleet panel edit in flight",
+   "lastHeartbeat": "2026-11-27T09:04:00.000Z",
+   "observedAt": "2026-11-27T09:04:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt170-coordinator",
+   "name": "gt170-coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-170 Candle Pattern Research Blitz",
+   "detail": "Started: rules read (lane skill, GT-157, GT-169 registration); building causal pattern engine.",
+   "currentTask": "Data sourcing: MEXC klines for 13 pairs x 3 timeframes",
+   "lastHeartbeat": "2026-11-27T09:01:00.000Z",
+   "observedAt": "2026-11-27T09:01:00.000Z",
    "needsUser": false,
    "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "name": "team-improvement-cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 620: routing check",
-   "detail": "Cycle 620 routing check started: 5 fresh Nov 27 legs (GT-166, GT-167, GT-168).",
-   "currentTask": "Cycle 620 routing check: fresh legs, sealed picks, panel scoring",
-   "lastHeartbeat": "2026-11-27T08:50:00.000Z",
-   "observedAt": "2026-11-27T08:50:00.000Z",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 621 started: Typography Specialist TYPO-T2 solver pair running",
+   "currentTask": "Cycle 621: Typography Specialist TYPO-T2 solver pair",
+   "lastHeartbeat": "2026-11-27T09:00:36.000Z",
+   "observedAt": "2026-11-27T09:00:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2411,6 +2425,20 @@
    "category": "pandorabook"
   },
   {
+   "agentId": "team-typography-generic",
+   "name": "Typography Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "TYPO-T2 generic solver running",
+   "detail": "TYPO-T2 generic solver started: reading task and named inputs, measuring live fonts and index counts.",
+   "currentTask": "TYPO-T2 generic solver: Hapsay type decision record",
+   "lastHeartbeat": "2026-11-27T09:01:37.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2607,6 +2635,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-check-620-panel",
+   "name": "Routing Check 620 Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 620 panel",
+   "detail": "Routing check 620 panel picks filed by the panel: Architect, API Integration Engineer, ML Engineer, Scheduler, Evidence Auditor.",
+   "currentTask": "Panel picks filed",
+   "lastHeartbeat": "2026-11-27T08:53:31.000Z",
+   "observedAt": "2026-11-27T08:58:18.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt168-coordinator",
    "name": "gt168-coordinator",
    "role": "coordinator",
@@ -2619,20 +2661,6 @@
    "observedAt": "2026-11-27T08:55:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "routing-check-620-panel",
-   "name": "Routing Check 620 Panel",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 620 panel",
-   "detail": "Picks filed: RC-T1 Architect, RC-T2 API Integration Engineer, RC-T3 ML Engineer, RC-T4 Scheduler, RC-T5 Evidence Auditor.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-27T08:53:23.000Z",
-   "observedAt": "2026-11-27T08:53:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "validation-generic-typo-t1",
