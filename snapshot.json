@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:16:00.000Z",
- "summary": "GT-177 Kronos gauntlet pre-registration frozen (2 trials, window 2025-11-01 to 2026-11-26, lane cost model, Bonferroni for 2 trials). Pulling MEXC data; inference step awaits owner approval to run upstream Kronos code.",
+ "generatedAt": "2026-11-27T14:18:12.000Z",
+ "summary": "GT-179 training dataset build started; spec freeze in progress.",
  "agents": [
   {
    "agentId": "gt177-kronos-gauntlet",
@@ -885,18 +885,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "gt178-kronos-colab",
-   "name": "gt178-kronos-colab",
+   "agentId": "gt179-training-dataset",
+   "name": "gt179-training-dataset",
    "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-178 Kronos Colab notebook",
-   "detail": "GT-178 started: building self-contained Colab notebook for the Kronos gauntlet (GPU runtime, frozen registration spec).",
-   "currentTask": "Aligning to GT-177 frozen registration; authoring Colab notebook",
-   "lastHeartbeat": "2026-11-27T14:06:00.000Z",
-   "observedAt": "2026-11-27T14:06:00.000Z",
+   "title": "GT-179 Training Dataset Build",
+   "detail": "GT-179 started: pre-registering the training dataset spec before any build.",
+   "currentTask": "Locating GT-171 eligible universe and freezing dataset spec",
+   "lastHeartbeat": "2026-11-27T14:18:12.000Z",
+   "observedAt": "2026-11-27T14:18:12.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "api-trading"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2677,6 +2677,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "gt178-kronos-colab",
+   "name": "gt178-kronos-colab",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-178 Kronos Colab notebook",
+   "detail": "GT-178 complete: kronos_gauntlet_colab.ipynb (14 cells) matches the GT-177 frozen registration (both trials, 6 gates). Engine passed 11 unit tests; live MEXC fetch and wiring verified. Gauntlet not run.",
+   "currentTask": "Complete: notebook delivered and validated",
+   "lastHeartbeat": "2026-11-27T14:35:00.000Z",
+   "observedAt": "2026-11-27T14:35:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "team-improvement-cycle",
    "role": "coordinator",
@@ -4057,20 +4071,6 @@
    "title": "WPE-T2 blind judge",
    "detail": "WPE-T2 judge complete: specialist win 8.63 vs 8.25. Posted by cycle lead.",
    "currentTask": "WPE-T2 judged: specialist win 8.63 vs 8.25",
-   "lastHeartbeat": "2026-11-27T03:05:00.000Z",
-   "observedAt": "2026-11-27T03:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-wpe-t3",
-   "name": "WPE-T3 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-T3 blind judge",
-   "detail": "WPE-T3 judge complete: generic win 8.90 vs 8.80. Posted by cycle lead.",
-   "currentTask": "WPE-T3 judged: generic win 8.90 vs 8.80",
    "lastHeartbeat": "2026-11-27T03:05:00.000Z",
    "observedAt": "2026-11-27T03:05:00.000Z",
    "needsUser": false,
