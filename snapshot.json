@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T12:52:00.000Z",
- "summary": "Ghostname Team improvement cycle 640 complete: routing check 4 of 5, no rule fix, flag does not recur.",
+ "generatedAt": "2026-11-27T12:56:00.000Z",
+ "summary": "Generic solver DSE-T3 complete: SLOT-AD removal record shipped, gate 42/42 passed",
  "agents": [
   {
    "agentId": null,
@@ -869,6 +869,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-design-systems-engineer",
+   "name": "Design Systems Engineer",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DSE-T3 SLOT-AD removal record",
+   "detail": "Working: measuring SLOT-AD token evidence across tokens.css, styles.css, index.html, gl.js, app.js.",
+   "currentTask": "Writing removal-record.md, gate.js, delivery-note.md for DSE-T3",
+   "lastHeartbeat": "2026-11-27T12:54:25.000Z",
+   "observedAt": "2026-11-27T12:54:25.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 641",
+   "detail": "DSE-T3 solvers running: specialist and generic building the SLOT-AD removal impact record.",
+   "currentTask": "DSE-T3 solvers (specialist + generic)",
+   "lastHeartbeat": "2026-11-27T12:52:35.000Z",
+   "observedAt": "2026-11-27T12:52:35.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt176-fitorskip-improve",
@@ -2649,16 +2677,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "team-dse-t3-generic",
+   "name": "DSE-T3 generic solver",
+   "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 640",
-   "detail": "Routing check 640 (100th) done: 4 of 5 vs division leads; miss RC-T2 Coordinator better call; no rule fix; DSE-T3 solvers cycle 641.",
-   "currentTask": "Cycle 640 complete",
-   "lastHeartbeat": "2026-11-27T12:52:00.000Z",
-   "observedAt": "2026-11-27T12:52:00.000Z",
+   "title": "DSE-T3 generic solver: SLOT-AD removal record",
+   "detail": "DSE-T3 generic done: record 8566 B, gate 42/42 passed, delivery note shipped. READ-BACK: PASS.",
+   "currentTask": "Done: removal record, gate, and delivery note shipped",
+   "lastHeartbeat": "2026-11-27T12:56:00.000Z",
+   "observedAt": "2026-11-27T12:56:00.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
