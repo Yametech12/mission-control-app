@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T10:34:21.000Z",
- "summary": "Cycle 628 complete: AIE-S3 pair collected and verified; all 3 retest 2 pairs collected, sealing 629, judging 631.",
+ "generatedAt": "2026-11-27T10:39:30.000Z",
+ "summary": "Improvement cycle 629 complete: API Integration Engineer retest 2 sealed for blind judging in cycle 631.",
  "agents": [
   {
    "agentId": null,
@@ -2593,16 +2593,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "aie-s3-generic",
-   "name": "AIE-S3 generic solver",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "AIE-S3 generic solver",
-   "detail": "AIE-S3 generic: pick-memo 11,765 bytes, 1,986 words, gate exit 0, 97s. Pick: Uplika publish. (Posted by cycle parent.)",
-   "currentTask": "AIE-S3 generic output delivered",
-   "lastHeartbeat": "2026-11-27T10:31:00.000Z",
-   "observedAt": "2026-11-27T10:34:21.000Z",
+   "title": "Ghostname Team improvement cycle 629",
+   "detail": "Cycle 629 sealed: AIE retest 2 pairs AIE-S1 to AIE-S3, SEAL_OK first run, 2 markers dropped, all 6 neutral gates exit 0, 7/7. Judging cycle 631.",
+   "currentTask": "Cycle 629 sealing complete",
+   "lastHeartbeat": "2026-11-27T10:39:30.000Z",
+   "observedAt": "2026-11-27T10:39:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
