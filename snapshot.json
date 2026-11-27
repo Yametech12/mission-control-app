@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T09:11:30.000Z",
- "summary": "GT-171 Token Profiler plus All-Liquid Shadow Expansion started (paper only).",
+ "generatedAt": "2026-11-27T09:16:28.000Z",
+ "summary": "Cycle 622 running: Typography Specialist TYPO-T3 solver pair.",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 622: TYPO-T3 solvers",
+   "detail": "Typography Specialist TYPO-T3 solver pair running (specialist + generic). Sealing 623, judging 624.",
+   "currentTask": "Cycle 622 TYPO-T3 solver pair",
+   "lastHeartbeat": "2026-11-27T09:16:28.000Z",
+   "observedAt": "2026-11-27T09:16:28.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-validation-generic",
+   "name": "Generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "TYPO-T3 generic solver",
+   "detail": "Generic TYPO-T3 solver running. Posted by cycle lead.",
+   "currentTask": "TYPO-T3 type decision record (generic)",
+   "lastHeartbeat": "2026-11-27T09:16:28.000Z",
+   "observedAt": "2026-11-27T09:16:28.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "TYPO-T3 specialist solver",
+   "detail": "Typography Specialist TYPO-T3 solver running. Posted by cycle lead.",
+   "currentTask": "TYPO-T3 type decision record (specialist)",
+   "lastHeartbeat": "2026-11-27T09:16:28.000Z",
+   "observedAt": "2026-11-27T09:16:28.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt171-coordinator",
@@ -2607,20 +2649,6 @@
    "category": "trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "team-improvement-cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 621 done: TYPO-T2 pair collected, both gates 7/7, K1-K7 pass both; TYPO-T3 next",
-   "currentTask": "Cycle 621 complete: TYPO-T2 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
-   "observedAt": "2026-11-27T09:06:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-typography-specialist",
    "name": "team-typography-specialist",
    "role": "builder",
@@ -3986,6 +4014,20 @@
    "status": "completed",
    "title": "AIE-T1 generic solver",
    "detail": "AIE-T1 generic solver complete: record 20,147 bytes, gate 7/7 PASS, READ-BACK: PASS. (Carried by cycle parent.)",
+   "currentTask": "AIE-T1 connector inventory re-audit",
+   "lastHeartbeat": "2026-11-26T20:09:09.000Z",
+   "observedAt": "2026-11-26T20:09:09.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-api-integration-engineer",
+   "name": "API Integration Engineer",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-T1 specialist solver",
+   "detail": "AIE-T1 specialist solver complete: record 15,680 bytes, gate 7/7 PASS, READ-BACK: PASS. (Carried by cycle parent.)",
    "currentTask": "AIE-T1 connector inventory re-audit",
    "lastHeartbeat": "2026-11-26T20:09:09.000Z",
    "observedAt": "2026-11-26T20:09:09.000Z",
