@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T00:02:55.000Z",
- "summary": "Cycle 580: routing check 5 of 5, clean sweep; AIE-R1 re-judging cycle 581.",
+ "generatedAt": "2026-11-27T00:07:20.000Z",
+ "summary": "Cycle 581: AIE-R1 re-judging (API Integration Engineer retest, one fresh judge, cycle 579 re-seal).",
  "agents": [
   {
    "agentId": null,
@@ -813,6 +813,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 581: AIE-R1 re-judging",
+   "detail": "Re-judging AIE-R1 on the cycle 579 re-seal with one fresh judge; R2/R3 scores stand (1 win, 1 loss).",
+   "currentTask": "AIE-R1 re-judging with one fresh judge",
+   "lastHeartbeat": "2026-11-27T00:07:20.000Z",
+   "observedAt": "2026-11-27T00:07:20.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
   },
   {
    "agentId": "gt-149-security",
@@ -2509,20 +2523,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 580 (routing check)",
-   "detail": "Cycle 580 done: routing check 5 of 5, clean sweep, no rule fixes.",
-   "currentTask": "Cycle 580 complete",
-   "lastHeartbeat": "2026-11-27T00:02:55.000Z",
-   "observedAt": "2026-11-27T00:02:55.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle-panel-580",
    "name": "Division-leads panel",
    "role": "coordinator",
@@ -3907,6 +3907,20 @@
    "observedAt": "2026-11-26T07:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "sysb-t1-generic",
+   "name": "SYSB-T1 Generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "SYSB-T1 generic build",
+   "detail": "SYSB-T1 generic done (carried by cycle lead): 4 files, 22 checks pass, 227s.",
+   "currentTask": "SYSB-T1 build complete",
+   "lastHeartbeat": "2026-11-26T07:37:53.000Z",
+   "observedAt": "2026-11-26T07:37:53.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
