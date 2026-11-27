@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T06:42:35.000Z",
- "summary": "M3D-R2 specialist solver complete: v5 gl.js, motion note, gate 7/7, delivery note shipped",
+ "generatedAt": "2026-11-27T22:47:03.000Z",
+ "summary": "Cycle 679 complete: M3D-R2 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -169,6 +169,34 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "ClinicFlow Connect upgrade blocked",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "ClinicFlow Connect upgrade blocked",
+   "detail": "Read-only audit completed, but implementation could not proceed: execution-risk check failed for the cloned repo, so branch, edits, build, test, and push were prohibited. Owner approval required.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T02:59:45.000Z",
+   "needsUser": true,
+   "category": "ClinicFlow"
+  },
+  {
+   "agentId": null,
+   "name": "Jo Koy JK5: posted, Whop submission blocked",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Jo Koy JK5: posted, Whop submission blocked",
+   "detail": "JK5 posted live on Instagram at 10:00 PHT Nov 26 and the GT88 pack is fully posted (JK1-JK5), but Whop submission is blocked: campaign shows clip limit reached, no submission form.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T02:16:52.000Z",
+   "needsUser": false,
+   "category": "clipping"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -869,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 679: M3D-R2 solvers",
-   "detail": "Cycle 679 started: Motion and 3D retest M3D-R2 solver pair (liquid v4 to v5 replay).",
-   "currentTask": "Cycle 679: M3D-R2 solver pair",
-   "lastHeartbeat": "2026-11-27T22:37:55.000Z",
-   "observedAt": "2026-11-27T22:37:55.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2677,6 +2691,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 679: M3D-R2 collected",
+   "detail": "Cycle 679 done: M3D-R2 pair collected, both gates 7/7 exit 0, K1-K7 pass both, no key defect. M3D-R3 solvers cycle 681.",
+   "currentTask": "Cycle 679 complete: M3D-R2 pair collected",
+   "lastHeartbeat": "2026-11-27T22:47:03.000Z",
+   "observedAt": "2026-11-27T22:47:03.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "m3d-r2-generic",
    "name": "M3D-R2 generic solver",
    "role": "builder",
@@ -4047,20 +4075,6 @@
    "observedAt": "2026-11-27T08:47:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt167-coordinator",
-   "name": "gt167-phase1-opening",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-167 Phase 1 opening (MEXC Team)",
-   "detail": "GT-167 COMPLETE: Phase 1 opened for the GT-158 PASS config. First cycle 16:14 PHT: all 8 pairs DO_NOTHING, no fills, ledger OK head b7c58b24. Cadence and console updated.",
-   "currentTask": "Complete: Phase 1 opened, first cycle verified, cadence live, console updated",
-   "lastHeartbeat": "2026-11-27T08:23:00.000Z",
-   "observedAt": "2026-11-27T08:23:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
