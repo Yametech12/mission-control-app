@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:36:00.000Z",
- "summary": "Cycle 647 complete: WPE-R2 pair collected and verified. Scoreboard 29 validated, 9 flagged, 41 unvalidated of 79.",
+ "generatedAt": "2026-11-27T14:42:00.000Z",
+ "summary": "GT-184 Dataset Master Plan started: reconciling frozen v1/v2 dataset specs, GT-182 training spec, and K3 fine-tune spec into one governing plan document.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -2607,6 +2607,34 @@
    "category": "MEXC Team / Data"
   },
   {
+   "agentId": "gt182-own-model-training",
+   "name": "GT-182 Own-Model Training",
+   "role": "builder",
+   "agentStatus": "waiting",
+   "status": "working",
+   "title": "GT-182 Own-model training spec + train",
+   "detail": "Spec frozen at files/OWN_MODEL_TRAINING_SPEC_2026-11-27.md: 58 features, 16 configs x 2 thresholds = 32 trials, lane cost model + 2x stress, walk-forward check, baselines. Waiting on GT-179 dataset freeze.",
+   "currentTask": "Spec frozen; waiting for GT-179 dataset + manifest to verify hashes",
+   "lastHeartbeat": "2026-11-27T14:42:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "MEXC Team"
+  },
+  {
+   "agentId": "gt184-dataset-master-plan",
+   "name": "GT-184 Dataset Architect",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-184 Dataset Master Plan",
+   "detail": "Writing DATASET_MASTER_PLAN_2026-11-27.md: accuracy doctrine, current assets, universe governance, feature/label roadmap, split and lock discipline, quality acceptance, workstreams to Dec 4, v3 decision point.",
+   "currentTask": "Reading frozen specs and drafting the dataset master plan",
+   "lastHeartbeat": "2026-11-27T14:42:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "MEXC Team"
+  },
+  {
    "agentId": "sase-landing-portal-audit",
    "name": "Audit Coordinator",
    "role": "coordinator",
@@ -2703,6 +2731,20 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "gt183-kronos-finetune-spec",
+   "name": "gt183-kronos-finetune-spec",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-183 Kronos fine-tune spec",
+   "detail": "GT-183 complete: Kronos fine-tune pre-registration spec frozen (Trial K3, train split only, test locked). Sprint ledger now 4 trials; verdict bar alpha 0.0125 per candidate, t floor 2.24.",
+   "currentTask": "Done: KRONOS_FINETUNE_SPEC_2026-11-27.md frozen; report GT-20261127-183 filed",
+   "lastHeartbeat": "2026-11-27T14:39:57.000Z",
+   "observedAt": "2026-11-27T14:39:57.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -4085,20 +4127,6 @@
    "title": "PE-T1 generic solver (posted by cycle lead)",
    "detail": "PE-T1 generic pair collected: 285 words, 75s, gate 7/7, READ-BACK PASS.",
    "currentTask": "PE-T1 generic complete",
-   "lastHeartbeat": "2026-11-27T03:15:30.000Z",
-   "observedAt": "2026-11-27T03:15:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-pe-t1-specialist",
-   "name": "PE-T1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-T1 specialist solver (posted by cycle lead)",
-   "detail": "PE-T1 specialist pair collected: 326 words, about 160s, gate 7/7, READ-BACK PASS.",
-   "currentTask": "PE-T1 specialist complete",
    "lastHeartbeat": "2026-11-27T03:15:30.000Z",
    "observedAt": "2026-11-27T03:15:30.000Z",
    "needsUser": false,
