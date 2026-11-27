@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T19:08:26.000Z",
- "summary": "Cycle 664 complete: Prototype Engineer retest opened, PE-R1 pair collected and verified (gates 7/7 both, K1-K7 pass, no key defect). Scoreboard 30 validated, 9 flagged, 40 unvalidated of 79.",
+ "generatedAt": "2026-11-27T19:13:05.000Z",
+ "summary": "Improvement cycle 665 running: routing check 105.",
  "agents": [
   {
    "agentId": null,
@@ -911,6 +911,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 665: routing check (105th)",
+   "detail": "Cycle 665 routing check started: 5 fresh legs, Coordinator seals picks, division-leads panel judges.",
+   "currentTask": "Routing check 105: picking 5 fresh legs",
+   "lastHeartbeat": "2026-11-27T19:13:05.000Z",
+   "observedAt": "2026-11-27T19:13:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,20 +2705,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 664: Prototype Engineer retest",
-   "detail": "Cycle 664 complete: PE-R1 pair collected, gates 7/7 both, K1-K7 pass, no key defect. PE-R2 next cycle 666.",
-   "currentTask": "Cycle 664 complete: PE-R1 pair collected and verified",
-   "lastHeartbeat": "2026-11-27T19:08:26.000Z",
-   "observedAt": "2026-11-27T19:08:26.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "pe-r1-generic-solver",
    "name": "PE-R1 generic solver",
    "role": "builder",
@@ -4089,6 +4089,20 @@
    "observedAt": "2026-11-27T05:17:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-uid-t3-generic",
+   "name": "UID-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "UID-T3 generic solver",
+   "detail": "Posted by cycle lead: generic output collected, 13,697 bytes, gate 7/7 exit 0, about 51s.",
+   "currentTask": "UID-T3 generic output collected",
+   "lastHeartbeat": "2026-11-27T05:09:23.000Z",
+   "observedAt": "2026-11-27T05:09:23.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
