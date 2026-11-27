@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T16:03:26.000Z",
- "summary": "MH-T2 specialist solver finished: 10 ranked candidates, gate passed 113/113, read-back PASS.",
+ "generatedAt": "2026-11-27T16:10:30.000Z",
+ "summary": "Cycle 654 started: Moment Hunter MH-T3 solvers (Jo Koy interview mine).",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 653",
-   "detail": "Cycle 653 started: MH-T2 solvers (Moment Hunter, Lacy marathon mine). Specialist and generic runs in progress.",
-   "currentTask": "MH-T2 solvers: specialist and generic",
-   "lastHeartbeat": "2026-11-27T15:57:00.000Z",
-   "observedAt": "2026-11-27T15:57:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2593,20 +2579,6 @@
    "category": "Audit"
   },
   {
-   "agentId": "gt181-training-dataset-v2",
-   "name": "GT-181 Dataset V2 Builder",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-181: V2 spec frozen (with potential screen); data pull starting",
-   "detail": "V2 spec frozen pre-pull: top 150 by volume, spread <=0.50%, >=500 candles, plus potential screen (7d avg vol >=250k USD/day; median ATR% 0.3-8%) and token taxonomy. Features/labels/splits mirror v1.",
-   "currentTask": "Spec frozen with potential screen and taxonomy amendment; starting the MEXC data pull for the top-150 candidates",
-   "lastHeartbeat": "2026-11-27T14:36:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "MEXC Team / Data"
-  },
-  {
    "agentId": "gt182-own-model-training",
    "name": "GT-182 Own-Model Training",
    "role": "builder",
@@ -2633,6 +2605,20 @@
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 654",
+   "detail": "Moment Hunter MH-T3 solvers running: specialist and generic sides on the Jo Koy interview mine.",
+   "currentTask": "Cycle 654: MH-T3 solvers",
+   "lastHeartbeat": "2026-11-27T16:10:30.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-landing-portal-audit",
@@ -2731,6 +2717,34 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-mh-t2-generic",
+   "name": "MH-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-T2 generic solver",
+   "detail": "MH-T2 generic done: 18,232 bytes, 109s, gate 112 PASS exit 0, READ-BACK: PASS. Posted by the cycle lead.",
+   "currentTask": "MH-T2 generic pair filed",
+   "lastHeartbeat": "2026-11-27T16:07:00.000Z",
+   "observedAt": "2026-11-27T16:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mh-t2-specialist",
+   "name": "MH-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-T2 specialist solver",
+   "detail": "MH-T2 specialist done: 20,995 bytes, 181s, gate 113 assertions exit 0, READ-BACK: PASS. Posted by the cycle lead.",
+   "currentTask": "MH-T2 specialist pair filed",
+   "lastHeartbeat": "2026-11-27T16:07:00.000Z",
+   "observedAt": "2026-11-27T16:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-moment-hunter",
@@ -4103,34 +4117,6 @@
    "observedAt": "2026-11-27T04:26:11.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "mexc-team-verity",
-   "name": "mexc-team-verity",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "VERITY Shadow Army priority track (GT-161)",
-   "detail": "Verified vs MEXC API: all registration facts confirmed. Snapshot 1: $6.2252, S1 open net -3.31% (-$0.17 on $5 shadow), S2/S3 pending. Volume decaying since launch.",
-   "currentTask": "Done: verification and snapshot 1 written to track file and GT-161",
-   "lastHeartbeat": "2026-11-27T04:08:00.000Z",
-   "observedAt": "2026-11-27T04:08:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt159-account-manager",
-   "name": "gt159-account-manager",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-159 Account Manager build + MEXC Team playbook",
-   "detail": "Complete. Engine in WATCH mode (no Phase 0 PASS on record); drills A to D PASS; shadow mode isolated in its own labelled ledger; deliverable at GT-20261127-159-reports/account-manager-report.md.",
-   "currentTask": "Complete: report delivered",
-   "lastHeartbeat": "2026-11-27T03:52:00.000Z",
-   "observedAt": "2026-11-27T03:52:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
