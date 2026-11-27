@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T04:00:41.000Z",
- "summary": "Cycle 598 complete: Prototype Engineer pairs sealed for blind judging cycle 599; scoreboard 26 validated, 8 flagged, 45 unvalidated of 79.",
+ "generatedAt": "2026-11-27T04:08:00.000Z",
+ "summary": "MEXC Team: VERITY facts verified, snapshot 1 recorded (S1 net -3.31% shadow)",
  "agents": [
   {
    "agentId": null,
@@ -99,20 +99,6 @@
    "observedAt": "2026-11-26T02:16:52.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": null,
-   "name": "Page Operator validation flagged",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Page Operator validation flagged",
-   "detail": "Cycle 381: Page Operator failed its second rewrite and is flagged, added to the Approval queue. Scoreboard: 13 validated, 2 flagged, 64 unvalidated of 79.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-25T04:01:05.000Z",
-   "needsUser": true,
-   "category": "Ghostname Team"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -813,20 +799,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "mexc-team-verity",
-   "name": "mexc-team-verity",
-   "role": "researcher",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "VERITY Shadow Army priority track (GT-161)",
-   "detail": "Verifying VERITY registration facts vs live MEXC API, first shadow snapshot",
-   "currentTask": "Verifying VERITY facts on MEXC public API",
-   "lastHeartbeat": "2026-11-27T03:58:00.000Z",
-   "observedAt": "2026-11-27T03:58:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt158-accuracy-round2",
@@ -2621,6 +2593,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "mexc-team-verity",
+   "name": "mexc-team-verity",
+   "role": "researcher",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "VERITY Shadow Army priority track (GT-161)",
+   "detail": "Verified vs MEXC API: all registration facts confirmed. Snapshot 1: $6.2252, S1 open net -3.31% (-$0.17 on $5 shadow), S2/S3 pending. Volume decaying since launch.",
+   "currentTask": "Done: verification and snapshot 1 written to track file and GT-161",
+   "lastHeartbeat": "2026-11-27T04:08:00.000Z",
+   "observedAt": "2026-11-27T04:08:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -4002,20 +3988,6 @@
    "detail": "Complete (posted by parent; start snapshot not posted). Generic 6,335 bytes, 238 words, gate 21/0 exit 0, 33.1s, 0 em dashes.",
    "currentTask": "AB-R1 generic solve complete",
    "lastHeartbeat": "2026-11-26T12:53:10.000Z",
-   "observedAt": "2026-11-26T12:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "ab-r1-specialist",
-   "name": "AB-R1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-R1 specialist solver",
-   "detail": "Complete (posted by parent). Specialist 11,624 bytes, 476 words, gate 42/42 exit 0, 106s, 0 em dashes.",
-   "currentTask": "AB-R1 specialist solve complete",
-   "lastHeartbeat": "2026-11-26T12:55:17.000Z",
    "observedAt": "2026-11-26T12:59:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
