@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T00:30:40.000Z",
- "summary": "MRE-T1 specialist solver complete: gate 7/7 PASS",
+ "generatedAt": "2026-11-27T00:35:45.000Z",
+ "summary": "Cycle 583: MRE-T2 specialist solver",
  "agents": [
   {
    "agentId": null,
@@ -830,17 +830,31 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 582: Mobile Release Engineer validation",
-   "detail": "Cycle 582 started: Mobile Release Engineer (row 9) validation opens, tasks MRE-T1 to MRE-T3 to be filed, T1 solver pair this cycle.",
-   "currentTask": "Filing MRE-T1 to MRE-T3 tasks and keys, running the MRE-T1 solver pair",
-   "lastHeartbeat": "2026-11-27T00:22:57.000Z",
-   "observedAt": "2026-11-27T00:22:57.000Z",
+   "title": "Improvement cycle 583: Mobile Release Engineer MRE-T2",
+   "detail": "MRE-T2 solver pair running: Yame Call v1 close-out record, specialist vs generic.",
+   "currentTask": "MRE-T2 solver pair: specialist vs generic",
+   "lastHeartbeat": "2026-11-27T00:35:00.000Z",
+   "observedAt": "2026-11-27T00:35:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE Page Comment Watcher",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Page Comment Watch",
+   "detail": "CSE comment watch started: checking Page posts Nov 20-27 for new comments",
+   "currentTask": "Checking CSE Page posts Nov 20-27 for new comments",
+   "lastHeartbeat": "2026-11-27T00:32:40.000Z",
+   "observedAt": "2026-11-27T00:32:40.000Z",
+   "needsUser": false,
+   "category": "cse-reviewer"
   },
   {
    "agentId": "gt-149-security",
@@ -2537,32 +2551,60 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-mre-t1-specialist",
-   "name": "MRE-T1 specialist solver",
+   "agentId": "team-mobile-release-engineer-specialist",
+   "name": "MRE-T2 specialist solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "MRE-T1 specialist: Mission Control v1 release checklist",
-   "detail": "MRE-T1 done: checklist, gate.js 7/7 PASS exit 0, delivery note READ-BACK PASS, no em dash",
-   "currentTask": "MRE-T1 complete: gate 7/7 PASS, READ-BACK PASS",
-   "lastHeartbeat": "2026-11-27T00:30:40.000Z",
-   "observedAt": "2026-11-27T00:30:40.000Z",
+   "title": "MRE-T2 specialist solver",
+   "detail": "MRE-T2 specialist solver complete: gate 7/7 pass, exit 0, READ-BACK PASS, 54s wall time.",
+   "currentTask": "MRE-T2 close-out record, gate, and delivery note complete",
+   "lastHeartbeat": "2026-11-27T00:35:45.000Z",
+   "observedAt": "2026-11-27T00:35:45.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-mobile-release-engineer-generic",
+   "name": "MRE-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T2 generic solver",
+   "detail": "Done in 52s. Gate 7/7 passed, exit 0. Record states NOT DELIVERED; no em dashes; READ-BACK: PASS.",
+   "currentTask": "MRE-T2 generic solver: Yame Call v1 close-out record",
+   "lastHeartbeat": "2026-11-27T00:35:41.000Z",
+   "observedAt": "2026-11-27T00:35:41.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-mre-t1-generic",
-   "name": "mre-t1-generic",
+   "name": "MRE-T1 Generic",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "MRE-T1 generic solver",
-   "detail": "MRE-T1 generic done: checklist, gate.js (7/7 pass, exit 0), delivery note; READ-BACK PASS; 82s wall time.",
-   "currentTask": "MRE-T1 generic run complete; gate 7/7 pass, exit 0",
+   "detail": "MRE-T1 generic done: checklist 3,314 bytes, gate 7/7 exit 0, note READ-BACK: PASS, about 82s.",
+   "currentTask": "MRE-T1 generic pair delivered",
    "lastHeartbeat": "2026-11-27T00:30:26.000Z",
-   "observedAt": "2026-11-27T00:30:26.000Z",
+   "observedAt": "2026-11-27T00:32:57.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mre-t1-specialist",
+   "name": "MRE-T1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MRE-T1 specialist solver",
+   "detail": "MRE-T1 specialist done: checklist 3,363 bytes, gate 7/7 exit 0, note READ-BACK: PASS, about 89s.",
+   "currentTask": "MRE-T1 specialist pair delivered",
+   "lastHeartbeat": "2026-11-27T00:30:32.000Z",
+   "observedAt": "2026-11-27T00:32:57.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "aie-r1-judge-r2",
@@ -3011,20 +3053,6 @@
    "observedAt": "2026-11-26T18:45:44.000Z",
    "needsUser": false,
    "category": "validation-loop"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE comment watcher",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page comment watch",
-   "detail": "CSE comment watch complete: 14 posts checked Nov 20-26, no new genuine comments, 0 hearts, 0 replies, no payment claims or order intent.",
-   "currentTask": "Run complete: no new comments",
-   "lastHeartbeat": "2026-11-26T18:44:05.000Z",
-   "observedAt": "2026-11-26T18:44:05.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
   },
   {
    "agentId": "team-ml-engineer-ml-t3-specialist",
@@ -3919,20 +3947,6 @@
    "currentTask": "SYSB-T3 generic build complete",
    "lastHeartbeat": "2026-11-26T08:09:42.000Z",
    "observedAt": "2026-11-26T08:09:42.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-generic",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Generic solver SYSB-T2",
-   "detail": "SYSB-T2 generic: auth.js 3,305, test.js 5,423, note 3,238 bytes, 529 words, 23s, tests 7/7. Posted by cycle parent.",
-   "currentTask": "SYSB-T2 generic solver (posted by cycle parent)",
-   "lastHeartbeat": "2026-11-26T07:59:05.000Z",
-   "observedAt": "2026-11-26T07:59:05.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
