@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T21:25:49.000Z",
- "summary": "Routing check cycle 675 coordinator sealing 5 picks.",
+ "generatedAt": "2026-11-27T21:29:50.000Z",
+ "summary": "Division Leads Panel filed routing check cycle 675 picks: all 5 majorities Watcher; RC-T5 closest at 5-3 over Data Integrity Auditor; RC-T1 6-2, RC-T2 7-1, RC-T3 6-2, RC-T4 7-1.",
  "agents": [
   {
    "agentId": null,
@@ -911,34 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle-coordinator",
-   "name": "Routing Check Coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing check cycle 675 coordinator picks",
-   "detail": "Routing check cycle 675: sealing 5 coordinator picks from ROSTER_INDEX.md triggers, freshness verified.",
-   "currentTask": "Sealing routing check cycle 675 coordinator picks",
-   "lastHeartbeat": "2026-11-27T21:25:49.000Z",
-   "observedAt": "2026-11-27T21:25:49.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-panel",
-   "name": "Division Leads Panel",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Division Leads Panel",
-   "detail": "Panel standing by for cycle 675 tasks",
-   "currentTask": "Awaiting tasks.md to vote",
-   "lastHeartbeat": "2026-11-27T21:16:30.000Z",
-   "observedAt": "2026-11-27T21:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2733,6 +2705,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-panel",
+   "name": "Division Leads Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 675: panel picks filed",
+   "detail": "Panel picks filed: Watcher 6-2, 7-1, 6-2, 7-1, 5-3. Closest call RC-T5 health cycle vs Data Integrity Auditor.",
+   "currentTask": "Routing check cycle 675 panel picks filed",
+   "lastHeartbeat": "2026-11-27T21:29:50.000Z",
+   "observedAt": "2026-11-27T21:29:50.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
+  },
+  {
+   "agentId": "team-improvement-cycle-coordinator",
+   "name": "Routing Check Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 675 coordinator picks",
+   "detail": "Cycle 675 picks sealed: RC-T1 Watcher, RC-T2 Watcher, RC-T3 Watcher, RC-T4 ML Engineer, RC-T5 Data Integrity Auditor. Freshness verified.",
+   "currentTask": "Cycle 675 picks sealed and filed",
+   "lastHeartbeat": "2026-11-27T21:27:02.000Z",
+   "observedAt": "2026-11-27T21:27:02.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-prototype-engineer-pe-s3-generic",
    "name": "PE-S3 Generic Solver",
    "role": "builder",
@@ -4103,34 +4103,6 @@
    "observedAt": "2026-11-27T07:40:41.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "gt165-coordinator",
-   "name": "gt165-mexc-console",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-165 MEXC Trading Bot Console",
-   "detail": "COMPLETE: MEXC Trading Bot Console (mexc-trading-bot-console) built and audit-verified. Live public prices proven, Phase board incl. GT-158 PASS, shadow tracks, local-runner key flow, zero secret fields. Report filed.",
-   "currentTask": "Complete: console built and verified; job report filed",
-   "lastHeartbeat": "2026-11-27T07:36:00.000Z",
-   "observedAt": "2026-11-27T07:36:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-bid-t1-generic",
-   "name": "BID-T1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "BID-T1 generic solver",
-   "detail": "Posted by the cycle lead: generic audit 7,361 bytes / 1,249 words, gate exit 0, 7/7, READ-BACK: PASS, about 109s.",
-   "currentTask": "BID-T1 generic audit done",
-   "lastHeartbeat": "2026-11-27T07:22:49.000Z",
-   "observedAt": "2026-11-27T07:24:34.000Z",
-   "needsUser": false,
-   "category": "ghostame-team"
   }
  ]
 }
