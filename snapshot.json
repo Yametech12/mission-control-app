@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T17:51:43.000Z",
- "summary": "Routing check 660 panel: voting started",
+ "generatedAt": "2026-11-27T17:53:42.000Z",
+ "summary": "Routing check 660 panel: voting complete",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "routing-check-panel-660",
-   "name": "Routing Check Panel",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing check 660 panel",
-   "detail": "Panel voting started on 5 routing tasks RC-T1 to RC-T5.",
-   "currentTask": "Voting on RC-T1 to RC-T5 from ROSTER_INDEX.md triggers",
-   "lastHeartbeat": "2026-11-27T17:51:43.000Z",
-   "observedAt": "2026-11-27T17:51:43.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2719,6 +2705,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "routing-check-panel-660",
+   "name": "Routing Check Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check 660 panel",
+   "detail": "Picks: RC-T1 Money Researcher 4-2, RC-T2 Money Researcher 5-2, RC-T3 Watcher 7-1, RC-T4 Watcher 5-2, RC-T5 Watcher 5-2.",
+   "currentTask": "Panel voting complete, picks filed",
+   "lastHeartbeat": "2026-11-27T17:53:42.000Z",
+   "observedAt": "2026-11-27T17:53:42.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt189-hypergrok-eval",
    "name": "gt189-hypergrok-eval",
    "role": "researcher",
@@ -4100,20 +4100,6 @@
    "detail": "Generic UID-T1 complete: 14,579 bytes, 305 words, gate 7/7 exit 0, READ-BACK: PASS.",
    "currentTask": "UID-T1 generic solve complete",
    "lastHeartbeat": "2026-11-27T04:50:29.000Z",
-   "observedAt": "2026-11-27T04:52:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-uid-t1-specialist",
-   "name": "UID-T1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "UID-T1 specialist solver complete (posted by cycle parent)",
-   "detail": "Specialist UID-T1 complete: 26,544 bytes, 256 words, gate 7/7 exit 0, READ-BACK: PASS.",
-   "currentTask": "UID-T1 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T04:50:58.000Z",
    "observedAt": "2026-11-27T04:52:10.000Z",
    "needsUser": false,
    "category": "ghostname-team"
