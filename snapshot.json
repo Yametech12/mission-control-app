@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:26:09.000Z",
- "summary": "Cycle 591 running: Web Performance Engineer WPE-T3 solver pair.",
+ "generatedAt": "2026-11-27T02:31:41.000Z",
+ "summary": "Cycle 591 complete: WPE-T3 pair collected and verified; sealing 592, judging 593.",
  "agents": [
   {
    "agentId": null,
@@ -813,20 +813,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 591",
-   "detail": "WPE-T3 solvers running: specialist vs generic WebGL budget audit pair.",
-   "currentTask": "Cycle 591: WPE-T3 solver pair",
-   "lastHeartbeat": "2026-11-27T02:26:09.000Z",
-   "observedAt": "2026-11-27T02:26:09.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "3da957a4-4712-47eb-8a02-f045d6f5c4fc",
@@ -2579,6 +2565,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 591",
+   "detail": "Cycle 591 done: WPE-T3 pair collected and verified (specialist 1,120 words, generic 1,113 words; both gates 7/7). Sealing 592, judging 593.",
+   "currentTask": "Cycle 591 complete: WPE-T3 pair collected",
+   "lastHeartbeat": "2026-11-27T02:31:41.000Z",
+   "observedAt": "2026-11-27T02:31:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-t3-generic",
+   "name": "WPE-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T3 generic solver",
+   "detail": "WPE-T3 generic solve complete, posted by the parent: budget-audit 6,371 bytes, 1,113 words, gate 7/7, about 60s. (posted by the job lead)",
+   "currentTask": "WPE-T3 generic solve complete",
+   "lastHeartbeat": "2026-11-27T02:29:03.000Z",
+   "observedAt": "2026-11-27T02:31:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-t3-specialist",
+   "name": "WPE-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-T3 specialist solver",
+   "detail": "WPE-T3 specialist solve complete, posted by the parent: budget-audit 6,578 bytes, 1,120 words, gate 7/7, about 124s. (posted by the job lead)",
+   "currentTask": "WPE-T3 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T02:29:10.000Z",
+   "observedAt": "2026-11-27T02:31:41.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "gt152-problem-hunt",
    "name": "gt152-problem-hunt",
    "role": "researcher",
@@ -3933,48 +3961,6 @@
    "currentTask": "SB-R1 specialist build complete",
    "lastHeartbeat": "2026-11-26T10:21:30.000Z",
    "observedAt": "2026-11-26T10:21:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-ab-t1",
-   "name": "AB-T1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T1 judge (cycle 516)",
-   "detail": "AB-T1 judged (carried by parent): generic win 7.75 vs 7.00, contamination clean",
-   "currentTask": "AB-T1 judged: generic win 7.75 vs 7.00",
-   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
-   "observedAt": "2026-11-26T10:04:47.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-ab-t2",
-   "name": "AB-T2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T2 judge (cycle 516)",
-   "detail": "AB-T2 judged (carried by parent): specialist win 8.25 vs 7.50, contamination clean",
-   "currentTask": "AB-T2 judged: specialist win 8.25 vs 7.50",
-   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
-   "observedAt": "2026-11-26T10:04:47.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-ab-t3",
-   "name": "AB-T3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AB-T3 judge (cycle 516)",
-   "detail": "AB-T3 judged (carried by parent, corrected category): specialist win 8.75 vs 5.25, contamination clean",
-   "currentTask": "AB-T3 judged: specialist win 8.75 vs 5.25",
-   "lastHeartbeat": "2026-11-26T10:04:47.000Z",
-   "observedAt": "2026-11-26T10:04:47.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
