@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T14:47:00.000Z",
- "summary": "GT-185 Multi-Browser Operations Plan started: writing the plan document only, no browsers opened.",
+ "generatedAt": "2026-11-27T14:50:04.000Z",
+ "summary": "WPE-R3 generic solver complete: audit shipped, gate 7/7 PASS, verdict NOT VERIFIED.",
  "agents": [
   {
    "agentId": "gt180-kronos-execution",
@@ -897,20 +897,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 648: WPE-R3 solvers",
-   "detail": "Cycle 648 running: Web Performance Engineer retest WPE-R3 pair, specialist vs generic, sealing 649, judging 651.",
-   "currentTask": "WPE-R3 solvers, cycle 648",
-   "lastHeartbeat": "2026-11-27T14:45:00.000Z",
-   "observedAt": "2026-11-27T14:45:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt179-training-dataset",
@@ -2630,20 +2616,6 @@
    "detail": "Spec frozen at files/OWN_MODEL_TRAINING_SPEC_2026-11-27.md: 58 features, 16 configs x 2 thresholds = 32 trials, lane cost model + 2x stress, walk-forward check, baselines. Waiting on GT-179 dataset freeze.",
    "currentTask": "Spec frozen; waiting for GT-179 dataset + manifest to verify hashes",
    "lastHeartbeat": "2026-11-27T14:42:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "MEXC Team"
-  },
-  {
-   "agentId": "gt185-multi-browser-plan",
-   "name": "GT-185 Multi-Browser Planner",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-185 Multi-Browser Operations Plan",
-   "detail": "Started: writing the multi-browser operations plan (division of labor, 10-slot map, coordination, safety, activation, limits). Plan document only; no browser opened.",
-   "currentTask": "Writing MULTI_BROWSER_OPERATIONS_PLAN_2026-11-27.md",
-   "lastHeartbeat": "2026-11-27T14:47:00.000Z",
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
