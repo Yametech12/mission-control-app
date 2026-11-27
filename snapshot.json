@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T20:21:36.000Z",
- "summary": "Coordinator sealing routing check cycle 670 picks.",
+ "generatedAt": "2026-11-27T20:25:30.000Z",
+ "summary": "Routing check cycle 670 panel complete: all 5 picks Watcher (RC-T1 7-1, RC-T2 7-1, RC-T3 6-2, RC-T4 7-1, RC-T5 6-2). Picks filed.",
  "agents": [
   {
    "agentId": null,
@@ -911,20 +911,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle-coordinator",
-   "name": "Improvement Cycle Coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team routing check cycle 670",
-   "detail": "Routing check cycle 670 started: verifying freshness of 5 legs, then sealing Coordinator picks.",
-   "currentTask": "Routing check cycle 670: sealing 5 picks from ROSTER_INDEX triggers",
-   "lastHeartbeat": "2026-11-27T20:21:36.000Z",
-   "observedAt": "2026-11-27T20:21:36.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2719,6 +2705,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-coordinator",
+   "name": "Improvement Cycle Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team routing check cycle 670",
+   "detail": "Cycle 670 picks sealed: Watcher x3 (RC-T1 to RC-T3), ML Engineer x2 (RC-T4, RC-T5). Freshness verified, all 5 legs fresh.",
+   "currentTask": "Routing check cycle 670 picks sealed",
+   "lastHeartbeat": "2026-11-27T20:22:17.000Z",
+   "observedAt": "2026-11-27T20:22:17.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-pe-r1",
    "name": "PE-R1 blind judge",
    "role": "auditor",
@@ -4100,20 +4100,6 @@
    "detail": "Completed cycle 609: 21,814 bytes, gate 7/7 exit 0, 236s. Posted by parent at close.",
    "currentTask": "M3D-T3 generic solve complete",
    "lastHeartbeat": "2026-11-27T06:33:05.000Z",
-   "observedAt": "2026-11-27T06:35:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-m3d-t3-specialist",
-   "name": "M3D-T3 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-T3 specialist solver",
-   "detail": "Completed cycle 609: 20,942 bytes, gate 7/7 exit 0, 245s. Posted by parent at close.",
-   "currentTask": "M3D-T3 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T06:33:21.000Z",
    "observedAt": "2026-11-27T06:35:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
