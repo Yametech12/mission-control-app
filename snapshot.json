@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T04:08:00.000Z",
- "summary": "MEXC Team: VERITY facts verified, snapshot 1 recorded (S1 net -3.31% shadow)",
+ "generatedAt": "2026-11-27T04:16:05.000Z",
+ "summary": "Cycle 599: judging Prototype Engineer.",
  "agents": [
   {
    "agentId": null,
@@ -801,6 +801,48 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 599",
+   "detail": "Cycle 599 started: judging Prototype Engineer, 3 blind QA judges on sealed PE-T1 to PE-T3 pairs.",
+   "currentTask": "Cycle 599: judging Prototype Engineer (3 blind QA judges)",
+   "lastHeartbeat": "2026-11-27T04:16:05.000Z",
+   "observedAt": "2026-11-27T04:16:05.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt157-mass-simulation",
+   "name": "gt157-mass-simulation",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-157 all-coins mass simulation",
+   "detail": "Data stage: corrected fetch re-running for 30 pairs (4h and 1h). Errata note filed in the reports folder. Backtest starts once coverage verifies.",
+   "currentTask": "Re-fetching kline archives with corrected verifier",
+   "lastHeartbeat": "2026-11-27T04:16:00.000Z",
+   "observedAt": "2026-11-27T04:16:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "mexc-team-fivepair",
+   "name": "mexc-team-fivepair",
+   "role": "researcher",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "MEXC Team: five-pair entry investigation",
+   "detail": "GT-162 started: five-pair observe and investigate, entry analysis for shadow start Nov 28. Public API only, no orders.",
+   "currentTask": "Pulling MEXC public API data for BULLA, CT, ZRO, FET, HYPE",
+   "lastHeartbeat": "2026-11-27T04:16:00.000Z",
+   "observedAt": "2026-11-27T04:16:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "gt158-accuracy-round2",
    "name": "gt158-accuracy-round2",
    "role": "coordinator",
@@ -825,20 +867,6 @@
    "currentTask": "Building multi-track multi-pair shadow engine (shadow2.py)",
    "lastHeartbeat": "2026-11-27T03:55:25.000Z",
    "observedAt": "2026-11-27T03:55:25.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt157-mass-simulation",
-   "name": "gt157-mass-simulation",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-157 all-coins mass simulation",
-   "detail": "Universe done: 30 evaluable pairs (liquidity floor cut 1,213 of 1,266). Fetching 4h and 1h Binance Vision archives, then 660 registered trials.",
-   "currentTask": "Downloading and verifying kline archives for 30 pairs",
-   "lastHeartbeat": "2026-11-27T03:42:00.000Z",
-   "observedAt": "2026-11-27T03:42:00.000Z",
    "needsUser": false,
    "category": "trading"
   },
@@ -2607,20 +2635,6 @@
    "category": "trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 598: Prototype Engineer sealed",
-   "detail": "Cycle 598 done: Prototype Engineer sealed SEAL_OK first run, 36 neutral files, 0 identity hits; judging cycle 599.",
-   "currentTask": "Cycle 598 complete: Prototype Engineer pairs sealed",
-   "lastHeartbeat": "2026-11-27T04:00:41.000Z",
-   "observedAt": "2026-11-27T04:00:41.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "gt159-account-manager",
    "name": "gt159-account-manager",
    "role": "builder",
@@ -3988,6 +4002,20 @@
    "detail": "Complete (posted by parent; start snapshot not posted). Generic 6,335 bytes, 238 words, gate 21/0 exit 0, 33.1s, 0 em dashes.",
    "currentTask": "AB-R1 generic solve complete",
    "lastHeartbeat": "2026-11-26T12:53:10.000Z",
+   "observedAt": "2026-11-26T12:59:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "ab-r1-specialist",
+   "name": "AB-R1 Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AB-R1 specialist solver",
+   "detail": "Complete (posted by parent). Specialist 11,624 bytes, 476 words, gate 42/42 exit 0, 106s, 0 em dashes.",
+   "currentTask": "AB-R1 specialist solve complete",
+   "lastHeartbeat": "2026-11-26T12:55:17.000Z",
    "observedAt": "2026-11-26T12:59:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
