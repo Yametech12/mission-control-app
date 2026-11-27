@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:31:41.000Z",
- "summary": "Cycle 591 complete: WPE-T3 pair collected and verified; sealing 592, judging 593.",
+ "generatedAt": "2026-11-27T02:40:59.000Z",
+ "summary": "Improvement cycle 592 sealed Web Performance Engineer pairs; judging next cycle.",
  "agents": [
   {
    "agentId": null,
@@ -2566,17 +2566,31 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 591",
-   "detail": "Cycle 591 done: WPE-T3 pair collected and verified (specialist 1,120 words, generic 1,113 words; both gates 7/7). Sealing 592, judging 593.",
-   "currentTask": "Cycle 591 complete: WPE-T3 pair collected",
-   "lastHeartbeat": "2026-11-27T02:31:41.000Z",
-   "observedAt": "2026-11-27T02:31:41.000Z",
+   "title": "Improvement cycle 592: Web Performance Engineer sealed",
+   "detail": "SEAL_OK first run, 4 changed lines, 18 neutral files, 0 identity hits, all six neutral gates exit 0; judging lands cycle 593.",
+   "currentTask": "Cycle 592 sealed; judging cycle 593",
+   "lastHeartbeat": "2026-11-27T02:40:59.000Z",
+   "observedAt": "2026-11-27T02:40:59.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt153-team-plan",
+   "name": "gt153-team-plan",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-153 Dressing Room AI plan",
+   "detail": "GT-153 Dressing Room AI team plan complete: full phased plan filed. Try-on costs P2.32 to P4.35 per generation, verdict about P0.12. P99 survives only credit-capped; seller mode is the revenue spine. v1 in 10 to 14 days.",
+   "currentTask": "Plan complete: team-plan.md filed with full phased product plan",
+   "lastHeartbeat": "2026-11-27T02:40:57.000Z",
+   "observedAt": "2026-11-27T02:40:57.000Z",
+   "needsUser": false,
+   "category": "apps"
   },
   {
    "agentId": "team-wpe-t3-generic",
@@ -3945,20 +3959,6 @@
    "title": "Generic SB-R1 solver",
    "detail": "SB-R1 generic complete, posted by parent: 4,641 byte note, 783 words, gate exit 0, no browser.",
    "currentTask": "SB-R1 generic build complete",
-   "lastHeartbeat": "2026-11-26T10:21:30.000Z",
-   "observedAt": "2026-11-26T10:21:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-site-builder-sb-r1-specialist",
-   "name": "Site Builder SB-R1 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Site Builder SB-R1 specialist",
-   "detail": "SB-R1 specialist complete, posted by parent: 6,418 byte note, 1,098 words, gate 42 passed, live reads.",
-   "currentTask": "SB-R1 specialist build complete",
    "lastHeartbeat": "2026-11-26T10:21:30.000Z",
    "observedAt": "2026-11-26T10:21:30.000Z",
    "needsUser": false,
