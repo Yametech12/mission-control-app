@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-28T08:15:34.000Z",
- "summary": "Cycle 713 started: judging Typography Specialist retest.",
+ "generatedAt": "2026-11-28T08:18:40.000Z",
+ "summary": "TYPO-R1 judge: B wins 8.75 vs A 6.5",
  "agents": [
   {
    "agentId": null,
-   "name": "Whop Townhall product posts",
+   "name": "Shadow Army 1h track freshness failing",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: 99 consecutive failures; the chat it posts to cannot receive results. Last success Nov 3. Reconnect that chat or move delivery.",
+   "title": "Shadow Army 1h track freshness failing",
+   "detail": "Check 3 failed 7 times in a row (15:07-16:05 PHT): candidate-b 1h track 4 hourly candles behind, 0 GAP rows; 4h tracks fine. Owner alert already due.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T07:16:35.000Z",
-   "needsUser": true,
-   "category": "clips"
+   "observedAt": "2026-11-28T08:08:04.000Z",
+   "needsUser": false,
+   "category": "Trading"
   },
   {
    "agentId": null,
@@ -32,62 +32,6 @@
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Daily Drive backup failed 24 times in a row with no recorded reason; last success Nov 4.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T07:16:35.000Z",
-   "needsUser": false,
-   "category": "backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Supabase keep-alive failed 8 times in a row with no recorded reason; last success Nov 2.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T07:16:35.000Z",
-   "needsUser": false,
-   "category": "monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Monday promo check failed 3 times in a row with no recorded reason; last success Nov 4. Next run Mon Nov 30, 09:00 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T07:16:35.000Z",
-   "needsUser": false,
-   "category": "zulti"
-  },
-  {
-   "agentId": null,
-   "name": "Shadow Army 1h track freshness failing",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Shadow Army 1h track freshness failing",
-   "detail": "Candidate-b 1h track is 4 hourly closes behind with 0 GAP rows; 7th straight freshness failure. Cause is backlog item (f): 1h track on a 4h-only schedule. Needs a team job decision.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T04:08:17.000Z",
-   "needsUser": true,
-   "category": "trading"
-  },
-  {
-   "agentId": null,
    "name": "1-week training sprint daily checkpoint",
    "role": null,
    "agentStatus": null,
@@ -99,6 +43,20 @@
    "observedAt": "2026-11-28T03:16:58.000Z",
    "needsUser": false,
    "category": "Trading"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall posts blocked",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall posts blocked",
+   "detail": "Blocked since Nov 4: the chat it posts to can no longer receive results; 99 consecutive failures, last run failed today 10:35 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T02:35:12.000Z",
+   "needsUser": true,
+   "category": "Whop"
   },
   {
    "agentId": "sprint-daily-checkpoint",
@@ -141,6 +99,20 @@
    "observedAt": "2026-11-27T23:07:46.000Z",
    "needsUser": false,
    "category": "Trading"
+  },
+  {
+   "agentId": null,
+   "name": "Memory Drive backup failing",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory Drive backup failing",
+   "detail": "24 consecutive failures; last run failed Fri 23:26 PHT, last success Nov 4. Next attempt tonight 23:30 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T15:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": "gt180-kronos-execution",
@@ -239,6 +211,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive failing",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive failing",
+   "detail": "8 consecutive failures; last run failed Thu 19:05 PHT, last success Nov 2. Next keep-alive Sun 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -2747,6 +2733,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-judge-typo-r1",
+   "name": "TYPO-R1 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-R1 judge",
+   "detail": "TYPO-R1 judged blind: B wins 8.75 vs A 6.5. Both gates 7/7. No contamination found.",
+   "currentTask": "TYPO-R1 judging done",
+   "lastHeartbeat": "2026-11-28T08:18:40.000Z",
+   "observedAt": "2026-11-28T08:18:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-typo-r2",
+   "name": "TYPO-R2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-R2 judge",
+   "detail": "TYPO-R2 judged blind: A 8.25, B 8.50. B wins narrowly on depth and ranked list.",
+   "currentTask": "TYPO-R2 judging done",
+   "lastHeartbeat": "2026-11-28T08:18:10.000Z",
+   "observedAt": "2026-11-28T08:18:10.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-typo-r3",
+   "name": "TYPO-R3 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-R3 judge",
+   "detail": "TYPO-R3 judged: A 8.25, B 8.75. B wins on deeper scale treatment and ranked list. No contamination flag.",
+   "currentTask": "TYPO-R3 judging done",
+   "lastHeartbeat": "2026-11-28T08:18:04.000Z",
+   "observedAt": "2026-11-28T08:18:04.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-mexc-shadowarmy-gt199",
    "name": "shadow-army-builder-gt199",
    "role": "coordinator",
@@ -4103,48 +4131,6 @@
    "observedAt": "2026-11-27T13:51:55.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-dse-t3",
-   "name": "DSE-T3 Re-judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T3 re-judgement (cycle 644)",
-   "detail": "Posted by job lead: fresh QA judge filed dse-t3-judgement-r2.md, specialist win 8.75 vs 7.50, contamination clean.",
-   "currentTask": "DSE-T3 re-judgement filed",
-   "lastHeartbeat": "2026-11-27T13:44:04.000Z",
-   "observedAt": "2026-11-27T13:45:12.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-improvement-cycle-dse-t1-judge",
-   "name": "DSE-T1 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T1 judgement filed",
-   "detail": "DSE-T1 judgement filed by its judge (carried by cycle parent): A 8.75 vs B 8.00, contamination clean.",
-   "currentTask": "DSE-T1 judgement filed: A 8.75 vs B 8.00",
-   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
-   "observedAt": "2026-11-27T13:38:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-dse-t2-judge",
-   "name": "DSE-T2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T2 judgement filed",
-   "detail": "DSE-T2 judgement filed by its judge (carried by cycle parent): A 8.5 vs B 7.5, contamination clean.",
-   "currentTask": "DSE-T2 judgement filed: A 8.5 vs B 7.5",
-   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
-   "observedAt": "2026-11-27T13:38:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
