@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:27:00.000Z",
- "summary": "Improvement cycle 714 running: Illustration and Icon Designer retest.",
+ "generatedAt": "2026-11-28T08:36:30.000Z",
+ "summary": "IID retest IID-R1 generic solver done, gate 13 of 13 passed",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "Illustration and Icon Designer (specialist solver)",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "IID retest IID-R1 specialist solver",
+   "detail": "IID-R1 specialist solve started: FitOrSkip Hang Tag icon set record",
+   "currentTask": "IID-R1 specialist solve",
+   "lastHeartbeat": "2026-11-28T08:34:00.000Z",
+   "observedAt": "2026-11-28T08:34:00.000Z",
+   "needsUser": false,
+   "category": "ghostename-team"
   },
   {
    "agentId": "team-mexc-shadowarmy-gt200",
@@ -2747,6 +2761,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-iid-r1-generic-solver",
+   "name": "IID retest IID-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID retest IID-R1 generic solver",
+   "detail": "Icon set record, SVG master, gate, delivery note built; gate 13 of 13 passed, read-back PASS.",
+   "currentTask": "IID-R1 generic solve",
+   "lastHeartbeat": "2026-11-28T08:36:30.000Z",
+   "observedAt": "2026-11-28T08:36:30.000Z",
+   "needsUser": false,
+   "category": "ghostename-team"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-typo-r1",
    "name": "TYPO-R1 judge",
    "role": "auditor",
@@ -4131,20 +4159,6 @@
    "observedAt": "2026-11-27T14:05:00.000Z",
    "needsUser": false,
    "category": "trading-research"
-  },
-  {
-   "agentId": "gt177-promax-improve",
-   "name": "gt177-promax-improve",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-177 MEXC Pro Max artifact improvement pass",
-   "detail": "Complete. OFFICIAL PHASE 1 panel shows ledger counters as of Nov 27 8:10 PM PHT; SIMULATION labelled everywhere; phone overflow 0px; retry with backoff added; Guardian ignores STALE marks. Report filed.",
-   "currentTask": "GT-177 complete, report filed",
-   "lastHeartbeat": "2026-11-27T13:51:55.000Z",
-   "observedAt": "2026-11-27T13:51:55.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
