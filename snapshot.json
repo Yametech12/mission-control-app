@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T06:26:00.000Z",
- "summary": "Cycle 706: sealing Design Auditor retest 2 (DA-S1 to DA-S3 pairs) for blind judging in cycle 707.",
+ "generatedAt": "2026-11-28T06:32:05.000Z",
+ "summary": "CSE comment watch run started; checking Page posts Nov 21-28 for new genuine comments.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE comment watcher",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Page comment watch",
+   "detail": "Checking CSE Page posts Nov 21-28 for new genuine comments.",
+   "currentTask": "Checking CSE Page posts Nov 21-28 for new comments",
+   "lastHeartbeat": "2026-11-28T06:32:05.000Z",
+   "observedAt": "2026-11-28T06:32:05.000Z",
+   "needsUser": false,
+   "category": "cse"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -3167,20 +3181,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE Page Comment Watcher",
-   "role": "monitor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Page Comment Watch",
-   "detail": "Comment watch done: 7 new answers on the group-shared Nov 28 Quick Check (15% of 240) hearted and replied; no new comments on Page own posts; no payment claims or order intent.",
-   "currentTask": "Run complete: 7 comments hearted and replied, 0 flags",
-   "lastHeartbeat": "2026-11-28T00:54:05.000Z",
-   "observedAt": "2026-11-28T00:54:05.000Z",
-   "needsUser": false,
-   "category": "cse"
-  },
-  {
    "agentId": "m3d-s1-specialist",
    "name": "M3D-S1 specialist solver",
    "role": "builder",
@@ -4131,6 +4131,20 @@
    "observedAt": "2026-11-27T12:29:06.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-iid-judge-t2",
+   "name": "IID-T2 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-T2 judge",
+   "detail": "IID-T2 judged by fresh-context QA judge: B wins 8.50 vs 7.25. Posted by parent; judge did not read the reporting playbook.",
+   "currentTask": "IID-T2 judged: B wins 8.50 vs 7.25",
+   "lastHeartbeat": "2026-11-27T12:11:30.000Z",
+   "observedAt": "2026-11-27T12:11:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
