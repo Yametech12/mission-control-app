@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:21:00.000Z",
- "summary": "Cycle 713 done: TYPO retest judged 8.50 vs 7.83 (2W 1L), card rewritten (rewrite 2).",
+ "generatedAt": "2026-11-28T08:27:00.000Z",
+ "summary": "Improvement cycle 714 running: Illustration and Icon Designer retest.",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-mexc-shadowarmy-gt200",
+   "name": "shadow-army-arise-gt200",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Shadow Army ARISE run (GT-200)",
+   "detail": "GT-200 arise run started. Steps 3 to 11 gated chain. Step 3 waits on GT-198 final manifest; shards still collecting.",
+   "currentTask": "Step 3 waiting on GT-198 archive manifest (522 of 1000 pairs)",
+   "lastHeartbeat": "2026-11-28T08:31:00.000Z",
+   "observedAt": "2026-11-28T08:31:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 714: IID retest IID-R1",
+   "detail": "Cycle 714 started: Illustration and Icon Designer retest opens, filing IID-R1 to IID-R3 and running the IID-R1 solver pair.",
+   "currentTask": "Cycle 714: Illustration and Icon Designer retest, IID-R1 pair",
+   "lastHeartbeat": "2026-11-28T08:27:00.000Z",
+   "observedAt": "2026-11-28T08:27:00.000Z",
+   "needsUser": false,
+   "category": "ghostename-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2719,20 +2747,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 713 judging TYPO retest",
-   "detail": "Cycle 713 done: TYPO retest 8.50 vs 7.83, 2W 1L, not a clear win. Card rewritten (rewrite 2). Scoreboard 32/10/37 of 79.",
-   "currentTask": "Cycle 713 done: TYPO retest judged, card rewritten (rewrite 2)",
-   "lastHeartbeat": "2026-11-28T08:21:00.000Z",
-   "observedAt": "2026-11-28T08:21:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-improvement-cycle-judge-typo-r1",
    "name": "TYPO-R1 judge",
    "role": "auditor",
@@ -4117,6 +4131,20 @@
    "observedAt": "2026-11-27T14:05:00.000Z",
    "needsUser": false,
    "category": "trading-research"
+  },
+  {
+   "agentId": "gt177-promax-improve",
+   "name": "gt177-promax-improve",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-177 MEXC Pro Max artifact improvement pass",
+   "detail": "Complete. OFFICIAL PHASE 1 panel shows ledger counters as of Nov 27 8:10 PM PHT; SIMULATION labelled everywhere; phone overflow 0px; retry with backoff added; Guardian ignores STALE marks. Report filed.",
+   "currentTask": "GT-177 complete, report filed",
+   "lastHeartbeat": "2026-11-27T13:51:55.000Z",
+   "observedAt": "2026-11-27T13:51:55.000Z",
+   "needsUser": false,
+   "category": "trading"
   }
  ]
 }
