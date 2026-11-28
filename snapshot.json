@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:11:13.000Z",
- "summary": "TYPO-R1 specialist solver started building the CSE quiz image type decision record.",
+ "generatedAt": "2026-11-28T07:15:42.000Z",
+ "summary": "TYPO-R1 specialist run complete: type decision record built, gate passed 7/7 with exit code 0, read-back PASS.",
  "agents": [
   {
    "agentId": null,
@@ -2675,20 +2675,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "typo-r1-specialist",
-   "name": "TYPO-R1 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "TYPO-R1 Specialist Solver",
-   "detail": "TYPO-R1 specialist solver started: building CSE quiz image type record for GT-20261125-131.",
-   "currentTask": "TYPO-R1 type decision record",
-   "lastHeartbeat": "2026-11-28T07:11:13.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "Validation"
   },
   {
    "agentId": "gt88-jokoy-posting",
