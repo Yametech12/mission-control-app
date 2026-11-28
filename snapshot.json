@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:47:00.000Z",
- "summary": "GT-191 diagnosis complete with measured values; improvement spec being frozen before any training.",
+ "generatedAt": "2026-11-28T01:35:34.000Z",
+ "summary": "Routing check cycle 690 running",
  "agents": [
   {
    "agentId": null,
@@ -983,18 +983,18 @@
    "category": "trading"
   },
   {
-   "agentId": "team-mexc-promax-gt190",
-   "name": "MEXC Team Coordinator",
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-190 MEXC Pro Max improvement pass 2",
-   "detail": "Milestone: Phase 1 figures independently verified against ledger files. Artifact edit in progress (panel refresh, disconnect verification, data honesty, phone pass).",
-   "currentTask": "Waiting on artifact edit builder; figures verified",
-   "lastHeartbeat": "2026-11-28T01:32:25.000Z",
-   "observedAt": "2026-11-28T01:32:25.000Z",
+   "title": "Ghostname Team improvement cycle 690",
+   "detail": "Cycle 690 routing check started: 5 fresh Nov 28 legs (VERITY snapshot 22, MONTRA 08:28, BULLA 08:28, observer 4h run, health cycle 09:15)",
+   "currentTask": "Routing check cycle 690: 5 fresh Nov 28 legs",
+   "lastHeartbeat": "2026-11-28T01:35:34.000Z",
+   "observedAt": "2026-11-28T01:35:34.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2789,6 +2789,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-mexc-promax-gt190",
+   "name": "MEXC Team Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-190 MEXC Pro Max improvement pass 2",
+   "detail": "Complete. Panel refreshed and verified live; disconnect toggle driven live both ways (REALTIME recovery unverified, sandbox egress blocks wss); data source and age added where missing; phone 0 px overflow. Report filed.",
+   "currentTask": "GT-190 complete, report filed",
+   "lastHeartbeat": "2026-11-28T01:37:10.000Z",
+   "observedAt": "2026-11-28T01:37:10.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "b132ab75-d5e0-4c72-8824-156d3548341a",
    "name": "Data Integrity Auditor",
    "role": "auditor",
@@ -2797,24 +2811,10 @@
    "title": "GT-190 data integrity audit (posted by job lead)",
    "detail": "Complete: FIGURES VERIFIED. All six figures and the as-of timestamp match status.json, phase1_status.txt, latest_phase1.json; ledger hash chain ok (6 rows); shadow positions confirmed excluded.",
    "currentTask": "Audit complete, report filed",
-   "lastHeartbeat": "2026-11-28T01:32:25.000Z",
-   "observedAt": "2026-11-28T01:32:25.000Z",
+   "lastHeartbeat": "2026-11-28T01:37:10.000Z",
+   "observedAt": "2026-11-28T01:37:10.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 689 sealed M3D retest 2",
-   "detail": "Cycle 689 sealed M3D retest 2: SEAL_OK, 6 changed lines, 26 neutral files, 0 identity hits, all 6 neutral gates exit 0. Judging cycle 691.",
-   "currentTask": "Cycle 689 done: M3D retest 2 sealed",
-   "lastHeartbeat": "2026-11-28T01:30:30.000Z",
-   "observedAt": "2026-11-28T01:30:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "m3d-s3-generic",
