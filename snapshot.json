@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:25:00.000Z",
- "summary": "Cycle 722 TYPO-S2 specialist solver complete.",
+ "generatedAt": "2026-11-28T10:26:00.000Z",
+ "summary": "GT-200 ARISE run: steps 3 to 9 complete and verified (197 tests). Step 10 framework shadow launch in progress.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-mexc-shadowarmy-gt200",
-   "name": "shadow-army-arise-gt200",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Shadow Army ARISE run (GT-200)",
-   "detail": "Step 8 gate PASS verified: 179 tests, promotion and demotion logic, Tank cap, Iron stops, rank isolation all proven. Step 9 worker building the agent factory.",
-   "currentTask": "Step 9 (GT-206): agent factory CLI, Greed, Fangs and Kaisel stubs, Monarch wiring, worker dispatched",
-   "lastHeartbeat": "2026-11-28T10:33:00.000Z",
-   "observedAt": "2026-11-28T10:33:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,6 +2677,20 @@
    "category": "validation"
   },
   {
+   "agentId": "team-mexc-shadowarmy-gt200",
+   "name": "MEXC Shadow Army ARISE (GT-200)",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Shadow Army ARISE run: steps 3 to 9 PASS, step 10 launching",
+   "detail": "Steps 3 to 9 all gated PASS, full suite 197 tests. Step 10 in progress: framework native shadow registrations, live Scout feed, first cycles with the four checks, 7 clean days gate clock starts at first verified cycle.",
+   "currentTask": "Step 10 shadow launch: registrations, live Scout, first cycles",
+   "lastHeartbeat": "2026-11-28T10:26:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "MEXC Team"
+  },
+  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2748,15 +2748,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "TYPO-S2 specialist solver",
-   "role": "builder",
+   "name": "Improvement cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Cycle 722 TYPO-S2 specialist solver",
-   "detail": "Cycle 722 TYPO-S2 specialist solver complete: gate 7/7 exit 0, read-back PASS.",
-   "currentTask": "TYPO-S2 record complete: gate 7/7 exit 0, read-back PASS",
-   "lastHeartbeat": "2026-11-28T10:25:00.000Z",
-   "observedAt": "2026-11-28T10:25:00.000Z",
+   "title": "Improvement cycle 722: TYPO-S2 collected",
+   "detail": "TYPO-S2 pair verified (specialist 13,716/2,219 words, generic 14,412/2,371 words; both gates 7/7). TYPO-S3 cycle 723, sealing 724.",
+   "currentTask": "Cycle 722 complete",
+   "lastHeartbeat": "2026-11-28T10:26:46.000Z",
+   "observedAt": "2026-11-28T10:26:46.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   },
