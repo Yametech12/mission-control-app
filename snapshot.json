@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:40:00.000Z",
- "summary": "GT-200 ARISE run: step 10 shadow launched and verified, 7 day gate clock running. Step 11 kill switch and monitoring in progress.",
+ "generatedAt": "2026-11-28T10:41:30.000Z",
+ "summary": "TYPO-S3 complete: ClinicFlow type decision record shipped, gate 7/7, exit 0",
  "agents": [
   {
    "agentId": null,
@@ -2766,6 +2766,34 @@
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
+   "title": "TYPO-S3: ClinicFlow type decision record",
+   "detail": "Done. type-record.md, gate.js, delivery-note.md shipped. Gate 7/7 passed, exit 0. Read-back PASS.",
+   "currentTask": "TYPO-S3 type decision record",
+   "lastHeartbeat": "2026-11-28T10:41:30.000Z",
+   "observedAt": "2026-11-28T10:41:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-generic-solver",
+   "name": "Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-S3 generic solver",
+   "detail": "TYPO-S3 generic complete: type-record, gate.js, delivery-note shipped; gate 7 of 7 passed, exit 0",
+   "currentTask": "TYPO-S3 generic type record complete",
+   "lastHeartbeat": "2026-11-28T10:40:41.000Z",
+   "observedAt": "2026-11-28T10:40:41.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
    "title": "TYPO-S1 Typography Specialist",
    "detail": "TYPO-S1 done: type record shipped, 6 faces 61,640 B, gate 7/7 exit 0, read-back PASS.",
    "currentTask": "TYPO-S1 record done: gate 7/7, read-back PASS",
@@ -4128,34 +4156,6 @@
    "detail": "WPE-R1 judged: generic win 8.50 vs 8.25. Contamination clean. Judgement filed.",
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T15:26:39.000Z",
-   "observedAt": "2026-11-27T15:34:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-wpe-r2-judge-651",
-   "name": "WPE-R2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R2 blind judge, cycle 651",
-   "detail": "WPE-R2 judged: specialist win 8.50 vs 7.50. Contamination clean. Judgement filed.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T15:26:50.000Z",
-   "observedAt": "2026-11-27T15:34:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-wpe-r3-judge-651",
-   "name": "WPE-R3 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R3 blind judge, cycle 651",
-   "detail": "WPE-R3 judged: specialist win 9.00 vs 8.25. Contamination clean. Judgement filed.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T15:26:28.000Z",
    "observedAt": "2026-11-27T15:34:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
