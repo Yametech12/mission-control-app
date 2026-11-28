@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:01:24.000Z",
- "summary": "M3D-S2 specialist solver finished: gl.js, motion note, gate 7/7, delivery note shipped.",
+ "generatedAt": "2026-11-28T01:05:32.000Z",
+ "summary": "Cycle 687 complete: M3D-S2 pair collected and verified, both gates 7/7",
  "agents": [
   {
    "agentId": null,
@@ -967,20 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 687",
-   "detail": "M3D-S2 solvers dispatched (liquid v2 to v3 replay); M3D-S3 next cycle, sealing and judging after.",
-   "currentTask": "M3D-S2 solvers running (specialist + generic)",
-   "lastHeartbeat": "2026-11-28T00:51:25.000Z",
-   "observedAt": "2026-11-28T00:51:25.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,16 +2761,16 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "m3d-s2-specialist",
-   "name": "M3D-S2 specialist solver",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "M3D-S2 specialist solver",
-   "detail": "Shipped gl.js, motion-note.md, gate.js (7/7 PASS), delivery-note.md; node check PASS, READ-BACK: PASS.",
-   "currentTask": "M3D-S2 specialist run complete",
-   "lastHeartbeat": "2026-11-28T01:01:24.000Z",
-   "observedAt": "2026-11-28T01:01:24.000Z",
+   "title": "Improvement cycle 687",
+   "detail": "M3D-S2 pair collected and verified (specialist 22,032 B, generic 18,727 B; both gates 7/7, no key defect). M3D-S3 next.",
+   "currentTask": "Cycle 687 complete; M3D-S3 solvers next cycle",
+   "lastHeartbeat": "2026-11-28T01:05:32.000Z",
+   "observedAt": "2026-11-28T01:05:32.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2795,10 +2781,24 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "M3D-S2 generic solver",
-   "detail": "All four files shipped, node check PASS, gate 7/7 PASS.",
-   "currentTask": "Done: gl.js, motion note, gate, delivery note shipped",
-   "lastHeartbeat": "2026-11-28T00:57:00.000Z",
-   "observedAt": "2026-11-28T00:57:00.000Z",
+   "detail": "Generic M3D-S2 shipped (18,727 B gl.js, gate 7/7 exit 0, 261s); verified by parent; posted by job lead.",
+   "currentTask": "M3D-S2 complete",
+   "lastHeartbeat": "2026-11-28T01:05:32.000Z",
+   "observedAt": "2026-11-28T01:05:32.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s2-specialist",
+   "name": "M3D-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S2 specialist solver",
+   "detail": "Specialist M3D-S2 shipped (22,032 B gl.js, gate 7/7 exit 0, 425s); verified by parent; posted by job lead.",
+   "currentTask": "M3D-S2 complete",
+   "lastHeartbeat": "2026-11-28T01:05:32.000Z",
+   "observedAt": "2026-11-28T01:05:32.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -4145,20 +4145,6 @@
    "observedAt": "2026-11-27T09:43:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt170-coordinator",
-   "name": "gt170-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-170 Candle Pattern Research Blitz",
-   "detail": "Complete: 1,248 trials, 0 survivors (68 failed only the correction). Scale-in hurt; scale-out neutral. Report GT-20261127-170.md and CANDIDATES.md filed.",
-   "currentTask": "Complete: report and candidates file delivered",
-   "lastHeartbeat": "2026-11-27T09:35:00.000Z",
-   "observedAt": "2026-11-27T09:35:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
