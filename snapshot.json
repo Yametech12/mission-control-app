@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T14:32:00.000Z",
- "summary": "Cycle 739 done: Caption Writer CW-T1 pair collected and verified.",
+ "generatedAt": "2026-11-28T14:38:00.000Z",
+ "summary": "Cycle 740: routing check 120 in progress.",
  "agents": [
   {
    "agentId": null,
@@ -953,6 +953,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 740",
+   "detail": "Cycle 740 routing check started: 5 fresh Nov 28 legs (VERITY 36, MONTRA, BULLA 22:28; F6 22:10; health 22:25). Coordinator picks sealed.",
+   "currentTask": "Routing check 120 (cycle 740): 5 fresh Nov 28 legs, panel picks pending",
+   "lastHeartbeat": "2026-11-28T14:38:00.000Z",
+   "observedAt": "2026-11-28T14:38:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2761,20 +2775,6 @@
    "category": "ghostnam-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 739: Caption Writer validation",
-   "detail": "Cycle 739 done. CW-T1 pair verified (specialist 2,677 B, 90s, gate 34; generic 2,710 B, 113s, gate 32). CW-T2 runs cycle 740.",
-   "currentTask": "Cycle 739 closed, CW-T1 collected",
-   "lastHeartbeat": "2026-11-28T14:32:00.000Z",
-   "observedAt": "2026-11-28T14:32:00.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
    "agentId": "routing-panel-735",
    "name": "Routing Panel",
    "role": "auditor",
@@ -4131,6 +4131,20 @@
    "observedAt": "2026-11-27T22:40:00.000Z",
    "needsUser": false,
    "category": "cse"
+  },
+  {
+   "agentId": "m3d-r1-specialist",
+   "name": "M3D-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-R1 solver",
+   "detail": "Specialist M3D-R1 complete: 37,142 bytes, gate 7/7 exit 0, PASS WITH MAJOR ISSUES (S7). Posted by cycle parent.",
+   "currentTask": "M3D-R1 specialist complete",
+   "lastHeartbeat": "2026-11-27T22:36:03.000Z",
+   "observedAt": "2026-11-27T22:36:03.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
