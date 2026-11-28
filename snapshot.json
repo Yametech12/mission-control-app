@@ -1,7 +1,49 @@
 {
- "generatedAt": "2026-11-28T02:15:00.000Z",
- "summary": "GT-191 complete: GT-182 failure diagnosed, improvement spec frozen and trained exactly as written, selection POSITIVE on validation with full honest limits recorded.",
+ "generatedAt": "2026-11-28T02:26:00.000Z",
+ "summary": "GT-195 forecast desk: registration frozen, grader proven, first issue in progress",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Drive",
+   "detail": "Failed Nov 27 at 15:26:48Z; 24 consecutive failures and last success Nov 4. Next attempt 11:30 PM PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T02:16:26.000Z",
+   "needsUser": false,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "Failed Nov 23 at 00:56:31Z; 3 consecutive failures and last success Nov 4. Next check Mon Nov 30 at 9:00 AM PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T02:16:26.000Z",
+   "needsUser": false,
+   "category": "Zulti"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Failed at 01:46:30Z; 101 consecutive failures and blocked because its chat can no longer receive results. Last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T02:16:12.000Z",
+   "needsUser": true,
+   "category": "Monitoring"
+  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -15,48 +57,6 @@
    "observedAt": "2026-11-28T01:16:55.000Z",
    "needsUser": true,
    "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Telegram session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Telegram session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results. 100 consecutive failures, last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T01:16:55.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "Failed Nov 27 at 23:26 Manila time, 24 consecutive failures, last success Nov 4. No reason recorded.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T01:16:55.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed Nov 23, 3 consecutive failures, spawn error with binding retired. Last success Nov 4. Next run Mon Nov 30, 09:00.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T01:16:55.000Z",
-   "needsUser": false,
-   "category": "Zulti"
   },
   {
    "agentId": null,
@@ -253,20 +253,6 @@
    "observedAt": "2026-11-26T02:59:45.000Z",
    "needsUser": true,
    "category": "ClinicFlow"
-  },
-  {
-   "agentId": null,
-   "name": "Jo Koy JK5: posted, Whop submission blocked",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Jo Koy JK5: posted, Whop submission blocked",
-   "detail": "JK5 posted live on Instagram at 10:00 PHT Nov 26 and the GT88 pack is fully posted (JK1-JK5), but Whop submission is blocked: campaign shows clip limit reached, no submission form.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T02:16:52.000Z",
-   "needsUser": false,
-   "category": "clipping"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -967,6 +953,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-mexc-forecast-gt195",
+   "name": "mexc-forecast-desk-gt195",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-195 Forecast Desk (MEXC Team)",
+   "detail": "Registration frozen; synthetic grader self-test passed 9 of 9 checks; issuing first forecast set from live MEXC data",
+   "currentTask": "Protocol registered, grader proven on synthetic window; issuing first live forecast set",
+   "lastHeartbeat": "2026-11-28T02:26:00.000Z",
+   "observedAt": "2026-11-28T02:26:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-mexc-scalping-gt194",
+   "name": "mexc-scalping-coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-194 Scalping Sim Track",
+   "detail": "GT-194 scalping simulation track: registration first, then runner build and first-cycle verification. Paper/shadow only.",
+   "currentTask": "Writing frozen pre-registration for the 5m scalping sim track",
+   "lastHeartbeat": "2026-11-28T02:21:00.000Z",
+   "observedAt": "2026-11-28T02:21:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "da-r1-specialist",
+   "name": "DA-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DA-R1 solver",
+   "detail": "DA-R1 specialist solver started: hash verified, rendering GT68 final build at 390px and 1440px",
+   "currentTask": "Rendering GT68 final build and running the 11-check audit",
+   "lastHeartbeat": "2026-11-28T02:20:00.000Z",
+   "observedAt": "2026-11-28T02:20:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2775,6 +2803,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-mexc-trader-gt193",
+   "name": "mexc-team-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-193: Professional Trader Pro Max agent",
+   "detail": "GT-193 done: agent card at mexc-team/agents/professional-trader-pro-max.md, charter roster updated, report filed. Paper and research only; proposes, never executes.",
+   "currentTask": "GT-193 complete",
+   "lastHeartbeat": "2026-11-28T02:34:00.000Z",
+   "observedAt": "2026-11-28T02:34:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-mexc-training-gt191",
    "name": "mexc-training-gt191",
    "role": "coordinator",
@@ -4145,20 +4187,6 @@
    "observedAt": "2026-11-27T10:15:35.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel-625",
-   "name": "Routing Panel 625",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel 625",
-   "detail": "Panel picks filed: Systems Builder, Money Researcher, Data Engineer, Cron Fleet Manager, Site Builder, all 6-2; posted by parent.",
-   "currentTask": "Panel 625 complete",
-   "lastHeartbeat": "2026-11-27T10:00:30.000Z",
-   "observedAt": "2026-11-27T10:00:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
