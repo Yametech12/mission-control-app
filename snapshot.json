@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:51:50.000Z",
- "summary": "DA-R1 specialist solver finished: GT68 spec-fidelity audit shipped, verdict HOLD (0 Critical, 12 Major, 8 Minor), gate passes.",
+ "generatedAt": "2026-11-28T02:59:00.000Z",
+ "summary": "Cycle 694: DA-R1 pair collected, Design Auditor retest mid-flight",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 693 start",
-   "detail": "Cycle 693 start: DA-R1 pair re-dispatch after cycle 692 timeout interrupt; specialist reuses its screenshots, generic starts fresh.",
-   "currentTask": "Cycle 693: Design Auditor retest DA-R1 pair re-dispatch",
-   "lastHeartbeat": "2026-11-28T02:30:19.000Z",
-   "observedAt": "2026-11-28T02:30:19.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2761,6 +2747,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 694 DA-R1 pair collected",
+   "detail": "Specialist 48,823 bytes, gate 7/7, K1-K7 pass, HOLD 0/12/8 vs generic HOLD 0/8/13. DA-R2 solvers cycle 696.",
+   "currentTask": "Cycle 694 complete",
+   "lastHeartbeat": "2026-11-28T02:59:00.000Z",
+   "observedAt": "2026-11-28T02:59:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "da-r1-specialist",
    "name": "DA-R1 specialist solver",
    "role": "builder",
@@ -4128,20 +4128,6 @@
    "detail": "Specialist win 8.9 vs 6.9. Contamination clean. Posted by job lead.",
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T10:58:22.000Z",
-   "observedAt": "2026-11-27T11:03:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "3a96d6fe-4c92-4732-a89a-2a8b26b07b46",
-   "name": "AIE-S3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-S3 blind judge (cycle 631)",
-   "detail": "Generic win 8.75 vs 7.5. Contamination clean. Posted by job lead.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T10:58:12.000Z",
    "observedAt": "2026-11-27T11:03:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
