@@ -1,7 +1,77 @@
 {
- "generatedAt": "2026-11-28T06:14:00.000Z",
- "summary": "Ghostname Team improvement cycle 705: routing check 113 complete, 5 of 5.",
+ "generatedAt": "2026-11-28T06:16:43.000Z",
+ "summary": "2 improvement cycles running; CSE midday answers posted and Gotrade report done. 5 schedules failing or blocked, including the WhatsApp-blocked Whop and TG watches that need user action.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run failed Nov 23 and last success was Nov 4, with no recorded reason.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T06:16:43.000Z",
+   "needsUser": false,
+   "category": "zulti"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "24 consecutive failures; last run failed Nov 27 and last success was Nov 4, with no recorded reason.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T06:16:43.000Z",
+   "needsUser": false,
+   "category": "backup"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "99 consecutive failures and blocked: the WhatsApp chat it posts to can no longer receive results; needs account action.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T06:16:43.000Z",
+   "needsUser": true,
+   "category": "publishing"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "101 consecutive failures and blocked: the WhatsApp chat it posts to can no longer receive results; needs account action.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T06:16:43.000Z",
+   "needsUser": true,
+   "category": "monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 consecutive failures; last run failed Nov 26 and last success was Nov 2, with no recorded reason.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T06:16:43.000Z",
+   "needsUser": false,
+   "category": "monitoring"
+  },
   {
    "agentId": null,
    "name": "Shadow Army 1h track freshness failing",
@@ -29,34 +99,6 @@
    "observedAt": "2026-11-28T03:16:58.000Z",
    "needsUser": false,
    "category": "Trading"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: the chat it posts to can no longer receive results. 99 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T02:35:12.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: the chat it posts to can no longer receive results. 101 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T01:46:30.000Z",
-   "needsUser": true,
-   "category": "monitoring"
   },
   {
    "agentId": "sprint-daily-checkpoint",
@@ -99,20 +141,6 @@
    "observedAt": "2026-11-27T23:07:46.000Z",
    "needsUser": false,
    "category": "Trading"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures; last run failed Nov 27 at 23:26 PHT and last success was Nov 4. Next run tonight at 23:30 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:26:48.000Z",
-   "needsUser": false,
-   "category": "backup"
   },
   {
    "agentId": "gt180-kronos-execution",
@@ -211,20 +239,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 consecutive failures; last run failed Nov 26 and last success was Nov 2. Next run is tomorrow at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:05:59.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": "team-lead-yame-call",
