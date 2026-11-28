@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T04:30:00.000Z",
- "summary": "Improvement cycle 699 complete: Design Auditor retest judged, card rewritten.",
+ "generatedAt": "2026-11-28T04:35:49.000Z",
+ "summary": "Ghostname Team improvement cycle 700 (routing check) running.",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 700",
+   "detail": "Cycle 700 routing check started: 5 fresh Nov 28 legs, Coordinator picks vs division leads.",
+   "currentTask": "Routing check cycle 700: gathering fresh Nov 28 legs",
+   "lastHeartbeat": "2026-11-28T04:35:49.000Z",
+   "observedAt": "2026-11-28T04:35:49.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "996fb5d6-b515-4f50-b4c9-d15b67904a94",
@@ -2733,20 +2747,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team Improvement Cycle 699",
-   "detail": "Cycle 699 done: DA retest 8.23 vs 8.13, 2 wins 1 loss, not a clear win; card rewrite 2 filed.",
-   "currentTask": "Cycle 699 complete: Design Auditor retest judged, card rewritten (rewrite 2)",
-   "lastHeartbeat": "2026-11-28T04:30:00.000Z",
-   "observedAt": "2026-11-28T04:30:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "cse-qc-reel-1215",
    "name": "CSE Quick Check 12:15 poster",
    "role": "poster",
@@ -4117,6 +4117,20 @@
    "observedAt": "2026-11-27T11:22:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "IID-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-T2 specialist solver",
+   "detail": "Specialist IID-T2 complete: icon set record 6,605 bytes, 1,133 words, gate 11/11, 75s. Posted by cycle lead.",
+   "currentTask": "IID-T2 specialist output filed and verified",
+   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
+   "observedAt": "2026-11-27T11:22:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
