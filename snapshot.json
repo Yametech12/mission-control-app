@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:41:30.000Z",
- "summary": "TYPO-S3 complete: ClinicFlow type decision record shipped, gate 7/7, exit 0",
+ "generatedAt": "2026-11-28T10:44:00.000Z",
+ "summary": "Cycle 723 complete: TYPO-S3 pair collected and verified; all three Typography Specialist retest 2 pairs collected, sealing 724, judging 726.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 723",
-   "detail": "Cycle 723 started: Typography Specialist retest 2, TYPO-S3 solver pair running.",
-   "currentTask": "Cycle 723: TYPO-S3 solver pair",
-   "lastHeartbeat": "2026-11-28T10:35:34.000Z",
-   "observedAt": "2026-11-28T10:35:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2691,20 +2677,6 @@
    "category": "validation"
   },
   {
-   "agentId": "team-mexc-shadowarmy-gt200",
-   "name": "MEXC Shadow Army ARISE (GT-200)",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Shadow Army ARISE: step 10 shadow live, step 11 running",
-   "detail": "Step 10 PASS: framework shadow live (fw-tusk-4h, fw-greed-4h), 211 tests, four checks all PASS, cycle cron every 4h at minute 40 PHT. 7 clean days gate IN PROGRESS, clock 2026-11-28T10:34:21Z to 2026-12-05. Step 11 in progress.",
-   "currentTask": "Step 11: kill switch wiring, health view, live drills",
-   "lastHeartbeat": "2026-11-28T10:40:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "MEXC Team"
-  },
-  {
    "agentId": "gt88-jokoy-posting",
    "name": "clipp-team-poster",
    "role": "poster",
@@ -2761,16 +2733,16 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-typography-specialist",
-   "name": "Typography Specialist",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "TYPO-S3: ClinicFlow type decision record",
-   "detail": "Done. type-record.md, gate.js, delivery-note.md shipped. Gate 7/7 passed, exit 0. Read-back PASS.",
-   "currentTask": "TYPO-S3 type decision record",
-   "lastHeartbeat": "2026-11-28T10:41:30.000Z",
-   "observedAt": "2026-11-28T10:41:30.000Z",
+   "title": "Improvement cycle 723",
+   "detail": "Cycle 723 complete: TYPO-S3 pair collected and verified, both gates 7/7, all pairs collected; sealing 724, judging 726.",
+   "currentTask": "Cycle 723 complete: TYPO-S3 pair collected",
+   "lastHeartbeat": "2026-11-28T10:44:00.000Z",
+   "observedAt": "2026-11-28T10:44:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   },
@@ -2781,10 +2753,24 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "TYPO-S3 generic solver",
-   "detail": "TYPO-S3 generic complete: type-record, gate.js, delivery-note shipped; gate 7 of 7 passed, exit 0",
-   "currentTask": "TYPO-S3 generic type record complete",
-   "lastHeartbeat": "2026-11-28T10:40:41.000Z",
-   "observedAt": "2026-11-28T10:40:41.000Z",
+   "detail": "TYPO-S3 generic run complete (posted by cycle lead): 17,975 bytes / 3,356 words, gate 7/7 exit 0.",
+   "currentTask": "TYPO-S3 generic run complete",
+   "lastHeartbeat": "2026-11-28T10:44:00.000Z",
+   "observedAt": "2026-11-28T10:44:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-S3 specialist solver",
+   "detail": "TYPO-S3 specialist run complete (posted by cycle lead): 14,559 bytes / 2,548 words, gate 7/7 exit 0.",
+   "currentTask": "TYPO-S3 specialist run complete",
+   "lastHeartbeat": "2026-11-28T10:44:00.000Z",
+   "observedAt": "2026-11-28T10:44:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   },
@@ -4145,20 +4131,6 @@
    "observedAt": "2026-11-27T15:45:00.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-wpe-r1-judge-651",
-   "name": "WPE-R1 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R1 blind judge, cycle 651",
-   "detail": "WPE-R1 judged: generic win 8.50 vs 8.25. Contamination clean. Judgement filed.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T15:26:39.000Z",
-   "observedAt": "2026-11-27T15:34:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
