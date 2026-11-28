@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T00:57:00.000Z",
- "summary": "M3D-S2 generic solver complete, gate passed",
+ "generatedAt": "2026-11-28T01:01:24.000Z",
+ "summary": "M3D-S2 specialist solver finished: gl.js, motion note, gate 7/7, delivery note shipped.",
  "agents": [
   {
    "agentId": null,
@@ -967,20 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "m3d-s2-specialist",
-   "name": "M3D-S2 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S2 specialist solver",
-   "detail": "Starting the v2 to v3 shader replay: section driver, optics stack, droplet, tier mirror.",
-   "currentTask": "Editing gl.js from the v2 copy",
-   "lastHeartbeat": "2026-11-28T00:54:19.000Z",
-   "observedAt": "2026-11-28T00:54:19.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2789,6 +2775,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "m3d-s2-specialist",
+   "name": "M3D-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S2 specialist solver",
+   "detail": "Shipped gl.js, motion-note.md, gate.js (7/7 PASS), delivery-note.md; node check PASS, READ-BACK: PASS.",
+   "currentTask": "M3D-S2 specialist run complete",
+   "lastHeartbeat": "2026-11-28T01:01:24.000Z",
+   "observedAt": "2026-11-28T01:01:24.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "m3d-s2-generic",
    "name": "M3D-S2 generic solver",
    "role": "builder",
@@ -4157,20 +4157,6 @@
    "currentTask": "Complete: report and candidates file delivered",
    "lastHeartbeat": "2026-11-27T09:35:00.000Z",
    "observedAt": "2026-11-27T09:35:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt171-coordinator",
-   "name": "gt171-token-profiler-expansion",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-171 Token Profiler + Shadow Expansion",
-   "detail": "GT-171 COMPLETE: profiler + expansion division live (paper only); Dec 11 picture unchanged",
-   "currentTask": "Complete: expansion running in the 4h cycle",
-   "lastHeartbeat": "2026-11-27T09:29:00.000Z",
-   "observedAt": "2026-11-27T09:29:00.000Z",
    "needsUser": false,
    "category": "trading"
   }
