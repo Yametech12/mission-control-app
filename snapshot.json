@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:35:00.000Z",
- "summary": "DA-R1 generic solver started: GT68 final build hash verified, audit rendering underway.",
+ "generatedAt": "2026-11-28T02:45:30.000Z",
+ "summary": "DA-R1 generic solver completed: GT68 audit shipped with verdict HOLD, gate exit 0.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "da-r1-generic",
-   "name": "DA-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DA-R1 solver",
-   "detail": "DA-R1 generic solver started: input hash verified, reading spec and rendering the final build.",
-   "currentTask": "Rendering GT68 final build at 390px and 1440px, running spec-fidelity audit",
-   "lastHeartbeat": "2026-11-28T02:35:00.000Z",
-   "observedAt": "2026-11-28T02:35:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2789,6 +2775,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "da-r1-generic",
+   "name": "DA-R1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-R1 solver",
+   "detail": "DA-R1 generic solver done: audit shipped, verdict HOLD (0 Critical, 8 Major, 13 Minor), gate exit 0.",
+   "currentTask": "DA-R1 audit shipped: HOLD, 0 Critical, 8 Major, 13 Minor, gate exit 0",
+   "lastHeartbeat": "2026-11-28T02:45:30.000Z",
+   "observedAt": "2026-11-28T02:45:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-mexc-dji-gt196",
    "name": "mexc-team-coordinator",
    "role": "coordinator",
@@ -4157,20 +4157,6 @@
    "currentTask": "Panel verdicts filed",
    "lastHeartbeat": "2026-11-27T10:49:29.000Z",
    "observedAt": "2026-11-27T10:52:05.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-aie-s2-generic",
-   "name": "AIE-S2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-S2 generic solver",
-   "detail": "AIE-S2 generic: 10,611/1,799/2,170 bytes, 1,753 words, 165s, gate 7/7.",
-   "currentTask": "AIE-S2 generic pair collected",
-   "lastHeartbeat": "2026-11-27T10:20:46.000Z",
-   "observedAt": "2026-11-27T10:22:07.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
