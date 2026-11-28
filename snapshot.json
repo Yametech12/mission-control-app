@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:00:00.000Z",
- "summary": "Cycle 707: Design Auditor retest 2 judged, FLAGGED.",
+ "generatedAt": "2026-11-28T07:03:00.000Z",
+ "summary": "Cycle 708: Typography Specialist retest opens.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Team Improvement Cycle 708",
+   "detail": "Cycle 708 started: Typography Specialist retest opens, TYPO-R1 solver pair next.",
+   "currentTask": "Cycle 708: Typography Specialist retest, TYPO-R1 solvers",
+   "lastHeartbeat": "2026-11-28T07:03:00.000Z",
+   "observedAt": "2026-11-28T07:03:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2719,20 +2733,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 707 judging complete",
-   "detail": "Cycle 707 done: Design Auditor retest 2 judged 7.92/7.75, 2W 1L, not clear, rewrite 2 failed, FLAGGED. Scoreboard 32/10/37 of 79.",
-   "currentTask": "Cycle 707 complete: Design Auditor retest 2 judged, FLAGGED",
-   "lastHeartbeat": "2026-11-28T07:00:00.000Z",
-   "observedAt": "2026-11-28T07:00:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "cse-page-comment-watch",
    "name": "CSE comment watcher",
    "role": "monitor",
@@ -4114,6 +4114,20 @@
    "detail": "Posted by run lead: DSE-T1 generic solve complete, 28,232 bytes total, gate 21/21 exit 0, about 234s.",
    "currentTask": "DSE-T1 generic solve complete",
    "lastHeartbeat": "2026-11-27T12:24:57.000Z",
+   "observedAt": "2026-11-27T12:29:06.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "dse-t1-specialist",
+   "name": "DSE-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T1 specialist solve",
+   "detail": "Posted by run lead: DSE-T1 specialist solve complete, 42,389 bytes total, gate 33/33 exit 0, 409s.",
+   "currentTask": "DSE-T1 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T12:27:58.000Z",
    "observedAt": "2026-11-27T12:29:06.000Z",
    "needsUser": false,
    "category": "ghostname-team"
