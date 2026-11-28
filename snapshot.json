@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:24:30.000Z",
- "summary": "Cycle 689: sealing Motion and 3D retest 2 pairs.",
+ "generatedAt": "2026-11-28T01:31:30.000Z",
+ "summary": "GT-190 MEXC Pro Max improvement pass 2 started: ledger figures verified against status.json and phase1_status.txt; data integrity specialist auditing independently; artifact edit next.",
  "agents": [
   {
    "agentId": null,
@@ -969,18 +969,32 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "team-mexc-promax-gt190",
+   "name": "MEXC Team Coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Cycle 689 sealing M3D retest 2",
-   "detail": "Cycle 689 sealing M3D retest 2: all 3 pairs collected, neutralizing and sealing only, no judging this cycle.",
-   "currentTask": "Cycle 689: sealing Motion and 3D retest 2 pairs",
-   "lastHeartbeat": "2026-11-28T01:24:30.000Z",
-   "observedAt": "2026-11-28T01:24:30.000Z",
+   "title": "GT-190 MEXC Pro Max improvement pass 2",
+   "detail": "Started. Phase 1 ledger figures verified on disk (ARMED, 10000.00, 0 open, 0 of 50 closed, DD 0.00%, net +0.00, as of Nov 28 8:10 AM PHT).",
+   "currentTask": "Verifying Phase 1 ledger figures, preparing artifact edit",
+   "lastHeartbeat": "2026-11-28T01:31:30.000Z",
+   "observedAt": "2026-11-28T01:31:30.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "trading"
+  },
+  {
+   "agentId": "b132ab75-d5e0-4c72-8824-156d3548341a",
+   "name": "Data Integrity Auditor",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-190 data integrity audit (posted by job lead)",
+   "detail": "Specialist independently verifying the six Phase 1 figures against ledger files; report to GT-190 reports folder.",
+   "currentTask": "Verifying Phase 1 figures against ledger files",
+   "lastHeartbeat": "2026-11-28T01:31:30.000Z",
+   "observedAt": "2026-11-28T01:31:30.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,6 +2789,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 689 sealed M3D retest 2",
+   "detail": "Cycle 689 sealed M3D retest 2: SEAL_OK, 6 changed lines, 26 neutral files, 0 identity hits, all 6 neutral gates exit 0. Judging cycle 691.",
+   "currentTask": "Cycle 689 done: M3D retest 2 sealed",
+   "lastHeartbeat": "2026-11-28T01:30:30.000Z",
+   "observedAt": "2026-11-28T01:30:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "m3d-s3-generic",
    "name": "M3D-S3 generic solver",
    "role": "builder",
@@ -4142,20 +4170,6 @@
    "detail": "TYPO-T2 judge filed: Candidate A 8.50, Candidate B 8.00, winner A. Posted by cycle parent.",
    "currentTask": "TYPO-T2 blind judgement filed",
    "lastHeartbeat": "2026-11-27T09:39:35.000Z",
-   "observedAt": "2026-11-27T09:43:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "typo-t3-judge-cycle-624",
-   "name": "TYPO-T3 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T3 blind judgement",
-   "detail": "TYPO-T3 judge filed: Candidate A 7.75, Candidate B 8.25, winner B. Posted by cycle parent.",
-   "currentTask": "TYPO-T3 blind judgement filed",
-   "lastHeartbeat": "2026-11-27T09:39:25.000Z",
    "observedAt": "2026-11-27T09:43:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
