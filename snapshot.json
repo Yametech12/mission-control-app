@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T11:31:43.000Z",
- "summary": "IID-S1 specialist solver started.",
+ "generatedAt": "2026-11-28T11:35:34.000Z",
+ "summary": "Ghostname Team improvement cycle 728 in progress.",
  "agents": [
   {
    "agentId": null,
@@ -927,46 +927,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle-iid-s1-specialist",
-   "name": "IID-S1 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "IID-S1 Yame Call PWA icon set (specialist)",
-   "detail": "IID-S1 specialist solver started: building the Yame Call PWA icon set record, SVG master, gate, and delivery note.",
-   "currentTask": "Building the Yame Call PWA icon set record (IID-S1)",
-   "lastHeartbeat": "2026-11-28T11:31:43.000Z",
-   "observedAt": "2026-11-28T11:31:43.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-improvement-cycle-iid-s1-generic",
-   "name": "IID-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "IID-S1 generic solver: Yame Call icon set",
-   "detail": "Started: reading task file and input records, building icon-set.md, icon.svg, gate.js, delivery-note.md.",
-   "currentTask": "Building the four icon set files",
-   "lastHeartbeat": "2026-11-28T11:31:00.000Z",
-   "observedAt": "2026-11-28T11:31:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 727",
-   "detail": "Cycle 727: Illustration and Icon Designer retest 2 opened. IID-S1 to IID-S3 filed with sealed keys; IID-S1 pair running.",
-   "currentTask": "Cycle 727: IID retest 2, tasks filed, IID-S1 solvers running",
-   "lastHeartbeat": "2026-11-28T11:30:00.000Z",
-   "observedAt": "2026-11-28T11:30:00.000Z",
+   "title": "Improvement cycle 728: IID-S2 solvers",
+   "detail": "Cycle 728 running IID-S2 solver pair (Illustration and Icon Designer retest 2, Ghostname Pod landing icon set).",
+   "currentTask": "Running IID-S2 specialist and generic solvers",
+   "lastHeartbeat": "2026-11-28T11:35:34.000Z",
+   "observedAt": "2026-11-28T11:35:34.000Z",
    "needsUser": false,
-   "category": "ghostnam team"
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,6 +2719,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle-iid-s1-generic",
+   "name": "IID-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-S1 generic solver",
+   "detail": "IID-S1 generic: 6,654 bytes / 1,183 words, gate 11/11, READ-BACK PASS. Posted by cycle lead.",
+   "currentTask": "IID-S1 generic run complete",
+   "lastHeartbeat": "2026-11-28T11:34:30.000Z",
+   "observedAt": "2026-11-28T11:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
+   "agentId": "team-improvement-cycle-iid-s1-specialist",
+   "name": "IID-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-S1 specialist solver",
+   "detail": "IID-S1 specialist: 12,609 bytes / 2,097 words, gate 11/11, READ-BACK PASS. Posted by cycle lead.",
+   "currentTask": "IID-S1 specialist run complete",
+   "lastHeartbeat": "2026-11-28T11:34:30.000Z",
+   "observedAt": "2026-11-28T11:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
+  },
+  {
    "agentId": "cse-qc-evening-1930",
    "name": "CSE Evening Poster",
    "role": "poster",
@@ -4117,34 +4117,6 @@
    "observedAt": "2026-11-27T15:53:55.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
-  },
-  {
-   "agentId": "team-moment-hunter",
-   "name": "Moment Hunter MH-T1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MH-T1 specialist solver",
-   "detail": "MH-T1 specialist pair done (posted by cycle lead): clips.json 7,245 bytes, gate exit 0, 198s.",
-   "currentTask": "MH-T1 specialist pair done",
-   "lastHeartbeat": "2026-11-27T15:51:21.000Z",
-   "observedAt": "2026-11-27T15:53:55.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
-   "agentId": "gt187-mumford-igyt",
-   "name": "gt187-mumford-igyt",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-187 Mumford IG and YT scheduling",
-   "detail": "Complete. MS-1 Nov 28 10:00 PHT: IG post_ac57d5b19303fb98, YT post_31b73ccde5684f45. MS-2 Nov 28 15:00 PHT: IG post_98cb7f22a9a27548, YT post_d08ccdedaa582a66. Captions verbatim, verified by get_post read-back. Report filed.",
-   "currentTask": "Done: IG and YT legs scheduled and verified",
-   "lastHeartbeat": "2026-11-27T15:45:00.000Z",
-   "observedAt": "2026-11-27T15:45:00.000Z",
-   "needsUser": false,
-   "category": "clipping"
   }
  ]
 }
