@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T00:23:40.000Z",
- "summary": "Routing check 685 panel voting complete: Watcher won all 5 tasks.",
+ "generatedAt": "2026-11-28T00:31:40.000Z",
+ "summary": "Cycle 685 routing check complete: 3 of 5",
  "agents": [
   {
    "agentId": null,
@@ -967,20 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 685",
-   "detail": "Cycle 685 routing check started: 5 fresh Nov 28 legs (07:28 VERITY/MONTRA/BULLA watches, 08:10 F6 cycle, 08:05 health cycle)",
-   "currentTask": "Routing check 685: Coordinator picks, then panel vote",
-   "lastHeartbeat": "2026-11-28T00:17:30.000Z",
-   "observedAt": "2026-11-28T00:17:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "m3d-s1-specialist",
@@ -2803,6 +2789,48 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 685",
+   "detail": "Cycle 685 routing check 3 of 5: Watcher matches x3; RC-T4 first both-sides miss (correct: ML Engineer); RC-T5 Coordinator better call",
+   "currentTask": "Cycle 685 routing check complete: 3 of 5",
+   "lastHeartbeat": "2026-11-28T00:31:40.000Z",
+   "observedAt": "2026-11-28T00:31:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle-coordinator",
+   "name": "Routing Check 685 Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Check 685 Coordinator",
+   "detail": "Routing check 685 Coordinator picks filed (posted by parent): Watcher x3, DevOps and Release Engineer, Data Integrity Auditor",
+   "currentTask": "Coordinator picks filed",
+   "lastHeartbeat": "2026-11-28T00:20:41.000Z",
+   "observedAt": "2026-11-28T00:31:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle-panel",
+   "name": "Routing Check 685 Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Check 685 Panel",
+   "detail": "Routing check 685 panel votes filed (posted by parent): Watcher 7-1, 7-1, 6-2, 5-2, 4-3",
+   "currentTask": "Panel votes filed",
+   "lastHeartbeat": "2026-11-28T00:24:17.000Z",
+   "observedAt": "2026-11-28T00:31:40.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "m3d-r3-generic",
    "name": "M3D-R3 generic solver",
    "role": "builder",
@@ -4145,48 +4173,6 @@
    "observedAt": "2026-11-27T09:23:38.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-typography-specialist",
-   "name": "team-typography-specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Typography Specialist TYPO-T2",
-   "detail": "TYPO-T2 specialist: 13,821 bytes, 1,228 words, 160s, gate 7/7 (posted by cycle lead)",
-   "currentTask": "TYPO-T2 specialist output collected",
-   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
-   "observedAt": "2026-11-27T09:06:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-typography-generic",
-   "name": "team-typography-generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Typography generic TYPO-T2",
-   "detail": "TYPO-T2 generic: 12,201 bytes, 1,262 words, 164s, gate 7/7 (posted by cycle lead)",
-   "currentTask": "TYPO-T2 generic output collected",
-   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
-   "observedAt": "2026-11-27T09:06:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt169-coordinator",
-   "name": "GT-169 Coordinator (MEXC Team)",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-169 Plan B Shadow Fleet launch",
-   "detail": "GT-169 COMPLETE: Plan B Shadow Fleet live (19 soldiers + Auditor + Guardian), first cycle 149 candles, 5 paper entries, 0 closed of 300, verdict COLLECTING, Phase 1 untouched, console panel verified",
-   "currentTask": "GT-169 complete: Plan B Shadow Fleet launched and verified",
-   "lastHeartbeat": "2026-11-27T09:05:00.000Z",
-   "observedAt": "2026-11-27T09:05:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
