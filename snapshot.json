@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:18:40.000Z",
- "summary": "TYPO-R1 judge: B wins 8.75 vs A 6.5",
+ "generatedAt": "2026-11-28T08:21:00.000Z",
+ "summary": "Cycle 713 done: TYPO retest judged 8.50 vs 7.83 (2W 1L), card rewritten (rewrite 2).",
  "agents": [
   {
    "agentId": null,
@@ -925,20 +925,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 713 judging TYPO retest",
-   "detail": "Cycle 713 judging the Typography Specialist retest (TYPO-R1 to TYPO-R3), three fresh-context QA judges.",
-   "currentTask": "Judging Typography Specialist retest TYPO-R1 to TYPO-R3",
-   "lastHeartbeat": "2026-11-28T08:15:34.000Z",
-   "observedAt": "2026-11-28T08:15:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2733,16 +2719,30 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 713 judging TYPO retest",
+   "detail": "Cycle 713 done: TYPO retest 8.50 vs 7.83, 2W 1L, not a clear win. Card rewritten (rewrite 2). Scoreboard 32/10/37 of 79.",
+   "currentTask": "Cycle 713 done: TYPO retest judged, card rewritten (rewrite 2)",
+   "lastHeartbeat": "2026-11-28T08:21:00.000Z",
+   "observedAt": "2026-11-28T08:21:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-improvement-cycle-judge-typo-r1",
    "name": "TYPO-R1 judge",
    "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
    "title": "TYPO-R1 judge",
-   "detail": "TYPO-R1 judged blind: B wins 8.75 vs A 6.5. Both gates 7/7. No contamination found.",
+   "detail": "TYPO-R1 judge: specialist win 8.75 vs 6.50, contamination clean. Posted by cycle parent.",
    "currentTask": "TYPO-R1 judging done",
-   "lastHeartbeat": "2026-11-28T08:18:40.000Z",
-   "observedAt": "2026-11-28T08:18:40.000Z",
+   "lastHeartbeat": "2026-11-28T08:18:57.000Z",
+   "observedAt": "2026-11-28T08:21:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   },
@@ -2753,10 +2753,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "TYPO-R2 judge",
-   "detail": "TYPO-R2 judged blind: A 8.25, B 8.50. B wins narrowly on depth and ranked list.",
+   "detail": "TYPO-R2 judge: specialist win 8.50 vs 8.25, contamination clean. Posted by cycle parent.",
    "currentTask": "TYPO-R2 judging done",
-   "lastHeartbeat": "2026-11-28T08:18:10.000Z",
-   "observedAt": "2026-11-28T08:18:10.000Z",
+   "lastHeartbeat": "2026-11-28T08:18:31.000Z",
+   "observedAt": "2026-11-28T08:21:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   },
@@ -2767,10 +2767,10 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "TYPO-R3 judge",
-   "detail": "TYPO-R3 judged: A 8.25, B 8.75. B wins on deeper scale treatment and ranked list. No contamination flag.",
+   "detail": "TYPO-R3 judge: generic win 8.75 vs 8.25, contamination clean. Posted by cycle parent.",
    "currentTask": "TYPO-R3 judging done",
-   "lastHeartbeat": "2026-11-28T08:18:04.000Z",
-   "observedAt": "2026-11-28T08:18:04.000Z",
+   "lastHeartbeat": "2026-11-28T08:18:31.000Z",
+   "observedAt": "2026-11-28T08:21:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
   },
@@ -4117,20 +4117,6 @@
    "observedAt": "2026-11-27T14:05:00.000Z",
    "needsUser": false,
    "category": "trading-research"
-  },
-  {
-   "agentId": "gt177-promax-improve",
-   "name": "gt177-promax-improve",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-177 MEXC Pro Max artifact improvement pass",
-   "detail": "Complete. OFFICIAL PHASE 1 panel shows ledger counters as of Nov 27 8:10 PM PHT; SIMULATION labelled everywhere; phone overflow 0px; retry with backoff added; Guardian ignores STALE marks. Report filed.",
-   "currentTask": "GT-177 complete, report filed",
-   "lastHeartbeat": "2026-11-27T13:51:55.000Z",
-   "observedAt": "2026-11-27T13:51:55.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
