@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:08:00.000Z",
- "summary": "Cycle 734 running: Moment Hunter retest MH-R2 solvers dispatched.",
+ "generatedAt": "2026-11-28T13:14:38.000Z",
+ "summary": "MH-R2 generic solver completed: 8 clips, gate exit 0, 255 assertions.",
  "agents": [
   {
    "agentId": null,
@@ -933,10 +933,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-219 Plan B Fleet 2 registration and launch",
-   "detail": "GT-219 relaunch: pre-registering Plan B Fleet 2 (paper only), then launching it on the fleet cycle infrastructure with its own ledger.",
-   "currentTask": "Writing the Fleet 2 pre-registration (frozen before any cycle)",
-   "lastHeartbeat": "2026-11-28T13:00:00.000Z",
-   "observedAt": "2026-11-28T13:00:00.000Z",
+   "detail": "GT-219: Fleet 2 registration frozen (30 soldiers, evaluation point Dec 26, 2026). First cycle ran clean: 1633 candles, 0 errors, chain verified, 6 entry signals pending next-open fills. Replay check in progress.",
+   "currentTask": "Verifying the launch: replaying the first cycle from the pre-cycle snapshot",
+   "lastHeartbeat": "2026-11-28T13:14:00.000Z",
+   "observedAt": "2026-11-28T13:14:00.000Z",
    "needsUser": false,
    "category": "mexc-trading"
   },
@@ -2647,6 +2647,20 @@
    "observedAt": null,
    "needsUser": false,
    "category": "Audit"
+  },
+  {
+   "agentId": "team-improvement-cycle-mh-r2-specialist",
+   "name": "MH-R2 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "MH-R2 specialist solver started",
+   "detail": "MH-R2 specialist solver started: mining TheIntrovert GTA 6 VOD into a ranked 10-candidate clips.json with report, gate, and delivery note.",
+   "currentTask": "MH-R2 Moment Hunter retest build",
+   "lastHeartbeat": "2026-11-28T13:13:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-neon-deploy",
