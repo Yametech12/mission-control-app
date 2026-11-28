@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:31:30.000Z",
- "summary": "GT-198: 6 parallel shards launched 07:29:36Z covering all 944 remaining pairs. First retried pull-failure drops (KIIUSDT, ASTERUSDT) already archived.",
+ "generatedAt": "2026-11-28T07:41:18.000Z",
+ "summary": "Routing Panel 710 started: 8 division leads voting on RC-T1 to RC-T5.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-mexc-shadowarmy-gt199",
+   "name": "shadow-army-builder-gt199",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-199 Shadow Army framework build",
+   "detail": "GT-199 started: integration map, repo scaffold steps 1-2 (events, bus, config, SimBeru, Igris), staged plan.",
+   "currentTask": "Writing integration map and scaffolding repo steps 1-2",
+   "lastHeartbeat": "2026-11-28T07:40:00.000Z",
+   "observedAt": "2026-11-28T07:40:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team routing check, cycle 710",
+   "detail": "Cycle 710 routing check started (114th check): 5 fresh Nov 28 legs, 15:28 watches, 15:10 F6 cycle, 15:25 health cycle.",
+   "currentTask": "Routing check cycle 710: gathering 5 fresh legs",
+   "lastHeartbeat": "2026-11-28T07:40:00.000Z",
+   "observedAt": "2026-11-28T07:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2663,6 +2691,20 @@
    "category": "SASE portal"
   },
   {
+   "agentId": "team-routing-panel-710",
+   "name": "Routing Panel 710",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Routing Panel 710: cycle 710 voting",
+   "detail": "Routing check cycle 710 started: 8 division leads voting on RC-T1 to RC-T5 from ROSTER_INDEX.md triggers.",
+   "currentTask": "Routing check cycle 710: voting on RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-28T07:41:18.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-site-builder-retest-specialist",
    "name": "Site Builder retest specialist",
    "role": "builder",
@@ -2733,18 +2775,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "agentId": "team-routing-coordinator-710",
+   "name": "Routing Coordinator 710",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 709: TYPO-R2 collected",
-   "detail": "Cycle 709 complete: TYPO-R2 pair collected, both gates 7/7, K1-K7 pass both, no key defect; TYPO-R3 solvers cycle 711.",
-   "currentTask": "Cycle 709 complete: TYPO-R2 pair collected",
-   "lastHeartbeat": "2026-11-28T07:26:00.000Z",
-   "observedAt": "2026-11-28T07:26:00.000Z",
+   "title": "Routing Coordinator 710",
+   "detail": "Routing check cycle 710 complete: 5 picks filed. Watcher for RC-T1, RC-T2, RC-T3, RC-T4; Data Integrity Auditor for RC-T5.",
+   "currentTask": "Picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-28T07:40:43.000Z",
+   "observedAt": "2026-11-28T07:40:43.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-typography-generic",
