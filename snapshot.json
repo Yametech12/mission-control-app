@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T03:45:30.000Z",
- "summary": "DA-R2 specialist solver completed: audit PASS with 3 Minors",
+ "generatedAt": "2026-11-28T03:51:13.000Z",
+ "summary": "DA-R3 specialist solver started: reading inputs for numbering and stamp unification spec.",
  "agents": [
   {
    "agentId": null,
@@ -941,16 +941,44 @@
    "category": "SASE"
   },
   {
+   "agentId": "da-r3-specialist",
+   "name": "DA-R3 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DA-R3 solver",
+   "detail": "Started DA-R3 specialist run: reading task, role card, and GT-138 inputs.",
+   "currentTask": "Reading DA-R3 inputs and repo state at 37b2da5",
+   "lastHeartbeat": "2026-11-28T03:51:13.000Z",
+   "observedAt": "2026-11-28T03:51:13.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "da-r3-generic",
+   "name": "DA-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DA-R3 solver",
+   "detail": "DA-R3 generic solver started: reading task inputs at 37b2da5",
+   "currentTask": "Reading DA-R3 inputs at commit 37b2da5",
+   "lastHeartbeat": "2026-11-28T03:51:12.000Z",
+   "observedAt": "2026-11-28T03:51:12.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Cycle 696 DA-R2 solvers",
-   "detail": "DA-R2 solver pair dispatched (specialist + generic); input hashes verified on disk.",
-   "currentTask": "Cycle 696: DA-R2 solver pair running",
-   "lastHeartbeat": "2026-11-28T03:26:09.000Z",
-   "observedAt": "2026-11-28T03:26:09.000Z",
+   "title": "Improvement cycle 697",
+   "detail": "Cycle 697 started: Design Auditor retest DA-R3 solvers dispatched (specialist + generic).",
+   "currentTask": "Cycle 697: DA-R3 solvers running",
+   "lastHeartbeat": "2026-11-28T03:50:26.000Z",
+   "observedAt": "2026-11-28T03:50:26.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2747,16 +2775,30 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "da-r2-generic",
+   "name": "DA-R2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-R2 generic solver",
+   "detail": "Generic pair verified on disk: 38,553 bytes, about 780s, gate 7/7 exit 0, PASS WITH MAJOR ISSUES 0/1/4. Posted by parent in completion snapshot.",
+   "currentTask": "DA-R2 generic pair collected",
+   "lastHeartbeat": "2026-11-28T03:49:05.000Z",
+   "observedAt": "2026-11-28T03:49:05.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "da-r2-specialist",
    "name": "DA-R2 specialist solver",
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
    "title": "DA-R2 specialist solver",
-   "detail": "DA-R2 audit shipped: PASS, 0 Critical, 0 Major, 3 Minor; gate 7 of 7",
-   "currentTask": "DA-R2 audit shipped: PASS, 0 Critical, 0 Major, 3 Minor",
-   "lastHeartbeat": "2026-11-28T03:45:30.000Z",
-   "observedAt": "2026-11-28T03:45:30.000Z",
+   "detail": "Specialist pair verified on disk: 29,131 bytes, 1,108s, gate 7/7 exit 0, PASS 0/0/3. Posted by parent in completion snapshot.",
+   "currentTask": "DA-R2 specialist pair collected",
+   "lastHeartbeat": "2026-11-28T03:49:05.000Z",
+   "observedAt": "2026-11-28T03:49:05.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2773,20 +2815,6 @@
    "observedAt": "2026-11-28T03:45:00.000Z",
    "needsUser": false,
    "category": "research"
-  },
-  {
-   "agentId": "da-r2-generic",
-   "name": "DA-R2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DA-R2 generic solver",
-   "detail": "DA-R2 generic solver done: all 7 checks PASS, verdict PASS WITH MAJOR ISSUES (0 Critical, 1 Major, 4 Minor), gate exit 0.",
-   "currentTask": "DA-R2 audit shipped: PASS WITH MAJOR ISSUES, 0C 1M 4m",
-   "lastHeartbeat": "2026-11-28T03:43:00.000Z",
-   "observedAt": "2026-11-28T03:43:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "da-r1-specialist",
