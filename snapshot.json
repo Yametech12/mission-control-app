@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:26:00.000Z",
- "summary": "GT-195 forecast desk: registration frozen, grader proven, first issue in progress",
+ "generatedAt": "2026-11-28T02:25:30.000Z",
+ "summary": "DA-R1 generic solver started: GT68 final build hash verified, inputs read, rendering underway.",
  "agents": [
   {
    "agentId": null,
@@ -955,32 +955,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-mexc-forecast-gt195",
-   "name": "mexc-forecast-desk-gt195",
-   "role": "coordinator",
+   "agentId": "da-r1-generic",
+   "name": "DA-R1 generic solver",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-195 Forecast Desk (MEXC Team)",
-   "detail": "Registration frozen; synthetic grader self-test passed 9 of 9 checks; issuing first forecast set from live MEXC data",
-   "currentTask": "Protocol registered, grader proven on synthetic window; issuing first live forecast set",
-   "lastHeartbeat": "2026-11-28T02:26:00.000Z",
-   "observedAt": "2026-11-28T02:26:00.000Z",
+   "title": "DA-R1 solver",
+   "detail": "DA-R1 generic solver started: hash verified, inputs read, rendering the GT68 final build under device emulation.",
+   "currentTask": "Rendering GT68 final build at 390px and 1440px, running 11 rubric checks",
+   "lastHeartbeat": "2026-11-28T02:25:30.000Z",
+   "observedAt": "2026-11-28T02:25:30.000Z",
    "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-mexc-scalping-gt194",
-   "name": "mexc-scalping-coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-194 Scalping Sim Track",
-   "detail": "GT-194 scalping simulation track: registration first, then runner build and first-cycle verification. Paper/shadow only.",
-   "currentTask": "Writing frozen pre-registration for the 5m scalping sim track",
-   "lastHeartbeat": "2026-11-28T02:21:00.000Z",
-   "observedAt": "2026-11-28T02:21:00.000Z",
-   "needsUser": false,
-   "category": "trading"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "da-r1-specialist",
@@ -2817,6 +2803,34 @@
    "category": "trading"
   },
   {
+   "agentId": "team-mexc-forecast-gt195",
+   "name": "mexc-forecast-desk-gt195",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-195 Forecast Desk (MEXC Team)",
+   "detail": "GT-195 complete: protocol frozen, first 16 forecasts issued from live data, log chain verified, grader proven 9 of 9 on synthetic window; skill unproven, 0 graded yet",
+   "currentTask": "Complete: desk built, first forecast set issued and graded-track record started",
+   "lastHeartbeat": "2026-11-28T02:31:00.000Z",
+   "observedAt": "2026-11-28T02:31:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-mexc-scalping-gt194",
+   "name": "mexc-scalping-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-194 Scalping Sim Track",
+   "detail": "GT-194 complete. Scalping sim live (10 pairs, 5m, full MEXC costs). Cycle 1: 67 signals, 62 sizing skips, 5 trades, gross -168.80 vs net -252.52. Ledger verified. Report filed.",
+   "currentTask": "Complete: registration frozen, runner live on 5m cron, first cycle verified, report filed",
+   "lastHeartbeat": "2026-11-28T02:29:00.000Z",
+   "observedAt": "2026-11-28T02:29:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-mexc-training-gt191",
    "name": "mexc-training-gt191",
    "role": "coordinator",
@@ -4157,34 +4171,6 @@
    "currentTask": "AIE-S2 specialist pair collected",
    "lastHeartbeat": "2026-11-27T10:20:32.000Z",
    "observedAt": "2026-11-27T10:22:07.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-api-integration-engineer-s1-generic",
-   "name": "API Integration Engineer S1 Generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-S1 Generic Solver",
-   "detail": "AIE-S1 generic: 9,752/1,708/3,471 bytes, 1,623 words, gate 7/7, READ-BACK PASS.",
-   "currentTask": "AIE-S1 generic output collected and verified",
-   "lastHeartbeat": "2026-11-27T10:11:52.000Z",
-   "observedAt": "2026-11-27T10:15:35.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-api-integration-engineer-s1-specialist",
-   "name": "API Integration Engineer S1 Specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-S1 Specialist Solver",
-   "detail": "AIE-S1 specialist: 16,887/2,125/3,997 bytes, 2,750 words, gate 7/7, READ-BACK PASS.",
-   "currentTask": "AIE-S1 specialist output collected and verified",
-   "lastHeartbeat": "2026-11-27T10:13:19.000Z",
-   "observedAt": "2026-11-27T10:15:35.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
