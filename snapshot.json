@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T12:03:00.000Z",
- "summary": "GT-214 sweep: tests and replay verified, live refusal confirmed; kill-switch drill in progress.",
+ "generatedAt": "2026-11-28T12:13:00.000Z",
+ "summary": "GT-215 complete: 7-day gate WAIVED in state (not completed), Step 12 built disabled (234 tests pass, live still refuses), gate review pack filed. GT-212 FAIL; Phase 1 0 of 50; Plan B 3 of 300.",
  "agents": [
   {
    "agentId": null,
@@ -927,32 +927,32 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-mexc-sweep-gt214",
-   "name": "shadow-army-sweep-gt214",
+   "agentId": "team-mexc-hunt-gt216",
+   "name": "config-hunt-coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-214 Shadow Army verification sweep",
-   "detail": "Sweep progress: full suite 222 passed; basket replay 394,552 candles exact vs GT-198 manifest, GATE PASS; live mode refused exit 2; checks all_ok, diffs 0.0. Kill-switch drill next.",
-   "currentTask": "Tests 222 passed, replay exact match, live refused exit 2; running kill-switch drill",
-   "lastHeartbeat": "2026-11-28T12:03:00.000Z",
-   "observedAt": "2026-11-28T12:03:00.000Z",
+   "title": "GT-216 Config Hunt (Shadow Army archive)",
+   "detail": "GT-216 config hunt started: pre-registering families, grids, splits, correction rule before any trial runs",
+   "currentTask": "Writing pre-registration for correction-first config hunt GT-216",
+   "lastHeartbeat": "2026-11-28T12:05:00.000Z",
+   "observedAt": "2026-11-28T12:05:00.000Z",
    "needsUser": false,
    "category": "mexc-trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "agentId": "team-mexc-shadowfix-gt213",
+   "name": "mexc-shadow-fix-coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle",
-   "detail": "Cycle 730 routing check started: 5 fresh Nov 28 legs (VERITY 33, MONTRA, BULLA 19:28; F6 19:11; health 19:45).",
-   "currentTask": "Routing check cycle 730: sealing Coordinator picks, panel pending",
-   "lastHeartbeat": "2026-11-28T11:57:00.000Z",
-   "observedAt": "2026-11-28T11:57:00.000Z",
+   "title": "GT-213 Training shadow fix pass (cadence, watermark, speed)",
+   "detail": "GT-213 shadow fix pass started: candidate-b hourly cadence (f), status.json watermark (e), parallel fetch with replay proof (b). Baseline ledger 756 rows, chain OK.",
+   "currentTask": "Building fixture replay-equivalence test for parallel fetch; designing cadence and watermark fixes",
+   "lastHeartbeat": "2026-11-28T12:03:00.000Z",
+   "observedAt": "2026-11-28T12:03:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,6 +2733,62 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-mexc-gate-gt215",
+   "name": "gate-review-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-215 Gate review pack + Step 12",
+   "detail": "GT-215 complete: 7-day gate WAIVED in framework state (not completed), LiveBeru built disabled and verified (234 passed, arise live exits 2), pack filed with GT-212 FAIL and 8 blockers; GT-213 section PENDING",
+   "currentTask": "Complete: waiver recorded, Step 12 verified, gate review pack filed",
+   "lastHeartbeat": "2026-11-28T12:13:00.000Z",
+   "observedAt": "2026-11-28T12:13:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-mexc-liveberu-gt215",
+   "name": "step12-liveberu-builder",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-215 Step 12 LiveBeru (disabled)",
+   "detail": "Step 12 LiveBeru implemented behind the live gate plus owner approval file check; refusal matrix and paper harness proven by tests; no transport, no keys (carried by job lead)",
+   "currentTask": "Complete: LiveBeru built disabled, suite green (carried by job lead)",
+   "lastHeartbeat": "2026-11-28T12:05:00.000Z",
+   "observedAt": "2026-11-28T12:05:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-mexc-sweep-gt214",
+   "name": "shadow-army-sweep-gt214",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-214 Shadow Army verification sweep",
+   "detail": "GT-214 complete: 222 tests passed; replay exact vs GT-198 manifest; live refused exit 2; kill-switch drill passed (Eloy 219, 220) with live post-reset candle processing; 7-day gate IN PROGRESS to Dec 5; Step 12 not ready, analysis filed.",
+   "currentTask": "Sweep complete: all checks pass, drill passed, framework left running and not halted",
+   "lastHeartbeat": "2026-11-28T12:03:16.000Z",
+   "observedAt": "2026-11-28T12:03:16.000Z",
+   "needsUser": false,
+   "category": "mexc-trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle",
+   "detail": "Cycle 730 routing check done: 4 of 5 vs division leads. RC-T4 panel-only miss (Coordinator ML Engineer, panel Watcher 5-3). Clean sweeps 32 in 118. Scoreboard 32/11/36.",
+   "currentTask": "Cycle 730 done: routing check 4 of 5, RC-T4 panel-only miss",
+   "lastHeartbeat": "2026-11-28T12:03:00.000Z",
+   "observedAt": "2026-11-28T12:03:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-mexc-testread-gt212",
    "name": "mexc-test-read-coordinator",
    "role": "coordinator",
@@ -4075,62 +4131,6 @@
    "observedAt": "2026-11-27T17:53:42.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt189-hypergrok-eval",
-   "name": "gt189-hypergrok-eval",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-189 HyperGrok desk evaluation",
-   "detail": "Complete: evaluation.md filed. 7 adopt, 8 adapt, 7 reject. Standing mandate rejected (conflicts with lane gate 3); ticket lifecycle, unknown-result protocol, unavailable verdict and hashed data bundles adopted as proposals.",
-   "currentTask": "Complete: report filed at GT-20261128-189-reports/evaluation.md",
-   "lastHeartbeat": "2026-11-27T17:32:00.000Z",
-   "observedAt": "2026-11-27T17:32:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "wpe-s2-specialist-solver",
-   "name": "WPE-S2 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-S2 specialist solver",
-   "detail": "Complete: performance-report.md, gate.js, delivery-note.md shipped; gate exit 0, 7 OK lines; read-back PASS; verdict NOT VERIFIED",
-   "currentTask": "WPE-S2 deliverables complete, gate passed",
-   "lastHeartbeat": "2026-11-27T17:26:05.000Z",
-   "observedAt": "2026-11-27T17:26:05.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "wpe-s2-generic-solver",
-   "name": "WPE-S2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-S2 generic solver",
-   "detail": "Generic solver done: report, gate.js (7/7 OK, exit 0), delivery note written; read-back PASS; 0 em dashes.",
-   "currentTask": "WPE-S2 generic deliverables complete",
-   "lastHeartbeat": "2026-11-27T17:22:15.000Z",
-   "observedAt": "2026-11-27T17:22:15.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-wpe-s1-generic",
-   "name": "WPE-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-S1 generic solver",
-   "detail": "WPE-S1 generic solve complete: report 6,802 bytes, gate 7/7, READ-BACK: PASS (posted by cycle lead).",
-   "currentTask": "WPE-S1 generic solve complete",
-   "lastHeartbeat": "2026-11-27T17:15:30.000Z",
-   "observedAt": "2026-11-27T17:15:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
