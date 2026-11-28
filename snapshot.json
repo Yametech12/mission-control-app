@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:12:00.000Z",
- "summary": "GT-191 training complete and verified; report being written.",
+ "generatedAt": "2026-11-28T02:15:00.000Z",
+ "summary": "GT-191 complete: GT-182 failure diagnosed, improvement spec frozen and trained exactly as written, selection POSITIVE on validation with full honest limits recorded.",
  "agents": [
   {
    "agentId": null,
@@ -967,20 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-mexc-training-gt191",
-   "name": "mexc-training-gt191",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-191 own-model training improvement pass",
-   "detail": "Training done and independently verified: selected cfg0 theta 0.006, PF 1.0806; writing report",
-   "currentTask": "Writing the GT-191 training improvement report",
-   "lastHeartbeat": "2026-11-28T02:12:00.000Z",
-   "observedAt": "2026-11-28T02:12:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2789,6 +2775,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-mexc-training-gt191",
+   "name": "mexc-training-gt191",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-191 own-model training improvement pass",
+   "detail": "Complete: diagnosis written, spec V2 frozen, 128 trials trained on v2, selected cfg0 theta 0.006 PF 1.0806 validation, independently verified",
+   "currentTask": "GT-191 complete, report filed",
+   "lastHeartbeat": "2026-11-28T02:15:00.000Z",
+   "observedAt": "2026-11-28T02:15:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-fitorskip-gt192",
    "name": "fitorskip-build-fix",
    "role": "builder",
@@ -4159,20 +4159,6 @@
    "observedAt": "2026-11-27T10:00:30.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "gt172-sprint",
-   "name": "gt172-sprint",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-172 accuracy-first sprint (ledger verify + evidence audit)",
-   "detail": "Complete: Phase 1, fleet, expansion ledgers all PASS integrity (read-only). Pooled closed 0/300 fleet, 0 expansion. Proposals filed. App-side blocked: owner Chrome offline; Manus freshness claim UNVERIFIED.",
-   "currentTask": "Sprint complete; report GT-20261127-172 filed",
-   "lastHeartbeat": "2026-11-27T09:57:00.000Z",
-   "observedAt": "2026-11-27T09:57:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
