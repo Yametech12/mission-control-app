@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-28T04:14:35.000Z",
- "summary": "Cycle 698 done: Design Auditor retest sealed, judging lands cycle 699.",
+ "generatedAt": "2026-11-28T04:18:00.000Z",
+ "summary": "2 runs active now; 13 recent completions including the MS-1 TikTok post and 4 Ghostname Team jobs; MS-2 TikTok due 15:00 PHT and CSE evening slot 19:30 PHT. Attention: Shadow Army 1h track failing 7 cycles, memory backup failed 24 times, Zulti check failed 3 times.",
  "agents": [
   {
    "agentId": null,
-   "name": "Zulti Monday promo code check",
+   "name": "Shadow Army 1h track freshness failing",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run failed Mon Nov 23 and last success was Nov 4. Next run Mon Nov 30 at 09:00 PHT.",
+   "title": "Shadow Army 1h track freshness failing",
+   "detail": "Candidate-b 1h track is 4 hourly closes behind with 0 GAP rows; 7th straight freshness failure. Cause is backlog item (f): 1h track on a 4h-only schedule. Needs a team job decision.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T03:16:58.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "observedAt": "2026-11-28T04:08:17.000Z",
+   "needsUser": true,
+   "category": "trading"
   },
   {
    "agentId": null,
@@ -43,20 +43,6 @@
    "observedAt": "2026-11-28T03:16:58.000Z",
    "needsUser": true,
    "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures; last run failed Fri Nov 27 at 23:26 PHT and last success was Nov 4. Next run tonight at 23:30 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T03:16:58.000Z",
-   "needsUser": false,
-   "category": "Backup"
   },
   {
    "agentId": null,
@@ -130,17 +116,17 @@
   },
   {
    "agentId": null,
-   "name": "Shadow Army track freshness check failed",
+   "name": "Memory daily backup to Google Drive",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Shadow Army track freshness check failed",
-   "detail": "23:05 cycle: candidate-b 1h track 3 candles behind after the 23:00 close, past the 2-close limit. First failure in this streak; no owner message yet.",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed 24 times in a row with a platform spawn error (binding retired); last success Nov 4. No backup has run since.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:16:38.000Z",
+   "observedAt": "2026-11-27T15:26:48.000Z",
    "needsUser": false,
-   "category": "Trading"
+   "category": "backup"
   },
   {
    "agentId": "gt180-kronos-execution",
@@ -941,16 +927,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "cse-qc-reel-1215",
-   "name": "CSE Quick Check 12:15 poster",
+   "agentId": "996fb5d6-b515-4f50-b4c9-d15b67904a94",
+   "name": "CSE Reel browser agent",
    "role": "poster",
    "agentStatus": "active",
    "status": "working",
-   "title": "CSE Quick Check 12:15",
-   "detail": "Page answer drop C1-N002 verified; Reel C1-N004 live at facebook.com/reel/1867030704723264/; group answer drops via browser next.",
-   "currentTask": "Group answer drops for C1-N002 via shared browser session",
-   "lastHeartbeat": "2026-11-28T04:20:00.000Z",
-   "observedAt": "2026-11-28T04:20:00.000Z",
+   "title": "CSE Quick Check Reel midday 12:15",
+   "detail": "Run started 12:15 PHT and is still executing in the shared Facebook browser session, posting the midday reel plus answer drop.",
+   "currentTask": "CSE Quick Check Reel midday 12:15 plus answer drop",
+   "lastHeartbeat": "2026-11-28T04:16:08.000Z",
+   "observedAt": "2026-11-28T04:16:26.000Z",
    "needsUser": false,
    "category": "cse"
   },
@@ -2747,6 +2733,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "cse-qc-reel-1215",
+   "name": "CSE Quick Check 12:15 poster",
+   "role": "poster",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Quick Check 12:15",
+   "detail": "Reel C1-N004 live at facebook.com/reel/1867030704723264/. Answer drop C1-N002 done on Page and both live group copies. Reel answer due 19:30.",
+   "currentTask": "Done: reel live, answer drops complete",
+   "lastHeartbeat": "2026-11-28T04:20:00.000Z",
+   "observedAt": "2026-11-28T04:20:00.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team improvement cycle",
    "role": "coordinator",
@@ -4117,20 +4117,6 @@
    "observedAt": "2026-11-27T11:22:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-illustration-icon-designer",
-   "name": "IID-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "IID-T2 specialist solver",
-   "detail": "Specialist IID-T2 complete: icon set record 6,605 bytes, 1,133 words, gate 11/11, 75s. Posted by cycle lead.",
-   "currentTask": "IID-T2 specialist output filed and verified",
-   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
-   "observedAt": "2026-11-27T11:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
