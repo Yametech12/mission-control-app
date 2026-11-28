@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:39:28.000Z",
- "summary": "IID-R1 blind judging complete: candidate B wins 8.75 to 8.50 over A; both gates passed 13/13.",
+ "generatedAt": "2026-11-28T09:40:00.000Z",
+ "summary": "Cycle 719: IID retest judged 8.58/8.25, rewrite 2 filed; next routing check 720.",
  "agents": [
   {
    "agentId": null,
@@ -2761,6 +2761,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "idle",
+   "status": "completed",
+   "title": "Team Improvement Cycle 719",
+   "detail": "Cycle 719 done: IID retest judged 8.58 vs 8.25 (2 wins, 1 loss), not a clear win; card rewrite 2 filed, retest of rewrite 2 later.",
+   "currentTask": "Cycle 719 done: IID retest judged 8.58/8.25, rewrite 2 filed",
+   "lastHeartbeat": "2026-11-28T09:40:00.000Z",
+   "observedAt": "2026-11-28T09:40:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-illustration-icon-designer",
    "name": "Illustration and Icon Designer",
    "role": "builder",
@@ -4143,20 +4157,6 @@
    "currentTask": "Done: KRONOS_FINETUNE_SPEC_2026-11-27.md frozen; report GT-20261127-183 filed",
    "lastHeartbeat": "2026-11-27T14:39:57.000Z",
    "observedAt": "2026-11-27T14:39:57.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt178-kronos-colab",
-   "name": "gt178-kronos-colab",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-178 Kronos Colab notebook",
-   "detail": "GT-178 complete: kronos_gauntlet_colab.ipynb (14 cells) matches the GT-177 frozen registration (both trials, 6 gates). Engine passed 11 unit tests; live MEXC fetch and wiring verified. Gauntlet not run.",
-   "currentTask": "Complete: notebook delivered and validated",
-   "lastHeartbeat": "2026-11-27T14:35:00.000Z",
-   "observedAt": "2026-11-27T14:35:00.000Z",
    "needsUser": false,
    "category": "trading"
   }
