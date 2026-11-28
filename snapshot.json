@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T05:05:30.000Z",
- "summary": "DA-S2 generic solver started the SASE portal direction-fidelity audit.",
+ "generatedAt": "2026-11-28T05:17:03.000Z",
+ "summary": "2 runs working now, frequent trading and feed cycles completing, CSE slots on schedule, and 5 attention items including 2 blocked WhatsApp deliveries.",
  "agents": [
   {
    "agentId": null,
@@ -18,48 +18,6 @@
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Paused: 101 consecutive failures, last success Oct 6. Blocked because the WhatsApp chat it posts to can no longer receive results; account action required.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T03:16:58.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Paused: 99 consecutive failures, last success Nov 3. Blocked because the WhatsApp chat it posts to can no longer receive results; account action required.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T03:16:58.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 consecutive failures; last run failed Thu Nov 26 and last success was Nov 2. Next run Sun Nov 29 at 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T03:16:58.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
-  },
-  {
-   "agentId": null,
    "name": "1-week training sprint daily checkpoint",
    "role": null,
    "agentStatus": null,
@@ -71,6 +29,34 @@
    "observedAt": "2026-11-28T03:16:58.000Z",
    "needsUser": false,
    "category": "Trading"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 99 consecutive failures; last success Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T02:35:12.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 101 consecutive failures; last success Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T01:46:30.000Z",
+   "needsUser": true,
+   "category": "monitoring"
   },
   {
    "agentId": "sprint-daily-checkpoint",
@@ -121,7 +107,7 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Memory daily backup to Google Drive",
-   "detail": "Failed 24 times in a row with a platform spawn error (binding retired); last success Nov 4. No backup has run since.",
+   "detail": "24 consecutive failures; last run failed Nov 27 at 23:26 PHT and last success was Nov 4. Next run tonight at 23:30 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
    "observedAt": "2026-11-27T15:26:48.000Z",
@@ -225,6 +211,20 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 consecutive failures; last run failed Nov 26 and last success was Nov 2. Next run is tomorrow at 19:05 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-26T11:05:59.000Z",
+   "needsUser": false,
+   "category": "Epimetheus"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -941,20 +941,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "da-s2-specialist",
-   "name": "DA-S2 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DA-S2 specialist solver",
-   "detail": "Started DA-S2 audit; input hash verified f809ea39, reading taste profile and standards",
-   "currentTask": "Reading inputs and rendering portal landing at 390px and 1440px",
-   "lastHeartbeat": "2026-11-28T05:04:30.000Z",
-   "observedAt": "2026-11-28T05:04:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement cycle",
    "role": "coordinator",
@@ -967,20 +953,6 @@
    "observedAt": "2026-11-28T05:03:40.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "996fb5d6-b515-4f50-b4c9-d15b67904a94",
-   "name": "CSE Reel browser agent",
-   "role": "poster",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE Quick Check Reel midday 12:15",
-   "detail": "Run started 12:15 PHT and is still executing in the shared Facebook browser session, posting the midday reel plus answer drop.",
-   "currentTask": "CSE Quick Check Reel midday 12:15 plus answer drop",
-   "lastHeartbeat": "2026-11-28T04:16:08.000Z",
-   "observedAt": "2026-11-28T04:16:26.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,6 +2747,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "da-s2-specialist",
+   "name": "DA-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-S2 specialist solver",
+   "detail": "Audit complete: HOLD, 0 Critical, 7 Major, 6 Minor; cheap yes, saturated yes, generic no; gate passed",
+   "currentTask": "DA-S2 audit shipped: design-audit, audit-note, gate.js, delivery-note",
+   "lastHeartbeat": "2026-11-28T05:17:07.000Z",
+   "observedAt": "2026-11-28T05:17:07.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "da-s1-generic",
    "name": "DA-S1 generic solver",
    "role": "builder",
@@ -4145,20 +4131,6 @@
    "observedAt": "2026-11-27T11:40:00.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "cse-qc-evening-1930",
-   "name": "CSE Evening Poster",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE 19:30 evening slot",
-   "detail": "Reel answer drop done (C1-V018, B thorough, comment verified). Evening post LIVE: Inside the reviewer, Day 5 caption, https://www.facebook.com/122104050213556083/posts/122105836647556083",
-   "currentTask": "19:30 evening slot done: Reel answer drop + Inside the reviewer post",
-   "lastHeartbeat": "2026-11-27T11:30:00.000Z",
-   "observedAt": "2026-11-27T11:30:00.000Z",
-   "needsUser": false,
-   "category": "cse-reviewer"
   }
  ]
 }
