@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:06:30.000Z",
- "summary": "Cycle 716 complete: IID-R2 pair collected and verified",
+ "generatedAt": "2026-11-28T09:10:30.000Z",
+ "summary": "IID-R3 generic solver complete: gate 13/13 passed, READ-BACK PASS.",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 717",
+   "detail": "Cycle 717 started: IID-R3 solvers running (Mission Control adaptive icon)",
+   "currentTask": "Cycle 717: IID-R3 solvers (specialist and generic)",
+   "lastHeartbeat": "2026-11-28T09:09:00.000Z",
+   "observedAt": "2026-11-28T09:09:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2733,6 +2747,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "iid-r3-generic-solver",
+   "name": "IID-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-R3 generic solver",
+   "detail": "IID-R3 generic set done: gate 13/13 passed, READ-BACK PASS, 10,006 bytes total.",
+   "currentTask": "IID-R3 generic icon set complete",
+   "lastHeartbeat": "2026-11-28T09:10:30.000Z",
+   "observedAt": "2026-11-28T09:10:30.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "Illustration and Icon Designer",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-R3 Mission Control icon set",
+   "detail": "IID-R3 complete: gate 13/13 passed, read-back PASS, 4 files shipped, 11490 bytes total.",
+   "currentTask": "IID-R3 Mission Control icon set record",
+   "lastHeartbeat": "2026-11-28T09:09:57.000Z",
+   "observedAt": "2026-11-28T09:09:57.000Z",
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
    "agentId": "iid-r2-generic",
    "name": "IID-R2 generic solver",
    "role": "builder",
@@ -2755,20 +2797,6 @@
    "title": "IID-R2 specialist solver",
    "detail": "IID-R2 specialist solver (posted by cycle lead): icon-set 7,796 bytes / 1,355 words, gate 15/15, 427s.",
    "currentTask": "IID-R2 specialist output collected",
-   "lastHeartbeat": "2026-11-28T09:06:30.000Z",
-   "observedAt": "2026-11-28T09:06:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 716: IID-R2 collected",
-   "detail": "Cycle 716 complete: IID-R2 pair collected and verified, both gates 15/15, no key defect. IID-R3 cycle 717, sealing 718, judging 719.",
-   "currentTask": "Cycle 716 complete: IID-R2 pair collected",
    "lastHeartbeat": "2026-11-28T09:06:30.000Z",
    "observedAt": "2026-11-28T09:06:30.000Z",
    "needsUser": false,
@@ -4117,20 +4145,6 @@
    "observedAt": "2026-11-27T14:35:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-wpe-r1-generic",
-   "name": "WPE-R1 generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R1 generic solver",
-   "detail": "Posted by cycle lead: WPE-R1 generic pair collected, gate 7/7 exit 0, READ-BACK: PASS.",
-   "currentTask": "WPE-R1 generic run complete",
-   "lastHeartbeat": "2026-11-27T14:22:49.000Z",
-   "observedAt": "2026-11-27T14:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
