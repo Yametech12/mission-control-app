@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:05:32.000Z",
- "summary": "Cycle 687 complete: M3D-S2 pair collected and verified, both gates 7/7",
+ "generatedAt": "2026-11-28T01:08:33.000Z",
+ "summary": "M3D-S3 generic solver started: Seven Rooms 3D spec from task file and named inputs only",
  "agents": [
   {
    "agentId": null,
@@ -967,6 +967,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "m3d-s3-generic",
+   "name": "M3D-S3 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S3 generic solver",
+   "detail": "Started: reading task inputs and measuring library bytes for the Seven Rooms spec.",
+   "currentTask": "Reading Seven Rooms inputs and measuring bytes",
+   "lastHeartbeat": "2026-11-28T01:08:33.000Z",
+   "observedAt": "2026-11-28T01:08:33.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s3-specialist",
+   "name": "M3D-S3 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S3 specialist solver",
+   "detail": "Started M3D-S3 specialist run: reading role card and task brief.",
+   "currentTask": "Reading role card, craft guide, and M3D-S3 task brief",
+   "lastHeartbeat": "2026-11-28T01:08:25.000Z",
+   "observedAt": "2026-11-28T01:08:25.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 688: M3D-S3 solvers",
+   "detail": "Motion and 3D retest 2, M3D-S3 solver pair running; S1 and S2 pairs collected, sealing and judging after S3.",
+   "currentTask": "Running M3D-S3 solver pair for Motion and 3D retest 2",
+   "lastHeartbeat": "2026-11-28T01:07:30.000Z",
+   "observedAt": "2026-11-28T01:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2761,20 +2803,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 687",
-   "detail": "M3D-S2 pair collected and verified (specialist 22,032 B, generic 18,727 B; both gates 7/7, no key defect). M3D-S3 next.",
-   "currentTask": "Cycle 687 complete; M3D-S3 solvers next cycle",
-   "lastHeartbeat": "2026-11-28T01:05:32.000Z",
-   "observedAt": "2026-11-28T01:05:32.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "m3d-s2-generic",
    "name": "M3D-S2 generic solver",
    "role": "builder",
@@ -4145,6 +4173,20 @@
    "observedAt": "2026-11-27T09:43:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "gt170-coordinator",
+   "name": "gt170-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-170 Candle Pattern Research Blitz",
+   "detail": "Complete: 1,248 trials, 0 survivors (68 failed only the correction). Scale-in hurt; scale-out neutral. Report GT-20261127-170.md and CANDIDATES.md filed.",
+   "currentTask": "Complete: report and candidates file delivered",
+   "lastHeartbeat": "2026-11-27T09:35:00.000Z",
+   "observedAt": "2026-11-27T09:35:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   }
  ]
 }
