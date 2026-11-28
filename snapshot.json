@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T03:16:58.000Z",
- "summary": "2 cycles running now; GT-175 MS-2 TikTok post due 15:00 PHT today; 6 items need attention, including 2 paused by a WhatsApp delivery block and 3 long failure streaks.",
+ "generatedAt": "2026-11-28T03:26:09.000Z",
+ "summary": "Cycle 696: Design Auditor retest 2, DA-R2 solvers running",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,62 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-research-gotrade-gt197",
+   "name": "gotrade-investigator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-197 Gotrade investigation",
+   "detail": "Milestone: Labuan licence confirmed on official IBFC list; Gotrade fee PDF and terms read; no PH SEC advisory naming Gotrade found",
+   "currentTask": "Writing investigation report with fee math and round-trip test sequence",
+   "lastHeartbeat": "2026-11-28T03:40:00.000Z",
+   "observedAt": "2026-11-28T03:40:00.000Z",
+   "needsUser": false,
+   "category": "research"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 696 DA-R2 solvers",
+   "detail": "DA-R2 solver pair dispatched (specialist + generic); input hashes verified on disk.",
+   "currentTask": "Cycle 696: DA-R2 solver pair running",
+   "lastHeartbeat": "2026-11-28T03:26:09.000Z",
+   "observedAt": "2026-11-28T03:26:09.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "da-r2-generic",
+   "name": "DA-R2 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DA-R2 generic solver",
+   "detail": "DA-R2 generic solver dispatched; parent carries item until solver reports.",
+   "currentTask": "DA-R2 design-system audit, generic side",
+   "lastHeartbeat": "2026-11-28T03:26:09.000Z",
+   "observedAt": "2026-11-28T03:26:09.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "da-r2-specialist",
+   "name": "DA-R2 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "DA-R2 specialist solver",
+   "detail": "DA-R2 specialist solver dispatched; parent carries item until solver reports.",
+   "currentTask": "DA-R2 design-system audit, specialist side",
+   "lastHeartbeat": "2026-11-28T03:26:09.000Z",
+   "observedAt": "2026-11-28T03:26:09.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,20 +2789,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 695: routing check 111th",
-   "detail": "Routing check 695 complete: 5 of 5 vs division leads (Watcher 7-1, 7-1, 6-1-1; Data Integrity Auditor 5-3, 5-2-1). Clean sweeps 25 in 111. RC-T4 both-sides miss: correct call ML Engineer.",
-   "currentTask": "Cycle 695 filed; DA-R2 solvers next cycle 696",
-   "lastHeartbeat": "2026-11-28T03:15:00.000Z",
-   "observedAt": "2026-11-28T03:15:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "da-r1-specialist",
    "name": "DA-R1 specialist solver",
    "role": "builder",
@@ -4114,6 +4156,20 @@
    "detail": "Specialist win 8.9 vs 6.9. Contamination clean. Posted by job lead.",
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T10:58:22.000Z",
+   "observedAt": "2026-11-27T11:03:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "3a96d6fe-4c92-4732-a89a-2a8b26b07b46",
+   "name": "AIE-S3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-S3 blind judge (cycle 631)",
+   "detail": "Generic win 8.75 vs 7.5. Contamination clean. Posted by job lead.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T10:58:12.000Z",
    "observedAt": "2026-11-27T11:03:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
