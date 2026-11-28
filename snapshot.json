@@ -1,7 +1,63 @@
 {
- "generatedAt": "2026-11-28T00:09:31.000Z",
- "summary": "M3D-S1 specialist solver started: GT104 motion and staging review",
+ "generatedAt": "2026-11-28T00:20:22.000Z",
+ "summary": "Routing check cycle 685 coordinator picks complete: Watcher for RC-T1, RC-T2, RC-T3; DevOps and Release Engineer for RC-T4; Data Integrity Auditor for RC-T5.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "24 consecutive failures; last success was Nov 4. Last run failed Nov 27 at 23:26 PHT. Next run tonight 23:30 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T00:17:23.000Z",
+   "needsUser": false,
+   "category": "backup"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: 98 consecutive failures. The WhatsApp chat it posts to can no longer receive results; account action required.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T00:17:23.000Z",
+   "needsUser": true,
+   "category": "marketing"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: 100 consecutive failures. The WhatsApp chat it posts to can no longer receive results; account action required.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T00:17:23.000Z",
+   "needsUser": true,
+   "category": "monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run failed Nov 23. Last success was Nov 4. Next run Monday Nov 30, 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T00:16:43.000Z",
+   "needsUser": false,
+   "category": "zulti"
+  },
   {
    "agentId": "sprint-daily-checkpoint",
    "name": "Sprint Daily Checkpoint",
@@ -18,31 +74,31 @@
   },
   {
    "agentId": null,
-   "name": "Memory daily backup to Google Drive",
+   "name": "Shadow track freshness stale",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures. Last run failed Nov 27 at 23:26 with no recorded reason; last success was Nov 4.",
+   "title": "Shadow track freshness stale",
+   "detail": "Candidate-b 1h track is 4 hourly candles behind on all 30 pairs; no training shadow cycle has run since 04:10 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T23:16:50.000Z",
-   "needsUser": true,
-   "category": "Backup"
+   "observedAt": "2026-11-28T00:08:57.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": null,
-   "name": "Zulti Monday promo code check",
+   "name": "1-week training sprint daily checkpoint",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures. Last run failed Nov 23 with no recorded reason; next run is Monday Nov 30 at 09:00.",
+   "title": "1-week training sprint daily checkpoint",
+   "detail": "Day 1 checkpoint failed at 08:07 PHT: Kronos gauntlet blocked, needs the owner's plain-words approval to run the downloaded code.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-27T23:16:50.000Z",
-   "needsUser": false,
-   "category": "Zulti"
+   "observedAt": "2026-11-28T00:07:32.000Z",
+   "needsUser": true,
+   "category": "training"
   },
   {
    "agentId": null,
@@ -57,34 +113,6 @@
    "observedAt": "2026-11-27T23:07:46.000Z",
    "needsUser": false,
    "category": "Trading"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: 100 consecutive failures, last failed 03:46 PHT, last success Oct 6. The WhatsApp chat it posts to can no longer receive results.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T21:16:25.000Z",
-   "needsUser": true,
-   "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "97 consecutive failures, last success Nov 3. Paused because its WhatsApp chat can no longer receive results; account action required before it can run again.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T20:16:51.000Z",
-   "needsUser": true,
-   "category": "Clipping"
   },
   {
    "agentId": null,
@@ -941,6 +969,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 685",
+   "detail": "Cycle 685 routing check started: 5 fresh Nov 28 legs (07:28 VERITY/MONTRA/BULLA watches, 08:10 F6 cycle, 08:05 health cycle)",
+   "currentTask": "Routing check 685: Coordinator picks, then panel vote",
+   "lastHeartbeat": "2026-11-28T00:17:30.000Z",
+   "observedAt": "2026-11-28T00:17:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "m3d-s1-specialist",
    "name": "M3D-S1 specialist solver",
    "role": "builder",
@@ -965,20 +1007,6 @@
    "currentTask": "Reading GT104 inputs and drafting motion review",
    "lastHeartbeat": "2026-11-28T00:09:20.000Z",
    "observedAt": "2026-11-28T00:09:20.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 684: Motion and 3D retest 2",
-   "detail": "Cycle 684 started. Motion and 3D retest 2 opens: 3 fresh tasks probing rewrite 2 standards 13 to 23; fail here means FLAGGED.",
-   "currentTask": "Filing Motion and 3D retest 2 tasks M3D-S1 to S3",
-   "lastHeartbeat": "2026-11-27T23:50:00.000Z",
-   "observedAt": "2026-11-27T23:50:00.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2879,12 +2907,12 @@
    "agentStatus": "idle",
    "status": "completed",
    "title": "CSE Quick Check morning 06:30",
-   "detail": "Completed this morning: the same Quick Check poster was published live in two Facebook groups as CSE Practice Hub PH.",
-   "currentTask": "Post CSE Quick Check in two Facebook groups",
+   "detail": "Completed 06:35 PHT: the same Quick Check poster went live in both Facebook groups as CSE Practice Hub PH.",
+   "currentTask": "CSE Quick Check morning posts in 2 groups",
    "lastHeartbeat": "2026-11-27T22:34:22.000Z",
    "observedAt": "2026-11-27T22:35:28.000Z",
    "needsUser": false,
-   "category": "CSE"
+   "category": "reviewer"
   },
   {
    "agentId": "judge-pe-s3",
