@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:26:00.000Z",
- "summary": "Cycle 709 complete: Typography Specialist retest TYPO-R2 pair collected and verified.",
+ "generatedAt": "2026-11-28T07:31:30.000Z",
+ "summary": "GT-198: 6 parallel shards launched 07:29:36Z covering all 944 remaining pairs. First retried pull-failure drops (KIIUSDT, ASTERUSDT) already archived.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-mexc-archive-gt198",
+   "name": "mexc-archive-coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-198 Shadow Army Parallel Dataset Collection",
+   "detail": "6 shards running detached (158/158/157/157/157/157 pairs). Early retry wins: KIIUSDT and ASTERUSDT archived. Monitoring to completion.",
+   "currentTask": "Monitoring 6 collection shards to completion",
+   "lastHeartbeat": "2026-11-28T07:31:30.000Z",
+   "observedAt": "2026-11-28T07:31:30.000Z",
+   "needsUser": false,
+   "category": "trading"
   },
   {
    "agentId": "gt160-shadow-upgrade",
