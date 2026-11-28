@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T11:12:00.000Z",
- "summary": "Routing check 725 panel complete: five picks filed in panel-picks.md and panel-votes.md.",
+ "generatedAt": "2026-11-28T11:16:13.000Z",
+ "summary": "Cycle 726 judging Typography Specialist retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -956,15 +956,15 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "name": "Improvement Cycle",
+   "role": "auditor",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 725: routing check",
-   "detail": "Cycle 725 routing check started: 5 fresh Nov 28 legs (VERITY 32, MONTRA, BULLA, F6 18:10, health 19:05).",
-   "currentTask": "Routing check cycle 725: sealing Coordinator picks on 5 fresh legs",
-   "lastHeartbeat": "2026-11-28T11:05:34.000Z",
-   "observedAt": "2026-11-28T11:05:34.000Z",
+   "title": "Improvement cycle 726",
+   "detail": "Judging Typography Specialist retest 2 (TYPO-S1/S2/S3); three fresh QA judges dispatched.",
+   "currentTask": "Judging TYPO retest 2, three blind QA judges",
+   "lastHeartbeat": "2026-11-28T11:16:13.000Z",
+   "observedAt": "2026-11-28T11:16:13.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
