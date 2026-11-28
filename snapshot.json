@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T14:42:00.000Z",
- "summary": "Routing panel cycle 740 complete: 5 picks filed with trigger lines and vote counts.",
+ "generatedAt": "2026-11-28T14:51:23.000Z",
+ "summary": "CW-T2 generic solver started: writing Quick Check Reel caption C1-V018 (Verbal) with answer note and answer drop.",
  "agents": [
   {
    "agentId": null,
@@ -960,11 +960,11 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Ghostname Team improvement cycle 740",
-   "detail": "Cycle 740 routing check started: 5 fresh Nov 28 legs (VERITY 36, MONTRA, BULLA 22:28; F6 22:10; health 22:25). Coordinator picks sealed.",
-   "currentTask": "Routing check 120 (cycle 740): 5 fresh Nov 28 legs, panel picks pending",
-   "lastHeartbeat": "2026-11-28T14:38:00.000Z",
-   "observedAt": "2026-11-28T14:38:00.000Z",
+   "title": "Ghostname Team improvement cycle 741",
+   "detail": "Cycle 741 running: Caption Writer CW-T2 solver pair, specialist vs generic.",
+   "currentTask": "Cycle 741: CW-T2 solver pair (Caption Writer)",
+   "lastHeartbeat": "2026-11-28T14:49:53.000Z",
+   "observedAt": "2026-11-28T14:49:53.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -2633,6 +2633,34 @@
    "observedAt": null,
    "needsUser": false,
    "category": "Audit"
+  },
+  {
+   "agentId": "cw-t2-specialist",
+   "name": "CW-T2 Specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CW-T2 caption draft in progress",
+   "detail": "CW-T2 specialist solver started: drafting C1-V018 reel caption, answer note, and answer drop from the Caption Writer card.",
+   "currentTask": "CW-T2 Quick Check Reel caption, C1-V018 Verbal",
+   "lastHeartbeat": "2026-11-28T14:51:20.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "Validation"
+  },
+  {
+   "agentId": "cw-t2-generic",
+   "name": "CW-T2 Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CW-T2 generic solver",
+   "detail": "Started CW-T2 caption task; writing captions.md, gate.js, delivery-note.md under runs/cw-t2-generic.",
+   "currentTask": "Write CW-T2 caption, gate, and delivery note",
+   "lastHeartbeat": "2026-11-28T14:51:23.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "gt186-raw-archive",
