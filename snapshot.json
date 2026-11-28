@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:10:30.000Z",
- "summary": "IID-R3 generic solver complete: gate 13/13 passed, READ-BACK PASS.",
+ "generatedAt": "2026-11-28T09:16:30.000Z",
+ "summary": "GT-198: a VM replacement at about 09:14Z killed run 2 shards at 759 of 1000 pairs. Run 3 relaunched 09:15Z and resumed from manifests; 241 pairs remain, still 0 drops and 0 rate events.",
  "agents": [
   {
    "agentId": null,
@@ -927,30 +927,16 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 717",
-   "detail": "Cycle 717 started: IID-R3 solvers running (Mission Control adaptive icon)",
-   "currentTask": "Cycle 717: IID-R3 solvers (specialist and generic)",
-   "lastHeartbeat": "2026-11-28T09:09:00.000Z",
-   "observedAt": "2026-11-28T09:09:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-mexc-archive-gt198",
    "name": "mexc-archive-coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "GT-198 Shadow Army Parallel Dataset Collection",
-   "detail": "Recovered from quota block: 6 shards relaunched 09:00Z, resumed at 654 shard pairs done. 710/1000 total archived, all sha256 verified. Monitoring to completion.",
-   "currentTask": "Monitoring relaunched shards, 290 pairs remaining",
-   "lastHeartbeat": "2026-11-28T09:01:00.000Z",
-   "observedAt": "2026-11-28T09:01:00.000Z",
+   "detail": "Run 3 running after VM replacement killed run 2. 759/1000 archived, 241 remaining, resume verified per shard. Monitoring to completion.",
+   "currentTask": "Monitoring run 3 shards, 241 pairs remaining",
+   "lastHeartbeat": "2026-11-28T09:16:30.000Z",
+   "observedAt": "2026-11-28T09:16:30.000Z",
    "needsUser": false,
    "category": "trading"
   },
@@ -2747,18 +2733,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "iid-r3-generic-solver",
-   "name": "IID-R3 generic solver",
-   "role": "builder",
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "IID-R3 generic solver",
-   "detail": "IID-R3 generic set done: gate 13/13 passed, READ-BACK PASS, 10,006 bytes total.",
-   "currentTask": "IID-R3 generic icon set complete",
-   "lastHeartbeat": "2026-11-28T09:10:30.000Z",
-   "observedAt": "2026-11-28T09:10:30.000Z",
+   "title": "Ghostname Team improvement cycle 717",
+   "detail": "Cycle 717 complete: IID-R3 pair collected (spec 5,902/984w 68s; gen 3,970/646w 106s; gates 13/13; K1-K7 pass; sealing 718, judging 719)",
+   "currentTask": "Cycle 717 complete: IID-R3 pair collected and verified",
+   "lastHeartbeat": "2026-11-28T09:12:45.000Z",
+   "observedAt": "2026-11-28T09:12:45.000Z",
    "needsUser": false,
-   "category": "validation"
+   "category": "ghostnameteam"
   },
   {
    "agentId": "team-illustration-icon-designer",
@@ -2766,13 +2752,27 @@
    "role": "builder",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "IID-R3 Mission Control icon set",
-   "detail": "IID-R3 complete: gate 13/13 passed, read-back PASS, 4 files shipped, 11490 bytes total.",
-   "currentTask": "IID-R3 Mission Control icon set record",
-   "lastHeartbeat": "2026-11-28T09:09:57.000Z",
-   "observedAt": "2026-11-28T09:09:57.000Z",
+   "title": "IID-R3 specialist solver",
+   "detail": "IID-R3 specialist solve complete: 5,902/984w, gate 13/13, READ-BACK PASS (posted by cycle lead)",
+   "currentTask": "IID-R3 specialist solve complete",
+   "lastHeartbeat": "2026-11-28T09:12:45.000Z",
+   "observedAt": "2026-11-28T09:12:45.000Z",
    "needsUser": false,
-   "category": "Validation"
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "iid-r3-generic-solver",
+   "name": "IID-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-R3 generic solver",
+   "detail": "IID-R3 generic solve complete: 3,970/646w, gate 13/13, READ-BACK PASS (posted by cycle lead)",
+   "currentTask": "IID-R3 generic solve complete",
+   "lastHeartbeat": "2026-11-28T09:12:45.000Z",
+   "observedAt": "2026-11-28T09:12:45.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "iid-r2-generic",
@@ -4129,20 +4129,6 @@
    "currentTask": "Done: KRONOS_FINETUNE_SPEC_2026-11-27.md frozen; report GT-20261127-183 filed",
    "lastHeartbeat": "2026-11-27T14:39:57.000Z",
    "observedAt": "2026-11-27T14:39:57.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt178-kronos-colab",
-   "name": "gt178-kronos-colab",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-178 Kronos Colab notebook",
-   "detail": "GT-178 complete: kronos_gauntlet_colab.ipynb (14 cells) matches the GT-177 frozen registration (both trials, 6 gates). Engine passed 11 unit tests; live MEXC fetch and wiring verified. Gauntlet not run.",
-   "currentTask": "Complete: notebook delivered and validated",
-   "lastHeartbeat": "2026-11-27T14:35:00.000Z",
-   "observedAt": "2026-11-27T14:35:00.000Z",
    "needsUser": false,
    "category": "trading"
   }
