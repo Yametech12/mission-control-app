@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T11:41:10.000Z",
- "summary": "Ghostname Team improvement cycle 728 complete: IID-S2 pair collected and verified.",
+ "generatedAt": "2026-11-28T11:47:00.000Z",
+ "summary": "Improvement cycle 729 running: Illustration and Icon Designer retest 2, IID-S3 solvers (Epimetheus eye icon set).",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 729",
+   "detail": "Cycle 729 started: IID-S3 solvers running (specialist vs generic) for Illustration and Icon Designer retest 2.",
+   "currentTask": "IID-S3 solvers: specialist and generic building Epimetheus icon set",
+   "lastHeartbeat": "2026-11-28T11:47:00.000Z",
+   "observedAt": "2026-11-28T11:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "Illustration and Icon Designer",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Illustration and Icon Designer IID-S3 solver",
+   "detail": "Specialist solver running IID-S3 (Epimetheus eye icon set) from the rewrite 2 card. Posted by cycle lead.",
+   "currentTask": "Build IID-S3 icon set record from role card",
+   "lastHeartbeat": "2026-11-28T11:47:00.000Z",
+   "observedAt": "2026-11-28T11:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-iid-generic-solver",
+   "name": "IID-S3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "IID-S3 generic solver",
+   "detail": "Generic solver running IID-S3 (Epimetheus eye icon set) with no role card. Posted by cycle lead.",
+   "currentTask": "Build IID-S3 icon set record with no role card",
+   "lastHeartbeat": "2026-11-28T11:47:00.000Z",
+   "observedAt": "2026-11-28T11:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,20 +2775,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 728: IID-S2 collected",
-   "detail": "IID-S2 pair verified: specialist 14,689 B / 2,579 words, 139s; generic 8,459 B / 1,533 words, 80s; gates 13/13 both; K1-K7 pass; IID-S3 next cycle 729.",
-   "currentTask": "Cycle 728 complete; IID-S3 solvers cycle 729",
-   "lastHeartbeat": "2026-11-28T11:41:10.000Z",
-   "observedAt": "2026-11-28T11:41:10.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-improvement-cycle-iid-s1-generic",
    "name": "IID-S1 generic solver",
    "role": "builder",
@@ -2965,20 +2993,6 @@
    "title": "IID retest IID-R1 generic solver",
    "detail": "IID-R1 generic solver complete (posted by cycle parent): 9,666-byte record, gate 13/13 PASS, 176s.",
    "currentTask": "IID-R1 generic solve complete",
-   "lastHeartbeat": "2026-11-28T08:39:00.000Z",
-   "observedAt": "2026-11-28T08:39:00.000Z",
-   "needsUser": false,
-   "category": "ghostename-team"
-  },
-  {
-   "agentId": "team-illustration-icon-designer",
-   "name": "Illustration and Icon Designer (specialist solver)",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "IID retest IID-R1 specialist solver",
-   "detail": "IID-R1 specialist solver complete (posted by cycle parent): 8,789-byte record, gate 13/13 PASS, 255s.",
-   "currentTask": "IID-R1 specialist solve complete",
    "lastHeartbeat": "2026-11-28T08:39:00.000Z",
    "observedAt": "2026-11-28T08:39:00.000Z",
    "needsUser": false,
@@ -4101,6 +4115,34 @@
    "currentTask": "Panel picks filed: App Builder, ML Engineer, ML Engineer, Scheduler, Affiliate Program Manager",
    "lastHeartbeat": "2026-11-27T16:27:30.000Z",
    "observedAt": "2026-11-27T16:30:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mh-t2-generic",
+   "name": "MH-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-T2 generic solver",
+   "detail": "MH-T2 generic done: 18,232 bytes, 109s, gate 112 PASS exit 0, READ-BACK: PASS. Posted by the cycle lead.",
+   "currentTask": "MH-T2 generic pair filed",
+   "lastHeartbeat": "2026-11-27T16:07:00.000Z",
+   "observedAt": "2026-11-27T16:07:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-mh-t2-specialist",
+   "name": "MH-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-T2 specialist solver",
+   "detail": "MH-T2 specialist done: 20,995 bytes, 181s, gate 113 assertions exit 0, READ-BACK: PASS. Posted by the cycle lead.",
+   "currentTask": "MH-T2 specialist pair filed",
+   "lastHeartbeat": "2026-11-27T16:07:00.000Z",
+   "observedAt": "2026-11-27T16:07:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
