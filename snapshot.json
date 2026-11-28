@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:07:00.000Z",
- "summary": "GT-200 arise run: steps 3 and 4 gates passed, step 5 in progress.",
+ "generatedAt": "2026-11-28T10:13:00.000Z",
+ "summary": "GT-200 arise run: steps 3 to 5 gates passed, step 6 in progress.",
  "agents": [
   {
    "agentId": null,
@@ -961,26 +961,12 @@
    "agentStatus": "active",
    "status": "working",
    "title": "Shadow Army ARISE run (GT-200)",
-   "detail": "Step 4 gate PASS verified: 87 tests, indicator parity diffs 0.0, leak test passed. Step 5 worker wiring Tusk through Igris and SimBeru in replay.",
-   "currentTask": "Step 5 (GT-202): Tusk strategy end-to-end in replay, worker dispatched",
-   "lastHeartbeat": "2026-11-28T10:07:00.000Z",
-   "observedAt": "2026-11-28T10:07:00.000Z",
+   "detail": "Step 5 gate PASS verified: 100 tests, end-to-end replay trade list matched independent oracle exactly, veto path proven. Step 6 worker building the Archive.",
+   "currentTask": "Step 6 (GT-203): decision logger, triple-barrier labeler, Parquet export, worker dispatched",
+   "lastHeartbeat": "2026-11-28T10:13:00.000Z",
+   "observedAt": "2026-11-28T10:13:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "cse-group-outreach",
-   "name": "CSE Group Outreach",
-   "role": "monitor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE Group Outreach",
-   "detail": "CSE seeker outreach run started: scanning 8 groups for reviewer seekers, max 1 reply.",
-   "currentTask": "Scanning CSE Facebook groups for seekers (last 3 days)",
-   "lastHeartbeat": "2026-11-28T09:53:36.000Z",
-   "observedAt": "2026-11-28T09:53:36.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2761,6 +2747,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cse-group-outreach",
+   "name": "CSE Group Outreach",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Group Outreach",
+   "detail": "CSE outreach done: 8 groups scanned, 1 reply posted to an affordable-reviewer seeker in group 1874873903166428. No blocks, no order intent seen.",
+   "currentTask": "Run complete: 1 reply posted, tracking updated",
+   "lastHeartbeat": "2026-11-28T10:05:00.000Z",
+   "observedAt": "2026-11-28T10:05:00.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
    "agentId": "team-mexc-archive-gt198",
    "name": "mexc-archive-coordinator",
    "role": "coordinator",
@@ -4145,20 +4145,6 @@
    "observedAt": "2026-11-27T15:24:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
-  },
-  {
-   "agentId": "gt179-training-dataset",
-   "name": "gt179-training-dataset",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-179 Training Dataset Build",
-   "detail": "GT-179 complete: 201,318 rows, 34 pairs, MEXC 4h causal features, cost-adjusted labels. Verification 34/34 PASS (2,040 re-pulled candles, 0 mismatches). Test split locked and hashed.",
-   "currentTask": "Complete: dataset built, verified, organized",
-   "lastHeartbeat": "2026-11-27T14:59:54.000Z",
-   "observedAt": "2026-11-27T14:59:54.000Z",
-   "needsUser": false,
-   "category": "api-trading"
   }
  ]
 }
