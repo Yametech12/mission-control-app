@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:56:00.000Z",
- "summary": "GT-192 complete: FitOrSkip v0.3.1 universal release APK built, ABI-verified, and delivered to Drive.",
+ "generatedAt": "2026-11-28T01:58:34.000Z",
+ "summary": "Cycle 691: Motion and 3D retest 2 VALIDATED 8.33 vs 7.75",
  "agents": [
   {
    "agentId": null,
@@ -981,20 +981,6 @@
    "observedAt": "2026-11-28T01:47:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Cycle 691 judging M3D retest 2",
-   "detail": "Judging Motion and 3D retest 2: 3 blind QA judges, one per task; a fail means FLAGGED.",
-   "currentTask": "Judging Motion and 3D retest 2",
-   "lastHeartbeat": "2026-11-28T01:46:53.000Z",
-   "observedAt": "2026-11-28T01:46:53.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2789,6 +2775,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Cycle 691 Motion and 3D VALIDATED",
+   "detail": "Retest 2 validated 8.33 vs 7.75: 2 wins, 1 tie, 0 losses, clean blind judging. Scoreboard 32 of 79.",
+   "currentTask": "Cycle 691 complete: Motion and 3D validated",
+   "lastHeartbeat": "2026-11-28T01:58:34.000Z",
+   "observedAt": "2026-11-28T01:58:34.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-fitorskip-gt192",
    "name": "fitorskip-build-fix",
    "role": "builder",
@@ -4159,20 +4159,6 @@
    "observedAt": "2026-11-27T10:00:30.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
-  },
-  {
-   "agentId": "gt172-sprint",
-   "name": "gt172-sprint",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-172 accuracy-first sprint (ledger verify + evidence audit)",
-   "detail": "Complete: Phase 1, fleet, expansion ledgers all PASS integrity (read-only). Pooled closed 0/300 fleet, 0 expansion. Proposals filed. App-side blocked: owner Chrome offline; Manus freshness claim UNVERIFIED.",
-   "currentTask": "Sprint complete; report GT-20261127-172 filed",
-   "lastHeartbeat": "2026-11-27T09:57:00.000Z",
-   "observedAt": "2026-11-27T09:57:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
