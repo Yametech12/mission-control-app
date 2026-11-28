@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T04:35:49.000Z",
- "summary": "Ghostname Team improvement cycle 700 (routing check) running.",
+ "generatedAt": "2026-11-28T04:40:54.000Z",
+ "summary": "Ghostname Team improvement cycle 700 (routing check) complete: 4 of 5.",
  "agents": [
   {
    "agentId": null,
@@ -925,20 +925,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 700",
-   "detail": "Cycle 700 routing check started: 5 fresh Nov 28 legs, Coordinator picks vs division leads.",
-   "currentTask": "Routing check cycle 700: gathering fresh Nov 28 legs",
-   "lastHeartbeat": "2026-11-28T04:35:49.000Z",
-   "observedAt": "2026-11-28T04:35:49.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "996fb5d6-b515-4f50-b4c9-d15b67904a94",
@@ -2747,6 +2733,48 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 700",
+   "detail": "Cycle 700 routing check done: 4 of 5 vs division leads. RC-T4 third both-sides miss on F6 shape; correct call ML Engineer per 7 precedents. No rule fixes.",
+   "currentTask": "Cycle 700 routing check complete: 4 of 5",
+   "lastHeartbeat": "2026-11-28T04:40:54.000Z",
+   "observedAt": "2026-11-28T04:40:54.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 700 panel",
+   "detail": "Cycle 700 panel done: Watcher 4 of 5 (T1 7-1, T2 8-0, T3 7-1, T4 6-2), Data Integrity Auditor T5 6-2.",
+   "currentTask": "Routing check cycle 700 panel picks",
+   "lastHeartbeat": "2026-11-28T04:39:16.000Z",
+   "observedAt": "2026-11-28T04:39:16.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
+  },
+  {
+   "agentId": "team-routing-coordinator",
+   "name": "Routing Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 700 picks sealed",
+   "detail": "Cycle 700 picks sealed: RC-T1 to RC-T3 Watcher, RC-T4 and RC-T5 Data Integrity Auditor. File written.",
+   "currentTask": "Routing check cycle 700 coordinator picks",
+   "lastHeartbeat": "2026-11-28T04:38:34.000Z",
+   "observedAt": "2026-11-28T04:38:34.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
+  },
+  {
    "agentId": "cse-qc-reel-1215",
    "name": "CSE Quick Check 12:15 poster",
    "role": "poster",
@@ -3713,20 +3741,6 @@
    "category": "fitorskip"
   },
   {
-   "agentId": "team-routing-panel-650",
-   "name": "Routing Panel 650",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 650",
-   "detail": "Panel picks filed: ML Engineer x4, Watcher x1. Both snapshots posted cleanly on the first attempt each.",
-   "currentTask": "Cycle 650 panel picks filed",
-   "lastHeartbeat": "2026-11-27T15:19:00.000Z",
-   "observedAt": "2026-11-27T15:19:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "gt179-training-dataset",
    "name": "gt179-training-dataset",
    "role": "builder",
@@ -4103,34 +4117,6 @@
    "observedAt": "2026-11-27T11:24:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "gt173-audit",
-   "name": "gt173-audit",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-173 AI Studio export safety audit",
-   "detail": "COMPLETE: credentials PASS, endpoints PASS, order paths PASS (none), LIVE lock PASS, fidelity PASS with notes, storage PASS, Phase-board provenance FAIL (scoped), tests 14/14. Verdict GO with 2 conditions. Report GT-20261127-173.md.",
-   "currentTask": "Audit complete, report filed",
-   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
-   "observedAt": "2026-11-27T11:22:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-illustration-icon-designer",
-   "name": "IID-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "IID-T2 specialist solver",
-   "detail": "Specialist IID-T2 complete: icon set record 6,605 bytes, 1,133 words, gate 11/11, 75s. Posted by cycle lead.",
-   "currentTask": "IID-T2 specialist output filed and verified",
-   "lastHeartbeat": "2026-11-27T11:22:00.000Z",
-   "observedAt": "2026-11-27T11:22:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
