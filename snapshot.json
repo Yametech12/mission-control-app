@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T14:54:29.000Z",
- "summary": "Cycle 741 complete: Caption Writer CW-T2 pair collected and verified. Scoreboard still 34 validated, 11 flagged, 34 unvalidated of 79.",
+ "generatedAt": "2026-11-28T15:08:44.000Z",
+ "summary": "CW-T3 specialist solver started the caption rebuild and sweep.",
  "agents": [
   {
    "agentId": null,
@@ -953,6 +953,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team validation cycle 742",
+   "detail": "Cycle 742 running: Caption Writer CW-T3 solver pair dispatched (specialist from card, generic from task only).",
+   "currentTask": "Cycle 742: Caption Writer CW-T3 solver pair running",
+   "lastHeartbeat": "2026-11-28T15:07:30.000Z",
+   "observedAt": "2026-11-28T15:07:30.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2761,20 +2775,6 @@
    "category": "ghostname-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 741",
-   "detail": "Cycle 741 done: CW-T2 pair verified (spec 1476B/212w/63s/gate31, gen 1568B/223w/71s/gate20, both gates exit 0). CW-T3 next cycle.",
-   "currentTask": "Cycle 741 complete: CW-T2 pair collected and verified",
-   "lastHeartbeat": "2026-11-28T14:54:29.000Z",
-   "observedAt": "2026-11-28T14:54:29.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "cw-t1-generic",
    "name": "CW-T1 generic solver",
    "role": "builder",
@@ -4131,6 +4131,20 @@
    "observedAt": "2026-11-27T22:58:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
+  },
+  {
+   "agentId": "m3d-r2-generic",
+   "name": "M3D-R2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-R2 generic solver",
+   "detail": "M3D-R2 generic done: gl.js, motion-note.md, gate.js, delivery-note.md shipped; node --check pass, gate exit 0.",
+   "currentTask": "Done: 4 files shipped, gate exit 0",
+   "lastHeartbeat": "2026-11-27T22:42:10.000Z",
+   "observedAt": "2026-11-27T22:42:10.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   }
  ]
 }
