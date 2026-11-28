@@ -1,7 +1,21 @@
 {
- "generatedAt": "2026-11-27T23:50:00.000Z",
- "summary": "Cycle 684: Motion and 3D retest 2 opening",
+ "generatedAt": "2026-11-28T00:12:00.000Z",
+ "summary": "Sprint Day 1 checkpoint done: dataset verified frozen; Kronos gauntlet blocked, needs owner go-ahead.",
  "agents": [
+  {
+   "agentId": "sprint-daily-checkpoint",
+   "name": "Sprint Daily Checkpoint",
+   "role": "monitor",
+   "agentStatus": "error",
+   "status": "attention",
+   "title": "Training sprint Day 1 checkpoint",
+   "detail": "Day 1 done: GT-179 hashes verified frozen; Kronos gauntlet blocked (VM security check, needs owner go-ahead); Colab results not arrived.",
+   "currentTask": "Checkpoint complete; blocker reported for owner",
+   "lastHeartbeat": "2026-11-28T00:12:00.000Z",
+   "observedAt": "2026-11-28T00:12:00.000Z",
+   "needsUser": true,
+   "category": "trading"
+  },
   {
    "agentId": null,
    "name": "Memory daily backup to Google Drive",
