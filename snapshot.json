@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:58:34.000Z",
- "summary": "Cycle 691: Motion and 3D retest 2 VALIDATED 8.33 vs 7.75",
+ "generatedAt": "2026-11-28T02:12:00.000Z",
+ "summary": "GT-191 training complete and verified; report being written.",
  "agents": [
   {
    "agentId": null,
@@ -975,12 +975,26 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-191 own-model training improvement pass",
-   "detail": "Diagnosis measured: corr 0.048, top prediction decile still negative; freezing improvement spec",
-   "currentTask": "Freezing the GT-191 improvement spec before training",
-   "lastHeartbeat": "2026-11-28T01:47:00.000Z",
-   "observedAt": "2026-11-28T01:47:00.000Z",
+   "detail": "Training done and independently verified: selected cfg0 theta 0.006, PF 1.0806; writing report",
+   "currentTask": "Writing the GT-191 training improvement report",
+   "lastHeartbeat": "2026-11-28T02:12:00.000Z",
+   "observedAt": "2026-11-28T02:12:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 692: Design Auditor retest",
+   "detail": "Cycle 692 started: Design Auditor retest (row 15, rewrite 1), DA-R1 pair collection",
+   "currentTask": "Cycle 692: Design Auditor retest, DA-R1 pair collection",
+   "lastHeartbeat": "2026-11-28T02:05:00.000Z",
+   "observedAt": "2026-11-28T02:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,20 +2789,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 691 Motion and 3D VALIDATED",
-   "detail": "Retest 2 validated 8.33 vs 7.75: 2 wins, 1 tie, 0 losses, clean blind judging. Scoreboard 32 of 79.",
-   "currentTask": "Cycle 691 complete: Motion and 3D validated",
-   "lastHeartbeat": "2026-11-28T01:58:34.000Z",
-   "observedAt": "2026-11-28T01:58:34.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "team-fitorskip-gt192",
    "name": "fitorskip-build-fix",
    "role": "builder",
@@ -4159,6 +4159,20 @@
    "observedAt": "2026-11-27T10:00:30.000Z",
    "needsUser": false,
    "category": "ghostnameteam"
+  },
+  {
+   "agentId": "gt172-sprint",
+   "name": "gt172-sprint",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-172 accuracy-first sprint (ledger verify + evidence audit)",
+   "detail": "Complete: Phase 1, fleet, expansion ledgers all PASS integrity (read-only). Pooled closed 0/300 fleet, 0 expansion. Proposals filed. App-side blocked: owner Chrome offline; Manus freshness claim UNVERIFIED.",
+   "currentTask": "Sprint complete; report GT-20261127-172 filed",
+   "lastHeartbeat": "2026-11-27T09:57:00.000Z",
+   "observedAt": "2026-11-27T09:57:00.000Z",
+   "needsUser": false,
+   "category": "trading"
   }
  ]
 }
