@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:50:04.000Z",
- "summary": "Routing check cycle 720 complete: 3 unanimous Watcher picks, F6 Watcher 7-1, health cycle DIA 5-3.",
+ "generatedAt": "2026-11-28T09:55:00.000Z",
+ "summary": "GT-200 arise run: GT-198 archive verified complete, step 3 in progress.",
  "agents": [
   {
    "agentId": null,
@@ -955,46 +955,32 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team routing check 720",
-   "detail": "Cycle 720 routing check started: 5 fresh Nov 28 legs (VERITY snap 31, MONTRA, BULLA, F6 17:10, health 17:36).",
-   "currentTask": "Routing check 720: 5 fresh Nov 28 legs, Coordinator and panel picks",
-   "lastHeartbeat": "2026-11-28T09:50:00.000Z",
-   "observedAt": "2026-11-28T09:50:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mexc-archive-gt198",
-   "name": "mexc-archive-coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-198 Shadow Army Parallel Dataset Collection",
-   "detail": "Run 3 running after VM replacement killed run 2. 759/1000 archived, 241 remaining, resume verified per shard. Monitoring to completion.",
-   "currentTask": "Monitoring run 3 shards, 241 pairs remaining",
-   "lastHeartbeat": "2026-11-28T09:16:30.000Z",
-   "observedAt": "2026-11-28T09:16:30.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
    "agentId": "team-mexc-shadowarmy-gt200",
    "name": "shadow-army-arise-gt200",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "Shadow Army ARISE run (GT-200)",
-   "detail": "GT-200 arise run started. Steps 3 to 11 gated chain. Step 3 waits on GT-198 final manifest; shards still collecting.",
-   "currentTask": "Step 3 waiting on GT-198 archive manifest (522 of 1000 pairs)",
-   "lastHeartbeat": "2026-11-28T08:31:00.000Z",
-   "observedAt": "2026-11-28T08:31:00.000Z",
+   "detail": "GT-198 archive complete: 999 of 1000 pairs, spot check 12 of 12 exact. Step 3 worker building loader and replay engine.",
+   "currentTask": "Step 3 (GT-200): archive loader and replay engine, worker dispatched",
+   "lastHeartbeat": "2026-11-28T09:55:00.000Z",
+   "observedAt": "2026-11-28T09:55:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "cse-group-outreach",
+   "name": "CSE Group Outreach",
+   "role": "monitor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "CSE Group Outreach",
+   "detail": "CSE seeker outreach run started: scanning 8 groups for reviewer seekers, max 1 reply.",
+   "currentTask": "Scanning CSE Facebook groups for seekers (last 3 days)",
+   "lastHeartbeat": "2026-11-28T09:53:36.000Z",
+   "observedAt": "2026-11-28T09:53:36.000Z",
+   "needsUser": false,
+   "category": "cse"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,18 +2761,32 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-routing-panel-720",
-   "name": "Routing Panel",
+   "agentId": "team-mexc-archive-gt198",
+   "name": "mexc-archive-coordinator",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Routing Panel cycle 720",
-   "detail": "Cycle 720 done: Watcher 8-0 x3, Watcher 7-1, Data Integrity Auditor 5-3. Picks filed in panel-picks.md and panel-votes.md.",
-   "currentTask": "Routing check cycle 720 complete: panel picks filed",
-   "lastHeartbeat": "2026-11-28T09:50:04.000Z",
-   "observedAt": "2026-11-28T09:50:04.000Z",
+   "title": "GT-198 Shadow Army Parallel Dataset Collection",
+   "detail": "Complete: 999/1000 archived, 1 drop (CITYUSDT data corruption), 5,351,007 candles, 1,140 gaps documented, spot check 12/12, sha256 all verified. Report filed.",
+   "currentTask": "Complete: final manifest merged and verified, report written",
+   "lastHeartbeat": "2026-11-28T09:53:30.000Z",
+   "observedAt": "2026-11-28T09:53:30.000Z",
    "needsUser": false,
-   "category": "ghost-name-team"
+   "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team routing check 720",
+   "detail": "Cycle 720 done: routing 5 of 5, clean sweeps 29 in 116; RC-T4 seventh both-sides miss (ML Engineer per precedent).",
+   "currentTask": "Routing check 720 complete: 5 of 5, RC-T4 seventh both-sides miss",
+   "lastHeartbeat": "2026-11-28T09:52:00.000Z",
+   "observedAt": "2026-11-28T09:52:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-coordinator-720",
@@ -2794,11 +2794,25 @@
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Routing check cycle 720",
-   "detail": "Picks sealed: Watcher for RC-T1 to RC-T4, Data Integrity Auditor for RC-T5. File written.",
-   "currentTask": "Routing picks cycle 720 complete",
-   "lastHeartbeat": "2026-11-28T09:49:49.000Z",
-   "observedAt": "2026-11-28T09:49:49.000Z",
+   "title": "Routing Coordinator cycle 720",
+   "detail": "Coordinator picks filed (posted by the Coordinator; carried by the parent).",
+   "currentTask": "Cycle 720 picks filed: Watcher x4, Data Integrity Auditor x1",
+   "lastHeartbeat": "2026-11-28T09:52:00.000Z",
+   "observedAt": "2026-11-28T09:52:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-routing-panel-720",
+   "name": "Routing Panel",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Panel cycle 720",
+   "detail": "Panel votes filed (posted by the panel; carried by the parent).",
+   "currentTask": "Cycle 720 votes filed: Watcher 8-0 x3, 7-1, DIA 5-3",
+   "lastHeartbeat": "2026-11-28T09:52:00.000Z",
+   "observedAt": "2026-11-28T09:52:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -4145,34 +4159,6 @@
    "observedAt": "2026-11-27T14:59:54.000Z",
    "needsUser": false,
    "category": "api-trading"
-  },
-  {
-   "agentId": "gt183-kronos-finetune-spec",
-   "name": "gt183-kronos-finetune-spec",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-183 Kronos fine-tune spec",
-   "detail": "GT-183 complete: Kronos fine-tune pre-registration spec frozen (Trial K3, train split only, test locked). Sprint ledger now 4 trials; verdict bar alpha 0.0125 per candidate, t floor 2.24.",
-   "currentTask": "Done: KRONOS_FINETUNE_SPEC_2026-11-27.md frozen; report GT-20261127-183 filed",
-   "lastHeartbeat": "2026-11-27T14:39:57.000Z",
-   "observedAt": "2026-11-27T14:39:57.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "gt178-kronos-colab",
-   "name": "gt178-kronos-colab",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-178 Kronos Colab notebook",
-   "detail": "GT-178 complete: kronos_gauntlet_colab.ipynb (14 cells) matches the GT-177 frozen registration (both trials, 6 gates). Engine passed 11 unit tests; live MEXC fetch and wiring verified. Gauntlet not run.",
-   "currentTask": "Complete: notebook delivered and validated",
-   "lastHeartbeat": "2026-11-27T14:35:00.000Z",
-   "observedAt": "2026-11-27T14:35:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
