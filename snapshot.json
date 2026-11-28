@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T06:11:04.000Z",
- "summary": "Routing check 705 coordinator complete: sealed picks filed.",
+ "generatedAt": "2026-11-28T06:14:00.000Z",
+ "summary": "Ghostname Team improvement cycle 705: routing check 113 complete, 5 of 5.",
  "agents": [
   {
    "agentId": null,
@@ -925,20 +925,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 705",
-   "detail": "Routing check 705 running: 5 fresh Nov 28 legs, Coordinator and panel dispatched",
-   "currentTask": "Routing check 705: Coordinator and panel picks in flight",
-   "lastHeartbeat": "2026-11-28T06:10:00.000Z",
-   "observedAt": "2026-11-28T06:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,6 +2719,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 705",
+   "detail": "Routing check 113 done: 5 of 5 vs panel, 3 unanimous, clean sweeps 26 in 113; RC-T4 fourth both-sides miss (ML Engineer per precedent)",
+   "currentTask": "Cycle 705 complete; sealing 706, judging 707 next",
+   "lastHeartbeat": "2026-11-28T06:14:00.000Z",
+   "observedAt": "2026-11-28T06:14:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-check-705-coordinator",
    "name": "Routing Check 705 Coordinator",
    "role": "coordinator",
@@ -4100,20 +4100,6 @@
    "detail": "Posted by run lead: DSE-T1 generic solve complete, 28,232 bytes total, gate 21/21 exit 0, about 234s.",
    "currentTask": "DSE-T1 generic solve complete",
    "lastHeartbeat": "2026-11-27T12:24:57.000Z",
-   "observedAt": "2026-11-27T12:29:06.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "dse-t1-specialist",
-   "name": "DSE-T1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T1 specialist solve",
-   "detail": "Posted by run lead: DSE-T1 specialist solve complete, 42,389 bytes total, gate 33/33 exit 0, 409s.",
-   "currentTask": "DSE-T1 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T12:27:58.000Z",
    "observedAt": "2026-11-27T12:29:06.000Z",
    "needsUser": false,
    "category": "ghostname-team"
