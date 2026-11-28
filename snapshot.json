@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T14:06:25.000Z",
- "summary": "MH-R2 blind judge started: scoring candidates A and B against the task brief.",
+ "generatedAt": "2026-11-28T14:10:50.000Z",
+ "summary": "MH-R3 blind judgement complete: B won 8.50 vs A 6.75.",
  "agents": [
   {
    "agentId": null,
@@ -2635,20 +2635,6 @@
    "category": "Audit"
   },
   {
-   "agentId": "team-improvement-cycle-judge-mh-r1",
-   "name": "MH-R1 Judge",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Blind-judging MH-R1",
-   "detail": "Blind-judging MH-R1: scoring candidates A and B on accuracy, depth, usefulness, originality.",
-   "currentTask": "Blind-judging MH-R1",
-   "lastHeartbeat": "2026-11-28T14:05:00.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "gt186-raw-archive",
    "name": "GT-186 Raw Archive",
    "role": "builder",
@@ -2675,20 +2661,6 @@
    "observedAt": null,
    "needsUser": false,
    "category": "Audit"
-  },
-  {
-   "agentId": "team-improvement-cycle-judge-mh-r2",
-   "name": "MH-R2 blind judge",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "MH-R2 blind judging started",
-   "detail": "Blind-judging MH-R2: reading task brief and both candidate packets, scoring blind on four criteria.",
-   "currentTask": "Blind-judging MH-R2",
-   "lastHeartbeat": "2026-11-28T14:06:25.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "sase-neon-deploy",
