@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:13:00.000Z",
- "summary": "GT-200 arise run: steps 3 to 5 gates passed, step 6 in progress.",
+ "generatedAt": "2026-11-28T10:05:00.000Z",
+ "summary": "Cycle 721 running: Typography Specialist retest 2.",
  "agents": [
   {
    "agentId": null,
@@ -967,6 +967,20 @@
    "observedAt": "2026-11-28T10:13:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 721",
+   "detail": "Cycle 721 started: Typography Specialist retest 2 (rewrite 2 card, a fail flags it). Filing fresh tasks TYPO-S1 to TYPO-S3.",
+   "currentTask": "Cycle 721: Typography Specialist retest 2, filing TYPO-S1 to TYPO-S3 and running TYPO-S1 solvers",
+   "lastHeartbeat": "2026-11-28T10:05:00.000Z",
+   "observedAt": "2026-11-28T10:05:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,20 +2789,6 @@
    "category": "trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team routing check 720",
-   "detail": "Cycle 720 done: routing 5 of 5, clean sweeps 29 in 116; RC-T4 seventh both-sides miss (ML Engineer per precedent).",
-   "currentTask": "Routing check 720 complete: 5 of 5, RC-T4 seventh both-sides miss",
-   "lastHeartbeat": "2026-11-28T09:52:00.000Z",
-   "observedAt": "2026-11-28T09:52:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-coordinator-720",
    "name": "Routing Coordinator",
    "role": "coordinator",
@@ -4145,6 +4145,20 @@
    "observedAt": "2026-11-27T15:24:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
+  },
+  {
+   "agentId": "gt179-training-dataset",
+   "name": "gt179-training-dataset",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-179 Training Dataset Build",
+   "detail": "GT-179 complete: 201,318 rows, 34 pairs, MEXC 4h causal features, cost-adjusted labels. Verification 34/34 PASS (2,040 re-pulled candles, 0 mismatches). Test split locked and hashed.",
+   "currentTask": "Complete: dataset built, verified, organized",
+   "lastHeartbeat": "2026-11-27T14:59:54.000Z",
+   "observedAt": "2026-11-27T14:59:54.000Z",
+   "needsUser": false,
+   "category": "api-trading"
   }
  ]
 }
