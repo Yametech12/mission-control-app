@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:36:00.000Z",
- "summary": "Cycle 719: judging Illustration and Icon Designer retest.",
+ "generatedAt": "2026-11-28T09:39:28.000Z",
+ "summary": "IID-R1 blind judging complete: candidate B wins 8.75 to 8.50 over A; both gates passed 13/13.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Team Improvement Cycle 719",
-   "detail": "Cycle 719 judging: Illustration and Icon Designer retest, IID-R1/R2/R3, three fresh-context QA judges scoring blind.",
-   "currentTask": "Cycle 719: judging IID retest (3 fresh QA judges)",
-   "lastHeartbeat": "2026-11-28T09:36:00.000Z",
-   "observedAt": "2026-11-28T09:36:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
