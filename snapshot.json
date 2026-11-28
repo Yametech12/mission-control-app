@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T00:12:00.000Z",
- "summary": "Sprint Day 1 checkpoint done: dataset verified frozen; Kronos gauntlet blocked, needs owner go-ahead.",
+ "generatedAt": "2026-11-28T00:09:31.000Z",
+ "summary": "M3D-S1 specialist solver started: GT104 motion and staging review",
  "agents": [
   {
    "agentId": "sprint-daily-checkpoint",
@@ -939,6 +939,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "m3d-s1-specialist",
+   "name": "M3D-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S1 solver",
+   "detail": "Specialist solver started on GT104 motion and staging review",
+   "currentTask": "Reading GT104 inputs and engine code",
+   "lastHeartbeat": "2026-11-28T00:09:31.000Z",
+   "observedAt": "2026-11-28T00:09:31.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s1-generic",
+   "name": "M3D-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S1 solver",
+   "detail": "Generic solver started M3D-S1 motion review of GT104 Oates short",
+   "currentTask": "Reading GT104 inputs and drafting motion review",
+   "lastHeartbeat": "2026-11-28T00:09:20.000Z",
+   "observedAt": "2026-11-28T00:09:20.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
