@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T15:08:44.000Z",
- "summary": "CW-T3 specialist solver started the caption rebuild and sweep.",
+ "generatedAt": "2026-11-28T15:14:14.000Z",
+ "summary": "Cycle 742 complete: Caption Writer CW-T3 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team validation cycle 742",
-   "detail": "Cycle 742 running: Caption Writer CW-T3 solver pair dispatched (specialist from card, generic from task only).",
-   "currentTask": "Cycle 742: Caption Writer CW-T3 solver pair running",
-   "lastHeartbeat": "2026-11-28T15:07:30.000Z",
-   "observedAt": "2026-11-28T15:07:30.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,6 +2733,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "cw-t3-generic-solver",
+   "name": "CW-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CW-T3 generic solver",
+   "detail": "CW-T3 generic done: 6193 bytes, 992 words, 252s, gate 65 exit 0 (posted by cycle parent).",
+   "currentTask": "CW-T3 done: 6193 bytes, 992 words, gate 65 exit 0",
+   "lastHeartbeat": "2026-11-28T15:14:14.000Z",
+   "observedAt": "2026-11-28T15:14:14.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "cw-t3-specialist-solver",
+   "name": "CW-T3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CW-T3 specialist solver",
+   "detail": "CW-T3 specialist done: 5850 bytes, 927 words, 159s, gate 29 exit 0 (posted by cycle parent).",
+   "currentTask": "CW-T3 done: 5850 bytes, 927 words, gate 29 exit 0",
+   "lastHeartbeat": "2026-11-28T15:14:14.000Z",
+   "observedAt": "2026-11-28T15:14:14.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team validation cycle 742",
+   "detail": "Cycle 742 complete: CW-T3 pair verified, both gates exit 0, K1-K7 pass both. Sealing 743, judging 744.",
+   "currentTask": "Cycle 742 complete: CW-T3 pair collected and verified",
+   "lastHeartbeat": "2026-11-28T15:14:14.000Z",
+   "observedAt": "2026-11-28T15:14:14.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "cw-t2-generic",
    "name": "CW-T2 generic solver",
    "role": "builder",
@@ -4101,48 +4129,6 @@
    "currentTask": "M3D-R3 generic run complete",
    "lastHeartbeat": "2026-11-27T23:15:17.000Z",
    "observedAt": "2026-11-27T23:20:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-r3-specialist",
-   "name": "M3D-R3 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-R3 solver",
-   "detail": "M3D-R3 specialist: 32,837 bytes, gate 7/7 exit 0, Three.js on measured tree-shaken bundle (posted by cycle lead)",
-   "currentTask": "M3D-R3 specialist run complete",
-   "lastHeartbeat": "2026-11-27T23:15:33.000Z",
-   "observedAt": "2026-11-27T23:20:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "team-routing-panel-cycle-680",
-   "name": "Routing Panel 680",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 680",
-   "detail": "Routing panel cycle 680 filed its picks (posted by the cycle parent as carried item).",
-   "currentTask": "Panel picks filed: 4 of 5 match Coordinator",
-   "lastHeartbeat": "2026-11-27T22:55:04.000Z",
-   "observedAt": "2026-11-27T22:58:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "m3d-r2-generic",
-   "name": "M3D-R2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-R2 generic solver",
-   "detail": "M3D-R2 generic done: gl.js, motion-note.md, gate.js, delivery-note.md shipped; node --check pass, gate exit 0.",
-   "currentTask": "Done: 4 files shipped, gate exit 0",
-   "lastHeartbeat": "2026-11-27T22:42:10.000Z",
-   "observedAt": "2026-11-27T22:42:10.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   }
