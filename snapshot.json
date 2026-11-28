@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:30:19.000Z",
- "summary": "Cycle 693 start: Design Auditor retest DA-R1 pair re-dispatch after cycle 692 timeout interrupt.",
+ "generatedAt": "2026-11-28T02:35:00.000Z",
+ "summary": "DA-R1 generic solver started: GT68 final build hash verified, audit rendering underway.",
  "agents": [
   {
    "agentId": null,
@@ -955,18 +955,18 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-mexc-dji-gt196",
-   "name": "mexc-team-coordinator",
-   "role": "coordinator",
+   "agentId": "da-r1-generic",
+   "name": "DA-R1 generic solver",
+   "role": "builder",
    "agentStatus": "active",
    "status": "working",
-   "title": "GT-196 DJI desk read (MEXC Team)",
-   "detail": "DJI data verified: Yahoo close 50,774.94 vs screenshot 50,780.07 (0.01% feed diff); levels computed",
-   "currentTask": "DJI close verified vs screenshots; writing desk read and rendering chart",
-   "lastHeartbeat": "2026-11-28T02:34:00.000Z",
-   "observedAt": "2026-11-28T02:34:00.000Z",
+   "title": "DA-R1 solver",
+   "detail": "DA-R1 generic solver started: input hash verified, reading spec and rendering the final build.",
+   "currentTask": "Rendering GT68 final build at 390px and 1440px, running spec-fidelity audit",
+   "lastHeartbeat": "2026-11-28T02:35:00.000Z",
+   "observedAt": "2026-11-28T02:35:00.000Z",
    "needsUser": false,
-   "category": "trading"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -979,20 +979,6 @@
    "currentTask": "Cycle 693: Design Auditor retest DA-R1 pair re-dispatch",
    "lastHeartbeat": "2026-11-28T02:30:19.000Z",
    "observedAt": "2026-11-28T02:30:19.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "da-r1-generic",
-   "name": "DA-R1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DA-R1 solver",
-   "detail": "DA-R1 generic solver started: hash verified, inputs read, rendering the GT68 final build under device emulation.",
-   "currentTask": "Rendering GT68 final build at 390px and 1440px, running 11 rubric checks",
-   "lastHeartbeat": "2026-11-28T02:25:30.000Z",
-   "observedAt": "2026-11-28T02:25:30.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2803,6 +2789,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-mexc-dji-gt196",
+   "name": "mexc-team-coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-196 DJI desk read (MEXC Team)",
+   "detail": "GT-196 complete: DJI desk read delivered. Next session up 0.40/flat 0.25/down 0.35; next week up 0.45/flat 0.20/down 0.35. Chart PNG and report in GT-20261128-196-reports.",
+   "currentTask": "GT-196 complete: DJI desk read, chart, and one-off forecast log delivered",
+   "lastHeartbeat": "2026-11-28T02:36:00.000Z",
+   "observedAt": "2026-11-28T02:36:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-mexc-trader-gt193",
    "name": "mexc-team-coordinator",
    "role": "coordinator",
@@ -4170,20 +4170,6 @@
    "detail": "AIE-S2 generic: 10,611/1,799/2,170 bytes, 1,753 words, 165s, gate 7/7.",
    "currentTask": "AIE-S2 generic pair collected",
    "lastHeartbeat": "2026-11-27T10:20:46.000Z",
-   "observedAt": "2026-11-27T10:22:07.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-aie-s2-specialist",
-   "name": "AIE-S2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-S2 specialist solver",
-   "detail": "AIE-S2 specialist: 12,809/1,830/3,191 bytes, 2,142 words, 167s, gate 7/7.",
-   "currentTask": "AIE-S2 specialist pair collected",
-   "lastHeartbeat": "2026-11-27T10:20:32.000Z",
    "observedAt": "2026-11-27T10:22:07.000Z",
    "needsUser": false,
    "category": "ghostname-team"
