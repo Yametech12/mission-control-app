@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T03:51:13.000Z",
- "summary": "DA-R3 specialist solver started: reading inputs for numbering and stamp unification spec.",
+ "generatedAt": "2026-11-28T04:00:10.000Z",
+ "summary": "DA-R3 generic solver completed",
  "agents": [
   {
    "agentId": null,
@@ -951,20 +951,6 @@
    "currentTask": "Reading DA-R3 inputs and repo state at 37b2da5",
    "lastHeartbeat": "2026-11-28T03:51:13.000Z",
    "observedAt": "2026-11-28T03:51:13.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "da-r3-generic",
-   "name": "DA-R3 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DA-R3 solver",
-   "detail": "DA-R3 generic solver started: reading task inputs at 37b2da5",
-   "currentTask": "Reading DA-R3 inputs at commit 37b2da5",
-   "lastHeartbeat": "2026-11-28T03:51:12.000Z",
-   "observedAt": "2026-11-28T03:51:12.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2775,6 +2761,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "da-r3-generic",
+   "name": "DA-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-R3 solver",
+   "detail": "DA-R3 generic solver done: 4 files shipped, gate exit 0, verdict PASS WITH MAJOR ISSUES",
+   "currentTask": "DA-R3 generic run complete, gate exit 0",
+   "lastHeartbeat": "2026-11-28T04:00:10.000Z",
+   "observedAt": "2026-11-28T04:00:10.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "da-r2-generic",
    "name": "DA-R2 generic solver",
    "role": "builder",
@@ -4142,20 +4142,6 @@
    "detail": "IID-T1 generic solve complete, posted by parent: icon-set 10,097 bytes, 1,771 words, gate 81/81, 78s.",
    "currentTask": "IID-T1 generic solve complete",
    "lastHeartbeat": "2026-11-27T11:13:45.000Z",
-   "observedAt": "2026-11-27T11:16:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "iid-t1-specialist",
-   "name": "IID-T1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "IID-T1 specialist solver",
-   "detail": "IID-T1 specialist solve complete, posted by parent: icon-set 13,197 bytes, 2,282 words, gate 92/92, 107s.",
-   "currentTask": "IID-T1 specialist solve complete",
-   "lastHeartbeat": "2026-11-27T11:14:08.000Z",
    "observedAt": "2026-11-27T11:16:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
