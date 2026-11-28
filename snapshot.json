@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T11:20:25.000Z",
- "summary": "Cycle 726 complete: Typography Specialist retest 2 judged, FLAGGED. Owner message due on the flagged verdict.",
+ "generatedAt": "2026-11-28T11:31:43.000Z",
+ "summary": "IID-S1 specialist solver started.",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,48 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle-iid-s1-specialist",
+   "name": "IID-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "IID-S1 Yame Call PWA icon set (specialist)",
+   "detail": "IID-S1 specialist solver started: building the Yame Call PWA icon set record, SVG master, gate, and delivery note.",
+   "currentTask": "Building the Yame Call PWA icon set record (IID-S1)",
+   "lastHeartbeat": "2026-11-28T11:31:43.000Z",
+   "observedAt": "2026-11-28T11:31:43.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
+   "agentId": "team-improvement-cycle-iid-s1-generic",
+   "name": "IID-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "IID-S1 generic solver: Yame Call icon set",
+   "detail": "Started: reading task file and input records, building icon-set.md, icon.svg, gate.js, delivery-note.md.",
+   "currentTask": "Building the four icon set files",
+   "lastHeartbeat": "2026-11-28T11:31:00.000Z",
+   "observedAt": "2026-11-28T11:31:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 727",
+   "detail": "Cycle 727: Illustration and Icon Designer retest 2 opened. IID-S1 to IID-S3 filed with sealed keys; IID-S1 pair running.",
+   "currentTask": "Cycle 727: IID retest 2, tasks filed, IID-S1 solvers running",
+   "lastHeartbeat": "2026-11-28T11:30:00.000Z",
+   "observedAt": "2026-11-28T11:30:00.000Z",
+   "needsUser": false,
+   "category": "ghostnam team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2705,18 +2747,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
+   "agentId": "cse-qc-evening-1930",
+   "name": "CSE Evening Poster",
+   "role": "poster",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 726",
-   "detail": "Typography Specialist retest 2 judged 8.33/8.08 (2W 1L, net +0.25), rewrite 2 failed, FLAGGED. Scoreboard 32 validated, 11 flagged, 36 unvalidated.",
-   "currentTask": "Cycle 726 complete: Typography Specialist flagged",
-   "lastHeartbeat": "2026-11-28T11:20:25.000Z",
-   "observedAt": "2026-11-28T11:20:25.000Z",
+   "title": "CSE Evening 19:30",
+   "detail": "CSE 19:30 done: Reel answer C dropped and verified; How to Order Day 2 live on Page, Public.",
+   "currentTask": "Evening slot done: Reel answer C1-N004 dropped, How to Order Day 2 posted",
+   "lastHeartbeat": "2026-11-28T11:31:00.000Z",
+   "observedAt": "2026-11-28T11:31:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "cse-reviewer"
   },
   {
    "agentId": "team-improvement-cycle-panel",
