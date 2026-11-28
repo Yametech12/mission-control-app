@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:54:19.000Z",
- "summary": "Improvement cycle 711 complete: TYPO-R3 pair collected and verified; all three Typography retest pairs in, sealing next cycle.",
+ "generatedAt": "2026-11-28T08:08:00.000Z",
+ "summary": "Cycle 712 sealed the Typography Specialist retest pairs; judging lands cycle 713.",
  "agents": [
   {
    "agentId": null,
@@ -2733,6 +2733,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 712: Typography Specialist retest sealing",
+   "detail": "Cycle 712 done: TYPO retest sealed SEAL_OK (8 lines, 18 files, 0 identity hits; 6 neutral gates 7/7). Judging cycle 713.",
+   "currentTask": "Cycle 712 sealed; judging cycle 713",
+   "lastHeartbeat": "2026-11-28T08:08:00.000Z",
+   "observedAt": "2026-11-28T08:08:00.000Z",
+   "needsUser": false,
+   "category": "ghostnome-team"
+  },
+  {
    "agentId": "team-mexc-shadowarmy-gt199",
    "name": "shadow-army-builder-gt199",
    "role": "coordinator",
@@ -2745,20 +2759,6 @@
    "observedAt": "2026-11-28T08:05:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 711: TYPO-R3 collected",
-   "detail": "Cycle 711 done: TYPO-R3 pair collected, both gates 7/7, all 3 pairs in; sealing next cycle.",
-   "currentTask": "Cycle 711 complete: TYPO-R3 pair collected",
-   "lastHeartbeat": "2026-11-28T07:54:19.000Z",
-   "observedAt": "2026-11-28T07:54:19.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "typo-r3-generic",
