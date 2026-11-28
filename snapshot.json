@@ -1,77 +1,7 @@
 {
- "generatedAt": "2026-11-28T11:16:13.000Z",
- "summary": "Cycle 726 judging Typography Specialist retest 2.",
+ "generatedAt": "2026-11-28T11:20:25.000Z",
+ "summary": "Cycle 726 complete: Typography Specialist retest 2 judged, FLAGGED. Owner message due on the flagged verdict.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Whop Townhall product posts",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall product posts",
-   "detail": "Blocked: destination chat cannot receive results, account action required. 100 consecutive failures; last success Nov 3.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T10:16:21.000Z",
-   "needsUser": true,
-   "category": "Whop"
-  },
-  {
-   "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: destination chat cannot receive results, account action required. 102 consecutive failures; last success Oct 6.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T10:16:21.000Z",
-   "needsUser": true,
-   "category": "Messaging"
-  },
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Drive",
-   "detail": "Failed: 24 consecutive failures with no recorded reason. Last success Nov 4; last failed run Nov 27 23:26 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T10:16:21.000Z",
-   "needsUser": false,
-   "category": "Backup"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive",
-   "detail": "Failed: 8 consecutive failures with no recorded reason. Last success Nov 2; last failed run Nov 26 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T10:16:21.000Z",
-   "needsUser": false,
-   "category": "Monitoring"
-  },
-  {
-   "agentId": null,
-   "name": "Zulti Monday promo code check",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Zulti Monday promo code check",
-   "detail": "Failed: 3 consecutive failures with no recorded reason. Last success Nov 4; last failed run Nov 23.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T10:16:21.000Z",
-   "needsUser": false,
-   "category": "Zulti"
-  },
   {
    "agentId": null,
    "name": "Disk quota blocking workspace writes",
@@ -88,6 +18,20 @@
   },
   {
    "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: 100 consecutive failures. The WhatsApp chat it posts to can no longer receive results; last success was Nov 3.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T08:35:13.000Z",
+   "needsUser": true,
+   "category": "Whop"
+  },
+  {
+   "agentId": null,
    "name": "Shadow Army 1h track freshness failing",
    "role": null,
    "agentStatus": null,
@@ -99,6 +43,20 @@
    "observedAt": "2026-11-28T08:08:04.000Z",
    "needsUser": false,
    "category": "Trading"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: 102 consecutive failures. The WhatsApp chat it posts to can no longer receive results; last success was Oct 6.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T07:46:30.000Z",
+   "needsUser": true,
+   "category": "Messaging"
   },
   {
    "agentId": null,
@@ -155,6 +113,20 @@
    "observedAt": "2026-11-27T23:07:46.000Z",
    "needsUser": false,
    "category": "Trading"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "24 consecutive failures; last run failed Nov 27 and last success was Nov 4. No reason recorded.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-27T15:26:48.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": "gt180-kronos-execution",
@@ -953,20 +925,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 726",
-   "detail": "Judging Typography Specialist retest 2 (TYPO-S1/S2/S3); three fresh QA judges dispatched.",
-   "currentTask": "Judging TYPO retest 2, three blind QA judges",
-   "lastHeartbeat": "2026-11-28T11:16:13.000Z",
-   "observedAt": "2026-11-28T11:16:13.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,6 +2705,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 726",
+   "detail": "Typography Specialist retest 2 judged 8.33/8.08 (2W 1L, net +0.25), rewrite 2 failed, FLAGGED. Scoreboard 32 validated, 11 flagged, 36 unvalidated.",
+   "currentTask": "Cycle 726 complete: Typography Specialist flagged",
+   "lastHeartbeat": "2026-11-28T11:20:25.000Z",
+   "observedAt": "2026-11-28T11:20:25.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-panel",
    "name": "Routing check 725 panel",
    "role": "auditor",
@@ -4131,20 +4103,6 @@
    "observedAt": "2026-11-27T15:45:00.000Z",
    "needsUser": false,
    "category": "clipping"
-  },
-  {
-   "agentId": "team-wpe-r1-judge-651",
-   "name": "WPE-R1 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R1 blind judge, cycle 651",
-   "detail": "WPE-R1 judged: generic win 8.50 vs 8.25. Contamination clean. Judgement filed.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T15:26:39.000Z",
-   "observedAt": "2026-11-27T15:34:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
