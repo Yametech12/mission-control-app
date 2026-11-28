@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T00:51:25.000Z",
- "summary": "Cycle 687: Motion and 3D retest 2, M3D-S2 solvers running",
+ "generatedAt": "2026-11-28T00:57:00.000Z",
+ "summary": "M3D-S2 generic solver complete, gate passed",
  "agents": [
   {
    "agentId": null,
@@ -969,6 +969,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "m3d-s2-specialist",
+   "name": "M3D-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S2 specialist solver",
+   "detail": "Starting the v2 to v3 shader replay: section driver, optics stack, droplet, tier mirror.",
+   "currentTask": "Editing gl.js from the v2 copy",
+   "lastHeartbeat": "2026-11-28T00:54:19.000Z",
+   "observedAt": "2026-11-28T00:54:19.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Improvement cycle",
    "role": "coordinator",
@@ -981,48 +995,6 @@
    "observedAt": "2026-11-28T00:51:25.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-s2-generic",
-   "name": "M3D-S2 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S2 generic solver",
-   "detail": "Generic solver solving M3D-S2 (liquid v2 to v3 replay); posted by job lead.",
-   "currentTask": "Solving M3D-S2 from the task file only",
-   "lastHeartbeat": "2026-11-28T00:51:25.000Z",
-   "observedAt": "2026-11-28T00:51:25.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-s2-specialist",
-   "name": "M3D-S2 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S2 specialist solver",
-   "detail": "Motion and 3D specialist solving M3D-S2 (liquid v2 to v3 replay); posted by job lead.",
-   "currentTask": "Solving M3D-S2 from the Motion and 3D card",
-   "lastHeartbeat": "2026-11-28T00:51:25.000Z",
-   "observedAt": "2026-11-28T00:51:25.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "cse-page-comment-watch",
-   "name": "CSE Page Comment Watcher",
-   "role": "monitor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CSE Page Comment Watch",
-   "detail": "Comment watch run started: checking CSE Page posts from the last 7 days for new comments.",
-   "currentTask": "Checking CSE Page posts Nov 21-28 for new comments",
-   "lastHeartbeat": "2026-11-28T00:32:05.000Z",
-   "observedAt": "2026-11-28T00:32:05.000Z",
-   "needsUser": false,
-   "category": "cse"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2817,6 +2789,34 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "m3d-s2-generic",
+   "name": "M3D-S2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S2 generic solver",
+   "detail": "All four files shipped, node check PASS, gate 7/7 PASS.",
+   "currentTask": "Done: gl.js, motion note, gate, delivery note shipped",
+   "lastHeartbeat": "2026-11-28T00:57:00.000Z",
+   "observedAt": "2026-11-28T00:57:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "cse-page-comment-watch",
+   "name": "CSE Page Comment Watcher",
+   "role": "monitor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CSE Page Comment Watch",
+   "detail": "Comment watch done: 7 new answers on the group-shared Nov 28 Quick Check (15% of 240) hearted and replied; no new comments on Page own posts; no payment claims or order intent.",
+   "currentTask": "Run complete: 7 comments hearted and replied, 0 flags",
+   "lastHeartbeat": "2026-11-28T00:54:05.000Z",
+   "observedAt": "2026-11-28T00:54:05.000Z",
+   "needsUser": false,
+   "category": "cse"
+  },
+  {
    "agentId": "m3d-s1-specialist",
    "name": "M3D-S1 specialist solver",
    "role": "builder",
@@ -4173,34 +4173,6 @@
    "observedAt": "2026-11-27T09:29:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-validation-generic",
-   "name": "Generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T3 generic solver",
-   "detail": "Generic pair verified by cycle lead: 10,841 B, 994 words, gate 7/7 exit 0. Posted by cycle lead.",
-   "currentTask": "TYPO-T3 type decision record (generic) done",
-   "lastHeartbeat": "2026-11-27T09:23:38.000Z",
-   "observedAt": "2026-11-27T09:23:38.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-typography-specialist",
-   "name": "Typography Specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T3 specialist solver",
-   "detail": "Specialist pair verified by cycle lead: 10,461 B, 933 words, gate 7/7 exit 0. Posted by cycle lead.",
-   "currentTask": "TYPO-T3 type decision record (specialist) done",
-   "lastHeartbeat": "2026-11-27T09:23:38.000Z",
-   "observedAt": "2026-11-27T09:23:38.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
