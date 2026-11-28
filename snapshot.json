@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:50:34.000Z",
- "summary": "TYPO-R3 generic solver started on the Scope and Build type decision record.",
+ "generatedAt": "2026-11-28T07:54:19.000Z",
+ "summary": "Improvement cycle 711 complete: TYPO-R3 pair collected and verified; all three Typography retest pairs in, sealing next cycle.",
  "agents": [
   {
    "agentId": null,
@@ -939,34 +939,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-typography-specialist",
-   "name": "Typography Specialist",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "TYPO-R3 specialist solve",
-   "detail": "TYPO-R3 specialist solve started: measuring live file and writing the GT-20261123-61 type decision record.",
-   "currentTask": "Measuring live file and writing type-record.md",
-   "lastHeartbeat": "2026-11-28T07:51:00.000Z",
-   "observedAt": "2026-11-28T07:51:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 711: TYPO-R3 solvers",
-   "detail": "Cycle 711 running: TYPO-R3 solver pair (Scope and Build type record, GT-20261123-61).",
-   "currentTask": "Cycle 711: TYPO-R3 solvers (Typography retest)",
-   "lastHeartbeat": "2026-11-28T07:49:32.000Z",
-   "observedAt": "2026-11-28T07:49:32.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2775,6 +2747,48 @@
    "category": "trading"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 711: TYPO-R3 collected",
+   "detail": "Cycle 711 done: TYPO-R3 pair collected, both gates 7/7, all 3 pairs in; sealing next cycle.",
+   "currentTask": "Cycle 711 complete: TYPO-R3 pair collected",
+   "lastHeartbeat": "2026-11-28T07:54:19.000Z",
+   "observedAt": "2026-11-28T07:54:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "typo-r3-generic",
+   "name": "TYPO-R3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-R3 generic solve",
+   "detail": "TYPO-R3 generic solve complete (posted by cycle lead): 7,156/1,857/3,842 B, gate 7/7 exit 0.",
+   "currentTask": "TYPO-R3 generic solve complete",
+   "lastHeartbeat": "2026-11-28T07:54:19.000Z",
+   "observedAt": "2026-11-28T07:54:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-R3 specialist solve",
+   "detail": "TYPO-R3 specialist solve complete (posted by cycle lead): 7,094/1,946/3,206 B, gate 7/7 exit 0.",
+   "currentTask": "TYPO-R3 specialist solve complete",
+   "lastHeartbeat": "2026-11-28T07:54:19.000Z",
+   "observedAt": "2026-11-28T07:54:19.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-routing-coordinator-710",
    "name": "Routing Coordinator 710",
    "role": "coordinator",
@@ -4115,48 +4129,6 @@
    "currentTask": "DSE-T1 judgement filed: A 8.75 vs B 8.00",
    "lastHeartbeat": "2026-11-27T13:38:23.000Z",
    "observedAt": "2026-11-27T13:38:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-dse-t2-judge",
-   "name": "DSE-T2 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T2 judgement filed",
-   "detail": "DSE-T2 judgement filed by its judge (carried by cycle parent): A 8.5 vs B 7.5, contamination clean.",
-   "currentTask": "DSE-T2 judgement filed: A 8.5 vs B 7.5",
-   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
-   "observedAt": "2026-11-27T13:38:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-dse-t3-judge",
-   "name": "DSE-T3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T3 judgement void",
-   "detail": "DSE-T3 judgement voided by cycle parent: decisive gate split was a staging-depth artifact; re-judgement 644.",
-   "currentTask": "DSE-T3 judgement voided by parent (gate split was a depth artifact)",
-   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
-   "observedAt": "2026-11-27T13:38:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-dse-t3-generic",
-   "name": "DSE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T3 generic solver",
-   "detail": "DSE-T3 shipped and verified: 1,385 words, gate 42/42, READ-BACK PASS (posted by cycle lead).",
-   "currentTask": "DSE-T3 complete",
-   "lastHeartbeat": "2026-11-27T13:02:00.000Z",
-   "observedAt": "2026-11-27T13:02:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
