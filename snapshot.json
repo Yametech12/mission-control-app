@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T00:35:26.000Z",
- "summary": "M3D-S1 generic solver started on GT104 motion review.",
+ "generatedAt": "2026-11-28T00:46:00.000Z",
+ "summary": "M3D-S1 specialist solver finished: GT104 review shipped, gate 7/7",
  "agents": [
   {
    "agentId": null,
@@ -967,34 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "m3d-s1-specialist",
-   "name": "M3D-S1 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S1 solver",
-   "detail": "Reading role card, task file and GT104 inputs; drafting motion review.",
-   "currentTask": "Reading GT104 inputs and drafting motion review",
-   "lastHeartbeat": "2026-11-28T00:35:27.000Z",
-   "observedAt": "2026-11-28T00:35:27.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-s1-generic",
-   "name": "M3D-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S1 solver",
-   "detail": "M3D-S1 generic solver started: reading GT104 story, timing, script, engine and renders.",
-   "currentTask": "Reading GT104 inputs and drafting motion review",
-   "lastHeartbeat": "2026-11-28T00:35:26.000Z",
-   "observedAt": "2026-11-28T00:35:26.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2817,6 +2789,34 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "m3d-s1-specialist",
+   "name": "M3D-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S1 solver",
+   "detail": "Review shipped: PASS WITH MAJOR ISSUES (4 pass, 6 minor, 3 major); gate exit 0, 7/7 verbatim items.",
+   "currentTask": "GT104 motion review shipped, gate passed",
+   "lastHeartbeat": "2026-11-28T00:46:00.000Z",
+   "observedAt": "2026-11-28T00:46:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s1-generic",
+   "name": "M3D-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S1 solver",
+   "detail": "M3D-S1 generic solver done: review shipped, gate 7/7 PASS, verdict PASS WITH MAJOR ISSUES (6 PASS, 6 minor, 1 major S2).",
+   "currentTask": "M3D-S1 review shipped: PASS WITH MAJOR ISSUES, 6/6/1",
+   "lastHeartbeat": "2026-11-28T00:45:42.000Z",
+   "observedAt": "2026-11-28T00:45:42.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle-coordinator",
    "name": "Routing Check 685 Coordinator",
    "role": "coordinator",
@@ -4171,34 +4171,6 @@
    "currentTask": "TYPO-T3 type decision record (specialist) done",
    "lastHeartbeat": "2026-11-27T09:23:38.000Z",
    "observedAt": "2026-11-27T09:23:38.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-typography-specialist",
-   "name": "team-typography-specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Typography Specialist TYPO-T2",
-   "detail": "TYPO-T2 specialist: 13,821 bytes, 1,228 words, 160s, gate 7/7 (posted by cycle lead)",
-   "currentTask": "TYPO-T2 specialist output collected",
-   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
-   "observedAt": "2026-11-27T09:06:20.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-typography-generic",
-   "name": "team-typography-generic",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Typography generic TYPO-T2",
-   "detail": "TYPO-T2 generic: 12,201 bytes, 1,262 words, 164s, gate 7/7 (posted by cycle lead)",
-   "currentTask": "TYPO-T2 generic output collected",
-   "lastHeartbeat": "2026-11-27T09:06:20.000Z",
-   "observedAt": "2026-11-27T09:06:20.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
