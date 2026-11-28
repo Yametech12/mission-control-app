@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T12:40:00.000Z",
- "summary": "CSE comment watch 20:32 run complete: no new genuine comments, 0 hearts, 0 replies, nothing flagged.",
+ "generatedAt": "2026-11-28T12:45:34.000Z",
+ "summary": "Cycle 733: Moment Hunter retest, MH-R1 solvers running",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 733: Moment Hunter retest",
+   "detail": "MH-R1 solver pair running: specialist from rewrite 1 card vs generic, Tomo trailer reaction mine.",
+   "currentTask": "MH-R1 solver pair running",
+   "lastHeartbeat": "2026-11-28T12:45:34.000Z",
+   "observedAt": "2026-11-28T12:45:34.000Z",
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,20 +2789,6 @@
    "category": "mexc-trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 732: IID retest 2 judging",
-   "detail": "VALIDATED Illustration and Icon Designer 8.67 / 7.00, 3 wins, 0 losses. Scoreboard now 33 validated, 11 flagged, 35 unvalidated of 79.",
-   "currentTask": "Cycle 732 complete: IID validated",
-   "lastHeartbeat": "2026-11-28T12:41:00.000Z",
-   "observedAt": "2026-11-28T12:41:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
    "agentId": "team-improvement-cycle-judge-iid-s1",
    "name": "Judge IID-S1",
    "role": "auditor",
@@ -4100,6 +4100,20 @@
    "detail": "PE-S1 generic: 13,450 bytes, 326 words, 179s, gate 7/7. Posted by cycle lead.",
    "currentTask": "PE-S1 generic output collected and verified",
    "lastHeartbeat": "2026-11-27T20:37:29.000Z",
+   "observedAt": "2026-11-27T20:41:26.000Z",
+   "needsUser": false,
+   "category": "ghostnam-team"
+  },
+  {
+   "agentId": "pe-s1-specialist",
+   "name": "PE-S1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "PE-S1 specialist solver",
+   "detail": "PE-S1 specialist: 16,720 bytes, 342 words, 160s, gate 7/7. Posted by cycle lead.",
+   "currentTask": "PE-S1 specialist output collected and verified",
+   "lastHeartbeat": "2026-11-27T20:38:33.000Z",
    "observedAt": "2026-11-27T20:41:26.000Z",
    "needsUser": false,
    "category": "ghostnam-team"
