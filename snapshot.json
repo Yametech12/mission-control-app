@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:16:21.000Z",
- "summary": "2 improvement cycles running, recent CSE and trading cycles completed, and 5 jobs need attention: Whop and TG session watches are blocked, while Drive backup, Epimetheus keep-alive, and Zulti promo have repeated failures.",
+ "generatedAt": "2026-11-28T10:19:00.000Z",
+ "summary": "Cycle 721 complete: Typography Specialist retest 2, TYPO-S1 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -961,40 +961,12 @@
    "agentStatus": "active",
    "status": "working",
    "title": "Shadow Army ARISE run (GT-200)",
-   "detail": "Step 7 gate PASS verified: 152 tests, split integrity and hold-out refusal proven. Step 8 worker building ranks, Tank, and Iron.",
-   "currentTask": "Step 8 (GT-205): rank and promotion logic, Tank allocator, Iron stop tracking, worker dispatched",
-   "lastHeartbeat": "2026-11-28T10:26:00.000Z",
-   "observedAt": "2026-11-28T10:26:00.000Z",
+   "detail": "Step 8 gate PASS verified: 179 tests, promotion and demotion logic, Tank cap, Iron stops, rank isolation all proven. Step 9 worker building the agent factory.",
+   "currentTask": "Step 9 (GT-206): agent factory CLI, Greed, Fangs and Kaisel stubs, Monarch wiring, worker dispatched",
+   "lastHeartbeat": "2026-11-28T10:33:00.000Z",
+   "observedAt": "2026-11-28T10:33:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-typography-specialist",
-   "name": "Typography Specialist",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "TYPO-S1 Typography Specialist",
-   "detail": "TYPO-S1 specialist run started: reading brief, card, skills, and measuring shipped fonts.",
-   "currentTask": "TYPO-S1 type decision record, specialist side",
-   "lastHeartbeat": "2026-11-28T10:14:34.000Z",
-   "observedAt": "2026-11-28T10:14:34.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 721",
-   "detail": "Cycle 721 started: Typography Specialist retest 2 (rewrite 2 card, a fail flags it). Filing fresh tasks TYPO-S1 to TYPO-S3.",
-   "currentTask": "Cycle 721: Typography Specialist retest 2, filing TYPO-S1 to TYPO-S3 and running TYPO-S1 solvers",
-   "lastHeartbeat": "2026-11-28T10:05:00.000Z",
-   "observedAt": "2026-11-28T10:05:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2775,6 +2747,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 721",
+   "detail": "Cycle 721 done: Typography retest 2 opened, TYPO-S1 pair verified (spec 16,055 B/2,784 w, 196s; gen 11,854 B/1,966 w, 137s; both gates 7/7 exit 0). No verdict yet.",
+   "currentTask": "Cycle 721 complete: TYPO-S1 pair collected and verified; TYPO-S2 next cycle 722",
+   "lastHeartbeat": "2026-11-28T10:19:00.000Z",
+   "observedAt": "2026-11-28T10:19:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-S1 Typography Specialist",
+   "detail": "TYPO-S1 done: type record shipped, 6 faces 61,640 B, gate 7/7 exit 0, read-back PASS.",
+   "currentTask": "TYPO-S1 record done: gate 7/7, read-back PASS",
+   "lastHeartbeat": "2026-11-28T10:17:50.000Z",
+   "observedAt": "2026-11-28T10:17:50.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-typo-s1-generic",
    "name": "TYPO-S1 generic solver",
    "role": "builder",
@@ -4145,34 +4145,6 @@
    "observedAt": "2026-11-27T15:34:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-wpe-r3-judge-651",
-   "name": "WPE-R3 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R3 blind judge, cycle 651",
-   "detail": "WPE-R3 judged: specialist win 9.00 vs 8.25. Contamination clean. Judgement filed.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T15:26:28.000Z",
-   "observedAt": "2026-11-27T15:34:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt176-fitorskip-improve",
-   "name": "gt176-fitorskip-improve",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-176 FitOrSkip Improvement Pass 2",
-   "detail": "Done: sampling, share card, signed release, Results gallery, Wardrobe, USD pricing, split APKs (arm64 17.4 MB vs 163.6 MB debug). Directions for pick: Atelier, Rack, Counter. Report in the GT-176 reports folder.",
-   "currentTask": "Complete: v0.3.0 signed release on Drive, directions awaiting owner pick",
-   "lastHeartbeat": "2026-11-27T15:24:00.000Z",
-   "observedAt": "2026-11-27T15:24:00.000Z",
-   "needsUser": false,
-   "category": "fitorskip"
   }
  ]
 }
