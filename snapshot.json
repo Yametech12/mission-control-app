@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:53:00.000Z",
- "summary": "GT-192: CI green and the universal v0.3.1 APK is ABI-verified. Drive upload in progress.",
+ "generatedAt": "2026-11-28T01:56:00.000Z",
+ "summary": "GT-192 complete: FitOrSkip v0.3.1 universal release APK built, ABI-verified, and delivered to Drive.",
  "agents": [
   {
    "agentId": null,
@@ -967,20 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-fitorskip-gt192",
-   "name": "fitorskip-build-fix",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "FitOrSkip v0.3.1 ABI fix (GT-192)",
-   "detail": "CI run 46094658056 success (analyze, tests, both jobs). New universal APK 49,480,037 bytes, ABIs arm64-v8a + armeabi-v7a + x86_64, signer unchanged. Uploading to Drive.",
-   "currentTask": "CI green, new APK ABI-verified. Uploading to Drive",
-   "lastHeartbeat": "2026-11-28T01:53:00.000Z",
-   "observedAt": "2026-11-28T01:53:00.000Z",
-   "needsUser": false,
-   "category": "fitorskip"
   },
   {
    "agentId": "team-mexc-training-gt191",
@@ -2803,6 +2789,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-fitorskip-gt192",
+   "name": "fitorskip-build-fix",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "FitOrSkip v0.3.1 ABI fix (GT-192)",
+   "detail": "GT-192 complete: v0.3.1+4 universal APK (armeabi-v7a + arm64-v8a + x86_64), CI run 46094658056 success, on Drive as FitOrSkip-v0.3.1-release.apk, MD5 dbb47d16bd7d45c485eb2852065f0421, verified three ways.",
+   "currentTask": "Complete: v0.3.1 universal APK on Drive, verified three ways",
+   "lastHeartbeat": "2026-11-28T01:56:00.000Z",
+   "observedAt": "2026-11-28T01:56:00.000Z",
+   "needsUser": false,
+   "category": "fitorskip"
+  },
+  {
    "agentId": "team-mexc-promax-gt190",
    "name": "MEXC Team Coordinator",
    "role": "coordinator",
@@ -4173,20 +4173,6 @@
    "observedAt": "2026-11-27T09:57:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "typo-t1-judge-cycle-624",
-   "name": "TYPO-T1 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T1 blind judgement",
-   "detail": "TYPO-T1 judge filed: Candidate A 8.50, Candidate B 8.25, winner A. Posted by cycle parent.",
-   "currentTask": "TYPO-T1 blind judgement filed",
-   "lastHeartbeat": "2026-11-27T09:40:14.000Z",
-   "observedAt": "2026-11-27T09:43:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   }
  ]
 }
