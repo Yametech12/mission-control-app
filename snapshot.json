@@ -1,7 +1,91 @@
 {
- "generatedAt": "2026-11-28T09:16:30.000Z",
- "summary": "GT-198: a VM replacement at about 09:14Z killed run 2 shards at 759 of 1000 pairs. Run 3 relaunched 09:15Z and resumed from manifests; 241 pairs remain, still 0 drops and 0 rate events.",
+ "generatedAt": "2026-11-28T09:17:00.000Z",
+ "summary": "2 runs were in flight at check time; Ghostname cycle finished, Shadow Army still running. Disk quota blocked writes and several watches are failing or blocked.",
  "agents": [
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "24 consecutive failures; last run failed 2026-11-27 23:26:48 PHT and last success was 2026-11-04. Next run 23:30 PHT today.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T09:16:43.000Z",
+   "needsUser": true,
+   "category": "Backup"
+  },
+  {
+   "agentId": null,
+   "name": "Whop Townhall product posts",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Whop Townhall product posts",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 100 consecutive failures, last success 2026-11-03. Needs delivery moved or chat restored.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T09:16:43.000Z",
+   "needsUser": true,
+   "category": "Publishing"
+  },
+  {
+   "agentId": null,
+   "name": "TG session watchdog",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "TG session watchdog",
+   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 102 consecutive failures, last success 2026-10-06. Needs delivery moved or chat restored.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T09:16:43.000Z",
+   "needsUser": true,
+   "category": "Messaging"
+  },
+  {
+   "agentId": null,
+   "name": "Epimetheus Supabase keep-alive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Epimetheus Supabase keep-alive",
+   "detail": "8 consecutive failures; last run failed 2026-11-26 19:05:59 PHT and last success was 2026-11-02. Next run 2026-11-29 19:05:58 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T09:16:43.000Z",
+   "needsUser": false,
+   "category": "Infrastructure"
+  },
+  {
+   "agentId": null,
+   "name": "Zulti Monday promo code check",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Zulti Monday promo code check",
+   "detail": "3 consecutive failures; last run failed Mon 2026-11-23 and last success was 2026-11-04. Next run Mon 2026-11-30 09:00 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T09:16:43.000Z",
+   "needsUser": false,
+   "category": "Zulti"
+  },
+  {
+   "agentId": null,
+   "name": "Disk quota blocking workspace writes",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Disk quota blocking workspace writes",
+   "detail": "Disk quota exceeded blocked ledger and log writes around 16:56-17:02 PHT; scalping cycle failed and Shadow Army bookkeeping failed, with a staged copy in /tmp.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T08:59:05.000Z",
+   "needsUser": true,
+   "category": "Infrastructure"
+  },
   {
    "agentId": null,
    "name": "Shadow Army 1h track freshness failing",
@@ -18,20 +102,6 @@
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: 101 consecutive failures; the chat it posts to cannot receive results. Last success Oct 6. Reconnect that chat or move delivery.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T07:16:35.000Z",
-   "needsUser": true,
-   "category": "monitoring"
-  },
-  {
-   "agentId": null,
    "name": "1-week training sprint daily checkpoint",
    "role": null,
    "agentStatus": null,
@@ -43,20 +113,6 @@
    "observedAt": "2026-11-28T03:16:58.000Z",
    "needsUser": false,
    "category": "Trading"
-  },
-  {
-   "agentId": null,
-   "name": "Whop Townhall posts blocked",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Whop Townhall posts blocked",
-   "detail": "Blocked since Nov 4: the chat it posts to can no longer receive results; 99 consecutive failures, last run failed today 10:35 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T02:35:12.000Z",
-   "needsUser": true,
-   "category": "Whop"
   },
   {
    "agentId": "sprint-daily-checkpoint",
@@ -99,20 +155,6 @@
    "observedAt": "2026-11-27T23:07:46.000Z",
    "needsUser": false,
    "category": "Trading"
-  },
-  {
-   "agentId": null,
-   "name": "Memory Drive backup failing",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory Drive backup failing",
-   "detail": "24 consecutive failures; last run failed Fri 23:26 PHT, last success Nov 4. Next attempt tonight 23:30 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-27T15:26:48.000Z",
-   "needsUser": false,
-   "category": "Backup"
   },
   {
    "agentId": "gt180-kronos-execution",
@@ -211,20 +253,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "Epimetheus Supabase keep-alive failing",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Epimetheus Supabase keep-alive failing",
-   "detail": "8 consecutive failures; last run failed Thu 19:05 PHT, last success Nov 2. Next keep-alive Sun 19:05 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T11:05:59.000Z",
-   "needsUser": false,
-   "category": "Epimetheus"
   },
   {
    "agentId": "team-lead-yame-call",
