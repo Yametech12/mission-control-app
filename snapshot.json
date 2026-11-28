@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-28T10:05:00.000Z",
- "summary": "Cycle 721 running: Typography Specialist retest 2.",
+ "generatedAt": "2026-11-28T10:16:21.000Z",
+ "summary": "2 improvement cycles running, recent CSE and trading cycles completed, and 5 jobs need attention: Whop and TG session watches are blocked, while Drive backup, Epimetheus keep-alive, and Zulti promo have repeated failures.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures; last run failed 2026-11-27 23:26:48 PHT and last success was 2026-11-04. Next run 23:30 PHT today.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T09:16:43.000Z",
-   "needsUser": true,
-   "category": "Backup"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,12 +9,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 100 consecutive failures, last success 2026-11-03. Needs delivery moved or chat restored.",
+   "detail": "Blocked: destination chat cannot receive results, account action required. 100 consecutive failures; last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T09:16:43.000Z",
+   "observedAt": "2026-11-28T10:16:21.000Z",
    "needsUser": true,
-   "category": "Publishing"
+   "category": "Whop"
   },
   {
    "agentId": null,
@@ -37,12 +23,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "TG session watchdog",
-   "detail": "Blocked: the WhatsApp chat it posts to can no longer receive results; 102 consecutive failures, last success 2026-10-06. Needs delivery moved or chat restored.",
+   "detail": "Blocked: destination chat cannot receive results, account action required. 102 consecutive failures; last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T09:16:43.000Z",
+   "observedAt": "2026-11-28T10:16:21.000Z",
    "needsUser": true,
    "category": "Messaging"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Drive",
+   "detail": "Failed: 24 consecutive failures with no recorded reason. Last success Nov 4; last failed run Nov 27 23:26 PHT.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T10:16:21.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -51,12 +51,12 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Epimetheus Supabase keep-alive",
-   "detail": "8 consecutive failures; last run failed 2026-11-26 19:05:59 PHT and last success was 2026-11-02. Next run 2026-11-29 19:05:58 PHT.",
+   "detail": "Failed: 8 consecutive failures with no recorded reason. Last success Nov 2; last failed run Nov 26 19:05 PHT.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T09:16:43.000Z",
+   "observedAt": "2026-11-28T10:16:21.000Z",
    "needsUser": false,
-   "category": "Infrastructure"
+   "category": "Monitoring"
   },
   {
    "agentId": null,
@@ -65,10 +65,10 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run failed Mon 2026-11-23 and last success was 2026-11-04. Next run Mon 2026-11-30 09:00 PHT.",
+   "detail": "Failed: 3 consecutive failures with no recorded reason. Last success Nov 4; last failed run Nov 23.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T09:16:43.000Z",
+   "observedAt": "2026-11-28T10:16:21.000Z",
    "needsUser": false,
    "category": "Zulti"
   },
@@ -961,12 +961,26 @@
    "agentStatus": "active",
    "status": "working",
    "title": "Shadow Army ARISE run (GT-200)",
-   "detail": "Step 5 gate PASS verified: 100 tests, end-to-end replay trade list matched independent oracle exactly, veto path proven. Step 6 worker building the Archive.",
-   "currentTask": "Step 6 (GT-203): decision logger, triple-barrier labeler, Parquet export, worker dispatched",
-   "lastHeartbeat": "2026-11-28T10:13:00.000Z",
-   "observedAt": "2026-11-28T10:13:00.000Z",
+   "detail": "Step 7 gate PASS verified: 152 tests, split integrity and hold-out refusal proven. Step 8 worker building ranks, Tank, and Iron.",
+   "currentTask": "Step 8 (GT-205): rank and promotion logic, Tank allocator, Iron stop tracking, worker dispatched",
+   "lastHeartbeat": "2026-11-28T10:26:00.000Z",
+   "observedAt": "2026-11-28T10:26:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "TYPO-S1 Typography Specialist",
+   "detail": "TYPO-S1 specialist run started: reading brief, card, skills, and measuring shipped fonts.",
+   "currentTask": "TYPO-S1 type decision record, specialist side",
+   "lastHeartbeat": "2026-11-28T10:14:34.000Z",
+   "observedAt": "2026-11-28T10:14:34.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2761,6 +2775,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-typo-s1-generic",
+   "name": "TYPO-S1 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-S1 generic solver",
+   "detail": "TYPO-S1 generic done: type-record 11,854 B, gate 7/7 pass exit 0, read-back PASS",
+   "currentTask": "TYPO-S1 done: gate 7 of 7 pass, read-back PASS",
+   "lastHeartbeat": "2026-11-28T10:15:32.000Z",
+   "observedAt": "2026-11-28T10:15:32.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "cse-group-outreach",
    "name": "CSE Group Outreach",
    "role": "monitor",
@@ -4145,20 +4173,6 @@
    "observedAt": "2026-11-27T15:24:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
-  },
-  {
-   "agentId": "gt179-training-dataset",
-   "name": "gt179-training-dataset",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-179 Training Dataset Build",
-   "detail": "GT-179 complete: 201,318 rows, 34 pairs, MEXC 4h causal features, cost-adjusted labels. Verification 34/34 PASS (2,040 re-pulled candles, 0 mismatches). Test split locked and hashed.",
-   "currentTask": "Complete: dataset built, verified, organized",
-   "lastHeartbeat": "2026-11-27T14:59:54.000Z",
-   "observedAt": "2026-11-27T14:59:54.000Z",
-   "needsUser": false,
-   "category": "api-trading"
   }
  ]
 }
