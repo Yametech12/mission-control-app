@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T12:56:15.000Z",
- "summary": "Generic solver MH-R1 complete: 10 candidates, gate passed, READ-BACK PASS.",
+ "generatedAt": "2026-11-28T13:00:00.000Z",
+ "summary": "Fleet 2 Coordinator started GT-219: registration first, launch after.",
  "agents": [
   {
    "agentId": null,
@@ -933,10 +933,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "GT-219 Plan B Fleet 2 registration and launch",
-   "detail": "GT-219 Fleet 2: pre-registration and launch started; Fleet 2 earns no Dec 11 credit",
-   "currentTask": "Reading job, Fleet 1 registration, GT-217 report, fleet infrastructure",
-   "lastHeartbeat": "2026-11-28T12:58:00.000Z",
-   "observedAt": "2026-11-28T12:58:00.000Z",
+   "detail": "GT-219 relaunch: pre-registering Plan B Fleet 2 (paper only), then launching it on the fleet cycle infrastructure with its own ledger.",
+   "currentTask": "Writing the Fleet 2 pre-registration (frozen before any cycle)",
+   "lastHeartbeat": "2026-11-28T13:00:00.000Z",
+   "observedAt": "2026-11-28T13:00:00.000Z",
    "needsUser": false,
    "category": "mexc-trading"
   },
