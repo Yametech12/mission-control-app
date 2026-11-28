@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:26:00.000Z",
- "summary": "GT-200 ARISE run: steps 3 to 9 complete and verified (197 tests). Step 10 framework shadow launch in progress.",
+ "generatedAt": "2026-11-28T10:40:00.000Z",
+ "summary": "GT-200 ARISE run: step 10 shadow launched and verified, 7 day gate clock running. Step 11 kill switch and monitoring in progress.",
  "agents": [
   {
    "agentId": null,
@@ -953,6 +953,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 723",
+   "detail": "Cycle 723 started: Typography Specialist retest 2, TYPO-S3 solver pair running.",
+   "currentTask": "Cycle 723: TYPO-S3 solver pair",
+   "lastHeartbeat": "2026-11-28T10:35:34.000Z",
+   "observedAt": "2026-11-28T10:35:34.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2682,10 +2696,10 @@
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Shadow Army ARISE run: steps 3 to 9 PASS, step 10 launching",
-   "detail": "Steps 3 to 9 all gated PASS, full suite 197 tests. Step 10 in progress: framework native shadow registrations, live Scout feed, first cycles with the four checks, 7 clean days gate clock starts at first verified cycle.",
-   "currentTask": "Step 10 shadow launch: registrations, live Scout, first cycles",
-   "lastHeartbeat": "2026-11-28T10:26:00.000Z",
+   "title": "Shadow Army ARISE: step 10 shadow live, step 11 running",
+   "detail": "Step 10 PASS: framework shadow live (fw-tusk-4h, fw-greed-4h), 211 tests, four checks all PASS, cycle cron every 4h at minute 40 PHT. 7 clean days gate IN PROGRESS, clock 2026-11-28T10:34:21Z to 2026-12-05. Step 11 in progress.",
+   "currentTask": "Step 11: kill switch wiring, health view, live drills",
+   "lastHeartbeat": "2026-11-28T10:40:00.000Z",
    "observedAt": null,
    "needsUser": false,
    "category": "MEXC Team"
@@ -2745,20 +2759,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 722: TYPO-S2 collected",
-   "detail": "TYPO-S2 pair verified (specialist 13,716/2,219 words, generic 14,412/2,371 words; both gates 7/7). TYPO-S3 cycle 723, sealing 724.",
-   "currentTask": "Cycle 722 complete",
-   "lastHeartbeat": "2026-11-28T10:26:46.000Z",
-   "observedAt": "2026-11-28T10:26:46.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-typography-specialist",
@@ -4142,6 +4142,20 @@
    "detail": "WPE-R2 judged: specialist win 8.50 vs 7.50. Contamination clean. Judgement filed.",
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T15:26:50.000Z",
+   "observedAt": "2026-11-27T15:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-wpe-r3-judge-651",
+   "name": "WPE-R3 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R3 blind judge, cycle 651",
+   "detail": "WPE-R3 judged: specialist win 9.00 vs 8.25. Contamination clean. Judgement filed.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T15:26:28.000Z",
    "observedAt": "2026-11-27T15:34:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
