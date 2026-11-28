@@ -1,21 +1,7 @@
 {
- "generatedAt": "2026-11-28T01:08:33.000Z",
- "summary": "M3D-S3 generic solver started: Seven Rooms 3D spec from task file and named inputs only",
+ "generatedAt": "2026-11-28T01:18:31.000Z",
+ "summary": "M3D-S3 specialist solver complete: five files shipped, gate exit 0, all seven verbatim items present.",
  "agents": [
-  {
-   "agentId": null,
-   "name": "Memory daily backup to Google Drive",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "Memory daily backup to Google Drive",
-   "detail": "24 consecutive failures; last success was Nov 4. Last run failed Nov 27 at 23:26 PHT. Next run tonight 23:30 PHT.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T00:17:23.000Z",
-   "needsUser": false,
-   "category": "backup"
-  },
   {
    "agentId": null,
    "name": "Whop Townhall product posts",
@@ -23,26 +9,40 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Whop Townhall product posts",
-   "detail": "Blocked: 98 consecutive failures. The WhatsApp chat it posts to can no longer receive results; account action required.",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 98 consecutive failures, last success Nov 3.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T00:17:23.000Z",
+   "observedAt": "2026-11-28T01:16:55.000Z",
    "needsUser": true,
-   "category": "marketing"
+   "category": "Whop"
   },
   {
    "agentId": null,
-   "name": "TG session watchdog",
+   "name": "Telegram session watchdog",
    "role": null,
    "agentStatus": null,
    "status": "attention",
-   "title": "TG session watchdog",
-   "detail": "Blocked: 100 consecutive failures. The WhatsApp chat it posts to can no longer receive results; account action required.",
+   "title": "Telegram session watchdog",
+   "detail": "Blocked: the chat it posts to can no longer receive results. 100 consecutive failures, last success Oct 6.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T00:17:23.000Z",
+   "observedAt": "2026-11-28T01:16:55.000Z",
    "needsUser": true,
-   "category": "monitoring"
+   "category": "Monitoring"
+  },
+  {
+   "agentId": null,
+   "name": "Memory daily backup to Google Drive",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "Memory daily backup to Google Drive",
+   "detail": "Failed Nov 27 at 23:26 Manila time, 24 consecutive failures, last success Nov 4. No reason recorded.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T01:16:55.000Z",
+   "needsUser": false,
+   "category": "Backup"
   },
   {
    "agentId": null,
@@ -51,12 +51,26 @@
    "agentStatus": null,
    "status": "attention",
    "title": "Zulti Monday promo code check",
-   "detail": "3 consecutive failures; last run failed Nov 23. Last success was Nov 4. Next run Monday Nov 30, 09:00 PHT.",
+   "detail": "Failed Nov 23, 3 consecutive failures, spawn error with binding retired. Last success Nov 4. Next run Mon Nov 30, 09:00.",
    "currentTask": null,
    "lastHeartbeat": null,
-   "observedAt": "2026-11-28T00:16:43.000Z",
+   "observedAt": "2026-11-28T01:16:55.000Z",
    "needsUser": false,
-   "category": "zulti"
+   "category": "Zulti"
+  },
+  {
+   "agentId": null,
+   "name": "1-week training sprint daily checkpoint",
+   "role": null,
+   "agentStatus": null,
+   "status": "attention",
+   "title": "1-week training sprint daily checkpoint",
+   "detail": "Failed today 08:07 Manila time with no reason recorded and no successful run yet. Next checkpoint tomorrow 08:04.",
+   "currentTask": null,
+   "lastHeartbeat": null,
+   "observedAt": "2026-11-28T01:16:55.000Z",
+   "needsUser": false,
+   "category": "Trading"
   },
   {
    "agentId": "sprint-daily-checkpoint",
@@ -85,20 +99,6 @@
    "observedAt": "2026-11-28T00:08:57.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": null,
-   "name": "1-week training sprint daily checkpoint",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "1-week training sprint daily checkpoint",
-   "detail": "Day 1 checkpoint failed at 08:07 PHT: Kronos gauntlet blocked, needs the owner's plain-words approval to run the downloaded code.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-28T00:07:32.000Z",
-   "needsUser": true,
-   "category": "training"
   },
   {
    "agentId": null,
@@ -967,34 +967,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "m3d-s3-generic",
-   "name": "M3D-S3 generic solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S3 generic solver",
-   "detail": "Started: reading task inputs and measuring library bytes for the Seven Rooms spec.",
-   "currentTask": "Reading Seven Rooms inputs and measuring bytes",
-   "lastHeartbeat": "2026-11-28T01:08:33.000Z",
-   "observedAt": "2026-11-28T01:08:33.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "m3d-s3-specialist",
-   "name": "M3D-S3 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "M3D-S3 specialist solver",
-   "detail": "Started M3D-S3 specialist run: reading role card and task brief.",
-   "currentTask": "Reading role card, craft guide, and M3D-S3 task brief",
-   "lastHeartbeat": "2026-11-28T01:08:25.000Z",
-   "observedAt": "2026-11-28T01:08:25.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   },
   {
    "agentId": "team-improvement-cycle",
@@ -2803,6 +2775,34 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "m3d-s3-specialist",
+   "name": "M3D-S3 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S3 specialist solver",
+   "detail": "Shipped 3d-spec, budget-sheet, spec-note, gate.js, delivery-note. Gate exit 0, all 7 items verbatim.",
+   "currentTask": "M3D-S3 specialist run complete",
+   "lastHeartbeat": "2026-11-28T01:18:31.000Z",
+   "observedAt": "2026-11-28T01:18:31.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s3-generic",
+   "name": "M3D-S3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "M3D-S3 generic solver",
+   "detail": "Done: 3d-spec, budget-sheet, spec-note, gate.js, delivery-note shipped; gate 7/7 PASS exit 0.",
+   "currentTask": "Finished: all five M3D-S3 files shipped and gated",
+   "lastHeartbeat": "2026-11-28T01:16:56.000Z",
+   "observedAt": "2026-11-28T01:16:56.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "m3d-s2-generic",
    "name": "M3D-S2 generic solver",
    "role": "builder",
@@ -2997,20 +2997,6 @@
    "observedAt": "2026-11-27T22:36:03.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "09ac39bd-296f-44ce-9bb2-47ceddee9317",
-   "name": "CSE Quick Check poster",
-   "role": "poster",
-   "agentStatus": "idle",
-   "status": "completed",
-   "title": "CSE Quick Check morning 06:30",
-   "detail": "Completed 06:35 PHT: the same Quick Check poster went live in both Facebook groups as CSE Practice Hub PH.",
-   "currentTask": "CSE Quick Check morning posts in 2 groups",
-   "lastHeartbeat": "2026-11-27T22:34:22.000Z",
-   "observedAt": "2026-11-27T22:35:28.000Z",
-   "needsUser": false,
-   "category": "reviewer"
   },
   {
    "agentId": "judge-pe-s3",
@@ -4173,20 +4159,6 @@
    "observedAt": "2026-11-27T09:43:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt170-coordinator",
-   "name": "gt170-coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-170 Candle Pattern Research Blitz",
-   "detail": "Complete: 1,248 trials, 0 survivors (68 failed only the correction). Scale-in hurt; scale-out neutral. Report GT-20261127-170.md and CANDIDATES.md filed.",
-   "currentTask": "Complete: report and candidates file delivered",
-   "lastHeartbeat": "2026-11-27T09:35:00.000Z",
-   "observedAt": "2026-11-27T09:35:00.000Z",
-   "needsUser": false,
-   "category": "trading"
   }
  ]
 }
