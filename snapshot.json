@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:44:00.000Z",
- "summary": "Routing check cycle 690 complete: 4 of 5",
+ "generatedAt": "2026-11-28T01:53:00.000Z",
+ "summary": "GT-192: CI green and the universal v0.3.1 APK is ABI-verified. Drive upload in progress.",
  "agents": [
   {
    "agentId": null,
@@ -975,10 +975,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "FitOrSkip v0.3.1 ABI fix (GT-192)",
-   "detail": "Diagnosis verified from the Drive APK itself: native ABIs arm64-v8a only (MD5 f951099345be0031cfdbe2951ec013e5). Cause: CI --split-per-abi, arm64 slice shipped. Applying packaging fix.",
-   "currentTask": "Diagnosis verified: v0.3 APK is arm64-v8a only. Editing CI to universal APK",
-   "lastHeartbeat": "2026-11-28T01:47:00.000Z",
-   "observedAt": "2026-11-28T01:47:00.000Z",
+   "detail": "CI run 46094658056 success (analyze, tests, both jobs). New universal APK 49,480,037 bytes, ABIs arm64-v8a + armeabi-v7a + x86_64, signer unchanged. Uploading to Drive.",
+   "currentTask": "CI green, new APK ABI-verified. Uploading to Drive",
+   "lastHeartbeat": "2026-11-28T01:53:00.000Z",
+   "observedAt": "2026-11-28T01:53:00.000Z",
    "needsUser": false,
    "category": "fitorskip"
   },
@@ -995,6 +995,20 @@
    "observedAt": "2026-11-28T01:47:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 691 judging M3D retest 2",
+   "detail": "Judging Motion and 3D retest 2: 3 blind QA judges, one per task; a fail means FLAGGED.",
+   "currentTask": "Judging Motion and 3D retest 2",
+   "lastHeartbeat": "2026-11-28T01:46:53.000Z",
+   "observedAt": "2026-11-28T01:46:53.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2789,20 +2803,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 690",
-   "detail": "Cycle 690 routing check done: 4 of 5 (miss RC-T4, panel better call per 660/665 precedents). No rule fixes. Next: judging cycle 691.",
-   "currentTask": "Routing check cycle 690 complete: 4 of 5",
-   "lastHeartbeat": "2026-11-28T01:44:00.000Z",
-   "observedAt": "2026-11-28T01:44:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-mexc-promax-gt190",
    "name": "MEXC Team Coordinator",
    "role": "coordinator",
@@ -4173,6 +4173,20 @@
    "observedAt": "2026-11-27T09:57:00.000Z",
    "needsUser": false,
    "category": "trading"
+  },
+  {
+   "agentId": "typo-t1-judge-cycle-624",
+   "name": "TYPO-T1 QA Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "TYPO-T1 blind judgement",
+   "detail": "TYPO-T1 judge filed: Candidate A 8.50, Candidate B 8.25, winner A. Posted by cycle parent.",
+   "currentTask": "TYPO-T1 blind judgement filed",
+   "lastHeartbeat": "2026-11-27T09:40:14.000Z",
+   "observedAt": "2026-11-27T09:43:36.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
