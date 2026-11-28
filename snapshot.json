@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:36:30.000Z",
- "summary": "IID retest IID-R1 generic solver done, gate 13 of 13 passed",
+ "generatedAt": "2026-11-28T08:39:00.000Z",
+ "summary": "Cycle 714 complete: Illustration and Icon Designer retest IID-R1 collected.",
  "agents": [
   {
    "agentId": null,
@@ -927,20 +927,6 @@
    "category": "SASE"
   },
   {
-   "agentId": "team-illustration-icon-designer",
-   "name": "Illustration and Icon Designer (specialist solver)",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "IID retest IID-R1 specialist solver",
-   "detail": "IID-R1 specialist solve started: FitOrSkip Hang Tag icon set record",
-   "currentTask": "IID-R1 specialist solve",
-   "lastHeartbeat": "2026-11-28T08:34:00.000Z",
-   "observedAt": "2026-11-28T08:34:00.000Z",
-   "needsUser": false,
-   "category": "ghostename-team"
-  },
-  {
    "agentId": "team-mexc-shadowarmy-gt200",
    "name": "shadow-army-arise-gt200",
    "role": "coordinator",
@@ -953,20 +939,6 @@
    "observedAt": "2026-11-28T08:31:00.000Z",
    "needsUser": false,
    "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 714: IID retest IID-R1",
-   "detail": "Cycle 714 started: Illustration and Icon Designer retest opens, filing IID-R1 to IID-R3 and running the IID-R1 solver pair.",
-   "currentTask": "Cycle 714: Illustration and Icon Designer retest, IID-R1 pair",
-   "lastHeartbeat": "2026-11-28T08:27:00.000Z",
-   "observedAt": "2026-11-28T08:27:00.000Z",
-   "needsUser": false,
-   "category": "ghostename-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2767,10 +2739,38 @@
    "agentStatus": "offline",
    "status": "completed",
    "title": "IID retest IID-R1 generic solver",
-   "detail": "Icon set record, SVG master, gate, delivery note built; gate 13 of 13 passed, read-back PASS.",
-   "currentTask": "IID-R1 generic solve",
-   "lastHeartbeat": "2026-11-28T08:36:30.000Z",
-   "observedAt": "2026-11-28T08:36:30.000Z",
+   "detail": "IID-R1 generic solver complete (posted by cycle parent): 9,666-byte record, gate 13/13 PASS, 176s.",
+   "currentTask": "IID-R1 generic solve complete",
+   "lastHeartbeat": "2026-11-28T08:39:00.000Z",
+   "observedAt": "2026-11-28T08:39:00.000Z",
+   "needsUser": false,
+   "category": "ghostename-team"
+  },
+  {
+   "agentId": "team-illustration-icon-designer",
+   "name": "Illustration and Icon Designer (specialist solver)",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID retest IID-R1 specialist solver",
+   "detail": "IID-R1 specialist solver complete (posted by cycle parent): 8,789-byte record, gate 13/13 PASS, 255s.",
+   "currentTask": "IID-R1 specialist solve complete",
+   "lastHeartbeat": "2026-11-28T08:39:00.000Z",
+   "observedAt": "2026-11-28T08:39:00.000Z",
+   "needsUser": false,
+   "category": "ghostename-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 714: IID retest IID-R1 collected",
+   "detail": "Cycle 714 complete: IID retest opened, IID-R1 pair collected and verified (both gates 13/13, K1-K7 pass, 0 em dashes). IID-R2 runs cycle 716.",
+   "currentTask": "Cycle 714 complete: IID retest IID-R1 collected",
+   "lastHeartbeat": "2026-11-28T08:39:00.000Z",
+   "observedAt": "2026-11-28T08:39:00.000Z",
    "needsUser": false,
    "category": "ghostename-team"
   },
@@ -4131,34 +4131,6 @@
    "observedAt": "2026-11-27T14:10:19.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-panel-645",
-   "name": "routing-panel-645",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 645 panel",
-   "detail": "Panel picks filed: one specialist named per task with verbatim triggers.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-27T14:06:44.000Z",
-   "observedAt": "2026-11-27T14:06:44.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "gt175-trained-ai-scout",
-   "name": "gt175-trained-ai-scout",
-   "role": "researcher",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "GT-175: Pre-trained trading AI survey",
-   "detail": "Complete: 20 candidates graded. 0 with verified live track record. Kronos best artifact but independent eval shows no edge vs random walk. AlgosOne/Quantum AI flagged likely scam. Report: GT-20261127-175-trained-ai-survey.md.",
-   "currentTask": "Survey complete, report delivered",
-   "lastHeartbeat": "2026-11-27T14:05:00.000Z",
-   "observedAt": "2026-11-27T14:05:00.000Z",
-   "needsUser": false,
-   "category": "trading-research"
   }
  ]
 }
