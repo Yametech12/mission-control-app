@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T00:46:00.000Z",
- "summary": "M3D-S1 specialist solver finished: GT104 review shipped, gate 7/7",
+ "generatedAt": "2026-11-28T00:51:25.000Z",
+ "summary": "Cycle 687: Motion and 3D retest 2, M3D-S2 solvers running",
  "agents": [
   {
    "agentId": null,
@@ -970,15 +970,43 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
-   "title": "Improvement cycle 686",
-   "detail": "Cycle 686 start: Motion and 3D retest 2 resumes, M3D-S1 pair re-dispatched after both cycle 684 solvers timed out with nothing shipped.",
-   "currentTask": "Cycle 686: Motion and 3D retest 2, M3D-S1 solvers re-dispatched",
-   "lastHeartbeat": "2026-11-28T00:34:39.000Z",
-   "observedAt": "2026-11-28T00:34:39.000Z",
+   "title": "Improvement cycle 687",
+   "detail": "M3D-S2 solvers dispatched (liquid v2 to v3 replay); M3D-S3 next cycle, sealing and judging after.",
+   "currentTask": "M3D-S2 solvers running (specialist + generic)",
+   "lastHeartbeat": "2026-11-28T00:51:25.000Z",
+   "observedAt": "2026-11-28T00:51:25.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s2-generic",
+   "name": "M3D-S2 generic solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S2 generic solver",
+   "detail": "Generic solver solving M3D-S2 (liquid v2 to v3 replay); posted by job lead.",
+   "currentTask": "Solving M3D-S2 from the task file only",
+   "lastHeartbeat": "2026-11-28T00:51:25.000Z",
+   "observedAt": "2026-11-28T00:51:25.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "m3d-s2-specialist",
+   "name": "M3D-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "M3D-S2 specialist solver",
+   "detail": "Motion and 3D specialist solving M3D-S2 (liquid v2 to v3 replay); posted by job lead.",
+   "currentTask": "Solving M3D-S2 from the Motion and 3D card",
+   "lastHeartbeat": "2026-11-28T00:51:25.000Z",
+   "observedAt": "2026-11-28T00:51:25.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
