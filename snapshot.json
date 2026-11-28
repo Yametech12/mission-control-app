@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:42:00.000Z",
- "summary": "MH-R3 generic solver started: building 8-candidate Mark Remarks clips.json set.",
+ "generatedAt": "2026-11-28T13:46:00.000Z",
+ "summary": "MH-R3 specialist solver completed the Mark Remarks GTA 6 moment mine: gate passed, 288 assertions.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "mh-r3-generic",
-   "name": "MH-R3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "MH-R3 Generic Solver",
-   "detail": "Building clips.json, moment-report.md, gate.js, delivery-note.md for Mark Remarks GTA 6 VOD.",
-   "currentTask": "MH-R3 generic solve",
-   "lastHeartbeat": "2026-11-28T13:42:00.000Z",
-   "observedAt": "2026-11-28T13:42:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
