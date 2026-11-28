@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:49:45.000Z",
- "summary": "Cycle 715 routing check complete: 5 of 5, RC-T4 sixth both-sides miss.",
+ "generatedAt": "2026-11-28T09:01:00.000Z",
+ "summary": "GT-198 recovered: the disk quota block cleared at about 09:00Z. All 6 shards relaunched and resumed from their manifests; 710 of 1000 pairs archived, 290 remaining, 0 drops, 0 rate events.",
  "agents": [
   {
    "agentId": null,
@@ -927,6 +927,20 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-mexc-archive-gt198",
+   "name": "mexc-archive-coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-198 Shadow Army Parallel Dataset Collection",
+   "detail": "Recovered from quota block: 6 shards relaunched 09:00Z, resumed at 654 shard pairs done. 710/1000 total archived, all sha256 verified. Monitoring to completion.",
+   "currentTask": "Monitoring relaunched shards, 290 pairs remaining",
+   "lastHeartbeat": "2026-11-28T09:01:00.000Z",
+   "observedAt": "2026-11-28T09:01:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-mexc-shadowarmy-gt200",
    "name": "shadow-army-arise-gt200",
    "role": "coordinator",
@@ -937,20 +951,6 @@
    "currentTask": "Step 3 waiting on GT-198 archive manifest (522 of 1000 pairs)",
    "lastHeartbeat": "2026-11-28T08:31:00.000Z",
    "observedAt": "2026-11-28T08:31:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-mexc-archive-gt198",
-   "name": "mexc-archive-coordinator",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-198 Shadow Army Parallel Dataset Collection",
-   "detail": "6 shards running detached (158/158/157/157/157/157 pairs). Early retry wins: KIIUSDT and ASTERUSDT archived. Monitoring to completion.",
-   "currentTask": "Monitoring 6 collection shards to completion",
-   "lastHeartbeat": "2026-11-28T07:31:30.000Z",
-   "observedAt": "2026-11-28T07:31:30.000Z",
    "needsUser": false,
    "category": "trading"
   },
