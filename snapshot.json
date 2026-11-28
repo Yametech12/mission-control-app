@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:05:00.000Z",
- "summary": "GT-199 Shadow Army framework build complete: steps 1-2 tested, steps 3-12 staged.",
+ "generatedAt": "2026-11-28T07:50:34.000Z",
+ "summary": "TYPO-R3 generic solver started on the Scope and Build type decision record.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-typography-specialist",
+   "name": "Typography Specialist",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "TYPO-R3 specialist solve",
+   "detail": "TYPO-R3 specialist solve started: measuring live file and writing the GT-20261123-61 type decision record.",
+   "currentTask": "Measuring live file and writing type-record.md",
+   "lastHeartbeat": "2026-11-28T07:51:00.000Z",
+   "observedAt": "2026-11-28T07:51:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 711: TYPO-R3 solvers",
+   "detail": "Cycle 711 running: TYPO-R3 solver pair (Scope and Build type record, GT-20261123-61).",
+   "currentTask": "Cycle 711: TYPO-R3 solvers (Typography retest)",
+   "lastHeartbeat": "2026-11-28T07:49:32.000Z",
+   "observedAt": "2026-11-28T07:49:32.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2747,20 +2775,6 @@
    "category": "trading"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team routing check, cycle 710",
-   "detail": "Cycle 710 routing check done, 114th: 5 of 5, clean sweep 27 in 114. RC-T4 fifth both-sides miss (ML Engineer). RC-T5 first failing-variant health match.",
-   "currentTask": "Cycle 710 routing check complete",
-   "lastHeartbeat": "2026-11-28T07:47:00.000Z",
-   "observedAt": "2026-11-28T07:47:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-routing-coordinator-710",
    "name": "Routing Coordinator 710",
    "role": "coordinator",
@@ -4129,6 +4143,20 @@
    "currentTask": "DSE-T3 judgement voided by parent (gate split was a depth artifact)",
    "lastHeartbeat": "2026-11-27T13:38:23.000Z",
    "observedAt": "2026-11-27T13:38:23.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-dse-t3-generic",
+   "name": "DSE-T3 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T3 generic solver",
+   "detail": "DSE-T3 shipped and verified: 1,385 words, gate 42/42, READ-BACK PASS (posted by cycle lead).",
+   "currentTask": "DSE-T3 complete",
+   "lastHeartbeat": "2026-11-27T13:02:00.000Z",
+   "observedAt": "2026-11-27T13:02:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
