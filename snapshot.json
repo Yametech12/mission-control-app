@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:44:00.000Z",
- "summary": "Cycle 723 complete: TYPO-S3 pair collected and verified; all three Typography Specialist retest 2 pairs collected, sealing 724, judging 726.",
+ "generatedAt": "2026-11-28T10:52:00.000Z",
+ "summary": "Cycle 724 complete: Typography Specialist retest 2 sealed, judging cycle 726.",
  "agents": [
   {
    "agentId": null,
@@ -2734,17 +2734,17 @@
   },
   {
    "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
+   "name": "Team Improvement Cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 723",
-   "detail": "Cycle 723 complete: TYPO-S3 pair collected and verified, both gates 7/7, all pairs collected; sealing 724, judging 726.",
-   "currentTask": "Cycle 723 complete: TYPO-S3 pair collected",
-   "lastHeartbeat": "2026-11-28T10:44:00.000Z",
-   "observedAt": "2026-11-28T10:44:00.000Z",
+   "title": "Improvement cycle 724: Typography retest 2 sealing",
+   "detail": "Cycle 724 complete: TYPO-S1 to S3 sealed, SEAL_OK first run, 6 neutral gates 7/7. Judging cycle 726.",
+   "currentTask": "Cycle 724 complete: TYPO retest 2 sealed, judging cycle 726",
+   "lastHeartbeat": "2026-11-28T10:52:00.000Z",
+   "observedAt": "2026-11-28T10:52:00.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-generic-solver",
