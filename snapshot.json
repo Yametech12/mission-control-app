@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:00:00.000Z",
- "summary": "Fleet 2 Coordinator started GT-219: registration first, launch after.",
+ "generatedAt": "2026-11-28T13:03:00.000Z",
+ "summary": "Cycle 733 done: Moment Hunter retest MH-R1 pair collected and verified",
  "agents": [
   {
    "agentId": null,
@@ -939,34 +939,6 @@
    "observedAt": "2026-11-28T13:00:00.000Z",
    "needsUser": false,
    "category": "mexc-trading"
-  },
-  {
-   "agentId": "team-moment-hunter",
-   "name": "Moment Hunter (MH-R1 specialist)",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Moment Hunter retest MH-R1",
-   "detail": "MH-R1 specialist started: mining Tomo GTA 6 Trailer Reaction (vJdkqtP6qvY) for 10 ranked candidates.",
-   "currentTask": "Mining Tomo GTA 6 Trailer Reaction moments, building clips.json set",
-   "lastHeartbeat": "2026-11-28T12:55:30.000Z",
-   "observedAt": "2026-11-28T12:55:30.000Z",
-   "needsUser": false,
-   "category": "clipping"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 733: Moment Hunter retest",
-   "detail": "MH-R1 solver pair running: specialist from rewrite 1 card vs generic, Tomo trailer reaction mine.",
-   "currentTask": "MH-R1 solver pair running",
-   "lastHeartbeat": "2026-11-28T12:45:34.000Z",
-   "observedAt": "2026-11-28T12:45:34.000Z",
-   "needsUser": false,
-   "category": "validation"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,6 +2719,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 733: Moment Hunter retest",
+   "detail": "MH-R1 pair collected and verified, both gates exit 0, READ-BACK PASS both; MH-R2 next cycle, judging 738.",
+   "currentTask": "Cycle 733 complete",
+   "lastHeartbeat": "2026-11-28T13:03:00.000Z",
+   "observedAt": "2026-11-28T13:03:00.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-moment-hunter-generic",
+   "name": "Moment Hunter retest generic",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Moment Hunter retest MH-R1 generic",
+   "detail": "MH-R1 generic done: 10 candidates, gate 329 assertions exit 0, READ-BACK PASS, 164s.",
+   "currentTask": "MH-R1 complete",
+   "lastHeartbeat": "2026-11-28T13:03:00.000Z",
+   "observedAt": "2026-11-28T13:03:00.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
+   "agentId": "team-moment-hunter",
+   "name": "Moment Hunter retest",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Moment Hunter retest MH-R1 specialist",
+   "detail": "MH-R1 specialist done: 10 candidates, gate 296 checks exit 0, READ-BACK PASS, 437s.",
+   "currentTask": "MH-R1 complete",
+   "lastHeartbeat": "2026-11-28T13:03:00.000Z",
+   "observedAt": "2026-11-28T13:03:00.000Z",
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "team-mexc-hunt2-gt217",
    "name": "Config Hunt 2 Coordinator",
    "role": "coordinator",
@@ -4103,48 +4117,6 @@
    "observedAt": "2026-11-27T21:06:53.000Z",
    "needsUser": false,
    "category": "validation"
-  },
-  {
-   "agentId": "team-prototype-engineer-pe-s3-specialist",
-   "name": "PE-S3 Specialist Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-S3 specialist solver",
-   "detail": "Specialist PE-S3 complete: 23,072 bytes, 702 words, gate 8/8 exit 0. Posted by cycle parent.",
-   "currentTask": "PE-S3 specialist complete",
-   "lastHeartbeat": "2026-11-27T21:06:53.000Z",
-   "observedAt": "2026-11-27T21:06:53.000Z",
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
-   "agentId": "pe-s1-generic",
-   "name": "PE-S1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-S1 generic solver",
-   "detail": "PE-S1 generic: 13,450 bytes, 326 words, 179s, gate 7/7. Posted by cycle lead.",
-   "currentTask": "PE-S1 generic output collected and verified",
-   "lastHeartbeat": "2026-11-27T20:37:29.000Z",
-   "observedAt": "2026-11-27T20:41:26.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
-  },
-  {
-   "agentId": "pe-s1-specialist",
-   "name": "PE-S1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-S1 specialist solver",
-   "detail": "PE-S1 specialist: 16,720 bytes, 342 words, 160s, gate 7/7. Posted by cycle lead.",
-   "currentTask": "PE-S1 specialist output collected and verified",
-   "lastHeartbeat": "2026-11-27T20:38:33.000Z",
-   "observedAt": "2026-11-27T20:41:26.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   }
  ]
 }
