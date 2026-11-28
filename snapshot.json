@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:59:00.000Z",
- "summary": "Cycle 694: DA-R1 pair collected, Design Auditor retest mid-flight",
+ "generatedAt": "2026-11-28T03:10:00.000Z",
+ "summary": "Improvement cycle 695 running: routing check 111th on 5 fresh Nov 28 legs.",
  "agents": [
   {
    "agentId": null,
@@ -239,20 +239,6 @@
    "observedAt": "2026-11-26T11:16:31.000Z",
    "needsUser": false,
    "category": "Ghostname Team"
-  },
-  {
-   "agentId": null,
-   "name": "ClinicFlow Connect upgrade blocked",
-   "role": null,
-   "agentStatus": null,
-   "status": "attention",
-   "title": "ClinicFlow Connect upgrade blocked",
-   "detail": "Read-only audit completed, but implementation could not proceed: execution-risk check failed for the cloned repo, so branch, edits, build, test, and push were prohibited. Owner approval required.",
-   "currentTask": null,
-   "lastHeartbeat": null,
-   "observedAt": "2026-11-26T02:59:45.000Z",
-   "needsUser": true,
-   "category": "ClinicFlow"
   },
   {
    "agentId": "team-lead-yame-call",
@@ -953,6 +939,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 695: routing check 111th",
+   "detail": "Routing check 695 running: 5 fresh Nov 28 legs (VERITY snap 24, MONTRA 10:28 alert msg 1091, BULLA 10:28, F6 10:10, health 09:27). Coordinator picks in progress.",
+   "currentTask": "Routing check 695: Coordinator sealing picks",
+   "lastHeartbeat": "2026-11-28T03:10:00.000Z",
+   "observedAt": "2026-11-28T03:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,20 +2747,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Cycle 694 DA-R1 pair collected",
-   "detail": "Specialist 48,823 bytes, gate 7/7, K1-K7 pass, HOLD 0/12/8 vs generic HOLD 0/8/13. DA-R2 solvers cycle 696.",
-   "currentTask": "Cycle 694 complete",
-   "lastHeartbeat": "2026-11-28T02:59:00.000Z",
-   "observedAt": "2026-11-28T02:59:00.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
    "agentId": "da-r1-specialist",
    "name": "DA-R1 specialist solver",
    "role": "builder",
@@ -4128,6 +4114,20 @@
    "detail": "Specialist win 8.9 vs 6.9. Contamination clean. Posted by job lead.",
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T10:58:22.000Z",
+   "observedAt": "2026-11-27T11:03:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "3a96d6fe-4c92-4732-a89a-2a8b26b07b46",
+   "name": "AIE-S3 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "AIE-S3 blind judge (cycle 631)",
+   "detail": "Generic win 8.75 vs 7.5. Contamination clean. Posted by job lead.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T10:58:12.000Z",
    "observedAt": "2026-11-27T11:03:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
