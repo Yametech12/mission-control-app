@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T03:10:00.000Z",
- "summary": "Improvement cycle 695 running: routing check 111th on 5 fresh Nov 28 legs.",
+ "generatedAt": "2026-11-28T03:15:00.000Z",
+ "summary": "Improvement cycle 695 done: routing check 111th scored 5 of 5; RC-T4 is the second both-sides miss (correct call ML Engineer per precedent).",
  "agents": [
   {
    "agentId": null,
@@ -939,20 +939,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 695: routing check 111th",
-   "detail": "Routing check 695 running: 5 fresh Nov 28 legs (VERITY snap 24, MONTRA 10:28 alert msg 1091, BULLA 10:28, F6 10:10, health 09:27). Coordinator picks in progress.",
-   "currentTask": "Routing check 695: Coordinator sealing picks",
-   "lastHeartbeat": "2026-11-28T03:10:00.000Z",
-   "observedAt": "2026-11-28T03:10:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,6 +2733,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 695: routing check 111th",
+   "detail": "Routing check 695 complete: 5 of 5 vs division leads (Watcher 7-1, 7-1, 6-1-1; Data Integrity Auditor 5-3, 5-2-1). Clean sweeps 25 in 111. RC-T4 both-sides miss: correct call ML Engineer.",
+   "currentTask": "Cycle 695 filed; DA-R2 solvers next cycle 696",
+   "lastHeartbeat": "2026-11-28T03:15:00.000Z",
+   "observedAt": "2026-11-28T03:15:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "da-r1-specialist",
    "name": "DA-R1 specialist solver",
    "role": "builder",
@@ -4114,20 +4114,6 @@
    "detail": "Specialist win 8.9 vs 6.9. Contamination clean. Posted by job lead.",
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T10:58:22.000Z",
-   "observedAt": "2026-11-27T11:03:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "3a96d6fe-4c92-4732-a89a-2a8b26b07b46",
-   "name": "AIE-S3 Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "AIE-S3 blind judge (cycle 631)",
-   "detail": "Generic win 8.75 vs 7.5. Contamination clean. Posted by job lead.",
-   "currentTask": "Judgement filed",
-   "lastHeartbeat": "2026-11-27T10:58:12.000Z",
    "observedAt": "2026-11-27T11:03:30.000Z",
    "needsUser": false,
    "category": "ghostname-team"
