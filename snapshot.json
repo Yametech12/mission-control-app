@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:55:00.000Z",
- "summary": "GT-200 arise run: GT-198 archive verified complete, step 3 in progress.",
+ "generatedAt": "2026-11-28T10:07:00.000Z",
+ "summary": "GT-200 arise run: steps 3 and 4 gates passed, step 5 in progress.",
  "agents": [
   {
    "agentId": null,
@@ -961,10 +961,10 @@
    "agentStatus": "active",
    "status": "working",
    "title": "Shadow Army ARISE run (GT-200)",
-   "detail": "GT-198 archive complete: 999 of 1000 pairs, spot check 12 of 12 exact. Step 3 worker building loader and replay engine.",
-   "currentTask": "Step 3 (GT-200): archive loader and replay engine, worker dispatched",
-   "lastHeartbeat": "2026-11-28T09:55:00.000Z",
-   "observedAt": "2026-11-28T09:55:00.000Z",
+   "detail": "Step 4 gate PASS verified: 87 tests, indicator parity diffs 0.0, leak test passed. Step 5 worker wiring Tusk through Igris and SimBeru in replay.",
+   "currentTask": "Step 5 (GT-202): Tusk strategy end-to-end in replay, worker dispatched",
+   "lastHeartbeat": "2026-11-28T10:07:00.000Z",
+   "observedAt": "2026-11-28T10:07:00.000Z",
    "needsUser": false,
    "category": "trading"
   },
