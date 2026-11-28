@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:50:00.000Z",
- "summary": "Improvement cycle 737 sealing the Moment Hunter retest.",
+ "generatedAt": "2026-11-28T13:53:00.000Z",
+ "summary": "Improvement cycle 737 sealed the Moment Hunter retest; judging lands cycle 738.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 737: sealing Moment Hunter retest",
-   "detail": "Cycle 737 sealing: Moment Hunter retest MH-R1 to MH-R3, 6 identity markers to drop, differential seal in progress.",
-   "currentTask": "Cycle 737: sealing Moment Hunter retest pairs MH-R1 to MH-R3",
-   "lastHeartbeat": "2026-11-28T13:50:00.000Z",
-   "observedAt": "2026-11-28T13:50:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2747,6 +2733,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 737: Moment Hunter retest sealed",
+   "detail": "Cycle 737 done: Moment Hunter retest sealed, SEAL_OK first run, 6 markers dropped, all 6 neutral gates exit 0. Judging 738.",
+   "currentTask": "Cycle 737 sealed; judging lands cycle 738",
+   "lastHeartbeat": "2026-11-28T13:53:00.000Z",
+   "observedAt": "2026-11-28T13:53:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "routing-panel-735",
    "name": "Routing Panel",
    "role": "auditor",
@@ -4131,20 +4131,6 @@
    "observedAt": "2026-11-27T22:36:03.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "judge-pe-s3",
-   "name": "QA Judge PE-S3",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA Judge PE-S3 blind judgement",
-   "detail": "PE-S3 judged: B wins, task scores A 7.25, B 9.00. Contamination CLEAN. Both gates passed.",
-   "currentTask": "PE-S3 judgement filed: B wins 9.00 to 7.25",
-   "lastHeartbeat": "2026-11-27T21:39:22.000Z",
-   "observedAt": "2026-11-27T21:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
