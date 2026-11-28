@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:53:00.000Z",
- "summary": "Improvement cycle 737 sealed the Moment Hunter retest; judging lands cycle 738.",
+ "generatedAt": "2026-11-28T14:06:25.000Z",
+ "summary": "MH-R2 blind judge started: scoring candidates A and B against the task brief.",
  "agents": [
   {
    "agentId": null,
@@ -953,6 +953,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 738: Moment Hunter retest judging",
+   "detail": "Cycle 738 judging MH-R1/R2/R3 blind, three fresh QA judges, sealed cycle 737.",
+   "currentTask": "Judging Moment Hunter retest MH-R1/R2/R3 blind",
+   "lastHeartbeat": "2026-11-28T14:01:00.000Z",
+   "observedAt": "2026-11-28T14:01:00.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2621,6 +2635,20 @@
    "category": "Audit"
   },
   {
+   "agentId": "team-improvement-cycle-judge-mh-r1",
+   "name": "MH-R1 Judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Blind-judging MH-R1",
+   "detail": "Blind-judging MH-R1: scoring candidates A and B on accuracy, depth, usefulness, originality.",
+   "currentTask": "Blind-judging MH-R1",
+   "lastHeartbeat": "2026-11-28T14:05:00.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
+  },
+  {
    "agentId": "gt186-raw-archive",
    "name": "GT-186 Raw Archive",
    "role": "builder",
@@ -2647,6 +2675,20 @@
    "observedAt": null,
    "needsUser": false,
    "category": "Audit"
+  },
+  {
+   "agentId": "team-improvement-cycle-judge-mh-r2",
+   "name": "MH-R2 blind judge",
+   "role": "auditor",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "MH-R2 blind judging started",
+   "detail": "Blind-judging MH-R2: reading task brief and both candidate packets, scoring blind on four criteria.",
+   "currentTask": "Blind-judging MH-R2",
+   "lastHeartbeat": "2026-11-28T14:06:25.000Z",
+   "observedAt": null,
+   "needsUser": false,
+   "category": "validation"
   },
   {
    "agentId": "sase-neon-deploy",
@@ -2731,20 +2773,6 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 737: Moment Hunter retest sealed",
-   "detail": "Cycle 737 done: Moment Hunter retest sealed, SEAL_OK first run, 6 markers dropped, all 6 neutral gates exit 0. Judging 738.",
-   "currentTask": "Cycle 737 sealed; judging lands cycle 738",
-   "lastHeartbeat": "2026-11-28T13:53:00.000Z",
-   "observedAt": "2026-11-28T13:53:00.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "routing-panel-735",
@@ -4131,6 +4159,20 @@
    "observedAt": "2026-11-27T22:36:03.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
+  },
+  {
+   "agentId": "judge-pe-s3",
+   "name": "QA Judge PE-S3",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "QA Judge PE-S3 blind judgement",
+   "detail": "PE-S3 judged: B wins, task scores A 7.25, B 9.00. Contamination CLEAN. Both gates passed.",
+   "currentTask": "PE-S3 judgement filed: B wins 9.00 to 7.25",
+   "lastHeartbeat": "2026-11-27T21:39:22.000Z",
+   "observedAt": "2026-11-27T21:39:22.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   }
  ]
 }
