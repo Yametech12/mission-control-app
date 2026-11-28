@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:01:00.000Z",
- "summary": "GT-198 recovered: the disk quota block cleared at about 09:00Z. All 6 shards relaunched and resumed from their manifests; 710 of 1000 pairs archived, 290 remaining, 0 drops, 0 rate events.",
+ "generatedAt": "2026-11-28T09:06:30.000Z",
+ "summary": "Cycle 716 complete: IID-R2 pair collected and verified",
  "agents": [
   {
    "agentId": null,
@@ -2733,18 +2733,46 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "iid-r2-generic",
+   "name": "IID-R2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-R2 generic solver",
+   "detail": "IID-R2 generic solver (posted by cycle lead): icon-set 5,626 bytes / 954 words, gate 15/15, 357s.",
+   "currentTask": "IID-R2 generic output collected",
+   "lastHeartbeat": "2026-11-28T09:06:30.000Z",
+   "observedAt": "2026-11-28T09:06:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
+   "agentId": "iid-r2-specialist",
+   "name": "IID-R2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-R2 specialist solver",
+   "detail": "IID-R2 specialist solver (posted by cycle lead): icon-set 7,796 bytes / 1,355 words, gate 15/15, 427s.",
+   "currentTask": "IID-R2 specialist output collected",
+   "lastHeartbeat": "2026-11-28T09:06:30.000Z",
+   "observedAt": "2026-11-28T09:06:30.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
+   "name": "Improvement cycle",
    "role": "coordinator",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Ghostname Team improvement cycle 715",
-   "detail": "Cycle 715 routing check done: 5 of 5, Watcher 8-0/8-0/8-0/7-1, DIA 5-3; RC-T4 sixth both-sides miss (ML Engineer per precedent).",
-   "currentTask": "Cycle 715 routing check complete: 5 of 5, RC-T4 sixth both-sides miss",
-   "lastHeartbeat": "2026-11-28T08:49:45.000Z",
-   "observedAt": "2026-11-28T08:49:45.000Z",
+   "title": "Improvement cycle 716: IID-R2 collected",
+   "detail": "Cycle 716 complete: IID-R2 pair collected and verified, both gates 15/15, no key defect. IID-R3 cycle 717, sealing 718, judging 719.",
+   "currentTask": "Cycle 716 complete: IID-R2 pair collected",
+   "lastHeartbeat": "2026-11-28T09:06:30.000Z",
+   "observedAt": "2026-11-28T09:06:30.000Z",
    "needsUser": false,
-   "category": "ghostnameteam"
+   "category": "ghostnames-team"
   },
   {
    "agentId": "team-iid-r1-generic-solver",
@@ -4101,34 +4129,6 @@
    "currentTask": "WPE-R1 generic run complete",
    "lastHeartbeat": "2026-11-27T14:22:49.000Z",
    "observedAt": "2026-11-27T14:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-wpe-r1-specialist",
-   "name": "WPE-R1 specialist",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "WPE-R1 specialist solver",
-   "detail": "Posted by cycle lead: WPE-R1 specialist pair collected, gate 8/8 exit 0, READ-BACK: PASS.",
-   "currentTask": "WPE-R1 specialist run complete",
-   "lastHeartbeat": "2026-11-27T14:23:29.000Z",
-   "observedAt": "2026-11-27T14:29:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-panel-645",
-   "name": "routing-panel-645",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 645 panel",
-   "detail": "Panel picks filed: Site Builder, Money Researcher, Art Director, App Builder, Scheduler. Posted by the job lead.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-27T14:10:19.000Z",
-   "observedAt": "2026-11-27T14:10:19.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
