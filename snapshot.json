@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T10:52:00.000Z",
- "summary": "Cycle 724 complete: Typography Specialist retest 2 sealed, judging cycle 726.",
+ "generatedAt": "2026-11-28T11:12:00.000Z",
+ "summary": "Routing check 725 panel complete: five picks filed in panel-picks.md and panel-votes.md.",
  "agents": [
   {
    "agentId": null,
@@ -953,6 +953,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 725: routing check",
+   "detail": "Cycle 725 routing check started: 5 fresh Nov 28 legs (VERITY 32, MONTRA, BULLA, F6 18:10, health 19:05).",
+   "currentTask": "Routing check cycle 725: sealing Coordinator picks on 5 fresh legs",
+   "lastHeartbeat": "2026-11-28T11:05:34.000Z",
+   "observedAt": "2026-11-28T11:05:34.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,18 +2747,18 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
+   "agentId": "team-improvement-cycle-panel",
+   "name": "Routing check 725 panel",
+   "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 724: Typography retest 2 sealing",
-   "detail": "Cycle 724 complete: TYPO-S1 to S3 sealed, SEAL_OK first run, 6 neutral gates 7/7. Judging cycle 726.",
-   "currentTask": "Cycle 724 complete: TYPO retest 2 sealed, judging cycle 726",
-   "lastHeartbeat": "2026-11-28T10:52:00.000Z",
-   "observedAt": "2026-11-28T10:52:00.000Z",
+   "title": "Routing check 725 panel",
+   "detail": "Complete. Picks: RC-T1 Watcher 8-0, RC-T2 Watcher 8-0, RC-T3 Watcher 8-0, RC-T4 ML Engineer 6-2, RC-T5 Data Integrity Auditor 7-1.",
+   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-28T11:12:00.000Z",
+   "observedAt": "2026-11-28T11:12:00.000Z",
    "needsUser": false,
-   "category": "ghostname-team"
+   "category": "validation"
   },
   {
    "agentId": "team-generic-solver",
@@ -2839,20 +2853,6 @@
    "title": "Routing Coordinator cycle 720",
    "detail": "Coordinator picks filed (posted by the Coordinator; carried by the parent).",
    "currentTask": "Cycle 720 picks filed: Watcher x4, Data Integrity Auditor x1",
-   "lastHeartbeat": "2026-11-28T09:52:00.000Z",
-   "observedAt": "2026-11-28T09:52:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel-720",
-   "name": "Routing Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing Panel cycle 720",
-   "detail": "Panel votes filed (posted by the panel; carried by the parent).",
-   "currentTask": "Cycle 720 votes filed: Watcher 8-0 x3, 7-1, DIA 5-3",
    "lastHeartbeat": "2026-11-28T09:52:00.000Z",
    "observedAt": "2026-11-28T09:52:00.000Z",
    "needsUser": false,
@@ -4131,6 +4131,20 @@
    "observedAt": "2026-11-27T15:45:00.000Z",
    "needsUser": false,
    "category": "clipping"
+  },
+  {
+   "agentId": "team-wpe-r1-judge-651",
+   "name": "WPE-R1 judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "WPE-R1 blind judge, cycle 651",
+   "detail": "WPE-R1 judged: generic win 8.50 vs 8.25. Contamination clean. Judgement filed.",
+   "currentTask": "Judgement filed",
+   "lastHeartbeat": "2026-11-27T15:26:39.000Z",
+   "observedAt": "2026-11-27T15:34:30.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   }
  ]
 }
