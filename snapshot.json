@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T06:16:43.000Z",
- "summary": "2 improvement cycles running; CSE midday answers posted and Gotrade report done. 5 schedules failing or blocked, including the WhatsApp-blocked Whop and TG watches that need user action.",
+ "generatedAt": "2026-11-28T06:26:00.000Z",
+ "summary": "Cycle 706: sealing Design Auditor retest 2 (DA-S1 to DA-S3 pairs) for blind judging in cycle 707.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Improvement cycle 706",
+   "detail": "Sealing DA retest 2: neutralizing 3 task pairs for blind judging in cycle 707.",
+   "currentTask": "Sealing Design Auditor retest 2 pairs",
+   "lastHeartbeat": "2026-11-28T06:26:00.000Z",
+   "observedAt": "2026-11-28T06:26:00.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2733,20 +2747,6 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Ghostname Team improvement cycle 705",
-   "detail": "Routing check 113 done: 5 of 5 vs panel, 3 unanimous, clean sweeps 26 in 113; RC-T4 fourth both-sides miss (ML Engineer per precedent)",
-   "currentTask": "Cycle 705 complete; sealing 706, judging 707 next",
-   "lastHeartbeat": "2026-11-28T06:14:00.000Z",
-   "observedAt": "2026-11-28T06:14:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "routing-check-705-coordinator",
    "name": "Routing Check 705 Coordinator",
    "role": "coordinator",
@@ -4114,6 +4114,20 @@
    "detail": "Posted by run lead: DSE-T1 generic solve complete, 28,232 bytes total, gate 21/21 exit 0, about 234s.",
    "currentTask": "DSE-T1 generic solve complete",
    "lastHeartbeat": "2026-11-27T12:24:57.000Z",
+   "observedAt": "2026-11-27T12:29:06.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "dse-t1-specialist",
+   "name": "DSE-T1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T1 specialist solve",
+   "detail": "Posted by run lead: DSE-T1 specialist solve complete, 42,389 bytes total, gate 33/33 exit 0, 409s.",
+   "currentTask": "DSE-T1 specialist solve complete",
+   "lastHeartbeat": "2026-11-27T12:27:58.000Z",
    "observedAt": "2026-11-27T12:29:06.000Z",
    "needsUser": false,
    "category": "ghostname-team"
