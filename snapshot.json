@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:44:04.000Z",
- "summary": "Cycle 715 routing check in progress.",
+ "generatedAt": "2026-11-28T08:49:45.000Z",
+ "summary": "Cycle 715 routing check complete: 5 of 5, RC-T4 sixth both-sides miss.",
  "agents": [
   {
    "agentId": null,
@@ -925,20 +925,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Ghostname Team improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 715",
-   "detail": "Cycle 715 routing check started: 5 fresh Nov 28 legs (VERITY snap 30, MONTRA, BULLA, F6 16:10, health 16:26).",
-   "currentTask": "Cycle 715 routing check: 5 fresh Nov 28 legs, Coordinator picks sealing",
-   "lastHeartbeat": "2026-11-28T08:44:04.000Z",
-   "observedAt": "2026-11-28T08:44:04.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   },
   {
    "agentId": "team-mexc-shadowarmy-gt200",
@@ -2747,6 +2733,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Ghostname Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 715",
+   "detail": "Cycle 715 routing check done: 5 of 5, Watcher 8-0/8-0/8-0/7-1, DIA 5-3; RC-T4 sixth both-sides miss (ML Engineer per precedent).",
+   "currentTask": "Cycle 715 routing check complete: 5 of 5, RC-T4 sixth both-sides miss",
+   "lastHeartbeat": "2026-11-28T08:49:45.000Z",
+   "observedAt": "2026-11-28T08:49:45.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
+  },
+  {
    "agentId": "team-iid-r1-generic-solver",
    "name": "IID retest IID-R1 generic solver",
    "role": "builder",
@@ -4129,20 +4129,6 @@
    "currentTask": "Panel picks filed",
    "lastHeartbeat": "2026-11-27T14:10:19.000Z",
    "observedAt": "2026-11-27T14:10:19.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "routing-panel-645",
-   "name": "routing-panel-645",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing check 645 panel",
-   "detail": "Panel picks filed: one specialist named per task with verbatim triggers.",
-   "currentTask": "Panel picks filed",
-   "lastHeartbeat": "2026-11-27T14:06:44.000Z",
-   "observedAt": "2026-11-27T14:06:44.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
