@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:46:00.000Z",
- "summary": "MH-R3 specialist solver completed the Mark Remarks GTA 6 moment mine: gate passed, 288 assertions.",
+ "generatedAt": "2026-11-28T13:47:00.000Z",
+ "summary": "Cycle 736 done: MH-R3 pair collected and verified. Sealing 737, judging 738.",
  "agents": [
   {
    "agentId": null,
@@ -2733,6 +2733,20 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "mh-r3-generic",
+   "name": "MH-R3 Generic Solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "MH-R3 generic solver",
+   "detail": "MH-R3 generic: 8 candidates, 854-word report, gate 272 PASS. Posted by cycle parent.",
+   "currentTask": "MH-R3 generic pair delivered",
+   "lastHeartbeat": "2026-11-28T13:42:53.000Z",
+   "observedAt": "2026-11-28T13:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "routing-panel-735",
    "name": "Routing Panel",
    "role": "auditor",
@@ -4117,20 +4131,6 @@
    "observedAt": "2026-11-27T22:36:03.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "judge-pe-s3",
-   "name": "QA Judge PE-S3",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA Judge PE-S3 blind judgement",
-   "detail": "PE-S3 judged: B wins, task scores A 7.25, B 9.00. Contamination CLEAN. Both gates passed.",
-   "currentTask": "PE-S3 judgement filed: B wins 9.00 to 7.25",
-   "lastHeartbeat": "2026-11-27T21:39:22.000Z",
-   "observedAt": "2026-11-27T21:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
   }
  ]
 }
