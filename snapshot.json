@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T14:51:23.000Z",
- "summary": "CW-T2 generic solver started: writing Quick Check Reel caption C1-V018 (Verbal) with answer note and answer drop.",
+ "generatedAt": "2026-11-28T14:54:29.000Z",
+ "summary": "Cycle 741 complete: Caption Writer CW-T2 pair collected and verified. Scoreboard still 34 validated, 11 flagged, 34 unvalidated of 79.",
  "agents": [
   {
    "agentId": null,
@@ -953,20 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team improvement cycle 741",
-   "detail": "Cycle 741 running: Caption Writer CW-T2 solver pair, specialist vs generic.",
-   "currentTask": "Cycle 741: CW-T2 solver pair (Caption Writer)",
-   "lastHeartbeat": "2026-11-28T14:49:53.000Z",
-   "observedAt": "2026-11-28T14:49:53.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2635,34 +2621,6 @@
    "category": "Audit"
   },
   {
-   "agentId": "cw-t2-specialist",
-   "name": "CW-T2 Specialist",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CW-T2 caption draft in progress",
-   "detail": "CW-T2 specialist solver started: drafting C1-V018 reel caption, answer note, and answer drop from the Caption Writer card.",
-   "currentTask": "CW-T2 Quick Check Reel caption, C1-V018 Verbal",
-   "lastHeartbeat": "2026-11-28T14:51:20.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "Validation"
-  },
-  {
-   "agentId": "cw-t2-generic",
-   "name": "CW-T2 Generic Solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "CW-T2 generic solver",
-   "detail": "Started CW-T2 caption task; writing captions.md, gate.js, delivery-note.md under runs/cw-t2-generic.",
-   "currentTask": "Write CW-T2 caption, gate, and delivery note",
-   "lastHeartbeat": "2026-11-28T14:51:23.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "validation"
-  },
-  {
    "agentId": "gt186-raw-archive",
    "name": "GT-186 Raw Archive",
    "role": "builder",
@@ -2773,6 +2731,48 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "cw-t2-generic",
+   "name": "CW-T2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CW-T2 generic solver",
+   "detail": "CW-T2 generic complete (posted by cycle lead): 1568 bytes, 223 words, 71s, gate 20 checks exit 0.",
+   "currentTask": "CW-T2 generic solve complete",
+   "lastHeartbeat": "2026-11-28T14:54:29.000Z",
+   "observedAt": "2026-11-28T14:54:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "cw-t2-specialist",
+   "name": "CW-T2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "CW-T2 specialist solver",
+   "detail": "CW-T2 specialist complete (posted by cycle lead): 1476 bytes, 212 words, 63s, gate 31 checks exit 0.",
+   "currentTask": "CW-T2 specialist solve complete",
+   "lastHeartbeat": "2026-11-28T14:54:29.000Z",
+   "observedAt": "2026-11-28T14:54:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team improvement cycle 741",
+   "detail": "Cycle 741 done: CW-T2 pair verified (spec 1476B/212w/63s/gate31, gen 1568B/223w/71s/gate20, both gates exit 0). CW-T3 next cycle.",
+   "currentTask": "Cycle 741 complete: CW-T2 pair collected and verified",
+   "lastHeartbeat": "2026-11-28T14:54:29.000Z",
+   "observedAt": "2026-11-28T14:54:29.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "cw-t1-generic",
@@ -4131,48 +4131,6 @@
    "observedAt": "2026-11-27T22:58:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "m3d-r2-generic",
-   "name": "M3D-R2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-R2 generic solver",
-   "detail": "M3D-R2 generic done: gl.js, motion-note.md, gate.js, delivery-note.md shipped; node --check pass, gate exit 0.",
-   "currentTask": "Done: 4 files shipped, gate exit 0",
-   "lastHeartbeat": "2026-11-27T22:42:10.000Z",
-   "observedAt": "2026-11-27T22:42:10.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "cse-quick-check-6h",
-   "name": "cse-quick-check-6h",
-   "role": "poster",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "CSE Quick Check 06:30",
-   "detail": "Done: C1-N002 Numerical, answer D 36. Page post live; hook comment 7 verified; both group copies live (1874873903166428, 1181804859726035). Answer drop due 12:15.",
-   "currentTask": "Run complete",
-   "lastHeartbeat": "2026-11-27T22:40:00.000Z",
-   "observedAt": "2026-11-27T22:40:00.000Z",
-   "needsUser": false,
-   "category": "cse"
-  },
-  {
-   "agentId": "m3d-r1-specialist",
-   "name": "M3D-R1 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "M3D-R1 solver",
-   "detail": "Specialist M3D-R1 complete: 37,142 bytes, gate 7/7 exit 0, PASS WITH MAJOR ISSUES (S7). Posted by cycle parent.",
-   "currentTask": "M3D-R1 specialist complete",
-   "lastHeartbeat": "2026-11-27T22:36:03.000Z",
-   "observedAt": "2026-11-27T22:36:03.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
