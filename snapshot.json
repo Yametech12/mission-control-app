@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T09:40:00.000Z",
- "summary": "Cycle 719: IID retest judged 8.58/8.25, rewrite 2 filed; next routing check 720.",
+ "generatedAt": "2026-11-28T09:50:04.000Z",
+ "summary": "Routing check cycle 720 complete: 3 unanimous Watcher picks, F6 Watcher 7-1, health cycle DIA 5-3.",
  "agents": [
   {
    "agentId": null,
@@ -953,6 +953,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team routing check 720",
+   "detail": "Cycle 720 routing check started: 5 fresh Nov 28 legs (VERITY snap 31, MONTRA, BULLA, F6 17:10, health 17:36).",
+   "currentTask": "Routing check 720: 5 fresh Nov 28 legs, Coordinator and panel picks",
+   "lastHeartbeat": "2026-11-28T09:50:00.000Z",
+   "observedAt": "2026-11-28T09:50:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2761,16 +2775,30 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
+   "agentId": "team-routing-panel-720",
+   "name": "Routing Panel",
    "role": "coordinator",
-   "agentStatus": "idle",
+   "agentStatus": "offline",
    "status": "completed",
-   "title": "Team Improvement Cycle 719",
-   "detail": "Cycle 719 done: IID retest judged 8.58 vs 8.25 (2 wins, 1 loss), not a clear win; card rewrite 2 filed, retest of rewrite 2 later.",
-   "currentTask": "Cycle 719 done: IID retest judged 8.58/8.25, rewrite 2 filed",
-   "lastHeartbeat": "2026-11-28T09:40:00.000Z",
-   "observedAt": "2026-11-28T09:40:00.000Z",
+   "title": "Routing Panel cycle 720",
+   "detail": "Cycle 720 done: Watcher 8-0 x3, Watcher 7-1, Data Integrity Auditor 5-3. Picks filed in panel-picks.md and panel-votes.md.",
+   "currentTask": "Routing check cycle 720 complete: panel picks filed",
+   "lastHeartbeat": "2026-11-28T09:50:04.000Z",
+   "observedAt": "2026-11-28T09:50:04.000Z",
+   "needsUser": false,
+   "category": "ghost-name-team"
+  },
+  {
+   "agentId": "team-routing-coordinator-720",
+   "name": "Routing Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing check cycle 720",
+   "detail": "Picks sealed: Watcher for RC-T1 to RC-T4, Data Integrity Auditor for RC-T5. File written.",
+   "currentTask": "Routing picks cycle 720 complete",
+   "lastHeartbeat": "2026-11-28T09:49:49.000Z",
+   "observedAt": "2026-11-28T09:49:49.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   },
@@ -3629,34 +3657,6 @@
    "category": "ghostnameteam"
   },
   {
-   "agentId": "team-improvement-cycle-panel",
-   "name": "Division Leads Panel",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Division Leads Panel",
-   "detail": "Panel cycle 675 complete: Watcher on all five tasks",
-   "currentTask": "Cycle 675 votes filed",
-   "lastHeartbeat": "2026-11-27T21:32:29.000Z",
-   "observedAt": "2026-11-27T21:32:29.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-improvement-cycle-coordinator",
-   "name": "Routing Check Coordinator",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing Check Coordinator",
-   "detail": "Coordinator cycle 675 complete: Watcher x3, ML Engineer, Data Integrity Auditor",
-   "currentTask": "Cycle 675 picks sealed and filed",
-   "lastHeartbeat": "2026-11-27T21:32:29.000Z",
-   "observedAt": "2026-11-27T21:32:29.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-prototype-engineer-pe-s3-generic",
    "name": "PE-S3 Generic Solver",
    "role": "builder",
@@ -4157,6 +4157,20 @@
    "currentTask": "Done: KRONOS_FINETUNE_SPEC_2026-11-27.md frozen; report GT-20261127-183 filed",
    "lastHeartbeat": "2026-11-27T14:39:57.000Z",
    "observedAt": "2026-11-27T14:39:57.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "gt178-kronos-colab",
+   "name": "gt178-kronos-colab",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-178 Kronos Colab notebook",
+   "detail": "GT-178 complete: kronos_gauntlet_colab.ipynb (14 cells) matches the GT-177 frozen registration (both trials, 6 gates). Engine passed 11 unit tests; live MEXC fetch and wiring verified. Gauntlet not run.",
+   "currentTask": "Complete: notebook delivered and validated",
+   "lastHeartbeat": "2026-11-27T14:35:00.000Z",
+   "observedAt": "2026-11-27T14:35:00.000Z",
    "needsUser": false,
    "category": "trading"
   }
