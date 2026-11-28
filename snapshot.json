@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T07:41:18.000Z",
- "summary": "Routing Panel 710 started: 8 division leads voting on RC-T1 to RC-T5.",
+ "generatedAt": "2026-11-28T08:05:00.000Z",
+ "summary": "GT-199 Shadow Army framework build complete: steps 1-2 tested, steps 3-12 staged.",
  "agents": [
   {
    "agentId": null,
@@ -939,34 +939,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-mexc-shadowarmy-gt199",
-   "name": "shadow-army-builder-gt199",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-199 Shadow Army framework build",
-   "detail": "GT-199 started: integration map, repo scaffold steps 1-2 (events, bus, config, SimBeru, Igris), staged plan.",
-   "currentTask": "Writing integration map and scaffolding repo steps 1-2",
-   "lastHeartbeat": "2026-11-28T07:40:00.000Z",
-   "observedAt": "2026-11-28T07:40:00.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Ghostname Team routing check, cycle 710",
-   "detail": "Cycle 710 routing check started (114th check): 5 fresh Nov 28 legs, 15:28 watches, 15:10 F6 cycle, 15:25 health cycle.",
-   "currentTask": "Routing check cycle 710: gathering 5 fresh legs",
-   "lastHeartbeat": "2026-11-28T07:40:00.000Z",
-   "observedAt": "2026-11-28T07:40:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2691,20 +2663,6 @@
    "category": "SASE portal"
   },
   {
-   "agentId": "team-routing-panel-710",
-   "name": "Routing Panel 710",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing Panel 710: cycle 710 voting",
-   "detail": "Routing check cycle 710 started: 8 division leads voting on RC-T1 to RC-T5 from ROSTER_INDEX.md triggers.",
-   "currentTask": "Routing check cycle 710: voting on RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-28T07:41:18.000Z",
-   "observedAt": null,
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
    "agentId": "team-site-builder-retest-specialist",
    "name": "Site Builder retest specialist",
    "role": "builder",
@@ -2773,6 +2731,34 @@
    "observedAt": "2026-10-13T02:42:00.000Z",
    "needsUser": false,
    "category": "sase-exam"
+  },
+  {
+   "agentId": "team-mexc-shadowarmy-gt199",
+   "name": "shadow-army-builder-gt199",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-199 Shadow Army framework build",
+   "detail": "GT-199 complete: integration map, charter registration, repo steps 1-2 built, 52 of 52 tests passing, staged plan for steps 3-12 filed.",
+   "currentTask": "GT-199 complete",
+   "lastHeartbeat": "2026-11-28T08:05:00.000Z",
+   "observedAt": "2026-11-28T08:05:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Ghostname Team routing check, cycle 710",
+   "detail": "Cycle 710 routing check done, 114th: 5 of 5, clean sweep 27 in 114. RC-T4 fifth both-sides miss (ML Engineer). RC-T5 first failing-variant health match.",
+   "currentTask": "Cycle 710 routing check complete",
+   "lastHeartbeat": "2026-11-28T07:47:00.000Z",
+   "observedAt": "2026-11-28T07:47:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "team-routing-coordinator-710",
@@ -4143,34 +4129,6 @@
    "currentTask": "DSE-T3 judgement voided by parent (gate split was a depth artifact)",
    "lastHeartbeat": "2026-11-27T13:38:23.000Z",
    "observedAt": "2026-11-27T13:38:23.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-dse-t3-generic",
-   "name": "DSE-T3 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "DSE-T3 generic solver",
-   "detail": "DSE-T3 shipped and verified: 1,385 words, gate 42/42, READ-BACK PASS (posted by cycle lead).",
-   "currentTask": "DSE-T3 complete",
-   "lastHeartbeat": "2026-11-27T13:02:00.000Z",
-   "observedAt": "2026-11-27T13:02:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-design-systems-engineer",
-   "name": "Design Systems Engineer",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Design Systems Engineer DSE-T3 (specialist)",
-   "detail": "DSE-T3 shipped and verified: 1,671 words, gate 44/44, READ-BACK PASS (posted by cycle lead).",
-   "currentTask": "DSE-T3 complete",
-   "lastHeartbeat": "2026-11-27T13:02:00.000Z",
-   "observedAt": "2026-11-27T13:02:00.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
