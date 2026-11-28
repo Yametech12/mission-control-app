@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T05:57:00.000Z",
- "summary": "Cycle 704 done: DA-S3 pair collected and verified; all three retest 2 pairs collected.",
+ "generatedAt": "2026-11-28T06:11:04.000Z",
+ "summary": "Routing check 705 coordinator complete: sealed picks filed.",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Ghostname Team improvement cycle 705",
+   "detail": "Routing check 705 running: 5 fresh Nov 28 legs, Coordinator and panel dispatched",
+   "currentTask": "Routing check 705: Coordinator and panel picks in flight",
+   "lastHeartbeat": "2026-11-28T06:10:00.000Z",
+   "observedAt": "2026-11-28T06:10:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2719,18 +2733,32 @@
    "category": "ghostnames-team"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team improvement cycle",
+   "agentId": "routing-check-705-coordinator",
+   "name": "Routing Check 705 Coordinator",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Check 705 Coordinator",
+   "detail": "Routing check 705 sealed picks filed: Watcher x4 (RC-T1 to RC-T4), Data Integrity Auditor (RC-T5).",
+   "currentTask": "Sealed picks filed for cycle 705",
+   "lastHeartbeat": "2026-11-28T06:11:04.000Z",
+   "observedAt": "2026-11-28T06:11:04.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "routing-check-705-panel",
+   "name": "Routing check 705 panel",
    "role": "auditor",
    "agentStatus": "offline",
    "status": "completed",
-   "title": "Improvement cycle 704",
-   "detail": "Cycle 704 done: DA-S3 pair collected (spec HOLD 0/3/11, gen HOLD 0/4/7, gates exit 0, K1-K7 pass). Sealing 706, judging 707.",
-   "currentTask": "Cycle 704 done: DA-S3 pair collected and verified",
-   "lastHeartbeat": "2026-11-28T05:57:00.000Z",
-   "observedAt": "2026-11-28T05:57:00.000Z",
+   "title": "Routing check 705 panel",
+   "detail": "Panel done. Picks: RC-T1 Watcher 7-1, RC-T2 Watcher 8-0, RC-T3 Watcher 8-0, RC-T4 Watcher 5-3, RC-T5 Data Integrity Auditor 6-2.",
+   "currentTask": "Panel voting complete, files written",
+   "lastHeartbeat": "2026-11-28T06:11:00.000Z",
+   "observedAt": "2026-11-28T06:11:00.000Z",
    "needsUser": false,
-   "category": "ghostnames-team"
+   "category": "ghostnameteam"
   },
   {
    "agentId": "da-s3-specialist",
@@ -4089,20 +4117,6 @@
    "observedAt": "2026-11-27T12:29:06.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-iid-judge-t2",
-   "name": "IID-T2 judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "IID-T2 judge",
-   "detail": "IID-T2 judged by fresh-context QA judge: B wins 8.50 vs 7.25. Posted by parent; judge did not read the reporting playbook.",
-   "currentTask": "IID-T2 judged: B wins 8.50 vs 7.25",
-   "lastHeartbeat": "2026-11-27T12:11:30.000Z",
-   "observedAt": "2026-11-27T12:11:30.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
   }
  ]
 }
