@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:31:30.000Z",
- "summary": "GT-190 MEXC Pro Max improvement pass 2 started: ledger figures verified against status.json and phase1_status.txt; data integrity specialist auditing independently; artifact edit next.",
+ "generatedAt": "2026-11-28T01:47:00.000Z",
+ "summary": "GT-191 diagnosis complete with measured values; improvement spec being frozen before any training.",
  "agents": [
   {
    "agentId": null,
@@ -969,30 +969,30 @@
    "category": "SASE"
   },
   {
+   "agentId": "team-mexc-training-gt191",
+   "name": "mexc-training-gt191",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-191 own-model training improvement pass",
+   "detail": "Diagnosis measured: corr 0.048, top prediction decile still negative; freezing improvement spec",
+   "currentTask": "Freezing the GT-191 improvement spec before training",
+   "lastHeartbeat": "2026-11-28T01:47:00.000Z",
+   "observedAt": "2026-11-28T01:47:00.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-mexc-promax-gt190",
    "name": "MEXC Team Coordinator",
    "role": "coordinator",
    "agentStatus": "active",
    "status": "working",
    "title": "GT-190 MEXC Pro Max improvement pass 2",
-   "detail": "Started. Phase 1 ledger figures verified on disk (ARMED, 10000.00, 0 open, 0 of 50 closed, DD 0.00%, net +0.00, as of Nov 28 8:10 AM PHT).",
-   "currentTask": "Verifying Phase 1 ledger figures, preparing artifact edit",
-   "lastHeartbeat": "2026-11-28T01:31:30.000Z",
-   "observedAt": "2026-11-28T01:31:30.000Z",
-   "needsUser": false,
-   "category": "trading"
-  },
-  {
-   "agentId": "b132ab75-d5e0-4c72-8824-156d3548341a",
-   "name": "Data Integrity Auditor",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "GT-190 data integrity audit (posted by job lead)",
-   "detail": "Specialist independently verifying the six Phase 1 figures against ledger files; report to GT-190 reports folder.",
-   "currentTask": "Verifying Phase 1 figures against ledger files",
-   "lastHeartbeat": "2026-11-28T01:31:30.000Z",
-   "observedAt": "2026-11-28T01:31:30.000Z",
+   "detail": "Milestone: Phase 1 figures independently verified against ledger files. Artifact edit in progress (panel refresh, disconnect verification, data honesty, phone pass).",
+   "currentTask": "Waiting on artifact edit builder; figures verified",
+   "lastHeartbeat": "2026-11-28T01:32:25.000Z",
+   "observedAt": "2026-11-28T01:32:25.000Z",
    "needsUser": false,
    "category": "trading"
   },
@@ -2789,6 +2789,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "b132ab75-d5e0-4c72-8824-156d3548341a",
+   "name": "Data Integrity Auditor",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "GT-190 data integrity audit (posted by job lead)",
+   "detail": "Complete: FIGURES VERIFIED. All six figures and the as-of timestamp match status.json, phase1_status.txt, latest_phase1.json; ledger hash chain ok (6 rows); shadow positions confirmed excluded.",
+   "currentTask": "Audit complete, report filed",
+   "lastHeartbeat": "2026-11-28T01:32:25.000Z",
+   "observedAt": "2026-11-28T01:32:25.000Z",
+   "needsUser": false,
+   "category": "trading"
+  },
+  {
    "agentId": "team-improvement-cycle",
    "name": "Team Improvement Cycle",
    "role": "coordinator",
@@ -4156,20 +4170,6 @@
    "detail": "TYPO-T1 judge filed: Candidate A 8.50, Candidate B 8.25, winner A. Posted by cycle parent.",
    "currentTask": "TYPO-T1 blind judgement filed",
    "lastHeartbeat": "2026-11-27T09:40:14.000Z",
-   "observedAt": "2026-11-27T09:43:36.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "typo-t2-judge-cycle-624",
-   "name": "TYPO-T2 QA Judge",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "TYPO-T2 blind judgement",
-   "detail": "TYPO-T2 judge filed: Candidate A 8.50, Candidate B 8.00, winner A. Posted by cycle parent.",
-   "currentTask": "TYPO-T2 blind judgement filed",
-   "lastHeartbeat": "2026-11-27T09:39:35.000Z",
    "observedAt": "2026-11-27T09:43:36.000Z",
    "needsUser": false,
    "category": "ghostname-team"
