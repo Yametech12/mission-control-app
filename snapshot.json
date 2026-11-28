@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T12:45:34.000Z",
- "summary": "Cycle 733: Moment Hunter retest, MH-R1 solvers running",
+ "generatedAt": "2026-11-28T12:56:15.000Z",
+ "summary": "Generic solver MH-R1 complete: 10 candidates, gate passed, READ-BACK PASS.",
  "agents": [
   {
    "agentId": null,
@@ -925,6 +925,34 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-mexc-fleet2-gt219",
+   "name": "fleet2-coordinator",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "GT-219 Plan B Fleet 2 registration and launch",
+   "detail": "GT-219 Fleet 2: pre-registration and launch started; Fleet 2 earns no Dec 11 credit",
+   "currentTask": "Reading job, Fleet 1 registration, GT-217 report, fleet infrastructure",
+   "lastHeartbeat": "2026-11-28T12:58:00.000Z",
+   "observedAt": "2026-11-28T12:58:00.000Z",
+   "needsUser": false,
+   "category": "mexc-trading"
+  },
+  {
+   "agentId": "team-moment-hunter",
+   "name": "Moment Hunter (MH-R1 specialist)",
+   "role": "builder",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Moment Hunter retest MH-R1",
+   "detail": "MH-R1 specialist started: mining Tomo GTA 6 Trailer Reaction (vJdkqtP6qvY) for 10 ranked candidates.",
+   "currentTask": "Mining Tomo GTA 6 Trailer Reaction moments, building clips.json set",
+   "lastHeartbeat": "2026-11-28T12:55:30.000Z",
+   "observedAt": "2026-11-28T12:55:30.000Z",
+   "needsUser": false,
+   "category": "clipping"
   },
   {
    "agentId": "team-improvement-cycle",
