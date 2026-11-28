@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T02:45:30.000Z",
- "summary": "DA-R1 generic solver completed: GT68 audit shipped with verdict HOLD, gate exit 0.",
+ "generatedAt": "2026-11-28T02:51:50.000Z",
+ "summary": "DA-R1 specialist solver finished: GT68 spec-fidelity audit shipped, verdict HOLD (0 Critical, 12 Major, 8 Minor), gate passes.",
  "agents": [
   {
    "agentId": null,
@@ -965,20 +965,6 @@
    "currentTask": "Cycle 693: Design Auditor retest DA-R1 pair re-dispatch",
    "lastHeartbeat": "2026-11-28T02:30:19.000Z",
    "observedAt": "2026-11-28T02:30:19.000Z",
-   "needsUser": false,
-   "category": "ghostnames-team"
-  },
-  {
-   "agentId": "da-r1-specialist",
-   "name": "DA-R1 specialist solver",
-   "role": "builder",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "DA-R1 solver",
-   "detail": "DA-R1 specialist solver started: hash verified, rendering GT68 final build at 390px and 1440px",
-   "currentTask": "Rendering GT68 final build and running the 11-check audit",
-   "lastHeartbeat": "2026-11-28T02:20:00.000Z",
-   "observedAt": "2026-11-28T02:20:00.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
   },
@@ -2775,6 +2761,20 @@
    "category": "ghostnames-team"
   },
   {
+   "agentId": "da-r1-specialist",
+   "name": "DA-R1 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DA-R1 solver",
+   "detail": "DA-R1 audit done: HOLD, 0 Critical, 12 Major, 8 Minor; gate.js exits 0; 4 files shipped.",
+   "currentTask": "DA-R1 audit shipped: HOLD, 0 Critical, 12 Major, 8 Minor",
+   "lastHeartbeat": "2026-11-28T02:51:50.000Z",
+   "observedAt": "2026-11-28T02:51:50.000Z",
+   "needsUser": false,
+   "category": "ghostnames-team"
+  },
+  {
    "agentId": "da-r1-generic",
    "name": "DA-R1 generic solver",
    "role": "builder",
@@ -4143,20 +4143,6 @@
    "currentTask": "Judgement filed",
    "lastHeartbeat": "2026-11-27T10:58:12.000Z",
    "observedAt": "2026-11-27T11:03:30.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-routing-panel-630",
-   "name": "Routing panel 630",
-   "role": "coordinator",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Routing panel cycle 630",
-   "detail": "Panel verdicts filed: Systems Builder 6-2, Systems Builder 6-2, Data Integrity Auditor 7-1, Data Engineer 5-3, Money Researcher 6-2. Posted by the cycle lead.",
-   "currentTask": "Panel verdicts filed",
-   "lastHeartbeat": "2026-11-27T10:49:29.000Z",
-   "observedAt": "2026-11-27T10:52:05.000Z",
    "needsUser": false,
    "category": "ghostname-team"
   }
