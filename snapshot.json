@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T13:31:23.000Z",
- "summary": "Routing Panel cycle 735 started: 8 division leads picking one specialist per task RC-T1 to RC-T5 from ROSTER_INDEX.md triggers only.",
+ "generatedAt": "2026-11-28T13:35:00.000Z",
+ "summary": "Cycle 735 routing check done: 4 of 5 vs the division leads. Miss RC-T4 only (Coordinator ML Engineer, panel Watcher), panel-only miss per fourteen precedents. No rule fixes.",
  "agents": [
   {
    "agentId": null,
@@ -953,34 +953,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "routing-panel-735",
-   "name": "Routing Panel",
-   "role": "auditor",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Routing Panel cycle 735",
-   "detail": "Panel started. Naming one specialist per task RC-T1 to RC-T5 from roster triggers only, with per-lead votes.",
-   "currentTask": "Picking one specialist per task RC-T1 to RC-T5",
-   "lastHeartbeat": "2026-11-28T13:31:23.000Z",
-   "observedAt": "2026-11-28T13:31:23.000Z",
-   "needsUser": false,
-   "category": "Ghostname Team"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement Cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 735: routing check",
-   "detail": "Routing check 735 running: Coordinator picks sealed, division-leads panel scoring 5 fresh Nov 28 legs.",
-   "currentTask": "Routing check 735: sealing Coordinator picks",
-   "lastHeartbeat": "2026-11-28T13:24:00.000Z",
-   "observedAt": "2026-11-28T13:24:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2761,6 +2733,34 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement Cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 735: routing check",
+   "detail": "Routing check 735 complete: 4 of 5. Matches Watcher x3 and Data Integrity Auditor; miss F6 cycle (Coordinator ML Engineer, panel Watcher). No rule fixes.",
+   "currentTask": "Cycle 735 done: routing check 4 of 5",
+   "lastHeartbeat": "2026-11-28T13:35:00.000Z",
+   "observedAt": "2026-11-28T13:35:00.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "routing-panel-735",
+   "name": "Routing Panel",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Routing Panel cycle 735",
+   "detail": "Complete. Picks: RC-T1 Watcher 7-1, RC-T2 Watcher 8-0, RC-T3 Watcher 7-1, RC-T4 Watcher 6-2, RC-T5 Data Integrity Auditor 6-2. Files written.",
+   "currentTask": "Panel picks filed for RC-T1 to RC-T5",
+   "lastHeartbeat": "2026-11-28T13:32:42.000Z",
+   "observedAt": "2026-11-28T13:32:42.000Z",
+   "needsUser": false,
+   "category": "Ghostname Team"
+  },
+  {
    "agentId": "team-mexc-fleet2-gt219",
    "name": "fleet2-coordinator",
    "role": "coordinator",
@@ -4131,34 +4131,6 @@
    "observedAt": "2026-11-27T22:36:03.000Z",
    "needsUser": false,
    "category": "ghostnames-team"
-  },
-  {
-   "agentId": "judge-pe-s3",
-   "name": "QA Judge PE-S3",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "QA Judge PE-S3 blind judgement",
-   "detail": "PE-S3 judged: B wins, task scores A 7.25, B 9.00. Contamination CLEAN. Both gates passed.",
-   "currentTask": "PE-S3 judgement filed: B wins 9.00 to 7.25",
-   "lastHeartbeat": "2026-11-27T21:39:22.000Z",
-   "observedAt": "2026-11-27T21:39:22.000Z",
-   "needsUser": false,
-   "category": "ghostnameteam"
-  },
-  {
-   "agentId": "team-prototype-engineer-pe-s3-generic",
-   "name": "PE-S3 Generic Solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "PE-S3 generic solver",
-   "detail": "Generic PE-S3 complete: 15,668 bytes, 424 words, gate 7/7 exit 0. Posted by cycle parent.",
-   "currentTask": "PE-S3 generic complete",
-   "lastHeartbeat": "2026-11-27T21:06:53.000Z",
-   "observedAt": "2026-11-27T21:06:53.000Z",
-   "needsUser": false,
-   "category": "validation"
   }
  ]
 }
