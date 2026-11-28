@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T11:35:34.000Z",
- "summary": "Ghostname Team improvement cycle 728 in progress.",
+ "generatedAt": "2026-11-28T11:41:10.000Z",
+ "summary": "Ghostname Team improvement cycle 728 complete: IID-S2 pair collected and verified.",
  "agents": [
   {
    "agentId": null,
@@ -925,20 +925,6 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
-  },
-  {
-   "agentId": "team-improvement-cycle",
-   "name": "Improvement cycle",
-   "role": "coordinator",
-   "agentStatus": "active",
-   "status": "working",
-   "title": "Improvement cycle 728: IID-S2 solvers",
-   "detail": "Cycle 728 running IID-S2 solver pair (Illustration and Icon Designer retest 2, Ghostname Pod landing icon set).",
-   "currentTask": "Running IID-S2 specialist and generic solvers",
-   "lastHeartbeat": "2026-11-28T11:35:34.000Z",
-   "observedAt": "2026-11-28T11:35:34.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
   },
   {
    "agentId": "gt160-shadow-upgrade",
@@ -2719,6 +2705,48 @@
    "category": "sase-exam"
   },
   {
+   "agentId": "team-iid-s2-generic",
+   "name": "IID-S2 generic solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-S2 generic solver",
+   "detail": "IID-S2 generic complete: icon-set 8,459 B / 1,533 words, gate 13/13 exit 0, READ-BACK: PASS, 80s.",
+   "currentTask": "IID-S2 generic done",
+   "lastHeartbeat": "2026-11-28T11:38:18.000Z",
+   "observedAt": "2026-11-28T11:41:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-iid-s2-specialist",
+   "name": "IID-S2 specialist solver",
+   "role": "builder",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "IID-S2 specialist solver",
+   "detail": "IID-S2 specialist complete: icon-set 14,689 B / 2,579 words, gate 13/13 exit 0, READ-BACK: PASS, 139s.",
+   "currentTask": "IID-S2 specialist done",
+   "lastHeartbeat": "2026-11-28T11:39:31.000Z",
+   "observedAt": "2026-11-28T11:41:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "Improvement cycle 728: IID-S2 collected",
+   "detail": "IID-S2 pair verified: specialist 14,689 B / 2,579 words, 139s; generic 8,459 B / 1,533 words, 80s; gates 13/13 both; K1-K7 pass; IID-S3 next cycle 729.",
+   "currentTask": "Cycle 728 complete; IID-S3 solvers cycle 729",
+   "lastHeartbeat": "2026-11-28T11:41:10.000Z",
+   "observedAt": "2026-11-28T11:41:10.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
    "agentId": "team-improvement-cycle-iid-s1-generic",
    "name": "IID-S1 generic solver",
    "role": "builder",
@@ -4075,48 +4103,6 @@
    "observedAt": "2026-11-27T16:30:29.000Z",
    "needsUser": false,
    "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mh-t2-generic",
-   "name": "MH-T2 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MH-T2 generic solver",
-   "detail": "MH-T2 generic done: 18,232 bytes, 109s, gate 112 PASS exit 0, READ-BACK: PASS. Posted by the cycle lead.",
-   "currentTask": "MH-T2 generic pair filed",
-   "lastHeartbeat": "2026-11-27T16:07:00.000Z",
-   "observedAt": "2026-11-27T16:07:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-mh-t2-specialist",
-   "name": "MH-T2 specialist solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MH-T2 specialist solver",
-   "detail": "MH-T2 specialist done: 20,995 bytes, 181s, gate 113 assertions exit 0, READ-BACK: PASS. Posted by the cycle lead.",
-   "currentTask": "MH-T2 specialist pair filed",
-   "lastHeartbeat": "2026-11-27T16:07:00.000Z",
-   "observedAt": "2026-11-27T16:07:00.000Z",
-   "needsUser": false,
-   "category": "ghostname-team"
-  },
-  {
-   "agentId": "team-moment-hunter",
-   "name": "Moment Hunter MH-T1 generic solver",
-   "role": "builder",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "MH-T1 generic solver",
-   "detail": "MH-T1 generic pair done (posted by cycle lead): clips.json 5,942 bytes, gate exit 0, 132s.",
-   "currentTask": "MH-T1 generic pair done",
-   "lastHeartbeat": "2026-11-27T15:51:02.000Z",
-   "observedAt": "2026-11-27T15:53:55.000Z",
-   "needsUser": false,
-   "category": "ghostnam-team"
   }
  ]
 }
