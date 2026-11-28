@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T08:08:00.000Z",
- "summary": "Cycle 712 sealed the Typography Specialist retest pairs; judging lands cycle 713.",
+ "generatedAt": "2026-11-28T08:15:34.000Z",
+ "summary": "Cycle 713 started: judging Typography Specialist retest.",
  "agents": [
   {
    "agentId": null,
@@ -939,6 +939,20 @@
    "observedAt": null,
    "needsUser": true,
    "category": "SASE"
+  },
+  {
+   "agentId": "team-improvement-cycle",
+   "name": "Team improvement cycle",
+   "role": "coordinator",
+   "agentStatus": "active",
+   "status": "working",
+   "title": "Cycle 713 judging TYPO retest",
+   "detail": "Cycle 713 judging the Typography Specialist retest (TYPO-R1 to TYPO-R3), three fresh-context QA judges.",
+   "currentTask": "Judging Typography Specialist retest TYPO-R1 to TYPO-R3",
+   "lastHeartbeat": "2026-11-28T08:15:34.000Z",
+   "observedAt": "2026-11-28T08:15:34.000Z",
+   "needsUser": false,
+   "category": "ghostnameteam"
   },
   {
    "agentId": "team-mexc-archive-gt198",
@@ -2733,20 +2747,6 @@
    "category": "sase-exam"
   },
   {
-   "agentId": "team-improvement-cycle",
-   "name": "Team Improvement Cycle",
-   "role": "auditor",
-   "agentStatus": "offline",
-   "status": "completed",
-   "title": "Improvement cycle 712: Typography Specialist retest sealing",
-   "detail": "Cycle 712 done: TYPO retest sealed SEAL_OK (8 lines, 18 files, 0 identity hits; 6 neutral gates 7/7). Judging cycle 713.",
-   "currentTask": "Cycle 712 sealed; judging cycle 713",
-   "lastHeartbeat": "2026-11-28T08:08:00.000Z",
-   "observedAt": "2026-11-28T08:08:00.000Z",
-   "needsUser": false,
-   "category": "ghostnome-team"
-  },
-  {
    "agentId": "team-mexc-shadowarmy-gt199",
    "name": "shadow-army-builder-gt199",
    "role": "coordinator",
@@ -4127,6 +4127,20 @@
    "title": "DSE-T1 judgement filed",
    "detail": "DSE-T1 judgement filed by its judge (carried by cycle parent): A 8.75 vs B 8.00, contamination clean.",
    "currentTask": "DSE-T1 judgement filed: A 8.75 vs B 8.00",
+   "lastHeartbeat": "2026-11-27T13:38:23.000Z",
+   "observedAt": "2026-11-27T13:38:23.000Z",
+   "needsUser": false,
+   "category": "ghostname-team"
+  },
+  {
+   "agentId": "team-improvement-cycle-dse-t2-judge",
+   "name": "DSE-T2 Judge",
+   "role": "auditor",
+   "agentStatus": "offline",
+   "status": "completed",
+   "title": "DSE-T2 judgement filed",
+   "detail": "DSE-T2 judgement filed by its judge (carried by cycle parent): A 8.5 vs B 7.5, contamination clean.",
+   "currentTask": "DSE-T2 judgement filed: A 8.5 vs B 7.5",
    "lastHeartbeat": "2026-11-27T13:38:23.000Z",
    "observedAt": "2026-11-27T13:38:23.000Z",
    "needsUser": false,
